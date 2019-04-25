@@ -121,7 +121,7 @@ defined with the following:
 - `id` - typically matches the filename of the procedures without the extension
 - `file` - path to the markdown module (without the `.tmpl` extension)
 - `name` - procedure name, which typically matches the title in the procedure doc
-- `type` - specifies one of the following procedure type:
+- `type` - specifies one of the following procedure types:
   - `administrative`
   - `technical`
   - `operational`

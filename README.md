@@ -49,7 +49,7 @@ updates.
 - Each procedure is considered a "micro-document" that describes how a specific
   control is implemented to address the requirements in the policy that it
   implements.
-- Each procedure document is written in the following structure
+- Each procedure document is written in the following structure:
 
 ```markdown
 ### Control/Procedure Title

@@ -136,7 +136,7 @@ defined with the following:
 
 `config.json { references }`
 
-Similar to procedures, the `references` section is a repository of the additional
+Similar to procedures, the `references` section is a repository of additional
 documentation. Each entry is defined with the following:
 
 - `id` - typically matches the filename of the procedures without the extension

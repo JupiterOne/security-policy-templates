@@ -39,7 +39,7 @@ of the policy.
 This section contains the high level requirements specific to the policy. Policy
 statements are aligned to the organization's operating model and applicable
 compliance requirements. These statements describe the "what" but not the "how".
-They are meant to be stable over longer period of time without needing frequent
+They are meant to be stable over longer periods of time without needing frequent
 updates.
 ```
 

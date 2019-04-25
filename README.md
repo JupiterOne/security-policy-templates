@@ -110,7 +110,7 @@ defined with the following:
   implement/enforce this policy.
 
 Similar to the concept of "micro-services", the policies and procedures are
-written in "micro-docs" that are decoupled from the policies. The are mapped
+written in "micro-docs" that are decoupled from the policies. They are mapped
 to each other via the above configuration.
 
 `config.json { procedures }`

@@ -157,8 +157,8 @@ one or more security/compliance frameworks, as applicable.
 Note that the controls mapping is only between a control/procedure document to
 the requirement, not at the policy level. This is because we strongly believe
 that you must have documented controls and procedures to implement and enforce a
-high level written policy to be meaningful. Having a written policy by itself
-without implementation or enforcement does not address the risk of any security
+high level written policy. Having a written policy by itself without 
+implementation or enforcement does not address the risk of any security
 or compliance requirement.
 
 Internally at JupiterOne, we leverage CIS Controls and PCI DSS. JupiterOne's

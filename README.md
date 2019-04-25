@@ -152,7 +152,7 @@ documentation. Each entry is defined with the following:
 `standards/controls-mapping.json`
 
 The `controls-mapping.json` document configures a mapping of each procedure to
-one or more security / compliance framework, as applicable.
+one or more security/compliance frameworks, as applicable.
 
 Note that the controls mapping is only between a control/procedure document to
 the requirement, not at the policy level. This is because we strongly believe

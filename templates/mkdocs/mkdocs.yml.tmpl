@@ -1,0 +1,26 @@
+site_name: '{{ companyShortName }} Security PSP'
+site_description: '{{ companyShortName }} Security Policies, Standards, and Procedures'
+site_url: '{{& securityPolicyURL }}'
+
+theme:
+  name: material
+  theme_dir: 'custom_theme'
+  include_sidebar: false
+  palette:
+    primary: '{{ mkdocsThemeColorPrimary }}'
+    accent: '{{ mkdocsThemeColorAccent }}'
+  favicon: 'assets/images/favicon.ico'
+  logo: '{{& mkdocsLogoFile }}'
+
+# Enable custom.css
+extra_css:
+  - 'assets/css/custom.css'
+
+markdown_extensions:
+  - smarty
+  - toc:
+      permalink: true
+  - sane_lists
+  - admonition
+  - codehilite:
+      guess_lang: false

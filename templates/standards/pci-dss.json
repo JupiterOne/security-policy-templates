@@ -1,0 +1,349 @@
+{
+  "standard": "PCI DSS",
+  "version": "3.2.1",
+  "webLink": "https://www.pcisecuritystandards.org/documents/PCI_DSS_v3-2-1.pdf",
+  "sections": [
+    {
+      "title": "Build and Maintain a Secure Network and Systems",
+      "requirements": [
+        {
+          "ref": "1.1",
+          "summary": "Establish and implement firewall and router configuration standards."
+        },
+        {
+          "ref": "1.2",
+          "summary": "Build firewall and router configurations that restrict connections between untrusted networks and any system components in the cardholder data environment."
+        },
+        {
+          "ref": "1.3",
+          "summary": "Prohibit direct public access between the Internet and any system component in the cardholder data environment."
+        },
+        {
+          "ref": "1.4",
+          "summary": "Install personal firewall software or equivalent functionality on any portable computing devices (including company and/or employee-owned) that connect to the Internet when outside the network (for example, laptops used by employees), and which are also used to access the CDE."
+        },
+        {
+          "ref": "1.5",
+          "summary": "Ensure that security policies and operational procedures for managing firewalls are documented, in use, and known to all affected parties."
+        },
+        {
+          "ref": "2.1",
+          "summary": "Always change vendor-supplied defaults and remove or disable unnecessary default accounts before installing a system on the network."
+        },
+        {
+          "ref": "2.2",
+          "summary": "Develop configuration standards for all system components. Assure that these standards address all known security vulnerabilities and are consistent with industry-accepted system hardening standards. Example sources of accepted system standards include CIS, ISO, NIST, and SANS."
+        },
+        {
+          "ref": "2.3",
+          "summary": "Encrypt all non-console administrative access using strong cryptography. (Do not use Telnet and HTTP for admin access)"
+        },
+        {
+          "ref": "2.4",
+          "summary": "Maintain an inventory of system components that are in scope for PCI DSS."
+        },
+        {
+          "ref": "2.5",
+          "summary": "Ensure that security policies and operational procedures for managing vendor defaults and other security parameters are documented, in use, and known to all affected parties."
+        },
+        {
+          "ref": "2.6",
+          "summary": "Shared hosting providers must protect each entity’s hosted environment and cardholder data."
+        }
+      ]
+    },
+    {
+      "title": "Protect Cardholder Data",
+      "requirements": [
+        {
+          "ref": "3.1",
+          "summary": "Keep cardholder data storage to a minimum by implementing data retention and disposal policies, procedures and processes."
+        },
+        {
+          "ref": "3.2",
+          "summary": "Do not store sensitive authentication data -- full track, CVC/CVV, or PIN -- after authorization (even if encrypted). If sensitive authentication data is received, render all data unrecoverable upon completion of the authorization process."
+        },
+        {
+          "ref": "3.3",
+          "summary": "Mask PAN when displayed such that only personnel with a legitimate business need can see more than the first six/last four digits of the PAN."
+        },
+        {
+          "ref": "3.4",
+          "summary": "Render PAN unreadable anywhere it is stored (including on portable digital media, backup media, and in logs)."
+        },
+        {
+          "ref": "3.5",
+          "summary": "Document and implement procedures to protect keys used to secure stored cardholder data against disclosure and misuse."
+        },
+        {
+          "ref": "3.6",
+          "summary": "Fully document and implement all key-management processes and procedures for cryptographic keys used for encryption of cardholder data."
+        },
+        {
+          "ref": "3.7",
+          "summary": "Ensure that security policies and operational procedures for protecting stored cardholder data are documented, in use, and known to all affected parties."
+        },
+        {
+          "ref": "4.1",
+          "summary": "Use strong cryptography and security protocols to safeguard sensitive cardholder data during transmission over open, public networks."
+        },
+        {
+          "ref": "4.2",
+          "summary": "Never send unprotected PANs by end-user messaging technologies (for example, email, instant messaging, SMS, chat, etc.)."
+        },
+        {
+          "ref": "4.3",
+          "summary": "Ensure that security policies and operational procedures for encrypting transmissions of cardholder data are documented, in use, and known to all affected parties."
+        }
+      ]
+    },
+    {
+      "title": "Maintain a Vulnerability Management Program",
+      "requirements": [
+        {
+          "ref": "5.1",
+          "summary": "Deploy anti-virus software on all systems commonly affected by malicious software (particularly personal computers and servers)."
+        },
+        {
+          "ref": "5.2",
+          "summary": "Ensure that all anti-virus mechanisms are kept current, perform periodic scans and generate audit logs."
+        },
+        {
+          "ref": "5.3",
+          "summary": "Ensure that anti-virus mechanisms are actively running and cannot be disabled or altered by users, unless specifically authorized by management on a case-by-case basis for a limited time period."
+        },
+        {
+          "ref": "5.4",
+          "summary": "Ensure that security policies and operational procedures for protecting systems against malware are documented, in use, and known to all affected parties."
+        },
+        {
+          "ref": "6.1",
+          "summary": "Establish a process to identify security vulnerabilities, using reputable outside sources for security vulnerability information, and assign a risk ranking to newly discovered security vulnerabilities."
+        },
+        {
+          "ref": "6.2",
+          "summary": "Ensure that all system components and software are protected from known vulnerabilities by installing applicable vendorsupplied security patches."
+        },
+        {
+          "ref": "6.3",
+          "summary": "Develop internal and external software applications (including web-based administrative access to applications) securely."
+        },
+        {
+          "ref": "6.4",
+          "summary": "Follow change control processes and procedures for all changes to system components."
+        },
+        {
+          "ref": "6.5",
+          "summary": "Address common coding vulnerabilities in software-development processes."
+        },
+        {
+          "ref": "6.6",
+          "summary": "For public-facing web applications, address new threats and vulnerabilities on an ongoing basis and ensure these applications are protected against known attacks via application scanning tools and/or web application firewall."
+        },
+        {
+          "ref": "6.7",
+          "summary": "Ensure that security policies and operational procedures for developing and maintaining secure systems and applications are documented, in use, and known to all affected parties."
+        }
+      ]
+    },
+    {
+      "title": "Implement Strong Access Control Measures",
+      "requirements": [
+        {
+          "ref": "7.1",
+          "summary": "Limit access to system components and cardholder data to only those individuals whose job requires such access."
+        },
+        {
+          "ref": "7.2",
+          "summary": "Establish an access control system(s) for systems components that restricts access based on a user’s need to know, and is set to “deny all” unless specifically allowed."
+        },
+        {
+          "ref": "7.3",
+          "summary": "Ensure that security policies and operational procedures for restricting access to cardholder data are documented, in use, and known to all affected parties."
+        },
+        {
+          "ref": "8.1",
+          "summary": "Define and implement policies and procedures to ensure proper user identification management for non-consumer users and administrators on all system components."
+        },
+        {
+          "ref": "8.2",
+          "summary": "In addition to assigning a unique ID, ensure proper user-authentication management for non-consumer users and administrators on all system components."
+        },
+        {
+          "ref": "8.3",
+          "summary": "Secure all individual non-console administrative access and all remote access to the CDE using multi-factor authentication."
+        },
+        {
+          "ref": "8.4",
+          "summary": "Document and communicate authentication policies and procedures to all users."
+        },
+        {
+          "ref": "8.5",
+          "summary": "Do not use group, shared, or generic IDs, passwords, or other authentication methods."
+        },
+        {
+          "ref": "8.6",
+          "summary": "Where other authentication mechanisms are used (e.g. physical or logical security tokens, smart cards, certificates, etc.), authentication mechanisms must be assigned to an individual account and controls must be in place to ensure only the intended account gain access."
+        },
+        {
+          "ref": "8.7",
+          "summary": "All access to any database containing cardholder data (including access by applications, administrators, and all other users) is restricted."
+        },
+        {
+          "ref": "8.8",
+          "summary": "Ensure that security policies and operational procedures for identification and authentication are documented, in use, and known to all affected parties."
+        },
+        {
+          "ref": "9.1",
+          "summary": "Use appropriate facility entry controls to limit and monitor physical access to systems in the cardholder data environment."
+        },
+        {
+          "ref": "9.2",
+          "summary": "Develop procedures to easily distinguish between onsite personnel and visitors."
+        },
+        {
+          "ref": "9.3",
+          "summary": "Control physical access for onsite personnel to sensitive areas."
+        },
+        {
+          "ref": "9.4",
+          "summary": "Implement procedures to identify and authorize visitors."
+        },
+        {
+          "ref": "9.5",
+          "summary": "Physically secure all media."
+        },
+        {
+          "ref": "9.6",
+          "summary": "Maintain strict control over the internal or external distribution of any kind of media."
+        },
+        {
+          "ref": "9.7",
+          "summary": "Maintain strict control over the storage and accessibility of media."
+        },
+        {
+          "ref": "9.8",
+          "summary": "Destroy media when it is no longer needed for business or legal reasons."
+        },
+        {
+          "ref": "9.9",
+          "summary": "Protect devices that capture payment card data via direct physical interaction with the card from tampering and substitution."
+        }
+      ]
+    },
+    {
+      "title": "Regularly Monitor and Test Networks",
+      "requirements": [
+        {
+          "ref": "10.1",
+          "summary": "Implement audit trails to link all access to system components to each individual user."
+        },
+        {
+          "ref": "10.2",
+          "summary": "Implement automated audit trails for all system components to reconstruct the in-scope events."
+        },
+        {
+          "ref": "10.3",
+          "summary": "Record at least the following audit trail entries for all system components for each event: User identification; Type of event; Date and time; Success or failure indication; Origination of event; Identity or name of affected data, system component, or resource."
+        },
+        {
+          "ref": "10.4",
+          "summary": "Using time-synchronization technology, synchronize all critical system clocks and times and ensure that the following is implemented for acquiring, distributing, and storing time."
+        },
+        {
+          "ref": "10.5",
+          "summary": "Secure audit trails so they cannot be altered."
+        },
+        {
+          "ref": "10.6",
+          "summary": "Review logs and security events for all system components to identify anomalies or suspicious activity."
+        },
+        {
+          "ref": "10.7",
+          "summary": "Retain audit trail history for at least one year, with a minimum of three months immediately available for analysis (for example, online, archived, or restorable from backup)."
+        },
+        {
+          "ref": "10.8",
+          "summary": "(Service Providers ONLY) Implement a process for the timely detection and reporting of failures of critical security control systems."
+        },
+        {
+          "ref": "10.9",
+          "summary": "Ensure that security policies and operational procedures for monitoring all access to network resources and cardholder data are documented, in use, and known to all affected parties."
+        },
+        {
+          "ref": "11.1",
+          "summary": "Implement processes to test for the presence of wireless access points (802.11), and detect and identify all authorized and unauthorized wireless access points on a quarterly basis."
+        },
+        {
+          "ref": "11.2",
+          "summary": "Run internal and external network vulnerability scans at least quarterly and after any significant change in the network."
+        },
+        {
+          "ref": "11.3",
+          "summary": "Implement a methodology for penetration testing."
+        },
+        {
+          "ref": "11.4",
+          "summary": "Use intrusion-detection and/or intrusion-prevention techniques to detect and/or prevent intrusions into the network."
+        },
+        {
+          "ref": "11.5",
+          "summary": "Deploy a change-detection mechanism (e.g. file-integrity monitoring tools) to alert personnel to unauthorized modification of critical system files, configuration files, or content files."
+        },
+        {
+          "ref": "11.6",
+          "summary": "Ensure that security policies and operational procedures for security monitoring and testing are documented, in use, and known to all affected parties."
+        }
+      ]
+    },
+    {
+      "title": "Maintain an Information Security Policy",
+      "requirements": [
+        {
+          "ref": "12.1",
+          "summary": "Establish, publish, maintain, and disseminate a security policy."
+        },
+        {
+          "ref": "12.2",
+          "summary": "Implement a risk-assessment process."
+        },
+        {
+          "ref": "12.3",
+          "summary": "Develop usage policies for critical technologies and define proper use of these technologies."
+        },
+        {
+          "ref": "12.4",
+          "summary": "Ensure that the security policy and procedures clearly define information security responsibilities for all personnel."
+        },
+        {
+          "ref": "12.5",
+          "summary": "Assign to an individual or team information security management responsibilities."
+        },
+        {
+          "ref": "12.6",
+          "summary": "Implement a formal security awareness program to make all personnel aware of the cardholder data security policy and procedures."
+        },
+        {
+          "ref": "12.7",
+          "summary": "Screen potential personnel prior to hire to minimize the risk of attacks from internal sources."
+        },
+        {
+          "ref": "12.8",
+          "summary": "Maintain and implement policies and procedures to manage service providers with whom cardholder data is shared, or that could affect the security of cardholder data."
+        },
+        {
+          "ref": "12.9",
+          "summary": "(Service Providers ONLY) Acknowledge in writing to customers that they are responsible for the security of cardholder data the service provider possesses or otherwise stores, processes, or transmits on behalf of the customer, or to the extent that they could impact the security of the customer’s cardholder data environment."
+        },
+        {
+          "ref": "12.10",
+          "summary": "0 Implement an incident response plan. Be prepared to respond immediately to a system breach."
+        },
+        {
+          "ref": "12.11",
+          "summary": "(Service Providers ONLY) Perform reviews at least quarterly to confirm personnel are following security policies and operational procedures."
+        }
+      ]
+    }
+  ]
+}

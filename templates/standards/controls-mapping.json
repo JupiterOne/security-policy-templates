@@ -1,0 +1,1735 @@
+{
+  "procedures": [
+    {
+      "id": "cp-ism-scope",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["00.a"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ism-policies",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["00.a"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ism-reporting",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["00.a", "05.h"]
+        }
+      ]
+    },
+    {
+      "id": "cp-model-principles",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["00.a"]
+        }
+      ]
+    },
+    {
+      "id": "cp-model-architecture",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["00.a", "01.m"]
+        }
+      ]
+    },
+    {
+      "id": "cp-model-metrics",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(8)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["00.a", "05.h"]
+        }
+      ]
+    },
+    {
+      "id": "cp-role-assignment",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(2)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["02.a", "02.d", "02.e", "05.a", "05.b", "05.c", "06.g"]
+        }
+      ]
+    },
+    {
+      "id": "cp-training-policy",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.316(b)(1)(ii)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["02.e", "06.g"]
+        }
+      ]
+    },
+    {
+      "id": "cp-training-awareness",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(5)(i)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["02.e"]
+        }
+      ]
+    },
+    {
+      "id": "cp-training-hipaa",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(5)(i)",
+            "164.308(a)(5)(ii)(A)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["02.e"]
+        }
+      ]
+    },
+    {
+      "id": "cp-policy-mgmt",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(1)(i)",
+            "164.308(a)(8)",
+            "164.316(a)",
+            "164.316(b)(1)",
+            "164.316(b)(1)(i)",
+            "164.316(b)(1)(ii)",
+            "164.316(b)(1)(iii)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["05.h"]
+        }
+      ]
+    },
+    {
+      "id": "cp-risk-mgmt",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(1)(ii)(B)",
+            "164.308(a)(8)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["03.a", "03.b", "03.c", "03.d"]
+        }
+      ]
+    },
+    {
+      "id": "cp-risk-assess",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(1)(ii)(A)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["03.b"]
+        }
+      ]
+    },
+    {
+      "id": "cp-risk-mitigation",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(1)(ii)(A)",
+            "164.308(a)(8)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["03.c", "03.d"]
+        }
+      ]
+    },
+    {
+      "id": "cp-risk-registry",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(1)(ii)(A)",
+            "164.308(a)(8)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["03.c", "03.d"]
+        }
+      ]
+    },
+    {
+      "id": "cp-compliance-mgmt",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["06.a", "06.b"]
+        }
+      ]
+    },
+    {
+      "id": "cp-compliance-requests",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["05.f", "05.g"]
+        }
+      ]
+    },
+    {
+      "id": "cp-audit-types",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(5)(ii)(C)",
+            "164.312(b)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["06.c", "06.e", "06.g", "06.h", "06.i"]
+        }
+      ]
+    },
+    {
+      "id": "cp-events-analysis",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(1)(ii)(D)",
+            "164.308(a)(5)(ii)(C)",
+            "164.312(b)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["06.c", "06.e", "06.h", "06.i"]
+        }
+      ]
+    },
+    {
+      "id": "cp-audit-internal",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["06.c", "06.e", "06.h", "06.i"]
+        }
+      ]
+    },
+    {
+      "id": "cp-audit-request",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["06.c", "06.e", "06.h", "06.i"]
+        }
+      ]
+    },
+    {
+      "id": "cp-audit-review",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(1)(ii)(D)",
+            "164.308(a)(5)(ii)(C)",
+            "164.312(b)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["06.c", "06.e", "06.h", "06.i", "09.ad"]
+        }
+      ]
+    },
+    {
+      "id": "cp-audit-trails",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(1)(ii)(D)",
+            "164.308(a)(5)(ii)(C)",
+            "164.312(b)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["06.c", "06.e", "06.h", "06.i", "09.aa", "09.ab", "09.ad", "09.ae", "09.af"]
+        }
+      ]
+    },
+    {
+      "id": "cp-audit-trails-integrity",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.312(c)(1)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["06.c", "06.i", "06.j", "09.ac"]
+        }
+      ]
+    },
+    {
+      "id": "cp-audit-customers",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["05.i", "05.j", "05.k", "06.d", "06.e", "06.g"]
+        }
+      ]
+    },
+    {
+      "id": "cp-audit-tools",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["06.j"]
+        }
+      ]
+    },
+    {
+      "id": "cp-audit-training",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["02.e", "06.g"]
+        }
+      ]
+    },
+    {
+      "id": "cp-employee-acceptable-use",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["02.a", "07.c"]
+        }
+      ]
+    },
+    {
+      "id": "cp-employee-screening",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["02.b"]
+        }
+      ]
+    },
+    {
+      "id": "cp-employee-onboarding",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["02.c", "02.e"]
+        }
+      ]
+    },
+    {
+      "id": "cp-employee-exiting",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)",
+            "164.308(a)(3)(ii)(C)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["02.g", "02.h", "02.i"]
+        }
+      ]
+    },
+    {
+      "id": "cp-employee-escalation",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["02.f"]
+        }
+      ]
+    },
+    {
+      "id": "cp-employee-whistleblower",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "id": "cp-sanctions",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(1)(ii)(C)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["02.f"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-standards",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)",
+            "164.308(a)(5)(ii)(D)",
+            "164.312(a)(1)",
+            "164.312(a)(2)(i)",
+            "164.312(a)(2)(iii)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.b", "01.c", "01.d", "01.e", "01.f", "01.g", "01.h", "01.p", "01.q", "01.r", "01.s"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-sso",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)",
+            "164.312(a)(1)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.b", "01.d", "01.f", "01.j", "01.p", "01.q", "01.r", "01.t", "01.u", "01.v", "01.w"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-mfa",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)",
+            "164.312(a)(1)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.j", "01.x", "01.y"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-rbac",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)",
+            "164.308(a)(3)(ii)(B)",
+            "164.312(a)(1)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.b", "01.c", "01.v"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-aws",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)",
+            "164.312(a)(2)(ii)",
+            "164.312(c)(2)",
+            "164.312(d)",
+            "164.312(c)(1)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.c", "01.m", "01.p", "01.q", "01.t", "01.u", "01.v", "01.w"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-vpn",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.j", "01.y"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-phi",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)",
+            "164.308(a)(3)(ii)(A)",
+            "164.308(a)(3)(ii)(B)",
+            "164.308(a)(4)(i)",
+            "164.308(a)(4)(ii)(B)",
+            "164.312(a)(1)",
+            "164.312(a)(2)(ii)",
+            "164.312(c)(2)",
+            "164.312(d)",
+            "164.312(c)(1)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.c", "01.e", "01.v"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-customer",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.312(c)(2)",
+            "164.312(d)",
+            "164.312(c)(1)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.j", "01.w"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-change",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)",
+            "164.308(a)(3)(ii)(A)",
+            "164.308(a)(4)(i)",
+            "164.308(a)(4)(ii)(C)",
+            "164.308(a)(5)(ii)(D)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.b", "01.c", "01.e", "01.f", "02.i"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-privileged",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)",
+            "164.308(a)(4)(i)",
+            "164.312(c)(1)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.c"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-service",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)",
+            "164.308(a)(4)(i)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.i"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-review",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)",
+            "164.308(a)(3)(ii)(A)",
+            "164.308(a)(3)(ii)(B)",
+            "164.308(a)(4)(i)",
+            "164.312(a)(1)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.c", "01.e"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-endpoints",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.j", "01.k"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-wifi",
+      "implements": [
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.m", "01.n", "01.o"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-password",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)",
+            "164.308(a)(5)(ii)(D)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.d", "01.f", "01.r"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-prod",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)",
+            "164.308(a)(3)(ii)(A)",
+            "164.308(a)(3)(ii)(B)",
+            "164.308(a)(4)(i)",
+            "164.312(a)(1)",
+            "164.312(c)(1)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.c", "01.m", "01.v", "01.w"]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-reset",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(i)",
+            "164.308(a)(5)(ii)(D)",
+            "164.312(a)(1)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.a", "01.r"]
+        }
+      ]
+    },
+    {
+      "id": "cp-physical",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(ii)(A)",
+            "164.310(a)(1)",
+            "164.310(a)(2)(i)",
+            "164.310(a)(2)(ii)",
+            "164.310(a)(2)(iii)",
+            "164.310(a)(2)(iv)",
+            "164.310(b)",
+            "164.310(c)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["08.a", "08.b", "08.c", "08.d", "08.e", "08.f", "08.g", "08.h", "08.i", "08.j", "08.k", "08.l", "08.m"]
+        }
+      ]
+    },
+    {
+      "id": "cp-asset-physical",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.310(d)(2)(iii)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["07.a", "07.b"]
+        }
+      ]
+    },
+    {
+      "id": "cp-asset-digital",
+      "implements": [
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["07.a", "07.b"]
+        }
+      ]
+    },
+    {
+      "id": "cp-asset-paper",
+      "implements": [
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["07.a", "07.b", "07.c"]
+        }
+      ]
+    },
+    {
+      "id": "cp-data-classification",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(7)(ii)(E)",
+            "164.316(b)(1)(i)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["07.d"]
+        }
+      ]
+    },
+    {
+      "id": "cp-data-handling",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.316(b)(1)(i)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["07.e", "09.q"]
+        }
+      ]
+    },
+    {
+      "id": "cp-data-lifecycle",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.316(b)(1)(i)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["07.e", "13.l"]
+        }
+      ]
+    },
+    {
+      "id": "cp-data-backup",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(7)(ii)(A)",
+            "164.308(a)(7)(ii)(B)",
+            "164.310(d)(2)(iv)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["09.l"]
+        }
+      ]
+    },
+    {
+      "id": "cp-data-deletion",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["09.p"]
+        }
+      ]
+    },
+    {
+      "id": "cp-data-protection",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.312(c)(1)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["09.q"]
+        }
+      ]
+    },
+    {
+      "id": "cp-data-protection-at-rest",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.312(a)(2)(iv)",
+            "164.312(e)(2)(ii)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.v", "06.d", "09.q", "10.f", "10.g"]
+        }
+      ]
+    },
+    {
+      "id": "cp-data-protection-in-transit",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.312(a)(2)(iv)",
+            "164.312(e)(1)",
+            "164.312(e)(2)(i)",
+            "164.312(e)(2)(ii)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.v", "06.d", "09.u", "09.y", "10.d", "10.f", "10.g"]
+        }
+      ]
+    },
+    {
+      "id": "cp-data-protection-in-use",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.312(c)(1)",
+            "164.312(e)(2)(i)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.v", "06.d"]
+        }
+      ]
+    },
+    {
+      "id": "cp-data-protection-kms",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.312(a)(2)(iv)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.v", "06.d", "09.q", "10.f", "10.g"]
+        }
+      ]
+    },
+    {
+      "id": "cp-data-protection-cert",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.v", "06.d", "09.u", "09.y", "10.d", "10.f", "10.g"]
+        }
+      ]
+    },
+    {
+      "id": "cp-data-protection-integrity",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["08.j", "09.z"]
+        }
+      ]
+    },
+    {
+      "id": "cp-sdlc-dev",
+      "implements": [
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.a"]
+        }
+      ]
+    },
+    {
+      "id": "cp-sdlc-scm",
+      "implements": [
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.j"]
+        }
+      ]
+    },
+    {
+      "id": "cp-sdlc-appsec-req",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.a", "10.b", "10.c", "10.d", "10.e", "10.f", "10.i", "10.m"]
+        }
+      ]
+    },
+    {
+      "id": "cp-sdlc-design",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.a"]
+        }
+      ]
+    },
+    {
+      "id": "cp-sdlc-iaaa",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.312(b)",
+            "164.312(c)(1)",
+            "164.312(c)(2)",
+            "164.312(d)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.a", "10.c"]
+        }
+      ]
+    },
+    {
+      "id": "cp-sdlc-foss",
+      "implements": [
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.m"]
+        }
+      ]
+    },
+    {
+      "id": "cp-sdlc-sast",
+      "implements": [
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.m"]
+        }
+      ]
+    },
+    {
+      "id": "cp-sdlc-dast",
+      "implements": [
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.m"]
+        }
+      ]
+    },
+    {
+      "id": "cp-sdlc-pentest",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.m"]
+        }
+      ]
+    },
+    {
+      "id": "cp-sdlc-outsourcing",
+      "implements": [
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.l"]
+        }
+      ]
+    },
+    {
+      "id": "cp-sdlc-hipaa",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["06.a", "06.d", "06.e", "06.g", "10.a"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ccm-config",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.h", "10.k"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ccm-network",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.m", "01.n", "01.o", "10.h", "10.k"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ccm-aws",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.m", "01.n", "01.o", "10.h", "10.k"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ccm-aws-deploy",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.h", "10.k"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ccm-patch",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.h", "10.k", "10.m"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ccm-prodcm",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.h", "10.k"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ccm-provision-prod",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.h", "10.k"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ccm-provision-endpoint",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(5)(ii)(B)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.g", "09.af", "10.h", "10.k"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ccm-provision-server",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["09.af", "10.h", "10.k"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ccm-provision-mgmt",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["09.af", "10.h", "10.k"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ccm-emergency",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.h", "10.k"]
+        }
+      ]
+    },
+    {
+      "id": "cp-threat-firewall",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(5)(ii)(B)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.m", "01.n", "01.o", "09.m"]
+        }
+      ]
+    },
+    {
+      "id": "cp-threat-hids",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(5)(ii)(B)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["09.ab", "09.ac", "10.h"]
+        }
+      ]
+    },
+    {
+      "id": "cp-threat-nids",
+      "implements": [
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.m", "01.n", "01.o", "09.m"]
+        }
+      ]
+    },
+    {
+      "id": "cp-threat-malware",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(5)(ii)(B)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["09.ab", "10.h"]
+        }
+      ]
+    },
+    {
+      "id": "cp-threat-webapp",
+      "implements": [
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.b"]
+        }
+      ]
+    },
+    {
+      "id": "cp-threat-intel",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(5)(ii)(A)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["06.a"]
+        }
+      ]
+    },
+    {
+      "id": "cp-threat-siem",
+      "implements": [
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["11.a"]
+        }
+      ]
+    },
+    {
+      "id": "cp-vuln-scan",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.m"]
+        }
+      ]
+    },
+    {
+      "id": "cp-vuln-remediation",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["10.m"]
+        }
+      ]
+    },
+    {
+      "id": "cp-mdm-disposal",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.310(d)(1)",
+            "164.310(d)(2)(i)",
+            "164.310(d)(2)(ii)",
+            "164.310(d)(2)(iii)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["08.k", "08.l"]
+        }
+      ]
+    },
+    {
+      "id": "cp-mdm-usb",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["08.m"]
+        }
+      ]
+    },
+    {
+      "id": "cp-mdm-byod",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["01.x", "01.y"]
+        }
+      ]
+    },
+    {
+      "id": "cp-bcdr",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(7)(i)",
+            "164.308(a)(7)(ii)(B)",
+            "164.308(a)(7)(ii)(D)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["12.a", "12.b", "12.c", "12.d"]
+        }
+      ]
+    },
+    {
+      "id": "cp-bcdr-recovery",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(7)(ii)(B)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["12.a", "12.b", "12.c", "12.d"]
+        }
+      ]
+    },
+    {
+      "id": "cp-bcdr-test",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(7)(ii)(D)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["12.a", "12.b", "12.c", "12.d", "12.e"]
+        }
+      ]
+    },
+    {
+      "id": "cp-bcdr-site",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.310(a)(2)(i)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["12.a", "12.b", "12.c", "12.d"]
+        }
+      ]
+    },
+    {
+      "id": "cp-bcdr-app",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(7)(ii)(E)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["12.a", "12.b", "12.c", "12.d"]
+        }
+      ]
+    },
+    {
+      "id": "cp-bcdr-data",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(7)(ii)(A)",
+            "164.308(a)(7)(ii)(B)",
+            "164.308(a)(7)(ii)(E)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["12.a", "12.b", "12.c", "12.d"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ir-sirt",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(6)(i)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["11.a", "11.c"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ir-process",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(6)(i)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["11.a", "11.b", "11.d", "11.d", "11.e"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ir-playbook",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(6)(i)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["11.a", "11.b", "11.d", "11.d", "11.e"]
+        }
+      ]
+    },
+    {
+      "id": "cp-ir-emergency",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(7)(i)",
+            "164.308(a)(7)(ii)(C)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "id": "cp-ir-tabletop",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(7)(ii)(D)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["11.d"]
+        }
+      ]
+    },
+    {
+      "id": "cp-breach-investigate",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(6)(ii)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["11.a", "13.u"]
+        }
+      ]
+    },
+    {
+      "id": "cp-breach-customer",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(6)(ii)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["11.a", "11.b", "12.c", "13.u"]
+        }
+      ]
+    },
+    {
+      "id": "cp-breach-letter",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(6)(ii)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["11.a"]
+        }
+      ]
+    },
+    {
+      "id": "cp-vendor-vtr",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(b)(1)",
+            "164.308(b)(2)",
+            "164.308(b)(3)",
+            "164.308(b)(4)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["05.i", "05.k"]
+        }
+      ]
+    },
+    {
+      "id": "cp-vendor-contracts",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(b)(1)",
+            "164.308(b)(2)",
+            "164.308(b)(3)",
+            "164.308(b)(4)",
+            "164.314(a)(1)",
+            "164.314(a)(2)(i)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["05.i", "05.k"]
+        }
+      ]
+    },
+    {
+      "id": "cp-vendor-ssa",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["06.b"]
+        }
+      ]
+    },
+    {
+      "id": "cp-privacy-notices",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": []
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": ["13.a", "13.b", "13.c", "13.d", "13.e", "13.f", "13.g", "13.h", "13.i", "13.j", "13.k", "13.l", "13.m"]
+        }
+      ]
+    }
+  ]
+}

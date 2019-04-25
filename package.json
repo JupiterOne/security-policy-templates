@@ -1,0 +1,9 @@
+{
+  "name": "@jupiterone/security-policy-templates",
+  "version": "2.4.7",
+  "description": "JupiterOne security policies and procedures. For use with jupiter-policy-builder.",
+  "files": "templates",
+  "repository": "git@github.com:JupiterOne/security-policy-templates.git",
+  "author": "JupiterOne <dev@jupiterone.io>",
+  "license": "CC-BY-SA-4.0"
+}

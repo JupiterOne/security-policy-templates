@@ -107,7 +107,7 @@ defined with the following:
 - `adopted` - a `boolean` flag to indicate if the policy has been adopted by the
   organization
 - `procedures` - an array that contains the procedure modules that
-  implements/enforces this policy.
+  implement/enforce this policy.
 
 Similar to the concept of "micro-services", the policies and procedures are
 written in "micro-docs" that are decoupled from the policies. The are mapped

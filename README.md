@@ -15,6 +15,10 @@ These are used internally at JupiterOne / LifeOmic Security.
 
 ## Format
 
+Similar to the concept of "micro-services", the policies and procedures are
+written in "micro-docs" that are decoupled from the policies. They are mapped
+to each other via a JSON configuration.
+
 - All policies, procedures and reference documents are written in Markdown.
 - All configuration files are in JSON format, including mapping between policies
   and procedures, and between procedures and compliance standards.

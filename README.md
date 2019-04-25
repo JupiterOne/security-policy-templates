@@ -64,7 +64,7 @@ More text.
 ```
 
 Note that the **Title** is a _level 3 heading_. This is because the
-`policy-builder` tool will automatically combine the procedures to the policies
+`policy-builder` tool will automatically combine the procedures and policies
 they each implement to a single document for publishing, and it will insert a
 `## Controls and Procedures` section heading after the **Policy Statements**
 section and before the first control/procedure.

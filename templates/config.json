@@ -384,7 +384,7 @@
       "file": "procedures/cp-ism-policies.md",
       "name": "Understanding the Policies and Documents",
       "type": "informational",
-      "provider": "",
+      "provider": "JupiterOne",
       "summary": "This describes how information security policies are structured.",
       "applicable": true,
       "adopted": true
@@ -394,7 +394,7 @@
       "file": "procedures/cp-ism-reporting.md",
       "name": "Metrics and Reporting",
       "type": "informational",
-      "provider": "",
+      "provider": "JupiterOne",
       "summary": "This describes the key metrics and high level reporting process for the information security management program.",
       "applicable": true,
       "adopted": true
@@ -575,8 +575,8 @@
       "id": "cp-audit-internal",
       "file": "procedures/cp-audit-internal.md",
       "name": "Manual Internal Auditing Activities",
-      "type": "",
-      "provider": "",
+      "type": "administrative",
+      "provider": "JupiterOne",
       "summary": "From time to time, an internal audit may be needed on controls and processes that are not already covered via automated monitoring. This process is defined here.",
       "applicable": true,
       "adopted": true
@@ -596,7 +596,7 @@
       "file": "procedures/cp-audit-review.md",
       "name": "Review and Reporting of Audit Findings",
       "type": "administrative",
-      "provider": "",
+      "provider": "JupiterOne",
       "summary": "Upon completion of an audit or assessment, the report and findings should be analyzed so that follow up on actions can be taken accordingly.",
       "applicable": true,
       "adopted": true
@@ -606,7 +606,7 @@
       "file": "procedures/cp-audit-trails.md",
       "name": "Audit Trails - System and Application Security Events Logging Standard",
       "type": "technical",
-      "provider": "manual process",
+      "provider": "AWS CloudTrail",
       "summary": "Your systems and applications should be configured/developed to follow a pre-defined, pre-approved set of standards for logging. This document captures the details, while it is up to your engineering team to follow in actual implementation. This can be enforced by other procedures such as configuration management and code reviews.",
       "applicable": true,
       "adopted": true
@@ -616,7 +616,7 @@
       "file": "procedures/cp-audit-trails-integrity.md",
       "name": "Audit Trail Integrity - Security Controls and Log Retention",
       "type": "technical",
-      "provider": "manual process",
+      "provider": "AWS CloudTrail",
       "summary": "Audit trails should be immutable. It is crucial to protect audit trails for record keeping and forensic analysis. Audit logs shall be retained according to your business needs and regulatory compliance requirements.",
       "applicable": true,
       "adopted": true
@@ -636,7 +636,7 @@
       "file": "procedures/cp-audit-tools.md",
       "name": "Tools Used for Auditing and Security Assessments",
       "type": "informational",
-      "provider": "",
+      "provider": "JupiterOne",
       "summary": "This is a documentation of certain tools your team may choose to use for performing security audits and assessments (such as an internal vulnerability scan).",
       "applicable": true,
       "adopted": true
@@ -656,7 +656,7 @@
       "file": "procedures/cp-employee-acceptable-use.md",
       "name": "Acceptable Use of End-user Computing",
       "type": "administrative",
-      "provider": "manual process",
+      "provider": "JupiterOne",
       "summary": "The acceptable use policy should be distributed to all employees. Employee review and acceptance of the acceptable user policy should be captured.",
       "applicable": true,
       "adopted": true
@@ -846,7 +846,7 @@
       "file": "procedures/cp-access-endpoints.md",
       "name": "Employee Workstation / Endpoints Usage",
       "type": "administrative",
-      "provider": "manual process",
+      "provider": "JupiterOne",
       "summary": "A set of standards and guidelines should be established so that employees understand their responsibility and limitation in using their company-provided computers. This is also referenced in the Employee Handbook. Technical controls should be in place to handle the monitoring and protection of employee computers, which is covered in a separate control/procedure.",
       "applicable": true,
       "adopted": true
@@ -946,7 +946,7 @@
       "file": "procedures/cp-data-classification.md",
       "name": "Data Classification Model",
       "type": "administrative",
-      "provider": "manual process",
+      "provider": "JupiterOne",
       "summary": "How do you know what data to protect and how to protect it accordingly? Taking a one-size-fits-all approach is not the best approach to data security. Treating all data the same way is like saying I'm going to put the strongest lock on every door of my house, but whoever needs access, I'll just hand over the same key. Having a good data classification is paramount to your data protection strategy. We recommend four levels of classification - Critical, Confidential, Internal, and Public. This documentation describes the details.",
       "applicable": true,
       "adopted": true
@@ -956,7 +956,7 @@
       "file": "procedures/cp-data-handling.md",
       "name": "Data Handling Process",
       "type": "administrative",
-      "provider": "manual process",
+      "provider": "JupiterOne",
       "summary": "How data is handled, including the retention period and whether or not encryption of data is required, should be defined based on the company data classification model.",
       "applicable": true,
       "adopted": true
@@ -1018,7 +1018,7 @@
       "file": "procedures/cp-data-protection-at-rest.md",
       "name": "Protecting Data At Rest",
       "type": "technical",
-      "provider": "",
+      "provider": "AWS KMS and data encryption",
       "summary": "Data-at-rest refers to persistent data storage, including physical media such as laptop hard drives, virtual data volumes such as Elastic Block Store (EBS) in AWS, and logical data repository such as S3 Buckets in AWS. Strong encryption, typically AES-256, and key management is typically required to protect data-at-rest.",
       "applicable": true,
       "adopted": true
@@ -1028,7 +1028,7 @@
       "file": "procedures/cp-data-protection-in-transit.md",
       "name": "Protecting Data In Transit",
       "type": "technical",
-      "provider": "",
+      "provider": "AWS ACM and TLS configuration",
       "summary": "Data-at-rest refers to data being transmitted from one system/service to another, either internally or across an open network (e.g. the Internet). Encryption is required, typically in the form of HTTPS/TLS, SSH or IPSec VPN.",
       "applicable": true,
       "adopted": true
@@ -1038,7 +1038,7 @@
       "file": "procedures/cp-data-protection-in-use.md",
       "name": "Protecting Data In Use",
       "type": "technical",
-      "provider": "",
+      "provider": "AWS CloudTrail",
       "summary": "Data-in-use refers to active data being processed by systems and applications. Application layer security capabilities and access control mechanisms typically apply.",
       "applicable": true,
       "adopted": true
@@ -1048,7 +1048,7 @@
       "file": "procedures/cp-data-protection-kms.md",
       "name": "Encryption Key Management",
       "type": "technical",
-      "provider": "",
+      "provider": "AWS KMS",
       "summary": "Encryption is only as strong as its associated key management process.",
       "applicable": true,
       "adopted": true
@@ -1058,7 +1058,7 @@
       "file": "procedures/cp-data-protection-cert.md",
       "name": "Certificate Management",
       "type": "technical",
-      "provider": "",
+      "provider": "AWS ACM",
       "summary": "SSL/TLS certificates should be managed and monitored.",
       "applicable": true,
       "adopted": true
@@ -1068,7 +1068,7 @@
       "file": "procedures/cp-data-protection-integrity.md",
       "name": "Data Integrity Protection",
       "type": "technical",
-      "provider": "",
+      "provider": "AWS CloudTrail",
       "summary": "There may be additional considerations for data integrity protection applicable to your applications and environments, in addition to data encryption.",
       "applicable": true,
       "adopted": true
@@ -1078,7 +1078,7 @@
       "file": "procedures/cp-sdlc-dev.md",
       "name": "Software Development Process",
       "type": "technical",
-      "provider": "",
+      "provider": "code",
       "summary": "How do you ensure security in your product development lifecycle? There are specific controls such as static application security testing (code scanning) that are documented individually. Here, you need to start with documentation the overall software development process and standards your development team follows.",
       "applicable": true,
       "adopted": true
@@ -1087,8 +1087,8 @@
       "id": "cp-sdlc-outsourcing",
       "file": "procedures/cp-sdlc-outsourcing.md",
       "name": "Outsourced Software Development",
-      "type": "technical",
-      "provider": "",
+      "type": "administrative",
+      "provider": "vendor contract agreements",
       "summary": "If you leverage outsourced resources for software development, a formal set of requirements and processes must be established to ensure the quality and security of the product.",
       "applicable": true,
       "adopted": true
@@ -1198,7 +1198,7 @@
       "file": "procedures/cp-ccm-network.md",
       "name": "Configuration and Management of Network Controls",
       "type": "technical",
-      "provider": "",
+      "provider": "Terraform",
       "summary": "You may have a combination of cloud and on-premise networks. Certain network layer security controls should be in place, such as firewalls for traffic filtering, Subnets/VLANs for segregation, IDS/IPS, etc. For traditional on-premise networks, these controls are typically physical or virtual appliances. In the Cloud, these are often infrastructure and platform services you should enable.",
       "applicable": true,
       "adopted": true

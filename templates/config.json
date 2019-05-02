@@ -441,7 +441,7 @@
       "name": "Assignment of Roles and the Security Committee",
       "type": "administrative",
       "provider": "JupiterOne",
-      "summary": "It is required by regulatory compliance, such as HIPAA, to formally assign security and privacy responsibilities to someone in your organization. As your organization expands and matures, a security committee may be formed. Having an executive level security committee is often a requirement for security certifications such as HITRUST CSF. You can manage the role assignment manually (i.e. in this documented policy/control procedure), or manage roe assignments to users/people in JupiterOne. In most case, you do not need to implement a complicated enterprise GRC system.",
+      "summary": "Regulatory compliance frameworks, such as HIPAA, require formal assignment of security and privacy responsibilities to someone in your organization. As your organization expands and matures, you may want to form an executive level security committee to meet this requirement. Often, such a committee is a requirement of security certifications such as HITRUST CSF. You can manage this role assignment manually (I.E. in this documented policy/control procedure) or in the JupiterOne's app. Using JupiterOne, you can almost always avoid implementing a complicated enterprise GRC system.
       "applicable": true,
       "adopted": true
     },
@@ -507,7 +507,7 @@
       "name": "Risk Assessment and Analysis",
       "type": "administrative",
       "provider": "JupiterOne",
-      "summary": "At least annually, a risk assessment should be conducted for your organization. A well established process helps your team perform the assessment and manage the outcome. The assessment itself is often manually, supported by tools for the assessment of technical risks, and management tools to help document and track the issues identified. You may document the issues directly in an issue tracking system such as Jira, or preferably, add the identified risks as objects in JupiterOne so that they can be visualized in context with the rest of your operational ecosystem.",
+      "summary": "At least annually, a risk assessment should be conducted for your organization. A well established process helps your team perform the assessment and manage the outcome. The assessment itself is often performed manually, supported by tools for the assessment of technical risks, and management tools to help document and track the issues identified. You may document the issues directly in an issue tracking system such as Jira, or preferably, add the identified risks as objects in JupiterOne so that they can be visualized in context with the rest of your operational ecosystem.",
       "applicable": true,
       "adopted": true
     },
@@ -527,7 +527,7 @@
       "name": "Risk Registry",
       "type": "administrative",
       "provider": "JupiterOne",
-      "summary": "In many cases, the risk registry is no more than a spreadsheet that serves as the inventory of risks identified as part of each risk assessment. Most mature enterprises implement a Governance, Risk and Compliance (GRC) solution to manage this process.  However, a full blown GRC solution is complex and often an overkill for a small SaaS company.  Instead, use JupiterOne to inventory and track your risks.",
+      "summary": "In many cases, the risk registry is no more than a spreadsheet that serves as the inventory of risks identified as part of each risk assessment. Most mature enterprises implement a Governance, Risk and Compliance (GRC) solution to manage this process.  However, a full blown GRC solution is complex and often overkill for a SaaS company.  Instead, use JupiterOne to inventory and track your risks.",
       "applicable": true,
       "adopted": true
     },
@@ -717,7 +717,7 @@
       "name": "Non-Compliance Investigation and Sanctions",
       "type": "administrative",
       "provider": "manual process",
-      "summary": "All workforce members should be training and accept your organizational security policies and procedures. In the case of a violation, there should be a pre-defined procedure to identify, investigate, and fairly treat each incident.",
+      "summary": "All workforce members should be trained on and accept your organizational security policies and procedures. In the case of a violation, there should be a pre-defined procedure to identify, investigate, and fairly treat each incident.",
       "applicable": true,
       "adopted": true
     },
@@ -727,7 +727,7 @@
       "name": "Centralized Access Control and Single Sign On",
       "type": "technical",
       "provider": "Okta",
-      "summary": "Your organization most likely relies on multiple business applications to support its operations. This may include end-user systems, collaboration tools, development and production environments, etc. Managing access to all of your business applications and systems centrally ensures consistent access policy and auditing. Being a cloud-native organization, we highly recommend using a cloud-based identity provider, such as Okta, for centralized access control and single sign on.",
+      "summary": "Your organization most likely relies on multiple business applications to support its operations. This may include end-user systems, collaboration tools, development and production environments, etc. Managing access to all of your business applications and systems centrally ensures consistent access policy and auditing. Being a cloud-native organization, we highly recommend using a cloud-based identity provider, such as Okta, OneLogin, Google and others for centralized access control and single sign on.",
       "applicable": true,
       "adopted": true
     },
@@ -737,7 +737,7 @@
       "name": "Multi-factor Authentication",
       "type": "technical",
       "provider": "Okta",
-      "summary": "Passwords are hard to remember but easy to compromise. Even with long and complex passwords, it is no longer sufficient by itself as the only control to prevent unauthorized access to critical systems and data. Okta provides multi-factor authentication (MFA) capability as part of their cloud IdP offering, and it is very easy to enable especially if you already use it for single sign on.",
+      "summary": "Passwords are hard to remember but easy to compromise. Even with long and complex passwords, it is no longer sufficient by itself as the only control to prevent unauthorized access to critical systems and data. Okta and other similar IdP vendors provide multi-factor authentication (MFA) capability as part of their offering, and it is very easy to enable especially if you already use it for single sign on.",
       "applicable": true,
       "adopted": true
     },
@@ -757,7 +757,7 @@
       "name": "Temporary Access to AWS Accounts and Resources",
       "type": "technical",
       "provider": "AWS IAM and Okta",
-      "summary": "We highly recommend leveraging the assume-role capability in AWS to gain temporary access to resources, combined with Okta for single-sign-on. This removes the need to provision IAM users directly within each of your AWS accounts.",
+      "summary": "We highly recommend leveraging the assume-role capability in AWS to gain temporary access to resources, combined with a cloud-native IdP for single-sign-on. This removes the need to provision IAM users directly within each of your AWS accounts.",
       "applicable": true,
       "adopted": true
     },
@@ -767,7 +767,7 @@
       "name": "VPN Remote Access",
       "type": "technical",
       "provider": "Pritunl",
-      "summary": "Remote access is typically secured via VPN. This could be implemented as a EC2 instance running in your private subnet/VPC instead AWS, or a server on whatever private network in your hosted or internal environment. Pritunl is an lightweight, OpenVPN based solution that is free to start, and can scale as you grow.",
+      "summary": "Remote access is typically secured via VPN. This could be implemented as a EC2 instance running in your private subnet/VPC instead AWS, or a server on whatever private network in your hosted or internal environment. Pritunl is a lightweight, OpenVPN based solution that is free to start, and can scale as you grow. WireGuard is a good open-source option as well.",
       "applicable": true,
       "adopted": true
     },
@@ -807,7 +807,7 @@
       "name": "Privileged Access",
       "type": "technical",
       "provider": "AWS IAM and Okta",
-      "summary": "A privileged user is someone who has administrative access to critical systems or data. This type of access should be highly restricted and managed with a more controlled process than typical/non-privileged user access. There are security solutions dedicated to privileged access management. However, you might not need to purchase and implement a separate tool if you follow our recommended procedure using AWS IAM, Okta, and Explicit Deny policies (the Explicit Deny can be automated using the IAM Safety feature in Dome9).",
+      "summary": "A privileged user is someone who has administrative access to critical systems or data. This type of access should be highly restricted and managed with a more controlled process than typical/non-privileged user access. There are security solutions dedicated to privileged access management. However, you might not need to purchase and implement a separate tool if you follow our recommended procedure using cloud-native SSO, AWS IAM, enable IAM policy guard rails and leverage explicit Deny rules in certain policies.",
       "applicable": true,
       "adopted": true
     },
@@ -1099,7 +1099,7 @@
       "name": "Source Code Management",
       "type": "technical",
       "provider": "Github",
-      "summary": "A source code management system such as Github should be used.",
+      "summary": "A source code management system such as GitHub, Bitbucket or GitLab should be used.",
       "applicable": true,
       "adopted": true
     },
@@ -1129,7 +1129,7 @@
       "name": "Access Control of the Application (Identification, Authentication, Authorization, Accounting)",
       "type": "technical",
       "provider": "AWS Cognito",
-      "summary": "If your organization develops external facing applications with access to customer data, such as PII/ePHI, you much implement and document mechanisms for user identification and access control.",
+      "summary": "If your organization develops external facing applications with access to customer data, such as PII/ePHI, you must implement and document mechanisms for user identification and access control.",
       "applicable": true,
       "adopted": true
     },
@@ -1149,7 +1149,7 @@
       "name": "Static Application Security Testing (SAST)",
       "type": "technical",
       "provider": "WhiteHat",
-      "summary": "The software code wrote by your developers should be scanned for vulnerability before putting into production. Veracode is a recommended solution that supports most modern programming languages such as Java, Javascript, Python, etc.",
+      "summary": "The software code wrote by your developers should be scanned for vulnerability before putting into production. Veracode, WhiteHat, etc. are example solutions that support most modern programming languages such as Java, Javascript, Python, etc.",
       "applicable": true,
       "adopted": true
     },
@@ -1159,7 +1159,7 @@
       "name": "Dynamic Application Security Testing (DAST)",
       "type": "technical",
       "provider": "Veracode",
-      "summary": "In additional to static code analysis, a dynamic application scan should be performed regularly. This is a blackbox testing of the application from an external perspective. Veracode is a suitable solution for dynamic scanning too. Keep in mind that dynamic application scanning helps uncover many vulnerabilities but it is not a replacement for application penetration testing.",
+      "summary": "In additional to static code analysis, a dynamic application scan should be performed regularly. This is a blackbox testing of the application from an external perspective. Suitable solutions for dynamic scanning include Tenable, Veracode, Rapid7, Qualys, and OWASP Zap. Keep in mind that dynamic application scanning helps uncover many vulnerabilities but it is not a replacement for application penetration testing.",
       "applicable": true,
       "adopted": true
     },
@@ -1169,7 +1169,7 @@
       "name": "Application Penetration Testing",
       "type": "technical",
       "provider": "HackerOne",
-      "summary": "An external penetration testing is performed at least once a year by a qualified security professional. Many compliance requires this to be done by an external third party security vendor. We also strongly recommend having a public vulnerability disclosure program, often known as bug bounty, to leverage crowd-sourced security researchers to perform continuous testing of your external-facing applications. The recommended vendor is HackerOne (BugCrowd is also a good alternative).",
+      "summary": "An external penetration testing is performed at least once a year by a qualified security professional. Many compliance frameworks require this to be done by an external third party security vendor. We also strongly recommend having a public vulnerability disclosure program, often known as bug bounty, to leverage crowd-sourced security researchers to perform continuous testing of your external-facing applications. The recommended vendor is HackerOne (BugCrowd is also a good alternative).",
       "applicable": true,
       "adopted": true
     },
@@ -1189,7 +1189,7 @@
       "name": "Configuration Management Processes",
       "type": "technical",
       "provider": "JupiterOne",
-      "summary": "There are many approaches to configuration management. Our recommendation for a small technology startup company is to let the users manage the devices themselves, but provide them the requirements and automation scripts as necessary, and use an endpoint audit agent such as Chef InSpec or osquery to check for compliance.",
+      "summary": "There are many approaches to configuration management. Our recommendation for a Cloud/SaaS technology organization or team is to let the users manage the devices themselves, but provide them the requirements and automation scripts as necessary, and use an endpoint audit agent to check for compliance. JupiterOne provides a 'power-up' endpoint compliance agent that is based on Netflix's Stethoscope project. Osquery is a good alternative as well.",
       "applicable": true,
       "adopted": true
     },
@@ -1298,8 +1298,8 @@
       "file": "procedures/cp-threat-hids.md",
       "name": "Host Intrusion Detection",
       "type": "technical",
-      "provider": "Carbon Black PSC",
-      "summary": "For host-based intrusion detection, we recommend Threat Stack agents as a commercial solution. Threat Stack supports a variety of Linux systems both in the cloud and on-premise. It also supports Docker containers activity monitoring. For Windows and macOS systems, Carbon Black Cb Defense is a next generation endpoint protection solution that covers intrusion detection/prevention via advanced behavior analysis. An alternative open source solution is OSSEC.",
+      "provider": "AWS Inspector and Carbon Black PSC",
+      "summary": "AWS Inspector is a native offering that covers vulnerability scanning of EC2 instances. For agent-based host intrusion detection, we recommend OSSEC agents as a basic open-source based solution. OSSEC supports a variety of operating systems both in the cloud and on-premise. A commercial solution may be needed for Docker containers activity monitoring. For Windows and macOS end-user systems, Carbon Black Cb Defense or SentinelOne are both good next-generation endpoint protection solutions that cover intrusion detection/prevention via advanced behavior analysis as well as malware protection.",
       "applicable": true,
       "adopted": true
     },
@@ -1308,8 +1308,8 @@
       "file": "procedures/cp-threat-nids.md",
       "name": "Network Intrusion Detection",
       "type": "technical",
-      "provider": "Cisco Meraki",
-      "summary": "If you operate an internal on-premise network or your own data center, a network intrusion detection system is a must. Cisco Meraki has a basic intrusion detection capability that can be a good starting solution.",
+      "provider": "AWS GuardDuty and Cisco Meraki",
+      "summary": "AWS GuardDuty analyzes VPC flow logs, DNS logs, and CloudTrail logs for intrusion detection and threat monitoring at both the network and API layer. If you operate an internal on-premise network or your own data center, a network intrusion detection system is a must. Cisco Meraki has a basic intrusion detection capability that can be a good starting solution.",
       "applicable": true,
       "adopted": true
     },
@@ -1319,7 +1319,7 @@
       "name": "Malware Protection",
       "type": "technical",
       "provider": "Carbon Black PSC",
-      "summary": "Anti-malware continue to be a compliance requirement, although traditional AV solutions have been proven to be ineffective against zero-day attacks and advanced malware. You may consider something like ClamAV as a free, open-source solution to meet compliance needs. But for real security, we highly recommend a next generation endpoint protection solution such as Carbon Black Cb Defense.",
+      "summary": "Anti-malware continue to be a compliance requirement, although traditional AV solutions have been proven to be ineffective against zero-day attacks and advanced malware. Modern operating systems usually come with some basic malware defense capability, such as Windows Defender. You may also consider something like ClamAV as a free, open-source solution to meet compliance needs. But for real security, we highly recommend a next generation endpoint protection solution such as Carbon Black Cb Defense or SentinelOne.",
       "applicable": true,
       "adopted": true
     },

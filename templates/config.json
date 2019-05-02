@@ -441,7 +441,7 @@
       "name": "Assignment of Roles and the Security Committee",
       "type": "administrative",
       "provider": "JupiterOne",
-      "summary": "It is required by regulatory compliance, such as HIPAA, to formally assign security and privacy responsibilities to someone in your organization. As your organization expands and matures, a security committee may be formed. Having an executive level security committee is often a requirement for security certifications such as HITRUST CSF. You can manage the role assignment manually (i.e. in this documented policy/control procedure), or manage role assignments to users/people in JupiterOne. In most cases, you do not need to implement a complicated enterprise GRC system.",
+      "summary": "Regulatory compliance frameworks, such as HIPAA, require formal assignment of security and privacy responsibilities to someone in your organization. As your organization expands and matures, you may want to form an executive level security committee to meet this requirement. Often, such a committee is a requirement of security certifications such as HITRUST CSF. You can manage this role assignment manually (I.E. in this documented policy/control procedure) or in the JupiterOne's app. Using JupiterOne, you can almost always avoid implementing a complicated enterprise GRC system.
       "applicable": true,
       "adopted": true
     },

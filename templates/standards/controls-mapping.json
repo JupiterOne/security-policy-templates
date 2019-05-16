@@ -56,7 +56,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AIS-04"]
+          "requirements": ["AIS-04", "GRM-06", "IAM-06"]
         }
       ]
     },
@@ -107,7 +107,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-10"]
+          "requirements": ["BCR-10", "GRM-03", "GRM-05", "HRS-07", "HRS-10"]
         }
       ]
     },
@@ -126,7 +126,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-10"]
+          "requirements": ["BCR-10", "GRM-04", "HRS-03", "HRS-09"]
         }
       ]
     },
@@ -142,6 +142,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["02.e"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["HRS-09"]
         }
       ]
     },
@@ -158,6 +162,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["02.e"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["HRS-03"]
         }
       ]
     },
@@ -182,7 +190,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AIS-04"]
+          "requirements": ["GRM-04"]
         }
       ]
     },
@@ -202,7 +210,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-09"]
+          "requirements": ["BCR-09", "GRM-02", "GRM-04", "GRM-10", "GRM-11"]
         }
       ]
     },
@@ -221,7 +229,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-09"]
+          "requirements": ["BCR-09", "GRM-02", "GRM-10"]
         }
       ]
     },
@@ -238,6 +246,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["03.c", "03.d"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["GRM-08", "GRM-11"]
         }
       ]
     },
@@ -299,7 +311,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AAC-01", "AAC-02"]
+          "requirements": ["AAC-01", "AAC-02", "GRM-01", "GRM-09"]
         }
       ]
     },
@@ -333,7 +345,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AAC-01", "AAC-02"]
+          "requirements": ["AAC-01", "AAC-02", "IAM-03"]
         }
       ]
     },
@@ -392,7 +404,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AAC-01"]
+          "requirements": ["AAC-01", "IVS-01", "IVS-03"]
         }
       ]
     },
@@ -411,7 +423,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AIS-04"]
+          "requirements": ["AIS-04", "IAM-01", "IVS-01"]
         }
       ]
     },
@@ -445,7 +457,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AAC-01"]
+          "requirements": ["AAC-01", "IAM-01", "IAM-13"]
         }
       ]
     },
@@ -481,7 +493,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-10", "CCC-04"]
+          "requirements": ["BCR-10", "CCC-04", "GRM-06", "HRS-05", "HRS-08", "HRS-10", "HRS-11"]
         }
       ]
     },
@@ -497,6 +509,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["02.b"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["HRS-02"]
         }
       ]
     },
@@ -531,7 +547,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-10"]
+          "requirements": ["BCR-10", "HRS-01", "HRS-04", "IAM-11"]
         }
       ]
     },
@@ -548,7 +564,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-10"]
+          "requirements": ["BCR-10", "GRM-05", "GRM-06"]
         }
       ]
     },
@@ -565,7 +581,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-10"]
+          "requirements": ["BCR-10", "GRM-06", "GRM-07", "HRS-10"]
         }
       ]
     },
@@ -581,6 +597,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["02.f"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["GRM-07", "HRS-06"]
         }
       ]
     },
@@ -603,7 +623,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-04"]
+          "requirements": ["AIS-04", "BCR-04", "GRM-04", "HRS-07", "HRS-11", "IAM-02", "IAM-04", "IAM-08", "IAM-12", "IVS-09", "IVS-11"]
         }
       ]
     },
@@ -623,7 +643,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-04"]
+          "requirements": ["BCR-04", "IAM-02", "IAM-12"]
         }
       ]
     },
@@ -643,7 +663,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-04"]
+          "requirements": ["BCR-04", "IAM-02", "IAM-12"]
         }
       ]
     },
@@ -661,6 +681,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["01.a", "01.b", "01.c", "01.v"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["GRM-06", "HRS-07", "IAM-02"]
         }
       ]
     },
@@ -683,7 +707,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-04"]
+          "requirements": ["BCR-04", "IAM-02", "IAM-05", "IAM-06", "IAM-08", "IAM-12", "IVS-08", "IVS-11"]
         }
       ]
     },
@@ -700,7 +724,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-04"]
+          "requirements": ["BCR-04", "IVS-12"]
         }
       ]
     },
@@ -728,7 +752,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AIS-04", "BCR-04"]
+          "requirements": ["AIS-04", "BCR-04", "GRM-01", "IAM-02"]
         }
       ]
     },
@@ -749,7 +773,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AIS-02"]
+          "requirements": ["AIS-02", "IAM-02", "IAM-12"]
         }
       ]
     },
@@ -772,7 +796,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-04"]
+          "requirements": ["BCR-04", "IAM-02", "IAM-09", "IAM-10", "IAM-11"]
         }
       ]
     },
@@ -806,6 +830,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["01.a", "01.i"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["IAM-02", "IAM-04", "IAM-06", "IAM-08", "IAM-09", "IAM-10", "IAM-12", "IAM-13"]
         }
       ]
     },
@@ -825,6 +853,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["01.a", "01.c", "01.e"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["IAM-02", "IAM-04", "IAM-10", "IAM-12"]
         }
       ]
     },
@@ -840,6 +872,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["01.a", "01.j", "01.k"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["HRS-08"]
         }
       ]
     },
@@ -852,7 +888,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AIS-04"]
+          "requirements": ["AIS-04", "IVS-12"]
         }
       ]
     },
@@ -872,7 +908,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-04"]
+          "requirements": ["BCR-04", "GRM-01", "IAM-02", "IAM-12"]
         }
       ]
     },
@@ -893,6 +929,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["01.a", "01.c", "01.m", "01.v", "01.w"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["IAM-02", "IAM-06", "IAM-08"]
         }
       ]
     },
@@ -913,7 +953,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-04"]
+          "requirements": ["BCR-04", "IAM-02"]
         }
       ]
     },
@@ -939,7 +979,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-06", "BCR-07"]
+          "requirements": ["BCR-06", "BCR-07", "DCS-02", "DCS-06", "DCS-07", "DCS-08", "DCS-09", "GRM-04", "HRS-01", "IAM-11"]
         }
       ]
     },
@@ -958,7 +998,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-07"]
+          "requirements": ["BCR-07", "DCS-01", "DCS-03", "DCS-04", "GRM-04"]
         }
       ]
     },
@@ -968,6 +1008,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["07.a", "07.b"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["DCS-01", "GRM-04"]
         }
       ]
     },
@@ -977,6 +1021,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["07.a", "07.b", "07.c"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["GRM-04", "HRS-10"]
         }
       ]
     },
@@ -996,7 +1044,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AIS-04", "DSI-01", "DSI-03", "DSI-04"]
+          "requirements": ["AIS-04", "DSI-01", "DSI-03", "DSI-04", "HRS-06"]
         }
       ]
     },
@@ -1095,7 +1143,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AIS-04"]
+          "requirements": ["AIS-04", "EKM-03", "IVS-09"]
         }
       ]
     },
@@ -1115,7 +1163,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AIS-04"]
+          "requirements": ["AIS-04", "EKM-03", "EKM-04"]
         }
       ]
     },
@@ -1137,7 +1185,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AIS-04"]
+          "requirements": ["AIS-04", "EKM-03", "EKM-04", "IVS-10"]
         }
       ]
     },
@@ -1157,7 +1205,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AIS-04"]
+          "requirements": ["AIS-04", "IAM-05"]
         }
       ]
     },
@@ -1176,7 +1224,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AIS-04"]
+          "requirements": ["EKM-01", "EKM-02", "EKM-03"]
         }
       ]
     },
@@ -1220,6 +1268,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["10.a"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["CCC-01", "CCC-05"]
         }
       ]
     },
@@ -1232,7 +1284,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["CCC-01"]
+          "requirements": ["CCC-01", "IAM-06"]
         }
       ]
     },
@@ -1246,6 +1298,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["10.a", "10.b", "10.c", "10.d", "10.e", "10.f", "10.i", "10.m"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["AIS-01", "AIS-03", "AIS-04", "CCC-01", "CCC-03", "DSI-02", "IAM-07"]
         }
       ]
     },
@@ -1277,6 +1333,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["10.a", "10.c"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["IAM-02"]
         }
       ]
     },
@@ -1317,6 +1377,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["10.m"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["IVS-05"]
         }
       ]
     },
@@ -1326,6 +1390,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["10.l"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["CCC-02"]
         }
       ]
     },
@@ -1342,7 +1410,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AIS-04", "DSI-05"]
+          "requirements": ["AIS-04", "DSI-05", "GRM-01", "IAM-05", "IVS-08"]
         }
       ]
     },
@@ -1376,7 +1444,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["CCC-01"]
+          "requirements": ["CCC-01", "IVS-06"]
         }
       ]
     },
@@ -1393,7 +1461,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["CCC-01"]
+          "requirements": ["CCC-01", "IAM-06", "IVS-08", "IVS-13"]
         }
       ]
     },
@@ -1497,7 +1565,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["CCC-01"]
+          "requirements": ["CCC-01", "IVS-07"]
         }
       ]
     },
@@ -1527,7 +1595,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-01", "CCC-01"]
+          "requirements": ["BCR-01", "CCC-01", "GRM-05"]
         }
       ]
     },
@@ -1543,6 +1611,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["01.m", "01.n", "01.o", "09.m"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["IVS-06", "IVS-12"]
         }
       ]
     },
@@ -1558,6 +1630,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["09.ab", "09.ac", "10.h"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["IVS-01"]
         }
       ]
     },
@@ -1567,6 +1643,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["01.m", "01.n", "01.o", "09.m"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["IVS-06", "IVS-12", "IVS-13"]
         }
       ]
     },
@@ -1582,6 +1662,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["09.ab", "10.h"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["IVS-01"]
         }
       ]
     },
@@ -1628,6 +1712,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["10.m"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["IVS-05"]
         }
       ]
     },
@@ -1641,6 +1729,14 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["10.m"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["GRM-04"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["IVS-05"]
         }
       ]
     },
@@ -1662,7 +1758,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["DSI-07"]
+          "requirements": ["DSI-07", "DCS-05"]
         }
       ]
     },
@@ -1692,7 +1788,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-10"]
+          "requirements": ["BCR-10", "HRS-08"]
         }
       ]
     },
@@ -1710,6 +1806,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["12.a", "12.b", "12.c", "12.d"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["BCR-01", "GRM-05"]
         }
       ]
     },
@@ -1728,7 +1828,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-01", "BCR-11"]
+          "requirements": ["BCR-01", "BCR-11", "GRM-05"]
         }
       ]
     },
@@ -1766,7 +1866,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-01", "BCR-05"]
+          "requirements": ["BCR-01", "BCR-05", "DCS-04"]
         }
       ]
     },
@@ -1782,6 +1882,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["12.a", "12.b", "12.c", "12.d"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["IVS-04"]
         }
       ]
     },
@@ -1924,7 +2028,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AIS-02"]
+          "requirements": ["AIS-02", "GRM-06"]
         }
       ]
     },
@@ -1940,6 +2044,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["11.a"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["GRM-06"]
         }
       ]
     },
@@ -1978,6 +2086,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["05.i", "05.k"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["GRM-06"]
         }
       ]
     },
@@ -1991,6 +2103,10 @@
         {
           "standard": "HITRUST CSF",
           "requirements": ["06.b"]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": ["GRM-06"]
         }
       ]
     },

@@ -1102,7 +1102,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["AIS-04", "DSI-02"]
+          "requirements": ["AIS-04", "DSI-02", "DSI-06"]
         }
       ]
     },
@@ -2121,7 +2121,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["GRM-06"]
+          "requirements": ["GRM-06", "STA-05", "STA-07"]
         }
       ]
     },

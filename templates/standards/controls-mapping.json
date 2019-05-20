@@ -9,7 +9,7 @@
         },
         {
           "standard": "HITRUST CSF",
-          "requirements": ["00.a"]
+          "requirements": ["00.a", "04.a"]
         },
         {
           "standard": "CSA CCM",
@@ -26,7 +26,7 @@
         },
         {
           "standard": "HITRUST CSF",
-          "requirements": ["00.a"]
+          "requirements": ["00.a", "04.a"]
         }
       ]
     },
@@ -39,7 +39,7 @@
         },
         {
           "standard": "HITRUST CSF",
-          "requirements": ["00.a", "05.h"]
+          "requirements": ["00.a", "04.a", "05.h"]
         },
         {
           "standard": "CSA CCM",
@@ -203,7 +203,7 @@
         },
         {
           "standard": "HITRUST CSF",
-          "requirements": ["05.h"]
+          "requirements": ["04.b", "05.h"]
         },
         {
           "standard": "CSA CCM",

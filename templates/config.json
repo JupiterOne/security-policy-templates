@@ -30,6 +30,7 @@
     "cmPortal": "",
     "ciSystem": "",
     "hrSystem": "",
+    "supportBYODandMDM": false,
     "haveSecurityScorecard": false,
     "securityScorecardPeriod": "",
     "securityScorecardURL": "",
@@ -288,8 +289,7 @@
       "procedures": [
         "cp-mdm-disposal",
         "cp-mdm-usb",
-        "cp-mdm-byod",
-        "cp-mdm-use"
+        "cp-mdm-byod"
       ]
     },
     {
@@ -1443,16 +1443,6 @@
       "summary": "You may not support bring-your-own-device (BYOD) for your employees.  If you do, a mobile device management (MDM) solution should be in place to properly manage them.  If you already use Okta as your IdP, they have a lightweight MDM solution you can enable from the same vendor. Alternatively, AirWatch or Jamf (Apple devices only) are also good solutions.",
       "applicable": true,
       "adopted": true
-    },
-    {
-      "id": "cp-mdm-use",
-      "file": "procedures/cp-mdm-use.md",
-      "name": "Proper Use of MDM Devices",
-      "type": "technical",
-      "provider": "Jamf",
-      "summary": "An outline of proper precedures and precautions for BYOD MDM",
-      "applicable": true,
-      "adopted": false
     },
     {
       "id": "cp-bcdr",

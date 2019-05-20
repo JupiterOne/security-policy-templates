@@ -162,7 +162,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["HRS-09", "MOS-01"]
+          "requirements": ["HRS-09", "MOS-01", "MOS-05"]
         }
       ]
     },
@@ -1817,7 +1817,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-10", "HRS-08", "MOS-04", "MOS-08", "MOS-13"]
+          "requirements": ["BCR-10", "HRS-08", "MOS-01", "MOS-02", "MOS-03", "MOS-04", "MOS-05", "MOS-06", "MOS-07", "MOS-08", "MOS-09", "MOS-10", "MOS-11", "MOS-12", "MOS-13"]
         }
       ]
     },

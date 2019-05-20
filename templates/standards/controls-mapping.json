@@ -101,6 +101,15 @@
       ]
     },
     {
+      "id": "cp-model-quality",
+      "implements": [
+        {
+          "standard": "CSA CCM",
+          "requirements": ["IVS-04"]
+        }
+      ]
+    },
+    {
       "id": "cp-role-assignment",
       "implements": [
         {
@@ -509,7 +518,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-10", "CCC-04", "GRM-06", "HRS-05", "HRS-08", "HRS-10", "HRS-11", "TVM-01", "MOS-03", "MOS-05", "MOS-10", "MOS-11", "MOS-17", "MOS-20"]
+          "requirements": ["BCR-10", "CCC-04", "GRM-06", "HRS-05", "HRS-08", "HRS-10", "HRS-11", "TVM-01", "MOS-02", "MOS-03", "MOS-05", "MOS-10", "MOS-11", "MOS-17", "MOS-20"]
         }
       ]
     },
@@ -1014,7 +1023,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["BCR-07", "DCS-01", "DCS-03", "DCS-04", "GRM-04", "MOS-09"]
+          "requirements": ["BCR-07", "DCS-01", "DCS-03", "DCS-04", "GRM-04", "MOS-09", "MOS-18"]
         }
       ]
     },
@@ -1581,7 +1590,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["CCC-01", "IVS-07", "TVM-02", "TVM-03"]
+          "requirements": ["CCC-01", "IVS-02", "IVS-07", "TVM-02", "TVM-03"]
         }
       ]
     },
@@ -1681,7 +1690,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["IVS-01", "TVM-01", "MOS-17"]
+          "requirements": ["IVS-01", "TVM-01", "TVM-03", "MOS-17"]
         }
       ]
     },
@@ -2038,6 +2047,15 @@
         {
           "standard": "CSA CCM",
           "requirements": ["SEF-02", "SEF-03", "SEF-04"]
+        }
+      ]
+    },
+    {
+      "id": "cp-breach-authorities",
+      "implements": [
+        {
+          "standard": "CSA CCM",
+          "requirements": ["SEF-01"]
         }
       ]
     },

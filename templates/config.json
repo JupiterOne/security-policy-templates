@@ -64,7 +64,8 @@
       "procedures": [
         "cp-model-principles",
         "cp-model-architecture",
-        "cp-model-metrics"
+        "cp-model-metrics",
+        "cp-model-quality"
       ]
     },
     {
@@ -287,7 +288,8 @@
       "procedures": [
         "cp-mdm-disposal",
         "cp-mdm-usb",
-        "cp-mdm-byod"
+        "cp-mdm-byod",
+        "cp-mdm-use"
       ]
     },
     {
@@ -325,7 +327,8 @@
       "procedures": [
         "cp-breach-investigate",
         "cp-breach-customer",
-        "cp-breach-letter"
+        "cp-breach-letter",
+        "cp-breach-authorities"
       ]
     },
     {
@@ -406,6 +409,16 @@
       "type": "informational",
       "provider": "",
       "summary": "This describes the high level operating principles of a DevOps oriented security program. The cloud-native, zero-trust approach enables a modern security operating model and eliminates the need for certain legacy security controls.",
+      "applicable": true,
+      "adopted": true
+    },
+    {
+      "id": "cp-model-quality",
+      "file": "procedures/cp-model-quality.md",
+      "name": "System Quality",
+      "type": "informational",
+      "provider": "",
+      "summary": "This describes at a high level how system quality assurance is managed and provides references to further documentation",
       "applicable": true,
       "adopted": true
     },
@@ -1432,6 +1445,16 @@
       "adopted": true
     },
     {
+      "id": "cp-mdm-use",
+      "file": "procedures/cp-mdm-use.md",
+      "name": "Proper Use of MDM Devices",
+      "type": "technical",
+      "provider": "Jamf",
+      "summary": "An outline of proper precedures and precautions for BYOD MDM",
+      "applicable": true,
+      "adopted": false
+    },
+    {
       "id": "cp-bcdr",
       "file": "procedures/cp-bcdr.md",
       "name": "BCDR Objectives and Roles",
@@ -1568,6 +1591,16 @@
       "type": "informational",
       "provider": "",
       "summary": "If a breach is confirmed, you are legally obligated to notify your customers.  A notification template helps your streamline this process.",
+      "applicable": true,
+      "adopted": true
+    },
+    {
+      "id": "cp-breach-authorities",
+      "file": "procedures/cp-breach-authorities.md",
+      "name": "Points of Contact for Authorities",
+      "type": "informational",
+      "provider": "",
+      "summary": "If a breach is confirmed, a reference for authority contacts can help begin the investigation process.",
       "applicable": true,
       "adopted": true
     },

@@ -266,7 +266,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["GRM-08", "GRM-11"]
+          "requirements": ["GRM-08", "GRM-11", "MOS-07"]
         }
       ]
     },
@@ -1452,7 +1452,7 @@
         },
         {
           "standard": "CSA CCM",
-          "requirements": ["CCC-01", "CCC-03", "MOS-15"]
+          "requirements": ["CCC-01", "CCC-03", "MOS-07", "MOS-15"]
         }
       ]
     },

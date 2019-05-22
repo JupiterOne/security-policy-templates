@@ -1,22 +1,27 @@
-# This util searches a standards document against our procedure docs and returns likely
-# matches for each standard
-# Run with Python3!!
-
-
-from json import load
-from os import path, rename, mkdir, listdir
-from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk import download
 from whoosh.index import create_in, open_dir
 from whoosh.fields import Schema, TEXT
 from whoosh.qparser import QueryParser
 from whoosh import scoring
+import argparse
 
-directory = '/Users/jpdimarz/Repos/security-policy-templates/templates/procedures' #set this to the appropriate path
-standards_file = 'csa-ccm.json' #set this to the appropriate file
-#download('punkt')  these must be downloaded the first time the script is ran
-#download('stopwords')
+parser = argparse.ArgumentParser()
+parser.add_argument("-sf",
+                    "--standards_file",
+                    help="the file that contains the standards you wish to search",
+                    type=str,
+                    default="csa-ccm.json")
+parser.add_argument("-dir",
+                    "--directory", 
+                    help="the full path of your procedures directory",
+                    type=str,
+                    default="/Users/jpdimarz/Scratch/compliance-search-script/procedures")
+args = parser.parse_args()
+standards_file = args.standards_file
+directory = args.directory
+download('punkt')
+download('stopwords')
 stopwords = set(stopwords.words('english'))
 stop_words = stopwords.union(['.', ',', '(', ')', 'shall', 'e.g.', 'use', 'i.e.', '/', ':', '•', "'s", 'and/or'])
 

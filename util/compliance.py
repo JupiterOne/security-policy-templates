@@ -1,3 +1,6 @@
+from json import load
+from os import path, rename, mkdir, listdir
+from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk import download
 from whoosh.index import create_in, open_dir
@@ -26,15 +29,9 @@ stopwords = set(stopwords.words('english'))
 stop_words = stopwords.union(['.', ',', '(', ')', 'shall', 'e.g.', 'use', 'i.e.', '/', ':', '•', "'s", 'and/or'])
 
 def searchStandards():
-    procedures = listdir('procedures')
+    procedures = listdir(directory)
     searchDict = dict()
     
-    for procedure in procedures:  #change extension to .txt if necessary
-        if (procedure[-8:] == ".md.tmpl"):
-            oldPath = path.join(directory, procedure)
-            target = path.join(directory, (procedure[:-8] + '.txt'))
-            rename(oldPath, target)
-
     with open(standards_file) as f:  #load the file with the standards
         ccm = load(f)
         sections = ccm['sections']

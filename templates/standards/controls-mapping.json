@@ -61,6 +61,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["AIS-04", "GRM-06", "IAM-06", "IPY-01", "STA-03"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["1.3", "1.5", "2.3"]
         }
       ]
     },
@@ -144,6 +148,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["BCR-10", "GRM-04", "HRS-03", "HRS-09", "SEF-03"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["2.5"]
         }
       ]
     },
@@ -208,6 +216,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["GRM-04", "STA-04"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["2.5"]
         }
       ]
     },
@@ -247,6 +259,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["BCR-09", "GRM-02", "GRM-10"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["2.2"]
         }
       ]
     },
@@ -519,6 +535,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["BCR-10", "CCC-04", "GRM-06", "HRS-05", "HRS-08", "HRS-10", "HRS-11", "TVM-01", "MOS-02", "MOS-03", "MOS-05", "MOS-10", "MOS-11", "MOS-17", "MOS-20"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["1.3", "1.4", "1.5"]
         }
       ]
     },
@@ -859,6 +879,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["IAM-02", "IAM-04", "IAM-06", "IAM-08", "IAM-09", "IAM-10", "IAM-12", "IAM-13"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["1.2"]
         }
       ]
     },
@@ -901,6 +925,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["HRS-08", "TVM-03", "MOS-17"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["1.3", "1.4", "1.5"]
         }
       ]
     },
@@ -914,6 +942,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["AIS-04", "IVS-12"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["1.1", "1.2"]
         }
       ]
     },
@@ -1024,6 +1056,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["BCR-07", "DCS-01", "DCS-03", "DCS-04", "GRM-04", "MOS-09", "MOS-18"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["2.4"]
         }
       ]
     },
@@ -1037,6 +1073,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["DCS-01", "GRM-04"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["2.4"]
         }
       ]
     },
@@ -1093,6 +1133,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["DSI-01", "DSI-03", "IPY-02", "IPY-03", "STA-01"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["2.3"]
         }
       ]
     },
@@ -1169,6 +1213,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["AIS-04", "EKM-03", "IVS-09", "IPY-03"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["2.6"]
         }
       ]
     },
@@ -1189,6 +1237,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["AIS-04", "EKM-03", "EKM-04"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["2.3"]
         }
       ]
     },
@@ -1211,6 +1263,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["AIS-04", "EKM-03", "EKM-04", "IVS-10", "IPY-04"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["1.3", "2.3"]
         }
       ]
     },
@@ -1419,6 +1475,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["CCC-02", "STA-08"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["1.4", "1.5"]
         }
       ]
     },
@@ -1453,6 +1513,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["CCC-01", "CCC-03", "MOS-07", "MOS-15"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["1.5", "2.2"]
         }
       ]
     },
@@ -1470,6 +1534,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["CCC-01", "IVS-06", "IPY-04"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["1.1", "2.1"]
         }
       ]
     },
@@ -1555,6 +1623,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["CCC-01", "CCC-03", "CCC-05"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["2.1"]
         }
       ]
     },
@@ -1574,6 +1646,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["CCC-01", "CCC-04", "MOS-15"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["2.2"]
         }
       ]
     },
@@ -1591,6 +1667,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["CCC-01", "IVS-02", "IVS-07", "TVM-02", "TVM-03"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["2.1", "2.2"]
         }
       ]
     },
@@ -1640,6 +1720,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["IVS-06", "IVS-12"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["1.1", "1.2"]
         }
       ]
     },
@@ -1672,6 +1756,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["IVS-06", "IVS-12", "IVS-13"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["1.1"]
         }
       ]
     },
@@ -1818,6 +1906,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["BCR-10", "HRS-08", "MOS-01", "MOS-02", "MOS-03", "MOS-04", "MOS-05", "MOS-06", "MOS-07", "MOS-08", "MOS-09", "MOS-10", "MOS-11", "MOS-12", "MOS-13"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["1.2", "1.4", "1.5", "2.4"]
         }
       ]
     },
@@ -2140,6 +2232,10 @@
         {
           "standard": "CSA CCM",
           "requirements": ["GRM-06", "STA-05", "STA-07"]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": ["2.6"]
         }
       ]
     },

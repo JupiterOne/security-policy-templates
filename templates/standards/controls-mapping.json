@@ -1293,7 +1293,7 @@
         },
         {
           "standard": "PCI DSS",
-          "requirements": ["3.5"] //2.6?
+          "requirements": ["2.6", "3.5"]
         }
       ]
     },
@@ -2372,7 +2372,7 @@
         },
         {
           "standard": "PCI DSS",
-          "requirements": [] //2.6?
+          "requirements": ["2.6"]
         }
       ]
     },

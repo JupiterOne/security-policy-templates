@@ -879,37 +879,37 @@
         },
         {
           "ref": "0108.02d1Organizational.23",
-          "summary": "The organization ensures plans for security testing, training and monitoring activities are developed, implemented, maintained and reviewed for consistency with the risk management strategy and response priorities.\"",
+          "summary": "The organization ensures plans for security testing, training and monitoring activities are developed, implemented, maintained and reviewed for consistency with the risk management strategy and response priorities.",
           "requirement": "02.d",
           "applicable": true
         },
         {
           "ref": "0109.02d1Organizational.4",
-          "summary": "Management ensures users are briefed on their security role(s)/responsibilities, conform with the terms and conditions of employment prior to obtaining access to the organizations information systems; are provided with guidelines regarding the security expectations of their roles; are motivated to comply with security policies; and continue to have the appropriate skills and qualifications for their role(s).\"",
+          "summary": "Management ensures users are briefed on their security role(s)/responsibilities, conform with the terms and conditions of employment prior to obtaining access to the organizations information systems; are provided with guidelines regarding the security expectations of their roles; are motivated to comply with security policies; and continue to have the appropriate skills and qualifications for their role(s).",
           "requirement": "02.d",
           "applicable": true
         },
         {
           "ref": "0113.04a1Organizational.123",
-          "summary": "Information security objectives, approach, scope, importance, goals and principles for the organizations security program are formally identified, communicated throughout the organization to users in a form that is relevant, accessible and understandable to the intended reader, and supported by a controls framework that considers legislative, regulatory, contractual requirements and other policy-related requirements.\"",
+          "summary": "Information security objectives, approach, scope, importance, goals and principles for the organizations security program are formally identified, communicated throughout the organization to users in a form that is relevant, accessible and understandable to the intended reader, and supported by a controls framework that considers legislative, regulatory, contractual requirements and other policy-related requirements.",
           "requirement": "04.a",
           "applicable": true
         },
         {
           "ref": "0114.04b1Organizational.1",
-          "summary": "The security policies are regularly reviewed and updated to ensure they reflect leading practices (e.g., for systems and services development and acquisition), and communicated throughout the organization.\"",
+          "summary": "The security policies are regularly reviewed and updated to ensure they reflect leading practices (e.g., for systems and services development and acquisition), and communicated throughout the organization.",
           "requirement": "04.b",
           "applicable": true
         },
         {
           "ref": "0117.05a1Organizational.1",
-          "summary": "A senior-level information security official is appointed and is responsible for ensuring security processes are in place, communicated to all stakeholders, and consider and address organizational requirements.\"",
+          "summary": "A senior-level information security official is appointed and is responsible for ensuring security processes are in place, communicated to all stakeholders, and consider and address organizational requirements.",
           "requirement": "05.a",
           "applicable": true
         },
         {
           "ref": "0118.05a1Organizational.2",
-          "summary": "Senior management assigns an individual or group to ensure the effectiveness of the information protection program through program oversight, establish and communicate the organization's priorities for organizational mission, objectives, and activies, review and update of the organization's security plan, compliance with the security plan by the workforce, and to evaluate and accept security risks on behalf of the organization.\"",
+          "summary": "Senior management assigns an individual or group to ensure the effectiveness of the information protection program through program oversight, establish and communicate the organization's priorities for organizational mission, objectives, and activies, review and update of the organization's security plan, compliance with the security plan by the workforce, and to evaluate and accept security risks on behalf of the organization.",
           "requirement": "05.a",
           "applicable": true
         },
@@ -921,37 +921,37 @@
         },
         {
           "ref": "0120.05a1Organizational.4",
-          "summary": "Capital planning and investment requests include the resources needed to implement the security program, employ a business case (or Exhibit 300 and/or 53 for federal government), and the organization ensures the resources are available for expenditure as planned.\"",
+          "summary": "Capital planning and investment requests include the resources needed to implement the security program, employ a business case (or Exhibit 300 and/or 53 for federal government), and the organization ensures the resources are available for expenditure as planned.",
           "requirement": "05.a",
           "applicable": true
         },
         {
           "ref": "0135.02f1Organizational.56",
-          "summary": "The organization employs a formal sanctions process for personnel failing to comply with established information security policies and procedures and notifies defined personnel (e.g., supervisors) within a defined time frame (e.g., twenty-four (24) hours) when a formal sanction process is initiated, identifying the individual sanctioned and the reason for the sanction. Further, the organization includes specific procedures for license, registration, and certification denial or revocation and other disciplinary action.\"",
+          "summary": "The organization employs a formal sanctions process for personnel failing to comply with established information security policies and procedures and notifies defined personnel (e.g., supervisors) within a defined time frame (e.g., twenty-four (24) hours) when a formal sanction process is initiated, identifying the individual sanctioned and the reason for the sanction. Further, the organization includes specific procedures for license, registration, and certification denial or revocation and other disciplinary action.",
           "requirement": "02.f",
           "applicable": true
         },
         {
           "ref": "0162.04b1Organizational.2",
-          "summary": "The organization ensures individuals may make complaints concerning the information security policies, procedures, or the organization's compliance with its policies and procedures; documents the complaints and requests for changes, and records their disposition, if applicable.\"",
+          "summary": "The organization ensures individuals may make complaints concerning the information security policies, procedures, or the organization's compliance with its policies and procedures; documents the complaints and requests for changes, and records their disposition, if applicable.",
           "requirement": "04.b",
           "applicable": true
         },
         {
           "ref": "0177.05h1Organizational.12",
-          "summary": "An independent review of the organization's information security management program is initiated by management to ensure the continuing suitability, adequacy, and effectiveness of the organization's approach to managing information security.\"",
+          "summary": "An independent review of the organization's information security management program is initiated by management to ensure the continuing suitability, adequacy, and effectiveness of the organization's approach to managing information security.",
           "requirement": "05.h",
           "applicable": true
         },
         {
           "ref": "0178.05h1Organizational.3",
-          "summary": "The results of independent security program reviews are recorded and reported to the management official/office initiating the review; and the results are maintained for a predetermined period of time as determined by the organization, but not less than three (3) years.\"",
+          "summary": "The results of independent security program reviews are recorded and reported to the management official/office initiating the review; and the results are maintained for a predetermined period of time as determined by the organization, but not less than three (3) years.",
           "requirement": "05.h",
           "applicable": true
         },
         {
           "ref": "0179.05h1Organizational.4",
-          "summary": "If an independent review identifies that the organization's approach and implementation to managing information security is inadequate or not compliant with the direction for information security stated in the information security policy document, management takes corrective actions.\"",
+          "summary": "If an independent review identifies that the organization's approach and implementation to managing information security is inadequate or not compliant with the direction for information security stated in the information security policy document, management takes corrective actions.",
           "requirement": "05.h",
           "applicable": true
         }
@@ -963,7 +963,7 @@
       "controls": [
         {
           "ref": "0201.09j1Organizational.124",
-          "summary": "Anti-virus and anti-spyware are installed, operating and updated on all end-user devices to conduct periodic scans of the systems to identify and remove unauthorized software. Server environments for which the server software developer specifically recommends not installing host-based anti-virus and anti-spyware software are addressed via a network-based malware detection (NBMD) solution.\"",
+          "summary": "Anti-virus and anti-spyware are installed, operating and updated on all end-user devices to conduct periodic scans of the systems to identify and remove unauthorized software. Server environments for which the server software developer specifically recommends not installing host-based anti-virus and anti-spyware software are addressed via a network-based malware detection (NBMD) solution.",
           "requirement": "09.j",
           "applicable": true
         },
@@ -975,13 +975,13 @@
         },
         {
           "ref": "0225.09k1Organizational.1",
-          "summary": "Automated controls (e.g. browser settings) are in place to authorize and restrict the use of mobile code (e.g., Java, JavaScript, ActiveX, PDF, postscript, Shockwave movies, and Flash animations).\"",
+          "summary": "Automated controls (e.g. browser settings) are in place to authorize and restrict the use of mobile code (e.g., Java, JavaScript, ActiveX, PDF, postscript, Shockwave movies, and Flash animations).",
           "requirement": "09.k",
           "applicable": true
         },
         {
           "ref": "0226.09k1Organizational.2",
-          "summary": "The organization has implemented and regularly updates mobile code protection, including anti-virus and anti-spyware.\"",
+          "summary": "The organization has implemented and regularly updates mobile code protection, including anti-virus and anti-spyware.",
           "requirement": "09.k",
           "applicable": true
         }
@@ -993,13 +993,13 @@
       "controls": [
         {
           "ref": "0301.09o1Organizational.123",
-          "summary": "The organization, based on the data classification level, registers media (including laptops) prior to use, places reasonable restrictions on how such media be used, and provides an appropriate level of physical and logical protection (including encryption) for media containing covered information until properly destroyed or sanitized.\"",
+          "summary": "The organization, based on the data classification level, registers media (including laptops) prior to use, places reasonable restrictions on how such media be used, and provides an appropriate level of physical and logical protection (including encryption) for media containing covered information until properly destroyed or sanitized.",
           "requirement": "09.o",
           "applicable": true
         },
         {
           "ref": "0305.09q1Organizational.12",
-          "summary": "Media is labeled, encrypted, and handled according to its classification.\"",
+          "summary": "Media is labeled, encrypted, and handled according to its classification.",
           "requirement": "09.q",
           "applicable": true
         },
@@ -1017,7 +1017,7 @@
       "controls": [
         {
           "ref": "0401.01x1System.124579",
-          "summary": "Mobile computing devices are protected at all times by access controls, usage restrictions, connection requirements, encryption, virus protections, host-based firewalls or equivalent functionality, secure configurations, and physical protections.\"",
+          "summary": "Mobile computing devices are protected at all times by access controls, usage restrictions, connection requirements, encryption, virus protections, host-based firewalls or equivalent functionality, secure configurations, and physical protections.",
           "requirement": "01.x",
           "applicable": true
         },
@@ -1041,25 +1041,25 @@
         },
         {
           "ref": "0410.01x1System.12",
-          "summary": "If it is determined that encryption is not reasonable and appropriate, the organization documents its rationale and acceptance of risk.\"",
+          "summary": "If it is determined that encryption is not reasonable and appropriate, the organization documents its rationale and acceptance of risk.",
           "requirement": "01.x",
           "applicable": true
         },
         {
           "ref": "0415.01y1Organizational.10",
-          "summary": "Suitable protections of the teleworking site are in place to protect against the theft of equipment and information, the unauthorized disclosure of information, and unauthorized remote access to the organization's internal systems or misuse of facilities.\"",
+          "summary": "Suitable protections of the teleworking site are in place to protect against the theft of equipment and information, the unauthorized disclosure of information, and unauthorized remote access to the organization's internal systems or misuse of facilities.",
           "requirement": "01.y",
           "applicable": true
         },
         {
           "ref": "0425.01x1System.13",
-          "summary": "A documented list of approved application stores has been defined as acceptable for mobile devices accessing or storing entity (client) or cloud service provider-managed client data, and the use of unapproved application stores is prohibited for company-owned and BYOD mobile devices. Non-approved applications or approved applications not obtained through approved application stores are prohibited.\"",
+          "summary": "A documented list of approved application stores has been defined as acceptable for mobile devices accessing or storing entity (client) or cloud service provider-managed client data, and the use of unapproved application stores is prohibited for company-owned and BYOD mobile devices. Non-approved applications or approved applications not obtained through approved application stores are prohibited.",
           "requirement": "01.x",
           "applicable": true
         },
         {
           "ref": "0429.01x1System.14",
-          "summary": "The organization prohibits the circumvention of built-in security controls on mobile devices (e.g., jailbreaking or rooting).\"",
+          "summary": "The organization prohibits the circumvention of built-in security controls on mobile devices (e.g., jailbreaking or rooting).",
           "requirement": "01.x",
           "applicable": true
         }
@@ -1095,7 +1095,7 @@
       "controls": [
         {
           "ref": "0601.06g1Organizational.124",
-          "summary": "Annual compliance reviews are conducted by security or audit individuals using manual or automated tools; if non-compliance is found, appropriate action is taken.\"",
+          "summary": "Annual compliance reviews are conducted by security or audit individuals using manual or automated tools; if non-compliance is found, appropriate action is taken.",
           "requirement": "06.g",
           "applicable": true
         },
@@ -1107,19 +1107,19 @@
         },
         {
           "ref": "0605.10h1System.12",
-          "summary": "Only authorized administrators are allowed to implement approved upgrades to software, applications, and program libraries, based on business requirements and the security implications of the release.\"",
+          "summary": "Only authorized administrators are allowed to implement approved upgrades to software, applications, and program libraries, based on business requirements and the security implications of the release.",
           "requirement": "10.h",
           "applicable": true
         },
         {
           "ref": "0613.06h1Organizational.12",
-          "summary": "The organization performs annual checks on the technical security configuration of systems, either manually by an individual with experience with the systems and/or with the assistance of automated software tools, and takes appropriate action if non-compliance is found.\"",
+          "summary": "The organization performs annual checks on the technical security configuration of systems, either manually by an individual with experience with the systems and/or with the assistance of automated software tools, and takes appropriate action if non-compliance is found.",
           "requirement": "06.h",
           "applicable": true
         },
         {
           "ref": "0618.09b1System.1",
-          "summary": "Changes to information assets, including systems, networks and network services, are controlled and archived.\"",
+          "summary": "Changes to information assets, including systems, networks and network services, are controlled and archived.",
           "requirement": "09.b",
           "applicable": true
         },
@@ -1131,13 +1131,13 @@
         },
         {
           "ref": "0663.10h1System.7",
-          "summary": "The operating system has in place supporting technical controls such as antivirus, file integrity monitoring, host-based (personal) firewalls or port filtering tools, and logging as part of its baseline.\"",
+          "summary": "The operating system has in place supporting technical controls such as antivirus, file integrity monitoring, host-based (personal) firewalls or port filtering tools, and logging as part of its baseline.",
           "requirement": "10.h",
           "applicable": true
         },
         {
           "ref": "0671.10k1System.1",
-          "summary": "The organization manages changes to mobile device operating systems, patch levels, and/or applications through a formal change management process.\"",
+          "summary": "The organization manages changes to mobile device operating systems, patch levels, and/or applications through a formal change management process.",
           "requirement": "10.k",
           "applicable": true
         }
@@ -1155,7 +1155,7 @@
         },
         {
           "ref": "0702.07a1Organizational.3",
-          "summary": "The information lifecycle manages the secure use, transfer, exchange, and disposal of IT-related assets.\"",
+          "summary": "The information lifecycle manages the secure use, transfer, exchange, and disposal of IT-related assets.",
           "requirement": "07.a",
           "applicable": true
         },
@@ -1167,19 +1167,19 @@
         },
         {
           "ref": "0709.10m1Organizational.1",
-          "summary": "Technical vulnerabilities are identified, evaluated for risk and corrected in a timely manner.\"",
+          "summary": "Technical vulnerabilities are identified, evaluated for risk and corrected in a timely manner.",
           "requirement": "10.m",
           "applicable": true
         },
         {
           "ref": "0707.10b2System.1",
-          "summary": "Applications that store, process or transmit covered information undergo automated application vulnerability testing by a qualified party on an annual basis.\"",
+          "summary": "Applications that store, process or transmit covered information undergo automated application vulnerability testing by a qualified party on an annual basis.",
           "requirement": "10.b",
           "applicable": true
         },
         {
           "ref": "0708.10b2System.2",
-          "summary": "System and information integrity requirements are developed, documented, disseminated, reviewed and updated annually.\"",
+          "summary": "System and information integrity requirements are developed, documented, disseminated, reviewed and updated annually.",
           "requirement": "10.b",
           "applicable": true
         }
@@ -1187,17 +1187,17 @@
     },
     {
       "title": "08 Network Protection",
-      "description": "Includes all aspects of perimeter and interanal network security",
+      "description": "Includes all aspects of perimeter and internal network security",
       "controls": [
         {
           "ref": "0805.01m1Organizational.12",
-          "summary": "The organization's security gateways (e.g. firewalls) enforce security policies and are configured to filter traffic between domains, block unauthorized access, and are used to maintain segregation between internal wired, internal wireless, and external network segments (e.g., the Internet) including DMZs and enforce access control policies for each of the domains.\"",
+          "summary": "The organization's security gateways (e.g. firewalls) enforce security policies and are configured to filter traffic between domains, block unauthorized access, and are used to maintain segregation between internal wired, internal wireless, and external network segments (e.g., the Internet) including DMZs and enforce access control policies for each of the domains.",
           "requirement": "01.m",
           "applicable": true
         },
         {
           "ref": "0808.10b2System.3",
-          "summary": "For any public-facing Web applications, application-level firewalls are implemented to control traffic. For public-facing applications that are not Web-based, the organization has implemented a network-based firewall specific to the application type.  If the traffic to the public-facing application is encrypted, the device either sits behind the encryption or is capable of decrypting the traffic prior to analysis.\"",
+          "summary": "For any public-facing Web applications, application-level firewalls are implemented to control traffic. For public-facing applications that are not Web-based, the organization has implemented a network-based firewall specific to the application type.  If the traffic to the public-facing application is encrypted, the device either sits behind the encryption or is capable of decrypting the traffic prior to analysis.",
           "requirement": "10.b",
           "applicable": true
         },
@@ -1227,13 +1227,13 @@
         },
         {
           "ref": "0850.01o1Organizational.12",
-          "summary": "Routing controls are implemented through security gateways (e.g., firewalls) used between internal and external networks (e.g., the Internet and 3rd party networks).\"",
+          "summary": "Routing controls are implemented through security gateways (e.g., firewalls) used between internal and external networks (e.g., the Internet and 3rd party networks).",
           "requirement": "01.o",
           "applicable": true
         },
         {
           "ref": "0859.09m1Organizational.78",
-          "summary": "The organization ensures the security of information in networks, availability of network services and information services using the network, and the protection of connected services from unauthorized access.\"",
+          "summary": "The organization ensures the security of information in networks, availability of network services and information services using the network, and the protection of connected services from unauthorized access.",
           "requirement": "09.m",
           "applicable": true
         }
@@ -1257,7 +1257,7 @@
         },
         {
           "ref": "0911.09s1Organizational.2",
-          "summary": "The organization establishes terms and conditions, consistent with any trust relationship established with other organizations owning, operating, and/or maintaining external information systems, allowing authorized individuals to (i) access the information system from external information systems; and (ii) process, store or transmit organization-controlled information using external information systems.\"",
+          "summary": "The organization establishes terms and conditions, consistent with any trust relationship established with other organizations owning, operating, and/or maintaining external information systems, allowing authorized individuals to (i) access the information system from external information systems; and (ii) process, store or transmit organization-controlled information using external information systems.",
           "requirement": "09.s",
           "applicable": true
         },
@@ -1275,19 +1275,19 @@
         },
         {
           "ref": "0914.09s1Organizational.6",
-          "summary": "The organization ensures that communication protection requirements, including the security of exchanges of information, are the subject of policy development and compliance audits.\"",
+          "summary": "The organization ensures that communication protection requirements, including the security of exchanges of information, are the subject of policy development and compliance audits.",
           "requirement": "09.s",
           "applicable": true
         },
         {
           "ref": "0925.09v1Organizational.1",
-          "summary": "Legal considerations, including requirements for electronic signatures, are addressed.\"",
+          "summary": "Legal considerations, including requirements for electronic signatures, are addressed.",
           "requirement": "09.v",
           "applicable": true
         },
         {
           "ref": "0926.09v1Organizational.2",
-          "summary": "Approvals are obtained prior to using external public services, including instant messaging or file sharing.\"",
+          "summary": "Approvals are obtained prior to using external public services, including instant messaging or file sharing.",
           "requirement": "09.v",
           "applicable": true
         },
@@ -1299,13 +1299,13 @@
         },
         {
           "ref": "0928.09v1Organizational.45",
-          "summary": "Stronger controls are implemented to protect certain electronic messages, and electronic messages are protected throughout the duration of its end-to-end transport path using cryptographic mechanisms unless protected by alternative measures.\"",
+          "summary": "Stronger controls are implemented to protect certain electronic messages, and electronic messages are protected throughout the duration of its end-to-end transport path using cryptographic mechanisms unless protected by alternative measures.",
           "requirement": "09.v",
           "applicable": true
         },
         {
           "ref": "0929.09v1Organizational.6",
-          "summary": "The organization never sends unencrypted sensitive information by end-user messaging technologies (e.g., email, instant messaging, and chat).\"",
+          "summary": "The organization never sends unencrypted sensitive information by end-user messaging technologies (e.g., email, instant messaging, and chat).",
           "requirement": "09.v",
           "applicable": true
         },
@@ -1329,13 +1329,13 @@
         },
         {
           "ref": "0945.09y1Organizational.3",
-          "summary": "Protocols used to communicate between all involved parties are secured using cryptographic techniques (e.g., SSL).\"",
+          "summary": "Protocols used to communicate between all involved parties are secured using cryptographic techniques (e.g., SSL).",
           "requirement": "09.y",
           "applicable": true
         },
         {
           "ref": "0961.09v1Organizational.7",
-          "summary": "The organization does not send PII/PHI over facsimile (FAX), unless it cannot be sent over other, more secure channels, e.g., delivery by hand, secure email.\"",
+          "summary": "The organization does not send PII/PHI over facsimile (FAX), unless it cannot be sent over other, more secure channels, e.g., delivery by hand, secure email.",
           "requirement": "09.v",
           "applicable": true
         }
@@ -1347,7 +1347,7 @@
       "controls": [
         {
           "ref": "1001.01d1System.24567",
-          "summary": "The organization changes passwords for default system accounts, at first logon following the issuance of a secure temporary password, when there is a suspected compromise, and no less than every ninety (90) days for regular accounts or 60 days for privileged (i.e., administrator accounts).\"",
+          "summary": "The organization changes passwords for default system accounts, at first logon following the issuance of a secure temporary password, when there is a suspected compromise, and no less than every ninety (90) days for regular accounts or 60 days for privileged (i.e., administrator accounts).",
           "requirement": "01.d",
           "applicable": true
         },
@@ -1371,7 +1371,7 @@
         },
         {
           "ref": "1004.01d1System.8913",
-          "summary": "The organization maintains a list of commonly-used, expected or compromised passwords, and updates the list at least every 180 days and when organizational passwords are suspected to have been compromised, either directly or indirectly; verifies, when users create or update passwords, that the passwords are not found on the organization-defined list of commonly-used, expected or compromised passwords; allows users to select long passwords and passphrases, including spaces and all printable characters; and employs automated tools to assist the user in selecting strong passwords and authenticators.\"",
+          "summary": "The organization maintains a list of commonly-used, expected or compromised passwords, and updates the list at least every 180 days and when organizational passwords are suspected to have been compromised, either directly or indirectly; verifies, when users create or update passwords, that the passwords are not found on the organization-defined list of commonly-used, expected or compromised passwords; allows users to select long passwords and passphrases, including spaces and all printable characters; and employs automated tools to assist the user in selecting strong passwords and authenticators.",
           "requirement": "01.d",
           "applicable": true
         },
@@ -1419,7 +1419,7 @@
         },
         {
           "ref": "1022.01d1System.15",
-          "summary": "Password policies, applicable to mobile devices, are documented and enforced through technical controls on all company devices or devices approved for BYOD usage, and prohibit the changing of password/PIN lengths and authentication requirements.\"",
+          "summary": "Password policies, applicable to mobile devices, are documented and enforced through technical controls on all company devices or devices approved for BYOD usage, and prohibit the changing of password/PIN lengths and authentication requirements.",
           "requirement": "01.d",
           "applicable": true
         },
@@ -1443,49 +1443,49 @@
         },
         {
           "ref": "1107.01b1System.2",
-          "summary": "Default and unnecessary system accounts are removed, disabled, or otherwise secured (e.g., the passwords are changed and privileges are reduced to the lowest levels of access.)\"",
+          "summary": "Default and unnecessary system accounts are removed, disabled, or otherwise secured (e.g., the passwords are changed and privileges are reduced to the lowest levels of access.)",
           "requirement": "01.b",
           "applicable": true
         },
         {
           "ref": "1108.01b1System.3",
-          "summary": "Account managers are notified when users' access rights change (e.g., termination, change in position) and modify the user's account accordingly.\"",
+          "summary": "Account managers are notified when users' access rights change (e.g., termination, change in position) and modify the user's account accordingly.",
           "requirement": "01.b",
           "applicable": true
         },
         {
           "ref": "1109.01b1System.479",
-          "summary": "User registration and de-registration, at a minimum, communicate relevant policies to users and require acknowledgement (e.g. signed or captured electronically), check authorization and minimum level of access necessary prior to granting access, ensure access is appropriate to the business and/or clinical needs (consistent with sensitivity/risk and does not violate segregation of duties requirements), address termination and transfer, ensure default accounts are removed and/or renamed, remove or block critical access rights of users who have changed roles or jobs, and automatically remove or disable inactive accounts.\"",
+          "summary": "User registration and de-registration, at a minimum, communicate relevant policies to users and require acknowledgement (e.g. signed or captured electronically), check authorization and minimum level of access necessary prior to granting access, ensure access is appropriate to the business and/or clinical needs (consistent with sensitivity/risk and does not violate segregation of duties requirements), address termination and transfer, ensure default accounts are removed and/or renamed, remove or block critical access rights of users who have changed roles or jobs, and automatically remove or disable inactive accounts.",
           "requirement": "01.b",
           "applicable": true
         },
         {
           "ref": "1110.01b1System.5",
-          "summary": "Users are given a written statement of their access rights, which they are required to sign stating they understand the conditions of access. Guest/anonymous, shared/group, emergency and temporary accounts are specifically authorized and use monitored.\"",
+          "summary": "Users are given a written statement of their access rights, which they are required to sign stating they understand the conditions of access. Guest/anonymous, shared/group, emergency and temporary accounts are specifically authorized and use monitored.",
           "requirement": "01.b",
           "applicable": true
         },
         {
           "ref": "1114.01h1Organizational.123",
-          "summary": "Covered or critical business information is not left unattended or available for unauthorized individuals to access, including on desks, printers, copiers, fax machines, and computer monitors.\"",
+          "summary": "Covered or critical business information is not left unattended or available for unauthorized individuals to access, including on desks, printers, copiers, fax machines, and computer monitors.",
           "requirement": "01.h",
           "applicable": true
         },
         {
           "ref": "1115.01h1Organizational.45",
-          "summary": "Covered or critical information is protected when using internal or external (e.g., USPS) mail services.\"",
+          "summary": "Covered or critical information is protected when using internal or external (e.g., USPS) mail services.",
           "requirement": "01.h",
           "applicable": true
         },
         {
           "ref": "1116.01j1Organizational.145",
-          "summary": "Strong authentication methods such as multi-factor, Radius or Kerberos (for privileged access) and CHAP (for encryption of credentials for dialup methods) are implemented for all external connections to the organizations network.\"",
+          "summary": "Strong authentication methods such as multi-factor, Radius or Kerberos (for privileged access) and CHAP (for encryption of credentials for dialup methods) are implemented for all external connections to the organizations network.",
           "requirement": "01.j",
           "applicable": true
         },
         {
           "ref": "1117.01j1Organizational.23",
-          "summary": "Remote access by vendors and business partners (e.g., for remote maintenance) is disabled/deactivated when not in use.\"",
+          "summary": "Remote access by vendors and business partners (e.g., for remote maintenance) is disabled/deactivated when not in use.",
           "requirement": "01.j",
           "applicable": true
         },
@@ -1497,13 +1497,13 @@
         },
         {
           "ref": "1123.01q1System.2",
-          "summary": "Users who performed privileged functions (e.g., system administration) use separate accounts when performing those privileged functions.\"",
+          "summary": "Users who performed privileged functions (e.g., system administration) use separate accounts when performing those privileged functions.",
           "requirement": "01.q",
           "applicable": true
         },
         {
           "ref": "1124.01q1System.34",
-          "summary": "Shared/group and generic user IDs are only used in exceptional circumstances where there is a clear business benefit, when user functions do not need to be traced, additional accountability controls are implemented, and after approval by management.\"",
+          "summary": "Shared/group and generic user IDs are only used in exceptional circumstances where there is a clear business benefit, when user functions do not need to be traced, additional accountability controls are implemented, and after approval by management.",
           "requirement": "01.q",
           "applicable": true
         },
@@ -1515,7 +1515,7 @@
         },
         {
           "ref": "1135.02i1Organizational.1234",
-          "summary": "Upon termination or changes in employment for employees, contractors, third-party users or other workforce arrangement, physical and logical access rights and associated materials (e.g., passwords, keycards, keys, documentation that identify them as current members of the organization) are removed or modified to restrict access within 24 hours and old accounts are closed after 90 days of opening new accounts.\"",
+          "summary": "Upon termination or changes in employment for employees, contractors, third-party users or other workforce arrangement, physical and logical access rights and associated materials (e.g., passwords, keycards, keys, documentation that identify them as current members of the organization) are removed or modified to restrict access within 24 hours and old accounts are closed after 90 days of opening new accounts.",
           "requirement": "02.i",
           "applicable": true
         },
@@ -1527,25 +1527,25 @@
         },
         {
           "ref": "1111.01b2System.1",
-          "summary": "Group, shared or generic accounts and passwords (e.g., for first-time log-on) are not used.\"",
+          "summary": "Group, shared or generic accounts and passwords (e.g., for first-time log-on) are not used.",
           "requirement": "01.b",
           "applicable": true
         },
         {
           "ref": "1112.01b2System.2",
-          "summary": "User identities are verified in person before a designated registration authority with authorization by a designated organizational official (e.g., a supervisor or other individual defined in an applicable security plan) prior to receiving a hardware token.\"",
+          "summary": "User identities are verified in person before a designated registration authority with authorization by a designated organizational official (e.g., a supervisor or other individual defined in an applicable security plan) prior to receiving a hardware token.",
           "requirement": "01.b",
           "applicable": true
         },
         {
           "ref": "1125.01q2System.1",
-          "summary": "Multi-factor authentication methods are used in accordance with organizational policy, (e.g., for remote network access).\"",
+          "summary": "Multi-factor authentication methods are used in accordance with organizational policy, (e.g., for remote network access).",
           "requirement": "01.q",
           "applicable": true
         },
         {
           "ref": "1127.01q2System.3",
-          "summary": "Where tokens are provided for multi-factor authentication, in-person verification is required prior to granting access.\"",
+          "summary": "Where tokens are provided for multi-factor authentication, in-person verification is required prior to granting access.",
           "requirement": "01.q",
           "applicable": true
         },
@@ -1569,7 +1569,7 @@
         },
         {
           "ref": "1132.01v2System.3",
-          "summary": "Covered information is encrypted when stored in non-secure areas and, if not encrypted at rest, the organization must document its rationale.\"",
+          "summary": "Covered information is encrypted when stored in non-secure areas and, if not encrypted at rest, the organization must document its rationale.",
           "requirement": "01.v",
           "applicable": true
         },
@@ -1581,31 +1581,31 @@
         },
         {
           "ref": "1134.01v3System.1",
-          "summary": "Copy (including print screen), move, print, and storage of sensitive data are prohibited when accessed remotely without a defined business need.\"",
+          "summary": "Copy (including print screen), move, print, and storage of sensitive data are prohibited when accessed remotely without a defined business need.",
           "requirement": "01.v",
           "applicable": true
         },
         {
           "ref": "1139.01b1System.68",
-          "summary": "Account types are identified (individual, shared/group, system, application, guest/anonymous, emergency and temporary), conditions for group and role membership are established, and, if used, shared/group account credentials are modified when users are removed from the group.\"",
+          "summary": "Account types are identified (individual, shared/group, system, application, guest/anonymous, emergency and temporary), conditions for group and role membership are established, and, if used, shared/group account credentials are modified when users are removed from the group.",
           "requirement": "01.b",
           "applicable": true
         },
         {
           "ref": "1143.01c1System.123",
-          "summary": "Privileges are formally authorized and controlled, allocated to users on a need-to-use and event-by-event basis for their functional rol (e.g., user or administrator), and documented for each system product/element.\"",
+          "summary": "Privileges are formally authorized and controlled, allocated to users on a need-to-use and event-by-event basis for their functional rol (e.g., user or administrator), and documented for each system product/element.",
           "requirement": "01.c",
           "applicable": true
         },
         {
           "ref": "1144.01c1System.4",
-          "summary": "The organization explicitly authorizes access to specific security relevant functions (deployed in hardware, software, and firmware) and security-relevant information.\"",
+          "summary": "The organization explicitly authorizes access to specific security relevant functions (deployed in hardware, software, and firmware) and security-relevant information.",
           "requirement": "01.c",
           "applicable": true
         },
         {
           "ref": "1145.01c2System.1",
-          "summary": "Role-based access control is implemented and capable of mapping each user to one or more roles, and each role to one or more system functions.\"",
+          "summary": "Role-based access control is implemented and capable of mapping each user to one or more roles, and each role to one or more system functions.",
           "requirement": "01.c",
           "applicable": true
         },
@@ -1617,7 +1617,7 @@
         },
         {
           "ref": "1147.01c2System.456",
-          "summary": "Elevated privileges are assigned to a different user ID from those used for normal business use, all users access privileged services in a single role, and such privileged access is minimized.\"",
+          "summary": "Elevated privileges are assigned to a different user ID from those used for normal business use, all users access privileged services in a single role, and such privileged access is minimized.",
           "requirement": "01.c",
           "applicable": true
         },
@@ -1635,7 +1635,7 @@
         },
         {
           "ref": "1150.01c2System.10",
-          "summary": "The access control system for the system components storing, processing or transmitting covered information is set with a default \"\"deny-all\"\" setting.\"",
+          "summary": "The access control system for the system components storing, processing or transmitting covered information is set with a default \"deny-all\" setting.",
           "requirement": "01.c",
           "applicable": true
         },
@@ -1647,7 +1647,7 @@
         },
         {
           "ref": "1173.01j1Organizational.6",
-          "summary": "If encryption is not used for dial-up connections, the CIO or his/her designated representative provides specific written authorization.\"",
+          "summary": "If encryption is not used for dial-up connections, the CIO or his/her designated representative provides specific written authorization.",
           "requirement": "01.j",
           "applicable": true
         },
@@ -1677,25 +1677,25 @@
         },
         {
           "ref": "11110.01q1Organizational.6",
-          "summary": "Non-organizational users (all information system users other than organizational users, such as patients, customers, contractors, or foreign nationals), or processes acting on behalf of non-organizational users, determined to need access to information residing on the organization's information systems, are uniquely identified and authenticated.\"",
+          "summary": "Non-organizational users (all information system users other than organizational users, such as patients, customers, contractors, or foreign nationals), or processes acting on behalf of non-organizational users, determined to need access to information residing on the organization's information systems, are uniquely identified and authenticated.",
           "requirement": "01.q",
           "applicable": true
         },
         {
           "ref": "11111.01q2System.4",
-          "summary": "When PKI-based authentication is used, the information system validates certificates by constructing and verifying a certification path to an accepted trust anchor, including checking certificate status information; enforces access to the corresponding private key; maps the identity to the corresponding account of the individual or group; and implements a local cache of revocation data to support path discovery and validation in case of an inability to access revocation information via the network.\"",
+          "summary": "When PKI-based authentication is used, the information system validates certificates by constructing and verifying a certification path to an accepted trust anchor, including checking certificate status information; enforces access to the corresponding private key; maps the identity to the corresponding account of the individual or group; and implements a local cache of revocation data to support path discovery and validation in case of an inability to access revocation information via the network.",
           "requirement": "01.q",
           "applicable": true
         },
         {
           "ref": "11112.01q2Organizational.67",
-          "summary": "The information system employs replay-resistant authentication mechanisms such as nonce, one-time passwords, or time stamps to secure network access for privileged accounts; and, for hardware token-based authentication, employs mechanisms that satisfy minimum token requirements discussed in NIST SP 800-63-2, Electronic Authentication Guideline.\"",
+          "summary": "The information system employs replay-resistant authentication mechanisms such as nonce, one-time passwords, or time stamps to secure network access for privileged accounts; and, for hardware token-based authentication, employs mechanisms that satisfy minimum token requirements discussed in NIST SP 800-63-2, Electronic Authentication Guideline.",
           "requirement": "01.q",
           "applicable": true
         },
         {
           "ref": "11126.01t1Organizational.12",
-          "summary": "A time-out system (e.g. a screen saver) pauses the session screen after 15 minutes of inactivity, closes network sessions after 30 minutes of inactivity, and requires the user to reestablish authenticated access once the session has been paused or closed; or, if the system cannot be modified, a limited form of time-out that clears the screen but does not close down the application or network sessions is used.\"",
+          "summary": "A time-out system (e.g. a screen saver) pauses the session screen after 15 minutes of inactivity, closes network sessions after 30 minutes of inactivity, and requires the user to reestablish authenticated access once the session has been paused or closed; or, if the system cannot be modified, a limited form of time-out that clears the screen but does not close down the application or network sessions is used.",
           "requirement": "01.t",
           "applicable": true
         },
@@ -1707,25 +1707,25 @@
         },
         {
           "ref": "11154.02i1Organizational.5",
-          "summary": "Access rights to information assets and facilities is reduced or removed before the employment or other workforce arrangement terminates or changes, depending on the evaluation of risk factors.\"",
+          "summary": "Access rights to information assets and facilities is reduced or removed before the employment or other workforce arrangement terminates or changes, depending on the evaluation of risk factors.",
           "requirement": "02.i",
           "applicable": true
         },
         {
           "ref": "11190.01t1Organizational.3",
-          "summary": "Bring your own device (BYOD) and/or company-owned devices are configured to require an automatic lockout screen, and the requirement is enforced through technical controls.\"",
+          "summary": "Bring your own device (BYOD) and/or company-owned devices are configured to require an automatic lockout screen, and the requirement is enforced through technical controls.",
           "requirement": "01.t",
           "applicable": true
         },
         {
           "ref": "11200.01b2Organizational.3",
-          "summary": "Identity verification of the individual is required prior to establishing, assigning, or certifying an individual's electronic signature or any element of such signature.\"",
+          "summary": "Identity verification of the individual is required prior to establishing, assigning, or certifying an individual's electronic signature or any element of such signature.",
           "requirement": "01.b",
           "applicable": true
         },
         {
           "ref": "11208.01q1Organizational.8",
-          "summary": "The organization requires that electronic signatures, unique to one individual, cannot be reused by, or reassigned to, anyone else.\"",
+          "summary": "The organization requires that electronic signatures, unique to one individual, cannot be reused by, or reassigned to, anyone else.",
           "requirement": "01.q",
           "applicable": true
         },
@@ -1749,13 +1749,13 @@
         },
         {
           "ref": "11219.01b1Organizational.10",
-          "summary": "The organization  maintains a current listing of all workforce members (individuals, contractors and Business Associates) with access to PHI.\"",
+          "summary": "The organization  maintains a current listing of all workforce members (individuals, contractors and Business Associates) with access to PHI.",
           "requirement": "01.b",
           "applicable": true
         },
         {
           "ref": "11220.01b1System.10",
-          "summary": "User registration and de-registration formally address establishing, activating, modifying, reviewing, disabling and removing accounts.\"",
+          "summary": "User registration and de-registration formally address establishing, activating, modifying, reviewing, disabling and removing accounts.",
           "requirement": "01.b",
           "applicable": true
         }
@@ -1767,25 +1767,25 @@
       "controls": [
         {
           "ref": "1201.06e1Organizational.2",
-          "summary": "The organization provides notice that the employee's actions may be monitored, and that the employee consents to such monitoring.\"",
+          "summary": "The organization provides notice that the employee's actions may be monitored, and that the employee consents to such monitoring.",
           "requirement": "06.e",
           "applicable": true
         },
         {
           "ref": "1202.09aa1System.1",
-          "summary": "A secure audit record is created for all activities on the system (create, read, update, delete) involving covered information.\"",
+          "summary": "A secure audit record is created for all activities on the system (create, read, update, delete) involving covered information.",
           "requirement": "09.aa",
           "applicable": true
         },
         {
           "ref": "1203.09aa1System.2",
-          "summary": "Audit records include the unique user ID, unique data subject ID, function performed, and date/time the event was performed.\"",
+          "summary": "Audit records include the unique user ID, unique data subject ID, function performed, and date/time the event was performed.",
           "requirement": "09.aa",
           "applicable": true
         },
         {
           "ref": "1204.09aa1System.3",
-          "summary": "The activities of privileged users (administrators, operators, etc.) include the success/failure of the event, time the event occurred, the account involved, the processes involved, and additional information about the event.\"",
+          "summary": "The activities of privileged users (administrators, operators, etc.) include the success/failure of the event, time the event occurred, the account involved, the processes involved, and additional information about the event.",
           "requirement": "09.aa",
           "applicable": true
         },
@@ -1815,13 +1815,13 @@
         },
         {
           "ref": "12101.09ab1Organizational.3",
-          "summary": "The organization specifies how often audit logs are reviewed, how the reviews are documented, and the specific roles and responsibilities of the personnel conducting the reviews, including the professional certifications or other qualifications required.\"",
+          "summary": "The organization specifies how often audit logs are reviewed, how the reviews are documented, and the specific roles and responsibilities of the personnel conducting the reviews, including the professional certifications or other qualifications required.",
           "requirement": "09.ab",
           "applicable": true
         },
         {
           "ref": "12102.09ab1Organizational.4",
-          "summary": "The organization periodically tests its monitoring and detection processes, remediates deficiencies, and improves its processes.\"",
+          "summary": "The organization periodically tests its monitoring and detection processes, remediates deficiencies, and improves its processes.",
           "requirement": "09.ab",
           "applicable": true
         },
@@ -1851,25 +1851,25 @@
         },
         {
           "ref": "1307.07c1Organizational.124",
-          "summary": "The organization defines rules to describe user responsibilities and acceptable behavior for information system usage, including at a minimum rules for email, internet, mobile devices, social media and facility usage.\"",
+          "summary": "The organization defines rules to describe user responsibilities and acceptable behavior for information system usage, including at a minimum rules for email, internet, mobile devices, social media and facility usage.",
           "requirement": "07.c",
           "applicable": true
         },
         {
           "ref": "1308.09j1Organizational.5",
-          "summary": "The organization prohibits users from installing unauthorized software, including data and software from external networks, and ensures users are made aware and trained on these requirements.\"",
+          "summary": "The organization prohibits users from installing unauthorized software, including data and software from external networks, and ensures users are made aware and trained on these requirements.",
           "requirement": "09.j",
           "applicable": true
         },
         {
           "ref": "1309.01x1System.36",
-          "summary": "Personnel using mobile computing devices are trained on the risks, the controls implemented, and their responsibilities, e.g., shoulder surfing, physical protections.\"",
+          "summary": "Personnel using mobile computing devices are trained on the risks, the controls implemented, and their responsibilities, e.g., shoulder surfing, physical protections.",
           "requirement": "01.x",
           "applicable": true
         },
         {
           "ref": "1310.01y1Organizational.9",
-          "summary": "Personnel who telework are trained on the risks, the controls implemented, and their responsibilities.\"",
+          "summary": "Personnel who telework are trained on the risks, the controls implemented, and their responsibilities.",
           "requirement": "01.y",
           "applicable": true
         },
@@ -1881,13 +1881,13 @@
         },
         {
           "ref": "1324.07c1Organizational.3",
-          "summary": "Employees, contractors and third party system users are aware of the limits existing for their use of the organization's information and assets associated with information processing facilities and resources; and they are responsible for their use of any information resource and of any use carried out under their responsibility.\"",
+          "summary": "Employees, contractors and third party system users are aware of the limits existing for their use of the organization's information and assets associated with information processing facilities and resources; and they are responsible for their use of any information resource and of any use carried out under their responsibility.",
           "requirement": "07.c",
           "applicable": true
         },
         {
           "ref": "1325.09s1Organizational.3",
-          "summary": "Personnel are appropriately trained on leading principles and practices for all types of information exchange (oral, paper and electronic).\"",
+          "summary": "Personnel are appropriately trained on leading principles and practices for all types of information exchange (oral, paper and electronic).",
           "requirement": "09.s",
           "applicable": true
         },
@@ -1911,7 +1911,7 @@
       "controls": [
         {
           "ref": "1401.05i1Organizational.1239",
-          "summary": "Access to the organizations information and systems by external parties is not permitted until due diligence has been conducted, the appropriate controls have been implemented, and a contract/agreement reflecting the security requirements is signed acknowledging they understand and accept their obligations.\"",
+          "summary": "Access to the organizations information and systems by external parties is not permitted until due diligence has been conducted, the appropriate controls have been implemented, and a contract/agreement reflecting the security requirements is signed acknowledging they understand and accept their obligations.",
           "requirement": "05.i",
           "applicable": true
         },
@@ -1935,7 +1935,7 @@
         },
         {
           "ref": "1408.09e1System.1",
-          "summary": "Service Level Agreements (SLAs) or contracts with an agreed service arrangement address liability, service definitions, security controls, and other aspects of services management.\"",
+          "summary": "Service Level Agreements (SLAs) or contracts with an agreed service arrangement address liability, service definitions, security controls, and other aspects of services management.",
           "requirement": "09.e",
           "applicable": true
         },
@@ -1947,7 +1947,7 @@
         },
         {
           "ref": "1416.10l1Organizational.1",
-          "summary": "Where software development is outsourced, formal contracts are in place to address the ownership and security of the code and application.\"",
+          "summary": "Where software development is outsourced, formal contracts are in place to address the ownership and security of the code and application.",
           "requirement": "10.l",
           "applicable": true
         },
@@ -1959,7 +1959,7 @@
         },
         {
           "ref": "1429.05k1Organizational.34",
-          "summary": "The organization maintains written agreements (contracts) that include: (i) an acknowledgement that the third party (e.g., a service provider) is responsible for the security of the data and requirements to address the associated information security risks and (ii) requirements to address the information security risks associated with information and communications technology services (e.g., cloud computing services) and product supply chain.\"",
+          "summary": "The organization maintains written agreements (contracts) that include: (i) an acknowledgement that the third party (e.g., a service provider) is responsible for the security of the data and requirements to address the associated information security risks and (ii) requirements to address the information security risks associated with information and communications technology services (e.g., cloud computing services) and product supply chain.",
           "requirement": "05.k",
           "applicable": true
         },
@@ -1971,25 +1971,25 @@
         },
         {
           "ref": "1431.05k1Organizational.7",
-          "summary": "The organization establishes personnel security requirements, including security roles and responsibilities, for third-party providers that are coordinated and aligned with internal security roles and responsibilities.\"",
+          "summary": "The organization establishes personnel security requirements, including security roles and responsibilities, for third-party providers that are coordinated and aligned with internal security roles and responsibilities.",
           "requirement": "05.k",
           "applicable": true
         },
         {
           "ref": "1432.05k1Organizational.89",
-          "summary": "The organization ensures a screening process is carried out for contractors and third party users; and, where contractors are provided through an organization, (i) the contract with the organization clearly specifies the organization's responsibilities for screening and the notification procedures they need to follow if screening has not been completed or if the results give cause for doubt or concern and, in the same way, (ii) the agreement with the third party clearly specifies all responsibilities and notification procedures for screening.\"",
+          "summary": "The organization ensures a screening process is carried out for contractors and third party users; and, where contractors are provided through an organization, (i) the contract with the organization clearly specifies the organization's responsibilities for screening and the notification procedures they need to follow if screening has not been completed or if the results give cause for doubt or concern and, in the same way, (ii) the agreement with the third party clearly specifies all responsibilities and notification procedures for screening.",
           "requirement": "05.k",
           "applicable": true
         },
         {
           "ref": "1419.05j1Organizational.12",
-          "summary": "The organization ensures that customers are aware of their obligations and rights, and accept the responsibilities and liabilities involved in accessing, processing, communicating, or managing the organization's information and information assets.\"",
+          "summary": "The organization ensures that customers are aware of their obligations and rights, and accept the responsibilities and liabilities involved in accessing, processing, communicating, or managing the organization's information and information assets.",
           "requirement": "05.j",
           "applicable": true
         },
         {
           "ref": "1420.05j1Organizational.34",
-          "summary": "The organization permits an individual to request restriction of the disclosure of the individual's covered information to a business associate for purposes of carrying out payment or health care operations, and is not for purposes of carrying out treatment, and responds to any requests from an individual on the disclosure of the individual's covered information.\"",
+          "summary": "The organization permits an individual to request restriction of the disclosure of the individual's covered information to a business associate for purposes of carrying out payment or health care operations, and is not for purposes of carrying out treatment, and responds to any requests from an individual on the disclosure of the individual's covered information.",
           "requirement": "05.j",
           "applicable": true
         }
@@ -2019,13 +2019,13 @@
         },
         {
           "ref": "1505.11a1Organizational.13",
-          "summary": "A formal security incident response program has been established to respond, report (without fear of repercussion), escalate and treat breaches and reported security events or incidents. Organization-wide standards are specified for the time required for system administrators and other personnel to report anomalous events to the incident handling team, the mechanisms for such reporting, and the kind of information that should be included in the incident notification. This reporting includes notifying internal and external stakeholders, the appropriate community Computer Emergency Response Team, and law enforcement agencies in accordance with all legal or regulatory requirements for involving such organizations in computer incidents.\"",
+          "summary": "A formal security incident response program has been established to respond, report (without fear of repercussion), escalate and treat breaches and reported security events or incidents. Organization-wide standards are specified for the time required for system administrators and other personnel to report anomalous events to the incident handling team, the mechanisms for such reporting, and the kind of information that should be included in the incident notification. This reporting includes notifying internal and external stakeholders, the appropriate community Computer Emergency Response Team, and law enforcement agencies in accordance with all legal or regulatory requirements for involving such organizations in computer incidents.",
           "requirement": "11.a",
           "applicable": true
         },
         {
           "ref": "1506.11a1Organizational.2",
-          "summary": "There is a point of contact for reporting information security events who is made known throughout the organization, always available, and able to provide adequate and timely response.  The organization also maintains a list of third-party contact information (e.g., the email addresses of their information security offices), which can be used to report a security incident.\"",
+          "summary": "There is a point of contact for reporting information security events who is made known throughout the organization, always available, and able to provide adequate and timely response.  The organization also maintains a list of third-party contact information (e.g., the email addresses of their information security offices), which can be used to report a security incident.",
           "requirement": "11.a",
           "applicable": true
         },
@@ -2061,13 +2061,13 @@
         },
         {
           "ref": "1560.11d1Organizational.1",
-          "summary": "The information gained from the evaluation of information security incidents is used to identify recurring or high-impact incidents, and update the incident response and recovery strategy.\"",
+          "summary": "The information gained from the evaluation of information security incidents is used to identify recurring or high-impact incidents, and update the incident response and recovery strategy.",
           "requirement": "11.d",
           "applicable": true
         },
         {
           "ref": "1581.02f1Organizational.7",
-          "summary": "The organization ensures individuals are held accountable and responsible for actions initiated under their electronic signatures, to help deter record and signature falsification.\"",
+          "summary": "The organization ensures individuals are held accountable and responsible for actions initiated under their electronic signatures, to help deter record and signature falsification.",
           "requirement": "02.f",
           "applicable": true
         },
@@ -2091,7 +2091,7 @@
         },
         {
           "ref": "1602.12c1Organizational.4567",
-          "summary": "The contingency program addresses required capacity, identifies critical missions and business functions, defines recovery objectives and priorities, and identifies roles and responsibilities.\"",
+          "summary": "The contingency program addresses required capacity, identifies critical missions and business functions, defines recovery objectives and priorities, and identifies roles and responsibilities.",
           "requirement": "12.c",
           "applicable": true
         },
@@ -2109,25 +2109,25 @@
         },
         {
           "ref": "1617.09l1Organizational.23",
-          "summary": "A formal definition of the level of backup required for each system is defined and documented including how each system will be restored, the scope of data to be imaged, frequency of imaging, and duration of retention based on relevant contractual, legal, regulatory and business requirements.\"",
+          "summary": "A formal definition of the level of backup required for each system is defined and documented including how each system will be restored, the scope of data to be imaged, frequency of imaging, and duration of retention based on relevant contractual, legal, regulatory and business requirements.",
           "requirement": "09.l",
           "applicable": true
         },
         {
           "ref": "1618.09l1Organizational.45",
-          "summary": "The backups are stored in a physically secure remote location, at a sufficient distance to make them reasonably immune from damage to data at the primary site, and reasonable physical and environmental controls are in place to ensure their protection at the remote location.\"",
+          "summary": "The backups are stored in a physically secure remote location, at a sufficient distance to make them reasonably immune from damage to data at the primary site, and reasonable physical and environmental controls are in place to ensure their protection at the remote location.",
           "requirement": "09.l",
           "applicable": true
         },
         {
           "ref": "1619.09l1Organizational.7",
-          "summary": "Inventory records for the backup copies, including content and current location, are maintained.\"",
+          "summary": "Inventory records for the backup copies, including content and current location, are maintained.",
           "requirement": "09.l",
           "applicable": true
         },
         {
           "ref": "1620.09l1Organizational.8",
-          "summary": "When the backup service is delivered by the third party, the service level agreement includes the detailed protections to control confidentiality, integrity and availability of the backup information.\"",
+          "summary": "When the backup service is delivered by the third party, the service level agreement includes the detailed protections to control confidentiality, integrity and availability of the backup information.",
           "requirement": "09.l",
           "applicable": true
         },
@@ -2139,37 +2139,37 @@
         },
         {
           "ref": "1635.12b1Organizational.2",
-          "summary": "Information security aspects of business continuity are (i) based on identifying events (or sequence of events) that can cause interruptions to the organization's critical business processes (e.g., equipment failure, human errors, theft, fire, natural disasters acts of terrorism); (ii) followed by a risk assessment to determine the probability and impact of such interruptions, in terms of time, damage scale and recovery period; (iii) based on the results of the risk assessment, a business continuity strategy is developed to identify the overall approach to business continuity; and (iv) once this strategy has been created, endorsement is provided by management, and a plan created and endorsed to implement this strategy.\"",
+          "summary": "Information security aspects of business continuity are (i) based on identifying events (or sequence of events) that can cause interruptions to the organization's critical business processes (e.g., equipment failure, human errors, theft, fire, natural disasters acts of terrorism); (ii) followed by a risk assessment to determine the probability and impact of such interruptions, in terms of time, damage scale and recovery period; (iii) based on the results of the risk assessment, a business continuity strategy is developed to identify the overall approach to business continuity; and (iv) once this strategy has been created, endorsement is provided by management, and a plan created and endorsed to implement this strategy.",
           "requirement": "12.b",
           "applicable": true
         },
         {
           "ref": "1666.12d1Organizational.1235",
-          "summary": "The organization creates at a minimum one (1) business continuity plan and ensures each plan (i) has an owner, (ii) describes the approach for continuity, ensuring at a minimum the approach to maintain information or information asset availability and security, and (iii) specifies the escalation plan and the conditions for its activation, as well as the individuals responsible for executing each component of the plan.\"",
+          "summary": "The organization creates at a minimum one (1) business continuity plan and ensures each plan (i) has an owner, (ii) describes the approach for continuity, ensuring at a minimum the approach to maintain information or information asset availability and security, and (iii) specifies the escalation plan and the conditions for its activation, as well as the individuals responsible for executing each component of the plan.",
           "requirement": "12.d",
           "applicable": true
         },
         {
           "ref": "1667.12d1Organizational.4",
-          "summary": "When new requirements are identified, any existing emergency procedures (e.g., evacuation plans or fallback arrangements) are amended as appropriate.\"",
+          "summary": "When new requirements are identified, any existing emergency procedures (e.g., evacuation plans or fallback arrangements) are amended as appropriate.",
           "requirement": "12.d",
           "applicable": true
         },
         {
           "ref": "1668.12d1Organizational.67",
-          "summary": "Emergency procedures, manual \"\"fallback\"\" procedures, and resumption plans are the responsibility of the owner of the business resources or processes involved; and fallback arrangements for alternative technical services, such as information processing and communications facilities, are the responsibility of the service providers.\"",
+          "summary": "Emergency procedures, manual \"fallback\" procedures, and resumption plans are the responsibility of the owner of the business resources or processes involved; and fallback arrangements for alternative technical services, such as information processing and communications facilities, are the responsibility of the service providers.",
           "requirement": "12.d",
           "applicable": true
         },
         {
           "ref": "1669.12d1Organizational.8",
-          "summary": "The business continuity planning framework addresses a specific, minimal set of information security requirements.\"",
+          "summary": "The business continuity planning framework addresses a specific, minimal set of information security requirements.",
           "requirement": "12.d",
           "applicable": true
         },
         {
           "ref": "1699.09l1Organizational.10",
-          "summary": "Workforce members roles and responsibilities in the data backup process are identified and communicated to the workforce; in particular, Bring Your Own Device (BYOD) users are required to perform backups of organizational and/or client data on their devices.\"",
+          "summary": "Workforce members roles and responsibilities in the data backup process are identified and communicated to the workforce; in particular, Bring Your Own Device (BYOD) users are required to perform backups of organizational and/or client data on their devices.",
           "requirement": "09.l",
           "applicable": true
         }
@@ -2181,79 +2181,79 @@
       "controls": [
         {
           "ref": "1704.03b1Organizational.12",
-          "summary": "The organization performs risk assessments in a consistent way and at planned intervals, or when there are major changes to the organization's environment, and reviews the risk assessment results annually.\"",
+          "summary": "The organization performs risk assessments in a consistent way and at planned intervals, or when there are major changes to the organization's environment, and reviews the risk assessment results annually.",
           "requirement": "03.b",
           "applicable": true
         },
         {
           "ref": "1707.03c1Organizational.12",
-          "summary": "The organization uses a formal methodology with defined criteria for determining risk treatments and ensuring that corrective action plans for the security program and the associated organizational information systems are prioritized and maintained; and the remedial information security actions necessary to mitigate risk to organizational operations and assets, individuals, and other organizations are documented.\"",
+          "summary": "The organization uses a formal methodology with defined criteria for determining risk treatments and ensuring that corrective action plans for the security program and the associated organizational information systems are prioritized and maintained; and the remedial information security actions necessary to mitigate risk to organizational operations and assets, individuals, and other organizations are documented.",
           "requirement": "03.c",
           "applicable": true
         },
         {
           "ref": "1706.03b1Organizational.3",
-          "summary": "Risk assessments include the evaluation of multiple factors that may impact security as well as the likelihood and impact from a loss of confidentiality, integrity and availability of information and systems.\"",
+          "summary": "Risk assessments include the evaluation of multiple factors that may impact security as well as the likelihood and impact from a loss of confidentiality, integrity and availability of information and systems.",
           "requirement": "03.b",
           "applicable": true
         },
         {
           "ref": "1713.03c1Organizational.3",
-          "summary": "The covered entity mitigates any harmful effect that is known to the covered entity of a use or disclosure of PHI by the covered entity or its business associates, in violation of its policies and procedures.\"",
+          "summary": "The covered entity mitigates any harmful effect that is known to the covered entity of a use or disclosure of PHI by the covered entity or its business associates, in violation of its policies and procedures.",
           "requirement": "03.c",
           "applicable": true
         },
         {
           "ref": "1733.03d1Organizational.1",
-          "summary": "The risk management program includes the requirement that risk assessments be re-evaluated at least annually, or when there are significant changes in the environment.\"",
+          "summary": "The risk management program includes the requirement that risk assessments be re-evaluated at least annually, or when there are significant changes in the environment.",
           "requirement": "03.d",
           "applicable": true
         },
         {
           "ref": "1780.10a1Organizational.1",
-          "summary": "The organization formally addresses the purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance with system and information integrity requirements and facilitates the implementation of system and information integrity requirements/controls.\"",
+          "summary": "The organization formally addresses the purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance with system and information integrity requirements and facilitates the implementation of system and information integrity requirements/controls.",
           "requirement": "10.a",
           "applicable": true
         },
         {
           "ref": "1781.10a1Organizational.23",
-          "summary": "Information system specifications for security control requirements state that security controls are to be incorporated in the information system, supplemented by manual controls as needed, and these considerations are also applied when evaluating software packages, developed or purchased.\"",
+          "summary": "Information system specifications for security control requirements state that security controls are to be incorporated in the information system, supplemented by manual controls as needed, and these considerations are also applied when evaluating software packages, developed or purchased.",
           "requirement": "10.a",
           "applicable": true
         },
         {
           "ref": "1782.10a1Organizational.4",
-          "summary": "Security requirements and controls reflect the business value of the information assets involved, and the potential business damage that might result from a failure or absence of security.\"",
+          "summary": "Security requirements and controls reflect the business value of the information assets involved, and the potential business damage that might result from a failure or absence of security.",
           "requirement": "10.a",
           "applicable": true
         },
         {
           "ref": "1783.10a1Organizational.56",
-          "summary": "A formal acquisition process is followed for purchased commercial products, and supplier contracts include the identified security requirements.\"",
+          "summary": "A formal acquisition process is followed for purchased commercial products, and supplier contracts include the identified security requirements.",
           "requirement": "10.a",
           "applicable": true
         },
         {
           "ref": "1784.10a1Organizational.7",
-          "summary": "Where the security functionality in a proposed product does not satisfy the specified requirement, the risk introduced and associated controls are reconsidered prior to purchasing the product.\"",
+          "summary": "Where the security functionality in a proposed product does not satisfy the specified requirement, the risk introduced and associated controls are reconsidered prior to purchasing the product.",
           "requirement": "10.a",
           "applicable": true
         },
         {
           "ref": "1785.10a1Organizational.8",
-          "summary": "Where additional functionality is supplied and causes a security risk, the functionality is disabled or mitigated through application of additional controls.\"",
+          "summary": "Where additional functionality is supplied and causes a security risk, the functionality is disabled or mitigated through application of additional controls.",
           "requirement": "10.a",
           "applicable": true
         },
         {
           "ref": "1786.10a1Organizational.9",
-          "summary": "The organization requires developers of information systems, components, and developers or providers of services to identify (document) early in the system development life cycle, the functions ports, protocols, and services intended for organizational use.\"",
+          "summary": "The organization requires developers of information systems, components, and developers or providers of services to identify (document) early in the system development life cycle, the functions ports, protocols, and services intended for organizational use.",
           "requirement": "10.a",
           "applicable": true
         },
         {
           "ref": "17126.03c1System.6",
-          "summary": "The organization has implemented an integrated control system characterized using different control types (e.g., layered, preventative, detective, corrective, and compensating) that mitigates identified risks.\"",
+          "summary": "The organization has implemented an integrated control system characterized using different control types (e.g., layered, preventative, detective, corrective, and compensating) that mitigates identified risks.",
           "requirement": "03.c",
           "applicable": true
         }
@@ -2271,13 +2271,13 @@
         },
         {
           "ref": "1802.08b1Organizational.3",
-          "summary": "Areas where sensitive information (e.g., covered information, payment card data) is stored or processed are controlled and restricted to authorized individuals only.\"",
+          "summary": "Areas where sensitive information (e.g., covered information, payment card data) is stored or processed are controlled and restricted to authorized individuals only.",
           "requirement": "08.b",
           "applicable": true
         },
         {
           "ref": "1803.08b1Organizational.5",
-          "summary": "Repairs or modifications to the physical components of a facility which are related to security (e.g., hardware, walls, doors and locks) are documented and retained in accordance with the organization's retention policy.\"",
+          "summary": "Repairs or modifications to the physical components of a facility which are related to security (e.g., hardware, walls, doors and locks) are documented and retained in accordance with the organization's retention policy.",
           "requirement": "08.b",
           "applicable": true
         },
@@ -2289,13 +2289,13 @@
         },
         {
           "ref": "1819.08j1Organizational.23",
-          "summary": "Maintenance and service are controlled and conducted by authorized personnel in accordance with supplier-recommended intervals, insurance policies and the organizations maintenance program, taking into account whether this maintenance is performed by personnel on site or external to the organization.\"",
+          "summary": "Maintenance and service are controlled and conducted by authorized personnel in accordance with supplier-recommended intervals, insurance policies and the organizations maintenance program, taking into account whether this maintenance is performed by personnel on site or external to the organization.",
           "requirement": "08.j",
           "applicable": true
         },
         {
           "ref": "1825.08l1Organizational.12456",
-          "summary": "Electronic and physical media containing covered information is securely sanitized prior to reuse, or if it cannot be sanitized, is destroyed prior to disposal.\"",
+          "summary": "Electronic and physical media containing covered information is securely sanitized prior to reuse, or if it cannot be sanitized, is destroyed prior to disposal.",
           "requirement": "08.l",
           "applicable": true
         },
@@ -2307,25 +2307,25 @@
         },
         {
           "ref": "1844.08b1Organizational.6",
-          "summary": "The organization develops, approves and maintains a list of individuals with authorized access to the facility where the information system resides; issues authorization credentials for facility access; reviews the access list and authorization credentials periodically but no less than quarterly; and removes individuals from the facility access list when access is no longer required.\"",
+          "summary": "The organization develops, approves and maintains a list of individuals with authorized access to the facility where the information system resides; issues authorization credentials for facility access; reviews the access list and authorization credentials periodically but no less than quarterly; and removes individuals from the facility access list when access is no longer required.",
           "requirement": "08.b",
           "applicable": true
         },
         {
           "ref": "1845.08b1Organizational.7",
-          "summary": "For facilities where the information system resides, the organization enforces physical access authorizations at defined entry/exit points to the facility where the information system resides, maintains physical access audit logs, and provides security safeguards that the organization determines necessary for areas officially designated as publicly accessible.\"",
+          "summary": "For facilities where the information system resides, the organization enforces physical access authorizations at defined entry/exit points to the facility where the information system resides, maintains physical access audit logs, and provides security safeguards that the organization determines necessary for areas officially designated as publicly accessible.",
           "requirement": "08.b",
           "applicable": true
         },
         {
           "ref": "18127.08l1Organizational.3",
-          "summary": "Surplus equipment is stored securely while not in use, and disposed of or sanitized when no longer required.\"",
+          "summary": "Surplus equipment is stored securely while not in use, and disposed of or sanitized when no longer required.",
           "requirement": "08.l",
           "applicable": true
         },
         {
           "ref": "18130.09p1Organizational.24",
-          "summary": "The organization ensures the risk of information leakage to unauthorized persons during secure media disposal is minimized. If collection and disposal services offered by other organizations are used, care is taken in selecting a suitable contractor with adequate controls and experience.\"",
+          "summary": "The organization ensures the risk of information leakage to unauthorized persons during secure media disposal is minimized. If collection and disposal services offered by other organizations are used, care is taken in selecting a suitable contractor with adequate controls and experience.",
           "requirement": "09.p",
           "applicable": true
         },
@@ -2349,13 +2349,13 @@
         },
         {
           "ref": "1902.06d1Organizational.2",
-          "summary": "When required, consent is obtained before any protected information (e.g. about a patient) is emailed, faxed, or communicated by telephone conversation, or otherwise disclosed to parties external to the organization.\"",
+          "summary": "When required, consent is obtained before any protected information (e.g. about a patient) is emailed, faxed, or communicated by telephone conversation, or otherwise disclosed to parties external to the organization.",
           "requirement": "06.d",
           "applicable": true
         },
         {
           "ref": "1903.06d1Organizational.3456711",
-          "summary": "The confidentiality and integrity of covered information at rest is protected using an encryption method appropriate to the medium where it is stored;  where the organization chooses not to encrypt covered information, a documented rationale for not doing so is maintained or alternative compensating controls are used if the method is approved and reviewed annually by the CISO.\"",
+          "summary": "The confidentiality and integrity of covered information at rest is protected using an encryption method appropriate to the medium where it is stored;  where the organization chooses not to encrypt covered information, a documented rationale for not doing so is maintained or alternative compensating controls are used if the method is approved and reviewed annually by the CISO.",
           "requirement": "06.d",
           "applicable": true
         },
@@ -2367,13 +2367,13 @@
         },
         {
           "ref": "1906.06c1Organizational.2",
-          "summary": "The covered entity documents compliance with the notice requirements by retaining copies of the notices issued by the covered entity for a period of six (6) years and, if applicable, any written acknowledgements of receipt of the notice or documentation of good faith efforts to obtain such written acknowledgement.\"",
+          "summary": "The covered entity documents compliance with the notice requirements by retaining copies of the notices issued by the covered entity for a period of six (6) years and, if applicable, any written acknowledgements of receipt of the notice or documentation of good faith efforts to obtain such written acknowledgement.",
           "requirement": "06.c",
           "applicable": true
         },
         {
           "ref": "1907.06c1Organizational.3",
-          "summary": "The covered entity documents restrictions in writing and formally maintains such writing, or an electronic copy of such writing as an organizational record for a period of six (6) years.\"",
+          "summary": "The covered entity documents restrictions in writing and formally maintains such writing, or an electronic copy of such writing as an organizational record for a period of six (6) years.",
           "requirement": "06.c",
           "applicable": true
         },
@@ -2385,7 +2385,7 @@
         },
         {
           "ref": "1909.06c1Organizational.5",
-          "summary": "The covered entity documents and maintains accountings of disclosure as organizational records for a period of six (6) years, including the information required for disclosure, the written accounting provided to the individual, and the titles of the persons or offices responsible for receiving and processing requests for an accounting.\"",
+          "summary": "The covered entity documents and maintains accountings of disclosure as organizational records for a period of six (6) years, including the information required for disclosure, the written accounting provided to the individual, and the titles of the persons or offices responsible for receiving and processing requests for an accounting.",
           "requirement": "06.c",
           "applicable": true
         },
@@ -2397,19 +2397,19 @@
         },
         {
           "ref": "19140.06c1Organizational.1",
-          "summary": "The organization's formal policies and procedures, other critical records and disclosures of individuals' protected health information made are retained for a minimum of six (6) years; and, for electronic health records, the organization retains records of disclosures to carry out treatment, payment and health care operations for a minimum of three (3) years.\"",
+          "summary": "The organization's formal policies and procedures, other critical records and disclosures of individuals' protected health information made are retained for a minimum of six (6) years; and, for electronic health records, the organization retains records of disclosures to carry out treatment, payment and health care operations for a minimum of three (3) years.",
           "requirement": "06.c",
           "applicable": true
         },
         {
           "ref": "19141.06c1Organizational.7",
-          "summary": "Important records, such as contracts, personnel records, financial information, patient records, etc., of the organization are protected from loss, destruction and falsification through the implementation of security controls such as access controls, encryption, backups, electronic signatures, locked facilities or containers, etc.\"",
+          "summary": "Important records, such as contracts, personnel records, financial information, patient records, etc., of the organization are protected from loss, destruction and falsification through the implementation of security controls such as access controls, encryption, backups, electronic signatures, locked facilities or containers, etc.",
           "requirement": "06.c",
           "applicable": true
         },
         {
           "ref": "19142.06c1Organizational.8",
-          "summary": "Guidelines are issued by the organization on the ownership, classification, retention, storage, handling and disposal of ALL records and information.\"",
+          "summary": "Guidelines are issued by the organization on the ownership, classification, retention, storage, handling and disposal of ALL records and information.",
           "requirement": "06.c",
           "applicable": true
         },

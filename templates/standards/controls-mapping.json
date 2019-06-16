@@ -639,7 +639,8 @@
             "06.e",
             "06.g",
             "06.h",
-            "06.i"
+            "06.i",
+            "09.s"
           ],
           "controls": [
             "1905.06c1Organizational.6",
@@ -657,7 +658,8 @@
             "1504.06e1Organizational.34",
             "0601.06g1Organizational.124",
             "0602.06g1Organizational.3",
-            "0613.06h1Organizational.12"
+            "0613.06h1Organizational.12",
+            "0914.09s1Organizational.6"
           ]
         },
         {
@@ -1759,6 +1761,8 @@
             "0415.01y1Organizational.10",
             "1310.01y1Organizational.9",
             "0901.09s1Organizational.1",
+            "0912.09s1Organizational.4",
+            "0913.09s1Organizational.5",
             "0927.09v1Organizational.3",
             "0903.10f1Organizational.1"
           ]
@@ -2415,13 +2419,15 @@
           "requirements": [
             "07.a",
             "07.b",
-            "07.c"
+            "07.c",
+            "09.v"
           ],
           "controls": [
             "0701.07a1Organizational.12",
             "0702.07a1Organizational.3",
             "1307.07c1Organizational.124",
-            "1324.07c1Organizational.3"
+            "1324.07c1Organizational.3",
+            "0961.09v1Organizational.7"
           ]
         },
         {
@@ -2792,6 +2798,7 @@
             "19242.06d1Organizational.14",
             "19243.06d1Organizational.15",
             "0901.09s1Organizational.1",
+            "0913.09s1Organizational.5",
             "0926.09v1Organizational.2",
             "0928.09v1Organizational.45",
             "0929.09v1Organizational.6",

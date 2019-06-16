@@ -275,7 +275,9 @@
           "requirements": [
             "02.d",
             "02.e",
-            "06.g"
+            "06.g",
+            "09.j",
+            "09.s"
           ],
           "controls": [
             "0107.02d1Organizational.1",
@@ -286,7 +288,9 @@
             "1326.02e1Organizational.4",
             "1336.02e1Organizational.5",
             "0601.06g1Organizational.124",
-            "0602.06g1Organizational.3"
+            "0602.06g1Organizational.3",
+            "1308.09j1Organizational.5",
+            "1325.09s1Organizational.3"
           ]
         },
         {
@@ -326,13 +330,15 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [
-            "02.e"
+            "02.e",
+            "09.s"
           ],
           "controls": [
             "1301.02e1Organizational.12",
             "1313.02e1Organizational.3",
             "1326.02e1Organizational.4",
-            "1336.02e1Organizational.5"
+            "1336.02e1Organizational.5",
+            "1325.09s1Organizational.3"
           ]
         },
         {
@@ -364,13 +370,15 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [
-            "02.e"
+            "02.e",
+            "09.s"
           ],
           "controls": [
             "1301.02e1Organizational.12",
             "1313.02e1Organizational.3",
             "1326.02e1Organizational.4",
-            "1336.02e1Organizational.5"
+            "1336.02e1Organizational.5",
+            "1325.09s1Organizational.3"
           ]
         },
         {
@@ -876,6 +884,7 @@
             "06.e",
             "06.h",
             "06.i",
+            "09.j",
             "09.aa",
             "09.ab",
             "09.ad",
@@ -897,6 +906,7 @@
             "1306.06e1Organizational.5",
             "1504.06e1Organizational.34",
             "0613.06h1Organizational.12",
+            "0202.09j1Organizational.3",
             "1202.09aa1System.1",
             "1203.09aa1System.2",
             "1204.09aa1System.3",
@@ -1543,7 +1553,8 @@
             "01.a",
             "01.j",
             "01.x",
-            "01.y"
+            "01.y",
+            "09.v",
           ],
           "controls": [
             "1116.01j1Organizational.145",
@@ -1560,7 +1571,8 @@
             "1309.01x1System.36",
             "0405.01y1Organizational.12345678",
             "0415.01y1Organizational.10",
-            "1310.01y1Organizational.9"
+            "1310.01y1Organizational.9",
+            "0927.09v1Organizational.3"
           ]
         },
         {
@@ -1732,7 +1744,10 @@
           "requirements": [
             "01.a",
             "01.j",
-            "01.y"
+            "01.y",
+            "09.s",
+            "09.v",
+            "10.f"
           ],
           "controls": [
             "1116.01j1Organizational.145",
@@ -1742,7 +1757,10 @@
             "1175.01j1Organizational.8",
             "0405.01y1Organizational.12345678",
             "0415.01y1Organizational.10",
-            "1310.01y1Organizational.9"
+            "1310.01y1Organizational.9",
+            "0901.09s1Organizational.1",
+            "0927.09v1Organizational.3",
+            "0903.10f1Organizational.1"
           ]
         },
         {
@@ -2264,6 +2282,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [
+            "01.l",
             "08.a",
             "08.b",
             "08.c",
@@ -2279,6 +2298,7 @@
             "08.m"
           ],
           "controls": [
+            "1192.01l1Organizational.1",
             "1801.08b1Organizational.124",
             "1802.08b1Organizational.3",
             "1803.08b1Organizational.5",
@@ -2750,7 +2770,9 @@
           "requirements": [
             "01.v",
             "06.d",
+            "09.s",
             "09.u",
+            "09.v",
             "09.y",
             "10.d",
             "10.f",
@@ -2769,6 +2791,10 @@
             "1911.06d1Organizational.13",
             "19242.06d1Organizational.14",
             "19243.06d1Organizational.15",
+            "0901.09s1Organizational.1",
+            "0926.09v1Organizational.2",
+            "0928.09v1Organizational.45",
+            "0929.09v1Organizational.6",
             "0943.09y1Organizational.1",
             "0944.09y1Organizational.2",
             "0945.09y1Organizational.3",
@@ -3311,10 +3337,13 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [
+            "09.a",
+            "09.b",
             "10.h",
             "10.k"
           ],
           "controls": [
+            "0618.09b1System.1",
             "0605.10h1System.12",
             "0663.10h1System.7",
             "0635.10k1Organizational.12",
@@ -3353,10 +3382,12 @@
             "01.m",
             "01.n",
             "01.o",
+            "09.b",
             "10.h",
             "10.k"
           ],
           "controls": [
+            "0618.09b1System.1",
             "0805.01m1Organizational.12",
             "0814.01n1Organizational.12",
             "0850.01o1Organizational.12",
@@ -3396,6 +3427,8 @@
             "01.m",
             "01.n",
             "01.o",
+            "09.a",
+            "09.b",
             "10.h",
             "10.k"
           ],
@@ -3403,6 +3436,7 @@
             "0805.01m1Organizational.12",
             "0814.01n1Organizational.12",
             "0850.01o1Organizational.12",
+            "0618.09b1System.1",
             "0605.10h1System.12",
             "0663.10h1System.7",
             "0635.10k1Organizational.12",
@@ -3431,10 +3465,13 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [
+            "09.a",
+            "09.b",
             "10.h",
             "10.k"
           ],
           "controls": [
+            "0618.09b1System.1",
             "0605.10h1System.12",
             "0663.10h1System.7",
             "0635.10k1Organizational.12",
@@ -3460,11 +3497,14 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [
+            "09.a",
+            "09.b",
             "10.h",
             "10.k",
             "10.m"
           ],
           "controls": [
+            "0618.09b1System.1",
             "0605.10h1System.12",
             "0663.10h1System.7",
             "0635.10k1Organizational.12",
@@ -3498,10 +3538,15 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [
+            "09.a",
+            "09.b",
+            "09.c",
             "10.h",
             "10.k"
           ],
           "controls": [
+            "0618.09b1System.1",
+            "1229.09c1Organizational.1",
             "0605.10h1System.12",
             "0663.10h1System.7",
             "0635.10k1Organizational.12",
@@ -3533,10 +3578,13 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [
+            "09.a",
+            "09.b",
             "10.h",
             "10.k"
           ],
           "controls": [
+            "0618.09b1System.1",
             "0605.10h1System.12",
             "0663.10h1System.7",
             "0635.10k1Organizational.12",
@@ -3572,6 +3620,7 @@
           "standard": "HITRUST CSF",
           "requirements": [
             "01.g",
+            "09.a",
             "09.af",
             "10.h",
             "10.k"
@@ -3609,6 +3658,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [
+            "09.a",
             "09.af",
             "10.h",
             "10.k"
@@ -3643,7 +3693,7 @@
       ]
     },
     {
-      "id": "cp-gmt",
+      "id": "cp-provision-mgmt",
       "implements": [
         {
           "standard": "HIPAA",
@@ -3652,6 +3702,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [
+            "09.a",
             "09.af",
             "10.h",
             "10.k"
@@ -3675,6 +3726,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [
+            "09.a",
             "10.h",
             "10.k"
           ],
@@ -3823,10 +3875,16 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [
+            "09.j",
+            "09.k",
             "09.ab",
             "10.h"
           ],
           "controls": [
+            "0201.09j1Organizational.124",
+            "0202.09j1Organizational.3",
+            "0225.09k1Organizational.1",
+            "0225.09k1Organizational.2",
             "1212.09ab1System.1",
             "12101.09ab1Organizational.3",
             "12102.09ab1Organizational.4",
@@ -4041,9 +4099,14 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [
-            "08.m"
+            "08.m",
+            "09.o",
+            "10.f"
           ],
-          "controls": []
+          "controls": [
+            "0301.09o1Organizational.123",
+            "0903.10f1Organizational.1"
+          ]
         }
       ]
     },
@@ -4651,7 +4714,9 @@
           "standard": "HITRUST CSF",
           "requirements": [
             "05.i",
-            "05.k"
+            "05.k",
+            "09.n",
+            "09.s"
           ],
           "controls": [
             "1401.05i1Organizational.1239",
@@ -4662,7 +4727,9 @@
             "1429.05k1Organizational.34",
             "1430.05k1Organizational.56",
             "1431.05k1Organizational.7",
-            "1432.05k1Organizational.89"
+            "1432.05k1Organizational.89",
+            "0835.09n1Organizational.1",
+            "0911.09s1Organizational.2"
           ]
         },
         {
@@ -4692,7 +4759,10 @@
           "requirements": [
             "05.e",
             "05.i",
-            "05.k"
+            "05.k",
+            "09.e",
+            "09.f",
+            "09.s"
           ],
           "controls": [
             "1401.05i1Organizational.1239",
@@ -4703,7 +4773,10 @@
             "1429.05k1Organizational.34",
             "1430.05k1Organizational.56",
             "1431.05k1Organizational.7",
-            "1432.05k1Organizational.89"
+            "1432.05k1Organizational.89",
+            "0911.09s1Organizational.2",
+            "1408.09e1System.1",
+            "1411.09f1System.1"
           ]
         },
         {
@@ -4733,9 +4806,14 @@
           "standard": "HITRUST CSF",
           "requirements": [
             "05.d",
-            "06.b"
+            "06.b",
+            "09.j",
+            "09.v"
           ],
-          "controls": []
+          "controls": [
+            "0926.09v1Organizational.2",
+            "1308.09j1Organizational.5"
+          ]
         },
         {
           "standard": "CSA CCM",

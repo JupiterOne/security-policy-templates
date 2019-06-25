@@ -1,0 +1,732 @@
+{
+    "standard": "ISO/IEC 27002",
+    "version": "1",
+    "webLink": "http://bcc.portal.gov.bd/sites/default/files/files/bcc.portal.gov.bd/page/adeaf3e5_cc55_4222_8767_f26bcaec3f70/ISO_IEC_27002.pdf",
+    "sections": [
+      {
+        "title": "5 - Security Policy",
+        "requirements": [
+          {
+            "ref": "5.1.1",
+            "title": "Information security policy document",
+            "summary": "An information security policy document should be approved by management, and published and communicated to all employees and relevant external parties."
+          },
+          {
+            "ref": "5.1.2",
+            "title": "Review of the information security policy",
+            "summary": "The information security policy should be reviewed at planned intervals or if significant changes occur to ensure its continuing suitability, adequacy, and effectiveness."
+          }
+        ]
+      },
+      {
+        "title": "6 - Organization of information security",
+        "requirements": [
+          {
+            "ref": "6.1.1",
+            "title": "Management commitment to information security",
+            "summary": "Management should actively support security within the organization through clear direction, demonstrated commitment, explicit assignment, and acknowledgment of information security responsibilities."
+          },
+          {
+            "ref": "6.1.2",
+            "title": "Information security co-ordination",
+            "summary": "Information security activities should be co-ordinated by representatives from different parts of the organization with relevant roles and job functions."
+          },
+          {
+            "ref": "6.1.3",
+            "title": "Allocation of information security responsibilities",
+            "summary": "All information security responsibilities should be clearly defined."
+          },
+          {
+            "ref": "6.1.4",
+            "title": "Authorization process for information processing facilities",
+            "summary": "A management authorization process for new information processing facilities should be defined and implemented."
+          },
+          {
+            "ref": "6.1.5",
+            "title": "Confidentiality agreements",
+            "summary": "Requirements for confidentiality or non-disclosure agreements reflecting the organization’s needs for the protection of information should be identified and regularly reviewed."
+          },
+          {
+            "ref": "6.1.6",
+            "title": "Contact with authorities",
+            "summary": "Appropriate contacts with relevant authorities should be maintained."
+          },
+          {
+            "ref": "6.1.7",
+            "title": "Contact with special interest groups",
+            "summary": "Appropriate contacts with special interest groups or other specialist security forums and professional associations should be maintained."
+          },
+          {
+            "ref": "6.1.8",
+            "title": "Independent review of information security",
+            "summary": "The organization’s approach to managing information security and its implementation (i.e. control objectives, controls, policies, processes, and procedures for information security) should be reviewed independently at planned intervals, or when significant changes to the security implementation occur."
+          },
+          {
+            "ref": "6.2.1",
+            "title": "Identification of risks related to external parties",
+            "summary": "The risks to the organization’s information and information processing facilities from business processes involving external parties should be identified and appropriate controls implemented before granting access."
+          },
+          {
+            "ref": "6.2.2",
+            "title": "Addressing security when dealing with customers",
+            "summary": "All identified security requirements should be addressed before giving customers access to the organization’s information or assets."
+          },
+          {
+            "ref": "6.2.3",
+            "title": "Addressing security in third party agreements",
+            "summary": "Agreements with third parties involving accessing, processing, communicating or managing the organization’s information or information processing facilities, or adding products or services to information processing facilities should cover all relevant security requirements."
+          }
+        ]
+      },
+      {
+        "title": "7 - Asset Management",
+        "requirements": [
+          {
+            "ref": "7.1.1",
+            "title": "Inventory of assets",
+            "summary": "All assets should be clearly identified and an inventory of all important assets drawn up and maintained."
+          },
+          {
+            "ref": "7.1.2",
+            "title": "Ownership of assets",
+            "summary": "All information and assets associated with information processing facilities should be owned2 by a designated part of the organization."
+          },
+          {
+            "ref": "7.1.3",
+            "title": "Acceptable use of assets",
+            "summary": "Rules for the acceptable use of information and assets associated with information processing facilities should be identified, documented, and implemented."
+          },
+          {
+            "ref": "7.2.1",
+            "title": "Clasification guidelines",
+            "summary": "Information should be classified in terms of its value, legal requirements, sensitivity, and criticality to the organization."
+          },
+          {
+            "ref": "7.2.2",
+            "title": "Information labeling and handling",
+            "summary": "An appropriate set of procedures for information labeling and handling should be developed and implemented in accordance with the classification scheme adopted by the organization."
+          }
+        ]
+      },
+      {
+        "title": "8 - Human resources security",
+        "requirements": [
+          {
+            "ref": "8.1.1",
+            "title": "Roles and Responsibilities",
+            "summary": "Security roles and responsibilities of employees, contractors and third party users should be defined and documented in accordance with the organization’s information security policy."
+          },
+          {
+            "ref": "8.1.2",
+            "title": "Screening",
+            "summary": "Background verification checks on all candidates for employment, contractors, and third party users should be carried out in accordance with relevant laws, regulations and ethics, and proportional to the business requirements, the classification of the information to be accessed, and the perceived risks."
+          },
+          {
+            "ref": "8.1.3",
+            "title": "Terms and conditions of employment",
+            "summary": "As part of their contractual obligation, employees, contractors and third party users should agree and sign the terms and conditions of their employment contract, which should state their and the organization’s responsibilities for information security."
+          },
+          {
+            "ref": "8.2.1",
+            "title": "Management responsibilities",
+            "summary": "Management should require employees, contractors and third party users to apply security in accordance with established policies and procedures of the organization."
+          },
+          {
+            "ref": "8.2.2",
+            "title": "Information security awareness, education, and training",
+            "summary": "All employees of the organization and, where relevant, contractors and third party users should receive appropriate awareness training and regular updates in organizational policies and procedures, as relevant for their job function."
+          },
+          {
+            "ref": "8.2.3",
+            "title": "Disciplinary process",
+            "summary": "There should be a formal disciplinary process for employees who have committed a security breach."
+          },
+          {
+            "ref": "8.3.1",
+            "title": "Termination responsibilities",
+            "summary": "Responsibilities for performing employment termination or change of employment should be clearly defined and assigned."
+          },
+          {
+            "ref": "8.3.2",
+            "title": "Return of assets",
+            "summary": "All employees, contractors and third party users should return all of the organization’s assets in their possession upon termination of their employment, contract or agreement."
+          },
+          {
+            "ref": "8.3.3",
+            "title": "Removal of access rights",
+            "summary": "The access rights of all employees, contractors and third party users to information and information processing facilities should be removed upon termination of their employment, contract or agreement, or adjusted upon change."
+          }
+        ]
+      },
+      {
+        "title": "9 - Physical and environmental security",
+        "requirements": [
+          {
+            "ref": "9.1.1",
+            "title": "Physical security perimeter",
+            "summary": "Security perimeters (barriers such as walls, card controlled entry gates or manned reception desks) should be used to protect areas that contain information and information processing facilities."
+          },
+          {
+            "ref": "9.1.2",
+            "title": "Physical entry controls",
+            "summary": "Secure areas should be protected by appropriate entry controls to ensure that only authorized personnel are allowed access."
+          },
+          {
+            "ref": "9.1.3",
+            "title": "Physical security perimeter",
+            "summary": "Security perimeters (barriers such as walls, card controlled entry gates or manned reception desks) should be used to protect areas that contain information and information processing facilities."
+          },
+          {
+            "ref": "9.1.4",
+            "title": "Prote4ction against external and environmental threats",
+            "summary": "Physical protection against damage from fire, flood, earthquake, explosion, civil unrest, and other forms of natural or man-made disaster should be designed and applied."
+          },
+          {
+            "ref": "9.1.5",
+            "title": "Working in secure areas",
+            "summary": "Physical protection and guidelines for working in secure areas should be designed and applied."
+          },
+          {
+            "ref": "9.1.6",
+            "title": "Public access, delivery, and loading areas",
+            "summary": "Access points such as delivery and loading areas and other points where unauthorized persons may enter the premises should be controlled and, if possible, isolated from information processing facilities to avoid unauthorized access."
+          },
+          {
+            "ref": "9.2.1",
+            "title": "Equipment siting and protection",
+            "summary": "Equipment should be sited or protected to reduce the risks from environmental threats and hazards, and opportunities for unauthorized access."
+          },
+          {
+            "ref": "9.2.2",
+            "title": "Supporting utilities",
+            "summary": "Equipment should be protected from power failures and other disruptions caused by failures in supporting utilities."
+          },
+          {
+            "ref": "9.2.3",
+            "title": "Cabling security",
+            "summary": "Power and telecommunications cabling carrying data or supporting information services should be protected from interception or damage."
+          },
+          {
+            "ref": "9.2.4",
+            "title": "Equipment maintenance",
+            "summary": "Equipment should be correctly maintained to ensure its continued availability and integrity."
+          },
+          {
+            "ref": "9.2.5",
+            "title": "Security of equipment off-premises",
+            "summary": "Security should be applied to off-site equipment taking into account the different risks of working outside the organization’s premises."
+          },
+          {
+            "ref": "9.2.6",
+            "title": "Secure disposal or re-use of equipment",
+            "summary": "All items of equipment containing storage media should be checked to ensure that any sensitive data and licensed software has been removed or securely overwritten prior to disposal."
+          },
+          {
+            "ref": "9.2.7",
+            "title": "Removal of property",
+            "summary": "Equipment, information or software should not be taken off-site without prior authorization."
+          }
+        ]
+      },
+      {
+        "title": "10 - Communications and operations managment",
+        "requirements": [
+          {
+            "ref": "10.1.1",
+            "title": "Documented operating procedures",
+            "summary": "Operating procedures should be documented, maintained, and made available to all users who need them."
+          },
+          {
+            "ref": "10.1.2",
+            "title": "Change management",
+            "summary": "Changes to information processing facilities and systems should be controlled."
+          },
+          {
+            "ref": "10.1.3",
+            "title": "Segregation of duties",
+            "summary": "Duties and areas of responsibility should be segregated to reduce opportunities for unauthorized or unintentional modification or misuse of the organization’s assets."
+          },
+          {
+            "ref": "10.1.4",
+            "title": "Separation of development, test, and operational facilities",
+            "summary": "Development, test, and operational facilities should be separated to reduce the risks of unauthorised access or changes to the operational system."
+          },
+          {
+            "ref": "10.2.1",
+            "title": "Service delivery",
+            "summary": "It should be ensured that the security controls, service definitions and delivery levels included in the third party service delivery agreement are implemented, operated, and maintained by the third party."
+          },
+          {
+            "ref": "10.2.2",
+            "title": "Monitoring and review of third party services",
+            "summary": "The services, reports and records provided by the third party should be regularly monitored and reviewed, and audits should be carried out regularly."
+          },
+          {
+            "ref": "10.2.3",
+            "title": "Managing changes to third party services",
+            "summary": "Changes to the provision of services, including maintaining and improving existing information security policies, procedures and controls, should be managed, taking account of the criticality of business systems and processes involved and re-assessment of risks."
+          },
+          {
+            "ref": "10.3.1",
+            "title": "Capacity management",
+            "summary": "The use of resources should be monitored, tuned, and projections made of future capacity requirements to ensure the required system performance."
+          },
+          {
+            "ref": "10.3.2",
+            "title": "System acceptance",
+            "summary": "Acceptance criteria for new information systems, upgrades, and new versions should be established and suitable tests of the system(s) carried out during development and prior to acceptance."
+          },
+          {
+            "ref": "10.4.1",
+            "title": "Controls against malicious code",
+            "summary": "Detection, prevention, and recovery controls to protect against malicious code and appropriate user awareness procedures should be implemented."
+          },
+          {
+            "ref": "10.4.2",
+            "title": "Controls against mobile code",
+            "summary": "Where the use of mobile code is authorized, the configuration should ensure that the authorised mobile code operates according to a clearly defined security policy, and unauthorized mobile code should be prevented from executing."
+          },
+          {
+            "ref": "10.5.1",
+            "title": "Information back-up",
+            "summary": "Back-up copies of information and software should be taken and tested regularly in accordance with the agreed backup policy."
+          },
+          {
+            "ref": "10.6.1",
+            "title": "Network controls",
+            "summary": "Networks should be adequately managed and controlled, in order to be protected from threats, and to maintain security for the systems and applications using the network, including information in transit."
+          },
+          {
+            "ref": "10.6.2",
+            "title": "Security of network services",
+            "summary": "Security features, service levels, and management requirements of all network services should be identified and included in any network services agreement, whether these services are provided in- house or outsourced."
+          },
+          {
+            "ref": "10.7.1",
+            "title": "Management of removable media",
+            "summary": "There should be procedures in place for the management of removable media."
+          },
+          {
+            "ref": "10.7.2",
+            "title": "Disposal of media",
+            "summary": "Media should be disposed of securely and safely when no longer required, using formal procedures."
+          },
+          {
+            "ref": "10.7.3",
+            "title": "Information handling procedures",
+            "summary": "Procedures for the handling and storage of information should be established to protect this information from unauthorized disclosure or misuse."
+          },
+          {
+            "ref": "10.7.4",
+            "title": "Security of system documentation",
+            "summary": "System documentation should be protected against unauthorized access."
+          },
+          {
+            "ref": "10.8.1",
+            "title": "Information exchange policies and procedures",
+            "summary": "Formal exchange policies, procedures, and controls should be in place to protect the exchange of information through the use of all types of communication facilities."
+          },
+          {
+            "ref": "10.8.2",
+            "title": "Exchange agreements",
+            "summary": "Agreements should be established for the exchange of information and software between the organization and external parties."
+          },
+          {
+            "ref": "10.8.3",
+            "title": "Physical media in transit",
+            "summary": "Media containing information should be protected against unauthorized access, misuse or corruption during transportation beyond an organization’s physical boundaries."
+          },
+          {
+            "ref": "10.8.4",
+            "title": "Electronic messaging",
+            "summary": "Information involved in electronic messaging should be appropriately protected."
+          },
+          {
+            "ref": "10.8.5",
+            "title": "Business information systems",
+            "summary": "Policies and procedures should be developed and implemented to protect information associated with the interconnection of business information systems."
+          },
+          {
+            "ref": "10.9.1",
+            "title": "Electronic commerce",
+            "summary": "Information involved in electronic commerce passing over public networks should be protected from fraudulent activity, contract dispute, and unauthorized disclosure and modification."
+          },
+          {
+            "ref": "10.9.2",
+            "title": "On-line transactions",
+            "summary": "Information involved in on-line transactions should be protected to prevent incomplete transmission, mis-routing, unauthorized message alteration, unauthorized disclosure, unauthorized message duplication or replay."
+          },
+          {
+            "ref": "10.9.3",
+            "title": "Publicly available information",
+            "summary": "The integrity of information being made available on a publicly available system should be protected to prevent unauthorized modification."
+          },
+          {
+            "ref": "10.10.1",
+            "title": "Audit logging",
+            "summary": "Audit logs recording user activities, exceptions, and information security events should be produced and kept for an agreed period to assist in future investigations and access control monitoring."
+          },
+          {
+            "ref": "10.10.2",
+            "title": "Monitoring system use",
+            "summary": "Procedures for monitoring use of information processing facilities should be established and the results of the monitoring activities reviewed regularly."
+          },
+          {
+            "ref": "10.10.3",
+            "title": "Protection of log information",
+            "summary": "Logging facilities and log information should be protected against tampering and unauthorized access."
+          },
+          {
+            "ref": "10.10.4",
+            "title": "Adminstrator and operator logs",
+            "summary": "System administrator and system operator activities should be logged."
+          },
+          {
+            "ref": "10.10.5",
+            "title": "Fault logging",
+            "summary": "Faults should be logged, analysed, and appropriate action taken."
+          },
+          {
+            "ref": "10.10.6",
+            "title": "Clock synchronization",
+            "summary": "The clocks of all relevant information processing systems within an organization or security domain should be synchronized with an agreed accurate time source."
+          }
+        ]
+      },
+      {
+        "title": "11 - Access control",
+        "requirements": [
+          {
+            "ref": "11.1.1",
+            "title": "Access control policy",
+            "summary": "There should be a formal user registration and de-registration procedure in place for granting and revoking access to all information systems and services."
+          },
+          {
+            "ref": "11.2.1",
+            "title": "User registration",
+            "summary": "An access control policy should be established, documented, and reviewed based on business and security requirements for access."
+          },
+          {
+            "ref": "11.2.2",
+            "title": "Privilege management",
+            "summary": "The allocation and use of privileges should be restricted and controlled."
+          },
+          {
+            "ref": "11.2.3",
+            "title": "User password management",
+            "summary": "The allocation of passwords should be controlled through a formal management process."
+          },
+          {
+            "ref": "11.2.4",
+            "title": "Review of user access rights",
+            "summary": "Management should review users’ access rights at regular intervals using a formal process."
+          },
+          {
+            "ref": "11.3.1",
+            "title": "Password use",
+            "summary": "Users should be required to follow good security practices in the selection and use of passwords."
+          },
+          {
+            "ref": "11.3.2",
+            "title": "Unattended user equipment",
+            "summary": "Users should ensure that unattended equipment has appropriate protection."
+          },
+          {
+            "ref": "11.3.3",
+            "title": "Clear deak and clear screen policy",
+            "summary": "A clear desk policy for papers and removable storage media and a clear screen policy for information processing facilities should be adopted."
+          },
+          {
+            "ref": "11.4.1",
+            "title": "Policy on use of network services",
+            "summary": "Users should only be provided with access to the services that they have been specifically authorized to use."
+          },
+          {
+            "ref": "11.4.2",
+            "title": "User authentication for external connections",
+            "summary": "Appropriate authentication methods should be used to control access by remote users."
+          },
+          {
+            "ref": "11.4.3",
+            "title": "Equipment identification in networks",
+            "summary": "Automatic equipment identification should be considered as a means to authenticate connections from specific locations and equipment."
+          },
+          {
+            "ref": "11.4.4",
+            "title": "Remote diagnostic and configuration port protection",
+            "summary": "Physical and logical access to diagnostic and configuration ports should be controlled."
+          },
+          {
+            "ref": "11.4.5",
+            "title": "Segregation in networks",
+            "summary": "Groups of information services, users, and information systems should be segregated on networks."
+          },
+          {
+            "ref": "11.4.6",
+            "title": "Network connection control",
+            "summary": "For shared networks, especially those extending across the organization’s boundaries, the capability of users to connect to the network should be restricted, in line with the access control policy and requirements of the business applications (see 11.1)."
+          },
+          {
+            "ref": "11.4.7",
+            "title": "Network routing control",
+            "summary": "Routing controls should be implemented for networks to ensure that computer connections and information flows do not breach the access control policy of the business applications."
+          },
+          {
+            "ref": "11.5.1",
+            "title": "Secure log-on procedures",
+            "summary": "Access to operating systems should be controlled by a secure log-on procedure."
+          },
+          {
+            "ref": "11.5.2",
+            "title": "User identification and authentication",
+            "summary": "All users should have a unique identifier (user ID) for their personal use only, and a suitable authentication technique should be chosen to substantiate the claimed identity of a user."
+          },
+          {
+            "ref": "11.5.3",
+            "title": "Password management system",
+            "summary": "Systems for managing passwords should be interactive and should ensure quality passwords."
+          },
+          {
+            "ref": "11.5.4",
+            "title": "Use of system utilities",
+            "summary": "The use of utility programs that might be capable of overriding system and application controls should be restricted and tightly controlled."
+          },
+          {
+            "ref": "11.5.5",
+            "title": "Session time-out",
+            "summary": "Inactive sessions should shut down after a defined period of inactivity."
+          },
+          {
+            "ref": "11.5.6",
+            "title": "Limitation of connection time",
+            "summary": "Restrictions on connection times should be used to provide additional security for high-risk applications."
+          },
+          {
+            "ref": "11.6.1",
+            "title": "Information access restriction",
+            "summary": "Access to information and application system functions by users and support personnel should be restricted in accordance with the defined access control policy."
+          },
+          {
+            "ref": "11.6.2",
+            "title": "Sensitive system isolation",
+            "summary": "Sensitive systems should have a dedicated (isolated) computing environment."
+          },
+          {
+            "ref": "11.7.1",
+            "title": "Mobile computing and communications",
+            "summary": "A formal policy should be in place, and appropriate security measures should be adopted to protect against the risks of using mobile computing and communication facilities."
+          },
+          {
+            "ref": "11.7.2",
+            "title": "Teleworking",
+            "summary": "A policy, operational plans and procedures should be developed and implemented for teleworking activities."
+          }
+        ]
+      },
+      {
+        "title": "12 - Information systems acquisition, development, and maintenance",
+        "requirements": [
+          {
+            "ref": "12.1.1",
+            "title": "Security requirements analysis and specification",
+            "summary": "Statements of business requirements for new information systems, or enhancements to existing information systems should specify the requirements for security controls."            
+          },
+          {
+            "ref": "12.2.1",
+            "title": "Input data validation",
+            "summary": "Data input to applications should be validated to ensure that this data is correct and appropriate."            
+          },
+          {
+            "ref": "12.2.2",
+            "title": "Control of internal processing",
+            "summary": "Validation checks should be incorporated into applications to detect any corruption of information through processing errors or deliberate acts."            
+          },
+          {
+            "ref": "12.2.3",
+            "title": "Messaging integrity",
+            "summary": "Requirements for ensuring authenticity and protecting message integrity in applications should be identified, and appropriate controls identified and implemented."            
+          },
+          {
+            "ref": "12.2.4",
+            "title": "Output data validation",
+            "summary": "Data output from an application should be validated to ensure that the processing of stored information is correct and appropriate to the circumstances."            
+          },
+          {
+            "ref": "12.3.1",
+            "title": "Policy on the use of cryptographic controls",
+            "summary": "A policy on the use of cryptographic controls for protection of information should be developed and implemented."            
+          },
+          {
+            "ref": "12.3.2",
+            "title": "Key management",
+            "summary": "Key management should be in place to support the organization’s use of cryptographic techniques."            
+          },
+          {
+            "ref": "12.4.1",
+            "title": "Control of operational software",
+            "summary": "There should be procedures in place to control the installation of software on operational systems."            
+          },
+          {
+            "ref": "12.4.2",
+            "title": "Protection of system test data",
+            "summary": "Test data should be selected carefully, and protected and controlled."            
+          },
+          {
+            "ref": "12.4.3",
+            "title": "Access control to program source code",
+            "summary": "Access to program source code should be restricted."            
+          },
+          {
+            "ref": "12.5.1",
+            "title": "Change congrol procedures",
+            "summary": "The implementation of changes should be controlled by the use of formal change control procedures."            
+          },
+          {
+            "ref": "12.5.2",
+            "title": "Technical review of applications after operating system changes",
+            "summary": "When operating systems are changed, business critical applications should be reviewed and tested to ensure there is no adverse impact on organizational operations or security."            
+          },
+          {
+            "ref": "12.5.3",
+            "title": "Restrictions on changes to software packages",
+            "summary": "Modifications to software packages should be discouraged, limited to necessary changes, and all changes should be strictly controlled."            
+          },
+          {
+            "ref": "12.5.4",
+            "title": "Information leakage",
+            "summary": "Opportunities for information leakage should be prevented."            
+          },
+          {
+            "ref": "12.5.5",
+            "title": "Outsourced software development",
+            "summary": "Outsourced software development should be supervised and monitored by the organization."            
+          },
+          {
+            "ref": "12.6.1",
+            "title": "Control of technical vulnerabilities",
+            "summary": "Timely information about technical vulnerabilities of information systems being used should be obtained, the organization's exposure to such vulnerabilities evaluated, and appropriate measures taken to address the associated risk."            
+          }
+        ]
+      },
+      {
+        "title": "13 - Information security incident management",
+        "requirements": [
+          {
+            "ref": "13.1.1",
+            "title": "Reporting information security events",
+            "summary": "Information security events should be reported through appropriate management channels as quickly as possible."
+          },
+          {
+            "ref": "13.1.2",
+            "title": "Reporting security weaknesses",
+            "summary": "All employees, contractors and third party users of information systems and services should be required to note and report any observed or suspected security weaknesses in systems or services."
+          },
+          {
+            "ref": "13.2.1",
+            "title": "Responsibilities and procedures",
+            "summary": "Management responsibilities and procedures should be established to ensure a quick, effective, and orderly response to information security incidents."
+          },
+          {
+            "ref": "13.2.2",
+            "title": "Learning from information security incidents",
+            "summary": "There should be mechanisms in place to enable the types, volumes, and costs of information security incidents to be quantified and monitored."
+          },
+          {
+            "ref": "13.2.3",
+            "title": "Collection of evidence",
+            "summary": "Where a follow-up action against a person or organization after an information security incident involves legal action (either civil or criminal), evidence should be collected, retained, and presented to conform to the rules for evidence laid down in the relevant jurisdiction(s)."
+          }
+        ]
+      },
+      {
+        "title": "14 - Business continuity management",
+        "requirements": [
+          {
+            "ref": "14.1.1",
+            "title": "Including information security in the business continuity management process",
+            "summary": "A managed process should be developed and maintained for business continuity throughout the organization that addresses the information security requirements needed for the organization’s business continuity."
+          },
+          {
+            "ref": "14.1.2",
+            "title": "Business continuity and risk assessment",
+            "summary": "Events that can cause interruptions to business processes should be identified, along with the probability and impact of such interruptions and their consequences for information security."
+          },
+          {
+            "ref": "14.1.3",
+            "title": "Decceloping and implementing continuity plans including information security",
+            "summary": "Plans should be developed and implemented to maintain or restore operations and ensure availability of information at the required level and in the required time scales following interruption to, or failure of, critical business processes."
+          },
+          {
+            "ref": "14.1.4",
+            "title": "Business continuity planning framework",
+            "summary": "A single framework of business continuity plans should be maintained to ensure all plans are consistent, to consistently address information security requirements, and to identify priorities for testing and maintenance."
+          },
+          {
+            "ref": "14.1.5",
+            "title": "Testing, maintaining, and re-assessing business continuity plans",
+            "summary": "Business continuity plans should be tested and updated regularly to ensure that they are up to date and effective."
+          }
+        ]
+      },
+      {
+        "title": "15 - Compliance",
+        "requirements": [
+          {
+            "ref": "15.1.1",
+            "title": "Identification of applicable legislation",
+            "summary": "All relevant statutory, regulatory, and contractual requirements and the organization’s approach to meet these requirements should be explicitly defined, documented, and kept up to date for each information system and the organization."
+          },
+          {
+            "ref": "15.1.2",
+            "title": "Inteleectual property rights (IPR)",
+            "summary": "Appropriate procedures should be implemented to ensure compliance with legislative, regulatory, and contractual requirements on the use of material in respect of which there may be intellectual property rights and on the use of proprietary software products."            
+          },
+          {
+            "ref": "15.1.3",
+            "title": "Protection of organizational records",
+            "summary": "Important records should be protected from loss, destruction, and falsification, in accordance with statutory, regulatory, contractual, and business requirements."            
+          },
+          {
+            "ref": "15.1.4",
+            "title": "Data protection and privacy of personal information",
+            "summary": "Data protection and privacy should be ensured as required in relevant legislation, regulations, and, if applicable, contractual clauses."            
+          },
+          {
+            "ref": "15.1.5",
+            "title": "Prevention of misuse of information processing facilities",
+            "summary": "Users should be deterred from using information processing facilities for unauthorized purposes."            
+          },
+          {
+            "ref": "15.1.6",
+            "title": "Regulation of cryptographic controls",
+            "summary": "Cryptographic controls should be used in compliance with all relevant agreements, laws, and regulations."            
+          },
+          {
+            "ref": "15.2.1",
+            "title": "Compliance with security policies and standards",
+            "summary": "Managers should ensure that all security procedures within their area of responsibility are carried out correctly to achieve compliance with security policies and standards."            
+          },
+          {
+            "ref": "15.2.2",
+            "title": "Technical compliance checking",
+            "summary": "Information systems should be regularly checked for compliance with security implementation standards."            
+          },
+          {
+            "ref": "15.3.1",
+            "title": "Information systems audit controls",
+            "summary": "Audit requirements and activities involving checks on operational systems should be carefully planned and agreed to minimize the risk of disruptions to business processes."            
+          },
+          {
+            "ref": "15.3.2",
+            "title": "Protection of information systems audit tools",
+            "summary": "Access to information systems audit tools should be protected to prevent any possible misuse or compromise."            
+          },
+          {
+            "ref": "15.5.4",
+            "title": "Information leakage",
+            "summary": "Opportunities for information leakage should be prevented."            
+          }
+        ]
+      }
+    ]
+}

@@ -1440,6 +1440,11 @@
           "standard": "PCI DSS",
           "requirements": [
             "7.1",
+            "8.1",
+            "8.1.1",
+            "8.1.2",
+            "8.1.3",
+            "8.1.4",
             "8.2",
             "8.5"
           ]
@@ -1588,7 +1593,11 @@
         {
           "standard": "PCI DSS",
           "requirements": [
-            "8.3"
+            "8.1",
+            "8.2",
+            "8.3",
+            "8.3.1",
+            "8.3.2"
           ]
         }
       ]
@@ -1932,6 +1941,10 @@
           "standard": "PCI DSS",
           "requirements": [
             "7.2",
+            "8.1",
+            "8.1.2",
+            "8.1.3",
+            "8.1.4",
             "8.6",
             "8.8"
           ]
@@ -2182,6 +2195,10 @@
           "standard": "PCI DSS",
           "requirements": [
             "8.2",
+            "8.2.3",
+            "8.2.4",
+            "8.2.5",
+            "8.2.6",
             "8.5"
           ]
         }
@@ -2435,6 +2452,13 @@
           "requirements": [
             "GRM-04",
             "HRS-10"
+          ]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": [
+            "9.8",
+            "9.8.1"
           ]
         }
       ]
@@ -4092,7 +4116,9 @@
             "9.5",
             "9.6",
             "9.7",
-            "9.8"
+            "9.8",
+            "9.8.1",
+            "9.8.2"
           ]
         }
       ]
@@ -4491,7 +4517,8 @@
           "standard": "PCI DSS",
           "requirements": [
             "12.5",
-            "12.10"
+            "12.10",
+            "12.10.1"
           ]
         }
       ]
@@ -4537,7 +4564,8 @@
         {
           "standard": "PCI DSS",
           "requirements": [
-            "12.10"
+            "12.10",
+            "12.10.1"
           ]
         }
       ]
@@ -4622,6 +4650,13 @@
             "SEF-03",
             "SEF-04"
           ]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": [
+            "12.10",
+            "12.10.1"
+          ]
         }
       ]
     },
@@ -4632,6 +4667,13 @@
           "standard": "CSA CCM",
           "requirements": [
             "SEF-01"
+          ]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": [
+            "12.10",
+            "12.10.1"
           ]
         }
       ]
@@ -4670,6 +4712,13 @@
             "AIS-02",
             "GRM-06",
             "SEF-04"
+          ]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": [
+            "12.10",
+            "12.10.1"
           ]
         }
       ]
@@ -4746,6 +4795,13 @@
           "requirements": [
             "IAM-07"
           ]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": [
+            "12.8",
+            "12.8.3"
+          ]
         }
       ]
     },
@@ -4801,7 +4857,10 @@
         {
           "standard": "PCI DSS",
           "requirements": [
-            "2.6"
+            "12.8",
+            "12.8.2",
+            "12.8.4",
+            "12.8.5"
           ]
         }
       ]
@@ -4830,6 +4889,13 @@
           "standard": "CSA CCM",
           "requirements": [
             "GRM-06"
+          ]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": [
+            "12.8",
+            "12.8.1"
           ]
         }
       ]

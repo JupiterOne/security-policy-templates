@@ -1,0 +1,15 @@
+{
+  "name": "@jupiterone/security-policy-templates",
+  "version": "2.5.2",
+  "description": "JupiterOne security policies and procedures. For use with jupiter-policy-builder.",
+  "repository": "git@github.com:JupiterOne/security-policy-templates.git",
+  "author": "JupiterOne <dev@jupiterone.io>",
+  "license": "CC-BY-SA-4.0",
+  "scripts": {
+    "build:summary": "cd util; node build-summary.js",
+    "parse:fedramp": "cd util; node fedramp-parser.js"
+  },
+  "devDependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}

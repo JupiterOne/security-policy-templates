@@ -1,0 +1,531 @@
+{
+  "standard": "NIST CSF",
+  "version": "1.1",
+  "webLink": "https://www.nist.gov/cyberframework/framework",
+  "domains": [
+    {
+      "title": "[ID.AM] Identify: Asset Management",
+      "description": "The data, personnel, devices, systems, and facilities that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to business objectives and the organization’s risk strategy.",
+      "controls": [
+        {
+          "ref": "ID.AM-1",
+          "summary": "Physical devices and systems within the organization are inventoried."
+        },
+        {
+          "ref": "ID.AM-2",
+          "summary": "Software platforms and applications within the organization are inventoried."
+        },
+        {
+          "ref": "ID.AM-3",
+          "summary": "Organizational communication and data flows are mapped."
+        },
+        {
+          "ref": "ID.AM-4",
+          "summary": "External information systems are catalogued."
+        },
+        {
+          "ref": "ID.AM-5",
+          "summary": "Resources (e.g., hardware, devices, data, and software) are prioritized based on their classification, criticality, and business value."
+        },
+        {
+          "ref": "ID.AM-6",
+          "summary": "Cybersecurity roles and responsibilities for the entire workforce and third-party stakeholders (e.g., suppliers, customers, partners) are established."
+        }
+      ]
+    },
+    {
+      "title": "[ID.BE] Identify: Business Environment",
+      "description": "The organization’s mission, objectives, stakeholders, and activities are understood and prioritized; this information is used to inform cybersecurity roles, responsibilities, and risk management decisions.",
+      "controls": [
+        {
+          "ref": "ID.BE-1",
+          "summary": "The organization’s role in the supply chain is identified and communicated."
+        },
+        {
+          "ref": "ID.BE-2",
+          "summary": "The organization’s place in critical infrastructure and its industry sector is identified and communicated."
+        },
+        {
+          "ref": "ID.BE-3",
+          "summary": "Priorities for organizational mission, objectives, and activities are established and communicated."
+        },
+        {
+          "ref": "ID.BE-4",
+          "summary": "Dependencies and critical functions for delivery of critical services are established."
+        },
+        {
+          "ref": "ID.BE-5",
+          "summary": "Resilience requirements to support delivery of critical services are established."
+        }
+      ]
+    },
+    {
+      "title": "[ID.GV] Identify: Governance",
+      "description": "The policies, procedures, and processes to manage and monitor the organization’s regulatory, legal, risk, environmental, and operational requirements are understood and inform the management of cybersecurity risk.",
+      "controls": [
+        {
+          "ref": "ID.GV-1",
+          "summary": "Organizational information security policy is established."
+        },
+        {
+          "ref": "ID.GV-2",
+          "summary": "Information security roles & responsibilities are coordinated and aligned with internal roles and external partners."
+        },
+        {
+          "ref": "ID.GV-3",
+          "summary": "Legal and regulatory requirements regarding cybersecurity, including privacy and civil liberties obligations, are understood and managed."
+        },
+        {
+          "ref": "ID.GV-4",
+          "summary": "Governance and risk management processes address cybersecurity risks."
+        }
+      ]
+    },
+    {
+      "title": "[ID.RA] Identify: Risk Assessment",
+      "description": "The organization understands the cybersecurity risk to organizational operations (including mission, functions, image, or reputation), organizational assets, and individuals.",
+      "controls": [
+        {
+          "ref": "ID.RA-1",
+          "summary": "Asset vulnerabilities are identified and documented."
+        },
+        {
+          "ref": "ID.RA-2",
+          "summary": "Threat and vulnerability information is received from information sharing forums and sources."
+        },
+        {
+          "ref": "ID.RA-3",
+          "summary": "Threats, both internal and external, are identified and documented."
+        },
+        {
+          "ref": "ID.RA-4",
+          "summary": "Potential business impacts and likelihoods are identified."
+        },
+        {
+          "ref": "ID.RA-5",
+          "summary": "Threats, vulnerabilities, likelihoods, and impacts are used to determine risk."
+        },
+        {
+          "ref": "ID.RA-6",
+          "summary": "Risk responses are identified and prioritized."
+        }
+      ]
+    },
+    {
+      "title": "[ID.RM] Identify: Risk Management Strategy",
+      "description": "The organization’s priorities, constraints, risk tolerances, and assumptions are established and used to support operational risk decisions.",
+      "controls": [
+        {
+          "ref": "ID.RM-1",
+          "summary": "Risk management processes are established, managed, and agreed to by organizational stakeholders."
+        },
+        {
+          "ref": "ID.RM-2",
+          "summary": "Organizational risk tolerance is determined and clearly expressed."
+        },
+        {
+          "ref": "ID.RM-3",
+          "summary": "The organization’s determination of risk tolerance is informed by its role in critical infrastructure and sector specific risk analysis."
+        }
+      ]
+    },
+    {
+      "title": "[PR.AC] Protect: Access Control",
+      "description": "Access to assets and associated facilities is limited to authorized users, processes, or devices, and to authorized activities and transactions.",
+      "controls": [
+        {
+          "ref": "PR.AC-1",
+          "summary": "Identities and credentials are managed for authorized devices and users."
+        },
+        {
+          "ref": "PR.AC-2",
+          "summary": "Physical access to assets is managed and protected."
+        },
+        {
+          "ref": "PR.AC-3",
+          "summary": "Remote access is managed."
+        },
+        {
+          "ref": "PR.AC-4",
+          "summary": "Access permissions are managed, incorporating the principles of least privilege and separation of duties."
+        },
+        {
+          "ref": "PR.AC-5",
+          "summary": "Network integrity is protected, incorporating network segregation where appropriate."
+        }
+      ]
+    },
+    {
+      "title": "[PR.AT] Protect: Awareness and Training",
+      "description": "The organization’s personnel and partners are provided cybersecurity awareness education and are adequately trained to perform their information security-related duties and responsibilities consistent with related policies, procedures, and agreements.",
+      "controls": [
+        {
+          "ref": "PR.AT-1",
+          "summary": "All users are informed and trained."
+        },
+        {
+          "ref": "PR.AT-2",
+          "summary": "Privileged users understand roles & responsibilities."
+        },
+        {
+          "ref": "PR.AT-3",
+          "summary": "Third-party stakeholders (e.g., suppliers, customers, partners) understand roles & responsibilities."
+        },
+        {
+          "ref": "PR.AT-4",
+          "summary": "Senior executives understand roles & responsibilities."
+        },
+        {
+          "ref": "PR.AT-5",
+          "summary": "Physical and information security personnel understand roles & responsibilities."
+        }
+      ]
+    },
+    {
+      "title": "[PR.DS] Protect: Data Security",
+      "description": "Information and records (data) are managed consistent with the organization’s risk strategy to protect the confidentiality, integrity, and availability of information.",
+      "controls": [
+        {
+          "ref": "PR.DS-1",
+          "summary": "Data-at-rest is protected."
+        },
+        {
+          "ref": "PR.DS-2",
+          "summary": "Data-in-transit is protected."
+        },
+        {
+          "ref": "PR.DS-3",
+          "summary": "Assets are formally managed throughout removal, transfers, and disposition."
+        },
+        {
+          "ref": "PR.DS-4",
+          "summary": "Adequate capacity to ensure availability is maintained."
+        },
+        {
+          "ref": "PR.DS-5",
+          "summary": "Protections against data leaks are implemented."
+        },
+        {
+          "ref": "PR.DS-6",
+          "summary": "Integrity checking mechanisms are used to verify software, firmware, and information integrity."
+        },
+        {
+          "ref": "PR.DS-7",
+          "summary": "The development and testing environment(s) are separate from the production environment."
+        }
+      ]
+    },
+    {
+      "title": "[PR.IP] Protect: Information Protection Processes and Procedures",
+      "description": "Security policies (that address purpose, scope, roles, responsibilities, management commitment, and coordination among organizational entities), processes, and procedures are maintained and used to manage protection of information systems and assets.",
+      "controls": [
+        {
+          "ref": "PR.IP-1",
+          "summary": "A baseline configuration of information technology/industrial control systems is created and maintained."
+        },
+        {
+          "ref": "PR.IP-2",
+          "summary": "A System Development Life Cycle to manage systems is implemented."
+        },
+        {
+          "ref": "PR.IP-3",
+          "summary": "Configuration change control processes are in place."
+        },
+        {
+          "ref": "PR.IP-4",
+          "summary": "Backups of information are conducted, maintained, and tested periodically."
+        },
+        {
+          "ref": "PR.IP-5",
+          "summary": "Policy and regulations regarding the physical operating environment for organizational assets are met."
+        },
+        {
+          "ref": "PR.IP-6",
+          "summary": "Data is destroyed according to policy."
+        },
+        {
+          "ref": "PR.IP-7",
+          "summary": "Protection processes are continuously improved."
+        },
+        {
+          "ref": "PR.IP-8",
+          "summary": "Effectiveness of protection technologies is shared with appropriate parties."
+        },
+        {
+          "ref": "PR.IP-9",
+          "summary": "Response plans (Incident Response and Business Continuity) and recovery plans (Incident Recovery and Disaster Recovery) are in place and managed."
+        },
+        {
+          "ref": "PR.IP-10",
+          "summary": "Response and recovery plans are tested."
+        },
+        {
+          "ref": "PR.IP-11",
+          "summary": "Cybersecurity is included in human resources practices (e.g., deprovisioning, personnel screening)."
+        },
+        {
+          "ref": "PR.IP-12",
+          "summary": "A vulnerability management plan is developed and implemented."
+        }
+      ]
+    },
+    {
+      "title": "[PR.MA] Protect: Maintenance",
+      "description": "Maintenance and repairs of industrial control and information system components is performed consistent with policies and procedures.",
+      "controls": [
+        {
+          "ref": "PR.MA-1",
+          "summary": "Maintenance and repair of organizational assets is performed and logged in a timely manner, with approved and controlled tools."
+        },
+        {
+          "ref": "PR.MA-2",
+          "summary": "Remote maintenance of organizational assets is approved, logged, and performed in a manner that prevents unauthorized access."
+        }
+      ]
+    },
+    {
+      "title": "[PR.PT] Protect: Protective Technology",
+      "description": "Technical security solutions are managed to ensure the security and resilience of systems and assets, consistent with related policies, procedures, and agreements.",
+      "controls": [
+        {
+          "ref": "PR.PT-1",
+          "summary": "Audit/log records are determined, documented, implemented, and reviewed in accordance with policy."
+        },
+        {
+          "ref": "PR.PT-2",
+          "summary": "Removable media is protected and its use restricted according to policy."
+        },
+        {
+          "ref": "PR.PT-3",
+          "summary": "Access to systems and assets is controlled, incorporating the principle of least functionality."
+        },
+        {
+          "ref": "PR.PT-4",
+          "summary": "Communications and control networks are protected."
+        }
+      ]
+    },
+    {
+      "title": "[DE.AE] Detect: Anomalies and Events",
+      "description": "Anomalous activity is detected in a timely manner and the potential impact of events is understood.",
+      "controls": [
+        {
+          "ref": "DE.AE-1",
+          "summary": "A baseline of network operations and expected data flows for users and systems is established and managed."
+        },
+        {
+          "ref": "DE.AE-2",
+          "summary": "Detected events are analyzed to understand attack targets and methods."
+        },
+        {
+          "ref": "DE.AE-3",
+          "summary": "Event data are aggregated and correlated from multiple sources and sensors."
+        },
+        {
+          "ref": "DE.AE-4",
+          "summary": "Impact of events is determined."
+        },
+        {
+          "ref": "DE.AE-5",
+          "summary": "Incident alert thresholds are established."
+        }
+      ]
+    },
+    {
+      "title": "[DE.CM] Detect: Security Continuous Monitoring",
+      "description": "The information system and assets are monitored at discrete intervals to identify cybersecurity events and verify the effectiveness of protective measures.",
+      "controls": [
+        {
+          "ref": "DE.CM-1",
+          "summary": "The network is monitored to detect potential cybersecurity events."
+        },
+        {
+          "ref": "DE.CM-2",
+          "summary": "The physical environment is monitored to detect potential cybersecurity events."
+        },
+        {
+          "ref": "DE.CM-3",
+          "summary": "Personnel activity is monitored to detect potential cybersecurity events."
+        },
+        {
+          "ref": "DE.CM-4",
+          "summary": "Malicious code is detected."
+        },
+        {
+          "ref": "DE.CM-5",
+          "summary": "Unauthorized mobile code is detected."
+        },
+        {
+          "ref": "DE.CM-6",
+          "summary": "External service provider activity is monitored to detect potential cybersecurity events."
+        },
+        {
+          "ref": "DE.CM-7",
+          "summary": "Monitoring for unauthorized personnel, connections, devices, and software is performed."
+        },
+        {
+          "ref": "DE.CM-8",
+          "summary": "Vulnerability scans are performed."
+        }
+      ]
+    },
+    {
+      "title": "[DE.DP] Detect: Detection Processes",
+      "description": "Detection processes and procedures are maintained and tested to ensure timely and adequate awareness of anomalous events.",
+      "controls": [
+        {
+          "ref": "DE.DP-1",
+          "summary": "Roles and responsibilities for detection are well defined to ensure accountability."
+        },
+        {
+          "ref": "DE.DP-2",
+          "summary": "Detection activities comply with all applicable requirements."
+        },
+        {
+          "ref": "DE.DP-3",
+          "summary": "Detection processes are tested."
+        },
+        {
+          "ref": "DE.DP-4",
+          "summary": "Event detection information is communicated to appropriate parties."
+        },
+        {
+          "ref": "DE.DP-5",
+          "summary": "Detection processes are continuously improved."
+        }
+      ]
+    },
+    {
+      "title": "[RS.RP] Respond: Response Planning",
+      "description": "Response processes and procedures are executed and maintained, to ensure timely response to detected cybersecurity events.",
+      "controls": [
+        {
+          "ref": "RS.RP-1",
+          "summary": "Response plan is executed during or after an event."
+        }
+      ]
+    },
+    {
+      "title": "[RS.CO] Respond: Communications",
+      "description": "Response activities are coordinated with internal and external stakeholders, as appropriate, to include external support from law enforcement agencies.",
+      "controls": [
+        {
+          "ref": "RS.CO-1",
+          "summary": "Personnel know their roles and order of operations when a response is needed."
+        },
+        {
+          "ref": "RS.CO-2",
+          "summary": "Events are reported consistent with established criteria."
+        },
+        {
+          "ref": "RS.CO-3",
+          "summary": "Information is shared consistent with response plans."
+        },
+        {
+          "ref": "RS.CO-4",
+          "summary": "Coordination with stakeholders occurs consistent with response plans."
+        },
+        {
+          "ref": "RS.CO-5",
+          "summary": "Voluntary information sharing occurs with external stakeholders to achieve broader cybersecurity situational awareness."
+        }
+      ]
+    },
+    {
+      "title": "[RS.AN] Respond: Analysis",
+      "description": "Analysis is conducted to ensure adequate response and support recovery activities.",
+      "controls": [
+        {
+          "ref": "RS.AN-1",
+          "summary": "Notifications from detection systems are investigated."
+        },
+        {
+          "ref": "RS.AN-2",
+          "summary": "The impact of the incident is understood."
+        },
+        {
+          "ref": "RS.AN-3",
+          "summary": "Forensics are performed."
+        },
+        {
+          "ref": "RS.AN-4",
+          "summary": "Incidents are categorized consistent with response plans."
+        }
+      ]
+    },
+    {
+      "title": "[RS.MI] Respond: Mitigation",
+      "description": "Activities are performed to prevent expansion of an event, mitigate its effects, and eradicate the incident.",
+      "controls": [
+        {
+          "ref": "RS.MI-1",
+          "summary": "Incidents are contained."
+        },
+        {
+          "ref": "RS.MI-2",
+          "summary": "Incidents are mitigated."
+        },
+        {
+          "ref": "RS.MI-3",
+          "summary": "Newly identified vulnerabilities are mitigated or documented as accepted risks."
+        }
+      ]
+    },
+    {
+      "title": "[RS.IM] Respond: Improvements",
+      "description": "Organizational response activities are improved by incorporating lessons learned from current and previous detection/response activities.",
+      "controls": [
+        {
+          "ref": "RS.IM-1",
+          "summary": "Response plans incorporate lessons learned."
+        },
+        {
+          "ref": "RS.MI-2",
+          "summary": "Response strategies are updated."
+        }
+      ]
+    },
+    {
+      "title": "[RC.RP] Recover: Recovery Planning",
+      "description": "Recovery processes and procedures are executed and maintained to ensure timely restoration of systems or assets affected by cybersecurity events.",
+      "controls": [
+        {
+          "ref": "RC.RP-1",
+          "summary": "Recovery plan is executed during or after an event."
+        }
+      ]
+    },
+    {
+      "title": "[RC.IM] Recover: Improvements",
+      "description": "Recovery planning and processes are improved by incorporating lessons learned into future activities.",
+      "controls": [
+        {
+          "ref": "RC.IM-1",
+          "summary": "Recovery plans incorporate lessons learned."
+        },
+        {
+          "ref": "RC.IM-2",
+          "summary": "Recovery strategies are updated."
+        }
+      ]
+    },
+    {
+      "title": "[RC.CO] Recover: Communications",
+      "description": "Restoration activities are coordinated with internal and external parties, such as coordinating centers, Internet Service Providers, owners of attacking systems, victims, other CSIRTs, and vendors.",
+      "controls": [
+        {
+          "ref": "RC.CO-1",
+          "summary": "Public relations are managed."
+        },
+        {
+          "ref": "RC.CO-2",
+          "summary": "Reputation after an event is repaired."
+        },
+        {
+          "ref": "RC.CO-3",
+          "summary": "Recovery activities are communicated to internal stakeholders and executive and management teams."
+        }
+      ]
+    }
+  ]
+}

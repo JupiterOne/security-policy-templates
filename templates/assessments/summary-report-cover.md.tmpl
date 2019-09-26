@@ -1,0 +1,72 @@
+{{companyLogo}}
+
+# Compliance Summary Report for {{complianceStandard}}
+
+`{{date}}`
+
+{{companyShortName}} has implemented an information security and risk management
+program to protect our customers and information. We leverage JupiterOne to
+manage our compliance program according to the controls and requirements
+specified in {{complianceStandard}}.
+
+More specifically, this includes:
+
+1. managing and mapping corporate security policies and procedures to each
+  control or requirement;
+
+2. collecting and mapping implementation evidences to each control or
+  requirement; and
+
+3. if applicable, continuously monitoring the controls via automation -- using
+   data, querying, and API integrations -- to identify potential misalignments
+   and gaps.
+
+Status of each {{requirementOrControl}} follows. There are three indicators
+for each {{requirementOrControl}}, which each indicate the following:
+
+- `Policies`: with (or without) linked policy and procedure documentation
+
+- `Evidence`: with (or without) implementation evidence collected
+
+- `Monitoring Status`: one of the following:
+
+  - `Compliant`: the implementation fully fulfills this {{requirementOrControl}}
+    with no gaps or issues identified and continuous monitoring is in place
+
+  - `Attention`: potential remediation may be needed for a subset of data related
+    to this {{requirementOrControl}}
+
+  - `Gap`: gaps are detected and this {{requirementOrControl}} needs immediate
+    remediation
+  
+  - `Unknown` or `Indeterminate`: review of implementation status and evidence
+    is performed manually for this {{requirementOrControl}}
+
+In summary, out of a total of {{totalRequirements}} {{requirementOrControl}}
+in scope for this report, there are
+
+- {{totalHasPolicies}} {{requirementOrControl}}s with defined and documented
+  policies and procedures;
+
+- {{totalHasEvidence}} {{requirementOrControl}}s with implementation evidences
+  collected;
+
+- {{totalRequirements - totalIndeterminate}} {{requirementOrControl}}s with
+  continuous and automated monitoring in place;
+
+- {{totalNotApplicable}} {{requirementOrControl}}s not applicable due to
+  the nature of our business and technical operations.
+
+Security and compliance is a continuous effort of risk reduction. As such, any
+and all findings and gaps identified in this report are being assessed by our
+security team for validation and remediation.
+
+&nbsp;
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**{{securityOfficerName}}**
+
+Security and Compliance Officer
+
+{{companyFullName}}

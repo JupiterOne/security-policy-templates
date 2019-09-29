@@ -7,6 +7,7 @@
       "title": "CONTROL ENVIRONMENT",
       "controls": [
         {
+          "ref": "CC1.1",
           "title": "COSO Principle 1",
           "summary": "The entity demonstrates a commitment to integrity and ethical values."
         },
@@ -35,6 +36,7 @@
           "summary": "Third-party screening procedures / onboarding process considers the risks of hiring third-parties"
         },
         {
+          "ref": "CC1.2",
           "title": "COSO Principle 2",
           "summary": "The board of directors demonstrates independence from management and exercises oversight of the development and performance of internal control."
         },
@@ -63,6 +65,7 @@
           "summary": "The expectations of the BoD and/or senior management are defined in the entity’s standards of conduct and understood at all levels of the enterprise and by outsourced service providers and business partners"
         },
         {
+          "ref": "CC1.3",
           "title": "COSO Principle 3",
           "summary": "Management establishes, with board oversight, structures, reporting lines, and appropriate authorities and responsibilities in the pursuit of objectives."
         },
@@ -87,6 +90,7 @@
           "summary": "Mgmt. and the BoD consider the need to interact and monitor third parties to meet objectives"
         },
         {
+          "ref": "CC1.4",
           "title": "COSO Principle 4",
           "summary": "The entity demonstrates a commitment to attract, develop, and retain competent individuals in alignment with objectives."
         },
@@ -127,6 +131,7 @@
           "summary": "Training to maintain technical skills is provided to employees"
         },
         {
+          "ref": "CC1.5",
           "title": "COSO Principle 5",
           "summary": "The entity holds individuals accountable for their internal control responsibilities in the pursuit of objectives."
         },
@@ -160,6 +165,7 @@
       "title": "COMMUNICATION AND INFORMATION",
       "controls": [
         {
+          "ref": "CC2.1",
           "title": "COSO Principle 13",
           "summary": "The entity obtains or generates and uses relevant, quality information to support the functioning of internal control."
         },
@@ -180,6 +186,7 @@
           "summary": "Policies are in place that establish information policies with a clear responsibility and accountability for the quality of information"
         },
         {
+          "ref": "CC2.2",
           "title": "COSO Principle 14",
           "summary": "The entity internally communicates information, including objectives and responsibilities for internal control, necessary to support the functioning of internal control."
         },
@@ -232,6 +239,7 @@
           "summary": "System changes that affect responsibilities or achievement of objectives"
         },
         {
+          "ref": "CC2.3",
           "title": "COSO Principle 15",
           "summary": "The entity communicates with external parties regarding matters affecting the functioning of internal control."
         },
@@ -281,6 +289,7 @@
       "title": "RISK ASSESSMENT",
       "controls": [
         {
+          "ref": "CC3.1",
           "title": "COSO Principle 6",
           "summary": "The entity specifies objectives with sufficient clarity to enable the identification and assessment of risks relating to objectives."
         },
@@ -297,6 +306,7 @@
           "summary": "The risk assessment includes tolerances for risk by defining acceptable levels and assigning risks to defined levels"
         },
         {
+          "ref": "CC3.2",
           "title": "COSO Principle 7",
           "summary": "The entity identifies risks to the achievement of its objectives across the entity and analyzes risks as a basis for determining how the risks should be managed."
         },
@@ -333,6 +343,7 @@
           "summary": "Risk Response"
         },
         {
+          "ref": "CC3.3",
           "title": "COSO Principle 8",
           "summary": "The entity considers the potential for fraud in assessing risks to the achievement of objectives."
         },
@@ -349,6 +360,7 @@
           "summary": "Evaluation of fraud risk considers the risks introduced from the use of IT and access to information"
         },
         {
+          "ref": "CC3.4",
           "title": "COSO Principle 9",
           "summary": "The entity identifies and assesses changes that could significantly impact the system of internal control."
         },
@@ -378,6 +390,7 @@
       "title": "MONITORING ACTIVITIES",
       "controls": [
         {
+          "ref": "CC4.1",
           "title": "COSO Principle 16",
           "summary": "The entity selects, develops, and performs ongoing and/or separate evaluations to ascertain whether the components of internal control are present and functioning."
         },
@@ -402,6 +415,7 @@
           "summary": "The organization selects audits that ensure objectivity and the impartiality of the audit process"
         },
         {
+          "ref": "CC4.2",
           "title": "COSO Principle 17",
           "summary": "The entity evaluates and communicates internal control deficiencies in a timely manner to those parties responsible for taking corrective action, including senior management and the board of directors, as appropriate."
         },
@@ -423,6 +437,7 @@
       "title": "CONTROL ACTIVITIES",
       "controls": [
         {
+          "ref": "CC5.1",
           "title": "COSO Principle 10",
           "summary": "The entity selects and develops control activities that contribute to the mitigation of risks to the achievement of objectives to acceptable levels."
         },
@@ -451,6 +466,7 @@
           "summary": "Segregation of Duties"
         },
         {
+          "ref": "CC5.2",
           "title": "COSO Principle 11",
           "summary": "The entity also selects and develops general control activities over technology to support the achievement of objectives."
         },
@@ -471,6 +487,7 @@
           "summary": "Selection, acquisition, development, and maintenance over infrastructure to meet organizational objectives"
         },
         {
+          "ref": "CC5.3",
           "title": "COSO Principle 12",
           "summary": "The entity deploys control activities through policies that establish what is expected and in procedures that put policies into action."
         },
@@ -500,6 +517,7 @@
       "title": "Logical and Physical Access Controls",
       "controls": [
         {
+          "ref": "CC6.1",
           "title": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
           "summary": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives."
         },
@@ -544,6 +562,7 @@
           "summary": "Access to encryption keys is restricted to authorized personnel"
         },
         {
+          "ref": "CC6.2",
           "title": "Prior to issuing system credentials and granting system access, the entity registers and authorizes new internal and external users whose access is administered by the entity. For those users whose access is administered by the entity, user system credentials are removed when user access is no longer authorized.",
           "summary": "Prior to issuing system credentials and granting system access, the entity registers and authorizes new internal and external users whose access is administered by the entity. For those users whose access is administered by the entity, user system credentials are removed when user access is no longer authorized."
         },
@@ -560,6 +579,7 @@
           "summary": "User access reviews"
         },
         {
+          "ref": "CC6.3",
           "title": "The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives.",
           "summary": "The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives."
         },
@@ -580,6 +600,7 @@
           "summary": "Predefined security access groups are utilized to enforce segregation of duties"
         },
         {
+          "ref": "CC6.4",
           "title": "The entity restricts physical access to facilities and protected information assets (for example, data center facilities,  back-up media storage, and other sensitive locations) to authorized personnel to meet the entity’s objectives.",
           "summary": "The entity restricts physical access to facilities and protected information assets (for example, data center facilities,  back-up media storage, and other sensitive locations) to authorized personnel to meet the entity’s objectives."
         },
@@ -600,6 +621,7 @@
           "summary": "Physical access reviews"
         },
         {
+          "ref": "CC6.5",
           "title": "The entity discontinues logical and physical protections over physical assets only after the ability to read or recover data and software from those assets has been diminished and is no longer required to meet the entity’s objectives.",
           "summary": "The entity discontinues logical and physical protections over physical assets only after the ability to read or recover data and software from those assets has been diminished and is no longer required to meet the entity’s objectives."
         },
@@ -616,6 +638,7 @@
           "summary": "Procedures are in place to remove data and software stored on equipment to be removed from the physical control of the entity and to render such data and software unreadable."
         },
         {
+          "ref": "CC6.6",
           "title": "The entity implements logical access security measures to protect against threats from sources outside its system boundaries.",
           "summary": "The entity implements logical access security measures to protect against threats from sources outside its system boundaries."
         },
@@ -644,6 +667,7 @@
           "summary": "IDS/IPS"
         },
         {
+          "ref": "CC6.7",
           "title": "The entity restricts the transmission, movement, and removal of information to authorized internal and external users and processes, and protects it during transmission, movement, or removal to meet the entity’s objectives.",
           "summary": "The entity restricts the transmission, movement, and removal of information to authorized internal and external users and processes, and protects it during transmission, movement, or removal to meet the entity’s objectives."
         },
@@ -680,6 +704,7 @@
           "summary": "An MDM solution is utilized to control mobile devices"
         },
         {
+          "ref": "CC6.8",
           "title": "The entity implements controls to prevent or detect and act upon the introduction of unauthorized or malicious software to meet the entity’s objectives.",
           "summary": "The entity implements controls to prevent or detect and act upon the introduction of unauthorized or malicious software to meet the entity’s objectives."
         },
@@ -709,6 +734,7 @@
       "title": "System Operations",
       "controls": [
         {
+          "ref": "CC7.1",
           "title": "To meet its objectives, the entity uses detection and monitoring procedures to identify (1) changes to configurations that result in the introduction of new vulnerabilities, and (2) susceptibilities to newly discovered vulnerabilities.",
           "summary": "To meet its objectives, the entity uses detection and monitoring procedures to identify (1) changes to configurations that result in the introduction of new vulnerabilities, and (2) susceptibilities to newly discovered vulnerabilities."
         },
@@ -733,6 +759,7 @@
           "summary": "Internal and External vulnerability scans are performed on a periodic basis to identify vulnerabilities and remediate deficiencies"
         },
         {
+          "ref": "CC7.2",
           "title": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
           "summary": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events."
         },
@@ -761,6 +788,7 @@
           "summary": "IDS/IPS and/or FIM and/or firewall rules and notification alerts are reviewed on a periodic basis to assess effectiveness and continued suitability"
         },
         {
+          "ref": "CC7.3",
           "title": "The entity evaluates security events to determine whether they could or have resulted in a failure of the entity to meet its objectives (security incidents) and, if so, takes actions to prevent or address such failures.",
           "summary": "The entity evaluates security events to determine whether they could or have resulted in a failure of the entity to meet its objectives (security incidents) and, if so, takes actions to prevent or address such failures."
         },
@@ -781,6 +809,7 @@
           "summary": "Policies and procedures are in place to guide personnel in the analysis of security incidents"
         },
         {
+          "ref": "CC7.4",
           "title": "The entity responds to identified security incidents by executing a defined incident response program to understand, contain, remediate, and communicate security incidents, as appropriate.",
           "summary": "The entity responds to identified security incidents by executing a defined incident response program to understand, contain, remediate, and communicate security incidents, as appropriate."
         },
@@ -809,6 +838,7 @@
           "summary": "Policies / Sanction process for lack of compliance/breach of procedures"
         },
         {
+          "ref": "CC7.5",
           "title": "The entity identifies, develops, and implements activities to recover from identified security incidents.",
           "summary": "The entity identifies, develops, and implements activities to recover from identified security incidents."
         },
@@ -838,6 +868,7 @@
       "title": "Change Management",
       "controls": [
         {
+          "ref": "CC8.1",
           "title": "The entity authorizes, designs, develops or acquires, configures, documents, tests, approves, and implements changes to infrastructure, data, software, and procedures to meet its objectives.",
           "summary": "The entity authorizes, designs, develops or acquires, configures, documents, tests, approves, and implements changes to infrastructure, data, software, and procedures to meet its objectives."
         },
@@ -875,6 +906,7 @@
       "title": "Risk Mitigation",
       "controls": [
         {
+          "ref": "CC9.1",
           "title": "The entity identifies, selects, and develops risk mitigation activities for risks arising from potential business disruptions.",
           "summary": "The entity identifies, selects, and develops risk mitigation activities for risks arising from potential business disruptions."
         },
@@ -887,6 +919,7 @@
           "summary": "The organization considers insurance (i.e. transferring risk) to offset financial impact of a risk materializing"
         },
         {
+          "ref": "CC9.2",
           "title": "The entity assesses and manages risks associated with vendors and business partners.",
           "summary": "The entity assesses and manages risks associated with vendors and business partners."
         },
@@ -915,6 +948,7 @@
           "summary": "IA periodically performs monitoring such as an onsite, or risk assessment, of each third party vendor with whom confidential information was shared including whether the third party is complying with the confidentiality commitments"
         },
         {
+          "ref": "© 2015 American Institute of CPAs.",
           "summary": ""
         }
       ]

@@ -62,6 +62,7 @@ function parseControl(data) {
   const summary = data.Criteria.split(':')[1];
 
   const criteria = {
+    ref: data.Ref,
     title: title ? title.trim() : undefined,
     summary: summary ? summary.trim() : title.trim(),
   }

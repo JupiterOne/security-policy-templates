@@ -3,6 +3,7 @@
  */
 const csvtojson = require("csvtojson");
 const fs = require('fs');
+const startCase = require('lodash/startcase');
 
 /**
  * Expected CSV Headers:
@@ -32,7 +33,7 @@ async function parse() {
   let controls;
   for (const control of data || []) {
     if (control.Ref.length == 0 && control.Criteria.length > 0) {
-      domain = control.Criteria;
+      domain = startCase(control.Criteria.toLowerCase());
       controls = controlsByDomain[domain] || [];
   
       if (!domains.includes(domain)) {
@@ -63,7 +64,7 @@ function parseControl(data) {
 
   const criteria = {
     ref: data.Ref,
-    title: title ? title.trim() : undefined,
+    title: summary ? title.trim() : data.Ref,
     summary: summary ? summary.trim() : title.trim(),
   }
 
@@ -77,7 +78,7 @@ function parseControl(data) {
     const controlSummary = control.trim();
     if (controlSummary.length > 0) {
       controls.push({
-        ref: `${data.Ref}-${controlNum}`,
+        ref: `${data.Ref} (${String.fromCharCode(96 + controlNum)})`,
         summary: controlSummary
       });
       controlNum++;

@@ -45,6 +45,11 @@
             "11.6",
             "12.1"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -78,6 +83,11 @@
             "00.a",
             "04.a"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -122,6 +132,11 @@
           "requirements": [
             "SEF-05"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -171,6 +186,11 @@
             "6.4",
             "6.7"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -225,6 +245,11 @@
             "IPY-05",
             "STA-03"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -266,6 +291,11 @@
           "requirements": [
             "SEF-05"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -277,6 +307,11 @@
           "requirements": [
             "IVS-04"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -420,6 +455,11 @@
             "12.4",
             "12.5"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -550,6 +590,11 @@
             "12.4",
             "12.6"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -628,6 +673,11 @@
           "requirements": [
             "12.6"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -699,6 +749,11 @@
           "requirements": [
             "HRS-03"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -748,6 +803,11 @@
             "2.5",
             "12.1"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -834,6 +894,11 @@
             "6.4",
             "6.6"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -891,6 +956,11 @@
             "6.1",
             "12.2"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -941,6 +1011,11 @@
           "requirements": [
             "12.2"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -977,6 +1052,11 @@
             "03.c",
             "03.d"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -1009,6 +1089,11 @@
           "requirements": [
             "STA-04"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -1032,6 +1117,11 @@
           "controls": [
             "05.f"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -1150,6 +1240,11 @@
             "10.9",
             "11.6"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -1227,6 +1322,11 @@
             "10.6",
             "11.5"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -1296,6 +1396,11 @@
             "IAM-03",
             "STA-04"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -1362,6 +1467,11 @@
           "requirements": [
             "AAC-01"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -1435,6 +1545,11 @@
           "requirements": [
             "AAC-02"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -1650,6 +1765,11 @@
             "10.3",
             "11.5"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -1723,6 +1843,11 @@
             "10.5",
             "10.7"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -1833,6 +1958,11 @@
             "STA-08",
             "STA-09"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -1869,6 +1999,11 @@
             "6.1",
             "6.6"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -1935,6 +2070,11 @@
           "requirements": [
             "11.6"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -1995,6 +2135,11 @@
             "9.7",
             "12.3"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -2040,6 +2185,11 @@
           "requirements": [
             "12.7"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -2096,6 +2246,11 @@
             "02.c",
             "02.e"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -2143,6 +2298,11 @@
             "HRS-04",
             "IAM-11"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -2173,6 +2333,11 @@
             "GRM-05",
             "GRM-06"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -2196,6 +2361,11 @@
             "GRM-07",
             "HRS-10"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -2228,6 +2398,11 @@
             "HRS-06",
             "SEF-03"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -2439,6 +2614,11 @@
             "8.2",
             "8.5"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -2633,6 +2813,11 @@
             "IAM-02",
             "IAM-12"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -2742,6 +2927,11 @@
             "8.3.1",
             "8.3.2"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -2841,6 +3031,11 @@
             "HRS-07",
             "IAM-02"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -3016,6 +3211,11 @@
             "8.1",
             "8.6"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -3121,6 +3321,11 @@
             "BCR-04",
             "IVS-12"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -3218,6 +3423,11 @@
             "GRM-01",
             "IAM-02"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -3290,6 +3500,11 @@
             "IPY-01",
             "IPY-03"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -3406,6 +3621,11 @@
             "8.6",
             "8.8"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -3464,6 +3684,11 @@
             "01.a",
             "01.c"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -3514,6 +3739,11 @@
           "requirements": [
             "1.2"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -3598,6 +3828,11 @@
             "7.1",
             "8.8"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -3666,6 +3901,11 @@
             "1.5",
             "5.3"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -3734,6 +3974,11 @@
             "1.1",
             "1.2"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -3822,6 +4067,11 @@
             "8.2.6",
             "8.5"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -3935,6 +4185,11 @@
             "IAM-06",
             "IAM-08"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -3972,6 +4227,11 @@
             "BCR-04",
             "IAM-02"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -4177,6 +4437,11 @@
             "9.2",
             "9.5"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -4245,6 +4510,11 @@
             "9.6",
             "9.7"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -4299,6 +4569,11 @@
           "requirements": [
             "2.4"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -4367,6 +4642,11 @@
             "9.8",
             "9.8.1"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -4427,6 +4707,11 @@
             "DSI-04",
             "HRS-06"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -4547,6 +4832,11 @@
             "3.1",
             "7.2"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -4626,6 +4916,11 @@
             "DSI-02",
             "DSI-06"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -4703,6 +4998,11 @@
             "MOS-06",
             "MOS-17"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -4743,6 +5043,11 @@
             "AIS-04",
             "BCR-11"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -4788,6 +5093,11 @@
             "2.6",
             "3.5"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -4880,6 +5190,11 @@
             "2.3",
             "3.5"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -5024,6 +5339,11 @@
             "3.6",
             "4.1"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -5083,6 +5403,11 @@
             "AIS-04",
             "IAM-05"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -5174,6 +5499,11 @@
             "3.5",
             "3.6"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -5269,6 +5599,11 @@
           "requirements": [
             "AIS-04"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -5326,6 +5661,11 @@
             "IPY-03",
             "STA-01"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -5389,6 +5729,11 @@
           "requirements": [
             "6.4"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -5411,6 +5756,11 @@
             "CCC-01",
             "IAM-06"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -5591,6 +5941,11 @@
             "6.6",
             "6.7"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -5645,6 +6000,11 @@
           "controls": [
             "10.a"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -5729,6 +6089,11 @@
           "requirements": [
             "6.3"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -5800,6 +6165,11 @@
           "controls": [
             "10.m"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -5877,6 +6247,11 @@
           "requirements": [
             "6.5"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -5948,6 +6323,11 @@
           "controls": [
             "10.m"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -6036,6 +6416,11 @@
           "requirements": [
             "11.3"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -6069,6 +6454,11 @@
             "6.3",
             "12.7"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -6180,6 +6570,11 @@
             "IVS-08",
             "STA-05"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -6277,6 +6672,11 @@
             "2.2",
             "6.4"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -6401,6 +6801,11 @@
             "1.1",
             "2.1"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -6532,6 +6937,11 @@
             "IVS-13",
             "STA-03"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -6619,6 +7029,11 @@
             "CCC-01",
             "CCC-03"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -6772,6 +7187,11 @@
           "requirements": [
             "6.2"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -6876,6 +7296,11 @@
           "requirements": [
             "6.4"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -6970,6 +7395,11 @@
           "requirements": [
             "2.1"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -7072,6 +7502,11 @@
           "requirements": [
             "2.2"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -7173,6 +7608,11 @@
             "6.2",
             "10.4"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -7254,6 +7694,11 @@
             "10.h",
             "10.k"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -7338,6 +7783,11 @@
             "CCC-01",
             "GRM-05"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -7464,6 +7914,11 @@
             "1.2",
             "6.6"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -7579,6 +8034,11 @@
           "requirements": [
             "IVS-01"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -7698,6 +8158,11 @@
           "requirements": [
             "11.4"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -7841,6 +8306,11 @@
             "5.3",
             "5.4"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -7863,6 +8333,11 @@
           "controls": [
             "10.b"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -7892,6 +8367,11 @@
             "05.g",
             "06.a"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -7935,6 +8415,11 @@
           "requirements": [
             "SEF-02"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -8027,6 +8512,11 @@
             "6.6",
             "11.2"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -8123,6 +8613,11 @@
             "6.1",
             "6.5"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -8173,6 +8668,11 @@
             "9.8.1",
             "9.8.2"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -8207,6 +8707,11 @@
             "09.o",
             "10.f"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -8288,6 +8793,11 @@
             "6.2",
             "9.6"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -8361,6 +8871,11 @@
             "BCR-01",
             "GRM-05"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -8433,6 +8948,11 @@
             "BCR-11",
             "GRM-05"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -8518,6 +9038,11 @@
           "requirements": [
             "BCR-02"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -8590,6 +9115,11 @@
             "BCR-05",
             "DCS-04"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -8661,6 +9191,11 @@
             "IVS-04",
             "STA-03"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -8737,6 +9272,11 @@
             "BCR-11",
             "STA-01"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -8814,6 +9354,11 @@
           "requirements": [
             "12.5"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -8909,6 +9454,11 @@
             "12.10",
             "12.10.1"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -9004,6 +9554,11 @@
             "12.10",
             "12.10.1"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -9028,6 +9583,11 @@
             "BCR-01",
             "SEF-02"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -9063,6 +9623,11 @@
           "requirements": [
             "BCR-02"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -9123,6 +9688,11 @@
             "12.10",
             "12.10.1"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -9141,6 +9711,11 @@
             "12.10",
             "12.10.1"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -9234,6 +9809,11 @@
             "12.10",
             "12.10.1"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -9285,6 +9865,11 @@
             "SEF-04",
             "STA-02"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -9384,6 +9969,11 @@
             "12.8",
             "12.8.3"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -9498,6 +10088,11 @@
             "12.8.4",
             "12.8.5"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -9574,6 +10169,11 @@
             "12.8",
             "12.8.1"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -9856,6 +10456,11 @@
           "requirements": [
             "IPY-03"
           ]
+        },
+        {
+          "standard": "SOC2",
+          "requirements": [],
+          "controls": []
         }
       ]
     }

@@ -7,9 +7,11 @@
   "license": "CC-BY-SA-4.0",
   "scripts": {
     "build:summary": "cd util; node build-summary.js",
-    "parse:fedramp": "cd util; node fedramp-parser.js"
+    "parse:fedramp": "cd util; node fedramp-parser.js",
+    "parse:soc2": "cd util; node soc2-parser.js"
   },
   "devDependencies": {
-    "csvtojson": "^2.0.10"
+    "csvtojson": "^2.0.10",
+    "lodash.startcase": "^4.4.0"
   }
 }

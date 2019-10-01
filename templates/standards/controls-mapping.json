@@ -463,7 +463,9 @@
             "CC1.1 (e)",
             "CC1.3",
             "CC1.4 (e)",
-            "CC3.1 (a)"
+            "CC3.1 (a)",
+            "CC7.4",
+            "CC7.4 (a)"
           ]
         }
       ]
@@ -1282,7 +1284,10 @@
           "controls": [
             "CC7.1 (b)",
             "CC7.1 (c)",
-            "CC7.1 (d)"
+            "CC7.1 (d)",
+            "CC7.2 (b)",
+            "CC7.2 (e)",
+            "CC7.3 (b)"
           ]
         }
       ]
@@ -1366,7 +1371,13 @@
           "standard": "SOC2",
           "requirements": [],
           "controls": [
-            "CC7.1 (b)"
+            "CC7.1 (b)",
+            "CC7.2",
+            "CC7.2 (a)",
+            "CC7.2 (c)",
+            "CC7.2 (e)",
+            "CC7.3 (b)",
+            "CC7.3 (c)"
           ]
         }
       ]
@@ -1441,7 +1452,9 @@
         {
           "standard": "SOC2",
           "requirements": [],
-          "controls": []
+          "controls": [
+            "CC7.2 (d)"
+          ]
         }
       ]
     },
@@ -1590,7 +1603,9 @@
         {
           "standard": "SOC2",
           "requirements": [],
-          "controls": []
+          "controls": [
+            "CC7.3 (c)"
+          ]
         }
       ]
     },
@@ -1810,7 +1825,11 @@
         {
           "standard": "SOC2",
           "requirements": [],
-          "controls": []
+          "controls": [
+            "CC7.2 (b)",
+            "CC7.2 (e)",
+            "CC7.3 (b)"
+          ]
         }
       ]
     },
@@ -2301,7 +2320,8 @@
             "CC1.1 (b)",
             "CC1.4",
             "CC1.4 (a)",
-            "CC1.4 (f)"
+            "CC1.4 (f)",
+            "CC7.4 (b)"
           ]
         }
       ]
@@ -2389,7 +2409,10 @@
         {
           "standard": "SOC2",
           "requirements": [],
-          "controls": []
+          "controls": [
+            "CC7.4",
+            "CC7.4 (a)"
+          ]
         }
       ]
     },
@@ -2457,7 +2480,9 @@
         {
           "standard": "SOC2",
           "requirements": [],
-          "controls": []
+          "controls": [
+            "CC7.4 (f)"
+          ]
         }
       ]
     },
@@ -5153,7 +5178,9 @@
           "standard": "SOC2",
           "requirements": [],
           "controls": [
-            "CC7.1 (b)"
+            "CC7.1 (b)",
+            "CC7.2",
+            "CC7.2 (a)"
           ]
         }
       ]
@@ -7926,7 +7953,8 @@
             "CC8.1",
             "CC8.1 (a)",
             "CC8.1 (b)",
-            "CC8.1 (f)"
+            "CC8.1 (f)",
+            "CC7.5 (d)"
           ]
         }
       ]
@@ -8303,7 +8331,8 @@
           "standard": "SOC2",
           "requirements": [],
           "controls": [
-            "CC7.1 (d)"
+            "CC7.1 (d)",
+            "CC7.2 (f)"
           ]
         }
       ]
@@ -8763,7 +8792,10 @@
           "standard": "SOC2",
           "requirements": [],
           "controls": [
-            "CC3.1 (a)"
+            "CC3.1 (a)",
+            "CC7.3 (c)",
+            "CC7.3 (d)",
+            "CC7.4 (e)"
           ]
         }
       ]
@@ -9022,7 +9054,11 @@
         {
           "standard": "SOC2",
           "requirements": [],
-          "controls": []
+          "controls": [
+            "CC7.3 (a)",
+            "CC7.4 (a)",
+            "CC7.4 (c)"
+          ]
         }
       ]
     },
@@ -9099,7 +9135,13 @@
         {
           "standard": "SOC2",
           "requirements": [],
-          "controls": []
+          "controls": [
+            "CC7.2 (a)",
+            "CC7.3 (a)",
+            "CC7.4 (c)",
+            "CC7.5",
+            "CC7.5 (a)"
+          ]
         }
       ]
     },
@@ -9505,7 +9547,13 @@
         {
           "standard": "SOC2",
           "requirements": [],
-          "controls": []
+          "controls": [
+            "CC7.2 (a)",
+            "CC7.3",
+            "CC7.3 (a)",
+            "CC7.4",
+            "CC7.4 (a)"
+          ]
         }
       ]
     },
@@ -9606,7 +9654,22 @@
           "standard": "SOC2",
           "requirements": [],
           "controls": [
-            "CC8.1 (f)"
+            "CC8.1 (f)",
+            "CC7.2",
+            "CC7.2 (a)",
+            "CC7.3",
+            "CC7.3 (a)",
+            "CC7.3 (c)",
+            "CC7.4",
+            "CC7.4 (a)",
+            "CC7.4 (c)",
+            "CC7.4 (d)",
+            "CC7.4 (e)",
+            "CC7.5",
+            "CC7.5 (a)",
+            "CC7.5 (b)",
+            "CC7.5 (c)",
+            "CC7.5 (e)"
           ]
         }
       ]
@@ -9707,7 +9770,17 @@
         {
           "standard": "SOC2",
           "requirements": [],
-          "controls": []
+          "controls": [
+            "CC7.2 (a)",
+            "CC7.3",
+            "CC7.3 (a)",
+            "CC7.3 (d)",
+            "CC7.4",
+            "CC7.4 (a)",
+            "CC7.4 (c)",
+            "CC7.5",
+            "CC7.5 (a)"
+          ]
         }
       ]
     },
@@ -9776,7 +9849,9 @@
         {
           "standard": "SOC2",
           "requirements": [],
-          "controls": []
+          "controls": [
+            "CC7.5 (e)"
+          ]
         }
       ]
     },
@@ -9841,7 +9916,9 @@
         {
           "standard": "SOC2",
           "requirements": [],
-          "controls": []
+          "controls": [
+            "CC7.4 (f)"
+          ]
         }
       ]
     },
@@ -9962,7 +10039,9 @@
         {
           "standard": "SOC2",
           "requirements": [],
-          "controls": []
+          "controls": [
+            "CC7.4 (f)"
+          ]
         }
       ]
     },
@@ -10018,7 +10097,9 @@
         {
           "standard": "SOC2",
           "requirements": [],
-          "controls": []
+          "controls": [
+            "CC7.4 (f)"
+          ]
         }
       ]
     },

@@ -1106,155 +1106,155 @@
         "ref": "CC7.2",
         "title": "CC7.2",
         "summary": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ir-process", "cp-events-analysis", "cp-data-protection"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.2 (a)",
         "summary": "Policies and Procedures to guide personnel in security event/incident detection",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-data-protection", "cp-events-analysis", "cp-ir-process", "cp-ir-sirt", "cp-ir-playbook", "cp-bcdr-recovery"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.2 (b)",
         "summary": "Logging configurations and example logs generated during the review period",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-audit-types", "cp-audit-trails"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.2 (c)",
         "summary": "In-scope systems are configured to notify personnel via e-mail when specific events occur",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-events-analysis"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.2 (d)",
         "summary": "Frequency logs are manually reviewed along with evidence of review documentation",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-audit-internal"],
+        "Status": "NEEDS MORE INFO"
       },
       {
         "ref": "CC7.2 (e)",
         "summary": "Monitoring applications are in place to notify personnel via e-mail when specific events occur",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-audit-types", "cp-events-analysis", "cp-audit-trails"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.2 (f)",
         "summary": "IDS/IPS and/or FIM and/or firewall rules and notification alerts are reviewed on a periodic basis to assess effectiveness and continued suitability",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-threat-nids"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.3",
         "title": "CC7.3",
         "summary": "The entity evaluates security events to determine whether they could or have resulted in a failure of the entity to meet its objectives (security incidents) and, if so, takes actions to prevent or address such failures.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ir-process", "cp-ir-sirt", "cp-ir-playbook"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.3 (a)",
         "summary": "Procedures are in place to guide personnel in incident response activities",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ir-playbook", "cp-ir-process", "cp-ir-sirt", "cp-bcdr", "cp-bcdr-recovery"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.3 (b)",
         "summary": "Monitoring applications are in place to notify personnel via e-mail when specific events occur",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-audit-types", "cp-events-analysis", "cp-audit-trails"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.3 (c)",
         "summary": "Security events are documented and reviewed by management to ensure actions are taken",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-audit-review", "cp-events-analysis", "cp-vuln-remediation", "cp-ir-process"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.3 (d)",
         "summary": "Policies and procedures are in place to guide personnel in the analysis of security incidents",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ir-playbook", "cp-vuln-remediation"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.4",
         "title": "CC7.4",
         "summary": "The entity responds to identified security incidents by executing a defined incident response program to understand, contain, remediate, and communicate security incidents, as appropriate.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ir-playbook", "cp-ir-process", "cp-ir-sirt", "cp-role-assignment", "cp-employee-escalation"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.4 (a)",
         "summary": "The incident response procedures documents roles and responsibilities",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-role-assignment", "cp-ir-playbook", "cp-employee-escalation", "cp-ir-sirt", "cp-ir-process", "cp-bcdr"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.4 (b)",
         "summary": "Documented employee acknowledgement with the incident response policies and procedures",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-employee-onboarding"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.4 (c)",
         "summary": "Incident response procedures are in place to guide personnel in the response to incidents. These include: detection, analysis, containment, mitigation, containment, correction, restoration of operations",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ir-playbook", "cp-ir-process", "cp-bcdr-recovery", "cp-bcdr"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.4 (d)",
         "summary": "Management meeting minutes to discuss incidents and corrective measures to ensure vulnerabilities are remediated and activities occurred as outlined in the incident response plan",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ir-process"],
+        "Status": "NEEDS MORE INFO"
       },
       {
         "ref": "CC7.4 (e)",
         "summary": "Automated ticketing system for incidents. These include remediation activities, and collection of evidence and lessons learned.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ir-process", "cp-vuln-remediation"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.4 (f)",
         "summary": "Policies / Sanction process for lack of compliance/breach of procedures",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-sanctions", "cp-breach-customer", "cp-breach-investigate", "cp-breach-letter"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.5",
         "title": "CC7.5",
         "summary": "The entity identifies, develops, and implements activities to recover from identified security incidents.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ir-playbook", "cp-ir-process", "cp-bcdr-recovery"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.5 (a)",
         "summary": "Incident response policies and procedures include steps to restore operation of systems",
-        "Procedures": [],
+        "Procedures": ["cp-ir-playbook", "cp-ir-process", "cp-bcdr-recovery"],
         "Status": "Not started"
       },
       {
         "ref": "CC7.5 (b)",
         "summary": "Management meeting minutes to discuss incidents and corrective measures",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ir-process"],
+        "Status": "NEEDS MORE INFO"
       },
       {
         "ref": "CC7.5 (c)",
         "summary": "Post-Incident Activities include event communication (steps taken), root cause analysis, lessons learned, improvement areas",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ir-process"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.5 (d)",
         "summary": "Incidents requiring a change follow the standard change control process",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ccm-emergency"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.5 (e)",
         "summary": "The incident response plan is tested on a periodic basis",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ir-process", "cp-ir-tabletop"],
+        "Status": "COMPLETE"
       }
     ]
   },

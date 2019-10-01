@@ -32,7 +32,9 @@ async function mapProcedures() {
             for (procedure of control['Procedures']) {
                 var picked = lodash.filter(mappings['procedures'], { 'id': procedure } )[0];
                 var soc2 = lodash.filter(picked['implements'], { 'standard': 'SOC2' } )[0];
-                soc2['controls'].push(control['ref']);
+                if (soc2['controls'].indexOf(control['ref']) === -1) {
+                    soc2['controls'].push(control['ref']);
+                }
             }
         }
     }

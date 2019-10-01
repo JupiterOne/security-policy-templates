@@ -1069,38 +1069,38 @@
         "ref": "CC7.1",
         "title": "CC7.1",
         "summary": "To meet its objectives, the entity uses detection and monitoring procedures to identify (1) changes to configurations that result in the introduction of new vulnerabilities, and (2) susceptibilities to newly discovered vulnerabilities.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-vuln-scan", "cp-sdlc-sast", "cp-sdlc-foss", "cp-sdlc-sast", "cp-sdlc-pentest"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.1 (a)",
         "summary": "Defined configuration / baseline standards",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ccm-config", "cp-ccm-provision-endpoint", "cp-ccm-provision-server", "cp-ccm-network"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.1 (b)",
         "summary": "Monitoring software is used to monitor infrastructure and software for noncompliance with the aforementioned standards",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ccm-provision-endpoint", "cp-events-analysis", "cp-data-protection", "cp-audit-types"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.1 (c)",
         "summary": "File integrity monitoring tool is utilized to alert personnel of unauthorized modifications to  files",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-audit-types"],
+        "Status": "NEEDS MORE INFO"
       },
       {
         "ref": "CC7.1 (d)",
         "summary": "Network scans are performed to identify unknown/unauthorized devices",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-audit-types", "cp-audit-tools", "cp-threat-nids"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.1 (e)",
         "summary": "Internal and External vulnerability scans are performed on a periodic basis to identify vulnerabilities and remediate deficiencies",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-vuln-scan", "cp-sdlc-pentest", "cp-sdlc-appsec-req"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC7.2",

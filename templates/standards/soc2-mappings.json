@@ -750,236 +750,236 @@
         "ref": "CC6.1",
         "title": "CC6.1",
         "summary": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-access-aws", "cp-access-customer", "cp-access-mfa", "cp-access-phi", "cp-access-rbac", "cp-access-service", "cp-access-sso", "cp-access-standards", "cp-access-vpn", "cp-access-wifi"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.1 (a)",
         "summary": "The organization identifies and classified information assets as part of the annual risk assessment.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-risk-assess", "cp-risk-mgmt"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.1 (b)",
         "summary": "Inventory of information assets is maintained and updated as needed.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-asset-digital", "cp-data-lifecycle"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.1 (c)",
         "summary": "Authentication with unique ID and password requirements such as password expiration, minimum password length, etc.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-access-password", "cp-access-standards"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.1 (d)",
         "summary": "Infrastructure components and software are configured to use the active directory shared sign-on functionality when available.  Systems not using the shared sign-on functionality are configured to require a separate user ID and password.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-access-standards", "cp-access-sso"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.1 (e)",
         "summary": "Firewalls are in place to segment the network such that critical assets are segmented from non-critical assets with strict access control systems in place.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-threat-firewall", "cp-access-phi", "cp-model-principles"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.1 (f)",
         "summary": "Shared accounts are prohibited",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-access-standards"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.1 (g)",
         "summary": "Predefined security access groups are utilized to restrict access to information assets",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ccm-aws", "cp-access-rbac"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.1 (h)",
         "summary": "Information Security/Acceptable Use Policy is in place to guide personnel using information assets",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-employee-acceptable-use"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.1 (i)",
         "summary": "Confidential data stored in encrypted format",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-data-protection", "cp-data-protection-at-rest"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.1 (j)",
         "summary": "Access to encryption keys is restricted to authorized personnel",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-data-protection-in-transit"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.2",
         "title": "CC6.2",
         "summary": "Prior to issuing system credentials and granting system access, the entity registers and authorizes new internal and external users whose access is administered by the entity. For those users whose access is administered by the entity, user system credentials are removed when user access is no longer authorized.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-employee-exiting", "cp-employee-onboarding", "cp-access-change"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.2 (a)",
         "summary": "User access requests including contractor or vendor access",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-access-change", "cp-vendor-ssa"],
+        "Status": "NEEDS MORE INFO"
       },
       {
         "ref": "CC6.2 (b)",
         "summary": "Terminated users are removed from the systems",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-employee-exiting", "cp-access-change"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.2 (c)",
         "summary": "User access reviews",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-audit-internal", "cp-access-review", "cp-audit-types"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.3",
         "title": "CC6.3",
         "summary": "The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-access-standards", "cp-access-rbac", "cp-access-phi", "cp-access-change", "cp-data-protection", "cp-model-principles"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.3 (a)",
         "summary": "User access requests or modifications are documented on access request forms",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-access-change"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.3 (b)",
         "summary": "Application level authentication and password controls",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-access-standards", "cp-access-service", "cp-sdlc-iaaa"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.3 (c)",
         "summary": "Termination checklist and/or removal of access",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-employee-exiting", "cp-access-change"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.3 (d)",
         "summary": "Predefined security access groups are utilized to enforce segregation of duties",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ccm-aws", "cp-access-rbac"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.4",
         "title": "CC6.4",
         "summary": "The entity restricts physical access to facilities and protected information assets (for example, data center facilities,  back-up media storage, and other sensitive locations) to authorized personnel to meet the entity’s objectives.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-physical"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.4 (a)",
         "summary": "Policies are in place to guide personnel in the creation of modification of physical access permissions",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-risk-mgmt"],
+        "Status": "NEEDS MORE INFO"
       },
       {
         "ref": "CC6.4 (b)",
         "summary": "Physical access requests approval and documentation",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures":  ["cp-physical", "cp-access-change"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.4 (c)",
         "summary": "A termination checklist is completed to help ensure physical access is revoked.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-access-change", "cp-employee-exiting", "cp-physical"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.4 (d)",
         "summary": "Physical access reviews",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-access-review"],
+        "Status": "NEEDS MORE INFO"
       },
       {
         "ref": "CC6.5",
         "title": "CC6.5",
         "summary": "The entity discontinues logical and physical protections over physical assets only after the ability to read or recover data and software from those assets has been diminished and is no longer required to meet the entity’s objectives.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-data-lifecycle", "cp-mdm-disposal", "cp-mdm-usb", "cp-asset-physical"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.5 (a)",
         "summary": "Data destruction procedures are in place",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-mdm-disposal", "cp-mdm-usb", "cp-asset-physical", "cp-data-handling", "cp-data-deletion"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.5 (b)",
         "summary": "Automated scripts to dispose of data and software from database or entire server",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-data-deletion"],
+        "Status": "NEEDS MORE INFO"
       },
       {
         "ref": "CC6.5 (c)",
         "summary": "Procedures are in place to remove data and software stored on equipment to be removed from the physical control of the entity and to render such data and software unreadable.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-mdm-disposal"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.6",
         "title": "CC6.6",
         "summary": "The entity implements logical access security measures to protect against threats from sources outside its system boundaries.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-access-vpn", "cp-threat-firewall", "cp-access-wifi", "cp-access-aws", "cp-access-mfa", "cp-access-standards"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.6 (a)",
         "summary": "Network communication devices are restricted to authorized personnel",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-access-standards","cp-physical"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.6 (b)",
         "summary": "Encryption for web communication sessions",
         "Procedures": [],
-        "Status": "Not started"
+        "Status": "NEEDS MORE INFO"
       },
       {
         "ref": "CC6.6 (c)",
         "summary": "Encrypted VPNs",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-access-vpn"],
+        "Status": "NEEDS MORE INFO"
       },
       {
         "ref": "CC6.6 (d)",
         "summary": "Application level authentication and password controls",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-access-standards", "cp-access-service", "cp-sdlc-iaaa"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.6 (e)",
         "summary": "Firewall system in place and rules are reviewed periodically",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-threat-firewall"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.6 (f)",
         "summary": "IDS/IPS",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-threat-nids", "cp-threat-hids"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.7",
         "title": "CC6.7",
         "summary": "The entity restricts the transmission, movement, and removal of information to authorized internal and external users and processes, and protects it during transmission, movement, or removal to meet the entity’s objectives.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-data-handling", "cp-data-classification", "cp-data-lifecycle", "cp-data-protection-in-transit", "cp-data-protection-in-use", "cp-data-protection"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.7 (a)",
         "summary": "SFTP server used to transfer data",
         "Procedures": [],
-        "Status": "Not started"
+        "Status": "NEEDS MORE INFO"
       },
       {
         "ref": "CC6.7 (b)",
@@ -990,75 +990,75 @@
       {
         "ref": "CC6.7 (c)",
         "summary": "Encrypted VPNs",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-access-vpn"],
+        "Status": "NEEDS MORE INFO"
       },
       {
         "ref": "CC6.7 (d)",
         "summary": "Encryption for web communication sessions",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-employee-acceptable-use"],
+        "Status": "NEEDS MORE INFO"
       },
       {
         "ref": "CC6.7 (e)",
         "summary": "Policies prohibit transmission of sensitive information",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-data-protection-in-transit", "cp-data-handling", "cp-data-protection"],
+        "Status": "NEEDS MORE INFO"
       },
       {
         "ref": "CC6.7 (f)",
         "summary": "Encryption of backup media (e.g. USB drive)",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-mdm-usb", "cp-data-protection-at-rest", "cp-employee-acceptable-use"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.7 (g)",
         "summary": "BYOD policy is in place to guide personnel in the proper use of mobile devices",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-mdm-byod"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.7 (h)",
         "summary": "An MDM solution is utilized to control mobile devices",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-mdm-byod", "cp-mdm-disposal", "cp-mdm-usb", "cp-employee-acceptable-use"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.8",
         "title": "CC6.8",
         "summary": "The entity implements controls to prevent or detect and act upon the introduction of unauthorized or malicious software to meet the entity’s objectives.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-employee-acceptable-use", "cp-employee-onboarding", "cp-training-policy"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.8 (a)",
         "summary": "The ability to install software is restricted to IT personnel.  Periodic reviews are performed to ensure compliance with the policy",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-employee-acceptable-use", "cp-employee-onboarding", "cp-training-policy"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.8 (b)",
         "summary": "Monitoring systems are in place to detect changes to baseline configurations",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ccm-config", "cp-mdm-byod"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.8 (c)",
         "summary": "Change control procedures are in place for implementation of software",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-sdlc-dev", "cp-sdlc-scm"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.8 (d)",
         "summary": "Central AV or AV on each applicable system – including periodic scans and definition updates",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-threat-malware", "cp-ccm-provision-server", "cp-mdm-byod"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC6.8 (e)",
         "summary": "Returned or newly introduced devices are scanned prior to implementation on the network",
         "Procedures": [],
-        "Status": "Not started"
+        "Status": "NEEDS MORE INFO"
       }
     ]
   },

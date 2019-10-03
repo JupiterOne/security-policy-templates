@@ -567,63 +567,63 @@
         "ref": "CC4.1",
         "title": "COSO Principle 16",
         "summary": "The entity selects, develops, and performs ongoing and/or separate evaluations to ascertain whether the components of internal control are present and functioning.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-sdlc-appsec-req", "cp-model-principles", "cp-risk-mgmt", "cp-vuln-scan", "cp-audit-types", "cp-role-assignment", "cp-audit-trails"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC4.1 (a)",
         "summary": "Security reviews are performed by IT personnel and third party vendors on a periodic basis",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-audit-internal", "cp-audit-types", "cp-vuln-scan", "cp-sdlc-sast", "cp-sdlc-appsec-req", "cp-role-assignment", "cp-audit-trails"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC4.1 (b)",
         "summary": "An audit program is in place that outlines the methods for monitoring, measurement, what should be monitored, who shall monitor, scope and frequency, to ensure objectivity.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-audit-types", "cp-audit-training", "cp-audit-internal", "cp-audit-request", "cp-audit-review", "cp-audit-tools", "cp-audit-trails"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC4.1 (c)",
         "summary": "An audit plan is compiled on an annual basis that defines the audit criteria and scope for each audit. audit schedule based on results from previous reviews and changes to the business.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-audit-request", "cp-audit-types", "cp-audit-tools", "cp-vuln-scan", "cp-audit-internal"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC4.1 (d)",
         "summary": "Audits are planned to ensure integration with business processes",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-compliance-requests", "cp-audit-types", "cp-audit-internal", "cp-audit-training"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC4.1 (e)",
         "summary": "The organization selects audits that ensure objectivity and the impartiality of the audit process",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-audit-internal", "cp-audit-request", "cp-audit-review", "cp-audit-trails-integrity", "cp-audit-trails"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC4.2",
         "title": "COSO Principle 17",
         "summary": "The entity evaluates and communicates internal control deficiencies in a timely manner to those parties responsible for taking corrective action, including senior management and the board of directors, as appropriate.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-role-assignment", "cp-training-policy", "cp-vuln-scan", "cp-vuln-remediation", "cp-access-password", "cp-breach-investigate", "cp-audit-review"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC4.2 (a)",
         "summary": "Security review results are reviewed by BoD/ management",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-audit-review", "cp-role-assignment", "cp-ir-sirt", "cp-risk-assess", "cp-ir-process"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC4.2 (b)",
         "summary": "Identified deficiencies are communicated to parties responsible for taking corrective action",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-risk-mitigation", "cp-ir-sirt", "cp-role-assignment", "cp-training-policy", "cp-vuln-scan"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC4.2 (c)",
         "summary": "Remediation plans are proposed and monitored through resolution.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-vuln-remediation", "cp-risk-mitigation", "cp-ir-playbook", "cp-ir-process"],
+        "Status": "COMPLETE"
       }
     ]
   },
@@ -634,112 +634,112 @@
         "ref": "CC5.1",
         "title": "COSO Principle 10",
         "summary": "The entity selects and develops control activities that contribute to the mitigation of risks to the achievement of objectives to acceptable levels.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-risk-mitigation","cp-risk-mgmt"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC5.1 (a)",
         "summary": "Control activities to mitigate risks identified during the risk assessment (i.e. responses to risk)",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-risk-mitigation", "cp-risk-assess", "cp-risk-mgmt"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC5.1 (b)",
         "summary": "Understanding entity-specific factors such as complexity and nature of the scope of the operations",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-risk-assess"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC5.1 (c)",
         "summary": "Identification of critical business processes requiring implementation of control activities",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-risk-assess", "cp-risk-mgmt", "cp-risk-mitigation"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC5.1 (d)",
         "summary": "Various types of control activities (manual or automated; preventative, detective, or corrective)",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-risk-mitigation", "cp-risk-assess", "cp-risk-mgmt"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC5.1 (e)",
         "summary": "Implemented at multiple levels of the organization (e.g. via high-level policies and lower level procedures)",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-risk-assess", "cp-risk-mgmt", "cp-role-assignment"],
+        "Status": "NEEDS MORE INFO"
       },
       {
         "ref": "CC5.1 (f)",
         "summary": "Segregation of Duties",
         "Procedures": [],
-        "Status": "Not started"
+        "Status": "NEEDS MORE INFO"
       },
       {
         "ref": "CC5.2",
         "title": "COSO Principle 11",
         "summary": "The entity also selects and develops general control activities over technology to support the achievement of objectives.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-role-assignment", "cp-policy-mgmt", "cp-model-quality", "cp-model-principles"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC5.2 (a)",
         "summary": "Dependency between use of technology in business processes",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-model-principles", "cp-model-architecture"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC5.2 (b)",
         "summary": "How technical control activities are designed and implemented to ensure completeness, accuracy, and availability of technology processing are attained",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-policy-mgmt", "cp-sdlc-design", "cp-sdlc-dev", "cp-risk-mitigation"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC5.2 (c)",
         "summary": "Restriction of access is granted based on the principle of least privilege and to protect from external threats",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-access-standards", "cp-access-rbac"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC5.2 (d)",
         "summary": "Selection, acquisition, development, and maintenance over infrastructure to meet organizational objectives",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-ccm-aws", "cp-ccm-aws-deploy", "cp-ccm-patch", "cp-ccm-network"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC5.3",
         "title": "COSO Principle 12",
         "summary": "The entity deploys control activities through policies that establish what is expected and in procedures that put policies into action.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-policy-mgmt", "cp-training-policy", "cp-role-assignment"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC5.3 (a)",
         "summary": "Day-to-day activities to guide personnel in the achievement of organizational objectives.",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-role-assignment", "cp-training-awareness", "cp-training-policy"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC5.3 (b)",
         "summary": "Ownership of policies and responsibility for execution of control activities are assigned to process owners",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-role-assignment", "cp-policy-mgmt", "cp-risk-mitigation"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC5.3 (c)",
         "summary": "Corrective action for issues that arise when executing control activities",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-risk-mitigation", "cp-role-assignment", "cp-ir-sirt", "cp-training-policy", "cp-policy-mgmt", "cp-risk-mgmt", "cp-audit-training", "cp-audit-review"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC5.3 (d)",
         "summary": "Competent personnel with sufficient authority perform control activities as specified by procedures",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-role-assignment", "cp-ir-sirt", "cp-risk-mitigation"],
+        "Status": "COMPLETE"
       },
       {
         "ref": "CC5.3 (e)",
         "summary": "Reassessment of control activities on a periodic basis",
-        "Procedures": [],
-        "Status": "Not started"
+        "Procedures": ["cp-policy-mgmt", "cp-risk-mgmt", "cp-audit-types"],
+        "Status": "COMPLETE"
       }
     ]
   },

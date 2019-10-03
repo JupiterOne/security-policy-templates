@@ -424,143 +424,143 @@
           "ref": "CC3.1",
           "title": "COSO Principle 6",
           "summary": "The entity specifies objectives with sufficient clarity to enable the identification and assessment of risks relating to objectives.",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-risk-assess", "cp-risk-mgmt", "cp-model-principles", "cp-model-quality"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC3.1 (a)",
           "summary": "The entity has documented relevant operations, reporting, and compliance objectives that are in line with the mission of the organization",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-risk-mgmt", "cp-model-principles", "cp-compliance-mgmt", "cp-sdlc-design", "cp-sdlc-dev", "cp-audit-types", "cp-role-assignment"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC3.1 (b)",
           "summary": "The risk assessment includes clearly documented objectives and associated risks",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-risk-assess", "cp-risk-mgmt"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC3.1 (c)",
           "summary": "The risk assessment includes tolerances for risk by defining acceptable levels and assigning risks to defined levels",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-risk-assess", "cp-risk-mgmt", "cp-risk-mitigation"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC3.2",
           "title": "COSO Principle 7",
           "summary": "The entity identifies risks to the achievement of its objectives across the entity and analyzes risks as a basis for determining how the risks should be managed.",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-risk-mitigation", "cp-risk-assess", "cp-risk-mgmt"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC3.2 (a)",
           "summary": "Documented risk assessment policy",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-risk-assess", "cp-risk-mitigation", "cp-risk-mgmt"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC3.2 (b)",
           "summary": "Risks that may threaten the achievement of objectives (defined in CC3.1 above) are identified and assessed",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-risk-assess", "cp-risk-mgmt"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC3.2 (c)",
           "summary": "Risk identification includes both internal and external factors and their impact on objectives",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-risk-assess", "cp-vendor-ssa"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC3.2 (d)",
           "summary": "Risk assessment process includes the identification of information assets, assessment of each asset’s criticality, threats to each asset, and vulnerabilities to each asset",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-risk-assess"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC3.2 (e)",
           "summary": "Risk assessment process includes the analysis of potential threats and vulnerabilities introduced from doing business with vendors/business partners \nCompleted risk assessment includes:",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-vendor-ssa", "cp-vendor-vtr"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC3.2 (f)",
           "summary": "Management and/or risk owner approval",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-risk-mgmt"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC3.2 (g)",
           "summary": "Estimate of the significance of risk",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-risk-assess"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC3.2 (h)",
           "summary": "Risk Response",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-risk-mgmt", "cp-risk-mitigation"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC3.3",
           "title": "COSO Principle 8",
           "summary": "The entity considers the potential for fraud in assessing risks to the achievement of objectives.",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC3.3 (a)",
           "summary": "Evaluation of fraud risk is considered in the risk assessment.",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC3.3 (b)",
           "summary": "Evaluation of fraud risk includes consideration of the Fraud Risk Triangle components (pressures, opportunities, and rationalization",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC3.3 (c)",
           "summary": "Evaluation of fraud risk considers the risks introduced from the use of IT and access to information",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC3.4",
           "title": "COSO Principle 9",
           "summary": "The entity identifies and assesses changes that could significantly impact the system of internal control.",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-risk-mgmt", "cp-sdlc-design"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC3.4 (a)",
           "summary": "External Environment (laws & regulations, economic, etc.)",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC3.4 (b)",
           "summary": "Business Model (acquired/divested business units, new tech, growth)",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC3.4 (c)",
           "summary": "Leadership (changes in management)",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC3.4 (d)",
           "summary": "Technology (changes in prod environment)",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-ccm-prodcm", "cp-sdlc-design", "cp-sdlc-dev", "cp-ccm-aws-deploy"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC3.4 (e)",
           "summary": "Third-Parties (vendors/business partners)",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-vendor-ssa", "cp-vendor-vtr", "cp-vendor-contracts", "cp-sdlc-outsourcing"],
+          "Status": "COMPLETE"
         }
       ]
     },

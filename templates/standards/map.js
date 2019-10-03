@@ -64,5 +64,5 @@ async function getUncompletedControls(standardsMappingsFile) {
 
 //addStandardToControlsMappings("SOC2", "controls-mapping.json");
 //createMappingFields("soc2.json", "soc2-mappings.json");
-//mapProcedures("soc2-mappings.json", "controls-mapping.json");
-getUncompletedControls("soc2-mappings.json");
+mapProcedures("soc2-mappings.json", "controls-mapping.json");
+//getUncompletedControls("soc2-mappings.json");

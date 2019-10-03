@@ -49,6 +49,20 @@ async function mapProcedures(standardsMappingsFile, outputControlsMappingFile) {
 
 }
 
+
+async function getUncompletedControls(standardsMappingsFile) {
+    let standardsMappings = JSON.parse(fs.readFileSync(standardsMappingsFile));
+
+    for (section of standardsMappings['domains']) {
+        for (control of section['controls']) {
+            if (control['Status'] !== "COMPLETE") {
+                console.log(`Control "${control['ref']}: ${control['summary']}" has status "${control['Status']} "\n`);
+            }
+        }
+    }
+}
+
 //addStandardToControlsMappings("SOC2", "controls-mapping.json");
 //createMappingFields("soc2.json", "soc2-mappings.json");
-mapProcedures("soc2-mappings.json", "controls-mapping.json");
+//mapProcedures("soc2-mappings.json", "controls-mapping.json");
+getUncompletedControls("soc2-mappings.json");

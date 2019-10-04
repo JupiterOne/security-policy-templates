@@ -242,178 +242,178 @@
           "ref": "CC2.1",
           "title": "COSO Principle 13",
           "summary": "The entity obtains or generates and uses relevant, quality information to support the functioning of internal control.",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-risk-assess", "cp-vuln-scan", "cp-audit-types", "cp-role-assignment", "cp-data-protection", "cp-audit-trails"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.1 (a)",
           "summary": "A policy/process is in place that identifies information required to support the functioning of internal control and the achievement of objectives",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-audit-types", "cp-role-assignment", "cp-data-protection"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.1 (b)",
           "summary": "Information systems collect data from internal and external sources of data",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-data-classification", "cp-data-lifecycle"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.1 (c)",
           "summary": "Information systems process and transform relevant data into information",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-data-lifecycle", "cp-audit-trails", "cp-events-analysis", "cp-ir-process"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.1 (d)",
           "summary": "Policies are in place that establish information policies with a clear responsibility and accountability for the quality of information",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-data-handling", "cp-audit-trails", "cp-audit-trails-integrity", "cp-data-lifecycle", "cp-data-protection"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.2",
           "title": "COSO Principle 14",
           "summary": "The entity internally communicates information, including objectives and responsibilities for internal control, necessary to support the functioning of internal control.",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-policy-mgmt", "cp-risk-mitigation", "cp-risk-mgmt", "cp-ir-sirt", "cp-training-policy"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.2 (a)",
           "summary": "Employees are required to sign documents that include the company’s commitments and/or requirements, such as policies and procedures",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-training-policy", "cp-training-hipaa", "cp-employee-onboarding"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.2 (b)",
           "summary": "Training courses are provided that outline the commitments and requirements",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-training-awareness", "cp-training-hipaa", "cp-training-policy"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.2 (c)",
           "summary": "Job descriptions are documented and updated that communicate internal control responsibilities",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-ir-sirt", "cp-role-assignment", "cp-training-policy", "cp-risk-mgmt"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC2.2 (d)",
           "summary": "The BoD meets with executive management on a periodic basis to discuss their roles with respect to the company objectives/achievement of objs.",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC2.2 (e)",
           "summary": "Objectives and changes to objectives are communicated to personnel",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-model-principles", "cp-model-quality", "cp-model-architecture", "cp-sdlc-dev"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC2.2 (f)",
           "summary": "Incident response / escalation policies and procedures are in place to guide personnel in reporting system failures, incidents, and complaints.",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-ir-playbook", "cp-ir-process", "cp-ir-sirt", "cp-role-assignment"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.2 (g)",
           "summary": "Multiple communication channels (e.g. Whistle-blower hotline) are in place for anonymous communication when normal channels are ineffective",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-ir-process"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC2.2 (h)",
           "summary": "Communication methods consider the timing, audience, and nature of the information",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-breach-letter", "cp-breach-authorities", "cp-compliance-requests", "cp-breach-investigate"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC2.2 (i)",
           "summary": "SAT is available that seeks to improve security knowledge and awareness \nThe entity communicates:",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-training-awareness"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.2 (j)",
           "summary": "Information about the design and operation of the system to help personnel understand their rol",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-sdlc-appsec-req", "cp-sdlc-design", "cp-sdlc-dev", "cp-model-architecture", "cp-model-principles", "cp-data-handling", "cp-access-standards", "cp-ccm-aws-deploy"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.2 (k)",
           "summary": "System objectives to personnel to enable them to carry out their responsibiliti",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-access-standards", "cp-sdlc-dev", "cp-model-principles", "cp-model-quality", "cp-model-architecture", "cp-sdlc-appsec-req"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.2 (l)",
           "summary": "System changes that affect responsibilities or achievement of objectives",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-ccm-aws-deploy", "cp-ccm-prodcm"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC2.3",
           "title": "COSO Principle 15",
           "summary": "The entity communicates with external parties regarding matters affecting the functioning of internal control.",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-compliance-requests", "cp-sdlc-pentest", "cp-ir-playbook", "cp-bcdr", "cp-breach-investigate"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.3 (a)",
           "summary": "Policies and procedures are in place that outline communications to external parties (shareholders, customers, etc.)",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-breach-investigate", "cp-breach-letter", "cp-breach-authorities", "cp-ir-playbook", "cp-ir-process", "cp-bcdr"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.3 (b)",
           "summary": "Communication channels are in place that allow input from external parties",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-compliance-requests"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.3 (c)",
           "summary": "Findings from external risk assessments are communicated to the BoD",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-risk-mgmt"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC2.3 (d)",
           "summary": "Multiple communication channels (e.g. Whistle-blower hotline) are in place for external parties and anonymous communication when normal channels are ineffective",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-ir-process"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC2.3 (e)",
           "summary": "Communication methods consider the timing, audience, and nature of the information",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-breach-letter", "cp-breach-authorities", "cp-compliance-requests", "cp-breach-investigate"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC2.3 (f)",
           "summary": "The entity provides system manuals / policies that outline the design and operation of the system to authorized external users (suppliers/vendors)",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-model-architecture", "cp-model-principles", "cp-sdlc-dev", "cp-ccm-aws"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.3 (g)",
           "summary": "The entity communicates commitments in customer contracts, NDA, master services agreements, service level agreements, marketing material, or the customer facing website",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-breach-customer", "cp-sdlc-hipaa", "cp-vuln-remediation", "cp-mdm-disposal", "cp-data-classification"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC2.3 (h)",
           "summary": "Vendor/Supplier requirements are documented in master service agreements",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-vendor-contracts"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.3 (i)",
           "summary": "An incident response plan is in place that outlines communication requirements for system incidents\nPoints of Focus Only Related if the Confidentiality Category is in scope",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-ir-playbook", "cp-bcdr-recovery", "cp-breach-investigate"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC2.3 (j)",
           "summary": "Confidentiality commitments and objectives are documented in customer contracts. A formal process is in place to communicate changes to users, related parties, and vendors",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-risk-mgmt", "cp-privacy-notices", "cp-data-classification"],
+          "Status": "NEEDS MORE INFO"
         }
       ]
     },
@@ -535,8 +535,8 @@
         {
           "ref": "CC3.4 (a)",
           "summary": "External Environment (laws & regulations, economic, etc.)",
-          "Procedures": [],
-          "Status": "NOT AVAILABLE"
+          "Procedures": ["cp-bcdr"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC3.4 (b)",

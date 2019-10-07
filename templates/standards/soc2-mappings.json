@@ -10,51 +10,51 @@
           "ref": "CC1.1",
           "title": "COSO Principle 1",
           "summary": "The entity demonstrates a commitment to integrity and ethical values.",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-employee-whistleblower"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC1.1 (a)",
           "summary": "A code of conduct/employee manual are in place and approved by top management",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-employee-onboarding", "cp-policy-mgmt", "cp-employee-acceptable-use", "cp-training-policy"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC1.1 (b)",
           "summary": "Employee acknowledgement for employee manual/code of conduct",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-training-policy", "cp-employee-onboarding"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC1.1 (c)",
           "summary": "Code of conduct/employee manual contain a clause detailing the implications of nonconformance of said policy.",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-employee-whistleblower", "cp-sanctions"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC1.1 (d)",
           "summary": "Performance reviews are conducted on a periodic basis to evaluate performance of employees against expected levels of performance.",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC1.1 (e)",
           "summary": "Controls are in place to monitor employee’s compliance with the code of conduct",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-role-assignment", "cp-audit-types"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC1.1 (f)",
           "summary": "Third-party screening procedures / onboarding process considers the risks of hiring third-parties",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-sdlc-outsourcing", "cp-employee-screening"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC1.2",
           "title": "COSO Principle 2",
           "summary": "The board of directors demonstrates independence from management and exercises oversight of the development and performance of internal control.",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC1.2 (a)",
@@ -96,142 +96,142 @@
           "ref": "CC1.3",
           "title": "COSO Principle 3",
           "summary": "Management establishes, with board oversight, structures, reporting lines, and appropriate authorities and responsibilities in the pursuit of objectives.",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-role-assignment", "cp-employee-whistleblower", "cp-ir-sirt", "cp-bcdr-recovery", "cp-bcdr", "cp-ir-playbook"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC1.3 (a)",
           "summary": "The BoD reviews and approves policies and practices that support the performance of internal controls across the business in regular meetings between management and the board.",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC1.3 (b)",
           "summary": "Organizational charts / reporting lines are in place, communicated, and updated as needed",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-role-assignment", "cp-employee-whistleblower", "cp-ir-sirt", "cp-bcdr-recovery"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC1.3 (c)",
           "summary": "Position / Job descriptions are documented and updated as needed that define the skills, responsibilities, and knowledge levels required for certain jobs",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC1.3 (d)",
           "summary": "Job descriptions are documented with consideration [categories in scope] when defining authorities and responsibilities",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-role-assignment"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC1.3 (e)",
           "summary": "Mgmt. and the BoD consider the need to interact and monitor third parties to meet objectives",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC1.4",
           "title": "COSO Principle 4",
           "summary": "The entity demonstrates a commitment to attract, develop, and retain competent individuals in alignment with objectives.",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-role-assignment", "cp-training-awareness"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC1.4 (a)",
           "summary": "Policies and procedures are in place to guide personnel (reflect expectations of competence necessary) in the pursuit of the organizations objectives",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-policy-mgmt"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC1.4 (b)",
           "summary": "New employee hiring procedures are in place to guide the hiring process and include verification that candidates possess the required qualifications to perform the duties as outlined in the job description",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-employee-onboarding", "cp-employee-screening"],
+          "Status": "NEEDS MORE INFO"
         },
         {
           "ref": "CC1.4 (c)",
           "summary": "Employee evaluations are performed on a periodic basis",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC1.4 (d)",
           "summary": "Training courses / SAT are available to new and existing employees to maintain and advance the skill level of personnel",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-training-awareness", "cp-training-hipaa", "cp-training-policy"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC1.4 (e)",
           "summary": "Senior management develops contingency plans for assignment of responsibility for internal controls",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-bcdr", "cp-bcdr-recovery", "cp-bcdr-site"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC1.4 (f)",
           "summary": "Employee training program / SAT compliance is monitored",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-training-awareness", "cp-employee-onboarding", "cp-training-hipaa", "cp-training-policy"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC1.4 (g)",
           "summary": "Background checks are performed for employees as a component of the hiring process",
-          "Procedures": [],
-          "Status": "Not started"
+          "Procedures": ["cp-employee-screening"],
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC1.4 (h)",
           "summary": "Technical skills of new hires are assessed prior to employment",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC1.4 (i)",
           "summary": "Training to maintain technical skills is provided to employees",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC1.5",
           "title": "COSO Principle 5",
           "summary": "The entity holds individuals accountable for their internal control responsibilities in the pursuit of objectives.",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC1.5 (a)",
           "summary": "Organizational charts are in place and communicated",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC1.5 (b)",
           "summary": "Position / Job descriptions are documented and updated as needed that define the skills, responsibilities, and knowledge levels required for certain jobs",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC1.5 (c)",
           "summary": "Management/BoD establish performance measures, incentives, and other rewards appropriate for responsibilities at all levels of the entity, reflecting appropriate dimensions of performance and expected standards of conduct",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC1.5 (d)",
           "summary": "Performance measures are in place [and aligned with incentives] that reflect appropriate dimensions of performance and expected standards of conduct",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC1.5 (e)",
           "summary": "Management & BoD evaluate and adjust pressures when setting employee objectives / performance metrics",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         },
         {
           "ref": "CC1.5 (f)",
           "summary": "Performance reviews are performed on a periodic basis to evaluate performance of employees against expected levels of performance",
           "Procedures": [],
-          "Status": "Not started"
+          "Status": "NOT AVAILABLE"
         }
       ]
     },

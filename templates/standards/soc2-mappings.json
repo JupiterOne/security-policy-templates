@@ -1135,7 +1135,7 @@
           "ref": "CC7.2 (d)",
           "summary": "Frequency logs are manually reviewed along with evidence of review documentation",
           "Procedures": ["cp-audit-internal"],
-          "Status": "NEEDS MORE INFO"
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC7.2 (e)",
@@ -1234,7 +1234,7 @@
           "ref": "CC7.5 (a)",
           "summary": "Incident response policies and procedures include steps to restore operation of systems",
           "Procedures": ["cp-ir-playbook", "cp-ir-process", "cp-bcdr-recovery"],
-          "Status": "Not started"
+          "Status": "COMPLETE"
         },
         {
           "ref": "CC7.5 (b)",

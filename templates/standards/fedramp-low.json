@@ -78,7 +78,7 @@
         },
         {
           "ref": "AT-3",
-          "title": "Role Based Security Training",
+          "title": "Role-Based Security Training",
           "summary": "The organization provides role-based security training to personnel with assigned security roles and responsibilities:\na. Before authorizing access to the information system or performing assigned duties;\nb. When required by information system changes; and\nc. **at least annually** thereafter."
         },
         {
@@ -118,7 +118,7 @@
         },
         {
           "ref": "AU-6",
-          "title": "Audit Review Analysis and Reporting",
+          "title": "Audit Review, Analysis, and Reporting",
           "summary": "The organization:\n a. Reviews and analyzes information system audit records **at least weekly** for indications of [Assignment: organization-defined inappropriate or unusual activity]; and\n b. Reports findings to [Assignment: organization-defined personnel or roles]."
         },
         {
@@ -148,7 +148,7 @@
       "controls": [
         {
           "ref": "CA-1",
-          "title": "Security Assessment and Authorization Policy and Procedures",
+          "title": "Security Assessment and Authorization\nPolicy and Procedures",
           "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A security assessment and authorization policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the security assessment and authorization policy and associated security assessment and authorization controls; and\n b. Reviews and updates the current:\n   1. Security assessment and authorization policy **at least every 3 years**; and\n   2. Security assessment and authorization procedures **at least annually**."
         },
         {
@@ -158,7 +158,7 @@
         },
         {
           "ref": "CA-2 (1)",
-          "title": "Security Assessments Independent Assessors",
+          "title": "Security Assessments | Independent Assessors",
           "summary": "The organization employs assessors or assessment teams with [Assignment: organization-defined level of independence] to conduct security control assessments."
         },
         {
@@ -228,7 +228,7 @@
         },
         {
           "ref": "CM-11",
-          "title": "User Installed Software",
+          "title": "User-Installed Software",
           "summary": "The organization:\n a. Establishes [Assignment: organization-defined policies] governing the installation of software by users;\n b. Enforces software installation policies through [Assignment: organization-defined methods]; and\n c. Monitors policy compliance at **Continuously (via CM-7 (5))**."
         }
       ]
@@ -278,17 +278,17 @@
         },
         {
           "ref": "IA-2",
-          "title": "Identification and Authentication Organizational Users",
+          "title": "Identification and Authentication\n(Organizational Users)",
           "summary": "The information system uniquely identifies and authenticates organizational users (or processes acting on behalf of organizational users)."
         },
         {
           "ref": "IA-2 (1)",
-          "title": "Identification and Authentication Network Access To Privileged Accounts",
+          "title": "Identification and Authentication | Network Access To Privileged Accounts",
           "summary": "The information system implements multifactor authentication for network access to privileged accounts."
         },
         {
           "ref": "IA-2 (12)",
-          "title": "Identification and Authentication Acceptance of Piv Credentials",
+          "title": "Identification and Authentication | Acceptance of Piv Credentials",
           "summary": "The information system accepts and electronically verifies Personal Identity Verification (PIV)\ncredentials."
         },
         {
@@ -303,12 +303,12 @@
         },
         {
           "ref": "IA-5 (1)",
-          "title": "Authenticator Management Password Based Authentication",
+          "title": "Authenticator Management | Password-Based Authentication",
           "summary": "The information system, for password-based authentication:\n (a)   Enforces minimum password complexity of [Assignment: organization-defined requirements for case sensitivity, number of characters, mix of upper-case letters, lower-case letters, numbers, and special characters, including minimum requirements for each type];\n (b)   Enforces at least the following number of changed characters when new passwords are created: [Assignment: organization-defined number];\n (c)   Stores and transmits only encrypted representations of passwords;\n (d)   Enforces password minimum and maximum lifetime restrictions of [Assignment: organization- defined numbers for lifetime minimum, lifetime maximum];\n (e)   Prohibits password reuse for [Assignment: organization-defined number] generations; and\n (f) Allows the use of a temporary password for system logons with an immediate change to a permanent password."
         },
         {
           "ref": "IA-5 (11)",
-          "title": "Authenticator Management Hardware Token Based Authentication",
+          "title": "Authenticator Management | Hardware Token-Based Authentication",
           "summary": "The information system, for hardware token-based authentication, employs mechanisms that satisfy [Assignment: organization-defined token quality requirements]."
         },
         {
@@ -323,27 +323,27 @@
         },
         {
           "ref": "IA-8",
-          "title": "Identification and Authentication Non Organizational Users",
+          "title": "Identification and Authentication (Non- Organizational Users)",
           "summary": "The information system uniquely identifies and authenticates non-organizational users (or processes acting on behalf of non-organizational users)."
         },
         {
           "ref": "IA-8 (1)",
-          "title": "Identification and Authentication Acceptance of Piv Credentials From Other Agencies",
+          "title": "Identification and Authentication | Acceptance of Piv Credentials From Other Agencies",
           "summary": "The information system accepts and electronically verifies Personal Identity Verification (PIV) credentials from other federal agencies."
         },
         {
           "ref": "IA-8 (2)",
-          "title": "Identification and Authentication Acceptance of Third Party Credentials",
+          "title": "Identification and Authentication | Acceptance of Third-Party Credentials",
           "summary": "The information system accepts only FICAM-approved third-party credentials."
         },
         {
           "ref": "IA-8 (3)",
-          "title": "Identification and Authentication Use of Ficam Approved Products",
+          "title": "Identification and Authentication | Use of Ficam-Approved Products",
           "summary": "The organization employs only FICAM-approved information system components in [Assignment:\norganization-defined information systems] to accept third-party credentials."
         },
         {
           "ref": "IA-8 (4)",
-          "title": "Identification and Authentication Use of Ficam Issued Profiles",
+          "title": "Identification and Authentication | Use of Ficam-Issued Profiles",
           "summary": "The information system conforms to FICAM-issued profiles."
         }
       ]
@@ -443,7 +443,7 @@
       "controls": [
         {
           "ref": "PE-1",
-          "title": "Physical and Environmental Protection Policy and Procedures",
+          "title": "Physical and Environmental Protection\nPolicy and Procedures",
           "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A physical and environmental protection policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the physical and environmental protection policy and associated physical and environmental protection controls; and\n b. Reviews and updates the current:\n   1. Physical and environmental protection policy **at least every 3 years**; and\n   2. Physical and environmental protection procedures **at least annually**."
         },
         {
@@ -548,7 +548,7 @@
         },
         {
           "ref": "PS-7",
-          "title": "Third Party Personnel Security",
+          "title": "Third-Party Personnel Security",
           "summary": "The organization:\n a. Establishes personnel security requirements including security roles and responsibilities for third-party providers;\n b. Requires third-party providers to comply with personnel security policies and procedures established by the organization;\n c. Documents personnel security requirements;\n d. Requires third-party providers to notify **organization-defined time period – same day** of any personnel transfers or terminations of third-party personnel who possess organizational credentials and/or badges, or who have information system privileges within [Assignment: organization-defined time period]; and\n e. Monitors provider compliance."
         },
         {
@@ -623,7 +623,7 @@
       "controls": [
         {
           "ref": "SC-1",
-          "title": "System and Communications Protection Policy and Procedures",
+          "title": "System and Communications Protection\nPolicy and Procedures",
           "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A system and communications protection policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the system and communications protection policy and associated system and communications protection controls; and\n b. Reviews and updates the current:\n   1. System and communications protection policy **at least every 3 years**; and\n   2. System and communications protection procedures **at least annually**."
         },
         {
@@ -653,17 +653,17 @@
         },
         {
           "ref": "SC-20",
-          "title": "Secure Name Address Resolution Service Authoritative Source",
+          "title": "Secure Name /Address Resolution Service\n(Authoritative Source)",
           "summary": "The information system:\n a. Provides additional data origin and integrity artifacts along with the authoritative name resolution data the system returns in response to external name/address resolution queries; and\n b. Provides the means to indicate the security status of child zones and (if the child supports secure resolution services) to enable verification of a chain of trust among parent and child domains, when operating as part of a distributed, hierarchical namespace."
         },
         {
           "ref": "SC-21",
-          "title": "Secure Name Address Resolution Service Recursive or Caching Resolver",
+          "title": "Secure Name /Address Resolution Service\n(Recursive or Caching Resolver)",
           "summary": "The information system requests and performs data origin authentication and data integrity verification on the name/address resolution responses the system receives from authoritative sources."
         },
         {
           "ref": "SC-22",
-          "title": "Architecture and Provisioning for Name Address Resolution Service",
+          "title": "Architecture and Provisioning for Name/Address Resolution Service",
           "summary": "The information systems that collectively provide name/address resolution service for an organization are fault-tolerant and implement internal/external role separation."
         },
         {
@@ -698,7 +698,7 @@
         },
         {
           "ref": "SI-5",
-          "title": "Security Alerts Advisories and Directives",
+          "title": "Security Alerts, Advisories, and Directives",
           "summary": "The organization:\n a. Receives information system security alerts, advisories, and directives from [Assignment: organization-defined external organizations, **to include US-CERT**] on an ongoing basis;\n b. Generates internal security alerts, advisories, and directives as deemed necessary;\n c. Disseminates security alerts, advisories, and directives to: [Selection (one or more): [Assignment: organization-defined personnel or roles, **to include system security personnel and administrators with configuration/patch-management responsibilities**]; [Assignment: organization-defined elements within the organization]; [Assignment: organization-defined external organizations]]; and\n d. Implements security directives in accordance with established time frames, or notifies the issuing organization of the degree of noncompliance."
         },
         {

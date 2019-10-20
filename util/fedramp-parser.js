@@ -7,13 +7,13 @@
  */
 const csvtojson = require("csvtojson");
 const fs = require('fs');
-const startCase = require('lodash/startcase');
+const capitalize = require('lodash/capitalize');
 
 /**
  * Edit the CSV headers to be:
  * Count,"SORT ID",Family,ID,Control Name,"NIST Control Description",Parameters,Guidance,"FedRAMP Parameter",,,
  */
-const level = 'Low';
+const level = 'High';
 const inputFile = `.work/FedRAMP_Security_Controls_Baseline_${level}.csv`;
 const outputFile = `../templates/standards/fedramp-${level.toLowerCase()}.json`;
 const tempFile = '.work/fedramp-raw.json';
@@ -82,7 +82,8 @@ function parseControl(data) {
   const control = {
     ref: data.ID,
     title: 
-      startCase(data["Control Name"].toLowerCase())
+      data["Control Name"].toLowerCase()
+        .replace(/\w+/g, capitalize)
         .replace(/\sAnd\s/g, ' and ')
         .replace(/\sFor\s/g, ' for ')
         .replace(/\sThe\s/g, ' the ')

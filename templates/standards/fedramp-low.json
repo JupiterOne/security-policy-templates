@@ -148,7 +148,7 @@
       "controls": [
         {
           "ref": "CA-1",
-          "title": "Security Assessment and Authorization\nPolicy and Procedures",
+          "title": "Security Assessment and Authorization Policy and Procedures",
           "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A security assessment and authorization policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the security assessment and authorization policy and associated security assessment and authorization controls; and\n b. Reviews and updates the current:\n   1. Security assessment and authorization policy **at least every 3 years**; and\n   2. Security assessment and authorization procedures **at least annually**."
         },
         {
@@ -278,7 +278,7 @@
         },
         {
           "ref": "IA-2",
-          "title": "Identification and Authentication\n(Organizational Users)",
+          "title": "Identification and Authentication (Organizational Users)",
           "summary": "The information system uniquely identifies and authenticates organizational users (or processes acting on behalf of organizational users)."
         },
         {
@@ -443,7 +443,7 @@
       "controls": [
         {
           "ref": "PE-1",
-          "title": "Physical and Environmental Protection\nPolicy and Procedures",
+          "title": "Physical and Environmental Protection Policy and Procedures",
           "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A physical and environmental protection policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the physical and environmental protection policy and associated physical and environmental protection controls; and\n b. Reviews and updates the current:\n   1. Physical and environmental protection policy **at least every 3 years**; and\n   2. Physical and environmental protection procedures **at least annually**."
         },
         {
@@ -623,7 +623,7 @@
       "controls": [
         {
           "ref": "SC-1",
-          "title": "System and Communications Protection\nPolicy and Procedures",
+          "title": "System and Communications Protection Policy and Procedures",
           "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A system and communications protection policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the system and communications protection policy and associated system and communications protection controls; and\n b. Reviews and updates the current:\n   1. System and communications protection policy **at least every 3 years**; and\n   2. System and communications protection procedures **at least annually**."
         },
         {
@@ -653,12 +653,12 @@
         },
         {
           "ref": "SC-20",
-          "title": "Secure Name /Address Resolution Service\n(Authoritative Source)",
+          "title": "Secure Name /Address Resolution Service (Authoritative Source)",
           "summary": "The information system:\n a. Provides additional data origin and integrity artifacts along with the authoritative name resolution data the system returns in response to external name/address resolution queries; and\n b. Provides the means to indicate the security status of child zones and (if the child supports secure resolution services) to enable verification of a chain of trust among parent and child domains, when operating as part of a distributed, hierarchical namespace."
         },
         {
           "ref": "SC-21",
-          "title": "Secure Name /Address Resolution Service\n(Recursive or Caching Resolver)",
+          "title": "Secure Name /Address Resolution Service (Recursive or Caching Resolver)",
           "summary": "The information system requests and performs data origin authentication and data integrity verification on the name/address resolution responses the system receives from authoritative sources."
         },
         {

@@ -1,0 +1,752 @@
+{
+  "standard": "Security Program",
+  "version": "2019",
+  "webLink": "https://apps.us.jupiterone.io/policies",
+  "domains": [
+    {
+      "title": "Security Program Overview",
+      "controls": [
+        {
+          "ref": "cp-ism-scope",
+          "title": "Information Security Program and Scope",
+          "summary": "The organization has an established security program with appropriate controls that are aligned to the organization's objectives and risk posture."
+        },
+        {
+          "ref": "cp-ism-policies",
+          "title": "Understanding the Policies and Documents",
+          "summary": "The organization's security program maintains documentation of high level policies and lower level controls and procedures."
+        },
+        {
+          "ref": "cp-ism-reporting",
+          "title": "Review and Reporting",
+          "summary": "Metrics are defined to measure the effectiveness of controls and they are reported to/reviewed by senior management."
+        }
+      ]
+    },
+    {
+      "title": "Security Architecture and Operating Model",
+      "controls": [
+        {
+          "ref": "cp-model-principles",
+          "title": "Security Principles",
+          "summary": "The organization incorporates best practices such as least-privilege or zero-trust in its security operating model."
+        },
+        {
+          "ref": "cp-model-architecture",
+          "title": "Security Architecture",
+          "summary": "Security architecture is documented, including system and infrastructure security diagrams."
+        },
+        {
+          "ref": "cp-model-metrics",
+          "title": "Metrics, Measurements and Continuous Monitoring",
+          "summary": "Metrics are defined to measure the effectiveness of controls and they are continuously monitored."
+        },
+        {
+          "ref": "cp-model-quality",
+          "title": "System Quality",
+          "summary": "The organization communicates its commitment to quality of service to its users and customers."
+        }
+      ]
+    },
+    {
+      "title": "Roles, Responsibilities and Training",
+      "controls": [
+        {
+          "ref": "cp-role-assignment",
+          "title": "Assignment of Roles and the Security Committee",
+          "summary": "Security and compliance roles and responsibilities are clearly defined to ensure segregation of duties."
+        },
+        {
+          "ref": "cp-training-policy",
+          "title": "Policy and Compliance Training",
+          "summary": "Employees and contractors receive training on the organization's security policies and procedures."
+        },
+        {
+          "ref": "cp-training-awareness",
+          "title": "Ongoing Security Awareness Training",
+          "summary": "Employees and contractors receive ongoing security awareness training at least annually."
+        },
+        {
+          "ref": "cp-training-hipaa",
+          "title": "Annual HIPAA Awareness Training",
+          "summary": "Employees and contractors working with patient data and protected health information (PHI) are required to take HIPAA awareness training within 30 days of onboarding and annually thereafter."
+        }
+      ]
+    },
+    {
+      "title": "Policy Management",
+      "controls": [
+        {
+          "ref": "cp-policy-mgmt",
+          "title": "Policy Management Process",
+          "summary": "A formal process is in place to maintain and update security policies, controls and procedures. Policies, controls and procedures are reviewed at least annually."
+        }
+      ]
+    },
+    {
+      "title": "Risk Management and Risk Assessment Process",
+      "controls": [
+        {
+          "ref": "cp-risk-mgmt",
+          "title": "Risk Management Process",
+          "summary": "The organization has a risk management policy and defined process for managing risks - including risk identification, mitigation, monitoring, review and approval."
+        },
+        {
+          "ref": "cp-risk-assess",
+          "title": "Risk Assessment and Analysis",
+          "summary": "Risk assessments are conducted annually using a defined methodology that identifies the threat, impact, probability, actor and assets targeted/impacted."
+        },
+        {
+          "ref": "cp-risk-mitigation",
+          "title": "Risk Mitigation and Monitoring",
+          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls, and to evaluate residual risk."
+        },
+        {
+          "ref": "cp-risk-registry",
+          "title": "Risk Registry",
+          "summary": "Risks identified from each risk assessment are documented and maintained."
+        }
+      ]
+    },
+    {
+      "title": "Compliance Audits and External Communications",
+      "controls": [
+        {
+          "ref": "cp-compliance-mgmt",
+          "title": "Compliance Program Management",
+          "summary": "The organization has a program and defined process to manage compliance to applicable regulatory requirements and contractual obligations."
+        },
+        {
+          "ref": "cp-compliance-requests",
+          "title": "Requesting Audit and Compliance Reports",
+          "summary": "Process and channels are established to communicate the compliance status to external stakeholders."
+        }
+      ]
+    },
+    {
+      "title": "System Audits, Monitoring and Assessments",
+      "controls": [
+        {
+          "ref": "cp-audit-types",
+          "title": "Types of System Audits",
+          "summary": "The organization has defined auditing processes including system configuration monitoring, activity monitoring, access review, and controls compliance audit."
+        },
+        {
+          "ref": "cp-events-analysis",
+          "title": "Security Event Analysis",
+          "summary": "The security team monitors system security events and logs via a combination of automated tools and manual reviews."
+        },
+        {
+          "ref": "cp-audit-internal",
+          "title": "Manual Internal Auditing Activities",
+          "summary": "The organization performs manual testing and reviews of systems, accounts and controls as needed. The audit may be performed by internal teams or external auditors."
+        },
+        {
+          "ref": "cp-audit-request",
+          "title": "Audit Requests",
+          "summary": "A process and channels have been established for internal teams and external entities (such as a customer) to request security reviews or audits."
+        },
+        {
+          "ref": "cp-audit-review",
+          "title": "Review and Reporting of Audit Findings",
+          "summary": "Results of each security assessment or audit are reviewed by security team, senior management, and other designated personnel."
+        },
+        {
+          "ref": "cp-audit-trails",
+          "title": "Audit Trails - System and Application Security Events Logging Standard",
+          "summary": "Security events and logs from production systems and applications are captured as audit trails. Audit trails include sufficient data such as timestamp, user id, action taken to establish who did what, when, how."
+        },
+        {
+          "ref": "cp-audit-trails-integrity",
+          "title": "Audit Trail Integrity - Security Controls and Log Retention",
+          "summary": "Audit trails are protected against modification and unauthorized access."
+        },
+        {
+          "ref": "cp-audit-customers",
+          "title": "Auditing Customer and Partner Activity",
+          "summary": "The organization implements security monitors for customers and partners on its hosted software platform and/or connected environments according to terms and agreements."
+        },
+        {
+          "ref": "cp-audit-tools",
+          "title": "Tools Used for Auditing and Security Assessments",
+          "summary": "A set of tools are made available for the security and compliance personnel to conduct assessments, system scans, security testing and audits."
+        },
+        {
+          "ref": "cp-audit-training",
+          "title": "Audit Related Training, Education, Awareness and Responsibilities",
+          "summary": "Employees and contractors are informed and trained on the organization's monitoring and auditing process."
+        }
+      ]
+    },
+    {
+      "title": "HR and Personnel Security",
+      "controls": [
+        {
+          "ref": "cp-hr-mgmt",
+          "title": "HR Management and Reporting",
+          "summary": "Organizational structure as well as individual job functions are established and communicated to all employees."
+        },
+        {
+          "ref": "cp-employee-acceptable-use",
+          "title": "Acceptable Use of End-user Computing",
+          "summary": "Acceptable use policy is in place to guide the organization's personnel on the proper use of information assets and their roles and responsibilities."
+        },
+        {
+          "ref": "cp-employee-screening",
+          "title": "Employee Screening Procedures",
+          "summary": "Interviews and background checks are conducted prior to hiring to ensure qualification and security."
+        },
+        {
+          "ref": "cp-employee-onboarding",
+          "title": "Employee Onboarding Procedures",
+          "summary": "Employee onboarding is coordinated between HR, IT and Security to ensure the appropriate training, access provisioning and system configurations are in place for each new hire."
+        },
+        {
+          "ref": "cp-employee-exiting",
+          "title": "Employee Exiting/Termination Procedures",
+          "summary": "Employee exiting is coordinated between HR, IT and Security to ensure proper access termination and return of equipment."
+        },
+        {
+          "ref": "cp-employee-escalation",
+          "title": "Employee Issue Escalation",
+          "summary": "Employees are provided a safe channel and process to escalate workplace issues to HR and/or senior management if needed."
+        },
+        {
+          "ref": "cp-employee-whistleblower",
+          "title": "Whistleblower Policy and Process",
+          "summary": "Employees are provided a safe channel and process to report concerns and violations with respect to standards of business and personal ethics and conduct."
+        },
+        {
+          "ref": "cp-employee-performance",
+          "title": "Employee Performance Review Process",
+          "summary": "Performance reviews are conducted annually to evaluate performance of employees against expected levels."
+        },
+        {
+          "ref": "cp-employee-recognition",
+          "title": "Employee Incentives and Rewards",
+          "summary": "Employees receive regular peer recognition, feedback and rewards for positive behavior and impact."
+        },
+        {
+          "ref": "cp-employee-development",
+          "title": "Continuous Education and Skills Development",
+          "summary": "The organization provides employees the opportunity to attend conferences, trade shows, and access to training courses and studies to maintain and further advance their skills relevant to their job functions and business objectives."
+        },
+        {
+          "ref": "cp-sanctions",
+          "title": "Non-Compliance Investigation and Sanctions",
+          "summary": "Policies and processes are in place to investigate and take appropriate actions on any non-compliance to the organization's policies and procedures."
+        }
+      ]
+    },
+    {
+      "title": "Access",
+      "controls": [
+        {
+          "ref": "cp-access-standards",
+          "title": "Standards for Access Provisioning",
+          "summary": "The organization incorporates security best practices and standards for provisioning access including unqiue user identification, automatic logoff, and least-privileged access."
+        },
+        {
+          "ref": "cp-access-password",
+          "title": "Password Management",
+          "summary": "Strong password management policy is in place."
+        },
+        {
+          "ref": "cp-access-sso",
+          "title": "Centralized Access Control and Single Sign On",
+          "summary": "Access to business systems and applications is centrally managed via singles sign on (SSO) when possible."
+        },
+        {
+          "ref": "cp-access-mfa",
+          "title": "Multi-factor Authentication",
+          "summary": "Multi-factor authentication (MFA) is required for all users with access to business critical systems."
+        },
+        {
+          "ref": "cp-access-rbac",
+          "title": "Role Based Access Control (RBAC)",
+          "summary": "Access to systems and applications are provisioned based on a user's role / group."
+        },
+        {
+          "ref": "cp-access-aws",
+          "title": "Temporary Access to AWS Accounts and Resources",
+          "summary": "Access to AWS cloud infrastructure is configured single sign on roles and temporary trusts. No persistent end-user access is configured."
+        },
+        {
+          "ref": "cp-access-vpn",
+          "title": "VPN Remote Access",
+          "summary": "Remote access to private and internal systems are configured via encrypted VPN channels."
+        },
+        {
+          "ref": "cp-access-phi",
+          "title": "Access to PHI/ePHI",
+          "summary": "Access to PHI/ePHI is restricted to only individuals with business need and protected by strong access control."
+        },
+        {
+          "ref": "cp-access-customer",
+          "title": "Platform Customer Access to Systems",
+          "summary": "Customers are granted access their accounts and data only after successful authentication and authorization through the appropriate applications, either through the web interface or API."
+        },
+        {
+          "ref": "cp-access-change",
+          "title": "Access Establishment, Modification and Termination",
+          "summary": "Changes to pre-established access (configured as part of onboarding) must be requested and approved by the employee's manager or security team prior to grant. Non-standard access is revoked when no longer needed."
+        },
+        {
+          "ref": "cp-access-review",
+          "title": "Access Reviews",
+          "summary": "User access permissions are reviewed as part of ongoing security monitoring and whenever an employee's role changes."
+        },
+        {
+          "ref": "cp-access-privileged",
+          "title": "Privileged Access",
+          "summary": "Privileged access to production systems and/or data must be requested, reviewed, and approved each time. Privileged access is granted on a temporary basis, typically no more than 24 hours."
+        },
+        {
+          "ref": "cp-access-service",
+          "title": "Service Accounts",
+          "summary": "Service accounts and application credentials are securely managed."
+        },
+        {
+          "ref": "cp-access-endpoints",
+          "title": "Employee Workstation / Endpoints Usage",
+          "summary": "The organization provides standard endpoint computing devices to employees that are configured according to company security standards, including disk encryption, host firewall, malware protection, and malicious activity detection."
+        },
+        {
+          "ref": "cp-access-wifi",
+          "title": "Office Network and Wifi Access",
+          "summary": "Office networks, including wireless access, are protected for internal business use only. Guest wireless access is provided on a separate logical network."
+        },
+        {
+          "ref": "cp-access-prod",
+          "title": "Production Access and Secrets Management",
+          "summary": "Production keys and secrets are securely stored and protected."
+        },
+        {
+          "ref": "cp-access-reset",
+          "title": "Password Reset and other Helpdesk Requests",
+          "summary": "Users are provided a self-service mechanism for account access resets, and a channel to open an internal IT support request if needed."
+        }
+      ]
+    },
+    {
+      "title": "Facility Access and Physical Security",
+      "controls": [
+        {
+          "ref": "cp-physical",
+          "title": "Data Center Security",
+          "summary": "Data center security is ensured by the cloud service provider."
+        }
+      ]
+    },
+    {
+      "title": "Asset Inventory Management",
+      "controls": [
+        {
+          "ref": "cp-asset-physical",
+          "title": "Physical Asset Inventory",
+          "summary": "All physical computing and information processing assets, such as laptops and workstations, are maintained in an asset inventory system."
+        },
+        {
+          "ref": "cp-asset-digital",
+          "title": "Digital Asset Inventory",
+          "summary": "All digital and software-defined assets, such as virtual instances and code repositories, are discovered and maintained in an asset inventory system."
+        },
+        {
+          "ref": "cp-asset-paper",
+          "title": "Paper Records",
+          "summary": "All records are kept electronically, no physical paper records are kept as part of core business operations."
+        }
+      ]
+    },
+    {
+      "title": "Data Management",
+      "controls": [
+        {
+          "ref": "cp-data-classification",
+          "title": "Data Classification Model",
+          "summary": "Data classification model is defined to differentiate public, non-public, confidental/sensitive and critical data or information asset."
+        },
+        {
+          "ref": "cp-data-handling",
+          "title": "Data Handling Process",
+          "summary": "Data is handled according to its classification, including defined requirements for labeling, encryption, access control, retention and other applicable processes."
+        },
+        {
+          "ref": "cp-data-lifecycle",
+          "title": "Data Inventory and Lifecycle Management",
+          "summary": "Data is tagged according to its classification, and its lifecycle is defined. Transient and temporary data (or cache) is purged immediately after use."
+        },
+        {
+          "ref": "cp-data-backup",
+          "title": "Data Backup and Recovery",
+          "summary": "All data critical to business operations, including customer data, source codes, business records and documents are backed up and fully recoverable."
+        },
+        {
+          "ref": "cp-data-deletion",
+          "title": "Data Deletion Procedures",
+          "summary": "Data is retained for designated periods of time according to regulatory and/or contractual requirements, and deleted when the retention period expires."
+        }
+      ]
+    },
+    {
+      "title": "Data Protection",
+      "controls": [
+        {
+          "ref": "cp-data-protection",
+          "title": "Data Protection Implementation and Processes",
+          "summary": "Data is protected according to its classification and storage capability, including encryption, access control, partitioning/separation, backup/recovery, and monitoring."
+        },
+        {
+          "ref": "cp-data-protection-at-rest",
+          "title": "Protecting Data At Rest",
+          "summary": "Sensitive and confidential data is encrypted when stored."
+        },
+        {
+          "ref": "cp-data-protection-in-transit",
+          "title": "Protecting Data In Transit",
+          "summary": "Sensitive and confidential data is encrypted when transmitted across networks."
+        },
+        {
+          "ref": "cp-data-protection-in-use",
+          "title": "Protecting Data In Use",
+          "summary": "Audit trail is enabled to monitor data access when in use."
+        },
+        {
+          "ref": "cp-data-protection-kms",
+          "title": "Encryption Key Management",
+          "summary": "Encryption key management process is implemented."
+        },
+        {
+          "ref": "cp-data-protection-cert",
+          "title": "Certificate Management",
+          "summary": "Certificate management process is in place to manage the lifecycle of web certificates (SSL/TLS) and application certificates."
+        },
+        {
+          "ref": "cp-data-protection-integrity",
+          "title": "Data Integrity Protection",
+          "summary": "Data versioning, access control, auditing and deletion prevention is in place to protect the integrity of data, when appropriate."
+        }
+      ]
+    },
+    {
+      "title": "Secure Software Development and Product Security",
+      "controls": [
+        {
+          "ref": "cp-sdlc-dev",
+          "title": "Software Development Process",
+          "summary": "A secure software development process, coding standards, and release strategy is established to ensure security is built-in to the products and applications."
+        },
+        {
+          "ref": "cp-sdlc-scm",
+          "title": "Source Code Management",
+          "summary": "Source code management system with version control is used to maintain software codes"
+        },
+        {
+          "ref": "cp-sdlc-appsec-req",
+          "title": "High Level Application Security Requirements",
+          "summary": "Application security requirements are defined following OWASP Top Ten best practices."
+        },
+        {
+          "ref": "cp-sdlc-design",
+          "title": "Secure Design and Application Threat Modeling",
+          "summary": "Security considerations are mandatory as part of new system design and feature development. Threat modeling is jointly performed by security and development teams as needed."
+        },
+        {
+          "ref": "cp-sdlc-iaaa",
+          "title": "Access Control of the Application (Identification, Authentication, Authorization, Accounting)",
+          "summary": "All external facing applications are required to have appropriate access control implementation to protect non-public user data."
+        },
+        {
+          "ref": "cp-sdlc-foss",
+          "title": "Free and Open Source Software (FOSS) Security",
+          "summary": "A code analysis tool is in place to analyze open source components for potential security vulnerabilities and licensing issues."
+        },
+        {
+          "ref": "cp-sdlc-sast",
+          "title": "Static Application Security Testing (SAST)",
+          "summary": "Static code scanning is performed automatically either as part of the DevOps pipeline or on a regular schedule to detect common flaws in code patterns, such as injection flaws, buffer overflows, and leaked secrets/credentials in code."
+        },
+        {
+          "ref": "cp-sdlc-dast",
+          "title": "Dynamic Application Security Testing (DAST)",
+          "summary": "Dynamic application scanning is performed by the security team."
+        },
+        {
+          "ref": "cp-sdlc-pentest",
+          "title": "Application Penetration Testing",
+          "summary": "Penetration testing is performed for each product at least annually and with major feature changes."
+        },
+        {
+          "ref": "cp-sdlc-bugbounty",
+          "title": "Responsible Disclosure and Bug Bounty Program",
+          "summary": "Security team maintains an external/public bug bounty program to enable continuous security testing and vulnerability reporting across major external facing products."
+        },
+        {
+          "ref": "cp-sdlc-outsourcing",
+          "title": "Outsourced Software Development",
+          "summary": "Software development performed by contractors or outsourced vendors follow the same secure development standards and requirements."
+        },
+        {
+          "ref": "cp-sdlc-hipaa",
+          "title": "HIPAA Best Practices for Software Development",
+          "summary": "Developers are trained on requirements and best practices specific to HIPAA compliance and processing of sensitive health data."
+        }
+      ]
+    },
+    {
+      "title": "Configuration and Change Management",
+      "controls": [
+        {
+          "ref": "cp-ccm-config",
+          "title": "Configuration Management Processes",
+          "summary": "Configuration management processes are in place to provision systems and environments according to approved security standards."
+        },
+        {
+          "ref": "cp-ccm-provision-prod",
+          "title": "Production Systems Provisioning",
+          "summary": "Provisioning of any production system or resource requires a change request that is reviewed and approved by both engineering and security."
+        },
+        {
+          "ref": "cp-ccm-provision-endpoint",
+          "title": "User Endpoint Security Controls and Configuration",
+          "summary": "End-user computing systems are configured with required baseline security controls including disk encyrption, unique user account and strong password policy, host firewall, screenlock protection, auto-update of security patches, and endpoint security agent for configuration monitoring and malware protection."
+        },
+        {
+          "ref": "cp-ccm-provision-server",
+          "title": "Server Hardening Guidelines and Processes",
+          "summary": "Server systems are provisioned using pre-approved configurations or images approved by the security team."
+        },
+        {
+          "ref": "cp-ccm-provision-mgmt",
+          "title": "Configuration and Provisioning of Management Systems",
+          "summary": "System management tools are provisioned following the same requirements and configurations as any production system."
+        },
+        {
+          "ref": "cp-ccm-network",
+          "title": "Configuration and Management of Network Controls",
+          "summary": "Network devices are configured to remove vendor default security configurations. Network layer security controls are in place to enable traffic filtering/monitoring for applicable environments."
+        },
+        {
+          "ref": "cp-ccm-aws",
+          "title": "Provisioning AWS Accounts",
+          "summary": "AWS configuration is maintained as code and provisioned via automated code deploys."
+        },
+        {
+          "ref": "cp-ccm-aws-deploy",
+          "title": "Deploying Changes to AWS",
+          "summary": "Cloud infrastructure changes and software code deploys follow a defined change request process with automated and/or manual reviews and approvals."
+        },
+        {
+          "ref": "cp-ccm-patch",
+          "title": "Patch Management Procedures",
+          "summary": "Operating systems on both end-user computing devices and server systems are required to maintain up-to-date security patches in an automated process."
+        },
+        {
+          "ref": "cp-ccm-prodcm",
+          "title": "Production Deploy / Code Promotion Processes",
+          "summary": "Code deploys to production requires an approved change ticket with sufficent details about the code change."
+        },
+        {
+          "ref": "cp-ccm-emergency",
+          "title": "Emergency Change",
+          "summary": "An emergency change process is in place for break-glass procedure. Details of any emergency change are retroactively documented and approved."
+        }
+      ]
+    },
+    {
+      "title": "Threat Detection and Prevention",
+      "controls": [
+        {
+          "ref": "cp-threat-malware",
+          "title": "Malware Protection",
+          "summary": "Malware protection agent is installed and activated at all times on endpoint devices."
+        },
+        {
+          "ref": "cp-threat-firewall",
+          "title": "Firewall Protection",
+          "summary": "Firewall protection is enabled across network, host, and application layer."
+        },
+        {
+          "ref": "cp-threat-nids",
+          "title": "Network Intrusion Detection",
+          "summary": "Network layer intrusion detection system is implemented."
+        },
+        {
+          "ref": "cp-threat-hids",
+          "title": "Host Intrusion Detection",
+          "summary": "Host instrusion detection and malicious activity monitoring agents are installed on endpoint hosts and servers."
+        },
+        {
+          "ref": "cp-threat-webapp",
+          "title": "Web Application Protection",
+          "summary": "Web application firewall and denial-of-service protection is enabled for external facing applications."
+        },
+        {
+          "ref": "cp-threat-siem",
+          "title": "Centralized Security Information and Event Management",
+          "summary": "Security events are logged and alerts are centrally aggregated for review and remediation."
+        },
+        {
+          "ref": "cp-threat-intel",
+          "title": "Threat Intelligence Monitoring",
+          "summary": "The security team subscribes to news, feeds, forums and special interests groups to receive updates on threat intel and updates on applicable regulations and compliance."
+        }
+      ]
+    },
+    {
+      "title": "Vulnerability Management",
+      "controls": [
+        {
+          "ref": "cp-vuln-scan",
+          "title": "Vulnerability Scanning and Infrastructure Penetration Testing",
+          "summary": "Vulnerability scan is performed at least quarterly for all production systems."
+        },
+        {
+          "ref": "cp-vuln-remediation",
+          "title": "Security Findings Reporting, Tracking and Remediation",
+          "summary": "All security vulnerability and findings (for both infrastructure and software) are prioritized and remediated based on its severity and impact, with a defined SLA."
+        }
+      ]
+    },
+    {
+      "title": "Mobile Device Security and Media Management",
+      "controls": [
+        {
+          "ref": "cp-mdm-disposal",
+          "title": "Media Disposal Process",
+          "summary": "Media containing critical / sensitive data (such as PII or ePHI) is disposed securely."
+        },
+        {
+          "ref": "cp-mdm-usb",
+          "title": "Use of USB Flash Drive and External Storage Device",
+          "summary": "Use of USB flash drive or similar removable storage device to store sensitive and critical data is prohibited and must be handled on an exception basis approved by security."
+        },
+        {
+          "ref": "cp-mdm-byod",
+          "title": "Support and Management of BYOD Devices",
+          "summary": "BYOD devices are not allowed to connect to production environments containing critical data."
+        }
+      ]
+    },
+    {
+      "title": "Business Continuity and Disaster Recovery",
+      "controls": [
+        {
+          "ref": "cp-bcdr",
+          "title": "BCDR Objectives and Roles",
+          "summary": "Management team develops contingency plans for assignment of responsibility for internal controls with clear objectives and roles."
+        },
+        {
+          "ref": "cp-bcdr-recovery",
+          "title": "General Disaster Recovery Procedures",
+          "summary": "Disaster recovery procedures are defined to cover activation, recovery and reconstitution of critical controls and resources."
+        },
+        {
+          "ref": "cp-bcdr-test",
+          "title": "BCDR Testing and Maintenance",
+          "summary": "Disaster recovery is tested annually via tabletop exercise and/or simulated tests."
+        },
+        {
+          "ref": "cp-bcdr-site",
+          "title": "Work Site Recovery",
+          "summary": "Remote working arrangements are in place."
+        },
+        {
+          "ref": "cp-bcdr-app",
+          "title": "Application Service Event Recovery",
+          "summary": "External applications are monitored for service interruptions or outages, and handled according to the impact and downtime of such events. Status page is set up for communicating any outage to customers."
+        },
+        {
+          "ref": "cp-bcdr-data",
+          "title": "Production Environments and Data Recovery",
+          "summary": "All resources and data from production environments are able to be reconstructed from code and recovered from backup."
+        }
+      ]
+    },
+    {
+      "title": "Incident Response",
+      "controls": [
+        {
+          "ref": "cp-ir-sirt",
+          "title": "Security Incident Response Team (SIRT)",
+          "summary": "Incident response team is established and assigned corresponding responsibilities."
+        },
+        {
+          "ref": "cp-ir-process",
+          "title": "Incident Management Process",
+          "summary": "Incident response / escalation policies and processes are in place for incident reporting, triage, eradication, recovery, and postmortem analysis."
+        },
+        {
+          "ref": "cp-ir-playbook",
+          "title": "Incident Categories and Playbooks",
+          "summary": "Incident playbooks are created with detailed technical procedures to guide personnel in incident handling according to the incident classification and severity."
+        },
+        {
+          "ref": "cp-ir-emergency",
+          "title": "Emergency Operations Mode",
+          "summary": "Emergency operation procedure is in place to enable temporary break-glass operations when necessary."
+        },
+        {
+          "ref": "cp-ir-tabletop",
+          "title": "Tabletop Exercise",
+          "summary": "Tabletop exercises and/or simulated incident drills are performed at least annual to validate and update the incident response process."
+        }
+      ]
+    },
+    {
+      "title": "Breach Investigation and Notification",
+      "controls": [
+        {
+          "ref": "cp-breach-investigate",
+          "title": "Breach Investigation and Notification Process",
+          "summary": "Investigation and notification process is in place to handle suspected and/or confirmed data breaches."
+        },
+        {
+          "ref": "cp-breach-customer",
+          "title": "Platform Customer Responsibilities in a Possible Breach",
+          "summary": "Customer responsibilities are defined in the case of a breach related to or resulted from customer activities."
+        },
+        {
+          "ref": "cp-breach-letter",
+          "title": "Sample Notification Letter to Customers in Case of Breach",
+          "summary": "Communication template is in place for external notification of a breach."
+        },
+        {
+          "ref": "cp-breach-authorities",
+          "title": "Points of Contact for Authorities",
+          "summary": "Data protection and privacy regulatory authority contacts are documented for timely response."
+        }
+      ]
+    },
+    {
+      "title": "Third Party Security and Vendor Risk Management",
+      "controls": [
+        {
+          "ref": "cp-vendor-vtr",
+          "title": "Vendor Technology Risk Review",
+          "summary": "Risk assessments are conducted prior to engaging a new technology vendor."
+        },
+        {
+          "ref": "cp-vendor-contracts",
+          "title": "Vendor Contractual Agreements",
+          "summary": "Third party vendors are required to sign applicale contractual agreements, such as BAA (for HIPAA), DPA (for GDPR), SLA (for service providers), accepting their responsibilities to meet applicable data protection and privacy requirements."
+        },
+        {
+          "ref": "cp-vendor-ssa",
+          "title": "Software and Systems Acquisition Process",
+          "summary": "A list of approved software applications and system vendors are in place, with approval process defined for additional acquisition requests."
+        }
+      ]
+    },
+    {
+      "title": "Privacy Practice and Consent",
+      "controls": [
+        {
+          "ref": "cp-privacy-notices",
+          "title": "Privacy, Terms and Consent Notices",
+          "summary": "The organization has published privacy policy and established user consent process for data processing, in line with applicable regulations."
+        }
+      ]
+    }
+  ]
+}

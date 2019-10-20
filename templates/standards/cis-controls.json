@@ -4,7 +4,7 @@
   "webLink": "https://www.cisecurity.org/controls/",
   "domains": [
     {
-      "title": "[Basic] [C01] Inventory and Control of Hardware Assets",
+      "title": "§ Basic\n【C01】 Inventory and Control of Hardware Assets",
       "controls": [
         {
           "ref": "1.1",
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "title": "[Basic] [C02] Inventory and Control of Software Assets",
+      "title": "§ Basic\n【C02】 Inventory and Control of Software Assets",
       "controls": [
         {
           "ref": "2.1",
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "title": "[Basic] [C03] Continuous Vulnerability Management",
+      "title": "§ Basic\n【C03】 Continuous Vulnerability Management",
       "controls": [
         {
           "ref": "3.1",
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "title": "[Basic] [C04] Controlled Use of Administrative Privileges",
+      "title": "§ Basic\n【C04】 Controlled Use of Administrative Privileges",
       "controls": [
         {
           "ref": "4.1",
@@ -194,7 +194,7 @@
       ]
     },
     {
-      "title": "[Basic] [C05] Secure Configuration for Hardware and Software on Mobile Devices, Laptops, Workstations and Servers",
+      "title": "§ Basic\n【C05】 Secure Configuration for Hardware and Software on Mobile Devices, Laptops, Workstations and Servers",
       "controls": [
         {
           "ref": "5.1",
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "title": "[Basic] [C06] Maintenance, Monitoring and Analysis of Audit Logs",
+      "title": "§ Basic\n【C06】 Maintenance, Monitoring and Analysis of Audit Logs",
       "controls": [
         {
           "ref": "6.1",
@@ -269,7 +269,7 @@
       ]
     },
     {
-      "title": "[Foundational] [C07] Email and Web Browser Protections",
+      "title": "§ Foundational\n【C07】 Email and Web Browser Protections",
       "controls": [
         {
           "ref": "7.1",
@@ -324,7 +324,7 @@
       ]
     },
     {
-      "title": "[Foundational] [C08] Malware Defenses",
+      "title": "§ Foundational\n【C08】 Malware Defenses",
       "controls": [
         {
           "ref": "8.1",
@@ -369,7 +369,7 @@
       ]
     },
     {
-      "title": "[Foundational] [C09] Limitation and Control of Network Ports, Protocols, and Services",
+      "title": "§ Foundational\n【C09】 Limitation and Control of Network Ports, Protocols, and Services",
       "controls": [
         {
           "ref": "9.1",
@@ -399,7 +399,7 @@
       ]
     },
     {
-      "title": "[Foundational] [C10] Data Recovery Capabilities",
+      "title": "§ Foundational\n【C10】 Data Recovery Capabilities",
       "controls": [
         {
           "ref": "10.1",
@@ -429,7 +429,7 @@
       ]
     },
     {
-      "title": "[Foundational] [C11] Secure Configuration for Network Devices, such as Firewalls, Routers and Switches",
+      "title": "§ Foundational\n【C11】 Secure Configuration for Network Devices, such as Firewalls, Routers and Switches",
       "controls": [
         {
           "ref": "11.1",
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "title": "[Foundational] [C12] Boundary Defense",
+      "title": "§ Foundational\n【C12】 Boundary Defense",
       "controls": [
         {
           "ref": "12.1",
@@ -534,7 +534,7 @@
       ]
     },
     {
-      "title": "[Foundational] [C13] Data Protection",
+      "title": "§ Foundational\n【C13】 Data Protection",
       "controls": [
         {
           "ref": "13.1",
@@ -584,7 +584,7 @@
       ]
     },
     {
-      "title": "[Foundational] [C14] Controlled Access Based on the Need to Know",
+      "title": "§ Foundational\n【C14】 Controlled Access Based on the Need to Know",
       "controls": [
         {
           "ref": "14.1",
@@ -634,7 +634,7 @@
       ]
     },
     {
-      "title": "[Foundational] [C15] Wireless Access Control",
+      "title": "§ Foundational\n【C15】 Wireless Access Control",
       "controls": [
         {
           "ref": "15.1",
@@ -689,7 +689,7 @@
       ]
     },
     {
-      "title": "[Foundational] [C16] Account Monitoring and Control",
+      "title": "§ Foundational\n【C16】 Account Monitoring and Control",
       "controls": [
         {
           "ref": "16.1",
@@ -759,7 +759,7 @@
       ]
     },
     {
-      "title": "[Organizational] [C17] Implement a Security Awareness and Training Program",
+      "title": "§ Organizational\n【C17】 Implement a Security Awareness and Training Program",
       "controls": [
         {
           "ref": "17.1",
@@ -809,7 +809,7 @@
       ]
     },
     {
-      "title": "[Organizational] [C18] Application Software Security",
+      "title": "§ Organizational\n【C18】 Application Software Security",
       "controls": [
         {
           "ref": "18.1",
@@ -869,7 +869,7 @@
       ]
     },
     {
-      "title": "[Organizational] [C19] Incident Response and Management",
+      "title": "§ Organizational\n【C19】 Incident Response and Management",
       "controls": [
         {
           "ref": "19.1",
@@ -914,7 +914,7 @@
       ]
     },
     {
-      "title": "[Organizational] [C20] Penetration Tests and Red Team Exercises",
+      "title": "§ Organizational\n【C20】 Penetration Tests and Red Team Exercises",
       "controls": [
         {
           "ref": "20.1",

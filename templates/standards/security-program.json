@@ -115,6 +115,11 @@
           "ref": "cp-risk-insurance",
           "title": "Cyber Liability Insurance",
           "summary": "The organization holds cyber liability insurance with sufficient coverage based on its risk profile"
+        },
+        {
+          "ref": "cp-risk-fraud",
+          "title": "Fraud Risks",
+          "summary": "The organization considers both financial and IT fraud risks as part of its risk assessment process, including the pressures/incentives, opportunities and rationalities of people and/or department to commit fraud."
         }
       ]
     },
@@ -772,10 +777,6 @@
           "summary": "The organization has published privacy policy and established user consent process for data processing, in line with applicable regulations."
         }
       ]
-    },
-    {
-      "title": "Addendum and References",
-      "controls": []
     }
   ]
 }

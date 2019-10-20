@@ -65,7 +65,7 @@ for (const domain of soc2.domains || []) {
       }
     }
     soc2domains.push({
-      title: `${control.ref} [${domain.title}] ${control.summary}`,
+      title: `§ ${domain.title}\n【${control.ref}】 ${control.summary}`,
       controls
     })
   }

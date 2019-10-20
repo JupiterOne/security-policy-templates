@@ -4,7 +4,7 @@
   "webLink": "https://www.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria.pdf",
   "domains": [
     {
-      "title": "CC1.1 [Control Environment] The entity demonstrates a commitment to integrity and ethical values.",
+      "title": "§ Control Environment\n【CC1.1】 The entity demonstrates a commitment to integrity and ethical values.",
       "controls": [
         {
           "ref": "cp-employee-acceptable-use",
@@ -39,11 +39,11 @@
       ]
     },
     {
-      "title": "CC1.2 [Control Environment] The board of directors demonstrates independence from management and exercises oversight of the development and performance of internal control.",
+      "title": "§ Control Environment\n【CC1.2】 The board of directors demonstrates independence from management and exercises oversight of the development and performance of internal control.",
       "controls": []
     },
     {
-      "title": "CC1.3 [Control Environment] Management establishes, with board oversight, structures, reporting lines, and appropriate authorities and responsibilities in the pursuit of objectives.",
+      "title": "§ Control Environment\n【CC1.3】 Management establishes, with board oversight, structures, reporting lines, and appropriate authorities and responsibilities in the pursuit of objectives.",
       "controls": [
         {
           "ref": "cp-ism-scope",
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "title": "CC1.4 [Control Environment] The entity demonstrates a commitment to attract, develop, and retain competent individuals in alignment with objectives.",
+      "title": "§ Control Environment\n【CC1.4】 The entity demonstrates a commitment to attract, develop, and retain competent individuals in alignment with objectives.",
       "controls": [
         {
           "ref": "cp-employee-onboarding",
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "title": "CC1.5 [Control Environment] The entity holds individuals accountable for their internal control responsibilities in the pursuit of objectives.",
+      "title": "§ Control Environment\n【CC1.5】 The entity holds individuals accountable for their internal control responsibilities in the pursuit of objectives.",
       "controls": [
         {
           "ref": "cp-hr-mgmt",
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "title": "CC2.1 [Communication And Information] The entity obtains or generates and uses relevant, quality information to support the functioning of internal control.",
+      "title": "§ Communication And Information\n【CC2.1】 The entity obtains or generates and uses relevant, quality information to support the functioning of internal control.",
       "controls": [
         {
           "ref": "cp-data-classification",
@@ -243,7 +243,7 @@
       ]
     },
     {
-      "title": "CC2.2 [Communication And Information] The entity internally communicates information, including objectives and responsibilities for internal control, necessary to support the functioning of internal control.",
+      "title": "§ Communication And Information\n【CC2.2】 The entity internally communicates information, including objectives and responsibilities for internal control, necessary to support the functioning of internal control.",
       "controls": [
         {
           "ref": "cp-employee-onboarding",
@@ -323,7 +323,7 @@
       ]
     },
     {
-      "title": "CC2.3 [Communication And Information] The entity communicates with external parties regarding matters affecting the functioning of internal control.",
+      "title": "§ Communication And Information\n【CC2.3】 The entity communicates with external parties regarding matters affecting the functioning of internal control.",
       "controls": [
         {
           "ref": "cp-model-quality",
@@ -358,7 +358,7 @@
       ]
     },
     {
-      "title": "CC3.1 [Risk Assessment] The entity specifies objectives with sufficient clarity to enable the identification and assessment of risks relating to objectives.",
+      "title": "§ Risk Assessment\n【CC3.1】 The entity specifies objectives with sufficient clarity to enable the identification and assessment of risks relating to objectives.",
       "controls": [
         {
           "ref": "cp-ism-scope",
@@ -388,7 +388,7 @@
       ]
     },
     {
-      "title": "CC3.2 [Risk Assessment] The entity identifies risks to the achievement of its objectives across the entity and analyzes risks as a basis for determining how the risks should be managed.",
+      "title": "§ Risk Assessment\n【CC3.2】 The entity identifies risks to the achievement of its objectives across the entity and analyzes risks as a basis for determining how the risks should be managed.",
       "controls": [
         {
           "ref": "cp-risk-mgmt",
@@ -428,11 +428,17 @@
       ]
     },
     {
-      "title": "CC3.3 [Risk Assessment] The entity considers the potential for fraud in assessing risks to the achievement of objectives.",
-      "controls": []
+      "title": "§ Risk Assessment\n【CC3.3】 The entity considers the potential for fraud in assessing risks to the achievement of objectives.",
+      "controls": [
+        {
+          "ref": "cp-risk-fraud",
+          "title": "Fraud Risks",
+          "summary": "The organization considers both financial and IT fraud risks as part of its risk assessment process, including the pressures/incentives, opportunities and rationalities of people and/or department to commit fraud."
+        }
+      ]
     },
     {
-      "title": "CC3.4 [Risk Assessment] The entity identifies and assesses changes that could significantly impact the system of internal control.",
+      "title": "§ Risk Assessment\n【CC3.4】 The entity identifies and assesses changes that could significantly impact the system of internal control.",
       "controls": [
         {
           "ref": "cp-threat-intel",
@@ -447,7 +453,7 @@
       ]
     },
     {
-      "title": "CC4.1 [Monitoring Activities] The entity selects, develops, and performs ongoing and/or separate evaluations to ascertain whether the components of internal control are present and functioning.",
+      "title": "§ Monitoring Activities\n【CC4.1】 The entity selects, develops, and performs ongoing and/or separate evaluations to ascertain whether the components of internal control are present and functioning.",
       "controls": [
         {
           "ref": "cp-ism-reporting",
@@ -502,7 +508,7 @@
       ]
     },
     {
-      "title": "CC4.2 [Monitoring Activities] The entity evaluates and communicates internal control deficiencies in a timely manner to those parties responsible for taking corrective action, including senior management and the board of directors, as appropriate.",
+      "title": "§ Monitoring Activities\n【CC4.2】 The entity evaluates and communicates internal control deficiencies in a timely manner to those parties responsible for taking corrective action, including senior management and the board of directors, as appropriate.",
       "controls": [
         {
           "ref": "cp-ism-reporting",
@@ -532,7 +538,7 @@
       ]
     },
     {
-      "title": "CC5.1 [Control Activities] The entity selects and develops control activities that contribute to the mitigation of risks to the achievement of objectives to acceptable levels.",
+      "title": "§ Control Activities\n【CC5.1】 The entity selects and develops control activities that contribute to the mitigation of risks to the achievement of objectives to acceptable levels.",
       "controls": [
         {
           "ref": "cp-model-principles",
@@ -567,7 +573,7 @@
       ]
     },
     {
-      "title": "CC5.2 [Control Activities] The entity also selects and develops general control activities over technology to support the achievement of objectives.",
+      "title": "§ Control Activities\n【CC5.2】 The entity also selects and develops general control activities over technology to support the achievement of objectives.",
       "controls": [
         {
           "ref": "cp-model-architecture",
@@ -592,7 +598,7 @@
       ]
     },
     {
-      "title": "CC5.3 [Control Activities] The entity deploys control activities through policies that establish what is expected and in procedures that put policies into action.",
+      "title": "§ Control Activities\n【CC5.3】 The entity deploys control activities through policies that establish what is expected and in procedures that put policies into action.",
       "controls": [
         {
           "ref": "cp-policy-mgmt",
@@ -637,7 +643,7 @@
       ]
     },
     {
-      "title": "CC6.1 [Logical And Physical Access Controls] The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+      "title": "§ Logical And Physical Access Controls\n【CC6.1】 The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
       "controls": [
         {
           "ref": "cp-access-aws",
@@ -742,7 +748,7 @@
       ]
     },
     {
-      "title": "CC6.2 [Logical And Physical Access Controls] Prior to issuing system credentials and granting system access, the entity registers and authorizes new internal and external users whose access is administered by the entity. For those users whose access is administered by the entity, user system credentials are removed when user access is no longer authorized.",
+      "title": "§ Logical And Physical Access Controls\n【CC6.2】 Prior to issuing system credentials and granting system access, the entity registers and authorizes new internal and external users whose access is administered by the entity. For those users whose access is administered by the entity, user system credentials are removed when user access is no longer authorized.",
       "controls": [
         {
           "ref": "cp-access-change",
@@ -782,7 +788,7 @@
       ]
     },
     {
-      "title": "CC6.3 [Logical And Physical Access Controls] The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives.",
+      "title": "§ Logical And Physical Access Controls\n【CC6.3】 The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives.",
       "controls": [
         {
           "ref": "cp-access-standards",
@@ -837,7 +843,7 @@
       ]
     },
     {
-      "title": "CC6.4 [Logical And Physical Access Controls] The entity restricts physical access to facilities and protected information assets (for example, data center facilities,  back-up media storage, and other sensitive locations) to authorized personnel to meet the entity’s objectives.",
+      "title": "§ Logical And Physical Access Controls\n【CC6.4】 The entity restricts physical access to facilities and protected information assets (for example, data center facilities,  back-up media storage, and other sensitive locations) to authorized personnel to meet the entity’s objectives.",
       "controls": [
         {
           "ref": "cp-physical",
@@ -857,7 +863,7 @@
       ]
     },
     {
-      "title": "CC6.5 [Logical And Physical Access Controls] The entity discontinues logical and physical protections over physical assets only after the ability to read or recover data and software from those assets has been diminished and is no longer required to meet the entity’s objectives.",
+      "title": "§ Logical And Physical Access Controls\n【CC6.5】 The entity discontinues logical and physical protections over physical assets only after the ability to read or recover data and software from those assets has been diminished and is no longer required to meet the entity’s objectives.",
       "controls": [
         {
           "ref": "cp-asset-physical",
@@ -892,7 +898,7 @@
       ]
     },
     {
-      "title": "CC6.6 [Logical And Physical Access Controls] The entity implements logical access security measures to protect against threats from sources outside its system boundaries.",
+      "title": "§ Logical And Physical Access Controls\n【CC6.6】 The entity implements logical access security measures to protect against threats from sources outside its system boundaries.",
       "controls": [
         {
           "ref": "cp-access-aws",
@@ -952,7 +958,7 @@
       ]
     },
     {
-      "title": "CC6.7 [Logical And Physical Access Controls] The entity restricts the transmission, movement, and removal of information to authorized internal and external users and processes, and protects it during transmission, movement, or removal to meet the entity’s objectives.",
+      "title": "§ Logical And Physical Access Controls\n【CC6.7】 The entity restricts the transmission, movement, and removal of information to authorized internal and external users and processes, and protects it during transmission, movement, or removal to meet the entity’s objectives.",
       "controls": [
         {
           "ref": "cp-access-vpn",
@@ -1017,7 +1023,7 @@
       ]
     },
     {
-      "title": "CC6.8 [Logical And Physical Access Controls] The entity implements controls to prevent or detect and act upon the introduction of unauthorized or malicious software to meet the entity’s objectives.",
+      "title": "§ Logical And Physical Access Controls\n【CC6.8】 The entity implements controls to prevent or detect and act upon the introduction of unauthorized or malicious software to meet the entity’s objectives.",
       "controls": [
         {
           "ref": "cp-ccm-config",
@@ -1067,7 +1073,7 @@
       ]
     },
     {
-      "title": "CC7.1 [System Operations] To meet its objectives, the entity uses detection and monitoring procedures to identify (1) changes to configurations that result in the introduction of new vulnerabilities, and (2) susceptibilities to newly discovered vulnerabilities.",
+      "title": "§ System Operations\n【CC7.1】 To meet its objectives, the entity uses detection and monitoring procedures to identify (1) changes to configurations that result in the introduction of new vulnerabilities, and (2) susceptibilities to newly discovered vulnerabilities.",
       "controls": [
         {
           "ref": "cp-ccm-config",
@@ -1087,7 +1093,7 @@
       ]
     },
     {
-      "title": "CC7.2 [System Operations] The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+      "title": "§ System Operations\n【CC7.2】 The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
       "controls": [
         {
           "ref": "cp-audit-internal",
@@ -1142,7 +1148,7 @@
       ]
     },
     {
-      "title": "CC7.3 [System Operations] The entity evaluates security events to determine whether they could or have resulted in a failure of the entity to meet its objectives (security incidents) and, if so, takes actions to prevent or address such failures.",
+      "title": "§ System Operations\n【CC7.3】 The entity evaluates security events to determine whether they could or have resulted in a failure of the entity to meet its objectives (security incidents) and, if so, takes actions to prevent or address such failures.",
       "controls": [
         {
           "ref": "cp-audit-review",
@@ -1187,7 +1193,7 @@
       ]
     },
     {
-      "title": "CC7.4 [System Operations] The entity responds to identified security incidents by executing a defined incident response program to understand, contain, remediate, and communicate security incidents, as appropriate.",
+      "title": "§ System Operations\n【CC7.4】 The entity responds to identified security incidents by executing a defined incident response program to understand, contain, remediate, and communicate security incidents, as appropriate.",
       "controls": [
         {
           "ref": "cp-ir-playbook",
@@ -1222,7 +1228,7 @@
       ]
     },
     {
-      "title": "CC7.5 [System Operations] The entity identifies, develops, and implements activities to recover from identified security incidents.",
+      "title": "§ System Operations\n【CC7.5】 The entity identifies, develops, and implements activities to recover from identified security incidents.",
       "controls": [
         {
           "ref": "cp-bcdr-recovery",
@@ -1267,7 +1273,7 @@
       ]
     },
     {
-      "title": "CC8.1 [Change Management] The entity authorizes, designs, develops or acquires, configures, documents, tests, approves, and implements changes to infrastructure, data, software, and procedures to meet its objectives.",
+      "title": "§ Change Management\n【CC8.1】 The entity authorizes, designs, develops or acquires, configures, documents, tests, approves, and implements changes to infrastructure, data, software, and procedures to meet its objectives.",
       "controls": [
         {
           "ref": "cp-ccm-aws",
@@ -1347,7 +1353,7 @@
       ]
     },
     {
-      "title": "CC9.1 [Risk Mitigation] The entity identifies, selects, and develops risk mitigation activities for risks arising from potential business disruptions.",
+      "title": "§ Risk Mitigation\n【CC9.1】 The entity identifies, selects, and develops risk mitigation activities for risks arising from potential business disruptions.",
       "controls": [
         {
           "ref": "cp-risk-mgmt",
@@ -1377,7 +1383,7 @@
       ]
     },
     {
-      "title": "CC9.2 [Risk Mitigation] The entity assesses and manages risks associated with vendors and business partners.",
+      "title": "§ Risk Mitigation\n【CC9.2】 The entity assesses and manages risks associated with vendors and business partners.",
       "controls": [
         {
           "ref": "cp-compliance-mgmt",

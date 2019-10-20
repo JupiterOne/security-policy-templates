@@ -39,6 +39,7 @@
     "hipaaTrainingURL": "",
     "securityAwarenessTrainingProvider": "",
     "IdP": "",
+    "CPA": "",
     "needStandardHIPAA": true,
     "needStandardHITRUST": false,
     "needStandardGDPR": false,
@@ -102,7 +103,8 @@
         "cp-risk-assess",
         "cp-risk-mitigation",
         "cp-risk-registry",
-        "cp-risk-insurance"
+        "cp-risk-insurance",
+        "cp-risk-fraud"
       ]
     },
     {
@@ -601,6 +603,17 @@
       "type": "administrative",
       "provider": "",
       "summary": "The organization holds cyber liability insurance with sufficient coverage based on its risk profile",
+      "guidance": "Many organizations require their vendor/supplier to have cyber liability insurance to cover damage from potential incidents and breaches. You should always consider insurance as a risk transfer mechanism to offset the financial impact of a risk materializing.",
+      "applicable": true,
+      "adopted": true
+    },
+    {
+      "id": "cp-risk-fraud",
+      "file": "procedures/cp-risk-fraud.md",
+      "name": "Fraud Risks",
+      "type": "administrative",
+      "provider": "",
+      "summary": "The organization considers both financial and IT fraud risks as part of its risk assessment process, including the pressures/incentives, opportunities and rationalities of people and/or department to commit fraud.",
       "guidance": "Many organizations require their vendor/supplier to have cyber liability insurance to cover damage from potential incidents and breaches. You should always consider insurance as a risk transfer mechanism to offset the financial impact of a risk materializing.",
       "applicable": true,
       "adopted": true

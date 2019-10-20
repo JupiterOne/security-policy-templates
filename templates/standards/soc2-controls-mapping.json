@@ -165,7 +165,9 @@
           "ref": "CC3.3",
           "title": "COSO Principle 8",
           "summary": "The entity considers the potential for fraud in assessing risks to the achievement of objectives.",
-          "procedures": []
+          "procedures": [
+            "cp-risk-fraud"
+          ]
         },
         {
           "ref": "CC3.4",

@@ -7,6 +7,7 @@
  */
 const csvtojson = require("csvtojson");
 const fs = require('fs');
+const startCase = require('lodash/startcase');
 
 /**
  * Edit the CSV headers to be:
@@ -80,7 +81,14 @@ function parseControl(data) {
 
   const control = {
     ref: data.ID,
-    title: data["Control Name"],
+    title: 
+      startCase(data["Control Name"].toLowerCase())
+        .replace(/\sAnd\s/g, ' and ')
+        .replace(/\sFor\s/g, ' for ')
+        .replace(/\sThe\s/g, ' the ')
+        .replace(/\sIn\s/g, ' in ')
+        .replace(/\sOf\s/g, ' of ')
+        .replace(/\sOr\s/g, ' or '),
     summary: summary.trim(),
     // guidance,
     // relatedControls,

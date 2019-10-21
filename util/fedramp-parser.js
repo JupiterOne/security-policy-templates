@@ -7,6 +7,7 @@
  */
 const csvtojson = require("csvtojson");
 const fs = require('fs');
+const capitalize = require('lodash/capitalize');
 
 /**
  * Edit the CSV headers to be:
@@ -80,7 +81,17 @@ function parseControl(data) {
 
   const control = {
     ref: data.ID,
-    title: data["Control Name"],
+    title: 
+      data["Control Name"].toLowerCase()
+        .replace(/\w+/g, capitalize)
+        .replace(/\n/g, ' ')
+        .replace(/\sAnd\s/g, ' and ')
+        .replace(/\sFor\s/g, ' for ')
+        .replace(/\sThe\s/g, ' the ')
+        .replace(/\sIn\s/g, ' in ')
+        .replace(/\sOf\s/g, ' of ')
+        .replace(/\sOn\s/g, ' on ')
+        .replace(/\sOr\s/g, ' or '),
     summary: summary.trim(),
     // guidance,
     // relatedControls,

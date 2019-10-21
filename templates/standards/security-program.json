@@ -70,6 +70,11 @@
           "ref": "cp-training-hipaa",
           "title": "Annual HIPAA Awareness Training",
           "summary": "Employees and contractors working with patient data and protected health information (PHI) are required to take HIPAA awareness training within 30 days of onboarding and annually thereafter."
+        },
+        {
+          "ref": "cp-internal-comms",
+          "title": "Internal Business Communications",
+          "summary": "Management and each individual department/team holds regular company-wide / departmental / team meetings to review and discuss various aspects of business performance and objectives."
         }
       ]
     },
@@ -105,6 +110,16 @@
           "ref": "cp-risk-registry",
           "title": "Risk Registry",
           "summary": "Risks identified from each risk assessment are documented and maintained."
+        },
+        {
+          "ref": "cp-risk-insurance",
+          "title": "Cyber Liability Insurance",
+          "summary": "The organization holds cyber liability insurance with sufficient coverage based on its risk profile"
+        },
+        {
+          "ref": "cp-risk-fraud",
+          "title": "Fraud Risks",
+          "summary": "The organization considers both financial and IT fraud risks as part of its risk assessment process, including the pressures/incentives, opportunities and rationalities of people and/or department to commit fraud."
         }
       ]
     },
@@ -150,6 +165,11 @@
           "ref": "cp-audit-review",
           "title": "Review and Reporting of Audit Findings",
           "summary": "Results of each security assessment or audit are reviewed by security team, senior management, and other designated personnel."
+        },
+        {
+          "ref": "cp-audit-control-deficiency",
+          "title": "Remediation of Control Deficiencies",
+          "summary": "Identified control deficiencies are communicated to parties responsible for taking corrective action. Remediation plans are proposed and monitored through resolution."
         },
         {
           "ref": "cp-audit-trails",
@@ -333,6 +353,11 @@
       "controls": [
         {
           "ref": "cp-physical",
+          "title": "Physical Security",
+          "summary": ""
+        },
+        {
+          "ref": "cp-physical-datacenter",
           "title": "Data Center Security",
           "summary": "Data center security is ensured by the cloud service provider."
         }
@@ -500,6 +525,11 @@
           "ref": "cp-ccm-config",
           "title": "Configuration Management Processes",
           "summary": "Configuration management processes are in place to provision systems and environments according to approved security standards."
+        },
+        {
+          "ref": "cp-ccm-monitor",
+          "title": "Configuration Monitoring and Auditing",
+          "summary": "Monitoring software is used to monitor infrastructure and software for noncompliance with established configuration standards and security best practices."
         },
         {
           "ref": "cp-ccm-provision-prod",

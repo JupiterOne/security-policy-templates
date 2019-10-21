@@ -39,6 +39,7 @@
     "hipaaTrainingURL": "",
     "securityAwarenessTrainingProvider": "",
     "IdP": "",
+    "CPA": "",
     "needStandardHIPAA": true,
     "needStandardHITRUST": false,
     "needStandardGDPR": false,
@@ -79,7 +80,8 @@
         "cp-role-assignment",
         "cp-training-policy",
         "cp-training-awareness",
-        "cp-training-hipaa"
+        "cp-training-hipaa",
+        "cp-internal-comms"
       ]
     },
     {
@@ -100,7 +102,9 @@
         "cp-risk-mgmt",
         "cp-risk-assess",
         "cp-risk-mitigation",
-        "cp-risk-registry"
+        "cp-risk-registry",
+        "cp-risk-insurance",
+        "cp-risk-fraud"
       ]
     },
     {
@@ -124,6 +128,7 @@
         "cp-audit-internal",
         "cp-audit-request",
         "cp-audit-review",
+        "cp-audit-control-deficiency",
         "cp-audit-trails",
         "cp-audit-trails-integrity",
         "cp-audit-customers",
@@ -251,6 +256,7 @@
       "adopted": true,
       "procedures": [
         "cp-ccm-config",
+        "cp-ccm-monitor",
         "cp-ccm-provision-prod",
         "cp-ccm-provision-endpoint",
         "cp-ccm-provision-server",
@@ -513,6 +519,18 @@
       ]
     },
     {
+      "id": "cp-internal-comms",
+      "file": "procedures/cp-internal-comms.md",
+      "name": "Internal Business Communications",
+      "type": "administrative",
+      "provider": "",
+      "summary": "Management and each individual department/team holds regular company-wide / departmental / team meetings to review and discuss various aspects of business performance and objectives.",
+      "guidance": "It is important to keep everyone on team / in the company regularly updated on the overall business strategy, goals and performance. One example is weekly/monthly roundtable or townhalls. At the individual team level, this could be the daily development standups/scrum sessions. This helps fosture an engaging, transparent and fast-moving culture.",
+      "applicable": true,
+      "adopted": true,
+      "resources": []
+    },
+    {
       "id": "cp-policy-mgmt",
       "file": "procedures/cp-policy-mgmt.md",
       "name": "Policy Management Process",
@@ -575,6 +593,28 @@
       "provider": "JupiterOne",
       "summary": "Risks identified from each risk assessment are documented and maintained.",
       "guidance": "In many cases, the risk registry is no more than a spreadsheet that serves as the inventory of risks identified as part of each risk assessment. Most mature enterprises implement a Governance, Risk and Compliance (GRC) solution to manage this process.  However, a full blown GRC solution is complex and often overkill for a SaaS company.  Instead, use JupiterOne to inventory and track your risks.",
+      "applicable": true,
+      "adopted": true
+    },
+    {
+      "id": "cp-risk-insurance",
+      "file": "procedures/cp-risk-insurance.md",
+      "name": "Cyber Liability Insurance",
+      "type": "administrative",
+      "provider": "",
+      "summary": "The organization holds cyber liability insurance with sufficient coverage based on its risk profile",
+      "guidance": "Many organizations require their vendor/supplier to have cyber liability insurance to cover damage from potential incidents and breaches. You should always consider insurance as a risk transfer mechanism to offset the financial impact of a risk materializing.",
+      "applicable": true,
+      "adopted": true
+    },
+    {
+      "id": "cp-risk-fraud",
+      "file": "procedures/cp-risk-fraud.md",
+      "name": "Fraud Risks",
+      "type": "administrative",
+      "provider": "",
+      "summary": "The organization considers both financial and IT fraud risks as part of its risk assessment process, including the pressures/incentives, opportunities and rationalities of people and/or department to commit fraud.",
+      "guidance": "Many organizations require their vendor/supplier to have cyber liability insurance to cover damage from potential incidents and breaches. You should always consider insurance as a risk transfer mechanism to offset the financial impact of a risk materializing.",
       "applicable": true,
       "adopted": true
     },
@@ -652,6 +692,17 @@
       "provider": "JupiterOne",
       "summary": "Results of each security assessment or audit are reviewed by security team, senior management, and other designated personnel.",
       "guidance": "Upon completion of an audit or assessment, the report and findings should be analyzed so that follow up on actions can be taken accordingly.",
+      "applicable": true,
+      "adopted": true
+    },
+    {
+      "id": "cp-audit-control-deficiency",
+      "file": "procedures/cp-audit-control-deficiency.md",
+      "name": "Remediation of Control Deficiencies",
+      "type": "administrative",
+      "provider": "JupiterOne",
+      "summary": "Identified control deficiencies are communicated to parties responsible for taking corrective action. Remediation plans are proposed and monitored through resolution.",
+      "guidance": "Control deficiencies must be reviewed, prioritized, and mitigated.",
       "applicable": true,
       "adopted": true
     },
@@ -1367,6 +1418,17 @@
       "provider": "JupiterOne",
       "summary": "Configuration management processes are in place to provision systems and environments according to approved security standards.",
       "guidance": "There are many approaches to configuration management. Our recommendation for a Cloud/SaaS technology organization or team is to let the users manage the devices themselves, but provide them the requirements and automation scripts as necessary, and use an endpoint audit agent to check for compliance. JupiterOne provides a 'power-up' endpoint compliance agent that is based on Netflix's Stethoscope project. Osquery is a good alternative as well.",
+      "applicable": true,
+      "adopted": true
+    },
+    {
+      "id": "cp-ccm-monitor",
+      "file": "procedures/cp-ccm-monitor.md",
+      "name": "Configuration Monitoring and Auditing",
+      "type": "technical",
+      "provider": "JupiterOne",
+      "summary": "Monitoring software is used to monitor infrastructure and software for noncompliance with established configuration standards and security best practices.",
+      "guidance": "Leverage a centralized CMDB to continously monitor and audit against miscoonfigurations and configuration drifts to ensure security posture of your infrastructure and systems.",
       "applicable": true,
       "adopted": true
     },

@@ -323,6 +323,15 @@
       ]
     },
     {
+      "id": "cp-internal-comms",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "requirements": []
+        }
+      ]
+    },
+    {
       "id": "cp-policy-mgmt",
       "implements": [
         {
@@ -490,6 +499,24 @@
       ]
     },
     {
+      "id": "cp-risk-insurance",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "id": "cp-risk-fraud",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "requirements": []
+        }
+      ]
+    },
+    {
       "id": "cp-compliance-mgmt",
       "implements": [
         {
@@ -525,6 +552,15 @@
           "controls": [
             "05.f"
           ]
+        }
+      ]
+    },
+    {
+      "id": "cp-audit-control-deficiency",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "requirements": []
         }
       ]
     },
@@ -870,6 +906,15 @@
       ]
     },
     {
+      "id": "cp-hr-mgmt",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "requirements": []
+        }
+      ]
+    },
+    {
       "id": "cp-employee-acceptable-use",
       "implements": [
         {
@@ -1045,6 +1090,33 @@
             "GRM-07",
             "HRS-10"
           ]
+        }
+      ]
+    },
+    {
+      "id": "cp-employee-performance",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "id": "cp-employee-recognition",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "id": "cp-employee-development",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "requirements": []
         }
       ]
     },
@@ -1722,6 +1794,68 @@
     },
     {
       "id": "cp-physical",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(3)(ii)(A)",
+            "164.310(a)(1)",
+            "164.310(a)(2)(i)",
+            "164.310(a)(2)(ii)",
+            "164.310(a)(2)(iii)",
+            "164.310(a)(2)(iv)",
+            "164.310(b)",
+            "164.310(c)"
+          ]
+        },
+        {
+          "standard": "HITRUST CSF",
+          "requirements": [],
+          "controls": [
+            "01.h",
+            "01.l",
+            "08.a",
+            "08.b",
+            "08.c",
+            "08.d",
+            "08.e",
+            "08.f",
+            "08.g",
+            "08.h",
+            "08.i",
+            "08.j",
+            "08.k",
+            "08.l",
+            "08.m"
+          ]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": [
+            "BCR-06",
+            "BCR-07",
+            "DCS-02",
+            "DCS-06",
+            "DCS-07",
+            "DCS-08",
+            "DCS-09",
+            "GRM-04",
+            "HRS-01",
+            "IAM-11"
+          ]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": [
+            "9.1",
+            "9.2",
+            "9.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cp-physical-datacenter",
       "implements": [
         {
           "standard": "HIPAA",
@@ -2492,6 +2626,15 @@
       ]
     },
     {
+      "id": "cp-sdlc-bugbounty",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "requirements": []
+        }
+      ]
+    },
+    {
       "id": "cp-sdlc-outsourcing",
       "implements": [
         {
@@ -2583,6 +2726,15 @@
             "2.2",
             "6.4"
           ]
+        }
+      ]
+    },
+    {
+      "id": "cp-ccm-monitor",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "requirements": []
         }
       ]
     },
@@ -2857,7 +3009,7 @@
       ]
     },
     {
-      "id": "cp-provision-mgmt",
+      "id": "cp-ccm-provision-mgmt",
       "implements": [
         {
           "standard": "HIPAA",

@@ -52,8 +52,8 @@
         },
         {
           "ref": "cp-ism-policies",
-          "title": "Understanding the Policies and Documents",
-          "summary": "The organization's security program maintains documentation of high level policies and lower level controls and procedures."
+          "title": "Understanding the Policies and Controls/Procedures",
+          "summary": "The organization's security program maintains documentation of high level policies and lower level controls and procedures. The policies and procedures cover the design, development, implementation, operation, maintenance and monitoring of in-scope systems."
         },
         {
           "ref": "cp-ism-reporting",
@@ -217,7 +217,7 @@
         },
         {
           "ref": "cp-vuln-scan",
-          "title": "Vulnerability Scanning and Infrastructure Penetration Testing",
+          "title": "Vulnerability Scanning and Infrastructure Security Testing",
           "summary": "Vulnerability scan is performed at least quarterly for all production systems."
         },
         {
@@ -278,7 +278,7 @@
         {
           "ref": "cp-risk-mitigation",
           "title": "Risk Mitigation and Monitoring",
-          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls, and to evaluate residual risk."
+          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls including but not limited to controls over technology, and to evaluate residual risk."
         },
         {
           "ref": "cp-role-assignment",
@@ -378,7 +378,7 @@
         {
           "ref": "cp-risk-mitigation",
           "title": "Risk Mitigation and Monitoring",
-          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls, and to evaluate residual risk."
+          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls including but not limited to controls over technology, and to evaluate residual risk."
         },
         {
           "ref": "cp-risk-registry",
@@ -403,7 +403,7 @@
         {
           "ref": "cp-risk-mitigation",
           "title": "Risk Mitigation and Monitoring",
-          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls, and to evaluate residual risk."
+          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls including but not limited to controls over technology, and to evaluate residual risk."
         },
         {
           "ref": "cp-asset-physical",
@@ -534,22 +534,22 @@
           "ref": "cp-vuln-remediation",
           "title": "Security Findings Reporting, Tracking and Remediation",
           "summary": "All security vulnerability and findings (for both infrastructure and software) are prioritized and remediated based on its severity and impact, with a defined SLA."
+        },
+        {
+          "ref": "cp-model-metrics",
+          "title": "Metrics, Measurements and Continuous Monitoring",
+          "summary": "Metrics are defined to measure the effectiveness of controls and they are continuously monitored."
+        },
+        {
+          "ref": "cp-ism-reporting",
+          "title": "Review and Reporting",
+          "summary": "Metrics are defined to measure the effectiveness of controls and they are reported to/reviewed by senior management."
         }
       ]
     },
     {
       "title": "§ Control Activities\n【CC5.1】 The entity selects and develops control activities that contribute to the mitigation of risks to the achievement of objectives to acceptable levels.",
       "controls": [
-        {
-          "ref": "cp-model-principles",
-          "title": "Security Principles",
-          "summary": "The organization incorporates best practices such as least-privilege or zero-trust in its security operating model."
-        },
-        {
-          "ref": "cp-ism-policies",
-          "title": "Understanding the Policies and Documents",
-          "summary": "The organization's security program maintains documentation of high level policies and lower level controls and procedures."
-        },
         {
           "ref": "cp-risk-assess",
           "title": "Risk Assessment and Analysis",
@@ -563,12 +563,12 @@
         {
           "ref": "cp-risk-mitigation",
           "title": "Risk Mitigation and Monitoring",
-          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls, and to evaluate residual risk."
+          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls including but not limited to controls over technology, and to evaluate residual risk."
         },
         {
-          "ref": "cp-role-assignment",
-          "title": "Assignment of Roles and the Security Committee",
-          "summary": "Security and compliance roles and responsibilities are clearly defined to ensure segregation of duties."
+          "ref": "cp-risk-registry",
+          "title": "Risk Registry",
+          "summary": "Risks identified from each risk assessment are documented and maintained."
         }
       ]
     },
@@ -576,59 +576,9 @@
       "title": "§ Control Activities\n【CC5.2】 The entity also selects and develops general control activities over technology to support the achievement of objectives.",
       "controls": [
         {
-          "ref": "cp-model-architecture",
-          "title": "Security Architecture",
-          "summary": "Security architecture is documented, including system and infrastructure security diagrams."
-        },
-        {
-          "ref": "cp-access-standards",
-          "title": "Standards for Access Provisioning",
-          "summary": "The organization incorporates security best practices and standards for provisioning access including unqiue user identification, automatic logoff, and least-privileged access."
-        },
-        {
-          "ref": "cp-vendor-ssa",
-          "title": "Software and Systems Acquisition Process",
-          "summary": "A list of approved software applications and system vendors are in place, with approval process defined for additional acquisition requests."
-        },
-        {
-          "ref": "cp-sdlc-dev",
-          "title": "Software Development Process",
-          "summary": "A secure software development process, coding standards, and release strategy is established to ensure security is built-in to the products and applications."
-        }
-      ]
-    },
-    {
-      "title": "§ Control Activities\n【CC5.3】 The entity deploys control activities through policies that establish what is expected and in procedures that put policies into action.",
-      "controls": [
-        {
-          "ref": "cp-policy-mgmt",
-          "title": "Policy Management Process",
-          "summary": "A formal process is in place to maintain and update security policies, controls and procedures. Policies, controls and procedures are reviewed at least annually."
-        },
-        {
-          "ref": "cp-role-assignment",
-          "title": "Assignment of Roles and the Security Committee",
-          "summary": "Security and compliance roles and responsibilities are clearly defined to ensure segregation of duties."
-        },
-        {
-          "ref": "cp-audit-review",
-          "title": "Review and Reporting of Audit Findings",
-          "summary": "Results of each security assessment or audit are reviewed by security team, senior management, and other designated personnel."
-        },
-        {
-          "ref": "cp-audit-training",
-          "title": "Audit Related Training, Education, Awareness and Responsibilities",
-          "summary": "Employees and contractors are informed and trained on the organization's monitoring and auditing process."
-        },
-        {
-          "ref": "cp-audit-types",
-          "title": "Types of System Audits",
-          "summary": "The organization has defined auditing processes including system configuration monitoring, activity monitoring, access review, and controls compliance audit."
-        },
-        {
-          "ref": "cp-ir-sirt",
-          "title": "Security Incident Response Team (SIRT)",
-          "summary": "Incident response team is established and assigned corresponding responsibilities."
+          "ref": "cp-risk-assess",
+          "title": "Risk Assessment and Analysis",
+          "summary": "Risk assessments are conducted annually using a defined methodology that identifies the threat, impact, probability, actor and assets targeted/impacted."
         },
         {
           "ref": "cp-risk-mgmt",
@@ -638,7 +588,32 @@
         {
           "ref": "cp-risk-mitigation",
           "title": "Risk Mitigation and Monitoring",
-          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls, and to evaluate residual risk."
+          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls including but not limited to controls over technology, and to evaluate residual risk."
+        },
+        {
+          "ref": "cp-risk-registry",
+          "title": "Risk Registry",
+          "summary": "Risks identified from each risk assessment are documented and maintained."
+        }
+      ]
+    },
+    {
+      "title": "§ Control Activities\n【CC5.3】 The entity deploys control activities through policies that establish what is expected and in procedures that put policies into action.",
+      "controls": [
+        {
+          "ref": "cp-ism-scope",
+          "title": "Information Security Program and Scope",
+          "summary": "The organization has an established security program with appropriate controls that are aligned to the organization's objectives and risk posture."
+        },
+        {
+          "ref": "cp-ism-policies",
+          "title": "Understanding the Policies and Controls/Procedures",
+          "summary": "The organization's security program maintains documentation of high level policies and lower level controls and procedures. The policies and procedures cover the design, development, implementation, operation, maintenance and monitoring of in-scope systems."
+        },
+        {
+          "ref": "cp-policy-mgmt",
+          "title": "Policy Management Process",
+          "summary": "A formal process is in place to maintain and update security policies, controls and procedures. Policies, controls and procedures are reviewed at least annually."
         }
       ]
     },
@@ -1087,7 +1062,7 @@
         },
         {
           "ref": "cp-vuln-scan",
-          "title": "Vulnerability Scanning and Infrastructure Penetration Testing",
+          "title": "Vulnerability Scanning and Infrastructure Security Testing",
           "summary": "Vulnerability scan is performed at least quarterly for all production systems."
         }
       ]
@@ -1095,6 +1070,11 @@
     {
       "title": "§ System Operations\n【CC7.2】 The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
       "controls": [
+        {
+          "ref": "cp-ccm-monitor",
+          "title": "Configuration Monitoring and Auditing",
+          "summary": "Monitoring software is used to monitor infrastructure and software for noncompliance with established configuration standards and security best practices."
+        },
         {
           "ref": "cp-audit-internal",
           "title": "Manual Internal Auditing Activities",
@@ -1126,24 +1106,9 @@
           "summary": "Host instrusion detection and malicious activity monitoring agents are installed on endpoint hosts and servers."
         },
         {
-          "ref": "cp-threat-firewall",
-          "title": "Firewall Protection",
-          "summary": "Firewall protection is enabled across network, host, and application layer."
-        },
-        {
-          "ref": "cp-ir-process",
-          "title": "Incident Management Process",
-          "summary": "Incident response / escalation policies and processes are in place for incident reporting, triage, eradication, recovery, and postmortem analysis."
-        },
-        {
-          "ref": "cp-ir-playbook",
-          "title": "Incident Categories and Playbooks",
-          "summary": "Incident playbooks are created with detailed technical procedures to guide personnel in incident handling according to the incident classification and severity."
-        },
-        {
-          "ref": "cp-bcdr",
-          "title": "BCDR Objectives and Roles",
-          "summary": "Management team develops contingency plans for assignment of responsibility for internal controls with clear objectives and roles."
+          "ref": "cp-threat-siem",
+          "title": "Centralized Security Information and Event Management",
+          "summary": "Security events are logged and alerts are centrally aggregated for review and remediation."
         }
       ]
     },
@@ -1151,29 +1116,9 @@
       "title": "§ System Operations\n【CC7.3】 The entity evaluates security events to determine whether they could or have resulted in a failure of the entity to meet its objectives (security incidents) and, if so, takes actions to prevent or address such failures.",
       "controls": [
         {
-          "ref": "cp-audit-review",
-          "title": "Review and Reporting of Audit Findings",
-          "summary": "Results of each security assessment or audit are reviewed by security team, senior management, and other designated personnel."
-        },
-        {
-          "ref": "cp-audit-trails",
-          "title": "Audit Trails - System and Application Security Events Logging Standard",
-          "summary": "Security events and logs from production systems and applications are captured as audit trails. Audit trails include sufficient data such as timestamp, user id, action taken to establish who did what, when, how."
-        },
-        {
-          "ref": "cp-audit-types",
-          "title": "Types of System Audits",
-          "summary": "The organization has defined auditing processes including system configuration monitoring, activity monitoring, access review, and controls compliance audit."
-        },
-        {
-          "ref": "cp-events-analysis",
-          "title": "Security Event Analysis",
-          "summary": "The security team monitors system security events and logs via a combination of automated tools and manual reviews."
-        },
-        {
-          "ref": "cp-ir-playbook",
-          "title": "Incident Categories and Playbooks",
-          "summary": "Incident playbooks are created with detailed technical procedures to guide personnel in incident handling according to the incident classification and severity."
+          "ref": "cp-ir-sirt",
+          "title": "Security Incident Response Team (SIRT)",
+          "summary": "Incident response team is established and assigned corresponding responsibilities."
         },
         {
           "ref": "cp-ir-process",
@@ -1181,9 +1126,9 @@
           "summary": "Incident response / escalation policies and processes are in place for incident reporting, triage, eradication, recovery, and postmortem analysis."
         },
         {
-          "ref": "cp-ir-sirt",
-          "title": "Security Incident Response Team (SIRT)",
-          "summary": "Incident response team is established and assigned corresponding responsibilities."
+          "ref": "cp-ir-playbook",
+          "title": "Incident Categories and Playbooks",
+          "summary": "Incident playbooks are created with detailed technical procedures to guide personnel in incident handling according to the incident classification and severity."
         },
         {
           "ref": "cp-vuln-remediation",
@@ -1230,26 +1175,6 @@
     {
       "title": "§ System Operations\n【CC7.5】 The entity identifies, develops, and implements activities to recover from identified security incidents.",
       "controls": [
-        {
-          "ref": "cp-bcdr-recovery",
-          "title": "General Disaster Recovery Procedures",
-          "summary": "Disaster recovery procedures are defined to cover activation, recovery and reconstitution of critical controls and resources."
-        },
-        {
-          "ref": "cp-bcdr-app",
-          "title": "Application Service Event Recovery",
-          "summary": "External applications are monitored for service interruptions or outages, and handled according to the impact and downtime of such events. Status page is set up for communicating any outage to customers."
-        },
-        {
-          "ref": "cp-bcdr-data",
-          "title": "Production Environments and Data Recovery",
-          "summary": "All resources and data from production environments are able to be reconstructed from code and recovered from backup."
-        },
-        {
-          "ref": "cp-bcdr-test",
-          "title": "BCDR Testing and Maintenance",
-          "summary": "Disaster recovery is tested annually via tabletop exercise and/or simulated tests."
-        },
         {
           "ref": "cp-ccm-emergency",
           "title": "Emergency Change",
@@ -1368,7 +1293,7 @@
         {
           "ref": "cp-risk-mitigation",
           "title": "Risk Mitigation and Monitoring",
-          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls, and to evaluate residual risk."
+          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls including but not limited to controls over technology, and to evaluate residual risk."
         },
         {
           "ref": "cp-risk-registry",
@@ -1379,6 +1304,11 @@
           "ref": "cp-risk-insurance",
           "title": "Cyber Liability Insurance",
           "summary": "The organization holds cyber liability insurance with sufficient coverage based on its risk profile"
+        },
+        {
+          "ref": "cp-bcdr",
+          "title": "BCDR Objectives and Roles",
+          "summary": "Management team develops contingency plans for assignment of responsibility for internal controls with clear objectives and roles."
         }
       ]
     },

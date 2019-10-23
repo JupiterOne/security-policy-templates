@@ -42,9 +42,11 @@
 
   _Ongoing security awareness training is foundational to the overall risk reduction for any organization, not to mention is a compliance requirement almost universally. Our recommendation is to leverage a vendor, Ataata, who provides a low-cost and engaging way to keep your folks trained. All it takes is less than 5 minutes of everyone's time to watch a fun video and take a quiz every month._
 
+{{#needStandardHIPAA}}
 - **Annual HIPAA Awareness Training**
 
   _If your organization is subject to HIPAA compliance, you must ensure all workforce members take a HIPAA awareness training annually. You may sign up with a vendor like Ataata to access training content, or alternatively, you may leverage an open-source training JupiterOne provides as a start._
+{{/needStandardHIPAA}}
 
 ## Policy Management
 
@@ -336,9 +338,11 @@
 
   _If you leverage outsourced resources for software development, a formal set of requirements and processes must be established to ensure the quality and security of the product._
 
+{{#needStandardHIPAA}}
 - **HIPAA Best Practices for Software Development**
 
   _Certain security and compliance best practices shall be communicated to the development teams, such as the requirement to use only HIPAA BAA eligible services to process ePHI in the Cloud._
+{{/needStandardHIPAA}}
 
 ## Configuration and Change Management
 

@@ -13,8 +13,8 @@
         },
         {
           "ref": "cp-ism-policies",
-          "title": "Understanding the Policies and Documents",
-          "summary": "The organization's security program maintains documentation of high level policies and lower level controls and procedures."
+          "title": "Understanding the Policies and Controls/Procedures",
+          "summary": "The organization's security program maintains documentation of high level policies and lower level controls and procedures. The policies and procedures cover the design, development, implementation, operation, maintenance and monitoring of in-scope systems."
         },
         {
           "ref": "cp-ism-reporting",
@@ -104,7 +104,7 @@
         {
           "ref": "cp-risk-mitigation",
           "title": "Risk Mitigation and Monitoring",
-          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls, and to evaluate residual risk."
+          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls including but not limited to controls over technology, and to evaluate residual risk."
         },
         {
           "ref": "cp-risk-registry",
@@ -628,7 +628,7 @@
       "controls": [
         {
           "ref": "cp-vuln-scan",
-          "title": "Vulnerability Scanning and Infrastructure Penetration Testing",
+          "title": "Vulnerability Scanning and Infrastructure Security Testing",
           "summary": "Vulnerability scan is performed at least quarterly for all production systems."
         },
         {
@@ -777,6 +777,10 @@
           "summary": "The organization has published privacy policy and established user consent process for data processing, in line with applicable regulations."
         }
       ]
+    },
+    {
+      "title": "Addendum and References",
+      "controls": []
     }
   ]
 }

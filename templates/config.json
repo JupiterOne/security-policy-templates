@@ -399,10 +399,10 @@
     {
       "id": "cp-ism-policies",
       "file": "procedures/cp-ism-policies.md",
-      "name": "Understanding the Policies and Documents",
+      "name": "Understanding the Policies and Controls/Procedures",
       "type": "informational",
       "provider": "JupiterOne",
-      "summary": "The organization's security program maintains documentation of high level policies and lower level controls and procedures.",
+      "summary": "The organization's security program maintains documentation of high level policies and lower level controls and procedures. The policies and procedures cover the design, development, implementation, operation, maintenance and monitoring of in-scope systems.",
       "guidance": "This describes how information security policies are structured.",
       "applicable": true,
       "adopted": true
@@ -580,7 +580,7 @@
       "name": "Risk Mitigation and Monitoring",
       "type": "administrative",
       "provider": "JupiterOne",
-      "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls, and to evaluate residual risk.",
+      "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls including but not limited to controls over technology, and to evaluate residual risk.",
       "guidance": "Once the risks are identified and analyzed, they need to be addressed with appropriate mitigation plans and implementation of controls. The mitigating controls and residual risks should be continuously monitored and kept up-to-date.",
       "applicable": true,
       "adopted": true
@@ -1640,7 +1640,7 @@
     {
       "id": "cp-vuln-scan",
       "file": "procedures/cp-vuln-scan.md",
-      "name": "Vulnerability Scanning and Infrastructure Penetration Testing",
+      "name": "Vulnerability Scanning and Infrastructure Security Testing",
       "type": "technical",
       "provider": "AWS Inspector",
       "summary": "Vulnerability scan is performed at least quarterly for all production systems.",

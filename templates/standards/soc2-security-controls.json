@@ -544,6 +544,21 @@
           "ref": "cp-ism-reporting",
           "title": "Review and Reporting",
           "summary": "Metrics are defined to measure the effectiveness of controls and they are reported to/reviewed by senior management."
+        },
+        {
+          "ref": "cp-ccm-monitor",
+          "title": "Configuration Monitoring and Auditing",
+          "summary": "Monitoring software is used to monitor infrastructure and software for noncompliance with established configuration standards and security best practices."
+        },
+        {
+          "ref": "cp-sdlc-monitor",
+          "title": "Production System Monitoring and Paging",
+          "summary": "On call teams are set up to receive pager notifications when a failure or error occurs in production."
+        },
+        {
+          "ref": "cp-compliance-monitor",
+          "title": "Continuous Compliance Monitoring",
+          "summary": "Compliance status is tracked and monitored using an enterprise compliance tool."
         }
       ]
     },
@@ -1129,6 +1144,11 @@
           "ref": "cp-ir-playbook",
           "title": "Incident Categories and Playbooks",
           "summary": "Incident playbooks are created with detailed technical procedures to guide personnel in incident handling according to the incident classification and severity."
+        },
+        {
+          "ref": "cp-ir-records",
+          "title": "Incident Tracking and Records",
+          "summary": "Each incident is tracked with applicable attributes and notes, and the incident records are stored in approved ticketing system."
         },
         {
           "ref": "cp-vuln-remediation",

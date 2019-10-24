@@ -114,7 +114,8 @@
       "adopted": true,
       "procedures": [
         "cp-compliance-mgmt",
-        "cp-compliance-requests"
+        "cp-compliance-requests",
+        "cp-compliance-monitor"
       ]
     },
     {
@@ -246,7 +247,8 @@
         "cp-sdlc-pentest",
         "cp-sdlc-bugbounty",
         "cp-sdlc-outsourcing",
-        "cp-sdlc-hipaa"
+        "cp-sdlc-hipaa",
+        "cp-sdlc-monitor"
       ]
     },
     {
@@ -329,7 +331,8 @@
         "cp-ir-process",
         "cp-ir-playbook",
         "cp-ir-emergency",
-        "cp-ir-tabletop"
+        "cp-ir-tabletop",
+        "cp-ir-records"
       ]
     },
     {
@@ -637,6 +640,17 @@
       "provider": "JupiterOne",
       "summary": "Process and channels are established to communicate the compliance status to external stakeholders.",
       "guidance": "You should have a pre-defined process for external entities to request audit and compliance reports.",
+      "applicable": true,
+      "adopted": true
+    },
+    {
+      "id": "cp-compliance-monitor",
+      "file": "procedures/cp-compliance-monitor.md",
+      "name": "Continuous Compliance Monitoring",
+      "type": "administrative",
+      "provider": "JupiterOne",
+      "summary": "Compliance status is tracked and monitored using an enterprise compliance tool.",
+      "guidance": "You should implement a mechanism to track the status of regulatory compliance. This can be done using the JupiterOne compliance app instead of manually tracking.",
       "applicable": true,
       "adopted": true
     },
@@ -1411,6 +1425,17 @@
       "adopted": true
     },
     {
+      "id": "cp-sdlc-monitor",
+      "file": "procedures/cp-sdlc-monitor.md",
+      "name": "Production System Monitoring and Paging",
+      "type": "operational",
+      "provider": "PagerDuty",
+      "summary": "On call teams are set up to receive pager notifications when a failure or error occurs in production.",
+      "guidance": "After systems and/or software is deployed into production, you should set up continuous monitoring to detect errors and failures and alert the corresponding team members.",
+      "applicable": true,
+      "adopted": true
+    },
+    {
       "id": "cp-ccm-config",
       "file": "procedures/cp-ccm-config.md",
       "name": "Configuration Management Processes",
@@ -1810,6 +1835,17 @@
       "provider": "manual process",
       "summary": "Tabletop exercises and/or simulated incident drills are performed at least annual to validate and update the incident response process.",
       "guidance": "Practice makes perfect. Perform drills according to incident response procedures, playbooks, and emergency procedures so that you know what to expect in an real event.",
+      "applicable": true,
+      "adopted": true
+    },
+    {
+      "id": "cp-ir-records",
+      "file": "procedures/cp-ir-records.md",
+      "name": "Incident Tracking and Records",
+      "type": "operational",
+      "provider": "Jira",
+      "summary": "Each incident is tracked with applicable attributes and notes, and the incident records are stored in approved ticketing system.",
+      "guidance": "Incidents should be tracked in a ticketing / record keeping system. This can be a dedicated incident management tool or just Jira. If Jira or similar ticket system is used, it's recommended to create a dedicated project and issue type (e.g. 'Incident') for this. The incident records can be consolidated into JupiterOne for reporting.",
       "applicable": true,
       "adopted": true
     },

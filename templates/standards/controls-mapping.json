@@ -556,6 +556,15 @@
       ]
     },
     {
+      "id": "cp-compliance-monitor",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "requirements": []
+        }
+      ]
+    },
+    {
       "id": "cp-audit-control-deficiency",
       "implements": [
         {
@@ -2690,6 +2699,15 @@
             "IVS-08",
             "STA-05"
           ]
+        }
+      ]
+    },
+    {
+      "id": "cp-sdlc-monitor",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "requirements": []
         }
       ]
     },

@@ -3759,6 +3759,15 @@
       ]
     },
     {
+      "id": "cp-ir-records",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "requirements": []
+        }
+      ]
+    },
+    {
       "id": "cp-breach-investigate",
       "implements": [
         {

@@ -209,7 +209,12 @@
             "cp-model-metrics",
             "cp-audit-review",
             "cp-audit-control-deficiency",
-            "cp-vuln-remediation"
+            "cp-vuln-remediation",
+            "cp-model-metrics",
+            "cp-ism-reporting",
+            "cp-ccm-monitor",
+            "cp-sdlc-monitor",
+            "cp-compliance-monitor"
           ]
         }
       ]
@@ -222,12 +227,10 @@
           "title": "COSO Principle 10",
           "summary": "The entity selects and develops control activities that contribute to the mitigation of risks to the achievement of objectives to acceptable levels.",
           "procedures": [
-            "cp-model-principles",
-            "cp-ism-policies",
             "cp-risk-assess",
             "cp-risk-mgmt",
             "cp-risk-mitigation",
-            "cp-role-assignment"
+            "cp-risk-registry"
           ]
         },
         {
@@ -235,10 +238,10 @@
           "title": "COSO Principle 11",
           "summary": "The entity also selects and develops general control activities over technology to support the achievement of objectives.",
           "procedures": [
-            "cp-model-architecture",
-            "cp-access-standards",
-            "cp-vendor-ssa",
-            "cp-sdlc-dev"
+            "cp-risk-assess",
+            "cp-risk-mgmt",
+            "cp-risk-mitigation",
+            "cp-risk-registry"
           ]
         },
         {
@@ -246,14 +249,9 @@
           "title": "COSO Principle 12",
           "summary": "The entity deploys control activities through policies that establish what is expected and in procedures that put policies into action.",
           "procedures": [
-            "cp-policy-mgmt",
-            "cp-role-assignment",
-            "cp-audit-review",
-            "cp-audit-training",
-            "cp-audit-types",
-            "cp-ir-sirt",
-            "cp-risk-mgmt",
-            "cp-risk-mitigation"
+            "cp-ism-scope",
+            "cp-ism-policies",
+            "cp-policy-mgmt"
           ]
         }
       ]
@@ -415,16 +413,14 @@
           "title": "CC7.2",
           "summary": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
           "procedures": [
+            "cp-ccm-monitor",
             "cp-audit-internal",
             "cp-audit-trails",
             "cp-audit-types",
-            "cp-events-analysis",           
+            "cp-events-analysis",       
             "cp-threat-nids",
             "cp-threat-hids",
-            "cp-threat-firewall",
-            "cp-ir-process",
-            "cp-ir-playbook",
-            "cp-bcdr"
+            "cp-threat-siem"
           ]
         },
         {
@@ -432,13 +428,10 @@
           "title": "CC7.3",
           "summary": "The entity evaluates security events to determine whether they could or have resulted in a failure of the entity to meet its objectives (security incidents) and, if so, takes actions to prevent or address such failures.",
           "procedures": [
-            "cp-audit-review",
-            "cp-audit-trails",
-            "cp-audit-types",
-            "cp-events-analysis",
-            "cp-ir-playbook",
-            "cp-ir-process",
             "cp-ir-sirt",
+            "cp-ir-process",
+            "cp-ir-playbook",
+            "cp-ir-records",
             "cp-vuln-remediation"
           ]
         },
@@ -461,10 +454,6 @@
           "title": "CC7.5",
           "summary": "The entity identifies, develops, and implements activities to recover from identified security incidents.",
           "procedures": [
-            "cp-bcdr-recovery",
-            "cp-bcdr-app",
-            "cp-bcdr-data",
-            "cp-bcdr-test",
             "cp-ccm-emergency",
             "cp-ir-playbook",
             "cp-ir-process",
@@ -512,7 +501,8 @@
             "cp-risk-assess",
             "cp-risk-mitigation",
             "cp-risk-registry",
-            "cp-risk-insurance"
+            "cp-risk-insurance",
+            "cp-bcdr"
           ]
         },
         {

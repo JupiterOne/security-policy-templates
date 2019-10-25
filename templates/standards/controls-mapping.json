@@ -556,6 +556,15 @@
       ]
     },
     {
+      "id": "cp-compliance-monitor",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "requirements": []
+        }
+      ]
+    },
+    {
       "id": "cp-audit-control-deficiency",
       "implements": [
         {
@@ -2694,6 +2703,15 @@
       ]
     },
     {
+      "id": "cp-sdlc-monitor",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "requirements": []
+        }
+      ]
+    },
+    {
       "id": "cp-ccm-config",
       "implements": [
         {
@@ -3737,6 +3755,15 @@
           "requirements": [
             "BCR-02"
           ]
+        }
+      ]
+    },
+    {
+      "id": "cp-ir-records",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "requirements": []
         }
       ]
     },

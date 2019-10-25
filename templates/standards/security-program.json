@@ -13,8 +13,8 @@
         },
         {
           "ref": "cp-ism-policies",
-          "title": "Understanding the Policies and Documents",
-          "summary": "The organization's security program maintains documentation of high level policies and lower level controls and procedures."
+          "title": "Understanding the Policies and Controls/Procedures",
+          "summary": "The organization's security program maintains documentation of high level policies and lower level controls and procedures. The policies and procedures cover the design, development, implementation, operation, maintenance and monitoring of in-scope systems."
         },
         {
           "ref": "cp-ism-reporting",
@@ -104,7 +104,7 @@
         {
           "ref": "cp-risk-mitigation",
           "title": "Risk Mitigation and Monitoring",
-          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls, and to evaluate residual risk."
+          "summary": "A process is defined to guide the prioritization and implementation of risk mitigating controls including but not limited to controls over technology, and to evaluate residual risk."
         },
         {
           "ref": "cp-risk-registry",
@@ -135,6 +135,11 @@
           "ref": "cp-compliance-requests",
           "title": "Requesting Audit and Compliance Reports",
           "summary": "Process and channels are established to communicate the compliance status to external stakeholders."
+        },
+        {
+          "ref": "cp-compliance-monitor",
+          "title": "Continuous Compliance Monitoring",
+          "summary": "Compliance status is tracked and monitored using an enterprise compliance tool."
         }
       ]
     },
@@ -515,6 +520,11 @@
           "ref": "cp-sdlc-hipaa",
           "title": "HIPAA Best Practices for Software Development",
           "summary": "Developers are trained on requirements and best practices specific to HIPAA compliance and processing of sensitive health data."
+        },
+        {
+          "ref": "cp-sdlc-monitor",
+          "title": "Production System Monitoring and Paging",
+          "summary": "On call teams are set up to receive pager notifications when a failure or error occurs in production."
         }
       ]
     },
@@ -628,7 +638,7 @@
       "controls": [
         {
           "ref": "cp-vuln-scan",
-          "title": "Vulnerability Scanning and Infrastructure Penetration Testing",
+          "title": "Vulnerability Scanning and Infrastructure Security Testing",
           "summary": "Vulnerability scan is performed at least quarterly for all production systems."
         },
         {
@@ -720,6 +730,11 @@
           "ref": "cp-ir-tabletop",
           "title": "Tabletop Exercise",
           "summary": "Tabletop exercises and/or simulated incident drills are performed at least annual to validate and update the incident response process."
+        },
+        {
+          "ref": "cp-ir-records",
+          "title": "Incident Tracking and Records",
+          "summary": "Each incident is tracked with applicable attributes and notes, and the incident records are stored in approved ticketing system."
         }
       ]
     },

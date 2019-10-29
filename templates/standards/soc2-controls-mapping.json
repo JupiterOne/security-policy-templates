@@ -197,7 +197,10 @@
             "cp-audit-trails",
             "cp-audit-trails-integrity",
             "cp-audit-training",
-            "cp-audit-types"
+            "cp-audit-types",
+            "cp-vuln-scan",
+            "cp-sdlc-pentest",
+            "cp-sdlc-bugbounty"
           ]
         },
         {
@@ -264,6 +267,7 @@
           "title": "CC6.1",
           "summary": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
           "procedures": [
+            "cp-asset-digital",
             "cp-access-aws",
             "cp-access-customer",
             "cp-access-mfa",
@@ -275,6 +279,8 @@
             "cp-access-standards",
             "cp-access-vpn",
             "cp-access-wifi",
+            "cp-access-prod",
+            "cp-access-prod-data",
             "cp-threat-firewall",
             "cp-threat-nids",
             "cp-threat-hids",
@@ -310,6 +316,7 @@
             "cp-access-phi",
             "cp-access-rbac",
             "cp-access-service",
+            "cp-access-prod-data",
             "cp-ccm-aws",
             "cp-data-protection",
             "cp-employee-exiting",
@@ -364,6 +371,7 @@
           "summary": "The entity restricts the transmission, movement, and removal of information to authorized internal and external users and processes, and protects it during transmission, movement, or removal to meet the entity’s objectives.",
           "procedures": [
             "cp-access-vpn",
+            "cp-access-prod-data",
             "cp-data-classification",
             "cp-data-handling",
             "cp-data-lifecycle",
@@ -405,7 +413,9 @@
           "procedures": [
             "cp-ccm-config",
             "cp-ccm-monitor",
-            "cp-vuln-scan"
+            "cp-vuln-scan",
+            "cp-sdlc-pentest",
+            "cp-sdlc-bugbounty"
           ]
         },
         {

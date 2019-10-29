@@ -72,7 +72,7 @@
         },
         {
           "ref": "cp-vendor-vtr",
-          "title": "Vendor Technology Risk Review",
+          "title": "Vendor Risk Assessment",
           "summary": "Risk assessments are conducted prior to engaging a new technology vendor."
         },
         {
@@ -422,7 +422,7 @@
         },
         {
           "ref": "cp-vendor-vtr",
-          "title": "Vendor Technology Risk Review",
+          "title": "Vendor Risk Assessment",
           "summary": "Risk assessments are conducted prior to engaging a new technology vendor."
         }
       ]
@@ -504,6 +504,21 @@
           "ref": "cp-audit-types",
           "title": "Types of System Audits",
           "summary": "The organization has defined auditing processes including system configuration monitoring, activity monitoring, access review, and controls compliance audit."
+        },
+        {
+          "ref": "cp-vuln-scan",
+          "title": "Vulnerability Scanning and Infrastructure Security Testing",
+          "summary": "Vulnerability scan is performed at least quarterly for all production systems."
+        },
+        {
+          "ref": "cp-sdlc-pentest",
+          "title": "Application Penetration Testing",
+          "summary": "Penetration testing is performed for each product at least annually and with major feature changes."
+        },
+        {
+          "ref": "cp-sdlc-bugbounty",
+          "title": "Responsible Disclosure and Bug Bounty Program",
+          "summary": "Security team maintains an external/public bug bounty program to enable continuous security testing and vulnerability reporting across major external facing products."
         }
       ]
     },
@@ -636,6 +651,11 @@
       "title": "§ Logical And Physical Access Controls\n【CC6.1】 The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
       "controls": [
         {
+          "ref": "cp-asset-digital",
+          "title": "Digital Asset Inventory",
+          "summary": "All digital and software-defined assets, such as virtual instances and code repositories, are discovered and maintained in an asset inventory system."
+        },
+        {
           "ref": "cp-access-aws",
           "title": "Temporary Access to AWS Accounts and Resources",
           "summary": "Access to AWS cloud infrastructure is configured single sign on roles and temporary trusts. No persistent end-user access is configured."
@@ -689,6 +709,16 @@
           "ref": "cp-access-wifi",
           "title": "Office Network and Wifi Access",
           "summary": "Office networks, including wireless access, are protected for internal business use only. Guest wireless access is provided on a separate logical network."
+        },
+        {
+          "ref": "cp-access-prod",
+          "title": "Production Access and Secrets Management",
+          "summary": "Production keys and secrets are securely stored and protected."
+        },
+        {
+          "ref": "cp-access-prod-data",
+          "title": "Production Data Access",
+          "summary": "Access to production data is highly restricted. Access is reviewed and approved on a case-by-case basis. MFA is required."
         },
         {
           "ref": "cp-threat-firewall",
@@ -804,6 +834,11 @@
           "ref": "cp-access-service",
           "title": "Service Accounts",
           "summary": "Service accounts and application credentials are securely managed."
+        },
+        {
+          "ref": "cp-access-prod-data",
+          "title": "Production Data Access",
+          "summary": "Access to production data is highly restricted. Access is reviewed and approved on a case-by-case basis. MFA is required."
         },
         {
           "ref": "cp-ccm-aws",
@@ -956,6 +991,11 @@
           "summary": "Remote access to private and internal systems are configured via encrypted VPN channels."
         },
         {
+          "ref": "cp-access-prod-data",
+          "title": "Production Data Access",
+          "summary": "Access to production data is highly restricted. Access is reviewed and approved on a case-by-case basis. MFA is required."
+        },
+        {
           "ref": "cp-data-classification",
           "title": "Data Classification Model",
           "summary": "Data classification model is defined to differentiate public, non-public, confidental/sensitive and critical data or information asset."
@@ -1079,6 +1119,16 @@
           "ref": "cp-vuln-scan",
           "title": "Vulnerability Scanning and Infrastructure Security Testing",
           "summary": "Vulnerability scan is performed at least quarterly for all production systems."
+        },
+        {
+          "ref": "cp-sdlc-pentest",
+          "title": "Application Penetration Testing",
+          "summary": "Penetration testing is performed for each product at least annually and with major feature changes."
+        },
+        {
+          "ref": "cp-sdlc-bugbounty",
+          "title": "Responsible Disclosure and Bug Bounty Program",
+          "summary": "Security team maintains an external/public bug bounty program to enable continuous security testing and vulnerability reporting across major external facing products."
         }
       ]
     },
@@ -1347,7 +1397,7 @@
         },
         {
           "ref": "cp-vendor-vtr",
-          "title": "Vendor Technology Risk Review",
+          "title": "Vendor Risk Assessment",
           "summary": "Risk assessments are conducted prior to engaging a new technology vendor."
         },
         {

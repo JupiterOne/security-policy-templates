@@ -347,6 +347,11 @@
           "summary": "Production keys and secrets are securely stored and protected."
         },
         {
+          "ref": "cp-access-prod-data",
+          "title": "Production Data Access",
+          "summary": "Access to production data is highly restricted. Access is reviewed and approved on a case-by-case basis. MFA is required."
+        },
+        {
           "ref": "cp-access-reset",
           "title": "Password Reset and other Helpdesk Requests",
           "summary": "Users are provided a self-service mechanism for account access resets, and a channel to open an internal IT support request if needed."
@@ -768,13 +773,18 @@
       "controls": [
         {
           "ref": "cp-vendor-vtr",
-          "title": "Vendor Technology Risk Review",
+          "title": "Vendor Risk Assessment",
           "summary": "Risk assessments are conducted prior to engaging a new technology vendor."
         },
         {
           "ref": "cp-vendor-contracts",
           "title": "Vendor Contractual Agreements",
           "summary": "Third party vendors are required to sign applicale contractual agreements, such as BAA (for HIPAA), DPA (for GDPR), SLA (for service providers), accepting their responsibilities to meet applicable data protection and privacy requirements."
+        },
+        {
+          "ref": "cp-vendor-monitor",
+          "title": "Vendor Risk Monitoring",
+          "summary": "Security and DevOps teams continue to monitor the risk levels and service status of applicable vendors, such as service providers and vendors with access to sensitive data."
         },
         {
           "ref": "cp-vendor-ssa",

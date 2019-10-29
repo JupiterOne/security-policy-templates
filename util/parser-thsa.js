@@ -1,9 +1,11 @@
 /**
- * This utility parses the SOC 2 controls into a JSON document
+ * This utility parses the THSA questionnaire into a JSON document
+ * 
+ * THSA - Together Health Security Assessment
+ * see: https://www.together.health/security-assessment
  */
 const csvtojson = require("csvtojson");
 const fs = require('fs');
-const startCase = require('lodash/startcase');
 
 /**
  * Expected CSV Headers:

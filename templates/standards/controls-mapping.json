@@ -327,7 +327,7 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "requirements": []
+          "controls": []
         }
       ]
     },
@@ -503,7 +503,7 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "requirements": []
+          "controls": []
         }
       ]
     },
@@ -512,7 +512,7 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "requirements": []
+          "controls": []
         }
       ]
     },
@@ -560,7 +560,7 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "requirements": []
+          "controls": []
         }
       ]
     },
@@ -569,7 +569,7 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "requirements": []
+          "controls": []
         }
       ]
     },
@@ -919,7 +919,7 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "requirements": []
+          "controls": []
         }
       ]
     },
@@ -1107,7 +1107,7 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "requirements": []
+          "controls": []
         }
       ]
     },
@@ -1116,7 +1116,7 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "requirements": []
+          "controls": []
         }
       ]
     },
@@ -1125,7 +1125,7 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "requirements": []
+          "controls": []
         }
       ]
     },
@@ -1770,6 +1770,15 @@
             "IAM-06",
             "IAM-08"
           ]
+        }
+      ]
+    },
+    {
+      "id": "cp-access-prod-data",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "controls": []
         }
       ]
     },
@@ -2639,7 +2648,7 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "requirements": []
+          "controls": []
         }
       ]
     },
@@ -2707,7 +2716,7 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "requirements": []
+          "controls": []
         }
       ]
     },
@@ -2752,7 +2761,7 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "requirements": []
+          "controls": []
         }
       ]
     },
@@ -3763,7 +3772,7 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "requirements": []
+          "controls": []
         }
       ]
     },
@@ -3963,6 +3972,15 @@
             "12.8.4",
             "12.8.5"
           ]
+        }
+      ]
+    },
+    {
+      "id": "cp-vendor-monitor",
+      "implements": [
+        {
+          "standard": "SOC 2",
+          "controls": []
         }
       ]
     },

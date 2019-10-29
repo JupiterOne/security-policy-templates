@@ -37,6 +37,7 @@
     "expenseReporting": "",
     "devWikiURL": "",
     "hipaaTrainingURL": "",
+    "statusPageURL": "",
     "securityAwarenessTrainingProvider": "",
     "IdP": "",
     "CPA": "",
@@ -178,6 +179,7 @@
         "cp-access-endpoints",
         "cp-access-wifi",
         "cp-access-prod",
+        "cp-access-prod-data",
         "cp-access-reset"
       ]
     },
@@ -355,6 +357,7 @@
       "procedures": [
         "cp-vendor-vtr",
         "cp-vendor-contracts",
+        "cp-vendor-monitor",
         "cp-vendor-ssa"
       ]
     },
@@ -1081,6 +1084,18 @@
           "link": "https://aws.amazon.com/blogs/mt/the-right-way-to-store-secrets-using-parameter-store/"
         }
       ]
+    },
+    {
+      "id": "cp-access-prod-data",
+      "file": "procedures/cp-access-prod-data.md",
+      "name": "Production Data Access",
+      "type": "technical",
+      "provider": "",
+      "summary": "Access to production data is highly restricted. Access is reviewed and approved on a case-by-case basis. MFA is required.",
+      "guidance": "It is worth calling out processes and controls specific production data access, which should be highly restricted and monitored. MFA should always be required when accessing production data.",
+      "applicable": true,
+      "adopted": true,
+      "resources": []
     },
     {
       "id": "cp-access-reset",
@@ -1896,7 +1911,7 @@
     {
       "id": "cp-vendor-vtr",
       "file": "procedures/cp-vendor-vtr.md",
-      "name": "Vendor Technology Risk Review",
+      "name": "Vendor Risk Assessment",
       "type": "operational",
       "provider": "Google VSAQ",
       "summary": "Risk assessments are conducted prior to engaging a new technology vendor.",
@@ -1922,6 +1937,17 @@
       "provider": "manual process",
       "summary": "Third party vendors are required to sign applicale contractual agreements, such as BAA (for HIPAA), DPA (for GDPR), SLA (for service providers), accepting their responsibilities to meet applicable data protection and privacy requirements.",
       "guidance": "Your vendors and subcontractors must meet certain legal and contractual requirements under regulations such as HIPAA - Business Associate Agreement (BAA), and GDPR - Data Processing Agreement (DPA).",
+      "applicable": true,
+      "adopted": true
+    },
+    {
+      "id": "cp-vendor-monitor",
+      "file": "procedures/cp-vendor-monitor.md",
+      "name": "Vendor Risk Monitoring",
+      "type": "administrative",
+      "provider": "manual process",
+      "summary": "Security and DevOps teams continue to monitor the risk levels and service status of applicable vendors, such as service providers and vendors with access to sensitive data.",
+      "guidance": "Vendor risk management is a continuous process beyond the initial assessment/review. A continuous monitoring process should be established to review changes to a vendor's risk posture and service level.",
       "applicable": true,
       "adopted": true
     },

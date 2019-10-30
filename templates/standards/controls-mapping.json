@@ -327,7 +327,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": []
+          "controls": [],
+          "requirements": []
         }
       ]
     },
@@ -503,7 +504,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": []
+          "controls": [],
+          "requirements": []
         }
       ]
     },
@@ -512,7 +514,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": []
+          "controls": [],
+          "requirements": []
         }
       ]
     },
@@ -560,7 +563,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": []
+          "controls": [],
+          "requirements": []
         }
       ]
     },
@@ -569,7 +573,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": []
+          "controls": [],
+          "requirements": []
         }
       ]
     },
@@ -919,7 +924,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": []
+          "controls": [],
+          "requirements": []
         }
       ]
     },
@@ -1107,7 +1113,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": []
+          "controls": [],
+          "requirements": []
         }
       ]
     },
@@ -1116,7 +1123,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": []
+          "controls": [],
+          "requirements": []
         }
       ]
     },
@@ -1125,7 +1133,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": []
+          "controls": [],
+          "requirements": []
         }
       ]
     },
@@ -1778,7 +1787,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": []
+          "controls": [],
+          "requirements": []
         }
       ]
     },
@@ -2648,7 +2658,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": []
+          "controls": [],
+          "requirements": []
         }
       ]
     },
@@ -2716,7 +2727,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": []
+          "controls": [],
+          "requirements": []
         }
       ]
     },
@@ -2761,7 +2773,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": []
+          "controls": [],
+          "requirements": []
         }
       ]
     },
@@ -3772,7 +3785,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": []
+          "controls": [],
+          "requirements": []
         }
       ]
     },
@@ -3980,7 +3994,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": []
+          "controls": [],
+          "requirements": []
         }
       ]
     },

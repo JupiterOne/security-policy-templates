@@ -1,7 +1,7 @@
 {
-    "standard": "ISO/IEC 27002",
-    "version": "1",
-    "webLink": "http://bcc.portal.gov.bd/sites/default/files/files/bcc.portal.gov.bd/page/adeaf3e5_cc55_4222_8767_f26bcaec3f70/ISO_IEC_27002.pdf",
+    "standard": "ISO/IEC 27002:2005",
+    "version": "2005",
+    "webLink": "",
     "sections": [
       {
         "title": "5 - Security Policy",

@@ -45,7 +45,8 @@
     "needStandardHITRUST": false,
     "needStandardGDPR": false,
     "needStandardNIST": false,
-    "needStandardPCI": false
+    "needStandardPCI": false,
+    "isServiceProvider": false
   },
   "standards": [],
   "policies": [

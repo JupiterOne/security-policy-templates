@@ -1,6 +1,7 @@
 {
   "standard": "THSA",
   "version": "2019.1",
+  "type": "questionnaire",
   "webLink": "https://www.together.health/security-assessment",
   "domains": [
     {

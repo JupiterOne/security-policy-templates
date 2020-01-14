@@ -10,10 +10,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "00.a",
-            "04.a"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -42,10 +39,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "00.a",
-            "04.a"
-          ]
+          "controls": []
         }
       ]
     },
@@ -59,11 +53,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "00.a",
-            "04.a",
-            "05.h"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -83,9 +73,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "00.a"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -120,10 +108,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "00.a",
-            "01.m"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -147,10 +132,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "00.a",
-            "05.h"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -183,16 +165,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "02.a",
-            "02.d",
-            "02.e",
-            "05.a",
-            "05.b",
-            "05.c",
-            "06.d",
-            "06.g"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -230,13 +203,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "02.d",
-            "02.e",
-            "06.g",
-            "09.j",
-            "09.s"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -275,10 +242,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "02.e",
-            "09.s"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -309,10 +273,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "02.e",
-            "09.s"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -350,10 +311,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "04.b",
-            "05.h"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -384,12 +342,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "03.a",
-            "03.b",
-            "03.c",
-            "03.d"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -423,9 +376,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "03.b"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -458,10 +409,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "03.c",
-            "03.d"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -492,10 +440,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "03.c",
-            "03.d"
-          ]
+          "controls": []
         }
       ]
     },
@@ -529,10 +474,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "06.a",
-            "06.b"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -552,9 +494,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "05.f"
-          ]
+          "controls": []
         }
       ]
     },
@@ -591,14 +531,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "06.c",
-            "06.e",
-            "06.g",
-            "06.h",
-            "06.i",
-            "09.s"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -639,12 +572,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "06.c",
-            "06.e",
-            "06.h",
-            "06.i"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -671,12 +599,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "06.c",
-            "06.e",
-            "06.h",
-            "06.i"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -699,12 +622,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "06.c",
-            "06.e",
-            "06.h",
-            "06.i"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -728,13 +646,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "06.c",
-            "06.e",
-            "06.h",
-            "06.i",
-            "09.ad"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -758,18 +670,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "06.c",
-            "06.e",
-            "06.h",
-            "06.i",
-            "09.j",
-            "09.aa",
-            "09.ab",
-            "09.ad",
-            "09.ae",
-            "09.af"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -804,12 +705,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "06.c",
-            "06.i",
-            "06.j",
-            "09.ac"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -838,14 +734,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "05.i",
-            "05.j",
-            "05.k",
-            "06.d",
-            "06.e",
-            "06.g"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -869,9 +758,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "06.j"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -900,10 +787,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "02.e",
-            "06.g"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -941,10 +825,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "02.a",
-            "07.c"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -994,9 +875,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "02.b"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1024,10 +903,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "02.c",
-            "02.e"
-          ]
+          "controls": []
         }
       ]
     },
@@ -1044,11 +920,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "02.g",
-            "02.h",
-            "02.i"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1071,9 +943,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "02.f"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1150,9 +1020,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "02.f"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1180,20 +1048,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.b",
-            "01.c",
-            "01.d",
-            "01.e",
-            "01.f",
-            "01.g",
-            "01.h",
-            "01.p",
-            "01.q",
-            "01.r",
-            "01.s"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1240,20 +1095,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.b",
-            "01.d",
-            "01.f",
-            "01.j",
-            "01.p",
-            "01.q",
-            "01.r",
-            "01.t",
-            "01.u",
-            "01.v",
-            "01.w"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1278,13 +1120,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.j",
-            "01.x",
-            "01.y",
-            "09.v"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1320,12 +1156,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.b",
-            "01.c",
-            "01.v"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1353,17 +1184,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.c",
-            "01.m",
-            "01.p",
-            "01.q",
-            "01.t",
-            "01.u",
-            "01.v",
-            "01.w"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1397,15 +1218,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.i",
-            "01.j",
-            "01.y",
-            "09.s",
-            "09.v",
-            "10.f"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1437,12 +1250,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.c",
-            "01.e",
-            "01.v"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1469,12 +1277,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.j",
-            "01.w",
-            "05.j"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1504,14 +1307,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.b",
-            "01.c",
-            "01.e",
-            "01.f",
-            "02.i"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1551,10 +1347,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.c"
-          ]
+          "controls": []
         }
       ]
     },
@@ -1571,10 +1364,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.i"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1613,11 +1403,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.c",
-            "01.e"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1649,11 +1435,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.j",
-            "01.k"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1680,13 +1462,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.i",
-            "01.m",
-            "01.n",
-            "01.o"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1718,12 +1494,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.d",
-            "01.f",
-            "01.r"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1765,13 +1536,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.c",
-            "01.m",
-            "01.v",
-            "01.w"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1813,10 +1578,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.a",
-            "01.r"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1846,23 +1608,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.h",
-            "01.l",
-            "08.a",
-            "08.b",
-            "08.c",
-            "08.d",
-            "08.e",
-            "08.f",
-            "08.g",
-            "08.h",
-            "08.i",
-            "08.j",
-            "08.k",
-            "08.l",
-            "08.m"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1909,23 +1655,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.h",
-            "01.l",
-            "08.a",
-            "08.b",
-            "08.c",
-            "08.d",
-            "08.e",
-            "08.f",
-            "08.g",
-            "08.h",
-            "08.i",
-            "08.j",
-            "08.k",
-            "08.l",
-            "08.m"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1965,10 +1695,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "07.a",
-            "07.b"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1999,10 +1726,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "07.a",
-            "07.b"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2025,12 +1749,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "07.a",
-            "07.b",
-            "07.c",
-            "09.v"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2061,10 +1780,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "06.d",
-            "07.d"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2090,14 +1806,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "06.c",
-            "06.d",
-            "06.e",
-            "06.f",
-            "07.e",
-            "09.q"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2137,12 +1846,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "06.c",
-            "06.d",
-            "07.e",
-            "13.l"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2168,10 +1872,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "06.c",
-            "09.l"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2199,9 +1900,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "09.p"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2224,9 +1923,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "09.q"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2259,13 +1956,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.v",
-            "06.d",
-            "09.q",
-            "10.f",
-            "10.g"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2299,17 +1990,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.v",
-            "06.d",
-            "09.s",
-            "09.u",
-            "09.v",
-            "09.y",
-            "10.d",
-            "10.f",
-            "10.g"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2346,10 +2027,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.v",
-            "06.d"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2372,13 +2050,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.v",
-            "06.d",
-            "09.q",
-            "10.f",
-            "10.g"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2407,15 +2079,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.v",
-            "06.d",
-            "09.u",
-            "09.y",
-            "10.d",
-            "10.f",
-            "10.g"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2435,10 +2099,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "08.j",
-            "09.z"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2456,9 +2117,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "10.a"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2481,9 +2140,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "10.j"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2504,16 +2161,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "10.a",
-            "10.b",
-            "10.c",
-            "10.d",
-            "10.e",
-            "10.f",
-            "10.i",
-            "10.m"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2551,9 +2199,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "10.a"
-          ]
+          "controls": []
         }
       ]
     },
@@ -2572,10 +2218,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "10.a",
-            "10.c"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2597,9 +2240,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "10.m"
-          ]
+          "controls": []
         }
       ]
     },
@@ -2609,9 +2250,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "10.m"
-          ]
+          "controls": []
         },
         {
           "standard": "PCI DSS",
@@ -2627,9 +2266,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "10.m"
-          ]
+          "controls": []
         }
       ]
     },
@@ -2643,9 +2280,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "10.m"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2678,9 +2313,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "10.l"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2710,13 +2343,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "06.a",
-            "06.d",
-            "06.e",
-            "06.g",
-            "10.a"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2751,12 +2378,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "09.a",
-            "09.b",
-            "10.h",
-            "10.k"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2797,14 +2419,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.m",
-            "01.n",
-            "01.o",
-            "09.b",
-            "10.h",
-            "10.k"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2833,16 +2448,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.m",
-            "01.n",
-            "01.o",
-            "09.a",
-            "09.b",
-            "09.d",
-            "10.h",
-            "10.k"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2866,12 +2472,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "09.a",
-            "09.b",
-            "10.h",
-            "10.k"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2892,13 +2493,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "09.a",
-            "09.b",
-            "10.h",
-            "10.k",
-            "10.m"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2926,13 +2521,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "09.a",
-            "09.b",
-            "09.c",
-            "10.h",
-            "10.k"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2959,12 +2548,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "09.a",
-            "09.b",
-            "10.h",
-            "10.k"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2994,13 +2578,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.g",
-            "09.a",
-            "09.af",
-            "10.h",
-            "10.k"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3028,12 +2606,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "09.a",
-            "09.af",
-            "10.h",
-            "10.k"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3067,12 +2640,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "09.a",
-            "09.af",
-            "10.h",
-            "10.k"
-          ]
+          "controls": []
         }
       ]
     },
@@ -3086,11 +2654,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "09.a",
-            "10.h",
-            "10.k"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3114,12 +2678,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.m",
-            "01.n",
-            "01.o",
-            "09.m"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3150,11 +2709,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "09.ab",
-            "09.ac",
-            "10.h"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3170,12 +2725,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.m",
-            "01.n",
-            "01.o",
-            "09.m"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3205,12 +2755,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "09.j",
-            "09.k",
-            "09.ab",
-            "10.h"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3238,9 +2783,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "10.b"
-          ]
+          "controls": []
         }
       ]
     },
@@ -3256,10 +2799,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "05.g",
-            "06.a"
-          ]
+          "controls": []
         }
       ]
     },
@@ -3269,9 +2809,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "11.a"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3291,9 +2829,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "10.m"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3324,9 +2860,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "10.m"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3366,10 +2900,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "08.k",
-            "08.l"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3403,11 +2934,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "08.m",
-            "09.o",
-            "10.f"
-          ]
+          "controls": []
         }
       ]
     },
@@ -3421,10 +2948,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "01.x",
-            "01.y"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3475,12 +2999,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "12.a",
-            "12.b",
-            "12.c",
-            "12.d"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3503,12 +3022,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "12.a",
-            "12.b",
-            "12.c",
-            "12.d"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3532,13 +3046,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "12.a",
-            "12.b",
-            "12.c",
-            "12.d",
-            "12.e"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3560,12 +3068,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "12.a",
-            "12.b",
-            "12.c",
-            "12.d"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3589,12 +3092,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "12.a",
-            "12.b",
-            "12.c",
-            "12.d"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3619,12 +3117,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "12.a",
-            "12.b",
-            "12.c",
-            "12.d"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3650,10 +3143,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "11.a",
-            "11.c"
-          ]
+          "controls": []
         },
         {
           "standard": "PCI DSS",
@@ -3675,13 +3165,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "11.a",
-            "11.b",
-            "11.d",
-            "11.d",
-            "11.e"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3714,13 +3198,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "11.a",
-            "11.b",
-            "11.d",
-            "11.d",
-            "11.e"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3777,9 +3255,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "11.d"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3811,10 +3287,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "11.a",
-            "13.u"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3863,12 +3336,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "11.a",
-            "11.b",
-            "12.c",
-            "13.u"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3899,9 +3367,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "11.a"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3928,13 +3394,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "05.i",
-            "05.k",
-            "09.g",
-            "09.n",
-            "09.s"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3968,16 +3428,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "05.e",
-            "05.i",
-            "05.k",
-            "09.e",
-            "09.f",
-            "09.g",
-            "09.s",
-            "09.t"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -4018,12 +3469,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "05.d",
-            "06.b",
-            "09.j",
-            "09.v"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -4050,23 +3496,7 @@
         {
           "standard": "HITRUST CSF",
           "requirements": [],
-          "controls": [
-            "06.d",
-            "06.e",
-            "13.a",
-            "13.b",
-            "13.c",
-            "13.d",
-            "13.e",
-            "13.f",
-            "13.g",
-            "13.h",
-            "13.i",
-            "13.j",
-            "13.k",
-            "13.l",
-            "13.m"
-          ]
+          "controls": []
         },
         {
           "standard": "CSA CCM",

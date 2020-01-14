@@ -9,9 +9,13 @@ They can be used as stand-alone documents. But the structure is designed to be
 best suited for use with the `jupiter-policy-builder` CLI and the **policies**
 app on the **[JupiterOne][j1]** platform.
 
+Get the **Policy Builder** [here][builder] that auto compiles these policies and
+procedures into a full HTML site.
+
 These are used internally at JupiterOne / LifeOmic Security.
 
 [j1]: https://jupiterone.com/features/policy-builder/
+[builder]: https://github.com/JupiterOne/jupiter-policy-builder
 
 ## Format
 

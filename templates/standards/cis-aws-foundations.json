@@ -1,5 +1,5 @@
 {
-  "standard": "CIS Amazon Web Services Foundations",
+  "standard": "CIS AWS Foundations",
   "version": "1.2.0",
   "webLink": "https://d1.awsstatic.com/whitepapers/compliance/AWS_CIS_Foundations_Benchmark.pdf",
   "domains": [

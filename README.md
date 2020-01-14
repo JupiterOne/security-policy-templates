@@ -58,23 +58,23 @@ to each other via a JSON configuration.
 - This directory contains the modular templates for policies.
 - Each policy document is written in the following structure:
 
-  ```markdown
-  # Policy Title
+    ```markdown
+    # Policy Title
 
-  `revision`
+    `revision`
 
-  Overview of the policy. A paragraph or two to describe the intent and
-  principals of the policy.
+    Overview of the policy. A paragraph or two to describe the intent and
+    principals of the policy.
 
-  ## Policy Statements
+    ## Policy Statements
 
-  This section contains the high level requirements specific to the policy.
-  
-  Policy statements are aligned to the organization's operating model and
-  applicable compliance requirements. These statements describe the "what" but
-  not the "how". They are meant to be stable over longer periods of time without
-  needing frequent updates.
-  ```
+    This section contains the high level requirements specific to the policy.
+
+    Policy statements are aligned to the organization's operating model and
+    applicable compliance requirements. These statements describe the "what"
+    but not the "how". They are meant to be stable over longer periods of time 
+    without needing frequent updates.
+    ```
 
 `templates/procedures`
 
@@ -84,23 +84,23 @@ to each other via a JSON configuration.
   implements.
 - Each procedure document is written in the following structure:
 
-  ```markdown
-  ### Control/Procedure Title
+    ```markdown
+    ### Control/Procedure Title
 
-  Overview. A few lines to describe the control and procedure.
+    Overview. A few lines to describe the control and procedure.
 
-  Detailed text.
+    Detailed text.
 
-  #### Sub-section as needed
+    #### Sub-section as needed
 
-  More text.
-  ```
+    More text.
+    ```
 
-Note that the **Title** is a _level 3 heading_. This is because the
-`policy-builder` tool will automatically combine the procedures and policies
-they each implement to a single document for publishing, and it will insert a
-`## Controls and Procedures` section heading after the **Policy Statements**
-section and before the first control/procedure.
+  > Note that the **Title** is a _level 3 heading_. This is because the
+  `policy-builder` tool will automatically combine the procedures and policies
+  they each implement to a single document for publishing, and it will insert a
+  `## Controls and Procedures` section heading after the **Policy Statements**
+  section and before the first control/procedure.
 
 `templates/ref`
 

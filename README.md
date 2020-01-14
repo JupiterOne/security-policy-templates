@@ -37,7 +37,7 @@ The result files are put in `./docs` (Markdown) and `./site` (HTML).
 
 **IMPORTANT:** To edit the policies and procedures, use the template files in
 `./templates` and re-run the `psp build` command. Do _not_ edit the `./docs` and
-`./site` files directly as they will be overwritten on the next build.
+`./partials` files directly as they will be overwritten on the next build.
 
 For more detailed builder instructions, see the README [here][builder].
 
@@ -47,9 +47,9 @@ Similar to the concept of "micro-services", the policies and procedures are
 written in "micro-docs" that are decoupled from the policies. They are mapped
 to each other via a JSON configuration.
 
-- All policies, procedures and reference documents are written in Markdown.
-- All configuration files are in JSON format, including mapping between policies
-  and procedures, and between procedures and compliance standards.
+- All policies, procedures and reference documents are written in **Markdown**.
+- All configuration files are in **JSON** format, including mapping between
+  policies and procedures, and between procedures and compliance standards.
 
 ## Structure
 
@@ -58,22 +58,23 @@ to each other via a JSON configuration.
 - This directory contains the modular templates for policies.
 - Each policy document is written in the following structure:
 
-```markdown
-# Policy Title
+  ```markdown
+  # Policy Title
 
-`revision`
+  `revision`
 
-Overview of the policy. A paragraph or two to describe the intent and principals
-of the policy.
+  Overview of the policy. A paragraph or two to describe the intent and
+  principals of the policy.
 
-## Policy Statements
+  ## Policy Statements
 
-This section contains the high level requirements specific to the policy. Policy
-statements are aligned to the organization's operating model and applicable
-compliance requirements. These statements describe the "what" but not the "how".
-They are meant to be stable over longer periods of time without needing frequent
-updates.
-```
+  This section contains the high level requirements specific to the policy.
+  
+  Policy statements are aligned to the organization's operating model and
+  applicable compliance requirements. These statements describe the "what" but
+  not the "how". They are meant to be stable over longer periods of time without
+  needing frequent updates.
+  ```
 
 `templates/procedures`
 
@@ -83,17 +84,17 @@ updates.
   implements.
 - Each procedure document is written in the following structure:
 
-```markdown
-### Control/Procedure Title
+  ```markdown
+  ### Control/Procedure Title
 
-Overview. A few lines to describe the control and procedure.
+  Overview. A few lines to describe the control and procedure.
 
-Detailed text.
+  Detailed text.
 
-#### Sub-section as needed
+  #### Sub-section as needed
 
-More text.
-```
+  More text.
+  ```
 
 Note that the **Title** is a _level 3 heading_. This is because the
 `policy-builder` tool will automatically combine the procedures and policies

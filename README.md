@@ -6,16 +6,40 @@ the requirements and controls for most compliance frameworks and best practices,
 in a lightweight approach.
 
 They can be used as stand-alone documents. But the structure is designed to be
-best suited for use with the `jupiter-policy-builder` CLI and the **policies**
-app on the **[JupiterOne][j1]** platform.
-
-Get the **Policy Builder** [here][builder] that auto compiles these policies and
-procedures into a full HTML site.
+best suited for use with the [`jupiter-policy-builder` CLI][builder] and the
+**policies** app on the **[JupiterOne][j1]** platform.
 
 These are used internally at JupiterOne / LifeOmic Security.
 
 [j1]: https://jupiterone.com/features/policy-builder/
 [builder]: https://github.com/JupiterOne/jupiter-policy-builder
+
+## TL;DR
+
+Run the following command to install the policy builder and build the policies.
+You will be prompted for a few input, such as company name, to be included in
+your policy text.
+
+```bash
+npm install -g @jupiterone/jupiter-policy-builder
+
+psp build -t ./templates
+```
+
+You will be prompted to save the config to a file, which you can reference the
+next time you'd like to rebuild the policies and procedures:
+
+```bash
+psp build -t ./templates -c path/to/your/config.json
+```
+
+The result files are put in `./docs` (Markdown) and `./site` (HTML).
+
+**IMPORTANT:** To edit the policies and procedures, use the template files in
+`./templates` and re-run the `psp build` command. Do _not_ edit the `./docs` and
+`./site` files directly as they will be overwritten on the next build.
+
+For more detailed builder instructions, see the README [here][builder].
 
 ## Format
 

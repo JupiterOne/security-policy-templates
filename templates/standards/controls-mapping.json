@@ -1699,7 +1699,8 @@
           "standard": "PCI DSS",
           "requirements": [
             "1.1",
-            "1.2"
+            "1.2",
+            "11.1"
           ]
         }
       ]
@@ -1789,6 +1790,12 @@
           "standard": "SOC 2",
           "controls": [],
           "requirements": []
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": [
+            "8.7"
+          ]
         }
       ]
     },
@@ -1877,6 +1884,7 @@
           "requirements": [
             "9.1",
             "9.2",
+            "9.4",
             "9.5"
           ]
         }
@@ -1939,6 +1947,7 @@
           "requirements": [
             "9.1",
             "9.2",
+            "9.3",
             "9.5"
           ]
         }

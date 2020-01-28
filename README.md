@@ -17,7 +17,7 @@ These are used internally at JupiterOne / LifeOmic Security.
 ## TL;DR
 
 Run the following command to install the policy builder and build the policies.
-You will be prompted for a few input, such as company name, to be included in
+You will be prompted for a few inputs, such as company name, to be included in
 your policy text.
 
 ```bash

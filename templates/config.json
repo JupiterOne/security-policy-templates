@@ -387,7 +387,6 @@
         "ref-hipaa-baa",
         "ref-gdpr-dpa",
         "ref-hipaa-mapping",
-        "ref-hitrust-mapping",
         "ref-nist-mapping"
       ]
     }
@@ -483,7 +482,7 @@
       "type": "administrative",
       "provider": "JupiterOne",
       "summary": "Security and compliance roles and responsibilities are clearly defined to ensure segregation of duties.",
-      "guidance": "Regulatory compliance frameworks, such as HIPAA, require formal assignment of security and privacy responsibilities to someone in your organization. As your organization expands and matures, you may want to form an executive level security committee to meet this requirement. Often, such a committee is a requirement of security certifications such as HITRUST CSF. You can manage this role assignment manually (I.E. in this documented policy/control procedure) or in the JupiterOne's app. Using JupiterOne, you can almost always avoid implementing a complicated enterprise GRC system.",
+      "guidance": "Regulatory compliance frameworks, such as HIPAA, require formal assignment of security and privacy responsibilities to someone in your organization. As your organization expands and matures, you may want to form an executive level security committee to meet this requirement. Often, such a committee is a requirement of security certifications. You can manage this role assignment manually (I.E. in this documented policy/control procedure) or in the JupiterOne's app. Using JupiterOne, you can almost always avoid implementing a complicated enterprise GRC system.",
       "applicable": true,
       "adopted": true
     },
@@ -2023,13 +2022,6 @@
       "id": "ref-nist-mapping",
       "file": "ref/nist-mapping.md",
       "name": "NIST Controls Mapping",
-      "applicable": true,
-      "adopted": true
-    },
-    {
-      "id": "ref-hitrust-mapping",
-      "file": "ref/hitrust-mapping.md",
-      "name": "HITRUST Controls Mapping",
       "applicable": true,
       "adopted": true
     },

@@ -6,12 +6,40 @@ the requirements and controls for most compliance frameworks and best practices,
 in a lightweight approach.
 
 They can be used as stand-alone documents. But the structure is designed to be
-best suited for use with the `jupiter-policy-builder` CLI and the **policies**
-app on the **[JupiterOne][j1]** platform.
+best suited for use with the [`jupiter-policy-builder` CLI][builder] and the
+**policies** app on the **[JupiterOne][j1]** platform.
 
 These are used internally at JupiterOne / LifeOmic Security.
 
 [j1]: https://jupiterone.com/features/policy-builder/
+[builder]: https://github.com/JupiterOne/jupiter-policy-builder
+
+## TL;DR
+
+Run the following command to install the policy builder and build the policies.
+You will be prompted for a few inputs, such as company name, to be included in
+your policy text.
+
+```bash
+npm install -g @jupiterone/jupiter-policy-builder
+
+psp build -t ./templates
+```
+
+You will be prompted to save the config to a file, which you can reference the
+next time you'd like to rebuild the policies and procedures:
+
+```bash
+psp build -t ./templates -c path/to/your/config.json
+```
+
+The result files are put in `./docs` (Markdown) and `./site` (HTML).
+
+**IMPORTANT:** To edit the policies and procedures, use the template files in
+`./templates` and re-run the `psp build` command. Do _not_ edit the `./docs` and
+`./partials` files directly as they will be overwritten on the next build.
+
+For more detailed builder instructions, see the README [here][builder].
 
 ## Format
 
@@ -19,9 +47,9 @@ Similar to the concept of "micro-services", the policies and procedures are
 written in "micro-docs" that are decoupled from the policies. They are mapped
 to each other via a JSON configuration.
 
-- All policies, procedures and reference documents are written in Markdown.
-- All configuration files are in JSON format, including mapping between policies
-  and procedures, and between procedures and compliance standards.
+- All policies, procedures and reference documents are written in **Markdown**.
+- All configuration files are in **JSON** format, including mapping between
+  policies and procedures, and between procedures and compliance standards.
 
 ## Structure
 
@@ -30,22 +58,23 @@ to each other via a JSON configuration.
 - This directory contains the modular templates for policies.
 - Each policy document is written in the following structure:
 
-```markdown
-# Policy Title
+    ```markdown
+    # Policy Title
 
-`revision`
+    `revision`
 
-Overview of the policy. A paragraph or two to describe the intent and principals
-of the policy.
+    Overview of the policy. A paragraph or two to describe the intent and
+    principals of the policy.
 
-## Policy Statements
+    ## Policy Statements
 
-This section contains the high level requirements specific to the policy. Policy
-statements are aligned to the organization's operating model and applicable
-compliance requirements. These statements describe the "what" but not the "how".
-They are meant to be stable over longer periods of time without needing frequent
-updates.
-```
+    This section contains the high level requirements specific to the policy.
+
+    Policy statements are aligned to the organization's operating model and
+    applicable compliance requirements. These statements describe the "what"
+    but not the "how". They are meant to be stable over longer periods of time 
+    without needing frequent updates.
+    ```
 
 `templates/procedures`
 
@@ -55,23 +84,23 @@ updates.
   implements.
 - Each procedure document is written in the following structure:
 
-```markdown
-### Control/Procedure Title
+    ```markdown
+    ### Control/Procedure Title
 
-Overview. A few lines to describe the control and procedure.
+    Overview. A few lines to describe the control and procedure.
 
-Detailed text.
+    Detailed text.
 
-#### Sub-section as needed
+    #### Sub-section as needed
 
-More text.
-```
+    More text.
+    ```
 
-Note that the **Title** is a _level 3 heading_. This is because the
-`policy-builder` tool will automatically combine the procedures and policies
-they each implement to a single document for publishing, and it will insert a
-`## Controls and Procedures` section heading after the **Policy Statements**
-section and before the first control/procedure.
+  > Note that the **Title** is a _level 3 heading_. This is because the
+  `policy-builder` tool will automatically combine the procedures and policies
+  they each implement to a single document for publishing, and it will insert a
+  `## Controls and Procedures` section heading after the **Policy Statements**
+  section and before the first control/procedure.
 
 `templates/ref`
 

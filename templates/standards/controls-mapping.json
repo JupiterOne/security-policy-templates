@@ -8,11 +8,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "AIS-01",
@@ -51,11 +46,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "SEF-05"
@@ -69,11 +59,6 @@
         {
           "standard": "HIPAA",
           "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -106,11 +91,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-04",
@@ -128,11 +108,6 @@
           "requirements": [
             "164.308(a)(8)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -161,11 +136,6 @@
           "requirements": [
             "164.308(a)(2)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -199,11 +169,6 @@
           "requirements": [
             "164.316(b)(1)(ii)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -240,11 +205,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "HRS-09",
@@ -269,11 +229,6 @@
             "164.308(a)(5)(i)",
             "164.308(a)(5)(ii)(A)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -309,11 +264,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "GRM-04",
@@ -338,11 +288,6 @@
             "164.308(a)(1)(ii)(B)",
             "164.308(a)(8)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -374,11 +319,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-09",
@@ -405,11 +345,6 @@
             "164.308(a)(1)(ii)(A)",
             "164.308(a)(8)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -472,11 +407,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "STA-04"
@@ -529,11 +459,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "AAC-01",
@@ -570,11 +495,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "SEF-02"
@@ -597,11 +517,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "AAC-01",
@@ -618,11 +533,6 @@
         {
           "standard": "HIPAA",
           "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -644,11 +554,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "AAC-02"
@@ -666,11 +571,6 @@
             "164.308(a)(5)(ii)(C)",
             "164.312(b)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -703,11 +603,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "AIS-04",
@@ -732,11 +627,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "AIS-02",
@@ -754,11 +644,6 @@
         {
           "standard": "HIPAA",
           "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -783,11 +668,6 @@
         {
           "standard": "HIPAA",
           "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -821,11 +701,6 @@
           "requirements": [
             "164.308(a)(3)(i)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -873,11 +748,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "HRS-02"
@@ -918,11 +788,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-10",
@@ -941,11 +806,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-10",
@@ -961,11 +821,6 @@
         {
           "standard": "HIPAA",
           "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1018,11 +873,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "GRM-07",
@@ -1044,11 +894,6 @@
             "164.312(a)(2)(i)",
             "164.312(a)(2)(iii)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1093,11 +938,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-04",
@@ -1116,11 +956,6 @@
             "164.308(a)(3)(i)",
             "164.312(a)(1)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1154,11 +989,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "GRM-06",
@@ -1180,11 +1010,6 @@
             "164.312(d)",
             "164.312(c)(1)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1216,11 +1041,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-04",
@@ -1248,11 +1068,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "AIS-04",
@@ -1273,11 +1088,6 @@
             "164.312(d)",
             "164.312(c)(1)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1303,11 +1113,6 @@
             "164.308(a)(4)(ii)(C)",
             "164.308(a)(5)(ii)(D)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1362,11 +1167,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "IAM-02",
@@ -1401,11 +1201,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "IAM-02",
@@ -1433,11 +1228,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "HRS-08",
@@ -1459,11 +1249,6 @@
     {
       "id": "cp-access-wifi",
       "implements": [
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
         {
           "standard": "CSA CCM",
           "requirements": [
@@ -1490,11 +1275,6 @@
             "164.308(a)(3)(i)",
             "164.308(a)(5)(ii)(D)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1534,11 +1314,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "IAM-02",
@@ -1576,11 +1351,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-04",
@@ -1604,11 +1374,6 @@
             "164.310(b)",
             "164.310(c)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1653,11 +1418,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-06",
@@ -1693,11 +1453,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-07",
@@ -1724,11 +1479,6 @@
       "id": "cp-asset-digital",
       "implements": [
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "DCS-01",
@@ -1746,11 +1496,6 @@
     {
       "id": "cp-asset-paper",
       "implements": [
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
         {
           "standard": "CSA CCM",
           "requirements": [
@@ -1778,11 +1523,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "AIS-04",
@@ -1802,11 +1542,6 @@
           "requirements": [
             "164.316(b)(1)(i)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1844,11 +1579,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "AIS-04",
@@ -1868,11 +1598,6 @@
             "164.308(a)(7)(ii)(B)",
             "164.310(d)(2)(iv)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1898,11 +1623,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "AIS-04",
@@ -1919,11 +1639,6 @@
           "requirements": [
             "164.312(c)(1)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -1954,11 +1669,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "AIS-04",
@@ -1986,11 +1696,6 @@
             "164.312(e)(2)(i)",
             "164.312(e)(2)(ii)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2025,11 +1730,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "AIS-04",
@@ -2046,11 +1746,6 @@
           "requirements": [
             "164.312(a)(2)(iv)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2077,11 +1772,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "AIS-04"
@@ -2097,11 +1787,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "AIS-04",
@@ -2114,11 +1799,6 @@
     {
       "id": "cp-sdlc-dev",
       "implements": [
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
         {
           "standard": "CSA CCM",
           "requirements": [
@@ -2138,11 +1818,6 @@
       "id": "cp-sdlc-scm",
       "implements": [
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "CCC-01",
@@ -2157,11 +1832,6 @@
         {
           "standard": "HIPAA",
           "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2216,11 +1886,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "IAM-02"
@@ -2248,11 +1913,6 @@
       "id": "cp-sdlc-sast",
       "implements": [
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "PCI DSS",
           "requirements": [
             "6.5"
@@ -2276,11 +1936,6 @@
         {
           "standard": "HIPAA",
           "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2311,11 +1966,6 @@
       "id": "cp-sdlc-outsourcing",
       "implements": [
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "CCC-02",
@@ -2339,11 +1989,6 @@
         {
           "standard": "HIPAA",
           "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2374,11 +2019,6 @@
         {
           "standard": "HIPAA",
           "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2417,11 +2057,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "CCC-01",
@@ -2446,11 +2081,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "CCC-01",
@@ -2470,11 +2100,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "CCC-01",
@@ -2489,11 +2114,6 @@
         {
           "standard": "HIPAA",
           "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2519,11 +2139,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "CCC-01",
@@ -2544,11 +2159,6 @@
         {
           "standard": "HIPAA",
           "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2576,11 +2186,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "CCC-01",
@@ -2602,11 +2207,6 @@
         {
           "standard": "HIPAA",
           "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2652,11 +2252,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-01",
@@ -2674,11 +2269,6 @@
           "requirements": [
             "164.308(a)(5)(ii)(B)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2707,11 +2297,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "IVS-01"
@@ -2722,11 +2307,6 @@
     {
       "id": "cp-threat-nids",
       "implements": [
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
         {
           "standard": "CSA CCM",
           "requirements": [
@@ -2751,11 +2331,6 @@
           "requirements": [
             "164.308(a)(5)(ii)(B)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2807,11 +2382,6 @@
       "id": "cp-threat-siem",
       "implements": [
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "SEF-02"
@@ -2825,11 +2395,6 @@
         {
           "standard": "HIPAA",
           "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2856,11 +2421,6 @@
         {
           "standard": "HIPAA",
           "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2896,11 +2456,6 @@
             "164.310(d)(2)(ii)",
             "164.310(d)(2)(iii)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2944,11 +2499,6 @@
         {
           "standard": "HIPAA",
           "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -2997,11 +2547,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-01",
@@ -3018,11 +2563,6 @@
           "requirements": [
             "164.308(a)(7)(ii)(B)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3044,11 +2584,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-02"
@@ -3064,11 +2599,6 @@
           "requirements": [
             "164.310(a)(2)(i)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3090,11 +2620,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "IVS-04",
@@ -3113,11 +2638,6 @@
             "164.308(a)(7)(ii)(B)",
             "164.308(a)(7)(ii)(E)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3141,11 +2661,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "PCI DSS",
           "requirements": [
             "12.5"
@@ -3161,11 +2676,6 @@
           "requirements": [
             "164.308(a)(6)(i)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3194,11 +2704,6 @@
           "requirements": [
             "164.308(a)(6)(i)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3230,11 +2735,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-01",
@@ -3251,11 +2751,6 @@
           "requirements": [
             "164.308(a)(7)(ii)(D)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3283,11 +2778,6 @@
           "requirements": [
             "164.308(a)(6)(ii)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3334,11 +2824,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "AIS-02",
@@ -3365,11 +2850,6 @@
           ]
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "GRM-06",
@@ -3390,11 +2870,6 @@
             "164.308(b)(3)",
             "164.308(b)(4)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3424,11 +2899,6 @@
             "164.314(a)(1)",
             "164.314(a)(2)(i)"
           ]
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",
@@ -3467,11 +2937,6 @@
           "requirements": []
         },
         {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        },
-        {
           "standard": "CSA CCM",
           "requirements": [
             "GRM-06"
@@ -3492,11 +2957,6 @@
         {
           "standard": "HIPAA",
           "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
         },
         {
           "standard": "CSA CCM",

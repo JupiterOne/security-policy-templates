@@ -546,7 +546,5 @@
 
 - **HIPAA Controls Mapping**
 
-- **HITRUST Controls Mapping**
-
 - **NIST Controls Mapping**
 

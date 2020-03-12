@@ -279,7 +279,7 @@
         {
           "ref": "cp-access-sso",
           "title": "Centralized Access Control and Single Sign On",
-          "summary": "Access to business systems and applications is centrally managed via singles sign on (SSO) when possible."
+          "summary": "Access to business systems and applications is centrally managed via single sign on (SSO) when possible."
         },
         {
           "ref": "cp-access-mfa",
@@ -309,12 +309,12 @@
         {
           "ref": "cp-access-customer",
           "title": "Platform Customer Access to Systems",
-          "summary": "Customers are granted access their accounts and data only after successful authentication and authorization through the appropriate applications, either through the web interface or API."
+          "summary": "Customers are granted access to their accounts and data only after successful authentication and authorization through the appropriate applications, either through the web interface or API."
         },
         {
           "ref": "cp-access-change",
           "title": "Access Establishment, Modification and Termination",
-          "summary": "Changes to pre-established access (configured as part of onboarding) must be requested and approved by the employee's manager or security team prior to grant. Non-standard access is revoked when no longer needed."
+          "summary": "Changes to pre-established access (configured as part of onboarding) must be requested and approved by the employee's manager or security team prior to granting access. Non-standard access is revoked when no longer needed."
         },
         {
           "ref": "cp-access-review",
@@ -589,7 +589,7 @@
         {
           "ref": "cp-ccm-prodcm",
           "title": "Production Deploy / Code Promotion Processes",
-          "summary": "Code deploys to production requires an approved change ticket with sufficent details about the code change."
+          "summary": "Code deploys to production require an approved change ticket with sufficent details about the code change."
         },
         {
           "ref": "cp-ccm-emergency",
@@ -734,12 +734,12 @@
         {
           "ref": "cp-ir-tabletop",
           "title": "Tabletop Exercise",
-          "summary": "Tabletop exercises and/or simulated incident drills are performed at least annual to validate and update the incident response process."
+          "summary": "Tabletop exercises and/or simulated incident drills are performed at least annually to validate and update the incident response process."
         },
         {
           "ref": "cp-ir-records",
           "title": "Incident Tracking and Records",
-          "summary": "Each incident is tracked with applicable attributes and notes, and the incident records are stored in approved ticketing system."
+          "summary": "Each incident is tracked with applicable attributes and notes, and the incident records are stored in an approved ticketing system."
         }
       ]
     },

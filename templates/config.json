@@ -632,7 +632,7 @@
       "type": "administrative",
       "provider": "JupiterOne",
       "summary": "The organization has a program and defined process to manage compliance to applicable regulatory requirements and contractual obligations.",
-      "guidance": "You organization needs to define and document a process to identify and ensure compliance with applicable statutory, regulatory, and contractual requirements.",
+      "guidance": "Your organization needs to define and document a process to identify and ensure compliance with applicable statutory, regulatory, and contractual requirements.",
       "applicable": true,
       "adopted": true
     },
@@ -885,7 +885,7 @@
       "type": "administrative",
       "provider": "",
       "summary": "The organization provides employees the opportunity to attend conferences, trade shows, and access to training courses and studies to maintain and further advance their skills relevant to their job functions and business objectives.",
-      "guidance": "Organizations to continue to invest in the education and skills development of their workforce. This can be done by sending employees to conferences and trade shows, and/or providing employees access to online training courses and studies. It demonstrates a commitment to attract, develop, and retain competent individuals in alignment with objectives.",
+      "guidance": "Organizations should continue to invest in the education and skills development of their workforce. This can be done by sending employees to conferences and trade shows, and/or providing employees access to online training courses and studies. It demonstrates a commitment to attract, develop, and retain competent individuals in alignment with objectives.",
       "applicable": true,
       "adopted": true
     },
@@ -906,7 +906,7 @@
       "name": "Centralized Access Control and Single Sign On",
       "type": "technical",
       "provider": "Okta",
-      "summary": "Access to business systems and applications is centrally managed via singles sign on (SSO) when possible.",
+      "summary": "Access to business systems and applications is centrally managed via single sign on (SSO) when possible.",
       "guidance": "Your organization most likely relies on multiple business applications to support its operations. This may include end-user systems, collaboration tools, development and production environments, etc. Managing access to all of your business applications and systems centrally ensures consistent access policy and auditing. Being a cloud-native organization, we highly recommend using a cloud-based identity provider, such as Okta, OneLogin, Google and others for centralized access control and single sign on.",
       "applicable": true,
       "adopted": true
@@ -972,8 +972,8 @@
       "name": "Platform Customer Access to Systems",
       "type": "technical",
       "provider": "AWS IAM",
-      "summary": "Customers are granted access their accounts and data only after successful authentication and authorization through the appropriate applications, either through the web interface or API.",
-      "guidance": "We strongly recommend against any direct customer access to systems, other than through the application interface, such as an authenticated Web UI or API interface. Depending on the nature of your solution, you will need to document how customer access their data and if they have direct access to the systems that host/process their data.",
+      "summary": "Customers are granted access to their accounts and data only after successful authentication and authorization through the appropriate applications, either through the web interface or API.",
+      "guidance": "We strongly recommend against any direct customer access to systems, other than through the application interface, such as an authenticated Web UI or API interface. Depending on the nature of your solution, you will need to document how customers access their data and if they have direct access to the systems that host/process their data.",
       "applicable": true,
       "adopted": true
     },
@@ -983,7 +983,7 @@
       "name": "Access Establishment, Modification and Termination",
       "type": "operational",
       "provider": "Okta",
-      "summary": "Changes to pre-established access (configured as part of onboarding) must be requested and approved by the employee's manager or security team prior to grant. Non-standard access is revoked when no longer needed.",
+      "summary": "Changes to pre-established access (configured as part of onboarding) must be requested and approved by the employee's manager or security team prior to granting access. Non-standard access is revoked when no longer needed.",
       "guidance": "From time to time, you may need to add, change, or remove access to certain resources for an employee/contractor. It is required you have a process to capture the request, approval, and provisioning of such actions. If you already use an issue management tool like Jira, it is pretty straightforward to create a Service Desk project and manage it there.",
       "applicable": true,
       "adopted": true
@@ -1116,7 +1116,7 @@
       "type": "physical",
       "provider": "Cisco Meraki",
       "summary": "",
-      "guidance": "Don't forget physical security. Even though your office environment may not have critical/production systems or data, you probably don't want strangers wondering around unescorted.  You probably need some kind of badge access, which may already be provided to you as part of your lease. You'll most likely need to edit this documentation with your facilities details. If you choose to implement video surveillance, Cisco Meraki is a pretty good choice.",
+      "guidance": "Don't forget physical security. Even though your office environment may not have critical/production systems or data, you probably don't want strangers wandering around unescorted.  You probably need some kind of badge access, which may already be provided to you as part of your lease. You'll most likely need to edit this documentation with your facilities details. If you choose to implement video surveillance, Cisco Meraki is a pretty good choice.",
       "applicable": true,
       "adopted": true
     },
@@ -1127,7 +1127,7 @@
       "type": "physical",
       "provider": "AWS",
       "summary": "Data center security is ensured by the cloud service provider.",
-      "guidance": "If you host your own data center, you will need to document in details the physical and environmental security of the data centers. Otherwise, this is most likely taken care of by your cloud security provider (e.g. AWS, Azure, GCP).",
+      "guidance": "If you host your own data center, you will need to document in detail the physical and environmental security of the data centers. Otherwise, this is most likely taken care of by your cloud security provider (e.g. AWS, Azure, GCP).",
       "applicable": true,
       "adopted": true
     },
@@ -1358,7 +1358,7 @@
       "name": "Secure Design and Application Threat Modeling",
       "type": "technical",
       "provider": "code",
-      "summary": "Security considerations are mandatory as part of new system design and feature development. Threat modeling is jointly performed by security and development teams as needed.",
+      "summary": "Security considerations are mandatory as part of new system design and feature development. Threat modeling, including data flow mapping and risk analysis for new systems/products/features, is jointly performed by security and development teams as needed.",
       "guidance": "Security should be built in to your application / product as early as possible, starting from the design phase. Proper security consideration and even formal threat modeling can help dramatically reduce risk around application logic flaws, that are difficult to uncover with any scanning software, often lead to significant adverse impact, and are the most costly to fix down the road.",
       "applicable": true,
       "adopted": true
@@ -1392,7 +1392,7 @@
       "type": "technical",
       "provider": "Lint and GitLeaks",
       "summary": "Static code scanning is performed automatically either as part of the DevOps pipeline or on a regular schedule to detect common flaws in code patterns, such as injection flaws, buffer overflows, and leaked secrets/credentials in code.",
-      "guidance": "The software code wrote by your developers should be scanned for vulnerability before putting into production. Veracode, WhiteHat, Checkmarx, etc. are example solutions that support most modern programming languages such as Java, Javascript, Python, etc.",
+      "guidance": "The software code written by your developers should be scanned for vulnerability before putting into production. Veracode, WhiteHat, Checkmarx, etc. are example solutions that support most modern programming languages such as Java, Javascript, Python, etc.",
       "applicable": true,
       "adopted": true
     },
@@ -1469,7 +1469,7 @@
       "type": "technical",
       "provider": "JupiterOne",
       "summary": "Monitoring software is used to monitor infrastructure and software for noncompliance with established configuration standards and security best practices.",
-      "guidance": "Leverage a centralized CMDB to continously monitor and audit against miscoonfigurations and configuration drifts to ensure security posture of your infrastructure and systems.",
+      "guidance": "Leverage a centralized CMDB to continously monitor and audit against misconfigurations and configuration drifts to ensure security posture of your infrastructure and systems.",
       "applicable": true,
       "adopted": true
     },
@@ -1513,7 +1513,7 @@
       "type": "technical",
       "provider": "OS auto-update",
       "summary": "Operating systems on both end-user computing devices and server systems are required to maintain up-to-date security patches in an automated process.",
-      "guidance": "The simplest way to ensure your end-user systems are patched is to enable auto-update.  You can use the same configuration compliance audit agent to ensure auto-update is turned on for all systems (Windows, macOS, Linux) in your environment. Additionally, for systems in AWS, the recommended solution is - don't patch, replace. Have a process to update your AMIs to the latest version when it's made available and/or regular update the AMIs approved to use in your production environment and ensure the new EC2 instances always use the latest approved AMIs.",
+      "guidance": "The simplest way to ensure your end-user systems are patched is to enable auto-update.  You can use the same configuration compliance audit agent to ensure auto-update is turned on for all systems (Windows, macOS, Linux) in your environment. Additionally, for systems in AWS, the recommended solution is - don't patch, replace. Have a process to update your AMIs to the latest version when it's made available, and/or regularly update the AMIs approved to use in your production environment and ensure the new EC2 instances always use the latest approved AMIs.",
       "applicable": true,
       "adopted": true
     },
@@ -1523,7 +1523,7 @@
       "name": "Production Deploy / Code Promotion Processes",
       "type": "technical",
       "provider": "code",
-      "summary": "Code deploys to production requires an approved change ticket with sufficent details about the code change.",
+      "summary": "Code deploys to production require an approved change ticket with sufficent details about the code change.",
       "guidance": "Each production deploy should follow a defined process to ensure proper review, approval and traceability. This can be fully automated using the appropriate code integrated with your continuous integration / continuous deploy orchestration such as Jenkins or Travis CI.",
       "applicable": true,
       "adopted": true
@@ -1634,7 +1634,7 @@
       "type": "technical",
       "provider": "AWS (WAF, CloudFront and/or Shield)",
       "summary": "Web application firewall and denial-of-service protection is enabled for external facing applications.",
-      "guidance": "If you have an external web application in your product portfolio, you should definitely consider deploying a web application firewall and protection against DDoS attacks.  Luckily, AWS got you covered with some native service offerings, including AWS WAF, CloudFront rate limiting, and AWS Shield.",
+      "guidance": "If you have an external web application in your product portfolio, you should definitely consider deploying a web application firewall and protection against DDoS attacks.  Luckily, AWS has you covered with some native service offerings, including AWS WAF, CloudFront rate limiting, and AWS Shield.",
       "applicable": true,
       "adopted": true
     },
@@ -1696,7 +1696,7 @@
       "type": "technical",
       "provider": "JupiterOne",
       "summary": "All security vulnerability and findings (for both infrastructure and software) are prioritized and remediated based on its severity and impact, with a defined SLA.",
-      "guidance": "Vulnerability findings can come from a variety of sources, such as open source dependency scanning, static application code analysis, dynamic application security testing, penetration testing, infrastructure vulnerability scanning, etc. Tracking the vulnerabilities and ensure they are remediated in a timely manner can be an exhausting task if handled manually. JupiterOne can connect to the various vulnerability sources and help manage them in a consistent and automated manner. The vulnerability management program including the detailed process and SLA levels, should be well defined.",
+      "guidance": "Vulnerability findings can come from a variety of sources, such as open source dependency scanning, static application code analysis, dynamic application security testing, penetration testing, infrastructure vulnerability scanning, etc. Tracking the vulnerabilities and ensuring they are remediated in a timely manner can be an exhausting task if handled manually. JupiterOne can connect to the various vulnerability sources and help manage them in a consistent and automated manner. The vulnerability management program, including the detailed process and SLA levels, should be well defined.",
       "applicable": true,
       "adopted": true
     },
@@ -1773,7 +1773,7 @@
       "type": "operational",
       "provider": "manual process",
       "summary": "Remote working arrangements are in place.",
-      "guidance": "You should include a process that describe how you recover from a physical disaster at a work site, or your own physical data center, if applicable.",
+      "guidance": "You should include a process that describes how you recover from a physical disaster at a work site, or your own physical data center, if applicable.",
       "applicable": true,
       "adopted": true
     },
@@ -1784,7 +1784,7 @@
       "type": "operational",
       "provider": "manual process",
       "summary": "External applications are monitored for service interruptions or outages, and handled according to the impact and downtime of such events. Status page is set up for communicating any outage to customers.",
-      "guidance": "You should include a process that describe how you recover from a service outage that impacts your application, including notification to users/customers.",
+      "guidance": "You should include a process that describes how you recover from a service outage that impacts your application, including notification to users/customers.",
       "applicable": true,
       "adopted": true
     },
@@ -1795,7 +1795,7 @@
       "type": "operational",
       "provider": "manual process",
       "summary": "All resources and data from production environments are able to be reconstructed from code and recovered from backup.",
-      "guidance": "You should include a process that describe how you recover your production environments and data.",
+      "guidance": "You should include a process that describes how you recover your production environments and data.",
       "applicable": true,
       "adopted": true
     },
@@ -1806,7 +1806,7 @@
       "type": "administrative",
       "provider": "manual process",
       "summary": "Incident response team is established and assigned corresponding responsibilities.",
-      "guidance": "To support incident response efforts, you should form a security incident response team. If you do not have dedicated security operations resources, this team can be made up with your engineering and DevOps resources. They are the go-to person when an inevitable incident occurs.",
+      "guidance": "To support incident response efforts, you should form a security incident response team. If you do not have dedicated security operations resources, this team can be made up with your engineering and DevOps resources. They are the go-to people when an inevitable incident occurs.",
       "applicable": true,
       "adopted": true
     },
@@ -1849,7 +1849,7 @@
       "name": "Tabletop Exercise",
       "type": "operational",
       "provider": "manual process",
-      "summary": "Tabletop exercises and/or simulated incident drills are performed at least annual to validate and update the incident response process.",
+      "summary": "Tabletop exercises and/or simulated incident drills are performed at least annually to validate and update the incident response process.",
       "guidance": "Practice makes perfect. Perform drills according to incident response procedures, playbooks, and emergency procedures so that you know what to expect in an real event.",
       "applicable": true,
       "adopted": true
@@ -1860,7 +1860,7 @@
       "name": "Incident Tracking and Records",
       "type": "operational",
       "provider": "Jira",
-      "summary": "Each incident is tracked with applicable attributes and notes, and the incident records are stored in approved ticketing system.",
+      "summary": "Each incident is tracked with applicable attributes and notes, and the incident records are stored in an approved ticketing system.",
       "guidance": "Incidents should be tracked in a ticketing / record keeping system. This can be a dedicated incident management tool or just Jira. If Jira or similar ticket system is used, it's recommended to create a dedicated project and issue type (e.g. 'Incident') for this. The incident records can be consolidated into JupiterOne for reporting.",
       "applicable": true,
       "adopted": true

@@ -76,7 +76,7 @@
 
 - **Compliance Program Management**
 
-  _You organization needs to define and document a process to identify and ensure compliance with applicable statutory, regulatory, and contractual requirements._
+  _Your organization needs to define and document a process to identify and ensure compliance with applicable statutory, regulatory, and contractual requirements._
 
 - **Requesting Audit and Compliance Reports**
 
@@ -190,7 +190,7 @@
 
 - **Platform Customer Access to Systems**
 
-  _We strongly recommend against any direct customer access to systems, other than through the application interface, such as an authenticated Web UI or API interface. Depending on the nature of your solution, you will need to document how customer access their data and if they have direct access to the systems that host/process their data._
+  _We strongly recommend against any direct customer access to systems, other than through the application interface, such as an authenticated Web UI or API interface. Depending on the nature of your solution, you will need to document how customers access their data and if they have direct access to the systems that host/process their data._
 
 - **Access Establishment, Modification and Termination**
 
@@ -228,7 +228,7 @@
 
 - **Physical Security**
 
-  _Don't forget physical security. Even though your office environment may not have critical/production systems or data, you probably don't want strangers wondering around unescorted.  You probably need some kind of badge access, which may already be provided to you as part of your lease. You'll most likely need to edit this documentation with your facilities details. If you choose to implement video surveillance, Cisco Meraki is a pretty good choice._
+  _Don't forget physical security. Even though your office environment may not have critical/production systems or data, you probably don't want strangers wandering around unescorted.  You probably need some kind of badge access, which may already be provided to you as part of your lease. You'll most likely need to edit this documentation with your facilities details. If you choose to implement video surveillance, Cisco Meraki is a pretty good choice._
 
 ## Asset Inventory Management
 
@@ -324,7 +324,7 @@
 
 - **Static Application Security Testing (SAST)**
 
-  _The software code wrote by your developers should be scanned for vulnerability before putting into production. Veracode, WhiteHat, etc. are example solutions that support most modern programming languages such as Java, Javascript, Python, etc._
+  _The software code written by your developers should be scanned for vulnerability before putting into production. Veracode, WhiteHat, etc. are example solutions that support most modern programming languages such as Java, Javascript, Python, etc._
 
 - **Dynamic Application Security Testing (DAST)**
 
@@ -380,7 +380,7 @@
 
 - **Patch Management Procedures**
 
-  _The simplest way to ensure your end-user systems are patched is to enable auto-update.  You can use the same configuration compliance audit agent to ensure auto-update is turned on for all systems (Windows, macOS, Linux) in your environment. Additionally, for systems in AWS, the recommended solution is - don't patch, replace. Have a process to update your AMIs to the latest version when it's made available and/or regular update the AMIs approved to use in your production environment and ensure the new EC2 instances always use the latest approved AMIs._
+  _The simplest way to ensure your end-user systems are patched is to enable auto-update.  You can use the same configuration compliance audit agent to ensure auto-update is turned on for all systems (Windows, macOS, Linux) in your environment. Additionally, for systems in AWS, the recommended solution is - don't patch, replace. Have a process to update your AMIs to the latest version when it's made available, and/or regularly update the AMIs approved to use in your production environment and ensure the new EC2 instances always use the latest approved AMIs._
 
 - **Production Deploy / Code Promotion Processes**
 
@@ -410,7 +410,7 @@
 
 - **Web Application Protection**
 
-  _If you have an external web application in your product portfolio, you should definitely consider deploying a web application firewall and protection against DDoS attacks.  Luckily, AWS got you covered with some native service offerings, including AWS WAF, CloudFront rate limiting, and AWS Shield._
+  _If you have an external web application in your product portfolio, you should definitely consider deploying a web application firewall and protection against DDoS attacks.  Luckily, AWS has you covered with some native service offerings, including AWS WAF, CloudFront rate limiting, and AWS Shield._
 
 - **Centralized Security Information and Event Management**
 
@@ -428,7 +428,7 @@
 
 - **Security Findings Reporting, Tracking and Remediation**
 
-  _Vulnerability findings can come from a variety of sources, such as open source dependency scanning, static application code analysis, dynamic application security testing, penetration testing, infrastructure vulnerability scanning, etc. Tracking the vulnerabilities and ensure they are remediated in a timely manner can be an exhausting task if handled manually. JupiterOne can connect to the various vulnerability sources and help manage them in a consistent and automated manner. The vulnerability management program including the detailed process and SLA levels, should be well defined._
+  _Vulnerability findings can come from a variety of sources, such as open source dependency scanning, static application code analysis, dynamic application security testing, penetration testing, infrastructure vulnerability scanning, etc. Tracking the vulnerabilities and ensuring they are remediated in a timely manner can be an exhausting task if handled manually. JupiterOne can connect to the various vulnerability sources and help manage them in a consistent and automated manner. The vulnerability management program, including the detailed process and SLA levels, should be well defined._
 
 ## Mobile Device Security and Media Management
 
@@ -460,21 +460,21 @@
 
 - **Work Site Recovery**
 
-  _You should include a process that describe how you recover from a physical disaster at a work site, or your own physical data center, if applicable._
+  _You should include a process that describes how you recover from a physical disaster at a work site, or your own physical data center, if applicable._
 
 - **Application Service Event Recovery**
 
-  _You should include a process that describe how you recover from a service outage that impacts your application, including notification to users/customers._
+  _You should include a process that describes how you recover from a service outage that impacts your application, including notification to users/customers._
 
 - **Production Environments and Data Recovery**
 
-  _You should include a process that describe how you recover your production environments and data._
+  _You should include a process that describes how you recover your production environments and data._
 
 ## Incident Response
 
 - **Security Incident Response Team (SIRT)**
 
-  _To support incident response efforts, you should form a security incident response team. If you do not have dedicated security operations resources, this team can be made up with your engineering and DevOps resources. They are the go-to person when an inevitable incident occurs._
+  _To support incident response efforts, you should form a security incident response team. If you do not have dedicated security operations resources, this team can be made up with your engineering and DevOps resources. They are the go-to people when an inevitable incident occurs._
 
 - **Incident Management Process**
 

@@ -1,0 +1,32 @@
+{
+  "standard": "<placeholder>",
+  "version": "<placeholder>",
+  "webLink": "<placeholder>",
+  "domains": [
+    {
+      "title": "§ <placeholder>",
+      "controls": [
+        {
+          "ref": "<placeholder>",
+          "title": "<placeholder>",
+          "summary": "<placeholder>"
+        }
+      ]
+    },
+    {
+      "title": "§ <placeholder>",
+      "controls": [
+        {
+          "ref": "<placeholder>",
+          "title": "<placeholder>",
+          "summary": "<placeholder>"
+        },
+        {
+          "ref": "<placeholder>",
+          "title": "<placeholder>",
+          "summary": "<placeholder>"
+        }
+      ]
+    }
+  ]
+}

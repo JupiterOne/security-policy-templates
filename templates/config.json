@@ -193,7 +193,8 @@
       "adopted": true,
       "procedures": [
         "cp-physical",
-        "cp-physical-datacenter"
+        "cp-physical-datacenter",
+        "cp-physical-cleandesk"
       ]
     },
     {
@@ -1129,6 +1130,17 @@
       "provider": "AWS",
       "summary": "Data center security is ensured by the cloud service provider.",
       "guidance": "If you host your own data center, you will need to document in detail the physical and environmental security of the data centers. Otherwise, this is most likely taken care of by your cloud security provider (e.g. AWS, Azure, GCP).",
+      "applicable": true,
+      "adopted": true
+    },
+    {
+      "id": "cp-physical-cleandesk",
+      "file": "procedures/cp-physical-cleandesk.md",
+      "name": "Clean Desk Policy and Procedures",
+      "type": "physical",
+      "provider": "",
+      "summary": "Employees must secure all sensitive/confidential information in their workspace at the end of the work day and when away, including both electronic and physical media.",
+      "guidance": "Securing information at the workspace (office or remote) helps reduce the risk of information theft, fraud, or a security breach caused by sensitive information being left unattended and visible in plain view.",
       "applicable": true,
       "adopted": true
     },

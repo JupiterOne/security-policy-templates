@@ -1,0 +1,5 @@
+Section,ID,Title,Requirement
+Name of first section,1.1,Optional Title,Summary text of my first security requirment
+Name of first section,1.2,,A second requirement that has no title
+Section 2,2.1,<placeholder title>,My awesome new requirement
+Section 2,2.2,<placeholder title>,Everyone will love this

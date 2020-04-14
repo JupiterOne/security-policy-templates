@@ -63,3 +63,5 @@ typings/
 # other
 .work
 .DS_Store
+partials/
+docs/

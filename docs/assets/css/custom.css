@@ -1,0 +1,27 @@
+.md-sidebar--primary {
+  background-color: #EFEFEF;
+}
+
+.md-sidebar--secondary {
+  /*Hide the TOC sidebar*/
+  /*display: none;*/
+}
+
+.md-content {
+  background-color: white;
+}
+
+.md-nav--secondary * {
+  font-size: 14px;
+}
+
+a.md-icon {
+  /* Hide the repo edit icon/link on each page */
+  /*display: none;*/
+}
+
+.md-logo img {
+  /* width: 100px; */
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}

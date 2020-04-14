@@ -1,0 +1,22 @@
+### Vendor Contractual Agreements
+
+**HIPAA.** If the vendor needs access to PHI/ePHI, the vendor must be HIPAA
+compliant and a [Business Associate Agreement (BAA)][1] is required.
+
+[1]: hipaa-baa.md
+
+**GDPR.** If the vendor processes data for customers from in the European
+Economic Area, United Kingdom or Switzerland (the “Designated Countries”), the
+vendor must be GDPR compliance and a [Data Processing Agreement (DPA)][2] is
+required.
+
+[2]: gdpr-dpa.md
+
+**SLA for Service Providers.** For network and infrastructure service providers
+that support production and/or critical operations at , a
+Service Level Agreement (SLA) is defined and included in the service contract.
+
+As appropriate, the executed agreement(s) are linked or attached to the vendor
+on the [approved vendors list][3].
+
+[3]: approved-vendors.md

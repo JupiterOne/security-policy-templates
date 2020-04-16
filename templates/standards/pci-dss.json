@@ -264,7 +264,8 @@
         },
         {
           "ref": "10.8",
-          "summary": "(Service Providers ONLY) Implement a process for the timely detection and reporting of failures of critical security control systems."
+          "summary": "(Service Providers ONLY) Implement a process for the timely detection and reporting of failures of critical security control systems.",
+          "applicable": false
         },
         {
           "ref": "10.9",
@@ -333,7 +334,8 @@
         },
         {
           "ref": "12.9",
-          "summary": "(Service Providers ONLY) Acknowledge in writing to customers that they are responsible for the security of cardholder data the service provider possesses or otherwise stores, processes, or transmits on behalf of the customer, or to the extent that they could impact the security of the customer’s cardholder data environment."
+          "summary": "(Service Providers ONLY) Acknowledge in writing to customers that they are responsible for the security of cardholder data the service provider possesses or otherwise stores, processes, or transmits on behalf of the customer, or to the extent that they could impact the security of the customer’s cardholder data environment.",
+          "applicable": false
         },
         {
           "ref": "12.10",
@@ -341,7 +343,8 @@
         },
         {
           "ref": "12.11",
-          "summary": "(Service Providers ONLY) Perform reviews at least quarterly to confirm personnel are following security policies and operational procedures."
+          "summary": "(Service Providers ONLY) Perform reviews at least quarterly to confirm personnel are following security policies and operational procedures.",
+          "applicable": false
         }
       ]
     }

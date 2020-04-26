@@ -26,29 +26,46 @@ and Privacy Officer is appointed by and reports to the Board of Directors and/or
 the CEO.
 
 {{companyShortName}} has appointed {{securityOfficerName}} as the Security
-Officer and {{privacyOfficerName}} as the Privacy Officer.  The security
-committee is chaired by the Security Officer, and represented by the select
-members of the senior leadership team ({{securityCommitteeMembers}}).
+Officer and {{privacyOfficerName}} as the Privacy Officer.
+
+{{#needStandardGDPR}}
+{{companyShortName}} has appointed {{dataProtectionOfficerName}} as the Data
+Protection Officer responsible for all GDPR-related affairs.
+{{/needStandardGDPR}}
+
+An official **Security Committee** has been formed, chaired by the Security
+Officer, and represented by the select members of the senior leadership team
+({{securityCommitteeMembers}}).
 
 ## Policy Statements
 
 {{companyShortName}} policy requires that:
 
-(a) A Security and Privacy Officer [164.308(a)(2)] must be appointed to assist
-in maintaining and enforcing safeguards towards security and compliance.
+(a) A Security and Privacy Officer {{#needStandardHIPAA}}[164.308(a)(2)]{{/needStandardHIPAA}}
+must be appointed to assist in maintaining and enforcing safeguards towards
+security, compliance, and privacy.
+
+{{#needStandardGDPR}}
+Additionally, a Data Protection Officer must be appointed to fulfill the tasks
+and responsibilities specified in GDPR.
+{{/needStandardGDPR}}
 
 (b) Security and compliance is the responsibility of all workforce members
 (including employees, contractors, interns, and managers/executives). All
 workforce members are required to:
 
   * Complete all required security trainings, including annual regulatory
-    compliance training such as HIPAA awareness and additional training as part
-    of the ongoing security awareness program and as required by job role.
+    compliance training, security awareness, and any additional role-based
+    security training as part of the ongoing security awareness program and as
+    required by job role.
 
-  * Follow all security requirements set forth in {{companyShortName}} security policy and
-    procedures, including but is not limited to access control policies and
-    procedures and acceptable use policy for end-user
-    computing.
+  {{#needStandardHIPAA}}
+  * Complete annual HIPAA awareness training
+  {{/needStandardHIPAA}}
+
+  * Follow all security requirements set forth in {{companyShortName}} security
+    policy and procedures, including but is not limited to access control
+    policies and procedures and acceptable use policy for end-user computing.
 
   * See something, say something: follow the incident reporting procedure to
     report all suspicious activities to the security team.

@@ -85,9 +85,11 @@
 
 * *Customers*: Contractually bound users of {{ companyShortName }} Platform and/or services.
 
+{{#needStandardHIPAA}}
 * *Electronic Protected Health Information (ePHI)*: Any individually
   identifiable health information protected by HIPAA that is transmitted by,
   processed in some way, or stored in electronic media.
+{{/needStandardHIPAA}}
 
 * *Environment*: The overall technical environment, including all servers,
   network devices, and applications.
@@ -105,7 +107,9 @@
 * *Hardware (or hard drive)*: Any computing device able to create and store
   ePHI.
 
+{{#needStandardHIPAA}}
 * *Health and Human Services (HHS)*: The government body that maintains HIPAA.
+{{/needStandardHIPAA}}
 
 * *IaaS*: Infrastructure-as-a-Service.
 
@@ -217,13 +221,20 @@
   system assets.
 
 * *Risk Management Team*: Individuals who are knowledgeable about the
-  Organization's HIPAA Privacy, Security and HITECH policies, procedures,
+  Organization's Privacy, Security and Compliance policies, procedures,
   training program, computer system set up, and technical security controls, and
   who are responsible for the risk management process and procedures outlined
   below.
 
-* *Risk Assessment*: (Referred to as Risk Analysis in the HIPAA Security Rule);
-  the process:
+* *Risk Assessment*:
+
+  {{#needStandardHIPAA}}
+  > Referred to as Risk Analysis in the HIPAA Security Rule
+  {{/needStandardHIPAA}}
+  {{#needStandardGDPR}}
+  > Referred to as Data Protection Imapct Analysis (DPIA) in GDPR
+  {{/needStandardGDPR}}
+
   * Identifies the risks to information system security and determines the
     probability of occurrence and the resulting impact for each
     threat/vulnerability pair identified given the security controls in place;
@@ -232,13 +243,22 @@
     the determined risk.
 
 * *Risk Management*: Within this policy, it refers to two major process
-  components: risk assessment and risk mitigation. This differs from the HIPAA
-  Security Rule, which defines it as a risk mitigation process only. The
-  definition used in this policy is consistent with the one used in documents
-  published by the National Institute of Standards and Technology (NIST).
+  components: risk assessment and risk mitigation.
+  
+  {{#needStandardHIPAA}}
+  This differs from the HIPAA Security Rule, which defines it as a risk
+  mitigation process only. The definition used in this policy is consistent with
+  the one used in documents published by the National Institute of Standards and
+  Technology (NIST).
+  {{/needStandardHIPAA}}
 
-* *Risk Mitigation*: Referred to as Risk Management in the HIPAA Security Rule,
-  and is a process that prioritizes, evaluates, and implements security controls
+* *Risk Mitigation*:
+
+  {{#needStandardHIPAA}}
+  > Referred to as Risk Management in the HIPAA Security Rule
+  {{/needStandardHIPAA}}
+  
+  A process that prioritizes, evaluates, and implements security controls
   that will reduce or offset the risks determined in the risk assessment process
   to satisfactory levels within an organization given its mission and available
   resources.
@@ -302,6 +322,7 @@
   information and/or sensitive organizational information is not stored or is
   not utilized or is not accessible there on a regular basis.
 
+{{#needStandardHIPAA}}  
 * *Unsecured Protected Health Information*: Protected health information (PHI)
   that is not rendered unusable, unreadable, or indecipherable to unauthorized
   individuals through the use of technology or methodology specified by the
@@ -335,9 +356,10 @@
   6. Electronic media have been cleared, purged, or destroyed consistent with
      NIST Special Publications 800-88, Guidelines for Media Sanitization, such
      that the PHI cannot be retrieved.
+{{/needStandardHIPAA}}
 
-* *Vendors*: Persons from other organizations marketing or selling products or
-  services, or providing services to {{ companyShortName }}.
+* *Vendor*: External individuals or organizations marketing or selling products
+  or services, or providing services to {{ companyShortName }}.
 
 * *Vulnerability*: A weakness or flaw in an information system that can be
   accidentally triggered or intentionally exploited by a threat and lead to a

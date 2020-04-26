@@ -1,7 +1,7 @@
 ### Requesting Audit and Compliance Reports
 
 {{companyShortName}}, at its sole discretion, shares audit reports, including
-any Corrective Action Plans (CAPs), with customers on a case by case
+any Corrective Action Plans (CAPs) and exceptions, with customers on a case by case
 basis. All audit reports are shared under explicit NDA in {{companyShortName}} format
 between {{companyShortName}} and party to receive materials. Audit reports can be requested
 by {{companyShortName}} workforce members for Customers or directly by {{companyShortName}} Customers.
@@ -32,13 +32,18 @@ See detailed policy and procedures in [Breach Notification](breach.md)
 
 Prior to contracting with an external audit firm, {{companyShortName}} shall:
 
-* Outline the audit responsibility, authority, and accountability;
-* Choose an audit firm that is independent of other organizational operations;
-* Ensure technical competence of the audit firm staff;
-* Require the audit firm's adherence to applicable codes of professional ethics;
-* Obtain a signed HIPAA business associate agreement;
+* Outline the audit responsibility, authority, and accountability
+* Choose an audit firm that is independent of other organizational operations
+* Ensure technical competence of the audit firm staff
+* Require the audit firm's adherence to applicable codes of professional ethics
 * Assign organizational responsibility for supervision of the external audit
-  firm.
+  firm
+{{#needStandardHIPAA}}
+* Obtain a signed HIPAA business associate agreement, if any ePHI will be shared/accessed during the audit
+{{/needStandardHIPAA}}
+{{#needStandardGDPR}}
+* Obtain a signed GDPR data processing agreement, if any personal data will be shared/accessed during the audit
+{{/needStandardGDPR}}
 
 Whenever possible, a third party auditing vendor should not be providing the
 organization IT oversight services (e.g., vendors providing IT services should

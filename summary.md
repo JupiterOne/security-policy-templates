@@ -184,9 +184,11 @@
 
   _Remote access is typically secured via VPN. This could be implemented as a EC2 instance running in your private subnet/VPC instead AWS, or a server on whatever private network in your hosted or internal environment. Pritunl is a lightweight, OpenVPN based solution that is free to start, and can scale as you grow. WireGuard is a good open-source option as well._
 
+{{#needStandardHIPAA}}
 - **Access to PHI/ePHI**
 
   _Access to PHI/ePHI should be limited to those with a business need only, and protected by strong access control and auditing. We recommend using a combination of the native AWS IAM policies and single sign on (e.g. Okta) for access enforcement. Additionally, an extra layer of protection may be added to restrict risky or privileged actions.  This can be implemented using Explicit Deny actions in the AWS IAM policies.  A tool like Dome9 can help automate that process._
+{{/needStandardHIPAA}}
 
 - **Platform Customer Access to Systems**
 
@@ -434,7 +436,7 @@
 
 - **Media Disposal Process**
 
-  _You must ensure media containing critical / sensitive data (such as ePHI) is disposed of securely._
+  _You must ensure media containing critical / sensitive data (such as PII and ePHI) is disposed of securely._
 
 - **Use of USB Flash Drive and External Storage Device**
 

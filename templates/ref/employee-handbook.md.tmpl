@@ -36,15 +36,15 @@ doubt, stop and ask.
     {{#needStandardHIPAA}}
     * I have completed the required [HIPAA awareness training][4].
     {{/needStandardHIPAA}}
-    * I understand that PHI data may only be stored in approved production environments.
+    * I understand that customer data and sensitive data may only be stored in approved production environments.
     * I understand company and regulatory requirements to protect critical data and will NOT
 
-        * store critical data such as PHI and passwords on online file shares (such as Google Drive, SharePoint, Dropbox), in logs and source codes;
-        * send critical data such as PHI and passwords by email, chat, or similar public communication channels;
-        * post critical data such as PHI and passwords in blogs, support tickets or other public forums; and
+        * store critical data such as customer data and passwords on online file shares (such as Google Drive, SharePoint, Dropbox), in logs and source codes;
+        * send critical data such as customer data and passwords by email, chat, or similar public communication channels;
+        * post critical data such as customer data and passwords in blogs, support tickets or other public forums; and
         * discuss patient information in public.
 
-    * I understand that use of paper records and fax transmission for PHI is not allowed.
+    * I understand that use of paper records and fax transmission for sensitive customer data is not allowed.
     * I will keep my passwords confidential and will NOT share my individual user passwords with other users.
     * I will NOT use shared/generic, guest/anonymous, emergency or temporary accounts without explicit approval.
     * I will regularly back up business data on my user devices to approved data storage media/repositories such as the company SharePoint site.
@@ -146,11 +146,13 @@ workstations, laptops and servers.
 (i) All data storage devices and media must be managed according to the {{companyShortName}}
 Data Classification specifications and Data Handling procedures.
 
-(j) It is strictly forbidden to download or store any ePHI on end-user computing
-devices, including laptops, workstations and mobile devices.
-
-(k) Mobile devices are not allowed to connect directly to {{companyShortName}} production
+(j) Mobile devices are not allowed to connect directly to {{companyShortName}} production
 environments.
+
+{{#needStandardHIPAA}}
+(k) It is strictly forbidden to download or store any ePHI on end-user computing
+devices, including laptops, workstations and mobile devices.
+{{/needStandardHIPAA}}
 
 ### Your responsibilities for computing devices
 
@@ -188,7 +190,7 @@ business files include, but are not limited to:
 
 !!! important
 
-    DO NOT backup critical data such as ePHI or PII to file sharing sites.
+    DO NOT backup critical data such as customer data or PII to file sharing sites.
     If you have such critical data locally on your device, contact IT and
     Security for the appropriate data management and protection solution.
 

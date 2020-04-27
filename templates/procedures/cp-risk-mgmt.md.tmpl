@@ -1,11 +1,15 @@
 ### Risk Management Process
 
 Risk analysis and risk management are recognized as important components of
-{{companyShortName}}'s corporate compliance program and information security program in
-accordance with the Risk Analysis and Risk Management implementation
-specifications within the Security Management standard and the evaluation
-standards set forth in the HIPAA Security Rule, 45 CFR 164.308(a)(1)(ii)(A),
-164.308(a)(1)(ii)(B), 164.308(a)(1)(i), and 164.308(a)(8).
+{{companyShortName}}'s corporate compliance and information security program.
+
+{{#needStandardHIPAA}}
+{{companyShortName}}'s risk management process is developed in accordance with
+the Risk Analysis and Risk Management implementation specifications within the
+Security Management standard and the evaluation standards set forth in the HIPAA
+Security Rule, 45 CFR 164.308(a)(1)(ii)(A), 164.308(a)(1)(ii)(B),
+164.308(a)(1)(i), and 164.308(a)(8).
+{{/needStandardHIPAA}}
 
 Risk assessments are done throughout product life cycles:
 
@@ -20,22 +24,21 @@ Risk assessments are done throughout product life cycles:
 
 {{companyShortName}} performs periodic technical and non-technical assessments of the
 security rule requirements as well as in response to environmental or
-operational changes affecting the security of ePHI.
+operational changes affecting the security of sensitive data.
 
 {{companyShortName}} implements security measures sufficient to reduce risks and
 vulnerabilities to a reasonable and appropriate level to:
 
-  1. Ensure the confidentiality, integrity, and availability of all ePHI
+  1. Ensure the confidentiality, integrity, and availability of all sensitive data
      {{companyShortName}} receives, maintains, processes, and/or transmits for its
      Customers;
   2. Protect against any reasonably anticipated threats or hazards to the
-     security or integrity of Customer ePHI;
+     security or integrity of Customer data and/or sensitive data;
   3. Protect against any reasonably anticipated uses or disclosures of Customer
-     ePHI that are not permitted or required; and
+     data and/or sensitive data that are not permitted or required; and
   4. Ensure compliance by all workforce members.
 
-In addition to the policy requirements stated in 4.1, {{companyShortName}} risk management
-process requires that:
+In addition, {{companyShortName}} risk management process requires that:
 
 1. Any risk remaining (residual) after other risk controls have been applied,
    requires sign off by the senior management and {{companyShortName}}'s Security Officer.
@@ -95,3 +98,10 @@ information security program:
   changes in business strategies, information technology, information
   sensitivity, threats, legal liabilities, or other significant factors that
   affect {{companyShortName}}'s Platform.
+
+{{#needStandardGDPR}}
+#### Data Protection Impact Assessment (DPIA)
+
+As required by GDPR, {{companyShortName}} performs a data protection impact
+analysis as part of each risk assessment.
+{{/needStandardGDPR}}

@@ -3,16 +3,17 @@
 
 {{companyShortName}} external software application that is customer facing with
 access to customer specific data, including sensitive information such as PII
-and ePHI, implements strong access control, covering the Identification,
-Authentication, Authorization, and Accounting/Auditing (IAAA) of access and user
-activity.
+{{#needStandardHIPAA}}and ePHI{{/needStandardHIPAA}}, implements strong access
+control, covering the Identification, Authentication, Authorization, and
+Accounting/Auditing (IAAA) of access and user activity.
 
 The implementation ensures that
 
 - the user requesting access is the one claimed (Identification and
   Authentication);
 
-- only users authorized to access specific data (such as ePHI) are allowed to
+- only users authorized to access specific data
+  {{#needStandardHIPAA}}(such as ePHI){{/needStandardHIPAA}} are allowed to
   (Authorization); and
 
 - their access activities are logs (Accounting/Auditing) according to the

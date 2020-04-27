@@ -37,14 +37,20 @@
   encrypting them, and providing a dashboard for them. Offered with all {{ companyShortName }}
   Add-ons and as an option for PaaS Customers.
 
-* *Breach*: Means the acquisition, access, use, or disclosure of protected
-  health information (PHI) in a manner not permitted under the Privacy Rule
-  which compromises the security or privacy of the PHI. For purpose of this
-  definition, "compromises the security or privacy of the PHI" means poses a
-  significant risk of financial, reputational, or other harm to the individual.
-  A use or disclosure of PHI that does not include the identifiers listed at
-  §164.514(e)(2), limited data set, date of birth, and zip code does not
-  compromise the security or privacy of the PHI. Breach excludes:
+* *Breach*: A data breach is the intentional or unintentional release of secure
+  or sensitive information to an untrusted environment or individual. A data
+  breach often involves an incident where information is stolen or taken from a
+  system without the knowledge or authorization of the system's owner.
+  
+  {{#needStandardHIPAA}}
+  Under HIPAA, a data breach means the acquisition, access, use, or disclosure
+  of protected health information (PHI) in a manner not permitted under the
+  Privacy Rule which compromises the security or privacy of the PHI. For purpose
+  of this definition, "compromises the security or privacy of the PHI" means
+  poses a significant risk of financial, reputational, or other harm to the
+  individual. A use or disclosure of PHI that does not include the identifiers
+  listed at §164.514(e)(2), limited data set, date of birth, and zip code does
+  not compromise the security or privacy of the PHI. Breach excludes:
 
   1. Any unintentional acquisition, access or use of PHI by a workforce member
      or person acting under the authority of a Covered Entity (CE) or Business
@@ -59,16 +65,19 @@
   3. A disclosure of PHI where a CE or BA has a good faith belief that an
      unauthorized person to whom the disclosure was made would not reasonably
      have been able to retain such information.
+  {{/needStandardHIPAA}}
 
+{{#needStandardHIPAA}}
 * *Business Associate*: A person or entity that performs certain functions or
   activities that involve the use or disclosure of protected health information
   on behalf of, or provides services to, a covered entity.
 
 * *Covered Entity*: A health plan, health care clearinghouse, or a healthcare
   provider who transmits any health information in electronic form.
+{{/needStandardHIPAA}}
 
 * *De-identification*: The process of removing identifiable information so that
-  data is rendered to not be PHI.
+  data is rendered to not be personally identifiable {{#needStandardHIPAA}}(not PHI){{/needStandardHIPAA}}.
 
 * *Disaster Recovery*: The ability to recover a system and data after being made
   unavailable.
@@ -85,9 +94,11 @@
 
 * *Customers*: Contractually bound users of {{ companyShortName }} Platform and/or services.
 
+{{#needStandardHIPAA}}
 * *Electronic Protected Health Information (ePHI)*: Any individually
   identifiable health information protected by HIPAA that is transmitted by,
   processed in some way, or stored in electronic media.
+{{/needStandardHIPAA}}
 
 * *Environment*: The overall technical environment, including all servers,
   network devices, and applications.
@@ -103,9 +114,11 @@
     multiple times.
 
 * *Hardware (or hard drive)*: Any computing device able to create and store
-  ePHI.
+  sensitive data {{#needStandardHIPAA}}(i.e. ePHI){{/needStandardHIPAA}}.
 
+{{#needStandardHIPAA}}
 * *Health and Human Services (HHS)*: The government body that maintains HIPAA.
+{{/needStandardHIPAA}}
 
 * *IaaS*: Infrastructure-as-a-Service.
 
@@ -173,6 +186,7 @@
 * *PMP or Platform*: {{ companyShortName }} Precision Medicine Platform and its overall
   technical environment.
 
+{{#needStandardHIPAA}}
 * *Protected Health Information (PHI)*: Individually identifiable health
   information that is created by or received by the organization, including
   demographic information, that identifies an individual, or provides a
@@ -183,6 +197,7 @@
   * The provision of health care to an individual.
   * The past, present, or future payment for the provision of health care to an
     individual.
+{{/needStandardHIPAA}}
 
 * *Role*: The category or class of person or persons doing a type of job,
   defined by a set of similar or identical responsibilities.
@@ -213,17 +228,24 @@
 
 * *Risk*: The likelihood that a threat will exploit a vulnerability, and the
   impact of that event on the confidentiality, availability, and integrity of
-  ePHI, other confidential or proprietary electronic information, and other
-  system assets.
+  sensitive data, other confidential or proprietary electronic information, and
+  other system assets.
 
 * *Risk Management Team*: Individuals who are knowledgeable about the
-  Organization's HIPAA Privacy, Security and HITECH policies, procedures,
+  Organization's Privacy, Security and Compliance policies, procedures,
   training program, computer system set up, and technical security controls, and
   who are responsible for the risk management process and procedures outlined
   below.
 
-* *Risk Assessment*: (Referred to as Risk Analysis in the HIPAA Security Rule);
-  the process:
+* *Risk Assessment*:
+
+  {{#needStandardHIPAA}}
+  > Referred to as Risk Analysis in the HIPAA Security Rule
+  {{/needStandardHIPAA}}
+  {{#needStandardGDPR}}
+  > Referred to as Data Protection Imapct Analysis (DPIA) in GDPR
+  {{/needStandardGDPR}}
+
   * Identifies the risks to information system security and determines the
     probability of occurrence and the resulting impact for each
     threat/vulnerability pair identified given the security controls in place;
@@ -232,13 +254,22 @@
     the determined risk.
 
 * *Risk Management*: Within this policy, it refers to two major process
-  components: risk assessment and risk mitigation. This differs from the HIPAA
-  Security Rule, which defines it as a risk mitigation process only. The
-  definition used in this policy is consistent with the one used in documents
-  published by the National Institute of Standards and Technology (NIST).
+  components: risk assessment and risk mitigation.
+  
+  {{#needStandardHIPAA}}
+  This differs from the HIPAA Security Rule, which defines it as a risk
+  mitigation process only. The definition used in this policy is consistent with
+  the one used in documents published by the National Institute of Standards and
+  Technology (NIST).
+  {{/needStandardHIPAA}}
 
-* *Risk Mitigation*: Referred to as Risk Management in the HIPAA Security Rule,
-  and is a process that prioritizes, evaluates, and implements security controls
+* *Risk Mitigation*:
+
+  {{#needStandardHIPAA}}
+  > Referred to as Risk Management in the HIPAA Security Rule
+  {{/needStandardHIPAA}}
+  
+  A process that prioritizes, evaluates, and implements security controls
   that will reduce or offset the risks determined in the risk assessment process
   to satisfactory levels within an organization given its mission and available
   resources.
@@ -251,7 +282,7 @@
   * A system or network breach accomplished by an internal or external entity;
     this breach can be inadvertent or malicious;
   * Unauthorized disclosure;
-  * Unauthorized change or destruction of ePHI (i.e. delete dictation, data
+  * Unauthorized change or destruction of sensitive data (i.e. deletion or
     alterations not following {{ companyShortName }}'s procedures);
   * Denial of service not attributable to identifiable physical, environmental,
     human or technology causes;
@@ -293,7 +324,7 @@
 * *Threat Source*: Any circumstance or event with the potential to cause harm
   (intentional or unintentional) to an IT system. Common threat sources can be
   natural, human or environmental which can impact the organization's ability to
-  protect ePHI.
+  protect sensitive data.
 
 * *Threat Action*: The method by which an attack might be carried out (e.g.,
   hacking, system intrusion, etc.).
@@ -302,6 +333,7 @@
   information and/or sensitive organizational information is not stored or is
   not utilized or is not accessible there on a regular basis.
 
+{{#needStandardHIPAA}}  
 * *Unsecured Protected Health Information*: Protected health information (PHI)
   that is not rendered unusable, unreadable, or indecipherable to unauthorized
   individuals through the use of technology or methodology specified by the
@@ -335,9 +367,10 @@
   6. Electronic media have been cleared, purged, or destroyed consistent with
      NIST Special Publications 800-88, Guidelines for Media Sanitization, such
      that the PHI cannot be retrieved.
+{{/needStandardHIPAA}}
 
-* *Vendors*: Persons from other organizations marketing or selling products or
-  services, or providing services to {{ companyShortName }}.
+* *Vendor*: External individuals or organizations marketing or selling products
+  or services, or providing services to {{ companyShortName }}.
 
 * *Vulnerability*: A weakness or flaw in an information system that can be
   accidentally triggered or intentionally exploited by a threat and lead to a
@@ -346,11 +379,11 @@
 
 * *Workstation*: An electronic computing device, such as a laptop or desktop
   computer, or any other device that performs similar functions, used to create,
-  receive, maintain, or transmit ePHI. Workstation devices may include, but are
-  not limited to: laptop or desktop computers, personal digital assistants
-  (PDAs), tablet PCs, and other handheld devices. For the purposes of this
-  policy, "workstation" also includes the combination of hardware, operating
-  system, application software, and network connection.
+  receive, maintain, or transmit sensitive data. Workstation devices may
+  include, but are not limited to: laptop or desktop computers, smart phones,
+  tablet PCs, and other handheld devices. For the purposes of this policy,
+  "workstation" also includes the combination of hardware, operating system,
+  application software, and network connection.
 
 * *Workforce*: Means employees, volunteers, trainees, and other persons whose
   conduct, in the performance of work for a covered entity, is under the direct

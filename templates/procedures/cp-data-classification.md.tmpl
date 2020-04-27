@@ -21,9 +21,13 @@ process and agreement in place.
 
 *Example Critical Data Types* includes
 
-* PHI/ePHI
 * PII
-* PCI
+{{#needStandardHIPAA}}
+* PHI or ePHI
+{{/needStandardHIPAA}}
+{{#needStandardPCI}}
+* PCI or CHD (cardholder data)
+{{/needStandardPCI}}
 * Production Security data, such as
     - Production secrets, passwords, access keys, certificates, etc.
     - Production security audit logs, events, and incident data

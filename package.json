@@ -8,7 +8,8 @@
   "scripts": {
     "build:summary": "cd util; node build-summary.js",
     "parse:fedramp": "cd util; node fedramp-parser.js",
-    "parse:soc2": "cd util; node soc2-parser.js"
+    "parse:soc2": "cd util; node soc2-parser.js",
+    "publish:j1": "./node_modules/@jupiterone/security-policy-builder/bin/psp publish -c config.json -t templates -a $J1_ACCOUNT_ID -k $J1_API_TOKEN -n"
   },
   "devDependencies": {
     "csvtojson": "^2.0.10",

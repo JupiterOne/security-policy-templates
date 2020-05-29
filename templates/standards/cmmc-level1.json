@@ -1,0 +1,122 @@
+{
+  "standard": "CMMC",
+  "version": "(Level 1) Cybersecurity Maturity Model Certification (CMMC)",
+  "webLink": "https://www.acq.osd.mil/cmmc/docs/CMMC_Appendices_V1.02_20200318.pdf",
+  "domains": [
+    {
+      "title": "ACCESS CONTROL",
+      "controls": [
+        {
+          "ref": "AC.1.001",
+          "title": "Establish system access requirements",
+          "summary": "Limit information system access to authorized users, processes acting on behalf of authorized users or devices (including other information systems)."
+        },
+        {
+          "ref": "AC.1.002",
+          "title": "Control internal system access",
+          "summary": "Limit information system access to the types of transactions and functions that authorized users are permitted to execute."
+        },
+        {
+          "ref": "AC.1.003",
+          "title": "Limit data access to authorized users and processes | (1)",
+          "summary": "Verify and control/limit connections to and use of external information systems."
+        },
+        {
+          "ref": "AC.1.004",
+          "title": "Limit data access to authorized users and processes | (2)",
+          "summary": "Control information posted or processed on publicly accessible information systems."
+        }
+      ]
+    },
+    {
+        "title": "IDENTIFICATION & AUTHENTICATION (IA)",
+        "controls": [
+          {
+            "ref": "IA.1.076",
+            "title": "Grant access to authenticated entities | (1)",
+            "summary": "Identify information system users, processes acting on behalf of users or devices."
+          },
+          {
+            "ref": "IA.1.077",
+            "title": "Grant access to authenticated entities | (2)",
+            "summary": "Authenticate (or verify) the identities of those users, processes or devices, as a prerequisite to allowing access to organizational information systems."
+          }
+        ]
+      },
+    {
+        "title": "MEDIA PROTECTION (MP)",
+        "controls": [
+          {
+            "ref": "MP.1.118",
+            "title": "Sanitize media",
+            "summary": "Sanitize or destroy information system media containing Federal Contract Information (FCI) before disposal or release for reuse."
+          }
+        ]
+      },
+      {
+        "title": "PHYSICAL PROTECTION (PE)",
+        "controls": [
+          {
+            "ref": "PE.1.131",
+            "title": "Limit physical access",
+            "summary": "Limit physical access to organizational information systems, equipment and the respective operating environments to authorized individuals."
+          },
+          {
+            "ref": "PE.1.132",
+            "title": "Limit physical access | (1)",
+            "summary": "Escort visitors and monitor visitor activity."
+          },
+          {
+            "ref": "PE.1.133",
+            "title": "Limit physical access | (2)",
+            "summary": "Maintain audit logs of physical access."
+          },
+          {
+            "ref": "PE.1.134",
+            "title": "Limit physical access | (3)",
+            "summary": "Control and manage physical access devices."
+          }
+        ]
+      },
+      {
+        "title": "SYSTEM & COMMUNICATIONS PROTECTION (SC)",
+        "controls": [
+          {
+            "ref": "SC.1.175",
+            "title": "Control communications at system | (1)",
+            "summary": "Monitor, control and protect organizational communications (e.g., information transmitted or received by organizational information systems) at the external boundaries and key internal boundaries of the information systems."
+          },
+          {
+            "ref": "SC.1.176",
+            "title": "Control communications at system | (2)",
+            "summary": "Implement subnetworks for publicly accessible system components that are physically or logically separated from internal networks."
+          }
+        ]
+      },
+    {
+      "title": "SYSTEM & INFORMATION INTEGRITY (SI)",
+      "controls": [
+        {
+          "ref": "SI.1.210",
+          "title": "Identify and manage information system",
+          "summary": "Identify, report and correct information and information system flaws in a timely manner."
+        },
+        {
+          "ref": "SI.1.211",
+          "title": "Identify malicious content | (1)",
+          "summary": "Provide protection from malicious code at appropriate locations within organizational information systems."
+        },
+        {
+          "ref": "SI.1.212",
+          "title": "Identify malicious content | (2)",
+          "summary": "Update malicious code protection mechanisms when new releases are available."
+        },
+        {
+          "ref": "SI.1.213",
+          "title": "Identify malicious content | (3)",
+          "summary": "Perform periodic scans of the information system and real-time scans of files from external sources as files are downloaded, opened or executed."
+        }
+      ]
+    }
+  ]
+}

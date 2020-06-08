@@ -1,0 +1,29 @@
+name: Publish to JupiterOne
+on: [push, pull_request]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+
+    steps:
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Check out repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+
+      - name: Install policy-builder
+        run: yarn add @jupiterone/security-policy-builder
+
+      - name: Publish to J1
+        env:
+          J1_ACCOUNT_ID: ${{ secrets.J1_ACCOUNT_ID }}
+          J1_API_TOKEN: ${{ secrets.J1_API_TOKEN }}
+          POLICY_CONFIG: 'config.json'
+          POLICY_TEMPLATES: 'templates'
+        run: ./node_modules/@jupiterone/security-policy-builder/bin/psp publish -c $POLICY_CONFIG -t $POLICY_TEMPLATES -a $J1_ACCOUNT_ID -k $J1_API_TOKEN -n

@@ -1,96 +1,79 @@
-# {{companyShortName}} HIPAA Self Assessment
+{{&companyLogo}}
 
-{{date}}
+# {{companyShortName}} {{complianceStandard}} Compliance Report
+
+`{{date}}`
 
 ## Executive Statement and Attestation
 
 {{companyShortName}} has implemented an information security and risk management
-program to protect our customers and information, including
-{{#needStandardHIPAA}}ePHI and{{/needStandardHIPAA}} PII data.
-An in-depth review of company’s information security program, technology and
-operational infrastructure was performed to assess the program’s capability and
-maturity.
+program to protect our customers and information. We leverage JupiterOne to
+manage our compliance program according to the controls and requirements
+specified in {{complianceStandard}}.
 
-The result of this assessment demonstrates that {{companyShortName}} meets or
-exceeds all areas of HIPAA/HITECH regulations and requirements. In summary, this
-includes:
+More specifically, this includes:
 
-**HIPAA Administrative Safeguards**
+1. managing and mapping corporate security policies and procedures to each
+  control or requirement;
 
-- {{companyShortName}} has assigned a Security and Privacy Officer who is fully
-  accountable to the HIPAA security and privacy program.
-- Annual risk assessment has been conducted with documented results and actions.
-- All employees have been through background checks.
-- All employees are required to take annual HIPAA awareness and monthly security
-  awareness training.
-- Formal information security policies and procedures have been implemented.
-- Business Associate Agreements (BAAs) are executed with all partners who handle
-  protected health information (PHI) or electronic PHI (ePHI).
+2. collecting and mapping implementation evidences to each control or
+  requirement; and
 
-**HIPAA Technical Safeguards**
+3. if applicable, continuously monitoring the controls via automation -- using
+   data, querying, and API integrations -- to identify potential misalignments
+   and gaps.
 
-- Unique user identification is required and tracked for each individual user
-  with access to ePHI.
-- An emergency access and response plan is established.
-- Inactive sessions to access ePHI automatically terminate / log off.
-- Any internal access to ePHI requires strong passwords and second factor
-  authentication.
-- Access is granted with least-privilege and terminated when no longer needed
-- All access to ePHI is monitored and logged.
-- ePHI is de-identified both in storage and in transit using strong encryption.
-- ePHI is stored in secure ransomware-proof repositories and replicated across
-  geographical regions.
+Status of each {{requirementOrControl}} follows. There are three indicators
+for each {{requirementOrControl}}, which each indicate the following:
 
-**HIPAA Physical Safeguards**
+- `Policies`: with (or without) linked policy and procedure documentation
 
-- Physical access to PHI or systems and devices that contain ePHI is controlled
-  by two layers of key cards.
-- Video security cameras are put in place for 24/7 monitoring.
-- All physical media containing ePHI are encrypted with strong cryptographic
-  algorithm at device level.
-- Media is securely wiped or physically destroyed, and encryption keys destroyed
-  prior to reuse or disposal.
+- `Evidence`: with (or without) implementation evidence collected
 
-{{companyShortName}} information security and data protection program will
-continue to evolve and improve. We strive to provide the latest innovation in
-security technology and best practices, to always stay ahead of the threats and
-protect our customers.
+- `Monitoring Status`: one of the following:
 
-&nbsp;
+  - `Compliant`: the implementation fully fulfills this {{requirementOrControl}}
+    with no gaps or issues identified and continuous monitoring is in place
 
-SIGNATURES
+  - `Attention`: potential remediation may be needed for a subset of data related
+    to this {{requirementOrControl}}
 
-&nbsp;
+  - `Gap`: gaps are detected and this {{requirementOrControl}} needs immediate
+    remediation
+  
+  - `Unknown` or `Indeterminate`: review of implementation status and evidence
+    is performed manually for this {{requirementOrControl}}
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+In summary, out of a total of {{totalRequirements}} {{requirementOrControl}}
+in scope for this report, there are
 
-{{ceoName}}
+- {{totalHasPolicies}} {{requirementOrControl}}s with defined and documented
+  policies and procedures;
 
-Chief Executive Officer
+- {{totalHasEvidence}} {{requirementOrControl}}s with implementation evidences
+  collected;
 
-{{companyFullName}}
+- {{totalRequirements - totalIndeterminate}} {{requirementOrControl}}s with
+  continuous and automated monitoring in place;
+
+- {{totalNotApplicable}} {{requirementOrControl}}s not applicable due to
+  the nature of our business and technical operations.
+
+Security and compliance is a continuous effort of risk reduction. As such, any
+and all findings and gaps identified in this report are being assessed by our
+security team for validation and remediation.
 
 &nbsp;
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-{{securityOfficerName}}
+**{{securityOfficerName}}**
 
-Security Officer
-
-{{companyFullName}}
-
-&nbsp;
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-{{privacyOfficerName}}
-
-Privacy Officer
+Security and Compliance Officer
 
 {{companyFullName}}
 
-&nbsp;
+---
 
 ## Overview
 
@@ -98,29 +81,19 @@ Privacy Officer
 
 {{companyOverview}}
 
-Per the [definitions of HIPAA](https://www.hhs.gov/hipaa/for-professionals/covered-entities/index.html),
-
-* {{companyShortName}} {{isHIPAACoveredEntityText}} a Covered Entity.
-* {{companyShortName}} {{isHIPAABusinessAssociateText}} a Business Associate.
-
-[definitions of HIPAA]: https://www.hhs.gov/hipaa/for-professionals/covered-entities/index.html
-
 ### Products, Services and Operations
 
 > [PLACEHOLDER]
 > *Provide some additional details regarding the products and services provided and operations*
 
-### Business Associates
-
-> [PLACEHOLDER]
-> *List business associates with access to ePHI*
-
 ## Information Security Program
 
 {{companyShortName}} has developed a security program and implementation to meet
 and exceed the information security and compliance requirements related to the
-{{companyShortName}} operations, software platform, and in support of its customers. The
-program incorporates the elements of HIPAA and HITECH.
+{{companyShortName}} operations, software platform, and in support of its customers.
+
+The security program incorporates industry best practices and meets requirements
+as specified by {{complianceStandard}}.
 
 > [PLACEHOLDER]
 > *Add further descriptions as needed*
@@ -128,34 +101,28 @@ program incorporates the elements of HIPAA and HITECH.
 On a high level, {{companyShortName}} information security program and
 operations cover:
 
-{{policyTOC}}
+{{&policyTOC}}
 
-{{#hasTrainingGap}}
-> **GAP: must complete per statement below**
+### In-scope environments
 
-{{/hasTrainingGap}}
-All personnel have completed annual training covering HIPAA awareness as well as
-{{companyShortName}} security policies and procedures.
-
-### In-scope PHI/ePHI environments
-
-The following are environments that store or process PHI/ePHI:
+The following are environments are in scope for {{complianceStandard}}:
 
 > [PLACEHOLDER]
 > *List and describe in-scope environments*
 
 ### Out-of-scope environments
 
-> [PLACEHOLDER]
-> [Optional]
+The following are environments are out of scope for {{complianceStandard}}:
+
+> [PLACEHOLDER] [Optional]
 > *Optionally, call out environments that are out of scope. This can often avoid ambiguity and confusion. Remove section if not needed.*
 
 ### Dataflow
 
 > [PLACEHOLDER]
-> *Describe how PHI/ePHI flow through the environment and systems, include dataflow diagram if available*
+> *Describe how in scope date flow through the environment and systems, include dataflow diagram if available*
 
-### Summary of Data Protection Controls
+### Summary of Data Protection and Security Controls
 
 The following is a list of security controls implemented and their purpose:
 
@@ -165,7 +132,7 @@ The following is a list of security controls implemented and their purpose:
 
 Domain                 | Control         | Description
 --                     | --              | --
-Identity and Access    | Okta            | Okta is a cloud based Identity-as-a-Service solution. {{companyShortName}} utilizes Okta as the centralized platform for user management, authentication and authorization, password policy enforcement, single-sign-on, and multi-factor authentication.
+Identity and Access    | ...             | ...
                        | ...             | ...
 Network Infrastructure | ...             | ...
                        | ...             | ...
@@ -277,13 +244,6 @@ Security is everyone's responsibility. This is clearly defined in
 Employee Handbook. As such, security and awareness training is a key component
 of {{companyShortName}} information security program.
 
-{{#hasHIPAATrainingGap}}
-> **GAP: must complete per statement below**
-
-{{/hasHIPAATrainingGap}}
-All {{companyShortName}} employees have completed a HIPAA awareness training
-within 30 days of onboarding or annual refresh training.
-
 {{#hasInfoSecTrainingGap}}
 > **GAP: must complete per statement below**
 
@@ -316,9 +276,9 @@ security team is committed to conduct ongoing risk analysis, perform updated
 security assessments and compliance audits, with major changes to its
 infrastructure and/or operations, or at least once a year.
 
-## HIPAA/HITECH Requirements and Controls Mapping
+## Requirements and Controls Mapping
 
-{{&hipaaControlsMapping}}
+{{&controlsMapping}}
 
 ## Documented Risks
 

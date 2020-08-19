@@ -1,7 +1,6 @@
 {
     "standard": "ISO/IEC 27002:2005",
     "version": "2005",
-    "webLink": "",
     "sections": [
       {
         "title": "5 - Security Policy",

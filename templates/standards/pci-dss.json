@@ -532,7 +532,7 @@
         },
         {
           "ref": "8.5.1",
-          "summary": "Service providers with remote access to customer premises (for example, for support of POS systems or servers) must use a unique authentication credential (such as a password/phrase) for each customer."
+          "summary": "(Service Providers ONLY) Service providers with remote access to customer premises (for example, for support of POS systems or servers) must use a unique authentication credential (such as a password/phrase) for each customer."
         },
         {
           "ref": "8.6",
@@ -668,20 +668,117 @@
           "summary": "Implement automated audit trails for all system components to reconstruct the in-scope events."
         },
         {
+          "ref": "10.2.1",
+          "summary": "Implement automated audit trails for all individual user accesses to cardholder data."
+        },
+        {
+          "ref": "10.2.2",
+          "summary": "Implement automated audit trails for all actions taken by any individual with root or administrative privileges."
+        },
+        {
+          "ref": "10.2.3",
+          "summary": "Implement automated audit trails for access to all audit trails."
+        },
+        {
+          "ref": "10.2.4",
+          "summary": "Implement automated audit trails for invalid logical access attempts."
+        },
+        {
+          "ref": "10.2.5",
+          "summary": "Implement automated audit trails for use of and changes to identification and authentication mechanisms—including but not limited to creation of new accounts and elevation of privileges—and all changes, additions, or deletions to accounts with root or administrative privileges."
+        },
+        {
+          "ref": "10.2.6",
+          "summary": "Implement automated audit trails for initialization, stopping, or pausing of the audit logs."
+        },
+        {
+          "ref": "10.2.7",
+          "summary": "Implement automated audit trails for creation and deletion of systemlevel objects."
+        },
+        {
           "ref": "10.3",
           "summary": "Record at least the following audit trail entries for all system components for each event: User identification; Type of event; Date and time; Success or failure indication; Origination of event; Identity or name of affected data, system component, or resource."
+        },
+        {
+          "ref": "10.3.1",
+          "summary": "User identification"
+        },
+
+        {
+          "ref": "10.3.2",
+          "summary": "Type of event"
+        },
+        {
+          "ref": "10.3.3",
+          "summary": "Date and time"
+        },
+        {
+          "ref": "10.3.4",
+          "summary": "Success of failure indication"
+        },
+        {
+          "ref": "10.3.5",
+          "summary": "Origination of event"
+        },
+        {
+          "ref": "10.3.6",
+          "summary": "Identity or name of affected data, system component, or resource."
         },
         {
           "ref": "10.4",
           "summary": "Using time-synchronization technology, synchronize all critical system clocks and times and ensure that the following is implemented for acquiring, distributing, and storing time."
         },
         {
+          "ref": "10.4.1",
+          "summary": "Critical systems have the correct and consistent time."
+        },
+        {
+          "ref": "10.4.2",
+          "summary": "Time data is protected."
+        },
+        {
+          "ref": "10.4.3",
+          "summary": "Time settings are received from industry-accepted time sources."
+        },
+        {
           "ref": "10.5",
           "summary": "Secure audit trails so they cannot be altered."
         },
         {
+          "ref": "10.5.1",
+          "summary": "Limit viewing of audit trails to those with a job-related need."
+        },
+        {
+          "ref": "10.5.2",
+          "summary": "Protect audit trail files from unauthorized modifications."
+        },
+        {
+          "ref": "10.5.3",
+          "summary": "Promptly back up audit trail files to a centralized log server or media that is difficult to alter."
+        },
+        {
+          "ref": "10.5.4",
+          "summary": "Write logs for external-facing technologies onto a secure, centralized, internal log server or media device."
+        },
+        {
+          "ref": "10.5.5",
+          "summary": "Use file-integrity monitoring or change-detection software on logs to ensure that existing log data cannot be changed without generating alerts (although new data being added should not cause an alert)."
+        },
+        {
           "ref": "10.6",
           "summary": "Review logs and security events for all system components to identify anomalies or suspicious activity."
+        },
+        {
+          "ref": "10.6.1",
+          "summary": "Review the following at least daily: All security events; Logs of all system components that store, process, or transmit CHD and/or SAD; Logs of all critical system components; Logs of all servers and system components that perform security functions (for example, firewalls, intrusion-detection systems/intrusion-prevention systems (IDS/IPS), authentication servers, e-commerce redirection servers, etc.)."
+        },
+        {
+          "ref": "10.6.2",
+          "summary": "Review logs of all other system components periodically based on the organization’s policies and risk management strategy, as determined by the organization’s annual risk assessment."
+        },
+        {
+          "ref": "10.6.3",
+          "summary": "Follow up exceptions and anomalies identified during the review process."
         },
         {
           "ref": "10.7",
@@ -693,12 +790,25 @@
           "applicable": false
         },
         {
+          "ref": "10.8.1",
+          "summary": "(Service Providers ONLY) Respond to failures of any critical security controls in a timely manner.",
+          "applicable": false
+        },
+        {
           "ref": "10.9",
           "summary": "Ensure that security policies and operational procedures for monitoring all access to network resources and cardholder data are documented, in use, and known to all affected parties."
         },
         {
           "ref": "11.1",
           "summary": "Implement processes to test for the presence of wireless access points (802.11), and detect and identify all authorized and unauthorized wireless access points on a quarterly basis."
+        },
+        {
+          "ref": "11.1.1",
+          "summary": "Maintain an inventory of authorized wireless access points including a documented business justification."
+        },
+        {
+          "ref": "11.1.2",
+          "summary": "Implement incident response procedures in the event unauthorized wireless access points are detected."
         },
         {
           "ref": "11.2",

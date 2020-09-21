@@ -1,0 +1,70 @@
+name: Build
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: [12.x]
+        os: [ubuntu-latest]
+
+    steps:
+      - id: setup-node
+        name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Check out code repository source code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: yarn
+
+  # Publishing is done in a separate job to allow
+  # for all matrix builds to complete.
+  release:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [12]
+
+    steps:
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Check out repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+
+      # Fetch tags and describe the commit before the merge commit
+      # to see if it's a version publish
+      - name: Fetch tags
+        run: |
+          git fetch --tags
+          if git describe --exact-match --match "v*.*.*" HEAD^2
+          then
+            echo "Found version commit tag. Publishing."
+            echo "::set-env name=publish::true"
+          else
+            echo "Version commit tag not found. Not publishing."
+          fi
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Publish
+        if: env.publish == 'true'
+        env:
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}" > .npmrc
+          npm publish --access public

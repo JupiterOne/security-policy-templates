@@ -26,247 +26,151 @@
           },
           {
             "ref": "1.4",
-            "title": "Ensure that 'Allow users to remember multi-factor authentication on devices they trust' is 'Disabled' (Not Scored)",
-            "summary": "Do not allow users to remember multi-factor authentication on devices.",
+            "title": "Ensure that there are only GCP-managed service account keys for each service account (Scored)",
+            "summary": "User managed service accounts should not have user-managed keys.",
             "applicable": true
           },
           {
             "ref": "1.5",
-            "title": "Ensure that 'Number of methods required to reset' is set to '2' (Not Scored)",
-            "summary": "Ensure that two alternate forms of identification are provided before allowing a password reset.",
+            "title": "Ensure that Service Account has no Admin privileges (Scored)",
+            "summary": "A service account is a special Google account that belongs to an application or a VM, instead of to an individual end-user. The application uses the service account to call the service's Google API so that users aren't directly involved. It's recommended not to use admin access for ServiceAccount.",
             "applicable": true
           },
           {
             "ref": "1.6",
-            "title": "Ensure that 'Number of days before users are asked to re-confirm their authentication information' is not set to \"0\" (Not Scored)",
-            "summary": "Ensure that the number of days before users are asked to re-confirm their authentication information is not set to 0.",
+            "title": "Ensure that IAM users are not assigned the Service Account User or Service Account Token Creator roles at project level (Scored)",
+            "summary": "It is recommended to assign the Service Account User (iam.serviceAccountUser) and Service Account Token Creator (iam.serviceAccountTokenCreator) roles to a user for a specific service account rather than assigning the role to a user at project level.",
             "applicable": true
           },
           {
             "ref": "1.7",
-            "title": "Ensure that 'Notify users on password resets?' is set to 'Yes' (Not Scored)",
-            "summary": "Ensure that users are notified on their primary and secondary emails on password resets.",
+            "title": "Ensure user-managed/external keys for service accounts are rotated every 90 days or less (Scored)",
+            "summary": "Service Account keys consist of a key ID (Private_key_Id) and Private key, which are used to sign programmatic requests users make to Google cloud services accessible to that particular service account. It is recommended that all Service Account keys are regularly rotated.",
             "applicable": true
           },
           {
             "ref": "1.8",
-            "title": "Ensure that 'Notify all admins when other admins reset their password?' is set to 'Yes' (Not Scored)",
-            "summary": "Ensure that all administrators are notified if any other administrator resets their password.",
+            "title": "Ensure that Separation of duties is enforced while assigning service account related roles to users (Not Scored)",
+            "summary": "It is recommended that the principle of 'Separation of Duties' is enforced while assigning service-account related roles to users.",
             "applicable": true
           },
           {
             "ref": "1.9",
-            "title": "Ensure that 'Users can consent to apps accessing company data on their behalf' is set to 'No' (Not Scored)",
-            "summary": "Require administrators to provide consent for the apps before use.",
+            "title": "Ensure that Cloud KMS cryptokeys are not anonymously or publicly accessible (Scored)",
+            "summary": "It is recommended that the IAM policy on Cloud KMS cryptokeys should restrict anonymous and/or public access.",
             "applicable": true
           },
           {
             "ref": "1.10",
-            "title": "Ensure that 'Users can add gallery apps to their Access Panel' is set to 'No' (Not Scored)",
-            "summary": "Require administrators to provide consent for the apps before use.",
+            "title": "Ensure KMS encryption keys are rotated within a period of 90 days (Scored)",
+            "summary": "Google Cloud Key Management Service stores cryptographic keys in a hierarchical structure designed for useful and elegant access control management. The format for the rotation schedule depends on the client library that is used. For the gcloud command-line tool, the next rotation time must be in ISO or RFC3339 format, and the rotation period must be in the form INTEGER[UNIT], where units can be one of seconds (s), minutes (m), hours (h) or days (d).",
             "applicable": true
           },
           {
             "ref": "1.11",
-            "title": "Ensure that 'Users can register applications' is set to 'No' (Not Scored)",
-            "summary": "Require administrators to register third-party applications.",
+            "title": "Ensure that Separation of duties is enforced while assigning KMS related roles to users (Scored)",
+            "summary": "It is recommended that the principle of 'Separation of Duties' is enforced while assigning KMS related roles to users.",
             "applicable": true
           },
           {
             "ref": "1.12",
-            "title": "Ensure that 'Guest user permissions are limited' is set to 'Yes' (Not Scored)",
-            "summary": "Limit guest user permissions.",
+            "title": "Ensure API keys are not created for a project (Not Scored)",
+            "summary": "Keys are insecure because they can be viewed publicly, such as from within a browser, or they can be accessed on a device where the key resides. It is recommended to use standard authentication flow instead.",
             "applicable": true
           },
           {
             "ref": "1.13",
-            "title": "Ensure that 'Members can invite' is set to 'No' (Not Scored)",
-            "summary": "Restrict invitations to administrators only.",
+            "title": "Ensure API keys are restricted to use by only specified Hosts and Apps (Not Scored)",
+            "summary": "Unrestricted keys are insecure because they can be viewed publicly, such as from within a browser, or they can be accessed on a device where the key resides. It is recommended to restrict API key usage to trusted hosts, HTTP referrers and apps.",
             "applicable": true
           },
           {
             "ref": "1.14",
-            "title": "Ensure that 'Guests can invite' is set to 'No' (Not Scored)",
-            "summary": "Restrict guest invitations.",
+            "title": "Ensure API keys are restricted to only APIs that application needs access (Not Scored)",
+            "summary": "API keys are insecure because they can be viewed publicly, such as from within a browser, or they can be accessed on a device where the key resides. It is recommended to restrict API keys to use (call) only APIs required by an application.",
             "applicable": true
           },
           {
             "ref": "1.15",
-            "title": "Ensure that 'Restrict access to Azure AD administration portal' is set to 'Yes' (Not Scored)",
-            "summary": "Restrict access to the Azure AD administration portal to administrators only.",
-            "applicable": true
-          },
-          {
-            "ref": "1.16",
-            "title": "Ensure that 'Self-service group management enabled' is set to 'No' (Not Scored)",
-            "summary": "Restrict group creation to administrators only.",
-            "applicable": true
-          },
-          {
-            "ref": "1.17",
-            "title": "Ensure that 'Users can create security groups' is set to 'No' (Not Scored)",
-            "summary": "Restrict security group creation to administrators only.",
-            "applicable": true
-          },
-          {
-            "ref": "1.18",
-            "title": "Ensure that 'Users who can manage security groups' is set to 'None' (Not Scored)",
-            "summary": "Restrict security group management to administrators only.",
-            "applicable": true
-          },
-          {
-            "ref": "1.19",
-            "title": "Ensure that 'Users can create Office 365 groups' is set to 'No' (Not Scored) 52",
-            "summary": "Restrict Office 365 group creation to administrators only.",
-            "applicable": true
-          },
-          {
-            "ref": "1.20",
-            "title": "Ensure that 'Users who can manage Office 365 groups' is set to 'None' (Not Scored)",
-            "summary": "Restrict Office 365 group management to administrators only.",
-            "applicable": true
-          },
-          {
-            "ref": "1.21",
-            "title": "Ensure that 'Enable \"All Users\" group' is set to 'Yes' (Not Scored)",
-            "summary": "Enable All Users group for centralized administration of all users.",
-            "applicable": true
-          },
-          {
-            "ref": "1.22",
-            "title": "Ensure that 'Require Multi-Factor Auth to join devices' is set to 'Yes' (Not Scored)",
-            "summary": "Joining devices to the active directory should require Multi-factor authentication.",
-            "applicable": true
-          },
-          {
-            "ref": "1.23",
-            "title": "Ensure that no custom subscription owner roles are created (Scored)",
-            "summary": "Subscription ownership should not include permission to create custom owner roles. The principle of least privilege should be followed and only necessary privileges should be assigned instead of allowing full administrative access.",
+            "title": "Ensure API keys are rotated every 90 days (Not Scored)",
+            "summary": "It is recommended to rotate API keys every 90 days.",
             "applicable": true
           }
         ]
       },
       {
-        "title": "Security Center",
+        "title": "Logging and Monitoring",
         "controls": [
           {
             "ref": "2.1",
-            "title": "Ensure that standard pricing tier is selected (Scored)",
-            "summary": "The standard pricing tier enables threat detection for networks and virtual machines, providing threat intelligence, anomaly detection, and behavior analytics in the Azure Security Center.",
+            "title": "Ensure that Cloud Audit Logging is configured properly across all services and all users from a project (Scored)",
+            "summary": "It is recommended that Cloud Audit Logging is configured to track all admin activities and read, write access to user data.",
             "applicable": true
           },
           {
             "ref": "2.2",
-            "title": "Ensure that 'Automatic provisioning of monitoring agent' is set to 'On' (Scored)",
-            "summary": "Enable automatic provisioning of the monitoring agent to collect security data.",
+            "title": "Ensure that sinks are configured for all log entries (Scored)",
+            "summary": "It is recommended to create a sink that will export copies of all the log entries. This can help aggregate logs from multiple projects and export them to a Security Information and Event Management (SIEM).",
             "applicable": true
           },
           {
             "ref": "2.3",
-            "title": "Ensure ASC Default policy setting \"Monitor System Updates\" is not \"Disabled\" (Scored)",
-            "summary": "Enable system updates recommendations for virtual machines.",
+            "title": "Ensure that retention policies on log buckets are configured using Bucket Lock (Scored)",
+            "summary": "Enabling retention policies on log buckets will protect logs stored in cloud storage buckets from being overwritten or accidentally deleted. It is recommended to set up retention policies and configure Bucket Lock on all storage buckets that are used as log sinks.",
             "applicable": true
           },
           {
             "ref": "2.4",
-            "title": "Ensure ASC Default policy setting \"Monitor OS Vulnerabilities\" is not \"Disabled\" (Scored)",
-            "summary": "Enable Monitor OS vulnerability recommendations for virtual machines.",
+            "title": "Ensure log metric filter and alerts exist for project ownership assignments/changes (Scored)",
+            "summary": "In order to prevent unnecessary project ownership assignments to users/service-accounts and further misuses of projects and resources, all `roles/Owner` assignments should be monitored.",
             "applicable": true
           },
           {
             "ref": "2.5",
-            "title": "Ensure ASC Default policy setting \"Monitor Endpoint Protection\" is not \"Disabled\" (Scored)",
-            "summary": "Enable Endpoint protection recommendations for virtual machines.",
+            "title": "Ensure that the log metric filter and alerts exist for Audit Configuration changes (Scored)",
+            "summary": "Google Cloud Platform (GCP) services write audit log entries to the Admin Activity and Data Access logs to help answer the questions of, \"who did what, where, and when?\" within GCP projects. Cloud audit logging records information includes the identity of the API caller, the time of the API call, the source IP address of the API caller, the request parameters, and the response elements returned by GCP services. Cloud audit logging provides a history of GCP API calls for an account, including API calls made via the console, SDKs, command-line tools, and other GCP services.",
             "applicable": true
           },
           {
             "ref": "2.6",
-            "title": "Ensure ASC Default policy setting \"Monitor Disk Encryption\" is not \"Disabled\" (Scored)",
-            "summary": "Enable Disk encryption recommendations for virtual machines.",
+            "title": "Ensure that the log metric filter and alerts exist for Custom Role changes (Scored)",
+            "summary": "It is recommended that a metric filter and alarm be established for changes to Identity and Access Management (IAM) role creation, deletion and updating activities.",
             "applicable": true
           },
           {
             "ref": "2.7",
-            "title": "Ensure ASC Default policy setting \"Monitor Network Security Groups\" is not \"Disabled\" (Scored)",
-            "summary": "Enable Network security group recommendations for virtual machines.",
+            "title": "Ensure that the log metric filter and alerts exist for VPC Network Firewall rule changes (Scored)",
+            "summary": "It is recommended that a metric filter and alarm be established for Virtual Private Cloud (VPC) Network Firewall rule changes.",
             "applicable": true
           },
           {
             "ref": "2.8",
-            "title": "Ensure ASC Default policy setting \"Monitor Web Application Firewall\" is not \"Disabled\" (Scored)",
-            "summary": "Enable Web application firewall recommendations for virtual machines.",
+            "title": "Ensure that the log metric filter and alerts exist for VPC network route changes (Scored)",
+            "summary": "It is recommended that a metric filter and alarm be established for Virtual Private Cloud (VPC) network route changes.",
             "applicable": true
           },
           {
             "ref": "2.9",
-            "title": "Ensure ASC Default policy setting \"Enable Next Generation Firewall(NGFW) Monitoring\" is not \"Disabled\" (Scored)",
-            "summary": "Enable next generation firewall recommendations for virtual machines.",
+            "title": "Ensure that the log metric filter and alerts exist for VPC network changes (Scored)",
+            "summary": "It is recommended that a metric filter and alarm be established for Virtual Private Cloud (VPC) network changes.",
             "applicable": true
           },
           {
             "ref": "2.10",
-            "title": "Ensure ASC Default policy setting \"Monitor Vulnerability Assessment\" is not \"Disabled\" (Scored)",
-            "summary": "Enable vulnerability assessment recommendations for virtual machines.",
+            "title": "Ensure that the log metric filter and alerts exist for Cloud Storage IAM permission changes (Scored)",
+            "summary": "It is recommended that a metric filter and alarm be established for Cloud Storage Bucket IAM changes.",
             "applicable": true
           },
           {
             "ref": "2.11",
-            "title": "Ensure ASC Default policy setting \"Monitor Storage Blob Encryption\" is not \"Disabled\" (Scored)",
-            "summary": "Enable storage encryption recommendations.",
-            "applicable": true
-          },
-          {
-            "ref": "2.12",
-            "title": "Ensure ASC Default policy setting \"Monitor JIT Network Access\" is not \"Disabled\" (Scored)",
-            "summary": "Enable JIT Network Access for virtual machines.",
-            "applicable": true
-          },
-          {
-            "ref": "2.13",
-            "title": "Ensure ASC Default policy setting \"Monitor Adaptive Application Whitelisting\" is not \"Disabled\" (Scored)",
-            "summary": "Enable adaptive application controls.",
-            "applicable": true
-          },
-          {
-            "ref": "2.14",
-            "title": "Ensure ASC Default policy setting \"Monitor SQL Auditing\" is not \"Disabled\" (Scored)",
-            "summary": "Enable SQL auditing recommendations.",
-            "applicable": true
-          },
-          {
-            "ref": "2.15",
-            "title": "Ensure ASC Default policy setting \"Monitor SQL Encryption\" is not \"Disabled\" (Scored)",
-            "summary": "Enable SQL encryption recommendations.",
-            "applicable": true
-          },
-          {
-            "ref": "2.16",
-            "title": "Ensure that 'Security contact emails' is set (Scored)",
-            "summary": "Provide a security contact email address.",
-            "applicable": true
-          },
-          {
-            "ref": "2.17",
-            "title": "Ensure that security contact 'Phone number' is set (Scored)",
-            "summary": "Provide a security contact phone number.",
-            "applicable": true
-          },
-          {
-            "ref": "2.18",
-            "title": "Ensure that 'Send email notification for high severity alerts' is set to 'On' (Scored)",
-            "summary": "Enable emailing security alerts to the security contact.",
-            "applicable": true
-          },
-          {
-            "ref": "2.19",
-            "title": "Ensure that 'Send email also to subscription owners' is set to 'On' (Scored)",
-            "summary": "Enable security alert emails to subscription owners.",
+            "title": "Ensure that the log metric filter and alerts exist for SQL instance configuration changes (Scored)",
+            "summary": "It is recommended that a metric filter and alarm be established for SQL instance configuration changes.",
             "applicable": true
           }
         ]
       },
       {
-        "title": "Storage Accounts",
+        "title": "Networking",
         "controls": [
           {
             "ref": "3.1",

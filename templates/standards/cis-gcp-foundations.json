@@ -63,7 +63,7 @@
           {
             "ref": "1.10",
             "title": "Ensure KMS encryption keys are rotated within a period of 90 days (Scored)",
-            "summary": "Google Cloud Key Management Service stores cryptographic keys in a hierarchical structure designed for useful and elegant access control management. The format for the rotation schedule depends on the client library that is used. For the gcloud command-line tool, the next rotation time must be in ISO or RFC3339 format, and the rotation period must be in the form INTEGER[UNIT], where units can be one of seconds (s), minutes (m), hours (h) or days (d).",
+            "summary": "Google Cloud Key Management Service stores cryptographic keys in a hierarchical structure designed for useful and elegant access control management.\nThe format for the rotation schedule depends on the client library that is used. For the gcloud command-line tool, the next rotation time must be in ISO or RFC3339 format, and the rotation period must be in the form INTEGER[UNIT], where units can be one of seconds (s), minutes (m), hours (h) or days (d).",
             "applicable": true
           },
           {
@@ -128,7 +128,7 @@
           {
             "ref": "2.5",
             "title": "Ensure that the log metric filter and alerts exist for Audit Configuration changes (Scored)",
-            "summary": "Google Cloud Platform (GCP) services write audit log entries to the Admin Activity and Data Access logs to help answer the questions of, \"who did what, where, and when?\" within GCP projects. Cloud audit logging records information includes the identity of the API caller, the time of the API call, the source IP address of the API caller, the request parameters, and the response elements returned by GCP services. Cloud audit logging provides a history of GCP API calls for an account, including API calls made via the console, SDKs, command-line tools, and other GCP services.",
+            "summary": "Google Cloud Platform (GCP) services write audit log entries to the Admin Activity and Data Access logs to help answer the questions of, \"who did what, where, and when?\" within GCP projects.\nCloud audit logging records information includes the identity of the API caller, the time of the API call, the source IP address of the API caller, the request parameters, and the response elements returned by GCP services. Cloud audit logging provides a history of GCP API calls for an account, including API calls made via the console, SDKs, command-line tools, and other GCP services.",
             "applicable": true
           },
           {
@@ -174,305 +174,197 @@
         "controls": [
           {
             "ref": "3.1",
-            "title": "Ensure that 'Secure transfer required' is set to 'Enabled' (Scored)",
-            "summary": "Enable data encryption is transit.",
+            "title": "Ensure that the default network does not exist in a project (Scored)",
+            "summary": "To prevent use of default network, a project should not have a default network.",
             "applicable": true
           },
           {
             "ref": "3.2",
-            "title": "Ensure that storage account access keys are periodically regenerated (Not Scored)",
-            "summary": "Regenerate storage account access keys periodically.",
+            "title": "Ensure legacy networks do not exist for a project (Scored)",
+            "summary": "In order to prevent use of legacy networks, a project should not have a legacy network configured.",
             "applicable": true
           },
           {
             "ref": "3.3",
-            "title": "Ensure Storage logging is enabled for Queue service for read",
-            "summary": "The Storage Queue service stores messages that may be read by any client who has access to the storage account. A queue can contain an unlimited number of messages, each of which can be up to 64KB in size using version 2011- 08 - 18 or newer. Storage Logging happens server-side and allows details for both successful and failed requests to be recorded in the storage account. These logs allow users to see the details of read, write, and delete operations against the queues. Storage Logging log entries contain the following information about individual requests: Timing information such as start time, end-to-end latency, and server latency, authentication details , concurrency information and the sizes of the request and response messages.",
+            "title": "Ensure that DNSSEC is enabled for Cloud DNS (Scored)",
+            "summary": "Cloud Domain Name System (DNS) is a fast, reliable and cost-effective domain name system that powers millions of domains on the internet. Domain Name System Security Extensions (DNSSEC) in Cloud DNS enables domain owners to take easy steps to protect their domains against DNS hijacking and man-in-the-middle and other attacks.",
             "applicable": true
           },
           {
             "ref": "3.4",
-            "title": "Ensure that shared access signature tokens expire within an hour (Not Scored)",
-            "summary": "Expire shared access signature tokens within an hour.",
+            "title": "Ensure that RSASHA1 is not used for the key-signing key in Cloud DNS DNSSEC (Not Scored)",
+            "summary": "DNSSEC algorithm numbers in this registry may be used in CERT RRs. Zone signing (DNSSEC) and transaction security mechanisms (SIG(0) and TSIG) make use of particular subsets of these algorithms. The algorithm used for key signing should be a recommended one and it should be strong.",
             "applicable": true
           },
           {
             "ref": "3.5",
-            "title": "Ensure that shared access signature tokens are allowed only over https (Not Scored)",
-            "summary": "Shared access signature tokens should be allowed only over HTTPS protocol.",
+            "title": "[duplicate] Ensure that RSASHA1 is not used for the zone-signing key in Cloud DNS DNSSEC (Not Scored)",
+            "summary": "DNSSEC algorithm numbers in this registry may be used in CERT RRs. Zone signing (DNSSEC) and transaction security mechanisms (SIG(0) and TSIG) make use of particular subsets of these algorithms. The algorithm used for key signing should be a recommended one and it should be strong.",
             "applicable": true
           },
           {
             "ref": "3.6",
-            "title": "Ensure that 'Public access level' is set to Private for blob containers (Scored)",
-            "summary": "Disable anonymous access to blob containers.",
+            "title": "Ensure that SSH access is restricted from the internet (Scored)",
+            "summary": "GCP Firewall Rules are specific to a VPC Network. Each rule either allows or denies traffic when its conditions are met. Its conditions allow the user to specify the type of traffic, such as ports and protocols, and the source or destination of the traffic, including IP addresses, subnets, and instances.\nFirewall rules are defined at the VPC network level and are specific to the network in which they are defined. The rules themselves cannot be shared among networks. Firewall rules only support IPv4 traffic. When specifying a source for an ingress rule or a destination for an egress rule by address, only an IPv4 address or IPv4 block in CIDR notation can be used. Generic (0.0.0.0/0) incoming traffic from the internet to VPC or VM instance using SSH on Port 22 can be avoided.",
             "applicable": true
           },
           {
             "ref": "3.7",
-            "title": "Ensure default network access rule for Storage Accounts is set to deny (Scored)",
-            "summary": "Restricting default network access helps to provide a new layer of security, since storage accounts accept connections from clients on any network. To limit access to selected networks, the default action must be changed.",
+            "title": "Ensure that RDP access is restricted from the Internet (Scored)",
+            "summary": "GCP Firewall Rules are specific to a VPC Network. Each rule either allows or denies traffic when its conditions are met. Its conditions allow users to specify the type of traffic, such as ports and protocols, and the source or destination of the traffic, including IP addresses, subnets, and instances.\nFirewall rules are defined at the VPC network level and are specific to the network in which they are defined. The rules themselves cannot be shared among networks. Firewall rules only support IPv4 traffic. When specifying a source for an ingress rule or a destination for an egress rule by address, an IPv4 address or IPv4 block in CIDR notation can be used. Generic (0.0.0.0/0) incoming traffic from the Internet to a VPC or VM instance using RDP on Port 3389 can be avoided.",
             "applicable": true
           },
           {
             "ref": "3.8",
-            "title": "Ensure 'Trusted Microsoft Services' is enabled for Storage Account access (Not Scored)",
-            "summary": "Some Microsoft services that interact with storage accounts operate from networks that can't be granted access through network rules. To help this type of service work as intended, allow the set of trusted Microsoft services to bypass the network rules. These services will then use strong authentication to access the storage account. If the Allow trusted Microsoft services exception is enabled, the following services: Azure Backup, Azure Site Recovery, Azure DevTest Labs, Azure Event Grid, Azure Event Hubs, Azure Networking, Azure Monitor and Azure SQL Data Warehouse (when registered in the subscription), are granted access to the storage account.",
+            "title": "Ensure that VPC Flow Logs is enabled for every subnet in a VPC Network (Scored)",
+            "summary": "Flow Logs is a feature that enables users to capture information about the IP traffic going to and from network interfaces in the organization's VPC Subnets. Once a flow log is created, the user can view and retrieve its data in Stackdriver Logging. It is recommended that Flow Logs be enabled for every business-critical VPC subnet.",
+            "applicable": true
+          },
+          {
+            "ref": "3.9",
+            "title": "Ensure no HTTPS or SSL proxy load balancers permit SSL policies with weak cipher suites (Not Scored)",
+            "summary": "Secure Sockets Layer (SSL) policies determine what port Transport Layer Security (TLS) features clients are permitted to use when connecting to load balancers. To prevent usage of insecure features, SSL policies should use (a) at least TLS 1.2 with the MODERN profile; or (b) the RESTRICTED profile, because it effectively requires clients to use TLS 1.2 regardless of the chosen minimum TLS version; or (3) a CUSTOM profile that does not support any of the following features:\n  • TLS_RSA_WITH_AES_128_GCM_SHA256\n  • TLS_RSA_WITH_AES_256_GCM_SHA384\n  • TLS_RSA_WITH_AES_128_CBC_SHA\n  • TLS_RSA_WITH_AES_256_CBC_SHA\n  • TLS_RSA_WITH_3DES_EDE_CBC_SHA",
             "applicable": true
           }
         ]
       },
       {
-        "title": "Database Services",
+        "title": "Virtual Machines",
         "controls": [
           {
             "ref": "4.1",
-            "title": "Ensure that 'Auditing' is set to 'On' (Scored)",
-            "summary": "Enable auditing on SQL Servers.",
+            "title": "Ensure that instances are not configured to use the default service account (Scored)",
+            "summary": "It is recommended to configure your instance to not use the default Compute Engine service account because it has the Editor role on the project.",
             "applicable": true
           },
           {
             "ref": "4.2",
-            "title": "Ensure that 'AuditActionGroups' in 'auditing' policy for a SQL server is set properly (Scored)",
-            "summary": "Configure the 'AuditActionGroups' property to appropriate groups to capture all the critical activities on the SQL Server and all the SQL databases hosted on the SQL server.",
+            "title": "Ensure that instances are not configured to use the default service account with full access to all Cloud APIs (Scored)",
+            "summary": "To support principle of least privileges and prevent potential privilege escalation it is recommended that instances are not assigned to default service account \"Compute Engine default service account\" with Scope \"Allow full access to all Cloud APIs.\"",
             "applicable": true
           },
           {
             "ref": "4.3",
-            "title": "Ensure that 'Auditing' Retention is 'greater than 90 days' (Scored)",
-            "summary": "SQL Server Audit Retention should be configured to be greater than 90 days.",
+            "title": "Ensure \"Block Project-wide SSH keys\" is enabled for VM instances (Scored)",
+            "summary": "It is recommended to use Instance specific SSH key(s) instead of using common/shared project-wide SSH key(s) to access Instances.",
             "applicable": true
           },
           {
             "ref": "4.4",
-            "title": "Ensure that 'Advanced Data Security' on a SQL server is set to 'On' (Scored)",
-            "summary": "Enable \"Advanced Data Security\" on critical SQL Servers.",
+            "title": "Ensure oslogin is enabled for a Project (Scored)",
+            "summary": "Enabling OS login binds SSH certificates to IAM users and facilitates effective SSH certificate management.",
             "applicable": true
           },
           {
             "ref": "4.5",
-            "title": "Ensure that 'Threat Detection types' is set to 'All' (Scored)",
-            "summary": "Enable all types of threat detection on SQL servers.",
+            "title": "Ensure 'Enable connecting to serial ports' is not enabled for VM Instance (Scored)",
+            "summary": "Interacting with a serial port is often referred to as the serial console, which is similar to using a terminal window, in that input and output is entirely in text mode and there is no graphical interface or mouse support.\nIf you enable the interactive serial console on an instance, clients can attempt to connect to that instance from any IP address. Therefore interactive serial console support should be disabled.",
             "applicable": true
           },
           {
             "ref": "4.6",
-            "title": "Ensure that 'Send alerts to' is set (Scored)",
-            "summary": "Provide the email address where alerts will be sent when anomalous activities are detected on SQL servers.",
+            "title": "Ensure that IP forwarding is not enabled on Instances (Scored)",
+            "summary": "Compute Engine instance cannot forward a packet unless the source IP address of the packet matches the IP address of the instance. Similarly, GCP won't deliver a packet whose destination IP address is different than the IP address of the instance receiving the packet. However, both capabilities are required if you want to use instances to help route packets.\nForwarding of data packets should be disabled to prevent data loss or information disclosure.",
             "applicable": true
           },
           {
             "ref": "4.7",
-            "title": "Ensure that 'Email service and co-administrators' is 'Enabled' (Scored)",
-            "summary": "Enable service and co-administrators to receive security alerts from the SQL server.",
+            "title": "Ensure VM disks for critical VMs are encrypted with Customer- Supplied Encryption Keys (CSEK) (Scored)",
+            "summary": "Customer-Supplied Encryption Keys (CSEK) are a feature in Google Cloud Storage and Google Compute Engine. If you supply your own encryption keys, Google uses your key to protect the Google-generated keys used to encrypt and decrypt your data. By default, Google Compute Engine encrypts all data at rest. Compute Engine handles and manages this encryption for you without any additional actions on your part. However, if you wanted to control and manage this encryption yourself, you can provide your own encryption keys.",
             "applicable": true
           },
           {
             "ref": "4.8",
-            "title": "Ensure that Azure Active Directory Admin is configured (Scored)",
-            "summary": "Use Azure Active Directory Authentication for authentication with SQL Database.",
+            "title": "Ensure Compute instances are launched with Shielded VM enabled (Scored)",
+            "summary": "To defend against against advanced threats and ensure that the boot loader and firmware on your VMs are signed and untampered, it is recommended that Compute instances are launched with Shielded VM enabled.",
             "applicable": true
           },
           {
             "ref": "4.9",
-            "title": "Ensure that 'Data encryption' is set to 'On' on a SQL Database (Scored)",
-            "summary": "Enable Transparent Data Encryption on every SQL server.",
+            "title": "Ensure that Compute instances do not have public IP addresses (Scored)",
+            "summary": "Compute instances should not be configured to have external IP addresses.",
             "applicable": true
           },
           {
             "ref": "4.10",
-            "title": "Ensure SQL server's TDE protector is encrypted with BYOK (Use your own key) (Scored)",
-            "summary": "TDE with BYOK support provides increased transparency and control over the TDE Protector, increased security with an HSM-backed external service, and promotion of separation of duties.",
-            "applicable": true
-          },
-          {
-            "ref": "4.11",
-            "title": "Ensure 'Enforce SSL connection' is set to 'ENABLED' for MySQL Database Server (Scored)",
-            "summary": "Enable SSL connection on MYSQL Servers.",
-            "applicable": true
-          },
-          {
-            "ref": "4.12",
-            "title": "Ensure server parameter 'log_checkpoints' is set to 'ON' for PostgreSQL Database Server (Scored)",
-            "summary": "Enable log_checkpoints on PostgreSQL Servers.",
-            "applicable": true
-          },
-          {
-            "ref": "4.13",
-            "title": "Ensure 'Enforce SSL connection' is set to 'ENABLED' for PostgreSQL Database Server (Scored)",
-            "summary": "Enable SSL connection on PostgreSQL Servers.",
-            "applicable": true
-          },
-          {
-            "ref": "4.14",
-            "title": "Ensure server parameter 'log_connections' is set to 'ON' for PostgreSQL Database Server (Scored)",
-            "summary": "Enable log_connections on PostgreSQL Servers.",
-            "applicable": true
-          },
-          {
-            "ref": "4.15",
-            "title": "Ensure server parameter 'log_disconnections' is set to 'ON' for PostgreSQL Database Server (Scored)",
-            "summary": "Enable log_disconnections on PostgreSQL Servers.",
-            "applicable": true
-          },
-          {
-            "ref": "4.16",
-            "title": "Ensure server parameter 'log_duration' is set to 'ON' for PostgreSQL Database Server (Scored)",
-            "summary": "Enable log_duration on PostgreSQL Servers.",
-            "applicable": true
-          },
-          {
-            "ref": "4.17",
-            "title": "Ensure server parameter 'connection_throttling' is set to 'ON' for PostgreSQL Database Server (Scored)",
-            "summary": "Enable connection_throttling on PostgreSQL Servers.",
-            "applicable": true
-          },
-          {
-            "ref": "4.18",
-            "title": "Ensure server parameter 'log_retention_days' is greater than 3 days for PostgreSQL Database Server (Scored)",
-            "summary": "Enable log_retention_days on PostgreSQL Servers.",
-            "applicable": true
-          },
-          {
-            "ref": "4.19",
-            "title": "Ensure that Azure Active Directory Admin is configured (Scored)",
-            "summary": "Use Azure Active Directory Authentication for authentication with SQL Database.",
+            "title": "Ensure that App Engine applications enforce HTTPS connections (Not Scored)",
+            "summary": "In order to maintain the highest level of security all connections to an application should be secure by default.",
             "applicable": true
           }
         ]
       },
       {
-        "title": "Logging and Monitoring",
+        "title": "Storage",
         "controls": [
           {
-            "ref": "5.1.1",
-            "title": "Ensure that a Log Profile exists (Scored)",
-            "summary": "Enable log profile for exporting activity logs.",
+            "ref": "5.1",
+            "title": "Ensure that Cloud Storage bucket is not anonymously or publicly accessible (Scored)",
+            "summary": "It is recommended that IAM policy on Cloud Storage bucket does not allows anonymous or public access.",
             "applicable": true
           },
           {
-            "ref": "5.1.2",
-            "title": "Ensure that Activity Log Retention is set 365 days or greater (Scored)",
-            "summary": "Ensure activity log retention is set for 365 days or greater.",
-            "applicable": true
-          },
-          {
-            "ref": "5.1.3",
-            "title": "Ensure audit profile captures all the activities (Scored)",
-            "summary": "The log profile should be configured to export all activities from the control/management plane.",
-            "applicable": true
-          },
-          {
-            "ref": "5.1.4",
-            "title": "Ensure the log profile captures activity logs for all regions including global (Scored)",
-            "summary": "Configure the log profile to export activities from all Azure supported regions/locations including global.",
-            "applicable": true
-          },
-          {
-            "ref": "5.1.5",
-            "title": "Ensure the storage container storing the activity logs is not publicly accessible (Scored)",
-            "summary": "The storage account container containing the activity log export should not be publicly accessible.",
-            "applicable": true
-          },
-          {
-            "ref": "5.1.6",
-            "title": "Ensure the storage account containing the container with activity logs is encrypted with BYOK (Use Your Own Key) (Scored)",
-            "summary": "The storage account with the activity log export container is configured to use BYOK (Use Your Own Key).",
-            "applicable": true
-          },
-          {
-            "ref": "5.1.7",
-            "title": "Ensure that logging for Azure KeyVault is 'Enabled' (Scored)",
-            "summary": "Enable AuditEvent logging for key vault instances to ensure interactions with key vaults are logged and available.",
-            "applicable": true
-          },
-          {
-            "ref": "5.2.1",
-            "title": "Ensure that Activity Log Alert exists for Create Policy Assignment (Scored)",
-            "summary": "Create an activity log alert for the Create Policy Assignment event.",
-            "applicable": true
-          },
-          {
-            "ref": "5.2.2",
-            "title": "Ensure that Activity Log Alert exists for Create or Update Network Security Group (Scored)",
-            "summary": "Create an Activity Log Alert for the \"Create\" or \"Update Network Security Group\" event.",
-            "applicable": true
-          },
-          {
-            "ref": "5.2.3",
-            "title": "Ensure that Activity Log Alert exists for Delete Network Security Group (Scored)",
-            "summary": "Create an activity log alert for the Delete Network Security Group event.",
-            "applicable": true
-          },
-          {
-            "ref": "5.2.4",
-            "title": "Ensure that Activity Log Alert exists for Create or Update Network Security Group Rule (Scored)",
-            "summary": "Create an activity log alert for the Create or Update Network Security Group Rule event.",
-            "applicable": true
-          },
-          {
-            "ref": "5.2.5",
-            "title": "Ensure that activity log alert exists for the Delete Network Security Group Rule (Scored)",
-            "summary": "Create an activity log alert for the Delete Network Security Group Rule event.",
-            "applicable": true
-          },
-          {
-            "ref": "5.2.6",
-            "title": "Ensure that Activity Log Alert exists for Create or Update Security Solution (Scored)",
-            "summary": "Create an activity log alert for the Create or Update Security Solution event.",
-            "applicable": true
-          },
-          {
-            "ref": "5.2.7",
-            "title": "Ensure that Activity Log Alert exists for Delete Security Solution (Scored)",
-            "summary": "Create an activity log alert for the Delete Security Solution event.",
-            "applicable": true
-          },
-          {
-            "ref": "5.2.8",
-            "title": "Ensure that Activity Log Alert exists for Create or Update or Delete SQL Server Firewall Rule (Scored)",
-            "summary": "Create an activity log alert for the Create or Update or Delete SQL Server Firewall Rule event.",
-            "applicable": true
-          },
-          {
-            "ref": "5.2.9",
-            "title": "Ensure that Activity Log Alert exists for Update Security Policy (Scored)",
-            "summary": "Create an activity log alert for the Update Security Policy event.",
+            "ref": "5.2",
+            "title": "Ensure that Cloud Storage buckets have uniform bucket-level access enabled (Scored)",
+            "summary": "It is recommended that uniform bucket-level access is enabled on Cloud Storage buckets.",
             "applicable": true
           }
         ]
       },
       {
-        "title": "Networking",
+        "title": "Cloud SQL Database Services",
         "controls": [
           {
-            "ref": "6.1",
-            "title": "Ensure that RDP access is restricted from the internet (Scored)",
-            "summary": "Disable RDP access on network security groups from the Internet.",
+            "ref": "6.1.1",
+            "title": "Ensure that a MySQL database instance does not allow anyone to connect with administrative privileges (Scored)",
+            "summary": "It is recommended to set a password for the administrative user (root by default) to prevent unauthorized access to the SQL database instances.\nThis recommendation is applicable only for MySQL Instances. PostgreSQL does not offer any setting for No Password from the cloud console.",
             "applicable": true
           },
           {
-            "ref": "6.2",
-            "title": "Ensure that SSH access is restricted from the internet (Scored)",
-            "summary": "Disable SSH access on network security groups from the Internet.",
+            "ref": "6.1.2",
+            "title": "Ensure that the 'local_infile' database flag for a Cloud SQL Mysql instance is set to 'off' (Scored)",
+            "summary": "It is recommended to set the `local_infile` database flag for a Cloud SQL MySQL instance to `off`.",
             "applicable": true
           },
           {
-            "ref": "6.3",
-            "title": "Ensure no SQL Databases allow ingress 0.0.0.0/0 (ANY IP) (Scored)",
-            "summary": "Ensure that no SQL Databases allow ingress from 0.0.0.0/0 (ANY IP).",
+            "ref": "6.2.1",
+            "title": "Ensure that the 'log_checkpoints' database flag for Cloud SQL PostgreSQL instance is set to 'on' (Scored)",
+            "summary": "Ensure that the `log_checkpoints` database flag for the Cloud SQL PostgreSQL instance is set to `on`.",
             "applicable": true
           },
           {
-            "ref": "6.4",
-            "title": "Ensure that Network Security Group Flow Log retention period is 'greater than 90 days' (Scored)",
-            "summary": "Network Security Group Flow Logs should be enabled and the retention period is set to greater than or equal to 90 days.",
+            "ref": "6.2.2",
+            "title": "Ensure that the 'log_connections' database flag for Cloud SQL PostgreSQL instance is set to 'on' (Scored)",
+            "summary": "Enabling the log_connections setting causes each attempted connection to the server to be logged, along with successful completion of client authentication. This parameter cannot be changed after the session starts.",
             "applicable": true
           },
           {
-            "ref": "6.5",
-            "title": "Ensure that Network Watcher is 'Enabled' (Scored)",
-            "summary": "Enable Network Watcher for Azure subscriptions.",
+            "ref": "6.2.3",
+            "title": "Ensure that the 'log_disconnections' database flag for Cloud SQL PostgreSQL instance is set to 'on' (Scored)",
+            "summary": "Enabling the `log_disconnections` setting logs the end of each session, including the session duration.",
+            "applicable": true
+          },
+          {
+            "ref": "6.2.4",
+            "title": "Ensure that the 'log_lock_waits' database flag for Cloud SQL PostgreSQL instance is set to 'on' (Scored)",
+            "summary": "Enabling the `log_lock_waits` flag for a PostgreSQL instance creates a log for any session waits that take longer than the alloted `deadlock_timeout` time to acquire a lock.",
+            "applicable": true
+          },
+          {
+            "ref": "6.2.5",
+            "title": "Ensure that the 'log_min_messages' database flag for Cloud SQL PostgreSQL instance is set appropriately (Not Scored)",
+            "summary": "The `log_min_error_statement` flag defines the minimum message severity level that is considered as an error statement. Messages for error statements are logged with the SQL statement. Valid values include DEBUG5, DEBUG4, DEBUG3, DEBUG2, DEBUG1, INFO, NOTICE, WARNING, ERROR, LOG, FATAL, and PANIC. Each severity level includes the subsequent levels mentioned above.",
+            "applicable": true
+          },
+          {
+            "ref": "6.2.6",
+            "title": "Ensure that the 'log_temp_files' database flag for Cloud SQL PostgreSQL instance is set to '0' (on) (Scored)",
+            "summary": "PostgreSQL can create a temporary file for actions such as sorting, hashing and temporary query results when these operations exceed `work_mem`. The `log_temp_files` flag controls logging names and the file size when it is deleted. Configuring `log_temp_files` to 0 causes all temporary file information to be logged, while positive values log only files whose size is greater than or equal to the specified number of kilobytes. A value of -1 disables temporary file information logging.",
+            "applicable": true
+          },
+          {
+            "ref": "6.2.7",
+            "title": "Ensure that the 'log_min_duration_statement' database flag for Cloud SQL PostgreSQL instance is set to '-1' (disabled) (Scored)",
+            "summary": "The `log_min_duration_statement` flag defines the minimum amount of execution time of a statement in milliseconds where the total duration of the statement is logged. Ensure that `log_min_duration_statement` is disabled, i.e., a value of -1 is set.",
             "applicable": true
           }
         ]

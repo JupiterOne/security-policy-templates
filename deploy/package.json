@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bytes": "^3.1.0",
+    "mime-types": "^2.1.26",
+    "p-all": "^2.1.0"
+  }
+}

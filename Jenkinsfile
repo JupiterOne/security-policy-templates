@@ -5,17 +5,17 @@ pipeline {
 
   stages {
     stage('build') {
-      when { branch 'master' }
+      // when { branch 'master' }
       agent { label 'ecs-builder' }
       steps {
         initBuild()
         sh 'cp -r templates ./deploy'
-        sh 'lifeomic-build'
-        sh 'lifeomic-publish'
+        sh 'jupiterone-build'
+        sh 'jupiterone-publish'
       }
     }
     stage('deploy') {
-      when { branch 'master' }
+      // when { branch 'master' }
       agent { label 'ecs-builder' }
       steps {
         deployToJupiterEnvironments (

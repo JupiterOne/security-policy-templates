@@ -44,6 +44,7 @@ exports.afterDeployTerraform = async (env) => {
           ContentEncoding: encoding,
           Body: body,
           Key: key,
+          ServerSideEncryption: "AES256",
         })
         .promise();
 

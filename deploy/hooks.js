@@ -35,7 +35,6 @@ exports.afterDeployTerraform = async (env) => {
   const uploadAsset = async (asset) => {
     const { body, encoding } = asset;
     const key = asset.relativePath;
-    console.log("bucketname", S3_BUCKET);
     try {
       await s3
         .upload({
@@ -102,9 +101,8 @@ exports.afterDeployTerraform = async (env) => {
   for (const obj of s3Objects) {
     try {
       await fs.access(templatesDir + obj.Key);
-      console.log(obj.Key, "good");
     } catch (err) {
-      console.log(err, obj.Key);
+     console.log('Deleting ', obj.Key);
       objectsToRemove.push(obj.Key);
     }
   }

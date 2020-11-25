@@ -54,49 +54,81 @@
     {
       "id": "AI",
       "name": "Assets and Infrastructure",
-      "policies": [],
+      "policies": [
+        "asset-mgmt",
+        "ccm",
+        "mdm"
+      ],
       "procedures": []
     },
     {
       "id": "PA",
       "name": "People and Access",
-      "policies": [],
+      "policies": [
+        "access",
+        "hr",
+        "rar"
+      ],
       "procedures": []
     },
     {
       "id": "VM",
       "name": "Vulnerability Management",
-      "policies": [],
+      "policies": [
+        "vuln-mgmt"
+      ],
       "procedures": []
     },
     {
       "id": "SD",
       "name": "Software Development",
-      "policies": [],
+      "policies": [
+        "sdlc"
+      ],
       "procedures": []
     },
     {
       "id": "DA",
       "name": "Data and Applications",
-      "policies": [],
+      "policies": [
+        "data-mgmt",
+        "data-protection"
+      ],
       "procedures": []
     },
     {
       "id": "OR",
       "name": "Operations and Response",
-      "policies": [],
+      "policies": [
+        "model",
+        "bcdr",
+        "breach",
+        "system-audit",
+        "threat"
+      ],
       "procedures": []
     },
     {
       "id": "PS",
       "name": "Physical and Datacenter Security",
-      "policies": [],
+      "policies": [
+        "facility"
+      ],
       "procedures": []
     },
     {
       "id": "GRC",
       "name": "Governance, Risk and Compliance",
-      "policies": [],
+      "policies": [
+        "bcdr",
+        "compliance-audit",
+        "corp-gov",
+        "policy-mgmt",
+        "privacy",
+        "rar",
+        "risk-mgmt",
+        "vendor"
+      ],
       "procedures": []
     }
   ],
@@ -110,6 +142,15 @@
         "cp-ism-scope",
         "cp-ism-policies",
         "cp-ism-reporting"
+      ]
+    },
+    {
+      "id": "corp-gov",
+      "file": "policies/corp-gov.md",
+      "name": "Corporate Governance",
+      "adopted": true,
+      "procedures": [
+        "cp-gov-bod"
       ]
     },
     {
@@ -475,6 +516,16 @@
       "provider": "JupiterOne",
       "summary": "Metrics are defined to measure the effectiveness of controls and they are reported to/reviewed by senior management.",
       "guidance": "This describes the key metrics and high level reporting process for the information security management program.",
+      "applicable": true,
+      "adopted": true
+    },
+    {
+      "id": "cp-gov-bod",
+      "file": "procedures/cp-gov-bod.md",
+      "name": "Board of Directors Responsibilities",
+      "type": "administrative",
+      "summary": "A board of directors is established that demonstrates independence from management and exercises oversight of the organization's development, performance, and internal controls.",
+      "guidance": "Establishing a board of directors with clearly defined responsibilities is instrumental to the effective corporate governance and executive oversight. It helps maintain organizational transparency, ensure ethical business operations, and protect stakeholder interests.",
       "applicable": true,
       "adopted": true
     },

@@ -63,6 +63,16 @@
       ]
     },
     {
+      "id": "policy-mgmt",
+      "file": "policies/policy-mgmt.md",
+      "name": "Policy Management",
+      "adopted": true,
+      "procedures": [
+        "cp-policy-framework",
+        "cp-policy-mgmt"
+      ]
+    },
+    {
       "id": "model",
       "file": "policies/model.md",
       "name": "Security Architecture and Operating Model",
@@ -85,15 +95,6 @@
         "cp-training-awareness",
         "cp-training-hipaa",
         "cp-internal-comms"
-      ]
-    },
-    {
-      "id": "policy-mgmt",
-      "file": "policies/policy-mgmt.md",
-      "name": "Policy Management",
-      "adopted": true,
-      "procedures": [
-        "cp-policy-mgmt"
       ]
     },
     {
@@ -538,6 +539,17 @@
       "applicable": true,
       "adopted": true,
       "resources": []
+    },
+    {
+      "id": "cp-policy-framework",
+      "file": "procedures/cp-policy-framework.md",
+      "name": "Policies and Controls Framework",
+      "type": "administrative",
+      "provider": "JupiterOne",
+      "summary": "The organization maintains a set of policies and controls that captures standards, regulatory, legal, and statutory requirements relevant to the business needs. The framework and its contents are reviewed at least annually.",
+      "guidance": "There should be a defined structure to maintain policies and controls. A process and/or governance tooling should be implemented to manage the policies, standards, and controls applicable to the organization and its business.",
+      "applicable": true,
+      "adopted": true
     },
     {
       "id": "cp-policy-mgmt",

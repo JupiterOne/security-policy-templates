@@ -50,10 +50,60 @@
     "isServiceProvider": false
   },
   "standards": [],
+  "domains": [
+    {
+      "id": "AI",
+      "name": "Assets and Infrastructure",
+      "policies": [],
+      "procedures": []
+    },
+    {
+      "id": "PA",
+      "name": "People and Access",
+      "policies": [],
+      "procedures": []
+    },
+    {
+      "id": "VM",
+      "name": "Vulnerability Management",
+      "policies": [],
+      "procedures": []
+    },
+    {
+      "id": "SD",
+      "name": "Software Development",
+      "policies": [],
+      "procedures": []
+    },
+    {
+      "id": "DA",
+      "name": "Data and Applications",
+      "policies": [],
+      "procedures": []
+    },
+    {
+      "id": "OR",
+      "name": "Operations and Response",
+      "policies": [],
+      "procedures": []
+    },
+    {
+      "id": "PS",
+      "name": "Physical and Datacenter Security",
+      "policies": [],
+      "procedures": []
+    },
+    {
+      "id": "GRC",
+      "name": "Governance, Risk and Compliance",
+      "policies": [],
+      "procedures": []
+    }
+  ],
   "policies": [
     {
-      "id": "program",
-      "file": "policies/program.md",
+      "id": "overview",
+      "file": "policies/overview.md",
       "name": "Security Program Overview",
       "adopted": true,
       "procedures": [

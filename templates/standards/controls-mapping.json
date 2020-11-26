@@ -2,56 +2,15 @@
   "procedures": [
     {
       "id": "cp-ism-scope",
-      "implements": [
-        {
-          "standard": "HIPAA",
-          "requirements": []
-        },
-        {
-          "standard": "CSA CCM",
-          "requirements": [
-            "AIS-01",
-            "STA-03",
-            "AAC-03"
-          ]
-        },
-        {
-          "standard": "PCI DSS",
-          "requirements": [
-            "11.6",
-            "12.1"
-          ]
-        }
-      ]
+      "implements": []
     },
     {
       "id": "cp-ism-policies",
-      "implements": [
-        {
-          "standard": "HIPAA",
-          "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
-        }
-      ]
+      "implements": []
     },
     {
       "id": "cp-ism-reporting",
-      "implements": [
-        {
-          "standard": "HIPAA",
-          "requirements": []
-        },
-        {
-          "standard": "CSA CCM",
-          "requirements": [
-            "SEF-05"
-          ]
-        }
-      ]
+      "implements": []
     },
     {
       "id": "cp-model-principles",
@@ -249,6 +208,35 @@
       ]
     },
     {
+      "id": "cp-policy-framework",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(1)(i)",
+            "164.308(a)(8)",
+            "164.316(a)",
+            "164.316(b)(1)",
+            "164.316(b)(1)(i)",
+            "164.316(b)(1)(ii)",
+            "164.316(b)(1)(iii)"
+          ]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": [
+            "AAC-03"
+          ]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": [
+            "12.1"
+          ]
+        }
+      ]
+    },
+    {
       "id": "cp-policy-mgmt",
       "implements": [
         {
@@ -266,6 +254,7 @@
         {
           "standard": "CSA CCM",
           "requirements": [
+            "AAC-03",
             "GRM-04",
             "STA-04"
           ]
@@ -273,7 +262,6 @@
         {
           "standard": "PCI DSS",
           "requirements": [
-            "2.5",
             "12.1"
           ]
         }
@@ -2034,6 +2022,7 @@
           "requirements": [
             "1.5",
             "2.2",
+            "2.5",
             "6.4"
           ]
         }
@@ -2068,7 +2057,8 @@
           "standard": "PCI DSS",
           "requirements": [
             "1.1",
-            "2.1"
+            "2.1",
+            "2.5"
           ]
         }
       ]
@@ -2171,7 +2161,8 @@
         {
           "standard": "PCI DSS",
           "requirements": [
-            "2.1"
+            "2.1",
+            "2.5"
           ]
         }
       ]

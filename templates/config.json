@@ -134,8 +134,8 @@
   ],
   "policies": [
     {
-      "id": "overview",
-      "file": "policies/overview.md",
+      "id": "program",
+      "file": "policies/program.md",
       "name": "Security Program Overview",
       "adopted": true,
       "procedures": [

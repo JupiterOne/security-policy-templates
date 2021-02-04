@@ -137,7 +137,7 @@
       "id": "program",
       "file": "policies/program.md",
       "name": "Security Program Overview",
-      "instructions": "Confirm/tailor Employee Handbook.",
+      "instructions": "Confirm/tailor link to Employee Handbook.",
       "adopted": true,
       "procedures": [
         "cp-ism-scope",
@@ -193,7 +193,7 @@
       "id": "risk-mgmt",
       "file": "policies/risk-mgmt.md",
       "name": "Risk Management and Risk Assessment Process",
-      "instructions": "Confirm/tailor adoption of each procedure, and risk tracking tool.",
+      "instructions": "Confirm/tailor adoption of each procedure, and a risk tracking tool.",
       "adopted": true,
       "procedures": [
         "cp-risk-mgmt-objectives",

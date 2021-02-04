@@ -1093,7 +1093,7 @@
       "provider": "AWS IAM and Okta",
       "function": "IAM",
       "summary": "Access to AWS cloud infrastructure is configured single sign on roles and temporary trusts. No persistent end-user access is configured.",
-      "guidance": "We highly recommend leveraging the assume-role capability in AWS to gain temporary access to resources, combined with a cloud-native IdP for single-sign-on. This removes the need to provision IAM users directly within each of your AWS accounts.",,
+      "guidance": "We highly recommend leveraging the assume-role capability in AWS to gain temporary access to resources, combined with a cloud-native IdP for single-sign-on. This removes the need to provision IAM users directly within each of your AWS accounts.",
       "instructions": "Confirm/tailor section relevance.",
       "applicable": true,
       "adopted": true

@@ -561,7 +561,7 @@
       "instructionsSummary": "Confirm/tailor HIPAA/HITECH relevance",
       "instructions": [
         "Are you HIPAA/HITECH compliant?"
-      ], 
+      ],
       "applicable": true,
       "adopted": true
     },
@@ -576,7 +576,7 @@
       "instructionsSummary": "Confirm/tailor location of external facing customer applications and systems.",
       "instructions": [
         "Where do you publish the status of external facing customer applications (uptime)?"
-      ], 
+      ],
       "applicable": true,
       "adopted": true
     },
@@ -591,7 +591,7 @@
       "instructionsSummary": "Confirm/tailor infrastructure.",
       "instructions": [
         "What cloud service provider are you using? (AWS?)"
-      ], 
+      ],
       "applicable": true,
       "adopted": true,
       "resources": [
@@ -614,7 +614,7 @@
         "What metrics will you use to measure the success of your security program?",
         "How frequently will scorecards be produced?",
         "Where will reports and scorecards be stored?"
-      ], 
+      ],
       "applicable": true,
       "adopted": true
     },
@@ -629,7 +629,7 @@
       "instructionsSummary": "Confirm/tailor responsibilities.",
       "instructions": [
         "What responsibilities will you commit to?"
-      ], 
+      ],
       "applicable": true,
       "adopted": true
     },
@@ -647,7 +647,7 @@
         "What is your retention duration of materials?",
         "What compliance frameworks do you cover?",
         "What is your inactivity duration before log off for ePHI applications?"
-      ], 
+      ],
       "applicable": true,
       "adopted": true
     },
@@ -662,7 +662,7 @@
       "instructionsSummary": "Confirm/tailor security awareness platform.",
       "instructions": [
         "Do you use KnowBe4 for security awareness training? If not, what is used?"
-      ], 
+      ],
       "applicable": true,
       "adopted": true
     },
@@ -677,7 +677,7 @@
       "instructionsSummary": "Confirm/tailor HIPAA need, frequency, and tool.",
       "instructions": [
         "Do you use KnowBe4 for security awareness training? If not, what is used?"
-      ], 
+      ],
       "applicable": true,
       "adopted": true,
       "resources": [
@@ -699,7 +699,7 @@
       "instructions": [
         "What tool do you use for HIPPAA Awareness Training?",
         "What interval do employees to have to complete training?"
-      ], 
+      ],
       "applicable": true,
       "adopted": true,
       "resources": []

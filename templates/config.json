@@ -196,7 +196,9 @@
       "file": "policies/risk-mgmt.md",
       "name": "Risk Management and Risk Assessment Process",
       "instructions": [
-        "Do you store any ePHI?"
+        "Do you store any ePHI?",
+        "How long do you retain documentation of risk assessment/management activities?",
+        "Do you perform a risk assessment at minimum annually?"
       ],
       "adopted": true,
       "procedures": [
@@ -264,8 +266,10 @@
       "name": "Access",
       "instructions": [
         "What are your primary critical systems and IdP?",
-        "Do unused accounts, passowrds, and access keys get removed? How frequently?",
-        "How soon after termination is system access revoked?"
+        "Do unused accounts, passwords, and access keys get removed? How frequently?",
+        "How frequently is systems access reviewed?",
+        "How soon after termination is system access revoked?",
+        "Is your organization subject to HIPAA compliance?"
       ],
       "adopted": true,
       "procedures": [
@@ -320,7 +324,8 @@
       "file": "policies/data-mgmt.md",
       "name": "Data Management",
       "instructions": [
-        "Do you store any ePHI?"
+        "Do you store any ePHI?",
+        "Are documentation & logs retained for at least 7+ years?"
       ],
       "adopted": true,
       "procedures": [
@@ -630,9 +635,7 @@
       "summary": "Metrics are defined to measure the effectiveness of controls and they are continuously monitored.",
       "guidance": "You will need to define a set of KPIs and metrics for monitoring and reporting on the effectiveness of the security controls. You can leverage JupiterOne's querying/reporting capability to automate the reporting process.",
       "instructions": [
-        "What metrics will you use to measure the success of your security program?",
-        "How frequently will scorecards be produced?",
-        "Where will reports and scorecards be stored?"
+        "How frequently will scorecards be produced?"
       ],
       "applicable": true,
       "adopted": true
@@ -1618,7 +1621,8 @@
       "guidance": "Data-at-rest refers to data being transmitted from one system/service to another, either internally or across an open network (e.g. the Internet). Encryption is required, typically in the form of HTTPS/TLS, SSH or IPSec VPN.",
       "instructions": [
         "What encryption levels do you implement?",
-        "What encryption services do you use?"
+        "What encryption services do you use?",
+        "How frequently do you rotate encryption keys?"
       ],
       "applicable": true,
       "adopted": true
@@ -1691,7 +1695,8 @@
       "summary": "A secure software development process, coding standards, and release strategy is established to ensure security is built-in to the products and applications.",
       "guidance": "How do you ensure security in your product development lifecycle? There are specific controls such as static application security testing (code scanning) that are documented individually. Here, you need to start with documentation the overall software development process and standards your development team follows.",
       "instructions": [
-        "What tooling do you use for continuous delivery of code?"
+        "What tooling do you use for continuous delivery of code?",
+        "Do you store any ePHI?"
       ],
       "applicable": true,
       "adopted": true
@@ -2181,6 +2186,7 @@
       "guidance": "Vulnerability scanning for your infrastructure (not applications) is a must. OpenVAS is an excellent open source solution that you can run yourself.",
       "instructions": [
         "Which cloud service provider do you use?",
+        "What is your cadence/timing for scans and tests?",
         "How long are records and findings maintained?"
       ],
       "applicable": true,
@@ -2243,7 +2249,8 @@
       "summary": "BYOD devices are not allowed to connect to production environments containing critical data.",
       "guidance": "You may not support bring-your-own-device (BYOD) for your employees.  If you do, a mobile device management (MDM) solution should be in place to properly manage them.  If you already use Okta as your IdP, they have a lightweight MDM solution you can enable from the same vendor. Alternatively, AirWatch or Jamf (Apple devices only) are also good solutions.",
       "instructions": [
-        "What tooling is used for endpoint device management?"
+        "What tooling is used for endpoint device management?",
+        "Is BYOD allowed?"
       ],
       "applicable": true,
       "adopted": true
@@ -2272,7 +2279,8 @@
       "summary": "Disaster recovery procedures are defined to cover activation, recovery and reconstitution of critical controls and resources.",
       "guidance": "Document the DR procedures including notification of a disaster, activation of the DR process, recovery and reconstitution.",
       "instructions": [
-        "Are the roles and responsibilities for general disaster recovery correct?"
+        "Are the roles and responsibilities for general disaster recovery correct?",
+        "What are your SLAs for disaster recovery?"
       ],
       "applicable": true,
       "adopted": true

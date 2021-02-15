@@ -298,7 +298,6 @@
       "file": "policies/facility.md",
       "name": "Facility Access and Physical Security",
       "instructions": [
-        "Is your organization subject to HIPAA compliance?",
         "Do you store any ePHI?"
       ],
       "adopted": true,
@@ -534,7 +533,7 @@
       "summary": "The organization has an established security program with appropriate controls that are aligned to the organization's objectives and risk posture.",
       "guidance": "This describes the organization's information security program scope, high level controls, and program management processes.",
       "instructions": [
-        "Do you plan to commit to all of the 10 security program items?"
+        "Which standards, domains, frameworks, etc. does your security program address?"
       ],
       "applicable": true,
       "adopted": true
@@ -558,9 +557,6 @@
       "provider": "JupiterOne",
       "summary": "Metrics are defined to measure the effectiveness of controls and they are reported to/reviewed by senior management.",
       "guidance": "This describes the key metrics and high level reporting process for the information security management program.",
-      "instructions": [
-        "What review frequency do you plan to have for policies, procedures, and controls?"
-      ],
       "applicable": true,
       "adopted": true
     },
@@ -587,7 +583,9 @@
         "Do you use a microservice architecture?",
         "Do you have a money back guarantee/remiburse customers for losses?",
         "Do you use the mentioned tooling?",
-        "What frequency do employees receive security awareness training?"
+        "What frequency do employees receive security awareness training?",
+        "Are you hacker verified?",
+        "Is your organization subject to HIPAA compliance?"
       ],
       "applicable": true,
       "adopted": true
@@ -680,8 +678,7 @@
       "summary": "Employees and contractors receive ongoing security awareness training at least annually.",
       "guidance": "Ongoing security awareness training is foundational to the overall risk reduction for any organization, not to mention is a compliance requirement almost universally. Our recommendation is to leverage a vendor, Ataata, who provides a low-cost and engaging way to keep your folks trained. All it takes is less than 5 minutes of everyone's time to watch a fun video and take a quiz every month.",
       "instructions": [
-        "Is your organization subject to HIPAA compliance?",
-        "What tooling is used for security awareness?"
+        "What tooling is used for security awareness and what topics are covered?"
       ],
       "applicable": true,
       "adopted": true
@@ -742,7 +739,8 @@
       "summary": "A formal process is in place to maintain and update security policies, controls and procedures. Policies, controls and procedures are reviewed at least annually.",
       "guidance": "Your security policies and procedures are living documents.  They should be reviewed, updated, and distributed on a regular basis.  Our recommendation is to manage policy as code (e.g. as a git repo), and this procedure provides the details on how to do that.",
       "instructions": [
-        "Where are your master policies and procedures published?",
+        "What frameworks do you use and how long do you retain them and associated documentation?",
+        "What is your documents revision process?",
         "Where are your backup policies and procedures stored?"
       ],
       "applicable": true,
@@ -769,6 +767,9 @@
       "guidance": "Risk management involves conducting risk assessment, risk analysis, risk mitigation and the continuous monitoring and management of risks. Risk management is a continuous process.",
       "instructions": [
         "Can you commit to the risk management process detailed by the 7 procedures?",
+        "Is your organization subject to HIPAA compliance?",
+        "How long is documentation retained for?",
+        "How often is this procedure monitored?",
         "What tooling do you use to track risks?"
       ],
       "applicable": true,
@@ -815,6 +816,9 @@
       "provider": "",
       "summary": "The organization holds cyber liability insurance with sufficient coverage based on its risk profile",
       "guidance": "Many organizations require their vendor/supplier to have cyber liability insurance to cover damage from potential incidents and breaches. You should always consider insurance as a risk transfer mechanism to offset the financial impact of a risk materializing.",
+      "instructions": [
+        "Do you have cyber liability insurance?"
+      ],
       "applicable": true,
       "adopted": true
     },
@@ -851,7 +855,8 @@
       "instructions": [
         "What email address do you provide to customers for reporting incidents, vulnerabilities, or other security inquiries?",
         "What email address do you provide to customers for privacy concerns, including violations reporting?",
-        "What email address do you provide to customers for compliance issues including requests of audit reports?"
+        "What email address do you provide to customers for compliance issues including requests of audit reports?",
+        "Is your organization subject to HIPAA compliance?"
       ],
       "applicable": true,
       "adopted": true
@@ -892,7 +897,8 @@
       "summary": "The security team monitors system security events and logs via a combination of automated tools and manual reviews.",
       "guidance": "Security logs, events, and audit trails should be reviewed on a regular basis.  In a mature security practice, this is a major effort of the daily security operations.  It should be monitored proactively instead of when a breach occurs. The sheer volume of events can quickly result in alert fatigue.  JupiterOne's automated event analysis capability can help without the need of a dedicated and expensive Security Information and Event Management (SIEM).",
       "instructions": [
-        "Where do security events get alerted to?"
+        "Where do security events get alerted to?",
+        "What is your SLA for analysis/reponse/investigation/triage of security events?"
       ],
       "applicable": true,
       "adopted": true
@@ -1013,6 +1019,9 @@
       "provider": "EaseCentral",
       "summary": "Organizational structure as well as individual job functions are established and communicated to all employees.",
       "guidance": "",
+      "instructions": [
+        "What tooling do you use for performance reviews?"
+      ],
       "applicable": true,
       "adopted": true
     },
@@ -1047,7 +1056,9 @@
       "summary": "Employee onboarding is coordinated between HR, IT and Security to ensure the appropriate training, access provisioning and system configurations are in place for each new hire.",
       "guidance": "When new employees join your organization, a set of activities are required as part of their onboarding, such as training, access provisioning, and configuration of their workstations. This procedure documents that process, while the actual implementation of them are covered by their corresponding procedures and controls.",
       "instructions": [
-        "Which HR System do you use to keep records of training and policy acceptance?"
+        "Which HR System do you use to keep records of training and policy acceptance?",
+        "Is your organization subject to HIPAA training?",
+        "What is the timeframe for completing training?"
       ],
       "applicable": true,
       "adopted": true
@@ -1169,7 +1180,7 @@
       "summary": "Multi-factor authentication (MFA) is required for all users with access to business critical systems.",
       "guidance": "Passwords are hard to remember but easy to compromise. Even with long and complex passwords, it is no longer sufficient by itself as the only control to prevent unauthorized access to critical systems and data. Okta and other similar IdP vendors provide multi-factor authentication (MFA) capability as part of their offering, and it is very easy to enable especially if you already use it for single sign on.",
       "instructions": [
-        "Which MFA proider do you use?"
+        "Which MFA provider do you use?"
       ],
       "applicable": true,
       "adopted": true
@@ -1367,7 +1378,7 @@
       "summary": "Production keys and secrets are securely stored and protected.",
       "guidance": "In additional to privileged user access, how do your applications and services gain access to keys and secrets in production? You need tools and controls around that. If you are in AWS, we find it best to use AWS Key Management Service (KMS) to manage data encryption keys, and AWS Systems Manager (SSM) Parameter Store to store secrets such as API keys. You will need to read up on their corresponding documentation on how to implement for your applications.",
       "instructions": [
-        "What toolinh is used to store production secrets?"
+        "What tooling is used to store production secrets?"
       ],
       "applicable": true,
       "adopted": true,
@@ -2422,7 +2433,6 @@
       "summary": "Investigation and notification process is in place to handle suspected and/or confirmed data breaches.",
       "guidance": "Wish for the best and prepare for the worst. In the unfortunate event that a breach occurs, you need to have defined procedures for the investigation and notification of such breach.",
       "instructions": [
-        "Is your organization subject to HIPAA compliance?",
         "Do you store any ePHI?",
         "What are your breach and notification SLAs?"
       ],
@@ -2438,7 +2448,6 @@
       "summary": "Customer responsibilities are defined in the case of a breach related to or resulted from customer activities.",
       "guidance": "A breach is sometimes caused by the customer and not you. You should clearly define and communicate such responsibilities to your customers.",
       "instructions": [
-        "Is your organization subject to HIPAA compliance?",
         "Do you store any ePHI?",
         "What are your customer ePHI disclosure SLAs?"
       ],

@@ -78,7 +78,7 @@
         {
           "ref": "cp-vendor-contracts",
           "title": "Vendor Contractual Agreements",
-          "summary": "Third party vendors are required to sign applicale contractual agreements, such as BAA (for HIPAA), DPA (for GDPR), SLA (for service providers), accepting their responsibilities to meet applicable data protection and privacy requirements."
+          "summary": "Third party vendors are required to sign applicable contractual agreements, such as BAA (for HIPAA), DPA (for GDPR), SLA (for service providers), accepting their responsibilities to meet applicable data protection and privacy requirements."
         }
       ]
     },
@@ -158,7 +158,7 @@
         {
           "ref": "cp-data-classification",
           "title": "Data Classification Model",
-          "summary": "Data classification model is defined to differentiate public, non-public, confidental/sensitive and critical data or information asset."
+          "summary": "Data classification model is defined to differentiate public, non-public, confidential/sensitive and critical data or information asset."
         },
         {
           "ref": "cp-data-handling",
@@ -353,7 +353,7 @@
         {
           "ref": "cp-vendor-contracts",
           "title": "Vendor Contractual Agreements",
-          "summary": "Third party vendors are required to sign applicale contractual agreements, such as BAA (for HIPAA), DPA (for GDPR), SLA (for service providers), accepting their responsibilities to meet applicable data protection and privacy requirements."
+          "summary": "Third party vendors are required to sign applicable contractual agreements, such as BAA (for HIPAA), DPA (for GDPR), SLA (for service providers), accepting their responsibilities to meet applicable data protection and privacy requirements."
         }
       ]
     },
@@ -698,7 +698,7 @@
         {
           "ref": "cp-access-standards",
           "title": "Standards for Access Provisioning",
-          "summary": "The organization incorporates security best practices and standards for provisioning access including unqiue user identification, automatic logoff, and least-privileged access."
+          "summary": "The organization incorporates security best practices and standards for provisioning access including unique user identification, automatic logoff, and least-privileged access."
         },
         {
           "ref": "cp-access-vpn",
@@ -733,7 +733,7 @@
         {
           "ref": "cp-threat-hids",
           "title": "Host Intrusion Detection",
-          "summary": "Host instrusion detection and malicious activity monitoring agents are installed on endpoint hosts and servers."
+          "summary": "Host intrusion detection and malicious activity monitoring agents are installed on endpoint hosts and servers."
         },
         {
           "ref": "cp-threat-webapp",
@@ -813,7 +813,7 @@
         {
           "ref": "cp-access-standards",
           "title": "Standards for Access Provisioning",
-          "summary": "The organization incorporates security best practices and standards for provisioning access including unqiue user identification, automatic logoff, and least-privileged access."
+          "summary": "The organization incorporates security best practices and standards for provisioning access including unique user identification, automatic logoff, and least-privileged access."
         },
         {
           "ref": "cp-access-change",
@@ -943,7 +943,7 @@
         {
           "ref": "cp-access-standards",
           "title": "Standards for Access Provisioning",
-          "summary": "The organization incorporates security best practices and standards for provisioning access including unqiue user identification, automatic logoff, and least-privileged access."
+          "summary": "The organization incorporates security best practices and standards for provisioning access including unique user identification, automatic logoff, and least-privileged access."
         },
         {
           "ref": "cp-access-vpn",
@@ -973,7 +973,7 @@
         {
           "ref": "cp-threat-hids",
           "title": "Host Intrusion Detection",
-          "summary": "Host instrusion detection and malicious activity monitoring agents are installed on endpoint hosts and servers."
+          "summary": "Host intrusion detection and malicious activity monitoring agents are installed on endpoint hosts and servers."
         },
         {
           "ref": "cp-threat-nids",
@@ -998,7 +998,7 @@
         {
           "ref": "cp-data-classification",
           "title": "Data Classification Model",
-          "summary": "Data classification model is defined to differentiate public, non-public, confidental/sensitive and critical data or information asset."
+          "summary": "Data classification model is defined to differentiate public, non-public, confidential/sensitive and critical data or information asset."
         },
         {
           "ref": "cp-data-handling",
@@ -1063,7 +1063,7 @@
         {
           "ref": "cp-ccm-provision-endpoint",
           "title": "User Endpoint Security Controls and Configuration",
-          "summary": "End-user computing systems are configured with required baseline security controls including disk encyrption, unique user account and strong password policy, host firewall, screenlock protection, auto-update of security patches, and endpoint security agent for configuration monitoring and malware protection."
+          "summary": "End-user computing systems are configured with required baseline security controls including disk encryption, unique user account and strong password policy, host firewall, screenlock protection, auto-update of security patches, and endpoint security agent for configuration monitoring and malware protection."
         },
         {
           "ref": "cp-ccm-provision-server",
@@ -1168,7 +1168,7 @@
         {
           "ref": "cp-threat-hids",
           "title": "Host Intrusion Detection",
-          "summary": "Host instrusion detection and malicious activity monitoring agents are installed on endpoint hosts and servers."
+          "summary": "Host intrusion detection and malicious activity monitoring agents are installed on endpoint hosts and servers."
         },
         {
           "ref": "cp-threat-siem",
@@ -1303,12 +1303,12 @@
         {
           "ref": "cp-ccm-prodcm",
           "title": "Production Deploy / Code Promotion Processes",
-          "summary": "Code deploys to production require an approved change ticket with sufficent details about the code change."
+          "summary": "Code deploys to production require an approved change ticket with sufficient details about the code change."
         },
         {
           "ref": "cp-ccm-provision-endpoint",
           "title": "User Endpoint Security Controls and Configuration",
-          "summary": "End-user computing systems are configured with required baseline security controls including disk encyrption, unique user account and strong password policy, host firewall, screenlock protection, auto-update of security patches, and endpoint security agent for configuration monitoring and malware protection."
+          "summary": "End-user computing systems are configured with required baseline security controls including disk encryption, unique user account and strong password policy, host firewall, screenlock protection, auto-update of security patches, and endpoint security agent for configuration monitoring and malware protection."
         },
         {
           "ref": "cp-ccm-provision-mgmt",
@@ -1393,7 +1393,7 @@
         {
           "ref": "cp-vendor-contracts",
           "title": "Vendor Contractual Agreements",
-          "summary": "Third party vendors are required to sign applicale contractual agreements, such as BAA (for HIPAA), DPA (for GDPR), SLA (for service providers), accepting their responsibilities to meet applicable data protection and privacy requirements."
+          "summary": "Third party vendors are required to sign applicable contractual agreements, such as BAA (for HIPAA), DPA (for GDPR), SLA (for service providers), accepting their responsibilities to meet applicable data protection and privacy requirements."
         },
         {
           "ref": "cp-vendor-vtr",

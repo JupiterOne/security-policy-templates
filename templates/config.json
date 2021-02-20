@@ -137,9 +137,6 @@
       "id": "program",
       "file": "policies/program.md",
       "name": "Security Program Overview",
-      "instructions": [
-        "Do you have a sharable Employee Handbook? If so, please replace the templated content with your own."
-      ],
       "adopted": true,
       "procedures": [
         "cp-ism-scope",
@@ -195,11 +192,6 @@
       "id": "risk-mgmt",
       "file": "policies/risk-mgmt.md",
       "name": "Risk Management and Risk Assessment Process",
-      "instructions": [
-        "Do you store any ePHI?",
-        "How long do you retain documentation of risk assessment/management activities?",
-        "Do you perform a risk assessment at minimum annually?"
-      ],
       "adopted": true,
       "procedures": [
         "cp-risk-mgmt-objectives",
@@ -264,13 +256,6 @@
       "id": "access",
       "file": "policies/access.md",
       "name": "Access",
-      "instructions": [
-        "What are your primary critical systems and IdP?",
-        "Do unused accounts, passwords, and access keys get removed? How frequently?",
-        "How frequently is systems access reviewed?",
-        "How soon after termination is system access revoked?",
-        "Is your organization subject to HIPAA compliance?"
-      ],
       "adopted": true,
       "procedures": [
         "cp-access-standards",
@@ -297,9 +282,6 @@
       "id": "facility",
       "file": "policies/facility.md",
       "name": "Facility Access and Physical Security",
-      "instructions": [
-        "Do you store any ePHI?"
-      ],
       "adopted": true,
       "procedures": [
         "cp-physical",
@@ -322,10 +304,6 @@
       "id": "data-mgmt",
       "file": "policies/data-mgmt.md",
       "name": "Data Management",
-      "instructions": [
-        "Do you store any ePHI?",
-        "Are documentation & logs retained for at least 7+ years?"
-      ],
       "adopted": true,
       "procedures": [
         "cp-data-classification",
@@ -354,9 +332,6 @@
       "id": "sdlc",
       "file": "policies/sdlc.md",
       "name": "Secure Software Development and Product Security",
-      "instructions": [
-        "What is your SLA for critical/high severity security findings?"
-      ],
       "adopted": true,
       "procedures": [
         "cp-sdlc-dev",
@@ -378,9 +353,6 @@
       "id": "ccm",
       "file": "policies/ccm.md",
       "name": "Configuration and Change Management",
-      "instructions": [
-        "What tooling do you use for configuration management?"
-      ],
       "adopted": true,
       "procedures": [
         "cp-ccm-config",
@@ -416,10 +388,6 @@
       "id": "vuln-mgmt",
       "file": "policies/vuln-mgmt.md",
       "name": "Vulnerability Management",
-      "instructions": [
-        "What is your vulnerability scan cadence?",
-        "How long do you retain records and findings?"
-      ],
       "adopted": true,
       "procedures": [
         "cp-vuln-scan",
@@ -441,9 +409,6 @@
       "id": "bcdr",
       "file": "policies/bcdr.md",
       "name": "Business Continuity and Disaster Recovery",
-      "instructions": [
-        "Is your organization subject to HIPAA compliance?"
-      ],
       "adopted": true,
       "procedures": [
         "cp-bcdr",
@@ -472,9 +437,6 @@
       "id": "breach",
       "file": "policies/breach.md",
       "name": "Breach Investigation and Notification",
-      "instructions": [
-        "Is your organization subject to HIPAA compliance?"
-      ],
       "adopted": true,
       "procedures": [
         "cp-breach-investigate",
@@ -532,7 +494,7 @@
       "provider": "JupiterOne",
       "summary": "The organization has an established security program with appropriate controls that are aligned to the organization's objectives and risk posture.",
       "guidance": "This describes the organization's information security program scope, high level controls, and program management processes.",
-      "instructions": [
+      "considerations": [
         "Which standards, domains, frameworks, etc. does your security program address?"
       ],
       "applicable": true,
@@ -578,14 +540,11 @@
       "provider": "",
       "summary": "The organization incorporates best practices such as least-privilege or zero-trust in its security operating model.",
       "guidance": "This describes the high level operating principles of a DevOps oriented security program. The cloud-native, zero-trust approach enables a modern security operating model and eliminates the need for certain legacy security controls.",
-      "instructions": [
-        "Are you a zero-trust network?",
+      "considerations": [
         "Do you use a microservice architecture?",
-        "Do you have a money back guarantee/remiburse customers for losses?",
-        "Do you use the mentioned tooling?",
-        "What frequency do employees receive security awareness training?",
-        "Are you hacker verified?",
-        "Is your organization subject to HIPAA compliance?"
+        "Do your employees receive regular ongoing security awareness training more than once a year?",
+        "Do you have a bug bounty or public vulnerability disclosure program?",
+        "Is your organization subject to regulatory compliance such as HIPAA or FISMA?"
       ],
       "applicable": true,
       "adopted": true
@@ -598,7 +557,7 @@
       "provider": "",
       "summary": "The organization communicates its commitment to quality of service to its users and customers.",
       "guidance": "This describes at a high level how system quality assurance is managed and provides references to further documentation",
-      "instructions": [
+      "considerations": [
         "Where do you publish the status of external facing customer applications (uptime)?"
       ],
       "applicable": true,
@@ -612,7 +571,7 @@
       "provider": "JupiterOne",
       "summary": "Security architecture is documented, including system and infrastructure security diagrams.",
       "guidance": "A good security architecture is the starting point of a strong program foundation. You will need to maintain an up to date architecture diagram for security reviews with customers and auditors. JupiterOne can help automate the generation of network and application architecture diagrams in your cloud environments, so you don't have to spend time maintaining and updating it every time something changes.",
-      "instructions": [
+      "considerations": [
         "Which cloud service provider & corresponding products/services do you use?"
       ],
       "applicable": true,
@@ -632,7 +591,7 @@
       "provider": "JupiterOne",
       "summary": "Metrics are defined to measure the effectiveness of controls and they are continuously monitored.",
       "guidance": "You will need to define a set of KPIs and metrics for monitoring and reporting on the effectiveness of the security controls. You can leverage JupiterOne's querying/reporting capability to automate the reporting process.",
-      "instructions": [
+      "considerations": [
         "How frequently will scorecards be produced?"
       ],
       "applicable": true,
@@ -646,7 +605,7 @@
       "provider": "JupiterOne",
       "summary": "Security and compliance roles and responsibilities are clearly defined to ensure segregation of duties.",
       "guidance": "Regulatory compliance frameworks, such as HIPAA, require formal assignment of security and privacy responsibilities to someone in your organization. As your organization expands and matures, you may want to form an executive level security committee to meet this requirement. Often, such a committee is a requirement of security certifications. You can manage this role assignment manually (I.E. in this documented policy/control procedure) or in the JupiterOne's app. Using JupiterOne, you can almost always avoid implementing a complicated enterprise GRC system.",
-      "instructions": [
+      "considerations": [
         "What responsibilities will you commit to?"
       ],
       "applicable": true,
@@ -660,11 +619,11 @@
       "provider": "JupiterOne",
       "summary": "Employees and contractors receive training on the organization's security policies and procedures.",
       "guidance": "You will need to ensure all your employees are properly trained on the security policies and procedures. You may leverage a full featured learning management system (LMS) to develop, distribute, and track this training. JupiterOne also supports a simple process that allows your employees to access your security policies and procedures, and capture their acknowledgement.",
-      "instructions": [
+      "considerations": [
         "What is your current employee training program for policies and compliance?",
         "What is your retention duration of materials?",
         "Which compliance frameworks do you cover?",
-        "What is your inactivity duration before log off for ePHI applications?"
+        "What is your inactivity duration before log off for applications that store sensitive data?"
       ],
       "applicable": true,
       "adopted": true
@@ -677,7 +636,7 @@
       "provider": "KnowBe4",
       "summary": "Employees and contractors receive ongoing security awareness training at least annually.",
       "guidance": "Ongoing security awareness training is foundational to the overall risk reduction for any organization, not to mention is a compliance requirement almost universally. Our recommendation is to leverage a vendor, Ataata, who provides a low-cost and engaging way to keep your folks trained. All it takes is less than 5 minutes of everyone's time to watch a fun video and take a quiz every month.",
-      "instructions": [
+      "considerations": [
         "What tooling is used for security awareness and what topics are covered?"
       ],
       "applicable": true,
@@ -691,8 +650,8 @@
       "provider": "KnowBe4",
       "summary": "Employees and contractors working with patient data and protected health information (PHI) are required to take HIPAA awareness training within 30 days of onboarding and annually thereafter.",
       "guidance": "If your organization is subject to HIPAA compliance, you must ensure all workforce members take a HIPAA awareness training annually. You may sign up with a vendor like Ataata to access training content, or alternatively, you may leverage an open-source training JupiterOne provides as a start.",
-      "instructions": [
-        "What tooling do you use for HIPAA Awareness Training?",
+      "considerations": [
+        "What tooling do you use for HIPAA or FISMA Awareness Training?",
         "What interval do employees to have to complete training?"
       ],
       "applicable": true,
@@ -712,7 +671,7 @@
       "provider": "",
       "summary": "Management and each individual department/team holds regular company-wide / departmental / team meetings to review and discuss various aspects of business performance and objectives.",
       "guidance": "It is important to keep everyone on team / in the company regularly updated on the overall business strategy, goals and performance. One example is weekly/monthly roundtable or townhalls. At the individual team level, this could be the daily development standups/scrum sessions. This helps fosture an engaging, transparent and fast-moving culture.",
-      "instructions": [
+      "considerations": [
         "What is your company-wide communication frequency?"
       ],
       "applicable": true,
@@ -738,7 +697,7 @@
       "provider": "JupiterOne",
       "summary": "A formal process is in place to maintain and update security policies, controls and procedures. Policies, controls and procedures are reviewed at least annually.",
       "guidance": "Your security policies and procedures are living documents.  They should be reviewed, updated, and distributed on a regular basis.  Our recommendation is to manage policy as code (e.g. as a git repo), and this procedure provides the details on how to do that.",
-      "instructions": [
+      "considerations": [
         "What frameworks do you use and how long do you retain them and associated documentation?",
         "What is your documents revision process?",
         "Where are your backup policies and procedures stored?"
@@ -765,9 +724,9 @@
       "provider": "JupiterOne",
       "summary": "The organization has a risk management policy and defined process for managing risks - including risk identification, mitigation, monitoring, review and approval.",
       "guidance": "Risk management involves conducting risk assessment, risk analysis, risk mitigation and the continuous monitoring and management of risks. Risk management is a continuous process.",
-      "instructions": [
+      "considerations": [
         "Can you commit to the risk management process detailed by the 7 procedures?",
-        "Is your organization subject to HIPAA compliance?",
+        "Is your organization subject to regulatory compliance such as HIPAA or FISMA?",
         "How long is documentation retained for?",
         "How often is this procedure monitored?",
         "What tooling do you use to track risks?"
@@ -816,7 +775,7 @@
       "provider": "",
       "summary": "The organization holds cyber liability insurance with sufficient coverage based on its risk profile",
       "guidance": "Many organizations require their vendor/supplier to have cyber liability insurance to cover damage from potential incidents and breaches. You should always consider insurance as a risk transfer mechanism to offset the financial impact of a risk materializing.",
-      "instructions": [
+      "considerations": [
         "Do you have cyber liability insurance?"
       ],
       "applicable": true,
@@ -852,11 +811,11 @@
       "provider": "JupiterOne",
       "summary": "Process and channels are established to communicate the compliance status to external stakeholders.",
       "guidance": "You should have a pre-defined process for external entities to request audit and compliance reports.",
-      "instructions": [
+      "considerations": [
         "What email address do you provide to customers for reporting incidents, vulnerabilities, or other security inquiries?",
         "What email address do you provide to customers for privacy concerns, including violations reporting?",
         "What email address do you provide to customers for compliance issues including requests of audit reports?",
-        "Is your organization subject to HIPAA compliance?"
+        "Is your organization subject to regulatory compliance such as HIPAA or FISMA?"
       ],
       "applicable": true,
       "adopted": true
@@ -880,7 +839,7 @@
       "provider": "",
       "summary": "The organization has defined auditing processes including system configuration monitoring, activity monitoring, access review, and controls compliance audit.",
       "guidance": "There are several forms of system audits and they are defined here.",
-      "instructions": [
+      "considerations": [
         "Which cloud services do you allow employees to access?",
         "Which IdP do you use?",
         "How do you protect network access?"
@@ -896,7 +855,7 @@
       "provider": "JupiterOne",
       "summary": "The security team monitors system security events and logs via a combination of automated tools and manual reviews.",
       "guidance": "Security logs, events, and audit trails should be reviewed on a regular basis.  In a mature security practice, this is a major effort of the daily security operations.  It should be monitored proactively instead of when a breach occurs. The sheer volume of events can quickly result in alert fatigue.  JupiterOne's automated event analysis capability can help without the need of a dedicated and expensive Security Information and Event Management (SIEM).",
-      "instructions": [
+      "considerations": [
         "Where do security events get alerted to?",
         "What is your SLA for analysis/reponse/investigation/triage of security events?"
       ],
@@ -911,7 +870,7 @@
       "provider": "JupiterOne",
       "summary": "The organization performs manual testing and reviews of systems, accounts and controls as needed. The audit may be performed by internal teams or external auditors.",
       "guidance": "From time to time, an internal audit may be needed on controls and processes that are not already covered via automated monitoring. This process is defined here.",
-      "instructions": [
+      "considerations": [
         "How are manual internal audit and review activities tracked?"
       ],
       "applicable": true,
@@ -969,7 +928,7 @@
       "provider": "AWS CloudTrail",
       "summary": "Audit trails are protected against modification and unauthorized access.",
       "guidance": "Audit trails should be immutable. It is crucial to protect audit trails for record keeping and forensic analysis. Audit logs shall be retained according to your business needs and regulatory compliance requirements.",
-      "instructions": [
+      "considerations": [
         "Are system logs encrypted?",
         "What logging tools do you use?",
         "Where are system logs retained?",
@@ -1019,7 +978,7 @@
       "provider": "EaseCentral",
       "summary": "Organizational structure as well as individual job functions are established and communicated to all employees.",
       "guidance": "",
-      "instructions": [
+      "considerations": [
         "What tooling do you use for performance reviews?"
       ],
       "applicable": true,
@@ -1055,9 +1014,9 @@
       "provider": "manual process",
       "summary": "Employee onboarding is coordinated between HR, IT and Security to ensure the appropriate training, access provisioning and system configurations are in place for each new hire.",
       "guidance": "When new employees join your organization, a set of activities are required as part of their onboarding, such as training, access provisioning, and configuration of their workstations. This procedure documents that process, while the actual implementation of them are covered by their corresponding procedures and controls.",
-      "instructions": [
+      "considerations": [
         "Which HR System do you use to keep records of training and policy acceptance?",
-        "Is your organization subject to HIPAA training?",
+        "Is your organization subject to training for regulatory compliance such as HIPAA or FISMA?",
         "What is the timeframe for completing training?"
       ],
       "applicable": true,
@@ -1071,7 +1030,7 @@
       "provider": "manual process",
       "summary": "Employee exiting is coordinated between HR, IT and Security to ensure proper access termination and return of equipment.",
       "guidance": "Similar to employee onboarding, when someone leaves your organization, a set of actions shall be performed.  This may include termination of access, return of equipment, etc.",
-      "instructions": [
+      "considerations": [
         "What is your employee termination process?"
       ],
       "applicable": true,
@@ -1085,7 +1044,7 @@
       "provider": "manual process",
       "summary": "Employees are provided a safe channel and process to escalate workplace issues to HR and/or senior management if needed.",
       "guidance": "As part of your HR operations, you should have a defined process for an employee to safely escalate an issue that might arise in the workplace.",
-      "instructions": [
+      "considerations": [
         "Where can employees escalate a security incident that needs action?"
       ],
       "applicable": true,
@@ -1110,7 +1069,7 @@
       "provider": "Small Improvements",
       "summary": "Performance reviews are conducted annually to evaluate performance of employees against expected levels.",
       "guidance": "You should document the process and tool used to conduct employee performance reviews. This demonstrates your organization holds individuals accountable for their roles and responsibilities.",
-      "instructions": [
+      "considerations": [
         "What is your employee performance review process?"
       ],
       "applicable": true,
@@ -1124,7 +1083,7 @@
       "provider": "Motivosity",
       "summary": "Employees receive regular peer recognition, feedback and rewards for positive behavior and impact.",
       "guidance": "Regular feedback, encouragement and recognition help create a culture of motivated employees.",
-      "instructions": [
+      "considerations": [
         "Do you have an incentive or rewards program/tool?"
       ],
       "applicable": true,
@@ -1149,7 +1108,7 @@
       "provider": "manual process",
       "summary": "Policies and processes are in place to investigate and take appropriate actions on any non-compliance to the organization's policies and procedures.",
       "guidance": "All workforce members should be trained on and accept your organizational security policies and procedures. In the case of a violation, there should be a pre-defined procedure to identify, investigate, and fairly treat each incident.",
-      "instructions": [
+      "considerations": [
         "Do you have an employee warning notice template?"
       ],
       "applicable": true,
@@ -1164,7 +1123,7 @@
       "function": "SSO",
       "summary": "Access to business systems and applications is centrally managed via single sign on (SSO) when possible.",
       "guidance": "Your organization most likely relies on multiple business applications to support its operations. This may include end-user systems, collaboration tools, development and production environments, etc. Managing access to all of your business applications and systems centrally ensures consistent access policy and auditing. Being a cloud-native organization, we highly recommend using a cloud-based identity provider, such as Okta, OneLogin, Google and others for centralized access control and single sign on.",
-      "instructions": [
+      "considerations": [
         "Which IdP/SSO tool do you use?"
       ],
       "applicable": true,
@@ -1179,7 +1138,7 @@
       "function": "MFA",
       "summary": "Multi-factor authentication (MFA) is required for all users with access to business critical systems.",
       "guidance": "Passwords are hard to remember but easy to compromise. Even with long and complex passwords, it is no longer sufficient by itself as the only control to prevent unauthorized access to critical systems and data. Okta and other similar IdP vendors provide multi-factor authentication (MFA) capability as part of their offering, and it is very easy to enable especially if you already use it for single sign on.",
-      "instructions": [
+      "considerations": [
         "Which MFA provider do you use?"
       ],
       "applicable": true,
@@ -1205,8 +1164,8 @@
       "function": "IAM",
       "summary": "Access to AWS cloud infrastructure is configured single sign on roles and temporary trusts. No persistent end-user access is configured.",
       "guidance": "We highly recommend leveraging the assume-role capability in AWS to gain temporary access to resources, combined with a cloud-native IdP for single-sign-on. This removes the need to provision IAM users directly within each of your AWS accounts.",
-      "instructions": [
-        "Do you use AWS? If not, remove procedure."
+      "considerations": [
+        "Do you use AWS? If not, remove/replace procedure."
       ],
       "applicable": true,
       "adopted": true
@@ -1220,8 +1179,8 @@
       "function": "VPN",
       "summary": "Remote access to private and internal systems are configured via encrypted VPN channels.",
       "guidance": "Remote access is typically secured via VPN. This could be implemented as a EC2 instance running in your private subnet/VPC instead AWS, or a server on whatever private network in your hosted or internal environment. Pritunl is a lightweight, OpenVPN based solution that is free to start, and can scale as you grow. WireGuard is a good open-source option as well.",
-      "instructions": [
-        "Which VPN proider do you use?"
+      "considerations": [
+        "Which VPN provider do you use?"
       ],
       "applicable": true,
       "adopted": true
@@ -1235,8 +1194,8 @@
       "function": "IAM",
       "summary": "Access to PHI/ePHI is restricted to only individuals with business need and protected by strong access control.",
       "guidance": "Access to PHI/ePHI should be limited to those with a business need only, and protected by strong access control and auditing. We recommend using a combination of the native AWS IAM policies and single sign on (e.g. Okta) for access enforcement. Additionally, an extra layer of protection may be added to restrict risky or privileged actions.  This can be implemented using Explicit Deny actions in the AWS IAM policies.  A tool like Dome9 can help automate that process.",
-      "instructions": [
-        "Do you store PHI/ePHI?"
+      "considerations": [
+        "Do you store any sensitive data such as PII, PHI, or credit card/financial data?"
       ],
       "applicable": true,
       "adopted": true
@@ -1262,7 +1221,7 @@
       "function": "SSO",
       "summary": "Changes to pre-established access (configured as part of onboarding) must be requested and approved by the employee's manager or security team prior to granting access. Non-standard access is revoked when no longer needed.",
       "guidance": "From time to time, you may need to add, change, or remove access to certain resources for an employee/contractor. It is required you have a process to capture the request, approval, and provisioning of such actions. If you already use an issue management tool like Jira, it is pretty straightforward to create a Service Desk project and manage it there.",
-      "instructions": [
+      "considerations": [
         "What are the standard/default accounts new employees receive access to?",
         "What tooling do for managing access?",
         "What is the access review frequency?",
@@ -1292,7 +1251,7 @@
       "function": ["IAM", "PAM", "secret-management"],
       "summary": "Service accounts and application credentials are securely managed.",
       "guidance": "In AWS, access given to application services and components are achieved using IAM roles, policies, and assume-role capability. The provisioning of such access should be managed as code.  We find it simple and flexible to use Terraform to describe and provision infrastructure-as-code.",
-      "instructions": [
+      "considerations": [
         "What tooling is used for service accounts?"
       ],
       "applicable": true,
@@ -1318,7 +1277,7 @@
       "provider": "Okta",
       "summary": "The organization incorporates security best practices and standards for provisioning access including unique user identification, automatic logoff, and least-privileged access.",
       "guidance": "You need to be able describe how your access control is implemented.  For example, using role-based access control, unique account/ID for each user, automatic log on/log off, etc. These should match the configuration of your identity provider or access control system such as Okta.",
-      "instructions": [
+      "considerations": [
         "What authentication tool do you use?",
         "Do you disable/lock default accounts on production systems?",
         "Can users share accounts?",
@@ -1335,7 +1294,7 @@
       "provider": "JupiterOne",
       "summary": "The organization provides standard endpoint computing devices to employees that are configured according to company security standards, including disk encryption, host firewall, malware protection, and malicious activity detection.",
       "guidance": "A set of standards and guidelines should be established so that employees understand their responsibility and limitation in using their company-provided computers. This is also referenced in the Employee Handbook. Technical controls should be in place to handle the monitoring and protection of employee computers, which is covered in a separate control/procedure.",
-      "instructions": [
+      "considerations": [
         "What tooling is used to encrypt endpoint hard drives?"
       ],
       "applicable": true,
@@ -1362,7 +1321,7 @@
       "function": "password-management",
       "summary": "Strong password management policy is in place.",
       "guidance": "You need to have policies/standards around password length, complexity, age, etc. Enough said.",
-      "instructions": [
+      "considerations": [
         "What password requirements do you use?"
       ],
       "applicable": true,
@@ -1377,7 +1336,7 @@
       "function": ["key-management", "secret-management"],
       "summary": "Production keys and secrets are securely stored and protected.",
       "guidance": "In additional to privileged user access, how do your applications and services gain access to keys and secrets in production? You need tools and controls around that. If you are in AWS, we find it best to use AWS Key Management Service (KMS) to manage data encryption keys, and AWS Systems Manager (SSM) Parameter Store to store secrets such as API keys. You will need to read up on their corresponding documentation on how to implement for your applications.",
-      "instructions": [
+      "considerations": [
         "What tooling is used to store production secrets?"
       ],
       "applicable": true,
@@ -1402,7 +1361,7 @@
       "function": "PAM",
       "summary": "Access to production data is highly restricted. Access is reviewed and approved on a case-by-case basis. MFA is required.",
       "guidance": "It is worth calling out processes and controls specific production data access, which should be highly restricted and monitored. MFA should always be required when accessing production data.",
-      "instructions": [
+      "considerations": [
         "What is the customer data review cadence?"
       ],
       "applicable": true,
@@ -1430,10 +1389,10 @@
       "function": ["physical-access", "video-surveillance"],
       "summary": "Physical locations such as office spaces require badged access, visitor logs, and video surveillance.",
       "guidance": "Don't forget physical security. Even though your office environment may not have critical/production systems or data, you probably don't want strangers wandering around unescorted.  You probably need some kind of badge access, which may already be provided to you as part of your lease. You'll most likely need to edit this documentation with your facilities details. If you choose to implement video surveillance, Cisco Meraki is a pretty good choice.",
-      "instructions": [
+      "considerations": [
         "Where are your offices located?",
         "What tooling do you use for reporting and auditing?",
-        "What is your acces review cadence?",
+        "What is your access review cadence?",
         "How long do you store records?"
       ],
       "applicable": true,
@@ -1448,7 +1407,7 @@
       "function": "data-center-security",
       "summary": "Data center security is ensured by the cloud service provider.",
       "guidance": "If you host your own data center, you will need to document in detail the physical and environmental security of the data centers. Otherwise, this is most likely taken care of by your cloud security provider (e.g. AWS, Azure, GCP).",
-      "instructions": [
+      "considerations": [
         "What cloud service provider is used to secure your data center?"
       ],
       "applicable": true,
@@ -1486,7 +1445,7 @@
       "function": ["inventory", "ITAM"],
       "summary": "All digital and software-defined assets, such as virtual instances and code repositories, are discovered and maintained in an asset inventory system.",
       "guidance": "You will need to maintain an up-to-date inventory of your physical assets, such as virtual machine instances, database instances, data repositories, etc. JupiterOne can automate that for you. All you need to do is configure the providers, such as AWS, in JupiterOne and it'll take care of the rest.",
-      "instructions": [
+      "considerations": [
         "What tooling is used to store digital assets?"
       ],
       "applicable": true,
@@ -1512,7 +1471,7 @@
       "function": "data-classification",
       "summary": "Data classification model is defined to differentiate public, non-public, confidental/sensitive and critical data or information asset.",
       "guidance": "How do you know what data to protect and how to protect it accordingly? Taking a one-size-fits-all approach is not the best approach to data security. Treating all data the same way is like saying I'm going to put the strongest lock on every door of my house, but whoever needs access, I'll just hand over the same key. Having a good data classification is paramount to your data protection strategy. We recommend four levels of classification - Critical, Confidential, Internal, and Public. This documentation describes the details.",
-      "instructions": [
+      "considerations": [
         "What is your data classification model?"
       ],
       "applicable": true,
@@ -1527,7 +1486,7 @@
       "function": ["data-protection", "data-encryption", "data-retention"],
       "summary": "Data is handled according to its classification, including defined requirements for labeling, encryption, access control, retention and other applicable processes.",
       "guidance": "How data is handled, including the retention period and whether or not encryption of data is required, should be defined based on the company data classification model.",
-      "instructions": [
+      "considerations": [
         "Is the requirements matrix accurate?"
       ],
       "applicable": true,
@@ -1542,7 +1501,7 @@
       "function": ["data-protection", "data-encryption", "data-retention"],
       "summary": "Data is tagged according to its classification, and its lifecycle is defined. Transient and temporary data (or cache) is purged immediately after use.",
       "guidance": "Keep an up-to-date inventory for all of your data repositories, properly tag data according to their data classification. The lifecycle of data should be tracked from its creation to deletion.",
-      "instructions": [
+      "considerations": [
         "What are your company/systems data repositories?"
       ],
       "applicable": true,
@@ -1557,7 +1516,7 @@
       "function": "data-backup",
       "summary": "All data critical to business operations, including customer data, source codes, business records and documents are backed up and fully recoverable.",
       "guidance": "AWS provides native backup and recovery capability for many of its services, such as DynamoDB, RDS, and EBS Volumes. For S3, you can copy data to a different S3 bucket in a different region/account.",
-      "instructions": [
+      "considerations": [
         "What are your company/system data repositories?"
       ],
       "applicable": true,
@@ -1578,10 +1537,10 @@
       "function": "data-retention",
       "summary": "Data is retained for designated periods of time according to regulatory and/or contractual requirements, and deleted when the retention period expires.",
       "guidance": "You should only keep data for as long as needed per business and/or regulatory requirements. A well defined process should be in place to securely delete data when necessary. For systems that you self manage, using a secure wipe utility such as Shred is usually sufficient. For data managed in the cloud, you should follow the documented procedures from the cloud service provider such as AWS.",
-      "instructions": [
+      "considerations": [
         "How long do you retain customer data?",
         "How long do you retain customer data after they leave?",
-        "Do you store any patient data?"
+        "Do you store any sensitive data such as PII, PHI, or credit card/financial data?"
       ],
       "applicable": true,
       "adopted": true,
@@ -1601,7 +1560,7 @@
       "function": "data-protection",
       "summary": "Data is protected according to its classification and storage capability, including encryption, access control, partitioning/separation, backup/recovery, and monitoring.",
       "guidance": "You need to properly document how data is protected according to its classification. This should cover controls such as encryption and access control for data at rest, data in transit, and data in use.",
-      "instructions": [
+      "considerations": [
         "Where is production data hosted?",
         "Are the standards/processes for Production Data accurate?",
         "What tool is used to monitor cloud resources?"
@@ -1630,7 +1589,7 @@
       "function": ["TLS", "SFTP"],
       "summary": "Sensitive and confidential data is encrypted when transmitted across networks.",
       "guidance": "Data-at-rest refers to data being transmitted from one system/service to another, either internally or across an open network (e.g. the Internet). Encryption is required, typically in the form of HTTPS/TLS, SSH or IPSec VPN.",
-      "instructions": [
+      "considerations": [
         "What encryption levels do you implement?",
         "What encryption services do you use?",
         "How frequently do you rotate encryption keys?"
@@ -1659,7 +1618,7 @@
       "function": "key-management",
       "summary": "Encryption key management process is implemented.",
       "guidance": "Encryption is only as strong as its associated key management process.",
-      "instructions": [
+      "considerations": [
         "What tooling do you use for encryption key management?"
       ],
       "applicable": true,
@@ -1674,7 +1633,7 @@
       "function": "certificate-management",
       "summary": "Certificate management process is in place to manage the lifecycle of web certificates (SSL/TLS) and application certificates.",
       "guidance": "SSL/TLS certificates should be managed and monitored.",
-      "instructions": [
+      "considerations": [
         "What tooling do you use for certificate management?"
       ],
       "applicable": true,
@@ -1689,9 +1648,9 @@
       "function": ["data-integrity", "FIM"],
       "summary": "Data versioning, access control, auditing and deletion prevention is in place to protect the integrity of data, when appropriate.",
       "guidance": "There may be additional considerations for data integrity protection applicable to your applications and environments, in addition to data encryption.",
-      "instructions": [
+      "considerations": [
         "What tooling is used to protect the integrity of data?",
-        "Do you store any ePHI?"
+        "Do you store any sensitive data such as PII, PHI, or credit card/financial data?"
       ],
       "applicable": true,
       "adopted": true
@@ -1705,9 +1664,9 @@
       "function": "secure-sdlc",
       "summary": "A secure software development process, coding standards, and release strategy is established to ensure security is built-in to the products and applications.",
       "guidance": "How do you ensure security in your product development lifecycle? There are specific controls such as static application security testing (code scanning) that are documented individually. Here, you need to start with documentation the overall software development process and standards your development team follows.",
-      "instructions": [
+      "considerations": [
         "What tooling do you use for continuous delivery of code?",
-        "Do you store any ePHI?"
+        "Do you store any sensitive data such as PII, PHI, or credit card/financial data?"
       ],
       "applicable": true,
       "adopted": true
@@ -1769,10 +1728,10 @@
       "function": "user-management",
       "summary": "All external facing applications are required to have appropriate access control implementation to protect non-public user data.",
       "guidance": "If your organization develops external facing applications with access to customer data, such as PII/ePHI, you must implement and document mechanisms for user identification and access control.",
-      "instructions": [
+      "considerations": [
         "What tooling do you use for identity and access management?",
         "Do you allow for ABAC?",
-        "Do you store PHI/ePHI?"
+        "Do you store any sensitive data such as PII, PHI, or credit card/financial data?"
       ],
       "applicable": true,
       "adopted": true
@@ -1786,7 +1745,7 @@
       "function": "SCA",
       "summary": "A code analysis tool is in place to analyze open source components for potential security vulnerabilities and licensing issues.",
       "guidance": "Modern software development is much more than first party code. The open source dependencies used in your software application should be scanned for vulnerability to ensure they do not put your offerings and customers at risk. Our recommended solution to scan for open source package vulnerabilities and licensing issues is Snyk.io. Snyk's engine also powers Javascript libraries linting in Microsoft Sonar and Google Chrome browser.",
-      "instructions": [
+      "considerations": [
         "What tooling do you use to manage code dependencies and FOSS?"
       ],
       "applicable": true,
@@ -1801,7 +1760,7 @@
       "function": "SAST",
       "summary": "Static code scanning is performed automatically either as part of the DevOps pipeline or on a regular schedule to detect common flaws in code patterns, such as injection flaws, buffer overflows, and leaked secrets/credentials in code.",
       "guidance": "The software code written by your developers should be scanned for vulnerability before putting into production. Veracode, WhiteHat, Checkmarx, etc. are example solutions that support most modern programming languages such as Java, Javascript, Python, etc.",
-      "instructions": [
+      "considerations": [
         "What tooling do you use for SAST?"
       ],
       "applicable": true,
@@ -1816,7 +1775,7 @@
       "function": "DAST",
       "summary": "Dynamic application scanning is performed by the security team.",
       "guidance": "In additional to static code analysis, a dynamic application scan should be performed regularly. This is a blackbox testing of the application from an external perspective. Suitable solutions for dynamic scanning include Tenable, Veracode, Rapid7, Qualys, and OWASP Zap. Keep in mind that dynamic application scanning helps uncover many vulnerabilities but it is not a replacement for application penetration testing.",
-      "instructions": [
+      "considerations": [
         "What tooling do you use for DAST?"
       ],
       "applicable": true,
@@ -1843,7 +1802,7 @@
       "function": "bug-bounty",
       "summary": "Security team maintains an external/public bug bounty program to enable continuous security testing and vulnerability reporting across major external facing products.",
       "guidance": "We strongly recommend having a public vulnerability disclosure program, often known as bug bounty, to leverage crowd-sourced security researchers to perform continuous testing of your external-facing applications. HackerOne or BugCrowd are both good solutions. Or simply having an official vulnerability disclosure / bug reporting channel published on your website is a good start.",
-      "instructions": [
+      "considerations": [
         "What tooling do you use for a Bug Bounty Program?"
       ],
       "applicable": true,
@@ -1857,8 +1816,8 @@
       "provider": "",
       "summary": "Developers are trained on requirements and best practices specific to HIPAA compliance and processing of sensitive health data.",
       "guidance": "Certain security and compliance best practices shall be communicated to the development teams, such as the requirement to use only HIPAA BAA eligible services to process ePHI in the Cloud.",
-      "instructions": [
-        "Is your organization subject to HIPAA compliance?"
+      "considerations": [
+        "Is your organization subject to regulatory compliance such as HIPAA or FISMA?"
       ],
       "applicable": true,
       "adopted": true
@@ -1872,7 +1831,7 @@
       "function": ["incident-management", "paging"],
       "summary": "On call teams are set up to receive pager notifications when a failure or error occurs in production.",
       "guidance": "After systems and/or software is deployed into production, you should set up continuous monitoring to detect errors and failures and alert the corresponding team members.",
-      "instructions": [
+      "considerations": [
         "How is your on call team notified about major/critical error conditions?"
       ],
       "applicable": true,
@@ -1887,7 +1846,7 @@
       "function": "config-management",
       "summary": "Configuration management processes are in place to provision systems and environments according to approved security standards.",
       "guidance": "There are many approaches to configuration management. Our recommendation for a Cloud/SaaS technology organization or team is to let the users manage the devices themselves, but provide them the requirements and automation scripts as necessary, and use an endpoint audit agent to check for compliance. JupiterOne provides a 'power-up' endpoint compliance agent that is based on Netflix's Stethoscope project. Osquery is a good alternative as well.",
-      "instructions": [
+      "considerations": [
         "What tooling do you use for configuration management?",
         "Which cloud service provider do you use?",
         "Which container management software do you use?"
@@ -1917,7 +1876,7 @@
       "scope": "networks",
       "summary": "Network devices are configured to remove vendor default security configurations. Network layer security controls are in place to enable traffic filtering/monitoring for applicable environments.",
       "guidance": "You may have a combination of cloud and on-premise networks. Certain network layer security controls should be in place, such as firewalls for traffic filtering, Subnets/VLANs for segregation, IDS/IPS, etc. For traditional on-premise networks, these controls are typically physical or virtual appliances. In the Cloud, these are often infrastructure and platform services you should enable.",
-      "instructions": [
+      "considerations": [
         "Which cloud service provider do you use?"
       ],
       "applicable": true,
@@ -1933,7 +1892,7 @@
       "scope": "aws",
       "summary": "AWS configuration is maintained as code and provisioned via automated code deploys.",
       "guidance": "Your cloud environment should be configured using multiple types of software-defined boundaries. The cloud infrastructure should be provisioned and managed as code. In AWS, this can be done via CloudFormation. However, our recommendation is to use Terraform. We find Terraform more flexible and it supports multiple cloud service providers including AWS, Azure, and GCP.",
-      "instructions": [
+      "considerations": [
         "Which cloud service provider do you use?"
       ],
       "applicable": true,
@@ -1949,7 +1908,7 @@
       "scope": "aws",
       "summary": "Cloud infrastructure changes and software code deploys follow a defined change request process with automated and/or manual reviews and approvals.",
       "guidance": "Infrastructure-as-code is a key element of Cloud DevOps. This procedure documents the details around process and automation for deploys into AWS environments, for both infrastructure changes and application changes.",
-      "instructions": [
+      "considerations": [
         "Which cloud service provider do you use?"
       ],
       "applicable": true,
@@ -1964,7 +1923,7 @@
       "function": "patch-management",
       "summary": "Operating systems on both end-user computing devices and server systems are required to maintain up-to-date security patches in an automated process.",
       "guidance": "The simplest way to ensure your end-user systems are patched is to enable auto-update.  You can use the same configuration compliance audit agent to ensure auto-update is turned on for all systems (Windows, macOS, Linux) in your environment. Additionally, for systems in AWS, the recommended solution is - don't patch, replace. Have a process to update your AMIs to the latest version when it's made available, and/or regularly update the AMIs approved to use in your production environment and ensure the new EC2 instances always use the latest approved AMIs.",
-      "instructions": [
+      "considerations": [
         "Which cloud service provider do you use?"
       ],
       "applicable": true,
@@ -1979,7 +1938,7 @@
       "function": "change-management",
       "summary": "Code deploys to production require an approved change ticket with sufficent details about the code change.",
       "guidance": "Each production deploy should follow a defined process to ensure proper review, approval and traceability. This can be fully automated using the appropriate code integrated with your continuous integration / continuous deploy orchestration such as Jenkins or Travis CI.",
-      "instructions": [
+      "considerations": [
         "What are your production accounts and where are they located?"
       ],
       "applicable": true,
@@ -1995,9 +1954,9 @@
       "scope": "production",
       "summary": "Provisioning of any production system or resource requires a change request that is reviewed and approved by both engineering and security.",
       "guidance": "Defines the standards and processes for provisioning and promoting systems into production.",
-      "instructions": [
+      "considerations": [
         "How are new production systems provisioned?",
-        "Do you store any ePHI?"
+        "Do you store any sensitive data such as PII, PHI, or credit card/financial data?"
       ],
       "applicable": true,
       "adopted": true
@@ -2012,7 +1971,7 @@
       "scope": "endpoints",
       "summary": "End-user computing systems are configured with required baseline security controls including disk encyrption, unique user account and strong password policy, host firewall, screenlock protection, auto-update of security patches, and endpoint security agent for configuration monitoring and malware protection.",
       "guidance": "Define the security controls and configuration standards for end-user systems. A provisioning management system may be used, or this can be accomplished via a set of automation scripts that runs on each local system to handle the initial configuration.  For end-user systems that are self managed by each employee, you should provide them with the configuration standards and the automation scripts, if applicable.",
-      "instructions": [
+      "considerations": [
         "What security controls are applied to user endpoints?",
         "How long after inactivity before an endpoint is locked?"
       ],
@@ -2029,7 +1988,7 @@
       "scope": "servers",
       "summary": "Server systems are provisioned using pre-approved configurations or images approved by the security team.",
       "guidance": "Define the standards for provisioning and hardening a new server system based on its operating system and operating environment. A provisioning management system may be used, or this can be accomplished via a set of automation scripts that runs on each local system to handle the initial configuration.  For end-user systems that are self managed by each employee, you should provide them with the configuration standards and the automation scripts, if applicable.",
-      "instructions": [
+      "considerations": [
         "What are your hardening standards?"
       ],
       "applicable": true,
@@ -2056,7 +2015,7 @@
       "function": "emergency-access",
       "summary": "An emergency change process is in place for break-glass procedure. Details of any emergency change are retroactively documented and approved.",
       "guidance": "Emergency conditions should be considered.  Should there be a need for an emergency change that cannot follow your typical change management process, this emergency process should be followed instead.",
-      "instructions": [
+      "considerations": [
         "How is your on call team notified about emergencies?",
         "What is your post emergency documentation process?"
       ],
@@ -2072,7 +2031,7 @@
       "provider": "AWS Inspector and Carbon Black PSC",
       "summary": "Host instrusion detection and malicious activity monitoring agents are installed on endpoint hosts and servers.",
       "guidance": "AWS Inspector is a native offering that covers vulnerability scanning of EC2 instances. For agent-based host intrusion detection, we recommend OSSEC agents as a basic open-source based solution. OSSEC supports a variety of operating systems both in the cloud and on-premise. A commercial solution may be needed for Docker containers activity monitoring. For Windows and macOS end-user systems, Carbon Black Cb Defense or SentinelOne are both good next-generation endpoint protection solutions that cover intrusion detection/prevention via advanced behavior analysis as well as malware protection.",
-      "instructions": [
+      "considerations": [
         "What tooling do you use for host based intrusion detection?"
       ],
       "applicable": true,
@@ -2087,7 +2046,7 @@
       "provider": "AWS GuardDuty and Cisco Meraki",
       "summary": "Network layer intrusion detection system is implemented.",
       "guidance": "AWS GuardDuty analyzes VPC flow logs, DNS logs, and CloudTrail logs for intrusion detection and threat monitoring at both the network and API layer. If you operate an internal on-premise network or your own data center, a network intrusion detection system is a must. Cisco Meraki has a basic intrusion detection capability that can be a good starting solution.",
-      "instructions": [
+      "considerations": [
         "What tooling do you use for intrusion detection on-premise?",
         "What tooling do you use for intrusion detection in the cloud?"
       ],
@@ -2103,7 +2062,7 @@
       "function": "AV",
       "summary": "Malware protection agent is installed and activated at all times on endpoint devices.",
       "guidance": "Anti-malware continue to be a compliance requirement, although traditional AV solutions have been proven to be ineffective against zero-day attacks and advanced malware. Modern operating systems usually come with some basic malware defense capability, such as Windows Defender. You may also consider something like ClamAV as a free, open-source solution to meet compliance needs. But for real security, we highly recommend a next generation endpoint protection solution such as Carbon Black Cb Defense or SentinelOne.",
-      "instructions": [
+      "considerations": [
         "What is your endpoint agent/anti-malware software?",
         "What is your scan configuration?"
       ],
@@ -2119,7 +2078,7 @@
       "function": "firewall",
       "summary": "Firewall protection is enabled across network, host, and application layer.",
       "guidance": "Firewall protection should be enabled at the appropriate layers, including network, host and application.",
-      "instructions": [
+      "considerations": [
         "Which cloud service provider do you use?"
       ],
       "applicable": true,
@@ -2134,7 +2093,7 @@
       "function": "WAF",
       "summary": "Web application firewall and denial-of-service protection is enabled for external facing applications.",
       "guidance": "If you have an external web application in your product portfolio, you should definitely consider deploying a web application firewall and protection against DDoS attacks.  Luckily, AWS has you covered with some native service offerings, including AWS WAF, CloudFront rate limiting, and AWS Shield.",
-      "instructions": [
+      "considerations": [
         "What tooling do you use for web application protection?"
       ],
       "applicable": true,
@@ -2149,7 +2108,7 @@
       "function": "threat-intel",
       "summary": "The security team subscribes to news, feeds, forums and special interests groups to receive updates on threat intel and updates on applicable regulations and compliance.",
       "guidance": "As part of your ongoing security operations, you need to be informed of new regulations, compliance requirements, as well as valuable external threat intel that might help your spot indicators of compromise in your own environments. A good source of intel is the various Sector-based Information Sharing and Analysis Centers (ISACs). For example, if you are in the healthcare industry, it is recommended for you to become a member of the National Health Information Sharing and Analysis Center (NH-ISAC).",
-      "instructions": [
+      "considerations": [
         "How do you monitor threat intelligence feeds?",
         "How do you monitor regulatory requirements updates?"
       ],
@@ -2195,7 +2154,7 @@
       "function": "VAS",
       "summary": "Vulnerability scan is performed at least quarterly for all production systems.",
       "guidance": "Vulnerability scanning for your infrastructure (not applications) is a must. OpenVAS is an excellent open source solution that you can run yourself.",
-      "instructions": [
+      "considerations": [
         "Which cloud service provider do you use?",
         "What is your cadence/timing for scans and tests?",
         "How long are records and findings maintained?"
@@ -2212,7 +2171,7 @@
       "function": "vulnerability-management",
       "summary": "All security vulnerability and findings (for both infrastructure and software) are prioritized and remediated based on its severity and impact, with a defined SLA.",
       "guidance": "Vulnerability findings can come from a variety of sources, such as open source dependency scanning, static application code analysis, dynamic application security testing, penetration testing, infrastructure vulnerability scanning, etc. Tracking the vulnerabilities and ensuring they are remediated in a timely manner can be an exhausting task if handled manually. JupiterOne can connect to the various vulnerability sources and help manage them in a consistent and automated manner. The vulnerability management program, including the detailed process and SLA levels, should be well defined.",
-      "instructions": [
+      "considerations": [
         "How long are records and findings maintained?",
         "What are your vulnerability SLAs?",
         "What is your process for resolving a finding?"
@@ -2229,8 +2188,8 @@
       "function": ["media-disposal", "shredding"],
       "summary": "Media containing critical / sensitive data (such as PII or ePHI) is disposed securely.",
       "guidance": "You must ensure media containing critical / sensitive data (such as ePHI) is disposed of securely.",
-      "instructions": [
-        "Is your organization subject to HIPAA compliance?"
+      "considerations": [
+        "Is your organization subject to regulatory compliance such as HIPAA or FISMA?"
       ],
       "applicable": true,
       "adopted": true
@@ -2244,7 +2203,7 @@
       "function": "MDM",
       "summary": "Use of USB flash drive or similar removable storage device to store sensitive and critical data is prohibited and must be handled on an exception basis approved by security.",
       "guidance": "If removable media, such as USB flash drives, must be used to store sensitive data, security precautions must be taken. IronKey or similar devices that support hardware encryption is a good choice. However, it is much better to not to store any sensitive data on removable media devices to start with.",
-      "instructions": [
+      "considerations": [
         "Is data allowed on encrypted flash drives and what tooling is used?"
       ],
       "applicable": true,
@@ -2259,7 +2218,7 @@
       "function": "MDM",
       "summary": "BYOD devices are not allowed to connect to production environments containing critical data.",
       "guidance": "You may not support bring-your-own-device (BYOD) for your employees.  If you do, a mobile device management (MDM) solution should be in place to properly manage them.  If you already use Okta as your IdP, they have a lightweight MDM solution you can enable from the same vendor. Alternatively, AirWatch or Jamf (Apple devices only) are also good solutions.",
-      "instructions": [
+      "considerations": [
         "What tooling is used for endpoint device management?",
         "Is BYOD allowed?"
       ],
@@ -2275,8 +2234,8 @@
       "function": "BCDR",
       "summary": "Management team develops contingency plans for assignment of responsibility for internal controls with clear objectives and roles.",
       "guidance": "You should have a plan and procedures for business continuity and disaster recovery. The process should be documented and tested. This is mostly a manual effort. First and foremost, clear objectives should be established and a team with specific roles and responsibilities should be assigned.",
-      "instructions": [
-        "Is your organization subject to HIPAA compliance?"
+      "considerations": [
+        "Is your organization subject to regulatory compliance such as HIPAA or FISMA?"
       ],
       "applicable": true,
       "adopted": true
@@ -2289,7 +2248,7 @@
       "provider": "manual process",
       "summary": "Disaster recovery procedures are defined to cover activation, recovery and reconstitution of critical controls and resources.",
       "guidance": "Document the DR procedures including notification of a disaster, activation of the DR process, recovery and reconstitution.",
-      "instructions": [
+      "considerations": [
         "Are the roles and responsibilities for general disaster recovery correct?",
         "What are your SLAs for disaster recovery?"
       ],
@@ -2337,7 +2296,7 @@
       "provider": "manual process",
       "summary": "All resources and data from production environments are able to be reconstructed from code and recovered from backup.",
       "guidance": "You should include a process that describes how you recover your production environments and data.",
-      "instructions": [
+      "considerations": [
         "How is production data synchronized and stored?"
       ],
       "applicable": true,
@@ -2363,9 +2322,9 @@
       "provider": "manual process",
       "summary": "Incident response / escalation policies and processes are in place for incident reporting, triage, eradication, recovery, and postmortem analysis.",
       "guidance": "In the inevitable event of a security incident, you should have a tested process to follow instead of panicking at the moment of impact.",
-      "instructions": [
+      "considerations": [
         "What services do you use to raise alerts of an incident?",
-        "Do you store any ePHI?",
+        "Do you store any sensitive data such as PII, PHI, or credit card/financial data?",
         "Do you agree to the five-step process?"
       ],
       "applicable": true,
@@ -2379,11 +2338,11 @@
       "provider": "manual process",
       "summary": "Incident playbooks are created with detailed technical procedures to guide personnel in incident handling according to the incident classification and severity.",
       "guidance": "A set of playbooks are referenced here according to the defined categories of incident. This can be done manually by following the playbooks.  As your security practice matures, you may later consider implementing a dedicated incident response / forensic solution.",
-      "instructions": [
+      "considerations": [
         "Do you agree with the classifications?",
         "Do you agree with the security levels?",
         "Do you agree to the listed response procedures?",
-        "Do you store any PHI/ePHI?"
+        "Do you store any sensitive data such as PII, PHI, or credit card/financial data?"
       ],
       "applicable": true,
       "adopted": true
@@ -2396,7 +2355,7 @@
       "provider": "manual process",
       "summary": "Emergency operation procedure is in place to enable temporary break-glass operations when necessary.",
       "guidance": "If a security incident escalates into an emergency situation, you should have a set of pre-defined procedures to avoid unrecoverable data loss.",
-      "instructions": [
+      "considerations": [
         "What tooling do you use to control access to systems?"
       ],
       "applicable": true,
@@ -2432,8 +2391,8 @@
       "provider": "manual process",
       "summary": "Investigation and notification process is in place to handle suspected and/or confirmed data breaches.",
       "guidance": "Wish for the best and prepare for the worst. In the unfortunate event that a breach occurs, you need to have defined procedures for the investigation and notification of such breach.",
-      "instructions": [
-        "Do you store any ePHI?",
+      "considerations": [
+        "Do you store any sensitive data such as PII, PHI, or credit card/financial data?",
         "What are your breach and notification SLAs?"
       ],
       "applicable": true,
@@ -2447,9 +2406,9 @@
       "provider": "",
       "summary": "Customer responsibilities are defined in the case of a breach related to or resulted from customer activities.",
       "guidance": "A breach is sometimes caused by the customer and not you. You should clearly define and communicate such responsibilities to your customers.",
-      "instructions": [
-        "Do you store any ePHI?",
-        "What are your customer ePHI disclosure SLAs?"
+      "considerations": [
+        "Do you store any sensitive data such as PII, PHI, or credit card/financial data?",
+        "What are your customer sensitive data disclosure SLAs?"
       ],
       "applicable": true,
       "adopted": true
@@ -2473,7 +2432,7 @@
       "provider": "",
       "summary": "Data protection and privacy regulatory authority contacts are documented for timely response.",
       "guidance": "If a breach is confirmed, a reference for authority contacts can help begin the investigation process.",
-      "instructions": [
+      "considerations": [
         "What is your list of contacts for authorities?"
       ],
       "applicable": true,
@@ -2487,7 +2446,7 @@
       "provider": "Google VSAQ",
       "summary": "Risk assessments are conducted prior to engaging a new technology vendor.",
       "guidance": "A technology risk review / security assessment should be conducted prior to engaging with a vendor that involves any type of data exchange, technical integration or professional services. There are a number of options on commercial IT Risk Vendor Management solutions. However, instead of jumping in on one of those, we recommend starting with Google's open-source Vendor Security Assessment Questionnaires (VSAQ). Its Github repo has detailed usage instructions.",
-      "instructions": [
+      "considerations": [
         "What tooling do you use for VTR assesments?"
       ],
       "applicable": true,
@@ -2522,7 +2481,7 @@
       "provider": "manual process",
       "summary": "Security and DevOps teams continue to monitor the risk levels and service status of applicable vendors, such as service providers and vendors with access to sensitive data.",
       "guidance": "Vendor risk management is a continuous process beyond the initial assessment/review. A continuous monitoring process should be established to review changes to a vendor's risk posture and service level.",
-      "instructions": [
+      "considerations": [
         "What is your cadence for reviewing vendor contracts?"
       ],
       "applicable": true,
@@ -2547,7 +2506,7 @@
       "provider": "manual process",
       "summary": "The organization has published privacy policy and established user consent process for data processing, in line with applicable regulations.",
       "guidance": "Create and publish Privacy Policy, Notice of Privacy Practices, as well as Terms and Conditions for using your product, as applicable. Any change should be promptly and formally communicated to all customers.",
-      "instructions": [
+      "considerations": [
         "Where is your privacy policy published? (You can adopt ours)"
       ],
       "applicable": true,
@@ -2566,7 +2525,7 @@
       "id": "ref-approved-software",
       "file": "ref/approved-software.md",
       "name": "Approved Software",
-      "instructions": [
+      "considerations": [
         "What software is approved for use in your organization?"
       ],
       "applicable": true,
@@ -2576,7 +2535,7 @@
       "id": "ref-approved-vendors",
       "file": "ref/approved-vendors.md",
       "name": "Approved Vendors",
-      "instructions": [
+      "considerations": [
         "Where is the list of your approved vendors maintained?"
       ],
       "applicable": true,
@@ -2593,8 +2552,8 @@
       "id": "ref-hipaa-baa",
       "file": "ref/hipaa-baa.md",
       "name": "HIPAA Business Associate Agreement",
-      "instructions": [
-        "Is your organization subject to HIPAA compliance?"
+      "considerations": [
+        "Is your organization subject to HIPAA compliance? If not, remove/replace."
       ],
       "applicable": true,
       "adopted": true
@@ -2603,8 +2562,8 @@
       "id": "ref-hipaa-mapping",
       "file": "ref/hipaa-mapping.md",
       "name": "HIPAA Controls Mapping",
-      "instructions": [
-        "Is your organization subject to HIPAA compliance?"
+      "considerations": [
+        "Is your organization subject to HIPAA compliance? If not, remove/replace."
       ],
       "applicable": true,
       "adopted": true
@@ -2613,8 +2572,8 @@
       "id": "ref-nist-mapping",
       "file": "ref/nist-mapping.md",
       "name": "NIST Controls Mapping",
-      "instructions": [
-        "Is your organization subject to NIST compliance?"
+      "considerations": [
+        "Is your organization subject to NIST compliance? If not, remove/replace."
       ],
       "applicable": true,
       "adopted": true
@@ -2623,7 +2582,7 @@
       "id": "ref-privacy-policy",
       "file": "ref/privacy-policy.md",
       "name": "Privacy Policy",
-      "instructions": [
+      "considerations": [
         "Is this Privacy Policy applicable?"
       ],
       "applicable": true,
@@ -2640,8 +2599,8 @@
       "id": "ref-gdpr-dpa",
       "file": "ref/gdpr-dpa.md",
       "name": "GDPR Data Processing Agreement",
-      "instructions": [
-        "Is your organization subject to GDPR compliance?"
+      "considerations": [
+        "Is your organization subject to GDPR compliance? If not, remove/replace."
       ],
       "applicable": true,
       "adopted": true

@@ -14,7 +14,7 @@
         },
         {
           "ref": "1.2",
-          "title": "Ensure that multi-factor authentication is enabled for all nonprivileged users (Manual)",
+          "title": "Ensure that multi-factor authentication is enabled for all non-privileged users (Manual)",
           "summary": "Enable multi-factor authentication for all non-privileged users.",
           "applicable": true
         },
@@ -407,12 +407,6 @@
           "ref": "4.3.8",
           "title": "Ensure 'Allow access to Azure services' for PostgreSQL Database Server is disabled (Manual)",
           "summary": "Disable access from Azure services to PostgreSQL Database Server",
-          "applicable": true
-        },
-        {
-          "ref": "4.17",
-          "title": "Ensure server parameter 'connection_throttling' is set to 'ON' for PostgreSQL Database Server (Scored)",
-          "summary": "Enable connection_throttling on PostgreSQL Servers.",
           "applicable": true
         },
         {

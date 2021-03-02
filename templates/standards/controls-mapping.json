@@ -2416,12 +2416,7 @@
         {
           "standard": "CSA CCM",
           "requirements": [
-            "GRM-04"
-          ]
-        },
-        {
-          "standard": "CSA CCM",
-          "requirements": [
+            "GRM-04",
             "IVS-05",
             "SEF-02",
             "TVM-02"

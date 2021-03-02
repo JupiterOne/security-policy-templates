@@ -1534,12 +1534,7 @@
         {
           "standard": "CSA CCM",
           "requirements": [
-            "AIS-04"
-          ]
-        },
-        {
-          "standard": "CSA CCM",
-          "requirements": [
+            "AIS-04",
             "DSI-01",
             "DSI-03",
             "IPY-02",

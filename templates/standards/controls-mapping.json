@@ -2,7 +2,16 @@
   "procedures": [
     {
       "id": "cp-ism-scope",
-      "implements": []
+      "implements": [
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.GV-1",
+            "ID.BE-3"
+          ],
+          "controls": null
+        }
+      ]
     },
     {
       "id": "cp-ism-policies",
@@ -17,7 +26,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -27,7 +37,8 @@
             "IAM-06",
             "IPY-01",
             "STA-03"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -38,7 +49,15 @@
             "6.3",
             "6.4",
             "6.7"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.PT-3"
+          ],
+          "controls": null
         }
       ]
     },
@@ -47,7 +66,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -55,7 +75,8 @@
             "BCR-04",
             "IPY-05",
             "STA-03"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -66,13 +87,22 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(8)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "SEF-05"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-7"
+          ],
+          "controls": null
         }
       ]
     },
@@ -83,7 +113,8 @@
           "standard": "CSA CCM",
           "requirements": [
             "IVS-04"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -94,7 +125,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(2)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -105,7 +137,8 @@
             "HRS-07",
             "HRS-10",
             "SEF-03"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -116,7 +149,19 @@
             "12.3",
             "12.4",
             "12.5"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-6",
+            "ID.GV-2",
+            "DE.DP-1",
+            "PR.AT-4",
+            "PR.AT-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -127,7 +172,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.316(b)(1)(ii)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -137,7 +183,8 @@
             "HRS-03",
             "HRS-09",
             "SEF-03"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -150,7 +197,16 @@
             "11.6",
             "12.4",
             "12.6"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AT-1",
+            "PR.AT-2"
+          ],
+          "controls": null
         }
       ]
     },
@@ -161,7 +217,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(5)(i)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -169,13 +226,24 @@
             "HRS-09",
             "MOS-01",
             "MOS-05"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "12.6"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-7",
+            "PR.AT-1",
+            "PR.AT-2"
+          ],
+          "controls": null
         }
       ]
     },
@@ -187,13 +255,15 @@
           "requirements": [
             "164.308(a)(5)(i)",
             "164.308(a)(5)(ii)(A)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "HRS-03"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -202,8 +272,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -220,19 +290,22 @@
             "164.316(b)(1)(i)",
             "164.316(b)(1)(ii)",
             "164.316(b)(1)(iii)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "AAC-03"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "12.1"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -249,7 +322,8 @@
             "164.316(b)(1)(i)",
             "164.316(b)(1)(ii)",
             "164.316(b)(1)(iii)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -257,13 +331,22 @@
             "AAC-03",
             "GRM-04",
             "STA-04"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "12.1"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.IM-2"
+          ],
+          "controls": null
         }
       ]
     },
@@ -275,7 +358,8 @@
           "requirements": [
             "164.308(a)(1)(ii)(B)",
             "164.308(a)(8)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -286,14 +370,26 @@
             "GRM-10",
             "GRM-11",
             "STA-06"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "6.4",
             "6.6"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.GV-4",
+            "ID.RM-1",
+            "ID.RA-5",
+            "ID.RA-6"
+          ],
+          "controls": null
         }
       ]
     },
@@ -304,7 +400,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(1)(ii)(A)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -312,7 +409,8 @@
             "BCR-09",
             "GRM-02",
             "GRM-10"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -320,7 +418,18 @@
             "2.2",
             "6.1",
             "12.2"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.RA-1",
+            "ID.RA-3",
+            "ID.RA-4",
+            "ID.RA-6"
+          ],
+          "controls": null
         }
       ]
     },
@@ -332,7 +441,8 @@
           "requirements": [
             "164.308(a)(1)(ii)(A)",
             "164.308(a)(8)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -340,13 +450,22 @@
             "GRM-08",
             "GRM-11",
             "MOS-07"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "12.2"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.RA-6"
+          ],
+          "controls": null
         }
       ]
     },
@@ -358,12 +477,22 @@
           "requirements": [
             "164.308(a)(1)(ii)(A)",
             "164.308(a)(8)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.RA-1",
+            "ID.RA-3",
+            "ID.RA-6"
+          ],
+          "controls": null
         }
       ]
     },
@@ -372,8 +501,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -382,8 +511,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -392,13 +521,22 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "STA-04"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.GV-3"
+          ],
+          "controls": null
         }
       ]
     },
@@ -407,7 +545,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "HITRUST CSF",
@@ -421,8 +560,15 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-7"
+          ],
+          "controls": null
         }
       ]
     },
@@ -431,8 +577,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -444,7 +590,8 @@
           "requirements": [
             "164.308(a)(5)(ii)(C)",
             "164.312(b)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -453,7 +600,8 @@
             "AAC-02",
             "GRM-01",
             "GRM-09"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -467,7 +615,8 @@
             "10.6",
             "10.9",
             "11.6"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -480,20 +629,30 @@
             "164.308(a)(1)(ii)(D)",
             "164.308(a)(5)(ii)(C)",
             "164.312(b)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "SEF-02"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "10.6",
             "11.5"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.PT-1"
+          ],
+          "controls": null
         }
       ]
     },
@@ -502,7 +661,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -511,7 +671,15 @@
             "AAC-02",
             "IAM-03",
             "STA-04"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-8"
+          ],
+          "controls": null
         }
       ]
     },
@@ -520,13 +688,15 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "AAC-01"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -539,13 +709,22 @@
             "164.308(a)(1)(ii)(D)",
             "164.308(a)(5)(ii)(C)",
             "164.312(b)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "AAC-02"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-8"
+          ],
+          "controls": null
         }
       ]
     },
@@ -558,7 +737,8 @@
             "164.308(a)(1)(ii)(D)",
             "164.308(a)(5)(ii)(C)",
             "164.312(b)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -567,7 +747,8 @@
             "IVS-01",
             "IVS-03",
             "SEF-05"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -577,7 +758,15 @@
             "10.2",
             "10.3",
             "11.5"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.PT-1"
+          ],
+          "controls": null
         }
       ]
     },
@@ -588,7 +777,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.312(c)(1)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -596,14 +786,24 @@
             "AIS-04",
             "IAM-01",
             "IVS-01"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "10.5",
             "10.7"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.PT-1",
+            "PR.DS-6"
+          ],
+          "controls": null
         }
       ]
     },
@@ -612,7 +812,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -622,7 +823,8 @@
             "AAC-02",
             "STA-08",
             "STA-09"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -631,7 +833,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -639,14 +842,23 @@
             "AAC-01",
             "IAM-01",
             "IAM-13"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "6.1",
             "6.6"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-8"
+          ],
+          "controls": null
         }
       ]
     },
@@ -655,19 +867,29 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "AAC-01"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "11.6"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-7"
+          ],
+          "controls": null
         }
       ]
     },
@@ -676,8 +898,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -688,7 +910,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(3)(i)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -708,7 +931,8 @@
             "MOS-11",
             "MOS-17",
             "MOS-20"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -722,7 +946,8 @@
             "9.5",
             "9.7",
             "12.3"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -733,19 +958,29 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(3)(i)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "HRS-02"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "12.7"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-11"
+          ],
+          "controls": null
         }
       ]
     },
@@ -756,12 +991,20 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(3)(i)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-11"
+          ],
+          "controls": null
         }
       ]
     },
@@ -773,7 +1016,8 @@
           "requirements": [
             "164.308(a)(3)(i)",
             "164.308(a)(3)(ii)(C)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -782,7 +1026,15 @@
             "HRS-01",
             "HRS-04",
             "IAM-11"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-11"
+          ],
+          "controls": null
         }
       ]
     },
@@ -791,7 +1043,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -799,7 +1052,8 @@
             "BCR-10",
             "GRM-05",
             "GRM-06"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -808,7 +1062,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -817,7 +1072,8 @@
             "GRM-06",
             "GRM-07",
             "HRS-10"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -826,8 +1082,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -836,8 +1092,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -846,8 +1102,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -858,7 +1114,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(1)(ii)(C)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -866,7 +1123,8 @@
             "GRM-07",
             "HRS-06",
             "SEF-03"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -881,7 +1139,8 @@
             "164.312(a)(1)",
             "164.312(a)(2)(i)",
             "164.312(a)(2)(iii)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -898,7 +1157,8 @@
             "IVS-09",
             "IVS-11",
             "MOS-14"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -911,7 +1171,16 @@
             "8.1.4",
             "8.2",
             "8.5"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AC-1",
+            "PR.AC-4"
+          ],
+          "controls": null
         }
       ]
     },
@@ -923,7 +1192,8 @@
           "requirements": [
             "164.308(a)(3)(i)",
             "164.312(a)(1)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -931,7 +1201,15 @@
             "BCR-04",
             "IAM-02",
             "IAM-12"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AC-1"
+          ],
+          "controls": null
         }
       ]
     },
@@ -943,7 +1221,8 @@
           "requirements": [
             "164.308(a)(3)(i)",
             "164.312(a)(1)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -951,7 +1230,8 @@
             "BCR-04",
             "IAM-02",
             "IAM-12"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -961,7 +1241,15 @@
             "8.3",
             "8.3.1",
             "8.3.2"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AC-1"
+          ],
+          "controls": null
         }
       ]
     },
@@ -974,7 +1262,8 @@
             "164.308(a)(3)(i)",
             "164.308(a)(3)(ii)(B)",
             "164.312(a)(1)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -982,7 +1271,8 @@
             "GRM-06",
             "HRS-07",
             "IAM-02"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -997,7 +1287,8 @@
             "164.312(c)(2)",
             "164.312(d)",
             "164.312(c)(1)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1010,14 +1301,24 @@
             "IAM-12",
             "IVS-08",
             "IVS-11"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "8.1",
             "8.6"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.MA-1",
+            "PR.MA-2"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1026,14 +1327,23 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-04",
             "IVS-12"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AC-3"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1053,7 +1363,8 @@
             "164.312(c)(2)",
             "164.312(d)",
             "164.312(c)(1)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1062,7 +1373,8 @@
             "BCR-04",
             "GRM-01",
             "IAM-02"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -1075,7 +1387,8 @@
             "164.312(c)(2)",
             "164.312(d)",
             "164.312(c)(1)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1085,7 +1398,8 @@
             "IAM-12",
             "IPY-01",
             "IPY-03"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -1100,7 +1414,8 @@
             "164.308(a)(4)(i)",
             "164.308(a)(4)(ii)(C)",
             "164.308(a)(5)(ii)(D)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1110,7 +1425,8 @@
             "IAM-09",
             "IAM-10",
             "IAM-11"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -1122,7 +1438,8 @@
             "8.1.4",
             "8.6",
             "8.8"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -1135,12 +1452,23 @@
             "164.308(a)(3)(i)",
             "164.308(a)(4)(i)",
             "164.312(c)(1)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-3",
+            "PR.MA-1",
+            "PR.MA-2",
+            "PR.AT-2"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1152,7 +1480,8 @@
           "requirements": [
             "164.308(a)(3)(i)",
             "164.308(a)(4)(i)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1165,13 +1494,15 @@
             "IAM-10",
             "IAM-12",
             "IAM-13"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "1.2"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -1186,7 +1517,8 @@
             "164.308(a)(3)(ii)(B)",
             "164.308(a)(4)(i)",
             "164.312(a)(1)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1195,14 +1527,23 @@
             "IAM-04",
             "IAM-10",
             "IAM-12"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "7.1",
             "8.8"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-3"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1213,7 +1554,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(3)(i)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1221,7 +1563,8 @@
             "HRS-08",
             "TVM-03",
             "MOS-17"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -1230,7 +1573,17 @@
             "1.4",
             "1.5",
             "5.3"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5",
+            "DE.CM-4",
+            "DE.CM-3"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1242,7 +1595,8 @@
           "requirements": [
             "AIS-04",
             "IVS-12"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -1250,7 +1604,8 @@
             "1.1",
             "1.2",
             "11.1"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -1262,7 +1617,8 @@
           "requirements": [
             "164.308(a)(3)(i)",
             "164.308(a)(5)(ii)(D)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1272,7 +1628,8 @@
             "IAM-02",
             "IAM-12",
             "MOS-16"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -1283,7 +1640,15 @@
             "8.2.5",
             "8.2.6",
             "8.5"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AC-1"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1299,7 +1664,8 @@
             "164.308(a)(4)(i)",
             "164.312(a)(1)",
             "164.312(c)(1)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1307,7 +1673,8 @@
             "IAM-02",
             "IAM-06",
             "IAM-08"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -1316,14 +1683,15 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "8.7"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -1336,14 +1704,23 @@
             "164.308(a)(3)(i)",
             "164.308(a)(5)(ii)(D)",
             "164.312(a)(1)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-04",
             "IAM-02"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.MA-1"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1361,7 +1738,8 @@
             "164.310(a)(2)(iv)",
             "164.310(b)",
             "164.310(c)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1376,7 +1754,8 @@
             "GRM-04",
             "HRS-01",
             "IAM-11"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -1385,7 +1764,17 @@
             "9.2",
             "9.4",
             "9.5"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-2",
+            "PR.IP-5",
+            "PR.AC-2"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1403,7 +1792,8 @@
             "164.310(a)(2)(iv)",
             "164.310(b)",
             "164.310(c)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1418,7 +1808,8 @@
             "GRM-04",
             "HRS-01",
             "IAM-11"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -1427,7 +1818,16 @@
             "9.2",
             "9.3",
             "9.5"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-2",
+            "PR.IP-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1438,7 +1838,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.310(d)(2)(iii)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1450,7 +1851,8 @@
             "GRM-04",
             "MOS-09",
             "MOS-18"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -1459,7 +1861,18 @@
             "9.5",
             "9.6",
             "9.7"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-1",
+            "ID.AM-5",
+            "PR.IP-5",
+            "PR.DS-3"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1471,13 +1884,24 @@
           "requirements": [
             "DCS-01",
             "GRM-04"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "2.4"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-2",
+            "ID.AM-5",
+            "PR.DS-3"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1489,14 +1913,16 @@
           "requirements": [
             "GRM-04",
             "HRS-10"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "9.8",
             "9.8.1"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -1508,7 +1934,8 @@
           "requirements": [
             "164.308(a)(7)(ii)(E)",
             "164.316(b)(1)(i)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1518,7 +1945,15 @@
             "DSI-03",
             "DSI-04",
             "HRS-06"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1529,7 +1964,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.316(b)(1)(i)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1540,7 +1976,8 @@
             "IPY-02",
             "IPY-03",
             "STA-01"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -1548,7 +1985,8 @@
             "2.3",
             "3.1",
             "7.2"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -1559,7 +1997,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.316(b)(1)(i)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1567,7 +2006,16 @@
             "AIS-04",
             "DSI-02",
             "DSI-06"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-3",
+            "ID.AM-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1580,7 +2028,8 @@
             "164.308(a)(7)(ii)(A)",
             "164.308(a)(7)(ii)(B)",
             "164.310(d)(2)(iv)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1594,7 +2043,17 @@
             "STA-01",
             "MOS-06",
             "MOS-17"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.RP-1",
+            "PR.IP-4",
+            "PR.DS-4"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1603,14 +2062,23 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "AIS-04",
             "BCR-11"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-6"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1621,7 +2089,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.312(c)(1)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1630,14 +2099,16 @@
             "EKM-03",
             "IVS-09",
             "IPY-03"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "2.6",
             "3.5"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -1649,7 +2120,8 @@
           "requirements": [
             "164.312(a)(2)(iv)",
             "164.312(e)(2)(ii)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1657,14 +2129,24 @@
             "AIS-04",
             "EKM-03",
             "EKM-04"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "2.3",
             "3.5"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5",
+            "PR.DS-1"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1678,7 +2160,8 @@
             "164.312(e)(1)",
             "164.312(e)(2)(i)",
             "164.312(e)(2)(ii)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1688,7 +2171,8 @@
             "EKM-04",
             "IVS-10",
             "IPY-04"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -1698,7 +2182,16 @@
             "3.5",
             "3.6",
             "4.1"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5",
+            "PR.DS-2"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1710,14 +2203,23 @@
           "requirements": [
             "164.312(c)(1)",
             "164.312(e)(2)(i)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "AIS-04",
             "IAM-05"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1728,7 +2230,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.312(a)(2)(iv)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1736,14 +2239,16 @@
             "EKM-01",
             "EKM-02",
             "EKM-03"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "3.5",
             "3.6"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -1752,13 +2257,15 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "AIS-04"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -1767,7 +2274,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1775,7 +2283,16 @@
             "AIS-04",
             "IPY-03",
             "STA-01"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-6",
+            "PR.DS-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1787,13 +2304,23 @@
           "requirements": [
             "CCC-01",
             "CCC-05"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "6.4"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-2",
+            "PR.DS-7"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1805,7 +2332,15 @@
           "requirements": [
             "CCC-01",
             "IAM-06"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1814,7 +2349,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1827,7 +2363,8 @@
             "DSI-02",
             "IAM-07",
             "STA-08"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -1838,7 +2375,15 @@
             "6.5",
             "6.6",
             "6.7"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1847,12 +2392,20 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1866,19 +2419,22 @@
             "164.312(c)(1)",
             "164.312(c)(2)",
             "164.312(d)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "IAM-02"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "6.3"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -1889,6 +2445,13 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1899,7 +2462,16 @@
           "standard": "PCI DSS",
           "requirements": [
             "6.5"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-4",
+            "PR.DS-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1910,6 +2482,14 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-4",
+            "PR.DS-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1918,20 +2498,31 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "IVS-05",
             "TVM-02"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "11.3"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-8",
+            "PR.DS-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -1940,8 +2531,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -1953,7 +2544,8 @@
           "requirements": [
             "CCC-02",
             "STA-08"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -1962,7 +2554,8 @@
             "1.5",
             "6.3",
             "12.7"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -1971,7 +2564,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -1982,7 +2576,8 @@
             "IAM-05",
             "IVS-08",
             "STA-05"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -1991,8 +2586,15 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.AE-1"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2001,7 +2603,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2010,7 +2613,8 @@
             "CCC-03",
             "MOS-07",
             "MOS-15"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -2019,7 +2623,16 @@
             "2.2",
             "2.5",
             "6.4"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-3",
+            "PR.IP-1"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2028,8 +2641,15 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-1"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2038,7 +2658,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2046,7 +2667,8 @@
             "CCC-01",
             "IVS-06",
             "IPY-04"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -2054,7 +2676,16 @@
             "1.1",
             "2.1",
             "2.5"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-1",
+            "PR.AC-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2063,7 +2694,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2073,7 +2705,8 @@
             "IVS-08",
             "IVS-13",
             "STA-03"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -2082,14 +2715,25 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "CCC-01",
             "CCC-03"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.MA-1",
+            "PR.MA-2",
+            "PR.IP-3"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2098,7 +2742,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2106,13 +2751,15 @@
             "CCC-01",
             "MOS-15",
             "MOS-19"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "6.2"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -2121,20 +2768,33 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "CCC-01",
             "CCC-05"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "6.4"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.MA-1",
+            "PR.MA-2",
+            "PR.IP-3",
+            "PR.DS-7"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2143,7 +2803,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2151,14 +2812,23 @@
             "CCC-01",
             "CCC-03",
             "CCC-05"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "2.1",
             "2.5"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-3"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2169,7 +2839,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(5)(ii)(B)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2177,13 +2848,24 @@
             "CCC-01",
             "CCC-04",
             "MOS-15"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "2.2"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5",
+            "DE.CM-4",
+            "DE.CM-3"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2192,7 +2874,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2202,7 +2885,8 @@
             "IVS-07",
             "TVM-02",
             "TVM-03"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -2212,7 +2896,17 @@
             "5.1",
             "6.2",
             "10.4"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5",
+            "DE.CM-4",
+            "PR.IP-1"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2221,12 +2915,21 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-3",
+            "PR.IP-1"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2235,7 +2938,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2243,7 +2947,16 @@
             "BCR-01",
             "CCC-01",
             "GRM-05"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.MA-1",
+            "PR.MA-2"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2254,14 +2967,16 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(5)(ii)(B)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "IVS-06",
             "IVS-12"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -2269,7 +2984,17 @@
             "1.1",
             "1.2",
             "6.6"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-1",
+            "DE.AE-3",
+            "PR.AC-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2280,13 +3005,26 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(5)(ii)(B)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "IVS-01"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.AN-1",
+            "DE.DP-2",
+            "DE.CM-7",
+            "DE.CM-3",
+            "DE.AE-3"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2299,13 +3037,27 @@
             "IVS-06",
             "IVS-12",
             "IVS-13"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "11.4"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.AN-1",
+            "DE.DP-2",
+            "DE.CM-7",
+            "DE.CM-1",
+            "DE.AE-3",
+            "PR.AC-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2316,7 +3068,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(5)(ii)(B)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2325,7 +3078,8 @@
             "TVM-01",
             "TVM-03",
             "MOS-17"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -2334,7 +3088,19 @@
             "5.2",
             "5.3",
             "5.4"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5",
+            "DE.CM-4",
+            "DE.CM-3",
+            "DE.AE-3",
+            "PR.PT-4"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2345,6 +3111,16 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-7",
+            "DE.CM-4",
+            "DE.CM-1",
+            "PR.PT-4"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2355,12 +3131,25 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(5)(ii)(A)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.AN-1",
+            "DE.DP-5",
+            "DE.DP-4",
+            "DE.AE-2",
+            "DE.AE-3",
+            "ID.RA-2"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2371,7 +3160,18 @@
           "standard": "CSA CCM",
           "requirements": [
             "SEF-02"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.AN-1",
+            "DE.DP-4",
+            "DE.CM-3",
+            "DE.AE-3"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2380,7 +3180,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2389,7 +3190,8 @@
             "SEF-02",
             "SEF-05",
             "TVM-02"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -2397,7 +3199,19 @@
             "6.1",
             "6.6",
             "11.2"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.MI-3",
+            "DE.CM-8",
+            "PR.IP-12",
+            "PR.IP-8",
+            "PR.DS-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2406,7 +3220,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2415,14 +3230,24 @@
             "IVS-05",
             "SEF-02",
             "TVM-02"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "6.1",
             "6.5"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.MI-3",
+            "PR.IP-12"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2436,7 +3261,8 @@
             "164.310(d)(2)(i)",
             "164.310(d)(2)(ii)",
             "164.310(d)(2)(iii)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2444,7 +3270,8 @@
             "DSI-07",
             "DCS-05",
             "MOS-18"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -2456,7 +3283,8 @@
             "9.8",
             "9.8.1",
             "9.8.2"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -2465,12 +3293,21 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5",
+            "PR.PT-2"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2479,7 +3316,8 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2499,7 +3337,8 @@
             "MOS-11",
             "MOS-12",
             "MOS-13"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -2512,7 +3351,15 @@
             "5.4",
             "6.2",
             "9.6"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2525,14 +3372,28 @@
             "164.308(a)(7)(i)",
             "164.308(a)(7)(ii)(B)",
             "164.308(a)(7)(ii)(D)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-01",
             "GRM-05"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-3",
+            "RS.CO-1",
+            "RS.CO-4",
+            "ID.RA-4",
+            "ID.BE-5",
+            "ID.BE-4"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2543,7 +3404,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(7)(ii)(B)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2551,7 +3413,20 @@
             "BCR-01",
             "BCR-11",
             "GRM-05"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.IM-2",
+            "RC.RP-1",
+            "RS.CO-3",
+            "RS.RP-1",
+            "PR.IP-9",
+            "PR.DS-4"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2562,13 +3437,25 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(7)(ii)(D)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-02"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.IM-2",
+            "RC.IM-1",
+            "DE.DP-3",
+            "PR.IP-10"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2579,7 +3466,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.310(a)(2)(i)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2587,7 +3475,15 @@
             "BCR-01",
             "BCR-05",
             "DCS-04"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.RP-1"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2598,14 +3494,24 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(7)(ii)(E)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "IVS-04",
             "STA-03"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.RP-1",
+            "PR.DS-4"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2618,7 +3524,8 @@
             "164.308(a)(7)(ii)(A)",
             "164.308(a)(7)(ii)(B)",
             "164.308(a)(7)(ii)(E)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2628,7 +3535,16 @@
             "BCR-05",
             "BCR-11",
             "STA-01"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.RP-1",
+            "PR.DS-4"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2639,13 +3555,25 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(6)(i)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "12.5"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-3",
+            "RS.CO-1",
+            "RS.CO-4",
+            "DE.DP-1"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2656,7 +3584,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(6)(i)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2665,7 +3594,8 @@
             "SEF-03",
             "SEF-05",
             "STA-04"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -2673,7 +3603,25 @@
             "12.5",
             "12.10",
             "12.10.1"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-3",
+            "RS.MI-2",
+            "RS.MI-1",
+            "RS.AN-3",
+            "RS.AN-2",
+            "RS.CO-2",
+            "RS.CO-3",
+            "RS.RP-1",
+            "DE.AE-2",
+            "DE.AE-4",
+            "DE.AE-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2684,7 +3632,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(6)(i)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2694,14 +3643,31 @@
             "SEF-04",
             "STA-02",
             "TVM-01"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "12.10",
             "12.10.1"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.IM-1",
+            "RS.MI-2",
+            "RS.MI-1",
+            "RS.AN-4",
+            "RS.AN-3",
+            "RS.AN-2",
+            "RS.AN-1",
+            "DE.AE-5",
+            "PR.IP-9"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2713,14 +3679,16 @@
           "requirements": [
             "164.308(a)(7)(i)",
             "164.308(a)(7)(ii)(C)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-01",
             "SEF-02"
-          ]
+          ],
+          "controls": null
         }
       ]
     },
@@ -2731,13 +3699,26 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(7)(ii)(D)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "BCR-02"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.IM-2",
+            "RC.IM-1",
+            "RS.IM-1",
+            "DE.DP-3",
+            "PR.IP-10"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2746,8 +3727,17 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.IM-1",
+            "DE.DP-5",
+            "DE.AE-2"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2758,7 +3748,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(6)(ii)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2766,14 +3757,28 @@
             "SEF-02",
             "SEF-03",
             "SEF-04"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "12.10",
             "12.10.1"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-2",
+            "RC.CO-3",
+            "RC.CO-1",
+            "RS.CO-2",
+            "RS.CO-3",
+            "RS.RP-1"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2784,14 +3789,26 @@
           "standard": "CSA CCM",
           "requirements": [
             "SEF-01"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "12.10",
             "12.10.1"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-2",
+            "RC.CO-1",
+            "RS.CO-4",
+            "RS.CO-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2802,7 +3819,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(6)(ii)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2810,14 +3828,24 @@
             "AIS-02",
             "GRM-06",
             "SEF-04"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "12.10",
             "12.10.1"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-6",
+            "RS.CO-4"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2828,7 +3856,8 @@
           "standard": "HIPAA",
           "requirements": [
             "164.308(a)(6)(ii)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2836,7 +3865,17 @@
             "GRM-06",
             "SEF-04",
             "STA-02"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-2",
+            "RC.CO-1",
+            "RS.CO-5"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2850,20 +3889,31 @@
             "164.308(b)(2)",
             "164.308(b)(3)",
             "164.308(b)(4)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "IAM-07"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "12.8",
             "12.8.3"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-6",
+            "PR.AT-3"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2879,7 +3929,8 @@
             "164.308(b)(4)",
             "164.314(a)(1)",
             "164.314(a)(2)(i)"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
@@ -2887,7 +3938,8 @@
             "GRM-06",
             "STA-05",
             "STA-07"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
@@ -2896,7 +3948,15 @@
             "12.8.2",
             "12.8.4",
             "12.8.5"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AT-3"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2905,8 +3965,15 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-6"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2915,20 +3982,30 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "GRM-06"
-          ]
+          ],
+          "controls": null
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "12.8",
             "12.8.1"
-          ]
+          ],
+          "controls": null
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-4"
+          ],
+          "controls": null
         }
       ]
     },
@@ -2937,15 +4014,42 @@
       "implements": [
         {
           "standard": "HIPAA",
-          "requirements": []
+          "requirements": [],
+          "controls": null
         },
         {
           "standard": "CSA CCM",
           "requirements": [
             "IPY-03"
-          ]
+          ],
+          "controls": null
         }
       ]
+    },
+    {
+      "id": "cp-gov-bod",
+      "implements": []
+    },
+    {
+      "id": "cp-risk-mgmt-objectives",
+      "implements": [
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.RM-3",
+            "ID.RM-2",
+            "ID.RA-4",
+            "ID.RA-5",
+            "ID.BE-3",
+            "ID.BE-2"
+          ],
+          "controls": null
+        }
+      ]
+    },
+    {
+      "id": "cp-physical-cleandesk",
+      "implements": []
     }
   ]
 }

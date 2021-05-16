@@ -2,7 +2,15 @@
   "procedures": [
     {
       "id": "cp-ism-scope",
-      "implements": []
+      "implements": [
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.GV-1",
+            "ID.BE-3"
+          ]
+        }
+      ]
     },
     {
       "id": "cp-ism-policies",
@@ -39,6 +47,12 @@
             "6.4",
             "6.7"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.PT-3"
+          ]
         }
       ]
     },
@@ -72,6 +86,12 @@
           "standard": "CSA CCM",
           "requirements": [
             "SEF-05"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-7"
           ]
         }
       ]
@@ -117,6 +137,16 @@
             "12.4",
             "12.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-6",
+            "ID.GV-2",
+            "DE.DP-1",
+            "PR.AT-4",
+            "PR.AT-5"
+          ]
         }
       ]
     },
@@ -151,6 +181,13 @@
             "12.4",
             "12.6"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AT-1",
+            "PR.AT-2"
+          ]
         }
       ]
     },
@@ -175,6 +212,14 @@
           "standard": "PCI DSS",
           "requirements": [
             "12.6"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-7",
+            "PR.AT-1",
+            "PR.AT-2"
           ]
         }
       ]
@@ -202,8 +247,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -264,6 +309,12 @@
           "requirements": [
             "12.1"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.IM-2"
+          ]
         }
       ]
     },
@@ -294,6 +345,15 @@
             "6.4",
             "6.6"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.GV-4",
+            "ID.RM-1",
+            "ID.RA-5",
+            "ID.RA-6"
+          ]
         }
       ]
     },
@@ -321,6 +381,15 @@
             "6.1",
             "12.2"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.RA-1",
+            "ID.RA-3",
+            "ID.RA-4",
+            "ID.RA-6"
+          ]
         }
       ]
     },
@@ -347,6 +416,12 @@
           "requirements": [
             "12.2"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.RA-6"
+          ]
         }
       ]
     },
@@ -364,6 +439,14 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.RA-1",
+            "ID.RA-3",
+            "ID.RA-6"
+          ]
         }
       ]
     },
@@ -372,8 +455,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -382,8 +465,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -398,6 +481,12 @@
           "standard": "CSA CCM",
           "requirements": [
             "STA-04"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.GV-3"
           ]
         }
       ]
@@ -421,8 +510,14 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-7"
+          ]
         }
       ]
     },
@@ -431,8 +526,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -494,6 +589,12 @@
             "10.6",
             "11.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.PT-1"
+          ]
         }
       ]
     },
@@ -511,6 +612,12 @@
             "AAC-02",
             "IAM-03",
             "STA-04"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-8"
           ]
         }
       ]
@@ -546,6 +653,12 @@
           "requirements": [
             "AAC-02"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-8"
+          ]
         }
       ]
     },
@@ -578,6 +691,12 @@
             "10.3",
             "11.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.PT-1"
+          ]
         }
       ]
     },
@@ -603,6 +722,13 @@
           "requirements": [
             "10.5",
             "10.7"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.PT-1",
+            "PR.DS-6"
           ]
         }
       ]
@@ -647,6 +773,12 @@
             "6.1",
             "6.6"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-8"
+          ]
         }
       ]
     },
@@ -668,6 +800,12 @@
           "requirements": [
             "11.6"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-7"
+          ]
         }
       ]
     },
@@ -676,8 +814,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -746,6 +884,12 @@
           "requirements": [
             "12.7"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-11"
+          ]
         }
       ]
     },
@@ -762,6 +906,12 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-11"
+          ]
         }
       ]
     },
@@ -782,6 +932,12 @@
             "HRS-01",
             "HRS-04",
             "IAM-11"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-11"
           ]
         }
       ]
@@ -826,8 +982,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -836,8 +992,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -846,8 +1002,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -912,6 +1068,13 @@
             "8.2",
             "8.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AC-1",
+            "PR.AC-4"
+          ]
         }
       ]
     },
@@ -931,6 +1094,12 @@
             "BCR-04",
             "IAM-02",
             "IAM-12"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AC-1"
           ]
         }
       ]
@@ -961,6 +1130,12 @@
             "8.3",
             "8.3.1",
             "8.3.2"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AC-1"
           ]
         }
       ]
@@ -1018,6 +1193,13 @@
             "8.1",
             "8.6"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.MA-1",
+            "PR.MA-2"
+          ]
         }
       ]
     },
@@ -1033,6 +1215,12 @@
           "requirements": [
             "BCR-04",
             "IVS-12"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AC-3"
           ]
         }
       ]
@@ -1141,6 +1329,15 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-3",
+            "PR.MA-1",
+            "PR.MA-2",
+            "PR.AT-2"
+          ]
         }
       ]
     },
@@ -1203,6 +1400,12 @@
             "7.1",
             "8.8"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-3"
+          ]
         }
       ]
     },
@@ -1230,6 +1433,14 @@
             "1.4",
             "1.5",
             "5.3"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5",
+            "DE.CM-4",
+            "DE.CM-3"
           ]
         }
       ]
@@ -1284,6 +1495,12 @@
             "8.2.6",
             "8.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AC-1"
+          ]
         }
       ]
     },
@@ -1316,8 +1533,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         },
         {
           "standard": "PCI DSS",
@@ -1343,6 +1560,12 @@
           "requirements": [
             "BCR-04",
             "IAM-02"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.MA-1"
           ]
         }
       ]
@@ -1386,6 +1609,14 @@
             "9.4",
             "9.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-2",
+            "PR.IP-5",
+            "PR.AC-2"
+          ]
         }
       ]
     },
@@ -1428,6 +1659,13 @@
             "9.3",
             "9.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-2",
+            "PR.IP-5"
+          ]
         }
       ]
     },
@@ -1460,6 +1698,15 @@
             "9.6",
             "9.7"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-1",
+            "ID.AM-5",
+            "PR.IP-5",
+            "PR.DS-3"
+          ]
         }
       ]
     },
@@ -1477,6 +1724,14 @@
           "standard": "PCI DSS",
           "requirements": [
             "2.4"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-2",
+            "ID.AM-5",
+            "PR.DS-3"
           ]
         }
       ]
@@ -1518,6 +1773,12 @@
             "DSI-03",
             "DSI-04",
             "HRS-06"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-5"
           ]
         }
       ]
@@ -1568,6 +1829,13 @@
             "DSI-02",
             "DSI-06"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-3",
+            "ID.AM-5"
+          ]
         }
       ]
     },
@@ -1595,6 +1863,14 @@
             "MOS-06",
             "MOS-17"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.RP-1",
+            "PR.IP-4",
+            "PR.DS-4"
+          ]
         }
       ]
     },
@@ -1610,6 +1886,12 @@
           "requirements": [
             "AIS-04",
             "BCR-11"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-6"
           ]
         }
       ]
@@ -1665,6 +1947,13 @@
             "2.3",
             "3.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5",
+            "PR.DS-1"
+          ]
         }
       ]
     },
@@ -1699,6 +1988,13 @@
             "3.6",
             "4.1"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5",
+            "PR.DS-2"
+          ]
         }
       ]
     },
@@ -1717,6 +2013,12 @@
           "requirements": [
             "AIS-04",
             "IAM-05"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5"
           ]
         }
       ]
@@ -1776,6 +2078,13 @@
             "IPY-03",
             "STA-01"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-6",
+            "PR.DS-5"
+          ]
         }
       ]
     },
@@ -1794,6 +2103,13 @@
           "requirements": [
             "6.4"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-2",
+            "PR.DS-7"
+          ]
         }
       ]
     },
@@ -1805,6 +2121,12 @@
           "requirements": [
             "CCC-01",
             "IAM-06"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5"
           ]
         }
       ]
@@ -1839,6 +2161,12 @@
             "6.6",
             "6.7"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5"
+          ]
         }
       ]
     },
@@ -1853,6 +2181,12 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5"
+          ]
         }
       ]
     },
@@ -1889,6 +2223,12 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5"
+          ]
         }
       ]
     },
@@ -1900,6 +2240,13 @@
           "requirements": [
             "6.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-4",
+            "PR.DS-5"
+          ]
         }
       ]
     },
@@ -1910,6 +2257,13 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-4",
+            "PR.DS-5"
+          ]
         }
       ]
     },
@@ -1932,6 +2286,13 @@
           "requirements": [
             "11.3"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-8",
+            "PR.DS-5"
+          ]
         }
       ]
     },
@@ -1940,8 +2301,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -1991,8 +2352,14 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.AE-1"
+          ]
         }
       ]
     },
@@ -2020,6 +2387,13 @@
             "2.5",
             "6.4"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-3",
+            "PR.IP-1"
+          ]
         }
       ]
     },
@@ -2028,8 +2402,14 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-1"
+          ]
         }
       ]
     },
@@ -2054,6 +2434,13 @@
             "1.1",
             "2.1",
             "2.5"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-1",
+            "PR.AC-5"
           ]
         }
       ]
@@ -2089,6 +2476,14 @@
           "requirements": [
             "CCC-01",
             "CCC-03"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.MA-1",
+            "PR.MA-2",
+            "PR.IP-3"
           ]
         }
       ]
@@ -2135,6 +2530,15 @@
           "requirements": [
             "6.4"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.MA-1",
+            "PR.MA-2",
+            "PR.IP-3",
+            "PR.DS-7"
+          ]
         }
       ]
     },
@@ -2158,6 +2562,12 @@
           "requirements": [
             "2.1",
             "2.5"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-3"
           ]
         }
       ]
@@ -2183,6 +2593,14 @@
           "standard": "PCI DSS",
           "requirements": [
             "2.2"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5",
+            "DE.CM-4",
+            "DE.CM-3"
           ]
         }
       ]
@@ -2213,6 +2631,14 @@
             "6.2",
             "10.4"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5",
+            "DE.CM-4",
+            "PR.IP-1"
+          ]
         }
       ]
     },
@@ -2227,6 +2653,13 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-3",
+            "PR.IP-1"
+          ]
         }
       ]
     },
@@ -2243,6 +2676,13 @@
             "BCR-01",
             "CCC-01",
             "GRM-05"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.MA-1",
+            "PR.MA-2"
           ]
         }
       ]
@@ -2270,6 +2710,14 @@
             "1.2",
             "6.6"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-1",
+            "DE.AE-3",
+            "PR.AC-5"
+          ]
         }
       ]
     },
@@ -2286,6 +2734,16 @@
           "standard": "CSA CCM",
           "requirements": [
             "IVS-01"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.AN-1",
+            "DE.DP-2",
+            "DE.CM-7",
+            "DE.CM-3",
+            "DE.AE-3"
           ]
         }
       ]
@@ -2305,6 +2763,17 @@
           "standard": "PCI DSS",
           "requirements": [
             "11.4"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.AN-1",
+            "DE.DP-2",
+            "DE.CM-7",
+            "DE.CM-1",
+            "DE.AE-3",
+            "PR.AC-5"
           ]
         }
       ]
@@ -2335,6 +2804,16 @@
             "5.3",
             "5.4"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5",
+            "DE.CM-4",
+            "DE.CM-3",
+            "DE.AE-3",
+            "PR.PT-4"
+          ]
         }
       ]
     },
@@ -2345,6 +2824,15 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-7",
+            "DE.CM-4",
+            "DE.CM-1",
+            "PR.PT-4"
+          ]
         }
       ]
     },
@@ -2361,6 +2849,17 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.AN-1",
+            "DE.DP-5",
+            "DE.DP-4",
+            "DE.AE-2",
+            "DE.AE-3",
+            "ID.RA-2"
+          ]
         }
       ]
     },
@@ -2371,6 +2870,15 @@
           "standard": "CSA CCM",
           "requirements": [
             "SEF-02"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.AN-1",
+            "DE.DP-4",
+            "DE.CM-3",
+            "DE.AE-3"
           ]
         }
       ]
@@ -2398,6 +2906,16 @@
             "6.6",
             "11.2"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.MI-3",
+            "DE.CM-8",
+            "PR.IP-12",
+            "PR.IP-8",
+            "PR.DS-5"
+          ]
         }
       ]
     },
@@ -2422,6 +2940,13 @@
           "requirements": [
             "6.1",
             "6.5"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.MI-3",
+            "PR.IP-12"
           ]
         }
       ]
@@ -2471,6 +2996,13 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5",
+            "PR.PT-2"
+          ]
         }
       ]
     },
@@ -2513,6 +3045,12 @@
             "6.2",
             "9.6"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5"
+          ]
         }
       ]
     },
@@ -2533,6 +3071,17 @@
             "BCR-01",
             "GRM-05"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-3",
+            "RS.CO-1",
+            "RS.CO-4",
+            "ID.RA-4",
+            "ID.BE-5",
+            "ID.BE-4"
+          ]
         }
       ]
     },
@@ -2552,6 +3101,17 @@
             "BCR-11",
             "GRM-05"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.IM-2",
+            "RC.RP-1",
+            "RS.CO-3",
+            "RS.RP-1",
+            "PR.IP-9",
+            "PR.DS-4"
+          ]
         }
       ]
     },
@@ -2568,6 +3128,15 @@
           "standard": "CSA CCM",
           "requirements": [
             "BCR-02"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.IM-2",
+            "RC.IM-1",
+            "DE.DP-3",
+            "PR.IP-10"
           ]
         }
       ]
@@ -2588,6 +3157,12 @@
             "BCR-05",
             "DCS-04"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.RP-1"
+          ]
         }
       ]
     },
@@ -2605,6 +3180,13 @@
           "requirements": [
             "IVS-04",
             "STA-03"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.RP-1",
+            "PR.DS-4"
           ]
         }
       ]
@@ -2629,6 +3211,13 @@
             "BCR-11",
             "STA-01"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.RP-1",
+            "PR.DS-4"
+          ]
         }
       ]
     },
@@ -2645,6 +3234,15 @@
           "standard": "PCI DSS",
           "requirements": [
             "12.5"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-3",
+            "RS.CO-1",
+            "RS.CO-4",
+            "DE.DP-1"
           ]
         }
       ]
@@ -2674,6 +3272,22 @@
             "12.10",
             "12.10.1"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-3",
+            "RS.MI-2",
+            "RS.MI-1",
+            "RS.AN-3",
+            "RS.AN-2",
+            "RS.CO-2",
+            "RS.CO-3",
+            "RS.RP-1",
+            "DE.AE-2",
+            "DE.AE-4",
+            "DE.AE-5"
+          ]
         }
       ]
     },
@@ -2701,6 +3315,20 @@
           "requirements": [
             "12.10",
             "12.10.1"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.IM-1",
+            "RS.MI-2",
+            "RS.MI-1",
+            "RS.AN-4",
+            "RS.AN-3",
+            "RS.AN-2",
+            "RS.AN-1",
+            "DE.AE-5",
+            "PR.IP-9"
           ]
         }
       ]
@@ -2738,6 +3366,16 @@
           "requirements": [
             "BCR-02"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.IM-2",
+            "RC.IM-1",
+            "RS.IM-1",
+            "DE.DP-3",
+            "PR.IP-10"
+          ]
         }
       ]
     },
@@ -2746,8 +3384,16 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.IM-1",
+            "DE.DP-5",
+            "DE.AE-2"
+          ]
         }
       ]
     },
@@ -2774,6 +3420,17 @@
             "12.10",
             "12.10.1"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-2",
+            "RC.CO-3",
+            "RC.CO-1",
+            "RS.CO-2",
+            "RS.CO-3",
+            "RS.RP-1"
+          ]
         }
       ]
     },
@@ -2791,6 +3448,15 @@
           "requirements": [
             "12.10",
             "12.10.1"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-2",
+            "RC.CO-1",
+            "RS.CO-4",
+            "RS.CO-5"
           ]
         }
       ]
@@ -2818,6 +3484,13 @@
             "12.10",
             "12.10.1"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-6",
+            "RS.CO-4"
+          ]
         }
       ]
     },
@@ -2836,6 +3509,14 @@
             "GRM-06",
             "SEF-04",
             "STA-02"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-2",
+            "RC.CO-1",
+            "RS.CO-5"
           ]
         }
       ]
@@ -2863,6 +3544,13 @@
           "requirements": [
             "12.8",
             "12.8.3"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-6",
+            "PR.AT-3"
           ]
         }
       ]
@@ -2897,6 +3585,12 @@
             "12.8.4",
             "12.8.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AT-3"
+          ]
         }
       ]
     },
@@ -2905,8 +3599,14 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-6"
+          ]
         }
       ]
     },
@@ -2929,6 +3629,12 @@
             "12.8",
             "12.8.1"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-4"
+          ]
         }
       ]
     },
@@ -2946,6 +3652,30 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cp-gov-bod",
+      "implements": []
+    },
+    {
+      "id": "cp-risk-mgmt-objectives",
+      "implements": [
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.RM-3",
+            "ID.RM-2",
+            "ID.RA-4",
+            "ID.RA-5",
+            "ID.BE-3",
+            "ID.BE-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cp-physical-cleandesk",
+      "implements": []
     }
   ]
 }

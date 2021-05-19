@@ -11,9 +11,11 @@
     "parse:soc2": "cd util; node soc2-parser.js",
     "publish:j1": "./node_modules/@jupiterone/security-policy-builder/bin/psp publish -c config.json -t templates -a $J1_ACCOUNT_ID -k $J1_API_TOKEN -n",
     "deploy": "jupiterone-manual-deploy -t jupiterone-dev -a apply",
-    "destroy": "jupiterone-manual-deploy -t jupiterone-dev -a destroy"
+    "destroy": "jupiterone-manual-deploy -t jupiterone-dev -a destroy",
+    "plan": "jupiterone-manual-deploy -t jupiterone-dev -a plan"
   },
   "devDependencies": {
+    "@jupiterone/dev-tools": "^7.1.5",
     "csvtojson": "^2.0.10",
     "lodash.capitalize": "^4.2.1",
     "lodash.startcase": "^4.4.0"

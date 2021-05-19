@@ -53,6 +53,12 @@
           "requirements": [
             "PR.PT-3"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SC.1.175"
+          ]
         }
       ]
     },
@@ -528,6 +534,12 @@
           "standard": "SOC 2",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.210"
+          ]
         }
       ]
     },
@@ -912,6 +924,12 @@
           "requirements": [
             "PR.IP-11"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "PE.1.131"
+          ]
         }
       ]
     },
@@ -1075,6 +1093,15 @@
             "PR.AC-1",
             "PR.AC-4"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "IA.1.077",
+            "IA.1.076",
+            "AC.1.002",
+            "AC.1.001"
+          ]
         }
       ]
     },
@@ -1222,6 +1249,12 @@
           "requirements": [
             "PR.AC-3"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SC.1.176"
+          ]
         }
       ]
     },
@@ -1310,6 +1343,12 @@
             "8.1.4",
             "8.6",
             "8.8"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "AC.1.001"
           ]
         }
       ]
@@ -1442,6 +1481,12 @@
             "DE.CM-4",
             "DE.CM-3"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.211"
+          ]
         }
       ]
     },
@@ -1461,6 +1506,12 @@
             "1.1",
             "1.2",
             "11.1"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SC.1.176"
           ]
         }
       ]
@@ -1500,6 +1551,12 @@
           "standard": "NIST CSF",
           "requirements": [
             "PR.AC-1"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "IA.1.077"
           ]
         }
       ]
@@ -1617,6 +1674,15 @@
             "PR.IP-5",
             "PR.AC-2"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "PE.1.134",
+            "PE.1.133",
+            "PE.1.132",
+            "PE.1.131"
+          ]
         }
       ]
     },
@@ -1666,6 +1732,15 @@
             "DE.CM-2",
             "PR.IP-5"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "PE.1.134",
+            "PE.1.133",
+            "PE.1.132",
+            "PE.1.131"
+          ]
         }
       ]
     },
@@ -1706,6 +1781,13 @@
             "ID.AM-5",
             "PR.IP-5",
             "PR.DS-3"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "PE.1.134",
+            "PE.1.131"
           ]
         }
       ]
@@ -1893,6 +1975,12 @@
           "requirements": [
             "PR.IP-6"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "MP.1.118"
+          ]
         }
       ]
     },
@@ -1994,6 +2082,12 @@
           "requirements": [
             "PR.DS-5",
             "PR.DS-2"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SC.1.175"
           ]
         }
       ]
@@ -2229,6 +2323,13 @@
           "requirements": [
             "PR.DS-5"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.212",
+            "SI.1.213"
+          ]
         }
       ]
     },
@@ -2247,6 +2348,12 @@
             "DE.CM-4",
             "PR.DS-5"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.212"
+          ]
         }
       ]
     },
@@ -2263,6 +2370,12 @@
           "requirements": [
             "DE.CM-4",
             "PR.DS-5"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.212"
           ]
         }
       ]
@@ -2292,6 +2405,13 @@
           "requirements": [
             "PR.IP-8",
             "PR.DS-5"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.211",
+            "SI.1.213"
           ]
         }
       ]
@@ -2442,6 +2562,12 @@
             "PR.IP-1",
             "PR.AC-5"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SC.1.176"
+          ]
         }
       ]
     },
@@ -2507,6 +2633,12 @@
           "standard": "PCI DSS",
           "requirements": [
             "6.2"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.210"
           ]
         }
       ]
@@ -2602,6 +2734,12 @@
             "DE.CM-4",
             "DE.CM-3"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.211"
+          ]
         }
       ]
     },
@@ -2638,6 +2776,12 @@
             "DE.CM-5",
             "DE.CM-4",
             "PR.IP-1"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.211"
           ]
         }
       ]
@@ -2718,6 +2862,13 @@
             "DE.AE-3",
             "PR.AC-5"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SC.1.176",
+            "SC.1.175"
+          ]
         }
       ]
     },
@@ -2744,6 +2895,12 @@
             "DE.CM-7",
             "DE.CM-3",
             "DE.AE-3"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SC.1.175"
           ]
         }
       ]
@@ -2774,6 +2931,12 @@
             "DE.CM-1",
             "DE.AE-3",
             "PR.AC-5"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SC.1.175"
           ]
         }
       ]
@@ -2814,6 +2977,19 @@
             "DE.AE-3",
             "PR.PT-4"
           ]
+        },
+        {
+          "standard": "CSF",
+          "requirements": [
+            "SI.1.213"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.211",
+            "SI.1.213"
+          ]
         }
       ]
     },
@@ -2832,6 +3008,13 @@
             "DE.CM-4",
             "DE.CM-1",
             "PR.PT-4"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.211",
+            "SC.1.175"
           ]
         }
       ]
@@ -2916,6 +3099,20 @@
             "PR.IP-8",
             "PR.DS-5"
           ]
+        },
+        {
+          "standard": "CSF",
+          "requirements": [
+            "SI.1.213"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.211",
+            "SI.1.210",
+            "SI.1.213"
+          ]
         }
       ]
     },
@@ -2947,6 +3144,12 @@
           "requirements": [
             "RS.MI-3",
             "PR.IP-12"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.210"
           ]
         }
       ]
@@ -2981,6 +3184,12 @@
             "9.8",
             "9.8.1",
             "9.8.2"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "MP.1.118"
           ]
         }
       ]
@@ -3491,6 +3700,12 @@
             "ID.AM-6",
             "RS.CO-4"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "AC.1.004"
+          ]
         }
       ]
     },
@@ -3634,6 +3849,12 @@
           "standard": "NIST CSF",
           "requirements": [
             "ID.AM-4"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "AC.1.003"
           ]
         }
       ]

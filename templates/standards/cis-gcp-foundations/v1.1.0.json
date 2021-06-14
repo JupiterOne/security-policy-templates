@@ -1,0 +1,420 @@
+{
+  "standard": "CIS Google Cloud Foundations 1.1",
+  "webLink": "#",
+  "version": "1.1.0",
+  "domains": [
+    {
+      "title": "Identity and Access Management",
+      "controls": [
+        {
+          "ref": "1.1",
+          "title": "Ensure that corporate login credentials are used (Scored)",
+          "summary": "Use corporate login credentials instead of personal accounts, such as Gmail accounts.",
+          "applicable": true
+        },
+        {
+          "ref": "1.2",
+          "title": "Ensure that multi-factor authentication is enabled for all non-service accounts (Not Scored)",
+          "summary": "Setup multi-factor authentication for Google Cloud Platform accounts.",
+          "applicable": true
+        },
+        {
+          "ref": "1.3",
+          "title": "Ensure that Security Key Enforcement is enabled for all admin accounts (Not Scored)",
+          "summary": "Setup Security Key Enforcement for Google Cloud Platform admin accounts.",
+          "applicable": true
+        },
+        {
+          "ref": "1.4",
+          "title": "Ensure that there are only GCP-managed service account keys for each service account (Scored)",
+          "summary": "User managed service accounts should not have user-managed keys.",
+          "applicable": true
+        },
+        {
+          "ref": "1.5",
+          "title": "Ensure that Service Account has no Admin privileges (Scored)",
+          "summary": "A service account is a special Google account that belongs to an application or a VM, instead of to an individual end-user. The application uses the service account to call the service's Google API so that users aren't directly involved. It's recommended not to use admin access for ServiceAccount.",
+          "applicable": true
+        },
+        {
+          "ref": "1.6",
+          "title": "Ensure that IAM users are not assigned the Service Account User or Service Account Token Creator roles at project level (Scored)",
+          "summary": "It is recommended to assign the Service Account User (iam.serviceAccountUser) and Service Account Token Creator (iam.serviceAccountTokenCreator) roles to a user for a specific service account rather than assigning the role to a user at project level.",
+          "applicable": true
+        },
+        {
+          "ref": "1.7",
+          "title": "Ensure user-managed/external keys for service accounts are rotated every 90 days or less (Scored)",
+          "summary": "Service Account keys consist of a key ID (Private_key_Id) and Private key, which are used to sign programmatic requests users make to Google cloud services accessible to that particular service account. It is recommended that all Service Account keys are regularly rotated.",
+          "applicable": true
+        },
+        {
+          "ref": "1.8",
+          "title": "Ensure that Separation of duties is enforced while assigning service account related roles to users (Not Scored)",
+          "summary": "It is recommended that the principle of 'Separation of Duties' is enforced while assigning service-account related roles to users.",
+          "applicable": true
+        },
+        {
+          "ref": "1.9",
+          "title": "Ensure that Cloud KMS cryptokeys are not anonymously or publicly accessible (Scored)",
+          "summary": "It is recommended that the IAM policy on Cloud KMS cryptokeys should restrict anonymous and/or public access.",
+          "applicable": true
+        },
+        {
+          "ref": "1.10",
+          "title": "Ensure KMS encryption keys are rotated within a period of 90 days (Scored)",
+          "summary": "Google Cloud Key Management Service stores cryptographic keys in a hierarchical structure designed for useful and elegant access control management.\nThe format for the rotation schedule depends on the client library that is used. For the gcloud command-line tool, the next rotation time must be in ISO or RFC3339 format, and the rotation period must be in the form INTEGER[UNIT], where units can be one of seconds (s), minutes (m), hours (h) or days (d).",
+          "applicable": true
+        },
+        {
+          "ref": "1.11",
+          "title": "Ensure that Separation of duties is enforced while assigning KMS related roles to users (Scored)",
+          "summary": "It is recommended that the principle of 'Separation of Duties' is enforced while assigning KMS related roles to users.",
+          "applicable": true
+        },
+        {
+          "ref": "1.12",
+          "title": "Ensure API keys are not created for a project (Not Scored)",
+          "summary": "Keys are insecure because they can be viewed publicly, such as from within a browser, or they can be accessed on a device where the key resides. It is recommended to use standard authentication flow instead.",
+          "applicable": true
+        },
+        {
+          "ref": "1.13",
+          "title": "Ensure API keys are restricted to use by only specified Hosts and Apps (Not Scored)",
+          "summary": "Unrestricted keys are insecure because they can be viewed publicly, such as from within a browser, or they can be accessed on a device where the key resides. It is recommended to restrict API key usage to trusted hosts, HTTP referrers and apps.",
+          "applicable": true
+        },
+        {
+          "ref": "1.14",
+          "title": "Ensure API keys are restricted to only APIs that application needs access (Not Scored)",
+          "summary": "API keys are insecure because they can be viewed publicly, such as from within a browser, or they can be accessed on a device where the key resides. It is recommended to restrict API keys to use (call) only APIs required by an application.",
+          "applicable": true
+        },
+        {
+          "ref": "1.15",
+          "title": "Ensure API keys are rotated every 90 days (Not Scored)",
+          "summary": "It is recommended to rotate API keys every 90 days.",
+          "applicable": true
+        }
+      ]
+    },
+    {
+      "title": "Logging and Monitoring",
+      "controls": [
+        {
+          "ref": "2.1",
+          "title": "Ensure that Cloud Audit Logging is configured properly across all services and all users from a project (Scored)",
+          "summary": "It is recommended that Cloud Audit Logging is configured to track all admin activities and read, write access to user data.",
+          "applicable": true
+        },
+        {
+          "ref": "2.2",
+          "title": "Ensure that sinks are configured for all log entries (Scored)",
+          "summary": "It is recommended to create a sink that will export copies of all the log entries. This can help aggregate logs from multiple projects and export them to a Security Information and Event Management (SIEM).",
+          "applicable": true
+        },
+        {
+          "ref": "2.3",
+          "title": "Ensure that retention policies on log buckets are configured using Bucket Lock (Scored)",
+          "summary": "Enabling retention policies on log buckets will protect logs stored in cloud storage buckets from being overwritten or accidentally deleted. It is recommended to set up retention policies and configure Bucket Lock on all storage buckets that are used as log sinks.",
+          "applicable": true
+        },
+        {
+          "ref": "2.4",
+          "title": "Ensure log metric filter and alerts exist for project ownership assignments/changes (Scored)",
+          "summary": "In order to prevent unnecessary project ownership assignments to users/service-accounts and further misuses of projects and resources, all `roles/Owner` assignments should be monitored.",
+          "applicable": true
+        },
+        {
+          "ref": "2.5",
+          "title": "Ensure that the log metric filter and alerts exist for Audit Configuration changes (Scored)",
+          "summary": "Google Cloud Platform (GCP) services write audit log entries to the Admin Activity and Data Access logs to help answer the questions of, \"who did what, where, and when?\" within GCP projects.\nCloud audit logging records information includes the identity of the API caller, the time of the API call, the source IP address of the API caller, the request parameters, and the response elements returned by GCP services. Cloud audit logging provides a history of GCP API calls for an account, including API calls made via the console, SDKs, command-line tools, and other GCP services.",
+          "applicable": true
+        },
+        {
+          "ref": "2.6",
+          "title": "Ensure that the log metric filter and alerts exist for Custom Role changes (Scored)",
+          "summary": "It is recommended that a metric filter and alarm be established for changes to Identity and Access Management (IAM) role creation, deletion and updating activities.",
+          "applicable": true
+        },
+        {
+          "ref": "2.7",
+          "title": "Ensure that the log metric filter and alerts exist for VPC Network Firewall rule changes (Scored)",
+          "summary": "It is recommended that a metric filter and alarm be established for Virtual Private Cloud (VPC) Network Firewall rule changes.",
+          "applicable": true
+        },
+        {
+          "ref": "2.8",
+          "title": "Ensure that the log metric filter and alerts exist for VPC network route changes (Scored)",
+          "summary": "It is recommended that a metric filter and alarm be established for Virtual Private Cloud (VPC) network route changes.",
+          "applicable": true
+        },
+        {
+          "ref": "2.9",
+          "title": "Ensure that the log metric filter and alerts exist for VPC network changes (Scored)",
+          "summary": "It is recommended that a metric filter and alarm be established for Virtual Private Cloud (VPC) network changes.",
+          "applicable": true
+        },
+        {
+          "ref": "2.10",
+          "title": "Ensure that the log metric filter and alerts exist for Cloud Storage IAM permission changes (Scored)",
+          "summary": "It is recommended that a metric filter and alarm be established for Cloud Storage Bucket IAM changes.",
+          "applicable": true
+        },
+        {
+          "ref": "2.11",
+          "title": "Ensure that the log metric filter and alerts exist for SQL instance configuration changes (Scored)",
+          "summary": "It is recommended that a metric filter and alarm be established for SQL instance configuration changes.",
+          "applicable": true
+        }
+      ]
+    },
+    {
+      "title": "Networking",
+      "controls": [
+        {
+          "ref": "3.1",
+          "title": "Ensure that the default network does not exist in a project (Scored)",
+          "summary": "To prevent use of default network, a project should not have a default network.",
+          "applicable": true
+        },
+        {
+          "ref": "3.2",
+          "title": "Ensure legacy networks do not exist for a project (Scored)",
+          "summary": "In order to prevent use of legacy networks, a project should not have a legacy network configured.",
+          "applicable": true
+        },
+        {
+          "ref": "3.3",
+          "title": "Ensure that DNSSEC is enabled for Cloud DNS (Scored)",
+          "summary": "Cloud Domain Name System (DNS) is a fast, reliable and cost-effective domain name system that powers millions of domains on the internet. Domain Name System Security Extensions (DNSSEC) in Cloud DNS enables domain owners to take easy steps to protect their domains against DNS hijacking and man-in-the-middle and other attacks.",
+          "applicable": true
+        },
+        {
+          "ref": "3.4",
+          "title": "Ensure that RSASHA1 is not used for the key-signing key in Cloud DNS DNSSEC (Not Scored)",
+          "summary": "DNSSEC algorithm numbers in this registry may be used in CERT RRs. Zone signing (DNSSEC) and transaction security mechanisms (SIG(0) and TSIG) make use of particular subsets of these algorithms. The algorithm used for key signing should be a recommended one and it should be strong.",
+          "applicable": true
+        },
+        {
+          "ref": "3.5",
+          "title": "[duplicate] Ensure that RSASHA1 is not used for the zone-signing key in Cloud DNS DNSSEC (Not Scored)",
+          "summary": "DNSSEC algorithm numbers in this registry may be used in CERT RRs. Zone signing (DNSSEC) and transaction security mechanisms (SIG(0) and TSIG) make use of particular subsets of these algorithms. The algorithm used for key signing should be a recommended one and it should be strong.",
+          "applicable": true
+        },
+        {
+          "ref": "3.6",
+          "title": "Ensure that SSH access is restricted from the internet (Scored)",
+          "summary": "GCP Firewall Rules are specific to a VPC Network. Each rule either allows or denies traffic when its conditions are met. Its conditions allow the user to specify the type of traffic, such as ports and protocols, and the source or destination of the traffic, including IP addresses, subnets, and instances.\nFirewall rules are defined at the VPC network level and are specific to the network in which they are defined. The rules themselves cannot be shared among networks. Firewall rules only support IPv4 traffic. When specifying a source for an ingress rule or a destination for an egress rule by address, only an IPv4 address or IPv4 block in CIDR notation can be used. Generic (0.0.0.0/0) incoming traffic from the internet to VPC or VM instance using SSH on Port 22 can be avoided.",
+          "applicable": true
+        },
+        {
+          "ref": "3.7",
+          "title": "Ensure that RDP access is restricted from the Internet (Scored)",
+          "summary": "GCP Firewall Rules are specific to a VPC Network. Each rule either allows or denies traffic when its conditions are met. Its conditions allow users to specify the type of traffic, such as ports and protocols, and the source or destination of the traffic, including IP addresses, subnets, and instances.\nFirewall rules are defined at the VPC network level and are specific to the network in which they are defined. The rules themselves cannot be shared among networks. Firewall rules only support IPv4 traffic. When specifying a source for an ingress rule or a destination for an egress rule by address, an IPv4 address or IPv4 block in CIDR notation can be used. Generic (0.0.0.0/0) incoming traffic from the Internet to a VPC or VM instance using RDP on Port 3389 can be avoided.",
+          "applicable": true
+        },
+        {
+          "ref": "3.8",
+          "title": "Ensure that VPC Flow Logs is enabled for every subnet in a VPC Network (Scored)",
+          "summary": "Flow Logs is a feature that enables users to capture information about the IP traffic going to and from network interfaces in the organization's VPC Subnets. Once a flow log is created, the user can view and retrieve its data in Stackdriver Logging. It is recommended that Flow Logs be enabled for every business-critical VPC subnet.",
+          "applicable": true
+        },
+        {
+          "ref": "3.9",
+          "title": "Ensure no HTTPS or SSL proxy load balancers permit SSL policies with weak cipher suites (Not Scored)",
+          "summary": "Secure Sockets Layer (SSL) policies determine what port Transport Layer Security (TLS) features clients are permitted to use when connecting to load balancers. To prevent usage of insecure features, SSL policies should use (a) at least TLS 1.2 with the MODERN profile; or (b) the RESTRICTED profile, because it effectively requires clients to use TLS 1.2 regardless of the chosen minimum TLS version; or (3) a CUSTOM profile that does not support any of the following features:\n  • TLS_RSA_WITH_AES_128_GCM_SHA256\n  • TLS_RSA_WITH_AES_256_GCM_SHA384\n  • TLS_RSA_WITH_AES_128_CBC_SHA\n  • TLS_RSA_WITH_AES_256_CBC_SHA\n  • TLS_RSA_WITH_3DES_EDE_CBC_SHA",
+          "applicable": true
+        }
+      ]
+    },
+    {
+      "title": "Virtual Machines",
+      "controls": [
+        {
+          "ref": "4.1",
+          "title": "Ensure that instances are not configured to use the default service account (Scored)",
+          "summary": "It is recommended to configure your instance to not use the default Compute Engine service account because it has the Editor role on the project.",
+          "applicable": true
+        },
+        {
+          "ref": "4.2",
+          "title": "Ensure that instances are not configured to use the default service account with full access to all Cloud APIs (Scored)",
+          "summary": "To support principle of least privileges and prevent potential privilege escalation it is recommended that instances are not assigned to default service account \"Compute Engine default service account\" with Scope \"Allow full access to all Cloud APIs.\"",
+          "applicable": true
+        },
+        {
+          "ref": "4.3",
+          "title": "Ensure \"Block Project-wide SSH keys\" is enabled for VM instances (Scored)",
+          "summary": "It is recommended to use Instance specific SSH key(s) instead of using common/shared project-wide SSH key(s) to access Instances.",
+          "applicable": true
+        },
+        {
+          "ref": "4.4",
+          "title": "Ensure oslogin is enabled for a Project (Scored)",
+          "summary": "Enabling OS login binds SSH certificates to IAM users and facilitates effective SSH certificate management.",
+          "applicable": true
+        },
+        {
+          "ref": "4.5",
+          "title": "Ensure 'Enable connecting to serial ports' is not enabled for VM Instance (Scored)",
+          "summary": "Interacting with a serial port is often referred to as the serial console, which is similar to using a terminal window, in that input and output is entirely in text mode and there is no graphical interface or mouse support.\nIf you enable the interactive serial console on an instance, clients can attempt to connect to that instance from any IP address. Therefore interactive serial console support should be disabled.",
+          "applicable": true
+        },
+        {
+          "ref": "4.6",
+          "title": "Ensure that IP forwarding is not enabled on Instances (Scored)",
+          "summary": "Compute Engine instance cannot forward a packet unless the source IP address of the packet matches the IP address of the instance. Similarly, GCP won't deliver a packet whose destination IP address is different than the IP address of the instance receiving the packet. However, both capabilities are required if you want to use instances to help route packets.\nForwarding of data packets should be disabled to prevent data loss or information disclosure.",
+          "applicable": true
+        },
+        {
+          "ref": "4.7",
+          "title": "Ensure VM disks for critical VMs are encrypted with Customer- Supplied Encryption Keys (CSEK) (Scored)",
+          "summary": "Customer-Supplied Encryption Keys (CSEK) are a feature in Google Cloud Storage and Google Compute Engine. If you supply your own encryption keys, Google uses your key to protect the Google-generated keys used to encrypt and decrypt your data. By default, Google Compute Engine encrypts all data at rest. Compute Engine handles and manages this encryption for you without any additional actions on your part. However, if you wanted to control and manage this encryption yourself, you can provide your own encryption keys.",
+          "applicable": true
+        },
+        {
+          "ref": "4.8",
+          "title": "Ensure Compute instances are launched with Shielded VM enabled (Scored)",
+          "summary": "To defend against against advanced threats and ensure that the boot loader and firmware on your VMs are signed and untampered, it is recommended that Compute instances are launched with Shielded VM enabled.",
+          "applicable": true
+        },
+        {
+          "ref": "4.9",
+          "title": "Ensure that Compute instances do not have public IP addresses (Scored)",
+          "summary": "Compute instances should not be configured to have external IP addresses.",
+          "applicable": true
+        },
+        {
+          "ref": "4.10",
+          "title": "Ensure that App Engine applications enforce HTTPS connections (Not Scored)",
+          "summary": "In order to maintain the highest level of security all connections to an application should be secure by default.",
+          "applicable": true
+        }
+      ]
+    },
+    {
+      "title": "Storage",
+      "controls": [
+        {
+          "ref": "5.1",
+          "title": "Ensure that Cloud Storage bucket is not anonymously or publicly accessible (Scored)",
+          "summary": "It is recommended that IAM policy on Cloud Storage bucket does not allows anonymous or public access.",
+          "applicable": true
+        },
+        {
+          "ref": "5.2",
+          "title": "Ensure that Cloud Storage buckets have uniform bucket-level access enabled (Scored)",
+          "summary": "It is recommended that uniform bucket-level access is enabled on Cloud Storage buckets.",
+          "applicable": true
+        }
+      ]
+    },
+    {
+      "title": "Cloud SQL Database Services",
+      "controls": [
+        {
+          "ref": "6.1.1",
+          "title": "Ensure that a MySQL database instance does not allow anyone to connect with administrative privileges (Scored)",
+          "summary": "It is recommended to set a password for the administrative user (root by default) to prevent unauthorized access to the SQL database instances.\nThis recommendation is applicable only for MySQL Instances. PostgreSQL does not offer any setting for No Password from the cloud console.",
+          "applicable": true
+        },
+        {
+          "ref": "6.1.2",
+          "title": "Ensure that the 'local_infile' database flag for a Cloud SQL Mysql instance is set to 'off' (Scored)",
+          "summary": "It is recommended to set the `local_infile` database flag for a Cloud SQL MySQL instance to `off`.",
+          "applicable": true
+        },
+        {
+          "ref": "6.2.1",
+          "title": "Ensure that the 'log_checkpoints' database flag for Cloud SQL PostgreSQL instance is set to 'on' (Scored)",
+          "summary": "Ensure that the `log_checkpoints` database flag for the Cloud SQL PostgreSQL instance is set to `on`.",
+          "applicable": true
+        },
+        {
+          "ref": "6.2.2",
+          "title": "Ensure that the 'log_connections' database flag for Cloud SQL PostgreSQL instance is set to 'on' (Scored)",
+          "summary": "Enabling the log_connections setting causes each attempted connection to the server to be logged, along with successful completion of client authentication. This parameter cannot be changed after the session starts.",
+          "applicable": true
+        },
+        {
+          "ref": "6.2.3",
+          "title": "Ensure that the 'log_disconnections' database flag for Cloud SQL PostgreSQL instance is set to 'on' (Scored)",
+          "summary": "Enabling the `log_disconnections` setting logs the end of each session, including the session duration.",
+          "applicable": true
+        },
+        {
+          "ref": "6.2.4",
+          "title": "Ensure that the 'log_lock_waits' database flag for Cloud SQL PostgreSQL instance is set to 'on' (Scored)",
+          "summary": "Enabling the `log_lock_waits` flag for a PostgreSQL instance creates a log for any session waits that take longer than the alloted `deadlock_timeout` time to acquire a lock.",
+          "applicable": true
+        },
+        {
+          "ref": "6.2.5",
+          "title": "Ensure that the 'log_min_messages' database flag for Cloud SQL PostgreSQL instance is set appropriately (Not Scored)",
+          "summary": "The `log_min_error_statement` flag defines the minimum message severity level that is considered as an error statement. Messages for error statements are logged with the SQL statement. Valid values include DEBUG5, DEBUG4, DEBUG3, DEBUG2, DEBUG1, INFO, NOTICE, WARNING, ERROR, LOG, FATAL, and PANIC. Each severity level includes the subsequent levels mentioned above.",
+          "applicable": true
+        },
+        {
+          "ref": "6.2.6",
+          "title": "Ensure that the 'log_temp_files' database flag for Cloud SQL PostgreSQL instance is set to '0' (on) (Scored)",
+          "summary": "PostgreSQL can create a temporary file for actions such as sorting, hashing and temporary query results when these operations exceed `work_mem`. The `log_temp_files` flag controls logging names and the file size when it is deleted. Configuring `log_temp_files` to 0 causes all temporary file information to be logged, while positive values log only files whose size is greater than or equal to the specified number of kilobytes. A value of -1 disables temporary file information logging.",
+          "applicable": true
+        },
+        {
+          "ref": "6.2.7",
+          "title": "Ensure that the 'log_min_duration_statement' database flag for Cloud SQL PostgreSQL instance is set to '-1' (disabled) (Scored)",
+          "summary": "The `log_min_duration_statement` flag defines the minimum amount of execution time of a statement in milliseconds where the total duration of the statement is logged. Ensure that `log_min_duration_statement` is disabled, i.e., a value of -1 is set.",
+          "applicable": true
+        },
+        {
+          "ref": "6.3.1",
+          "title": "Ensure that the 'cross db ownership chaining' database flag for Cloud SQL SQL Server instance is set to 'off' (Scored)",
+          "summary": "It is recommended to set \"cross db ownership chaining database\" flag for Cloud SQL SQL Server instance to `off`.",
+          "applicable": true
+        },
+        {
+          "ref": "6.3.2",
+          "title": "Ensure that the 'contained database authentication' database flag for Cloud SQL on the SQL Server instance is set to 'off' (Scored)",
+          "summary": "It is recommended to set \"contained database authentication database\" flag for Cloud SQL on the SQL Server instance is set to `off`.",
+          "applicable": true
+        },
+        {
+          "ref": "6.4",
+          "title": "Ensure that the Cloud SQL database instance requires all incoming connections to use SSL (Scored)",
+          "summary": "It is recommended to enforce all incoming connections to SQL database instance to use SSL.",
+          "applicable": true
+        },
+        {
+          "ref": "6.5",
+          "title": "Ensure that Cloud SQL database instances are not open to the world (Scored)",
+          "summary": "Database Server should accept connections only from trusted Network(s)/IP(s) and restrict access from the world.",
+          "applicable": true
+        },
+        {
+          "ref": "6.6",
+          "title": "Ensure that Cloud SQL database instances do not have public IPs (Scored)",
+          "summary": "It is recommended to configure Second Generation Sql instance to use private IPs instead of public IPs.",
+          "applicable": true
+        },
+        {
+          "ref": "6.7",
+          "title": "Ensure that Cloud SQL database instances are configured with automated backups (Scored)",
+          "summary": "It is recommended to have all SQL database instances set to enable automated backups.",
+          "applicable": true
+        }
+      ]
+    },
+    {
+      "title": "BigQuery",
+      "controls": [
+        {
+          "ref": "7.1",
+          "title": "Ensure that BigQuery datasets are not anonymously or publicly accessible (Scored)",
+          "summary": "It is recommended that the IAM policy on BigQuery datasets does not allow anonymous and/or public access.",
+          "applicable": true
+        }
+      ]
+    }
+  ]
+}

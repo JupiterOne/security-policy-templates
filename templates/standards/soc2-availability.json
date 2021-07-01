@@ -1,0 +1,73 @@
+{
+    "standard": "SOC 2 Availability",
+    "version": "AICPA 2017",
+    "webLink": "https://www.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria.pdf",
+    "unlocked": true,
+    "domains": [
+      {
+        "title": "§ Availability\n【A1.1】 The entity maintains, monitors, and evaluates current processing capacity and use of system components (infrastructure, data, and software) to manage capacity demand and to enable the implementation of additional capacity to help meet its objectives.",
+        "controls": [
+          {
+            "ref": "cp-sdlc-monitor",
+            "title": "Production System Monitoring and Paging",
+            "summary": "On call teams are set up to receive pager notifications when a failure or error occurs in production."
+          },
+          {
+            "ref": "cp-model-architecture",
+            "title": "Security Architecture",
+            "summary": "Security architecture is documented, including system and infrastructure security diagrams."
+          }
+        ]
+      },
+      {
+        "title": "§ Availability\n【A1.2】 The entity authorizes, designs, develops or acquires, implements, operates, approves, maintains, and monitors environmental protections, software, data backup processes, and recovery infrastructure to meet its objectives.",
+        "controls": [
+          {
+            "ref": "cp-bcdr",
+            "title": "BCDR Objectives and Roles",
+            "summary": "Management team develops contingency plans for assignment of responsibility for internal controls with clear objectives and roles."
+          },
+          {
+            "ref": "cp-data-protection",
+            "title": "Data Protection Implementation and Processes",
+            "summary": "Data is protected according to its classification and storage capability, including encryption, access control, partitioning/separation, backup/recovery, and monitoring."
+          },
+          {
+            "ref": "cp-bcdr-recovery",
+            "title": "General Disaster Recovery Procedures",
+            "summary": "Disaster recovery procedures are defined to cover activation, recovery and reconstitution of critical controls and resources."
+          },
+          {
+            "ref": "cp-bcdr-data",
+            "title": "Production Environments and Data Recovery",
+            "summary": "All resources and data from production environments are able to be reconstructed from code and recovered from backup."
+          }
+        ]
+      },
+      {
+        "title": "§ Availability\n【A1.3】 The entity tests recovery plan procedures supporting system recovery to meet its objectives.",
+        "controls": [
+          {
+            "ref": "cp-bcdr-test",
+            "title": "BCDR Testing and Maintenance",
+            "summary": "Disaster recovery is tested annually via tabletop exercise and/or simulated tests."
+          },
+          {
+            "ref": "cp-bcdr",
+            "title": "BCDR Objectives and Roles",
+            "summary": "Management team develops contingency plans for assignment of responsibility for internal controls with clear objectives and roles."
+          },
+          {
+            "ref": "cp-bcdr-recovery",
+            "title": "General Disaster Recovery Procedures",
+            "summary": "Disaster recovery procedures are defined to cover activation, recovery and reconstitution of critical controls and resources."
+          },
+          {
+            "ref": "cp-bcdr-data",
+            "title": "Production Environments and Data Recovery",
+            "summary": "All resources and data from production environments are able to be reconstructed from code and recovered from backup."
+          }
+        ]
+      }
+    ]
+  }

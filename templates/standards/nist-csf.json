@@ -335,7 +335,11 @@
         },
         {
           "ref": "PR.PT-3",
-          "summary": "Access to systems and assets is controlled, incorporating the principle of least functionality."
+          "summary": "The principle of least functionality is incorporated by configuring systems to provide only essential capabilities"
+        },
+        {
+          "ref": "PR.PT-4",
+          "summary": "Communications and control networks are protected"
         },
         {
           "ref": "PR.PT-5",

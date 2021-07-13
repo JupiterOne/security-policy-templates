@@ -130,6 +130,32 @@
       ]
     },
     {
+      "title": "[ID.SC] Identify: Supply Chain Management",
+      "description": "The organization’s priorities, constraints, risk tolerances, and assumptions are established and used to support risk decisions associated with managing supply chain risk. The organization has established and implemented the processes to identify, assess and manage supply chain risks.",
+      "controls": [
+        {
+          "ref": "ID.SC-1",
+          "summary": "Cyber supply chain risk management processes are identified, established, assessed, managed, and agreed to by organizational stakeholders."
+        },
+        {
+          "ref": "ID.SC-2",
+          "summary": "Suppliers and third party partners of information systems, components, and services are identified, prioritized, and assessed using a cyber supply chain risk assessment process "
+        },
+        {
+          "ref": "ID.SC-3",
+          "summary": "Contracts with suppliers and third-party partners are used to implement appropriate measures designed to meet the objectives of an organization’s cybersecurity program and Cyber Supply Chain Risk Management Plan."
+        },
+        {
+          "ref": "ID.SC-4",
+          "summary": "Suppliers and third-party partners are routinely assessed using audits, test results, or other forms of evaluations to confirm they are meeting their contractual obligations."
+        },
+        {
+          "ref": "ID.SC-5",
+          "summary": "Response and recovery planning and testing are conducted with suppliers and third-party providers"
+        }
+      ]
+    },
+    {
       "title": "[PR.AC] Protect: Access Control",
       "description": "Access to assets and associated facilities is limited to authorized users, processes, or devices, and to authorized activities and transactions.",
       "controls": [
@@ -152,6 +178,14 @@
         {
           "ref": "PR.AC-5",
           "summary": "Network integrity is protected, incorporating network segregation where appropriate."
+        },
+        {
+          "ref": "PR.AC-6",
+          "summary": "Identities are proofed and bound to credentials and asserted in interactions"
+        },
+        {
+          "ref": "PR.AC-7",
+          "summary": "Users, devices, and other assets are authenticated (e.g., single-factor, multi-factor) commensurate with the risk of the transaction (e.g., individuals’ security and privacy risks and other organizational risks)"
         }
       ]
     },
@@ -212,6 +246,10 @@
         {
           "ref": "PR.DS-7",
           "summary": "The development and testing environment(s) are separate from the production environment."
+        },
+        {
+          "ref": "PR.DS-8",
+          "summary": "Integrity checking mechanisms are used to verify hardware integrity"
         }
       ]
     },
@@ -297,11 +335,15 @@
         },
         {
           "ref": "PR.PT-3",
-          "summary": "Access to systems and assets is controlled, incorporating the principle of least functionality."
+          "summary": "The principle of least functionality is incorporated by configuring systems to provide only essential capabilities"
         },
         {
           "ref": "PR.PT-4",
-          "summary": "Communications and control networks are protected."
+          "summary": "Communications and control networks are protected"
+        },
+        {
+          "ref": "PR.PT-5",
+          "summary": "Mechanisms (e.g., failsafe, load balancing, hot swap) are implemented to achieve resilience requirements in normal and adverse situations"
         }
       ]
     },
@@ -450,6 +492,10 @@
         {
           "ref": "RS.AN-4",
           "summary": "Incidents are categorized consistent with response plans."
+        },
+        {
+          "ref": "RS.AN-5",
+          "summary": "Processes are established to receive, analyze and respond to vulnerabilities disclosed to the organization from internal and external sources (e.g. internal testing, security bulletins, or security researchers)"
         }
       ]
     },
@@ -480,7 +526,7 @@
           "summary": "Response plans incorporate lessons learned."
         },
         {
-          "ref": "RS.MI-2",
+          "ref": "RS.IM-2",
           "summary": "Response strategies are updated."
         }
       ]

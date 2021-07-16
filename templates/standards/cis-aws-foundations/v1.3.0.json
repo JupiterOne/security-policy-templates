@@ -121,7 +121,7 @@
             "applicable": true
           },
           {
-            "ref": "1.2",
+            "ref": "1.20",
             "title": "Ensure that S3 Buckets are configured with 'Block public access (bucket settings)'",
             "summary": "Amazon S3 provides Block public access (bucket settings) and Block public access (account settings) to help you manage public access to Amazon S3 resources. By default, S3 buckets and objects are created with public access disabled. However, an IAM principle with sufficient S3 permissions can enable public access at the bucket and/or object level. While enabled, Block public access (bucket settings) prevents an individual bucket, and its contained objects, from becoming publicly accessible. Similarly, Block public access (account settings) prevents all buckets, and contained objects, from becoming publicly accessible across the entire account.",
             "applicable": true

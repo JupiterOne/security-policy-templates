@@ -112,7 +112,7 @@
             "ref": "1.18",
             "title": "Ensure IAM instance roles are used for AWS resource access from instances (Level 2)",
             "summary": "AWS access from within AWS instances can be done by either encoding AWS keys into AWS API calls or by assigning the instance to a role which has an appropriate permissions policy for the required access. \"AWS Access\" means accessing the APIs of AWS in order to access AWS resources or manage AWS account resources.",
-            "applicable": false
+            "applicable": true
           },
           {
             "ref": "1.19",
@@ -136,7 +136,7 @@
             "ref": "1.22",
             "title": "Ensure IAM users are managed centrally via identity federation or AWS Organizations for multi-account environments (Level 2)",
             "summary": "In multi-account environments, IAM user centralization facilitates greater user control. User access beyond the initial account is then provide via role assumption. Centralization of users can be accomplished through federation with an external identity provider or through the use of AWS Organizations.",
-            "applicable": false
+            "applicable": true
           }
         ]
       },
@@ -153,7 +153,7 @@
             "ref": "2.1.2",
             "title": "Ensure S3 Bucket Policy allows HTTPS requests (Level 2)",
             "summary": "At the Amazon S3 bucket level, you can configure permissions through a bucket policy making the objects accessible only through HTTPS.",
-            "applicable": false
+            "applicable": true
           },
           {
             "ref": "2.2.1",
@@ -206,31 +206,31 @@
             "ref": "3.7",
             "title": "Ensure CloudTrail logs are encrypted at rest using KMS CMKs (Level 2)",
             "summary": "AWS CloudTrail is a web service that records AWS API calls for an account and makes those logs available to users and resources in accordance with IAM policies. AWS Key Management Service (KMS) is a managed service that helps create and control the encryption keys used to encrypt account data, and uses Hardware Security Modules (HSMs) to protect the security of encryption keys. CloudTrail logs can be configured to leverage server side encryption (SSE) and KMS customer created master keys (CMK) to further protect CloudTrail logs. It is recommended that CloudTrail be configured to use SSE-KMS.",
-            "applicable": false
+            "applicable": true
           },
           {
             "ref": "3.8",
             "title": "Ensure rotation for customer created CMKs is enabled (Level 2)",
             "summary": "AWS Key Management Service (KMS) allows customers to rotate the backing key which is key material stored within the KMS which is tied to the key ID of the Customer Created customer master key (CMK). It is the backing key that is used to perform cryptographic operations such as encryption and decryption. Automated key rotation currently retains all prior backing keys so that decryption of encrypted data can take place transparently. It is recommended that CMK key rotation be enabled.",
-            "applicable": false
+            "applicable": true
           },
           {
             "ref": "3.9",
             "title": "Ensure VPC flow logging is enabled in all VPCs (Level 2)",
             "summary": "VPC Flow Logs is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC. After you've created a flow log, you can view and retrieve its data in Amazon CloudWatch Logs. It is recommended that VPC Flow Logs be enabled for packet \"Rejects\" for VPCs.",
-            "applicable": false
+            "applicable": true
           },
           {
             "ref": "3.10",
             "title": "Ensure that Object-level logging for write events is enabled for S3 bucket (Level 2)",
             "summary": "S3 object-level API operations such as GetObject, DeleteObject, and PutObject are called data events. By default, CloudTrail trails don't log data events and so it is recommended to enable Object-level logging for S3 buckets.",
-            "applicable": false
+            "applicable": true
           },
           {
             "ref": "3.11",
             "title": "Ensure that Object-level logging for read events is enabled for S3 bucket (Level 2)",
             "summary": "S3 object-level API operations such as GetObject, DeleteObject, and PutObject are called data events. By default, CloudTrail trails don't log data events and so it is recommended to enable Object-level logging for S3 buckets.",
-            "applicable": false
+            "applicable": true
           }
         ]
       },
@@ -271,7 +271,7 @@
             "ref": "4.6",
             "title": "Ensure a log metric filter and alarm exist for AWS Management Console authentication failures (Level 2)",
             "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. It is recommended that a metric filter and alarm be established for failed console authentication attempts.",
-            "applicable": false
+            "applicable": true
           },
           {
             "ref": "4.7",
@@ -289,19 +289,19 @@
             "ref": "4.9",
             "title": "Ensure a log metric filter and alarm exist for AWS Config configuration changes (Level 2)",
             "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. It is recommended that a metric filter and alarm be established for detecting changes to CloudTrail's configurations.",
-            "applicable": false
+            "applicable": true
           },
           {
             "ref": "4.10",
             "title": "Ensure a log metric filter and alarm exist for security group changes (Level 2)",
             "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. Security Groups are a stateful packet filter that controls ingress and egress traffic within a VPC. It is recommended that a metric filter and alarm be established for detecting changes to Security Groups.",
-            "applicable": false
+            "applicable": true
           },
           {
             "ref": "4.11",
             "title": "Ensure a log metric filter and alarm exist for changes to Network Access Control Lists (NACL) (Level 2)",
             "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. NACLs are used as a stateless packet filter to control ingress and egress traffic for subnets within a VPC. It is recommended that a metric filter and alarm be established for changes made to NACLs.",
-            "applicable": false
+            "applicable": true
           },
           {
             "ref": "4.12",
@@ -348,13 +348,13 @@
             "ref": "5.3",
             "title": "Ensure the default security group of every VPC restricts all traffic (Level 2)",
             "summary": "A VPC comes with a default security group whose initial settings deny all inbound traffic, allow all outbound traffic, and allow all traffic between instances assigned to the security group. If you don't specify a security group when you launch an instance, the instance is automatically assigned to this default security group. Security groups provide stateful filtering of ingress/egress network traffic to AWS resources. It is recommended that the default security group restrict all traffic.\n\nThe default VPC in every region should have its default security group updated to comply. Any newly created VPCs will automatically contain a default security group that will need remediation to comply with this recommendation.\n\nNOTE: When implementing this recommendation, VPC flow logging is invaluable in determining the least privilege port access required by systems to work properly because it can log all packet acceptances and rejections occurring under the current security groups. This dramatically reduces the primary barrier to least privilege engineering - discovering the minimum ports required by systems in the environment. Even if the VPC flow logging recommendation in this benchmark is not adopted as a permanent security measure, it should be used during any period of discovery and engineering for least privileged security groups.",
-            "applicable": false
+            "applicable": true
           },
           {
             "ref": "5.4",
             "title": "Ensure routing tables for VPC peering are \"least access\" (Level 2)",
             "summary": "Once a VPC peering connection is established, routing tables must be updated to establish any connections between the peered VPCs. These routes can be as specific as desired - even peering a VPC to only a single host on the other side of the connection.",
-            "applicable": false
+            "applicable": true
           }
         ]
       }

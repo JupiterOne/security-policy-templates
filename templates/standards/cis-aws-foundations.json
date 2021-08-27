@@ -69,7 +69,7 @@
         {
           "ref": "1.11",
           "title": "Do not setup access keys during initial user setup for all IAM users that have a console password",
-          "summary": "AWS console defaults to no check boxes selected when creating a new IAM user. When cerating the IAM User credentials you have to determine what type of access they require.\n\nProgrammatic access: The IAM user might need to make API calls, use the AWS CLI, or use the Tools for Windows PowerShell. In that case, create an access key (access key ID and a secret access key) for that user.\n\nAWS Management Console access: If the user needs to access the AWS Management Console, create a password for the user.",
+          "summary": "AWS console defaults to no check boxes selected when creating a new IAM user. When creating the IAM User credentials you have to determine what type of access they require.\n\nProgrammatic access: The IAM user might need to make API calls, use the AWS CLI, or use the Tools for Windows PowerShell. In that case, create an access key (access key ID and a secret access key) for that user.\n\nAWS Management Console access: If the user needs to access the AWS Management Console, create a password for the user.",
           "applicable": true
         },
         {

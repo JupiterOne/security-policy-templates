@@ -1,0 +1,469 @@
+{
+    "standard": "Customer Security Questionnaire",
+    "version": "1.0",
+    "type": "questionnaire",
+    "webLink": "#",
+    "sections": [
+      {
+        "title": "Data Privacy",
+        "requirements": [
+          {
+            "ref": "0.0",
+            "title": "Does the organization have a Privacy Policy which is applicable to the relevant service? Please include a link.",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "0.1",
+            "title": "Does the organization collect, process, or store any personal data to perform the relevant services? (i.e. data that individually identifies a person, such as name, email, phone number, ssn, bank account information, card information, online identifier, etc.)",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "0.2",
+            "title": "If so, who are the data subjects and what are the data fields?",
+            "applicable": true
+          },
+          {
+            "ref": "0.3",
+            "title": "If the organization processes personal data, do they support consumer requests to have this data accessed, deleted, and corrected, as well as to opt out of the processing of their data?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "0.4",
+            "title": "Does the organization sell, or make available for material consideration, any personal data? If so, do they support consumer rights to opt out of the sale of their data?",
+            "applicable": true,
+            "response": "no"
+          },
+          {
+            "ref": "0.5",
+            "title": "Does the organization offer an opt-out mechanism for direct marketing, if relevant?",
+            "applicable": true,
+            "response": "yes"
+          }
+        ]
+      },
+      {
+        "title": "Data Security",
+        "requirements": [
+          {
+            "ref": "1.0",
+            "title": "Does the organization have a documented security program and is the security program periodically reviewed and updated to meet organizational requirements?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.1",
+            "title": "Is the organization's security program based on a known framework (e.g. ISO 27000 series, NIST 800-53, etc.)? If yes, can the organization provide certification or attestation of compliance with ISO 27001/27002, SOC 2 Type 2/SSAE18?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.2",
+            "title": "Please provide a copy of the working security program controls (e.g. Information Security Policy ToC)",
+            "applicable": true
+          },
+          {
+            "ref": "1.3",
+            "title": "Does the organization have a dedicated security function or team?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.4",
+            "title": "Does the organization maintain 24x7 coverage for responding to security alerts and events?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.5",
+            "title": "What is the title of highest seniority employee responsible for the protection of information and information systems within the organization?",
+            "applicable": true
+          },
+          {
+            "ref": "1.6",
+            "title": "Does the organization's security program have approval from executive management?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.7",
+            "title": "Does the organization have procedures for reviewing accounts and account access for all in-scope systems, and does the organization periodically follow defined procedures for reviewing accounts and account access within in-scope systems?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.8",
+            "title": "Does the organization use shared accounts for user or system access? If so, what steps does the organization take to ensure auditability of individual user actions?",
+            "applicable": true,
+            "response": "no"
+          },
+          {
+            "ref": "1.9",
+            "title": "What types of flow controls exist to prevent the flow of sensitive data from inside of organization controlled networks to public, external networks? Do any mechanisms exist to prevent or detect exfiltration of Affirm-related data?",
+            "applicable": true
+          },
+          {
+            "ref": "1.10",
+            "title": "What processes does the organization use to achieve separation of duties and the principle of least privilege?",
+            "applicable": true
+          },
+          {
+            "ref": "1.11",
+            "title": "What restrictions exist within the organizations network and systems that assist with the prevention of unauthorized remote access to the organizations intranet? Access to application servers? Access to database servers?",
+            "applicable": true
+          },
+          {
+            "ref": "1.12",
+            "title": "Besides major cloud platforms (i.e. AWS, GCP, Azure), does the organization rely on external information systems for handling of in-scope data or data processing? Has the organization established vendor security agreements and/or terms of conditions with the external entities?",
+            "applicable": true
+          },
+          {
+            "ref": "1.13",
+            "title": "Does the organization provide basic security awareness training to information system users (including managers, senior executives, and contractors)? Does this policy apply to new users? Do users undergo periodic security awareness training thereafter? Are security training records available upon request?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.14",
+            "title": "Does the organization provide role-based security training to personnel? Are security training records available upon request?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.15",
+            "title": "Does the organization log and audit logs for the following events: unsuccessful login attempts, successful login attempts, privilege escalation, account creation, password changes, unrecognized processes?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.16",
+            "title": "Does the organization alert in the event of failure or loss of logging mechanisms within in-scope systems?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.17",
+            "title": "Does the organization have mechanisms and/or apply processes that enable the organization to review and analyze information system logs for in-scope systems?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.18",
+            "title": "Do in-scope information systems protect audit information and audit tools from unauthorized access, modification, and deletion? What protection mechanisms exist that prevent the modification or deletion of audit information?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.19",
+            "title": "Does the organization have the capability to audit commands executed during user sessions within in-scope information systems?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.20",
+            "title": "Does the organization have a security assessment plan under active use within the organization? Is the security assessment plan available upon request?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.21",
+            "title": "What process does the organization apply in the design, documentation, development, and approval of interconnections to external information systems?",
+            "applicable": true
+          },
+          {
+            "ref": "1.22",
+            "title": "Does the organization conduct in-house or third-party penetration testing on a periodic basis? At what frequency? Is a copy of the last third-party penetration test available upon request?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.23",
+            "title": "Does the organization employ a configuration change control system capable of documenting and recording changes within applicable information systems, including personnel responsible for changes within the system?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.24",
+            "title": "Does the organization analyze changes to applicable information systems to determine potential security impacts prior to change implementation? Please describe related processes.",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.25",
+            "title": "Does the organization develop and document an inventory of information system components that is regularly updated for accuracy and includes all system operating systems, installed packages and software, and the versions of both?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.26",
+            "title": "Does the organization maintain and enforce policies determining allowed software within all in-scope information systems, and monitor installed software to ensure compliance with defined policies?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.27",
+            "title": "Does the organization have a defined disaster recovery plan? Is the disaster recovery plan available upon request?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.28",
+            "title": "Does the organization test the disaster recovery plan, whether a table-top test exercise or comprehensive exercise? If so, at what frequency?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.29",
+            "title": "Does the organization conduct backups of user-level and system-level information contained within in-scope information systems? Does the organization protect the confidentiality, integrity, and availability of backups? Please describe processes to provide insight.",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.30",
+            "title": "Does the organization ensure that in-scope information systems uniquely identify and authenticate organizational users, or processes acting on behalf of organizational users?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.31",
+            "title": "Do in-scope information systems require multifactor authentication for access, either directly or indirectly? Indirect multifactor authentication is defined as requiring multifactor authentication as a required step to obtain access to a network containing in-scope information systems but perhaps not required for access to the information system itself.",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.32",
+            "title": "Does the organization use automated mechanisms to ensure that only organizational devices are used during access, either local ore remote, to in-scope information systems?",
+            "applicable": true,
+            "response": "no"
+          },
+          {
+            "ref": "1.33",
+            "title": "Does the organization ensure that authenticators (such as passwords) comply with organizational content policies, such as ensuring that authenticators have sufficient strength of mechanisms for their intended use?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.34",
+            "title": "Does the organization ensure that default authenticators are modified prior to information system installation?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.35",
+            "title": "For in-scope information systems, does the organization restrict mechanisms for authentication to those approved within FIPS Publication 140-2? Please list any applicable algorithms not approved within FIPS 140-2.",
+            "applicable": true,
+            "response": "no"
+          },
+          {
+            "ref": "1.36",
+            "title": "Does the organization employ techniques/mechanisms to assess suspicious authentication behavior?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.37",
+            "title": "Does the organization provide incident response training to in-scope information system users? At what frequency?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.38",
+            "title": "Does the organization test the incident response capability for the information system? If so, when was the last test conducted?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.39",
+            "title": "Does the organization have a documented incident response plan? Is this documentation available upon request?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.40",
+            "title": "Does the organization utilize external or third-party resources for maintenance of in-scope information systems? Have any third-party resources undergone screening processes similar to those required of internal personnel?",
+            "applicable": true,
+            "response": "no"
+          },
+          {
+            "ref": "1.41",
+            "title": "Does the organization sanitize in-scope media prior to disposal? Explain.",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.42",
+            "title": "Does the organization redact sensitive information during log collection within in-scope information systems and applications?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.43",
+            "title": "Please describe physical access control requirements to locations that provide access to internal networks. What steps does the organization take to ensure that physical access to organizational locations is not breached?",
+            "applicable": true
+          },
+          {
+            "ref": "1.44",
+            "title": "Does the organization employ technology and or processes to track and monitor the location and movement of network connected assets within the organization's physical security scope?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.45",
+            "title": "Does the organization screen individuals prior to authorizing access to in-scope information systems?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.46",
+            "title": "Upon termination or transfer of personnel, does the organization disable physical/logical system access and terminate/revoke credentials associated with the individual?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.47",
+            "title": "Does the organization require access agreements/contracts with personnel before provisioning access to sensitive in-scope data?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.48",
+            "title": "Does the organization have any offsite or offshore locations for in-scope processing or IT support? If yes, please provide locations and description.",
+            "applicable": true,
+            "response": "no"
+          },
+          {
+            "ref": "1.49",
+            "title": "Has the organization developed impact-level categorization for in-scope information and information systems, and has the organization applied categorization to relevant systems/data?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.50",
+            "title": "Does the organization have a risk assessment process that has been applied to in-scope systems and data?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.51",
+            "title": "Does the organization perform vulnerability scanning? Please describe the types of vulnerability scanning employed.",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.52",
+            "title": "Does the organization employ a system development life cycle when implementing new systems or substantial modifications to existing systems? Please describe how security is applied throughout the process.",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.53",
+            "title": "Does the organization require that providers of external information system services comply with organizational information security requirements?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.54",
+            "title": "Does the organization require developers and/or software managers to track security flaws and flaw resolution within in-scope information systems?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.55",
+            "title": "What steps or processes exist within the organization to protect in-scope information systems against supply chain attacks?",
+            "applicable": true
+          },
+          {
+            "ref": "1.56",
+            "title": "Does the organization replace system components when support for the components is no longer available from the developer, vendor, or manufacturer? Does the organization provide exceptions for this policy, and if so, do exceptions exist within in-scope components?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.57",
+            "title": "For in-scope systems, does the organization employ any services or mechanisms to protect against or limit the effects of denial of service attacks?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.58",
+            "title": "Does the organization monitor and control communications at the external boundary of in-scope information systems, and at key internal boundaries within the system?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.59",
+            "title": "Do in-scope information systems protect the confidentiality and integrity of transmitted information using a security function approved within FIPS Publication 140-2? Please list any applicable algorithms not approved within FIPS 140-2.",
+            "applicable": true
+          },
+          {
+            "ref": "1.60",
+            "title": "Does the organization have cryptographic key establishment and management procedures, including key generation, distribution, storage, access and destruction?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.61",
+            "title": "Do in-scope information systems protect the confidentiality of information at rest using a security function approved within FIPS Publication 140-2 (e.g. AES)? Please list any applicable algorithms not approved within FIPS 140-2.",
+            "applicable": true
+          },
+          {
+            "ref": "1.62",
+            "title": "Will all scoped data reside within the U.S.? If not, please provide data center locations.",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.63",
+            "title": "Does the organization employ malicious code protection mechanisms? Please list in-scope mechanisms.",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.64",
+            "title": "Does the organization monitor in-scope systems to detect attacks and indicators of potential attacks / unauthorized access? Examples of techniques include intrusion detection systems, backdoor detection, and other advanced persistent threat detection.",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.65",
+            "title": "Does the organization receive information system security alerts, advisories, and directives pertaining to in-scope system software and hardware, and have a process to track corresponding action items?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.66",
+            "title": "Do in-scope information systems restrict and validate externally supplied input to protect against malicious intent from attackers? Does the organization employ an methodical approach to ensure adequate protection across all in-scope systems?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.67",
+            "title": "Does the organization ensure that all public-facing systems only provide the minimum required information to prevent against sensitive information or authenticator leakage?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.68",
+            "title": "Does the organization have a formal process for conducting risk assessments for its service providers for in-scope work? Describe.",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.69",
+            "title": "Does the organization logically separate the data of different customers?",
+            "applicable": true,
+            "response": "yes"
+          },
+          {
+            "ref": "1.70",
+            "title": "Does the organization support the deletion and return of its clients' data? Please indicate what type of data can be returned/deleted.",
+            "applicable": true,
+            "response": "yes"
+          }
+        ]
+      }
+    ],
+    "domains": []
+  }

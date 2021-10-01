@@ -78,6 +78,12 @@
           "requirements": [
             "6.1.6"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 4.6"
+          ]
         }
       ]
     },
@@ -100,6 +106,14 @@
           "standard": "ISO/IEC 27002:2013",
           "requirements": [
             "12.1.3"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 12.2",
+            "CIS Safeguard 12.4",
+            "CIS Safeguard 16.8"
           ]
         }
       ]
@@ -186,6 +200,13 @@
             "6.1.2",
             "7.2.1"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 17.1",
+            "CIS Safeguard 17.5"
+          ]
         }
       ]
     },
@@ -234,6 +255,19 @@
             "18.2.2",
             "7.2.2"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 14.1",
+            "CIS Safeguard 14.3",
+            "CIS Safeguard 14.4",
+            "CIS Safeguard 14.5",
+            "CIS Safeguard 14.6",
+            "CIS Safeguard 14.7",
+            "CIS Safeguard 14.8",
+            "CIS Safeguard 14.9"
+          ]
         }
       ]
     },
@@ -273,6 +307,21 @@
           "requirements": [
             "7.2.2"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 14.1",
+            "CIS Safeguard 14.2",
+            "CIS Safeguard 14.3",
+            "CIS Safeguard 14.4",
+            "CIS Safeguard 14.5",
+            "CIS Safeguard 14.6",
+            "CIS Safeguard 14.7",
+            "CIS Safeguard 14.8",
+            "CIS Safeguard 14.9",
+            "CIS Safeguard 16.9"
+          ]
         }
       ]
     },
@@ -290,6 +339,20 @@
           "standard": "CSA CCM",
           "requirements": [
             "HRS-03"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 14.1",
+            "CIS Safeguard 14.2",
+            "CIS Safeguard 14.3",
+            "CIS Safeguard 14.4",
+            "CIS Safeguard 14.5",
+            "CIS Safeguard 14.6",
+            "CIS Safeguard 14.7",
+            "CIS Safeguard 14.8",
+            "CIS Safeguard 14.9"
           ]
         }
       ]
@@ -658,6 +721,13 @@
             "12.4.1",
             "12.4.3"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 8.1",
+            "CIS Safeguard 8.12"
+          ]
         }
       ]
     },
@@ -689,6 +759,14 @@
           "standard": "NIST CSF",
           "requirements": [
             "PR.PT-1"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 8.9",
+            "CIS Safeguard 8.11",
+            "CIS Safeguard 13.11"
           ]
         }
       ]
@@ -807,6 +885,19 @@
             "12.4.4",
             "12.7.1"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 3.14",
+            "CIS Safeguard 8.2",
+            "CIS Safeguard 8.4",
+            "CIS Safeguard 8.5",
+            "CIS Safeguard 8.6",
+            "CIS Safeguard 8.7",
+            "CIS Safeguard 8.8",
+            "CIS Safeguard 12.5"
+          ]
         }
       ]
     },
@@ -845,6 +936,13 @@
           "standard": "ISO/IEC 27002:2013",
           "requirements": [
             "15.3.2"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 8.3",
+            "CIS Safeguard 8.10"
           ]
         }
       ]
@@ -895,6 +993,10 @@
           "requirements": [
             "PR.IP-8"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": []
         }
       ]
     },
@@ -921,6 +1023,12 @@
           "standard": "NIST CSF",
           "requirements": [
             "PR.IP-7"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 14.1"
           ]
         }
       ]
@@ -986,6 +1094,10 @@
             "7.1.2",
             "8.1.3"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": []
         }
       ]
     },
@@ -1083,6 +1195,12 @@
             "7.3.1",
             "8.1.4"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 6.2"
+          ]
         }
       ]
     },
@@ -1154,6 +1272,21 @@
           "standard": "SOC 2",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 14.1",
+            "CIS Safeguard 14.2",
+            "CIS Safeguard 14.3",
+            "CIS Safeguard 14.4",
+            "CIS Safeguard 14.5",
+            "CIS Safeguard 14.6",
+            "CIS Safeguard 14.7",
+            "CIS Safeguard 14.8",
+            "CIS Safeguard 14.9",
+            "CIS Safeguard 16.9"
+          ]
         }
       ]
     },
@@ -1248,6 +1381,14 @@
             "9.2.1",
             "9.2.2"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 4.7",
+            "CIS Safeguard 6.1",
+            "CIS Safeguard 12.8"
+          ]
         }
       ]
     },
@@ -1279,6 +1420,13 @@
           "standard": "ISO/IEC 27002:2013",
           "requirements": [
             "9.4.2"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 5.6",
+            "CIS Safeguard 6.7"
           ]
         }
       ]
@@ -1316,6 +1464,14 @@
           "requirements": [
             "PR.AC-1"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 6.3",
+            "CIS Safeguard 6.4",
+            "CIS Safeguard 6.5"
+          ]
         }
       ]
     },
@@ -1336,6 +1492,12 @@
             "GRM-06",
             "HRS-07",
             "IAM-02"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 6.8"
           ]
         }
       ]
@@ -1386,6 +1548,12 @@
             "9.1.2",
             "9.2.3"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 6.5"
+          ]
         }
       ]
     },
@@ -1420,6 +1588,13 @@
           "requirements": [
             "6.2.2",
             "9.1.2"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 12.7",
+            "CIS Safeguard 13.5"
           ]
         }
       ]
@@ -1522,6 +1697,14 @@
           "requirements": [
             "9.2.6"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 5.3",
+            "CIS Safeguard 6.1",
+            "CIS Safeguard 6.2"
+          ]
         }
       ]
     },
@@ -1554,6 +1737,13 @@
           "standard": "ISO/IEC 27002:2013",
           "requirements": [
             "9.2.3"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 5.4",
+            "CIS Safeguard 12.8"
           ]
         }
       ]
@@ -1591,6 +1781,12 @@
           "standard": "ISO/IEC 27002:2013",
           "requirements": [
             "9.4.4"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 5.5"
           ]
         }
       ]
@@ -1634,6 +1830,12 @@
           "standard": "ISO/IEC 27002:2013",
           "requirements": [
             "9.2.5"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 5.1"
           ]
         }
       ]
@@ -1683,6 +1885,24 @@
           "requirements": [
             "13.2.3"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 2.5",
+            "CIS Safeguard 2.6",
+            "CIS Safeguard 3.6",
+            "CIS Safeguard 4.5",
+            "CIS Safeguard 9.1",
+            "CIS Safeguard 9.4",
+            "CIS Safeguard 10.1",
+            "CIS Safeguard 10.2",
+            "CIS Safeguard 10.3",
+            "CIS Safeguard 10.4",
+            "CIS Safeguard 10.5",
+            "CIS Safeguard 13.5",
+            "CIS Safeguard 13.7"
+          ]
         }
       ]
     },
@@ -1715,6 +1935,12 @@
           "requirements": [
             "6.2.2",
             "9.1.2"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 12.6"
           ]
         }
       ]
@@ -1767,6 +1993,14 @@
           "requirements": [
             "9.4.3"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 4.10",
+            "CIS Safeguard 5.2",
+            "CIS Safeguard 6.5"
+          ]
         }
       ]
     },
@@ -1798,6 +2032,12 @@
             "9.2.4",
             "9.3.1"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 12.7"
+          ]
         }
       ]
     },
@@ -1820,6 +2060,15 @@
           "requirements": [
             "9.1.2",
             "9.4.1"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 3.3",
+            "CIS Safeguard 6.4",
+            "CIS Safeguard 6.5",
+            "CIS Safeguard 12.7"
           ]
         }
       ]
@@ -2059,6 +2308,14 @@
             "8.1.1",
             "8.1.2"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 1.1",
+            "CIS Safeguard 1.5",
+            "CIS Safeguard 1.3"
+          ]
         }
       ]
     },
@@ -2091,6 +2348,18 @@
           "requirements": [
             "8.1.1",
             "8.1.2"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 1.1",
+            "CIS Safeguard 1.5",
+            "CIS Safeguard 1.3",
+            "CIS Safeguard 2.1",
+            "CIS Safeguard 2.4",
+            "CIS Safeguard 5.1",
+            "CIS Safeguard 6.6"
           ]
         }
       ]
@@ -2145,6 +2414,13 @@
           "requirements": [
             "8.2.1"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 3.1",
+            "CIS Safeguard 3.7"
+          ]
         }
       ]
     },
@@ -2182,6 +2458,13 @@
             "8.2.2",
             "8.2.3"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 3.1",
+            "CIS Safeguard 3.4"
+          ]
         }
       ]
     },
@@ -2207,6 +2490,13 @@
           "requirements": [
             "ID.AM-3",
             "ID.AM-5"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 3.1",
+            "CIS Safeguard 3.2"
           ]
         }
       ]
@@ -2249,6 +2539,16 @@
           "requirements": [
             "12.3.1"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 3.1",
+            "CIS Safeguard 11.1",
+            "CIS Safeguard 11.2",
+            "CIS Safeguard 11.3",
+            "CIS Safeguard 11.4"
+          ]
         }
       ]
     },
@@ -2276,6 +2576,14 @@
           "standard": "CMMC ML1",
           "requirements": [
             "MP.1.118"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 3.1",
+            "CIS Safeguard 3.4",
+            "CIS Safeguard 3.5"
           ]
         }
       ]
@@ -2310,6 +2618,16 @@
           "requirements": [
             "15.5.4",
             "10.1.1"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 3.3",
+            "CIS Safeguard 3.12",
+            "CIS Safeguard 11.2",
+            "CIS Safeguard 11.3",
+            "CIS Safeguard 11.4"
           ]
         }
       ]
@@ -2350,6 +2668,13 @@
           "standard": "ISO/IEC 27002:2013",
           "requirements": [
             "14.3.1"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 3.6",
+            "CIS Safeguard 3.11"
           ]
         }
       ]
@@ -2406,6 +2731,12 @@
             "14.1.2",
             "14.1.3",
             "14.3.1"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 3.10"
           ]
         }
       ]
@@ -2551,6 +2882,14 @@
             "6.1.6",
             "12.1.4"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 16.1",
+            "CIS Safeguard 16.10",
+            "CIS Safeguard 16.11"
+          ]
         }
       ]
     },
@@ -2621,6 +2960,12 @@
             "14.1.1",
             "14.2.5"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 16.10"
+          ]
         }
       ]
     },
@@ -2646,6 +2991,15 @@
           "standard": "ISO/IEC 27002:2013",
           "requirements": [
             "14.2.5"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 3.8",
+            "CIS Safeguard 16.10",
+            "CIS Safeguard 16.11",
+            "CIS Safeguard 16.14"
           ]
         }
       ]
@@ -2696,6 +3050,14 @@
             "SI.1.212",
             "SI.1.213"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 16.2",
+            "CIS Safeguard 16.4",
+            "CIS Safeguard 16.5"
+          ]
         }
       ]
     },
@@ -2727,6 +3089,13 @@
             "14.2.8",
             "14.2.9"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 16.2",
+            "CIS Safeguard 16.12"
+          ]
         }
       ]
     },
@@ -2756,6 +3125,13 @@
           "requirements": [
             "14.2.8",
             "14.2.9"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 16.2",
+            "CIS Safeguard 16.12"
           ]
         }
       ]
@@ -2800,6 +3176,19 @@
             "14.2.8",
             "12.6.1"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 16.2",
+            "CIS Safeguard 16.12",
+            "CIS Safeguard 16.13",
+            "CIS Safeguard 18.1",
+            "CIS Safeguard 18.2",
+            "CIS Safeguard 18.3",
+            "CIS Safeguard 18.4",
+            "CIS Safeguard 18.5"
+          ]
         }
       ]
     },
@@ -2810,6 +3199,12 @@
           "standard": "SOC 2",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 16.2"
+          ]
         }
       ]
     },
@@ -2836,6 +3231,12 @@
           "standard": "ISO/IEC 27002:2013",
           "requirements": [
             "14.2.7"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 16.5"
           ]
         }
       ]
@@ -2917,6 +3318,12 @@
             "6.1.6",
             "12.1.2"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 4.1"
+          ]
         }
       ]
     },
@@ -2932,6 +3339,13 @@
           "standard": "NIST CSF",
           "requirements": [
             "PR.IP-1"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 2.3",
+            "CIS Safeguard 13.11"
           ]
         }
       ]
@@ -2977,6 +3391,17 @@
           "requirements": [
             "13.1.1",
             "13.1.2"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 4.2",
+            "CIS Safeguard 12.1",
+            "CIS Safeguard 12.3",
+            "CIS Safeguard 12.5",
+            "CIS Safeguard 12.6",
+            "CIS Safeguard 13.6"
           ]
         }
       ]
@@ -3055,6 +3480,13 @@
           "standard": "CMMC ML1",
           "requirements": [
             "SI.1.210"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 7.3",
+            "CIS Safeguard 7.4"
           ]
         }
       ]
@@ -3163,6 +3595,26 @@
           "requirements": [
             "SI.1.211"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 2.7",
+            "CIS Safeguard 2.5",
+            "CIS Safeguard 2.6",
+            "CIS Safeguard 3.6",
+            "CIS Safeguard 4.3",
+            "CIS Safeguard 4.5",
+            "CIS Safeguard 9.1",
+            "CIS Safeguard 9.4",
+            "CIS Safeguard 10.1",
+            "CIS Safeguard 10.2",
+            "CIS Safeguard 10.3",
+            "CIS Safeguard 10.4",
+            "CIS Safeguard 10.5",
+            "CIS Safeguard 13.5",
+            "CIS Safeguard 13.7"
+          ]
         }
       ]
     },
@@ -3212,6 +3664,17 @@
           "requirements": [
             "12.5.1",
             "12.6.2"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 2.7",
+            "CIS Safeguard 2.5",
+            "CIS Safeguard 2.6",
+            "CIS Safeguard 4.3",
+            "CIS Safeguard 4.8",
+            "CIS Safeguard 16.7"
           ]
         }
       ]
@@ -3306,6 +3769,16 @@
             "14.1.2",
             "14.1.3"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 4.4",
+            "CIS Safeguard 4.5",
+            "CIS Safeguard 13.4",
+            "CIS Safeguard 13.9",
+            "CIS Safeguard 13.10"
+          ]
         }
       ]
     },
@@ -3338,6 +3811,13 @@
           "standard": "CMMC ML1",
           "requirements": [
             "SC.1.175"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 13.2",
+            "CIS Safeguard 13.7"
           ]
         }
       ]
@@ -3381,6 +3861,14 @@
           "requirements": [
             "14.1.2",
             "14.1.3"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 13.3",
+            "CIS Safeguard 13.6",
+            "CIS Safeguard 13.8"
           ]
         }
       ]
@@ -3440,6 +3928,20 @@
           "requirements": [
             "12.2.1"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 2.7",
+            "CIS Safeguard 2.5",
+            "CIS Safeguard 9.7",
+            "CIS Safeguard 10.1",
+            "CIS Safeguard 10.2",
+            "CIS Safeguard 10.4",
+            "CIS Safeguard 10.6",
+            "CIS Safeguard 10.7",
+            "CIS Safeguard 13.7"
+          ]
         }
       ]
     },
@@ -3472,6 +3974,15 @@
           "requirements": [
             "14.1.2",
             "14.1.3"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 13.4",
+            "CIS Safeguard 13.8",
+            "CIS Safeguard 13.9",
+            "CIS Safeguard 13.10"
           ]
         }
       ]
@@ -3506,6 +4017,12 @@
           "requirements": [
             "6.1.4"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 13.11"
+          ]
         }
       ]
     },
@@ -3525,6 +4042,14 @@
             "DE.DP-4",
             "DE.CM-3",
             "DE.AE-3"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 12.5",
+            "CIS Safeguard 13.1",
+            "CIS Safeguard 13.11"
           ]
         }
       ]
@@ -3583,6 +4108,18 @@
             "14.2.8",
             "12.6.1"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 7.1",
+            "CIS Safeguard 7.5",
+            "CIS Safeguard 7.6",
+            "CIS Safeguard 16.2",
+            "CIS Safeguard 16.6",
+            "CIS Safeguard 16.7",
+            "CIS Safeguard 16.12"
+          ]
         }
       ]
     },
@@ -3626,6 +4163,18 @@
           "standard": "ISO/IEC 27002:2013",
           "requirements": [
             "12.6.1"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 7.2",
+            "CIS Safeguard 7.7",
+            "CIS Safeguard 16.2",
+            "CIS Safeguard 16.3",
+            "CIS Safeguard 16.6",
+            "CIS Safeguard 18.3",
+            "CIS Safeguard 18.4"
           ]
         }
       ]
@@ -3674,6 +4223,12 @@
             "18.1.3",
             "8.3.2"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 3.5"
+          ]
         }
       ]
     },
@@ -3702,6 +4257,14 @@
             "13.2.1",
             "8.3.1",
             "8.3.3"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 3.9",
+            "CIS Safeguard 10.3",
+            "CIS Safeguard 10.4"
           ]
         }
       ]
@@ -3756,6 +4319,24 @@
           "standard": "ISO/IEC 27002:2013",
           "requirements": [
             "6.2.1"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 2.5",
+            "CIS Safeguard 2.6",
+            "CIS Safeguard 3.6",
+            "CIS Safeguard 4.11",
+            "CIS Safeguard 9.1",
+            "CIS Safeguard 9.4",
+            "CIS Safeguard 10.1",
+            "CIS Safeguard 10.2",
+            "CIS Safeguard 10.3",
+            "CIS Safeguard 10.4",
+            "CIS Safeguard 10.5",
+            "CIS Safeguard 13.5",
+            "CIS Safeguard 13.7"
           ]
         }
       ]
@@ -3863,6 +4444,12 @@
           "requirements": [
             "17.1.3"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 11.5"
+          ]
         }
       ]
     },
@@ -3949,6 +4536,14 @@
           "requirements": [
             "17.2.1"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 11.1",
+            "CIS Safeguard 11.3",
+            "CIS Safeguard 11.4"
+          ]
         }
       ]
     },
@@ -3980,6 +4575,14 @@
           "standard": "ISO/IEC 27002:2013",
           "requirements": [
             "16.1.1"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 17.1",
+            "CIS Safeguard 17.2",
+            "CIS Safeguard 17.5"
           ]
         }
       ]
@@ -4035,6 +4638,14 @@
             "16.1.5",
             "16.1.6"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 17.3",
+            "CIS Safeguard 17.4",
+            "CIS Safeguard 17.6"
+          ]
         }
       ]
     },
@@ -4083,6 +4694,12 @@
           "requirements": [
             "16.1.5"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 17.9"
+          ]
         }
       ]
     },
@@ -4101,6 +4718,12 @@
           "requirements": [
             "BCR-01",
             "SEF-02"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 17.6"
           ]
         }
       ]
@@ -4129,6 +4752,12 @@
             "DE.DP-3",
             "PR.IP-10"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 17.7"
+          ]
         }
       ]
     },
@@ -4153,6 +4782,12 @@
           "requirements": [
             "16.1.6",
             "16.1.7"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 17.8"
           ]
         }
       ]
@@ -4333,6 +4968,16 @@
             "15.2.2",
             "6.1.5"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 15.1",
+            "CIS Safeguard 15.2",
+            "CIS Safeguard 15.3",
+            "CIS Safeguard 15.4",
+            "CIS Safeguard 15.5"
+          ]
         }
       ]
     },
@@ -4380,6 +5025,17 @@
             "15.1.3",
             "6.1.5"
           ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 15.1",
+            "CIS Safeguard 15.2",
+            "CIS Safeguard 15.3",
+            "CIS Safeguard 15.4",
+            "CIS Safeguard 15.5",
+            "CIS Safeguard 15.7"
+          ]
         }
       ]
     },
@@ -4401,6 +5057,17 @@
           "standard": "ISO/IEC 27002:2013",
           "requirements": [
             "15.2.1"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 15.1",
+            "CIS Safeguard 15.2",
+            "CIS Safeguard 15.3",
+            "CIS Safeguard 15.4",
+            "CIS Safeguard 15.5",
+            "CIS Safeguard 15.6"
           ]
         }
       ]
@@ -4441,6 +5108,18 @@
           "standard": "ISO/IEC 27002:2013",
           "requirements": [
             "14.1.1"
+          ]
+        },
+        {
+          "standard": "CIS Controls v8",
+          "controls": [
+            "CIS Safeguard 2.2",
+            "CIS Safeguard 15.1",
+            "CIS Safeguard 15.2",
+            "CIS Safeguard 15.3",
+            "CIS Safeguard 15.4",
+            "CIS Safeguard 15.5",
+            "CIS Safeguard 16.5"
           ]
         }
       ]

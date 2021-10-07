@@ -9,12 +9,12 @@
         {
           "ref": "AC-1",
           "title": "Access Control Policy and Procedures",
-          "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. An access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the access control policy and associated access controls; and\n b. Reviews and updates the current:\n   1. Access control policy **at least every 3 years**; and\n   2. Access control procedures **at least annually**."
+          "summary": "The organization:\n a. Develops, documents, and disseminates to {{orgPersonnel}}:\n 1. An access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n 2. Procedures to facilitate the implementation of the access control policy and associated access controls; and\n b. Reviews and updates the current:\n 1. Access control policy **at least every 3 years**; and\n 2. Access control procedures **at least annually**."
         },
         {
           "ref": "AC-2",
           "title": "Account Management",
-          "summary": "The organization:\n a. Identifies and selects the following types of information system accounts to support organizational missions/business functions: [Assignment: organization-defined information system account types];\n b. Assigns account managers for information system accounts;\n c. Establishes conditions for group and role membership;\n d. Specifies authorized users of the information system, group and role membership, and access authorizations (i.e., privileges) and other attributes (as required) for each account;\n e. Requires approvals by [Assignment: organization-defined personnel or roles] for requests to create information system accounts;\n f. Creates, enables, modifies, disables, and removes information system accounts in accordance with [Assignment: organization-defined procedures or conditions];\n g. Monitors the use of, information system accounts;\n h. Notifies account managers:\n   1. When accounts are no longer required;\n   2. When users are terminated or transferred; and\n   3. When individual information system usage or need-to-know changes;\n i. Authorizes access to the information system based on:\n   1. A valid access authorization;\n   2. Intended system usage; and\n   3. Other attributes as required by the organization or associated missions/business functions;\n j. Reviews accounts for compliance with account management requirements **at least annually**; and\n k. Establishes a process for reissuing shared/group account credentials (if deployed) when individuals are removed from the group."
+          "summary": "The organization:\n a. Identifies and selects the following types of information system accounts to support organizational missions/business functions: {{infoSysAccountTypes}};\n b. Assigns account managers for information system accounts;\n c. Establishes conditions for group and role membership;\n d. Specifies authorized users of the information system, group and role membership, and access authorizations (i.e., privileges) and other attributes (as required) for each account;\n e. Requires approvals by {{newAccountApprovalRoles}} for requests to create information system accounts;\n f. Creates, enables, modifies, disables, and removes information system accounts in accordance with {{infoSysAccountManagement}};\n g. Monitors the use of information system accounts;\n h. Notifies account managers:\n 1. When accounts are no longer required;\n   2. When users are terminated or transferred; and\n 3. When individual information system usage or need-to-know changes;\n i. Authorizes access to the information system based on:\n 1. A valid access authorization;\n 2. Intended system usage; and\n 3. Other attributes as required by the organization or associated missions/business functions;\n j. Reviews accounts for compliance with account management requirements **at least annually**; and\n k. Establishes a process for reissuing shared/group account credentials (if deployed) when individuals are removed from the group."
         },
         {
           "ref": "AC-2 (1)",
@@ -24,7 +24,7 @@
         {
           "ref": "AC-2 (2)",
           "title": "Account Management | Removal of Temporary / Emergency Accounts",
-          "summary": "The information system automatically [Selection: removes; disables] temporary and emergency accounts after **no more than 30 days for temporary and emergency account types**."
+          "summary": "The information system automatically {{removalOfTempAndEmergAccts}} temporary and emergency accounts after **no more than 30 days for temporary and emergency account types**."
         },
         {
           "ref": "AC-2 (3)",
@@ -39,17 +39,17 @@
         {
           "ref": "AC-2 (5)",
           "title": "Account Management | Inactivity Logout",
-          "summary": "The organization requires that users log out when [Assignment: organization-defined time-period of expected inactivity or description of when to log out]."
+          "summary": "The organization requires that users log out when {{inactivityTimeout}}."
         },
         {
           "ref": "AC-2 (7)",
           "title": "Account Management | Role-Based Schemes",
-          "summary": "The organization:\n(a) Establishes and administers privileged user accounts in accordance with a role-based access scheme that organizes allowed information system access and privileges into roles;\n(b) Monitors privileged role assignments; and\n(c) Takes [Assignment: organization-defined actions] when privileged role assignments are no longer appropriate."
+          "summary": "The organization:\n(a) Establishes and administers privileged user accounts in accordance with a role-based access scheme that organizes allowed information system access and privileges into roles;\n(b) Monitors privileged role assignments; and\n(c) Takes {{privilegedRoleRevocationActions}} when privileged role assignments are no longer appropriate."
         },
         {
           "ref": "AC-2 (9)",
           "title": "Account Management | Restrictions on Use of Shared Groups / Accounts",
-          "summary": "The organization only permits the use of shared/group accounts that meet [Assignment: organization-defined conditions for establishing shared/group accounts]."
+          "summary": "The organization only permits the use of shared/group accounts that meet {{useOfSharedAndGroupAccts}}."
         },
         {
           "ref": "AC-2 (10)",
@@ -59,7 +59,7 @@
         {
           "ref": "AC-2 (12)",
           "title": "Account Management | Account Monitoring / Atypical Usage",
-          "summary": "The organization:\n (a) Monitors information system accounts for [Assignment: organization-defined atypical use]; and\n (b) Reports atypical usage of information system accounts to [Assignment: organization-defined personnel or roles]."
+          "summary": "The organization:\n (a) Monitors information system accounts for {{abnormalUseDefinition}}; and\n (b) Reports atypical usage of information system accounts to {{abnormalActivityNotificationPersonnel}}."
         },
         {
           "ref": "AC-3",
@@ -69,7 +69,7 @@
         {
           "ref": "AC-4",
           "title": "Information Flow Enforcement",
-          "summary": "The information system enforces approved authorizations for controlling the flow of information within the system and between interconnected systems based on [Assignment: organization-defined information flow control policies]."
+          "summary": "The information system enforces approved authorizations for controlling the flow of information within the system and between interconnected systems based on {{infoFlowEnforcement}}."
         },
         {
           "ref": "AC-4 (21)",

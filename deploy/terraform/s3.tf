@@ -1,8 +1,8 @@
 resource "aws_s3_bucket" "security_policy_templates" {
-  bucket = "${var.target_name}-security-policy-templates"
+  bucket = "${var.deploy_config.environment}-security-policy-templates"
   acl    = "private"
   tags = {
-    Project        = var.jupiterone_project
+    Project        = var.deploy_config.project
     Classification = "internal"
     Description    = "bucket that copies the source from security-policy-templates in GitHub"
   }

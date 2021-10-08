@@ -65,3 +65,7 @@ typings/
 .DS_Store
 partials/
 docs/
+
+/deploy/templates/
+work/
+.npmrc

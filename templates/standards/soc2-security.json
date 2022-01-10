@@ -1,6 +1,6 @@
 {
-  "standard": "SOC 2",
-  "version": "TSC Security",
+  "standard": "SOC 2 Security",
+  "version": "AICPA 2017",
   "webLink": "https://www.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria.pdf",
   "unlocked": true,
   "domains": [

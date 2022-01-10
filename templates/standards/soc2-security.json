@@ -24,7 +24,7 @@
           "ref": "CC1.2",
           "title": "COSO Principle 2",
           "summary": "The board of directors demonstrates independence from management and exercises oversight of the development and performance of internal control.",
-          "mappedControls": []
+          "mappedControls": ["cp-gov-bod"]
         },
         {
           "ref": "CC1.3",

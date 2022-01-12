@@ -209,8 +209,6 @@
             "cp-audit-review",
             "cp-audit-control-deficiency",
             "cp-vuln-remediation",
-            "cp-model-metrics",
-            "cp-ism-reporting",
             "cp-ccm-monitor",
             "cp-sdlc-monitor",
             "cp-compliance-monitor"

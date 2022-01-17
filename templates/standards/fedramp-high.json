@@ -1,6 +1,7 @@
 {
   "standard": "FedRAMP High",
   "version": "NIST 800-53r4",
+  "basedOn": "NIST 800-53r4",
   "webLink": "https://www.fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx",
   "domains": [
     {

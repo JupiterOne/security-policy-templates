@@ -282,7 +282,7 @@
         },
         {
           "ref": "3.3",
-          "title": "Ensure Storage logging is enabled for Queue service for read",
+          "title": "Ensure Storage logging is enabled for Queue service for read, write, and delete requests (Not Scored)",
           "summary": "The Storage Queue service stores messages that may be read by any client who has access to the storage account. A queue can contain an unlimited number of messages, each of which can be up to 64KB in size using version 2011- 08 - 18 or newer. Storage Logging happens server-side and allows details for both successful and failed requests to be recorded in the storage account. These logs allow users to see the details of read, write, and delete operations against the queues. Storage Logging log entries contain the following information about individual requests: Timing information such as start time, end-to-end latency, and server latency, authentication details , concurrency information and the sizes of the request and response messages.",
           "applicable": true
         },
@@ -678,31 +678,31 @@
         },
         {
           "ref": "9.6",
-          "title": "Ensure that '.Net Framework' version is the latest",
+          "title": "Ensure that '.Net Framework' version is the latest, if used as a part of the web app (Not Scored)",
           "summary": "Periodically, newer versions are released for .Net Framework software either due to security flaws or to include additional functionality. Using the latest .Net framework version for web apps is recommended in order to to take advantage of security fixes, if any, and/or new functionalities of the latest version.",
           "applicable": true
         },
         {
           "ref": "9.7",
-          "title": "Ensure that 'PHP version' is the latest",
+          "title": "Ensure that 'PHP version' is the latest, if used to run the web app (Not Scored)",
           "summary": "Periodically newer versions are released for PHP software either due to security flaws or to include additional functionality. Using the latest PHP version for web apps is recommended in order to take advantage of security fixes, if any, and/or additional functionalities of the newer version.",
           "applicable": true
         },
         {
           "ref": "9.8",
-          "title": "Ensure that 'Python version' is the latest",
+          "title": "Ensure that 'Python version' is the latest, if used to run the web app (Not Scored)",
           "summary": "Periodically, newer versions are released for Python software either due to security flaws or to include additional functionality. Using the latest Python version for web apps is recommended in order to take advantage of security fixes, if any, and/or additional functionalities of the newer version.",
           "applicable": true
         },
         {
           "ref": "9.9",
-          "title": "Ensure that 'Java version' is the latest",
+          "title": "Ensure that 'Java version' is the latest, if used to run the web app (Not Scored)",
           "summary": "Periodically, newer versions are released for Java software either due to security flaws or to include additional functionality. Using the latest Java version for web apps is recommended in order to take advantage of security fixes, if any, and/or new functionalities of the newer version.",
           "applicable": true
         },
         {
           "ref": "9.10",
-          "title": "Ensure that 'HTTP Version' is the latest",
+          "title": "Ensure that 'HTTP Version' is the latest, if used to run the web app (Not Scored)",
           "summary": "Periodically, newer versions are released for HTTP either due to security flaws or to include additional functionality. Using the latest HTTP version for web apps to take advantage of security fixes, if any, and/or new functionalities of the newer version.",
           "applicable": true
         }

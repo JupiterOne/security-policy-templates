@@ -1,0 +1,335 @@
+{
+  "standard": "CIS AWS Foundations 1.2",
+  "version": "1.2.0",
+  "webLink": "https://d1.awsstatic.com/whitepapers/compliance/AWS_CIS_Foundations_Benchmark.pdf",
+  "domains": [
+    {
+      "title": "Identity and Access Management",
+      "controls": [
+        {
+          "ref": "1.1",
+          "title": "Avoid the use of the 'root' account",
+          "summary": "The 'root' account has unrestricted access to all resources in the AWS account. It is highly recommended that the use of this account be avoided.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-standards-cis-controls-1.1"
+        },
+        {
+          "ref": "1.2",
+          "title": "Ensure multi-factor authentication (MFA) is enabled for all IAM users that have a console password",
+          "summary": "Multi-Factor Authentication (MFA) adds an extra layer of protection on top of a user name and password. With MFA enabled, when a user signs in to an AWS website, they will be prompted for their user name and password as well as for an authentication code from their AWS MFA device. It is recommended that MFA be enabled for all accounts that have a console password.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.2"
+        },
+        {
+          "ref": "1.3",
+          "title": "Ensure credentials unused for 90 days or greater are disabled",
+          "summary": "AWS IAM users can access AWS resources using different types of credentials, such as passwords or access keys. It is recommended that all credentials that have been unused in 90 or greater days be removed or deactivated.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.3"
+        },
+        {
+          "ref": "1.4",
+          "title": "Ensure access keys are rotated every 90 days or less",
+          "summary": "Access keys consist of an access key ID and secret access key, which are used to sign programmatic requests that you make to AWS. AWS users need their own access keys to make programmatic calls to AWS from the AWS Command Line Interface (AWS CLI), Tools for Windows PowerShell, the AWS SDKs, or direct HTTP calls using the APIs for individual AWS services. It is recommended that all access keys be regularly rotated.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.4"
+        },
+        {
+          "ref": "1.5",
+          "title": "Ensure IAM password policy requires at least one uppercase letter",
+          "summary": "Password policies are, in part, used to enforce password complexity requirements. IAM password policies can be used to ensure password are comprised of different character sets. It is recommended that the password policy require at least one uppercase letter.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.5"
+        },
+        {
+          "ref": "1.6",
+          "title": "Ensure IAM password policy require at least one lowercase letter",
+          "summary": "Password policies are, in part, used to enforce password complexity requirements. IAM password policies can be used to ensure password are comprised of different character sets. It is recommended that the password policy require at least one lowercase letter.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.6"
+        },
+        {
+          "ref": "1.7",
+          "title": "Ensure IAM password policy require at least one symbol",
+          "summary": "Password policies are, in part, used to enforce password complexity requirements. IAM password policies can be used to ensure password are comprised of different character sets. It is recommended that the password policy require at least one symbol.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.7"
+        },
+        {
+          "ref": "1.8",
+          "title": "Ensure IAM password policy require at least one number",
+          "summary": "Password policies are, in part, used to enforce password complexity requirements. IAM password policies can be used to ensure password are comprised of different character sets. It is recommended that the password policy require at least one number.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.8"
+        },
+        {
+          "ref": "1.9",
+          "title": "Ensure IAM password policy requires minimum length of 14 or greater",
+          "summary": "Password policies are, in part, used to enforce password complexity requirements. IAM password policies can be used to ensure password are at least a given length. It is recommended that the password policy require a minimum password length 14.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.9"
+        },
+        {
+          "ref": "1.10",
+          "title": "Ensure IAM password policy prevents password reuse",
+          "summary": "IAM password policies can prevent the reuse of a given password by the same user. It is recommended that the password policy prevent the reuse of passwords.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.10"
+        },
+        {
+          "ref": "1.11",
+          "title": "Ensure IAM password policy expires passwords within 90 days or less",
+          "summary": "IAM password policies can require passwords to be rotated or expired after a given number of days. It is recommended that the password policy expire passwords after 90 days or less.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.11"
+        },
+        {
+          "ref": "1.12",
+          "title": "Ensure no root account access key exists",
+          "summary": "The root account is the most privileged user in an AWS account. AWS Access Keys provide programmatic access to a given AWS account. It is recommended that all access keys associated with the root account be removed.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.12"
+        },
+        {
+          "ref": "1.13",
+          "title": "Ensure MFA is enabled for the 'root' account",
+          "summary": "The root account is the most privileged user in an AWS account. MFA adds an extra layer of protection on top of a user name and password. With MFA enabled, when a user signs in to an AWS website, they will be prompted for their user name and password as well as for an authentication code from their AWS MFA device. Note: When virtual MFA is used for root accounts, it is recommended that the device used is NOT a personal device, but rather a dedicated mobile device (tablet or phone) that is managed to be kept charged and secured independent of any individual personal devices. ('non-personal virtual MFA') This lessens the risks of losing access to the MFA due to device loss, device trade-in or if the individual owning the device is no longer employed at the company.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.13"
+        },
+        {
+          "ref": "1.14",
+          "title": "Ensure hardware MFA is enabled for the 'root' account (Level 2)",
+          "summary": "The root account is the most privileged user in an AWS account. MFA adds an extra layer of protection on top of a user name and password. With MFA enabled, when a user signs in to an AWS website, they will be prompted for their user name and password as well as for an authentication code from their AWS MFA device. For Level 2, it is recommended that the root account be protected with a hardware MFA.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.14",
+          "applicable": false
+        },
+        {
+          "ref": "1.15",
+          "title": "Ensure security questions are registered in the AWS account",
+          "summary": "The AWS support portal allows account owners to establish security questions that can be used to authenticate individuals calling AWS customer service for support. It is recommended that security questions be established.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.15"
+        },
+        {
+          "ref": "1.16",
+          "title": "Ensure IAM policies are attached only to groups or roles",
+          "summary": "By default, IAM users, groups, and roles have no access to AWS resources. IAM policies are the means by which privileges are granted to users, groups, or roles. It is recommended that IAM policies be applied directly to groups and roles but not users.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.16"
+        },
+        {
+          "ref": "1.17",
+          "title": "Maintain current contact details",
+          "summary": "Ensure contact email and telephone details for AWS accounts are current and map to more than one individual in your organization. An AWS account supports a number of contact details, and AWS will use these to contact the account owner if activity judged to be in breach of Acceptable Use Policy or indicative of likely security compromise is observed by the AWS Abuse team. Contact details should not be for a single individual, as circumstances may arise where that individual is unavailable. Email contact details should point to a mail alias which forwards email to multiple individuals within the organization; where feasible, phone contact details should point to a PABX hunt group or other call-forwarding system.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.17"
+        },
+        {
+          "ref": "1.18",
+          "title": "Ensure security contact information is registered (Level 2)",
+          "summary": "AWS provides customers with the option of specifying the contact information for account's security team. It is recommended that this information be provided.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.18",
+          "applicable": false
+        },
+        {
+          "ref": "1.19",
+          "title": "Ensure IAM instance roles are used for AWS resource access from instances",
+          "summary": "AWS access from within AWS instances can be done by either encoding AWS keys into AWS API calls or by assigning the instance to a role which has an appropriate permissions policy for the required access. 'AWS Access' means accessing the APIs of AWS in order to access AWS resources or manage AWS account resources.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.19"
+        },
+        {
+          "ref": "1.20",
+          "title": "Ensure a support role has been created to manage incidents with AWS Support",
+          "summary": "AWS provides a support center that can be used for incident notification and response, as well as technical support and customer services. Create an IAM Role to allow authorized users to manage incidents with AWS Support.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.20"
+        },
+        {
+          "ref": "1.21",
+          "title": "Do not setup access keys during initial user setup for all IAM users that have a console password",
+          "summary": "AWS console defaults the checkbox for creating access keys to enabled. This results in many access keys being generated unnecessarily. In addition to unnecessary credentials, it also generates unnecessary management work in auditing and rotating these keys.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.21"
+        },
+        {
+          "ref": "1.22",
+          "title": "Ensure IAM policies that allow full '*:*' administrative privileges are not created",
+          "summary": "IAM policies are the means by which privileges are granted to users, groups, or roles. It is recommended and considered a standard security advice to grant least privilege—that is, granting only the permissions required to perform a task. Determine what users need to do and then craft policies for them that let the users perform only those tasks, instead of allowing full administrative privileges.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-1.22"
+        }
+      ]
+    },
+    {
+      "title": "Logging",
+      "controls": [
+        {
+          "ref": "2.1",
+          "title": "Ensure CloudTrail is enabled in all regions",
+          "summary": "AWS CloudTrail is a web service that records AWS API calls for your account and delivers log files to you. The recorded information includes the identity of the API caller, the time of the API call, the source IP address of the API caller, the request parameters, and the response elements returned by the AWS service. CloudTrail provides a history of AWS API calls for an account, including API calls made via the Management Console, SDKs, command line tools, and higher-level AWS services (such as CloudFormation).",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-2.1"
+        },
+        {
+          "ref": "2.2",
+          "title": "Ensure CloudTrail log file validation is enabled (Level 2)",
+          "summary": "CloudTrail log file validation creates a digitally signed digest file containing a hash of each log that CloudTrail writes to S3. These digest files can be used to determine whether a log file was changed, deleted, or unchanged after CloudTrail delivered the log. It is recommended that file validation be enabled on all CloudTrails.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-2.2",
+          "applicable": false
+        },
+        {
+          "ref": "2.3",
+          "title": "Ensure the S3 bucket used to store CloudTrail logs is not publicly accessible",
+          "summary": "CloudTrail logs a record of every API call made in your AWS account. These logs file are stored in an S3 bucket. It is recommended that the bucket policy, or access control list (ACL), applied to the S3 bucket that CloudTrail logs to prevents public access to the CloudTrail logs.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-2.3"
+        },
+        {
+          "ref": "2.4",
+          "title": "Ensure CloudTrail trails are integrated with CloudWatch Logs",
+          "summary": "AWS CloudTrail is a web service that records AWS API calls made in a given AWS account. The recorded information includes the identity of the API caller, the time of the API call, the source IP address of the API caller, the request parameters, and the response elements returned by the AWS service. CloudTrail uses Amazon S3 for log file storage and delivery, so log files are stored durably. In addition to capturing CloudTrail logs within a specified S3 bucket for long term analysis, realtime analysis can be performed by configuring CloudTrail to send logs to CloudWatch Logs. For a trail that is enabled in all regions in an account, CloudTrail sends log files from all those regions to a CloudWatch Logs log group. It is recommended that CloudTrail logs be sent to CloudWatch Logs. Note: The intent of this recommendation is to ensure AWS account activity is being captured, monitored, and appropriately alarmed on. CloudWatch Logs is a native way to accomplish this using AWS services but does not preclude the use of an alternate solution.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-2.4"
+        },
+        {
+          "ref": "2.5",
+          "title": "Ensure AWS Config is enabled in all regions",
+          "summary": "AWS Config is a web service that performs configuration management of supported AWS resources within your account and delivers log files to you. The recorded information includes the configuration item (AWS resource), relationships between configuration items (AWS resources), any configuration changes between resources. It is recommended to enable AWS Config be enabled in all regions.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-2.5",
+          "applicable": false
+        },
+        {
+          "ref": "2.6",
+          "title": "Ensure S3 bucket access logging is enabled on the CloudTrail S3 bucket",
+          "summary": "S3 Bucket Access Logging generates a log that contains access records for each request made to your S3 bucket. An access log record contains details about the request, such as the request type, the resources specified in the request worked, and the time and date the request was processed. It is recommended that bucket access logging be enabled on the CloudTrail S3 bucket.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-2.6"
+        },
+        {
+          "ref": "2.7",
+          "title": "Ensure CloudTrail logs are encrypted at rest using KMS CMKs (Level 2)",
+          "summary": "AWS CloudTrail is a web service that records AWS API calls for an account and makes those logs available to users and resources in accordance with IAM policies. AWS Key Management Service (KMS) is a managed service that helps create and control the encryption keys used to encrypt account data, and uses Hardware Security Modules (HSMs) to protect the security of encryption keys. CloudTrail logs can be configured to leverage server side encryption (SSE) and KMS customer created master keys (CMK) to further protect CloudTrail logs. It is recommended that CloudTrail be configured to use SSE-KMS.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-2.7",
+          "applicable": false
+        },
+        {
+          "ref": "2.8",
+          "title": "Ensure rotation for customer created CMKs is enabled (Level 2)",
+          "summary": "AWS Key Management Service (KMS) allows customers to rotate the backing key which is key material stored within the KMS which is tied to the key ID of the Customer Created customer master key (CMK). It is the backing key that is used to perform cryptographic operations such as encryption and decryption. Automated key rotation currently retains all prior backing keys so that decryption of encrypted data can take place transparently. It is recommended that CMK key rotation be enabled.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-2.8",
+          "applicable": false
+        },
+        {
+          "ref": "2.9",
+          "title": "Ensure VPC flow logging is enabled in all VPCs (Level 2)",
+          "summary": "VPC Flow Logs is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC. After you've created a flow log, you can view and retrieve its data in Amazon CloudWatch Logs. It is recommended that VPC Flow Logs be enabled for packet 'Rejects' for VPCs.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-2.9",
+          "applicable": false
+        }
+      ]
+    },
+    {
+      "title": "Monitoring",
+      "controls": [
+        {
+          "ref": "3.1",
+          "title": "Ensure a log metric filter and alarm exist for unauthorized API calls",
+          "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. It is recommended that a metric filter and alarm be established for unauthorized API calls.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-3.1"
+        },
+        {
+          "ref": "3.2",
+          "title": "Ensure a log metric filter and alarm exist for Management Console sign-in without MFA",
+          "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. It is recommended that a metric filter and alarm be established for console logins that are not protected by multi-factor authentication (MFA).",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-3.2"
+        },
+        {
+          "ref": "3.3",
+          "title": "Ensure a log metric filter and alarm exist for usage of 'root' account",
+          "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. It is recommended that a metric filter and alarm be established for root login attempts.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-3.3"
+        },
+        {
+          "ref": "3.4",
+          "title": "Ensure a log metric filter and alarm exist for IAM policy changes",
+          "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. It is recommended that a metric filter and alarm be established changes made to Identity and Access Management (IAM) policies.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-3.4"
+        },
+        {
+          "ref": "3.5",
+          "title": "Ensure a log metric filter and alarm exist for CloudTrail configuration changes",
+          "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. It is recommended that a metric filter and alarm be established for detecting changes to CloudTrail's configurations.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-3.5"
+        },
+        {
+          "ref": "3.6",
+          "title": "Ensure a log metric filter and alarm exist for AWS Management Console authentication failures (Level 2)",
+          "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. It is recommended that a metric filter and alarm be established for failed console authentication attempts.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-3.6",
+          "applicable": false
+        },
+        {
+          "ref": "3.7",
+          "title": "Ensure a log metric filter and alarm exist for disabling or scheduled deletion of customer created CMKs (Level 2)",
+          "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. It is recommended that a metric filter and alarm be established for customer created CMKs which have changed state to disabled or scheduled deletion",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-3.7",
+          "applicable": false
+        },
+        {
+          "ref": "3.8",
+          "title": "Ensure a log metric filter and alarm exist for S3 bucket policy changes",
+          "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. It is recommended that a metric filter and alarm be established for changes to S3 bucket policies.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-3.8"
+        },
+        {
+          "ref": "3.9",
+          "title": "Ensure a log metric filter and alarm exist for AWS Config configuration changes (Level 2)",
+          "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. It is recommended that a metric filter and alarm be established for detecting changes to CloudTrail's configurations.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-3.9",
+          "applicable": false
+        },
+        {
+          "ref": "3.10",
+          "title": "Ensure a log metric filter and alarm exist for security group changes (Level 2)",
+          "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. Security Groups are a stateful packet filter that controls ingress and egress traffic within a VPC. It is recommended that a metric filter and alarm be established changes to Security Groups.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-3.10",
+          "applicable": false
+        },
+        {
+          "ref": "3.11",
+          "title": "Ensure a log metric filter and alarm exist for changes to Network Access Control Lists (NACL) (Level 2)",
+          "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. NACLs are used as a stateless packet filter to control ingress and egress traffic for subnets within a VPC. It is recommended that a metric filter and alarm be established for changes made to NACLs.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-3.11",
+          "applicable": false
+        },
+        {
+          "ref": "3.12",
+          "title": "Ensure a log metric filter and alarm exist for changes to network gateways",
+          "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. Network gateways are required to send/receive traffic to a destination outside of a VPC. It is recommended that a metric filter and alarm be established for changes to network gateways.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-3.12"
+        },
+        {
+          "ref": "3.13",
+          "title": "Ensure a log metric filter and alarm exist for route table changes",
+          "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. Routing tables are used to route network traffic between subnets and to network gateways. It is recommended that a metric filter and alarm be established for changes to route tables.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-3.13"
+        },
+        {
+          "ref": "3.14",
+          "title": "Ensure a log metric filter and alarm exist for VPC changes",
+          "summary": "Real-time monitoring of API calls can be achieved by directing CloudTrail Logs to CloudWatch Logs and establishing corresponding metric filters and alarms. It is possible to have more than 1 VPC within an account, in addition it is also possible to create a peer connection between 2 VPCs enabling network traffic to route between VPCs. It is recommended that a metric filter and alarm be established for changes made to VPCs.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-3.14"
+        }
+      ]
+    },
+    {
+      "title": "Networking",
+      "controls": [
+        {
+          "ref": "4.1",
+          "title": "Ensure no security groups allow ingress from 0.0.0.0/0 to port 22",
+          "summary": "Security groups provide stateful filtering of ingress/egress network traffic to AWS resources. It is recommended that no security group allows unrestricted ingress access to port 22.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-4.1"
+        },
+        {
+          "ref": "4.2",
+          "title": "Ensure no security groups allow ingress from 0.0.0.0/0 to port 3389",
+          "summary": "Security groups provide stateful filtering of ingress/egress network traffic to AWS resources. It is recommended that no security group allows unrestricted ingress access to port 3389.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-4.2"
+        },
+        {
+          "ref": "4.3",
+          "title": "Ensure the default security group of every VPC restricts all traffic (Level 2)",
+          "summary": "A VPC comes with a default security group whose initial settings deny all inbound traffic, allow all outbound traffic, and allow all traffic between instances assigned to the security group. If you don't specify a security group when you launch an instance, the instance is automatically assigned to this default security group. Security groups provide stateful filtering of ingress/egress network traffic to AWS resources. It is recommended that the default security group restrict all traffic. The default VPC in every region should have its default security group updated to comply. Any newly created VPCs will automatically contain a default security group that will need remediation to comply with this recommendation. NOTE: When implementing this recommendation, VPC flow logging is invaluable in determining the least privilege port access required by systems to work properly because it can log all packet acceptances and rejections occurring under the current security groups. This dramatically reduces the primary barrier to least privilege engineering - discovering the minimum ports required by systems in the environment. Even if the VPC flow logging recommendation in this benchmark is not adopted as a permanent security measure, it should be used during any period of discovery and engineering for least privileged security groups.",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-4.3",
+          "applicable": false
+        },
+        {
+          "ref": "4.4",
+          "title": "Ensure routing tables for VPC peering are 'least access' (Level 2)",
+          "summary": "Once a VPC peering connection is established, routing tables must be updated to establish any connections between the peered VPCs. These routes can be as specific as desired - even peering a VPC to only a single host on the other side of the connection",
+          "webLink": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html#securityhub-cis-controls-4.4",
+          "applicable": false
+        }
+      ]
+    }
+  ]
+}

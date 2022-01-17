@@ -1,0 +1,367 @@
+{
+    "standard": "GDPR - example",
+    "version": "1",
+    "webLink": "https://gdpr.eu/",
+    "domains": [
+      {
+        "title": "25.2 Data protection by design and by default. Measures shall ensure that by default personal data are not made accessible without the individual’s intervention to an indefinite number of natural persons.",
+        "controls": [
+          {
+            "ref": "25.2.1",
+            "title": "EBS snapshots shared with other AWS accounts",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.2",
+            "title": "ElastiCache clusters are not using default ports",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.3",
+            "title": "ElastiCache clusters are in a VPC",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.4",
+            "title": "Elasticsearch domains are not publicly accessible",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.5",
+            "title": "Elasticsearch domains are in a VPC",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.6",
+            "title": "RDS instances are not publicly accessible",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.7",
+            "title": "RDS instances are not using the default port",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.8",
+            "title": "RDS snapshots are not publicly accessible",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.9",
+            "title": "Redshift clusters are not publicly accessible",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.10",
+            "title": "Redshift clusters are not using the default port",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.11",
+            "title": "Redshift clusters are in a VPC",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.12",
+            "title": "S3 bucket WRITE access for everyone",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.13",
+            "title": "S3 buckets WRITE access for authenticated users",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.14",
+            "title": "S3 bucket READ access for everyone",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.15",
+            "title": "S3 bucket READ access for authenticated users",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.16",
+            "title": "S3 bucket READ_ACP access for everyone",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.17",
+            "title": "S3 bucket READ_ACP access for authenticated users",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.18",
+            "title": "S3 bucket WRITE_ACP access for everyone",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.19",
+            "title": "S3 bucket WRITE_ACP access for authenticated users",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.20",
+            "title": "S3 bucket FULL_CONTROL for everyone",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.21",
+            "title": "S3 bucket FULL_CONTROL access for authenticated users",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.22",
+            "title": "S3 bucket public access block",
+            "summary": ""
+          },
+          {
+            "ref": "25.2.23",
+            "title": "S3 buckets that are publicy accessible",
+            "summary": ""
+          }
+        ]
+      },
+      {
+        "title": "GDPR 30.1. Records of processing activities. Each controller and, where applicable, the controller’s representative, shall maintain a record of processing activities under its responsibility.",
+        "controls": [
+          {
+            "ref": "30.1.1",
+            "title": "CloudFront logging is enabled",
+            "summary": ""
+          },
+          {
+            "ref": "30.1.2",
+            "title": "CloudTrail logging is enabled",
+            "summary": ""
+          },
+          {
+            "ref": "30.1.3",
+            "title": "CloudTrail log file validation is enabled",
+            "summary": ""
+          },
+          {
+            "ref": "30.1.4",
+            "title": "ELB logging is enabled",
+            "summary": ""
+          },
+          {
+            "ref": "30.1.5",
+            "title": "Redshift cluster logging is enabled",
+            "summary": ""
+          },
+          {
+            "ref": "30.1.6",
+            "title": "VPC flow logs are enabled",
+            "summary": ""
+          }
+        ]
+      },
+      {
+        "title": "GDPR 32.1a. Security of processing. Pseudonymisation and encryption of personal data.",
+        "controls": [
+          {
+            "ref": "32.1a.1",
+            "title": "Upcoming ACM certificate expiration (30 days)",
+            "summary": ""
+          },
+          {
+            "ref": "32.1a.2",
+            "title": "Upcoming ACM certificate expiration (7 days)",
+            "summary": ""
+          },
+          {
+            "ref": "32.1a.3",
+            "title": "Expired ACM certificates",
+            "summary": ""
+          },
+          {
+            "ref": "32.1a.4",
+            "title": "Cloudfront: Requests to origin are encrypted",
+            "summary": ""
+          },
+          {
+            "ref": "32.1a.5",
+            "title": "Cloudfront: Field-level encryption is enabled",
+            "summary": ""
+          },
+          {
+            "ref": "32.1a.6",
+            "title": "Cloudfront: Viewer requests are encrypted",
+            "summary": ""
+          },
+          {
+            "ref": "32.1a.7",
+            "title": "CloudTrail logs storage buckets are encrypted",
+            "summary": ""
+          },
+          {
+            "ref": "32.1a.8",
+            "title": "DynamoDB tables are encrypted",
+            "summary": ""
+          },
+          {
+            "ref": "32.1a.9",
+            "title": "EBS snapshots are encrypted",
+            "summary": ""
+          },
+          {
+            "ref": "32.1a.10",
+            "title": "EBS volumes are encrypted",
+            "summary": ""
+          },
+          {
+            "ref": "32.1a.11",
+            "title": "Elasticsearch domains are encrypted",
+            "summary": ""
+          },
+          {
+            "ref": "32.1a.12",
+            "title": "RDS database instances are encrypted",
+            "summary": ""
+          },
+          {
+            "ref": "32.1a.13",
+            "title": "Redshift clusters are encrypted",
+            "summary": ""
+          },
+          {
+            "ref": "32.1a.14",
+            "title": "S3 bucket default encryption at-rest enabled",
+            "summary": ""
+          }
+        ]
+      },
+      {
+        "title": "GDPR: 32.1b. Security of processing. Ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services.",
+        "controls": [
+          {
+            "ref": "32.1b.1",
+            "title": "Unrestricted access to RDP port from Internet",
+            "summary": " "
+          },
+          {
+            "ref": "32.1b.2",
+            "title": "Unrestricted access to PostgreSQL Database Server port from Internet",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.3",
+            "title": "Unrestricted access to Elasticsearch port from Internet",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.4",
+            "title": "Unrestricted access to HTTP port from Internet",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.5",
+            "title": "Unrestricted access to HTTPS port from Internet",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.6",
+            "title": "Unrestricted access to MongoDB port from Internet",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.7",
+            "title": "Unrestricted access to MSSQL port from Internet",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.8",
+            "title": "Unrestricted access to MySQL port from Internet",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.9",
+            "title": "Unrestricted access to Oracle port from Internet",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.10",
+            "title": "Unrestricted access to SSH port from Internet",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.11",
+            "title": "CloudFront distributions use >= TLS v1.1",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.12",
+            "title": "ELB has secure SSL protocols",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.13",
+            "title": "ELB listeners use secure protocols",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.14",
+            "title": "ELB listeners use TLSv1.2",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.15",
+            "title": "ELB security policy does not contain any insecure ciphers",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.16",
+            "title": "ELB load balancers that are internet facing",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.17",
+            "title": "ELB load balancer is using the latest security policy",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.18",
+            "title": "Redshift clusters do not use the default master user name",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.19",
+            "title": "Redshift clusters are set to require SSL",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.20",
+            "title": "Key rotation enabled for customer-managed AWS KMS keys",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.21",
+            "title": "SNS Topics are encrypted",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.22",
+            "title": "SNS Topics are not publicly accessible",
+            "summary": ""
+          },
+          {
+            "ref": "32.1b.23",
+            "title": "SQS Queue are encrypted",
+            "summary": ""
+          }
+        ]
+      },
+      {
+        "title": "GDPR 32.1c. Security of processing. Ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident.",
+        "controls": [
+          {
+            "ref": "32.1c.1",
+            "title": "S3 buckets have versioning enabled",
+            "summary": ""
+          }
+        ]
+      }
+    ]
+  }

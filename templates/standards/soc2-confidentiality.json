@@ -1,0 +1,83 @@
+{
+    "standard": "SOC 2 Confidentiality",
+    "version": "AICPA 2017",
+    "webLink": "https://www.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria.pdf",
+    "unlocked": true,
+    "domains": [
+        {
+            "title": "§ Confidentiality\n【C1.1】 The entity identifies and maintains confidential information to meet the entity’s objectives related to confidentiality.",
+            "controls": [
+              {
+                "ref": "cp-data-classification",
+                "title": "Data Classification Model",
+                "summary": "Data classification model is defined to differentiate public, non-public, confidential/sensitive and critical data or information asset."
+              },
+              {
+                "ref": "cp-privacy-notices",
+                "title": "Privacy, Terms and Consent Notices",
+                "summary": "The organization has published privacy policy and established user consent process for data processing, in line with applicable regulations."
+              },
+              {
+                "ref": "cp-data-lifecycle",
+                "title": "Data Inventory and Lifecycle Management",
+                "summary": "Data is tagged according to its classification, and its lifecycle is defined. Transient and temporary data (or cache) is purged immediately after use."
+              },
+              {
+                "ref": "cp-data-protection-at-rest",
+                "title": "Protecting Data At Rest",
+                "summary": "Sensitive and confidential data is encrypted when stored."
+              },
+              {
+                "ref": "cp-data-protection-in-transit",
+                "title": "Protecting Data In Transit",
+                "summary": "Sensitive and confidential data is encrypted when transmitted across networks."
+              },
+              {
+                "ref": "cp-data-protection-in-use",
+                "title": "Protecting Data In Use",
+                "summary": "Audit trail is enabled to monitor data access when in use."
+              },
+              {
+                "ref": "cp-data-protection",
+                "title": "Data Protection Implementation and Processes",
+                "summary": "Data is protected according to its classification and storage capability, including encryption, access control, partitioning/separation, backup/recovery, and monitoring."
+              },
+              {
+                "ref": "cp-data-handling",
+                "title": "Data Handling Process",
+                "summary": "Data is handled according to its classification, including defined requirements for labeling, encryption, access control, retention and other applicable processes."
+              },
+              {
+                "ref": "cp-access-prod-data",
+                "title": "Production Data Access",
+                "summary": "Access to production data is highly restricted. Access is reviewed and approved on a case-by-case basis. MFA is required."
+              }
+            ]
+          },
+          {
+            "title": "§ Confidentiality\n【C1.2】 The entity disposes of confidential information to meet the entity’s objectives related to confidentiality.",
+            "controls": [
+              {
+                "ref": "cp-data-deletion",
+                "title": "Data Deletion Procedures",
+                "summary": "Data is retained for designated periods of time according to regulatory and/or contractual requirements, and deleted when the retention period expires."
+              },
+              {
+                "ref": "cp-data-handling",
+                "title": "Data Handling Process",
+                "summary": "Data is handled according to its classification, including defined requirements for labeling, encryption, access control, retention and other applicable processes."
+              },
+              {
+                "ref": "cp-data-lifecycle",
+                "title": "Data Inventory and Lifecycle Management",
+                "summary": "Data is tagged according to its classification, and its lifecycle is defined. Transient and temporary data (or cache) is purged immediately after use."
+              },
+              {
+                "ref": "cp-mdm-disposal",
+                "title": "Media Disposal Process",
+                "summary": "Media containing critical / sensitive data (such as PII or ePHI) is disposed securely."
+              }
+            ]
+          }
+        ]
+      }

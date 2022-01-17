@@ -1,5 +1,5 @@
 const mime = require("mime-types");
-const baseDeploy = require("lifeomic-deploy");
+const baseDeploy = require("jupiterone-deploy");
 const walkDir = baseDeploy.util.fs.walkDir;
 const formatBytes = require("bytes");
 const pAll = require("p-all");
@@ -102,7 +102,7 @@ exports.afterDeployTerraform = async (env) => {
     try {
       await fs.access(templatesDir + obj.Key);
     } catch (err) {
-     console.log('Deleting ', obj.Key);
+      console.log("Deleting ", obj.Key);
       objectsToRemove.push(obj.Key);
     }
   }

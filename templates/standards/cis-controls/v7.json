@@ -1,0 +1,962 @@
+{
+  "standard": "CIS Controls v7",
+  "version": "7",
+  "webLink": "https://www.cisecurity.org/controls/",
+  "domains": [
+    {
+      "title": "§ Basic\n【C01】 Inventory and Control of Hardware Assets",
+      "controls": [
+        {
+          "ref": "1.1",
+          "title": "Utilize an Active Discovery Tool",
+          "summary": "Utilize an active discovery tool to identify devices connected to the organization’s network and update the hardware asset inventory."
+        },
+        {
+          "ref": "1.2",
+          "title": "Utilize a Passive Asset Discovery Tool",
+          "summary": "Utilize a passive discovery tool to identify devices connected to the organization's network and automatically update the organization's hardware asset inventory."
+        },
+        {
+          "ref": "1.3",
+          "title": "Use DHCP Logging to Update Asset Inventory",
+          "summary": "Use Dynamic Host Configuration Protocol (DHCP) logging on all DHCP servers or IP address management tools to update the organization's hardware asset inventory."
+        },
+        {
+          "ref": "1.4",
+          "title": "Maintain Detailed Asset Inventory",
+          "summary": "Maintain an accurate and up-to-date inventory of all technology assets with the potential to store or process information. This inventory shall include all hardware assets, whether connected to the organization's network or not."
+        },
+        {
+          "ref": "1.5",
+          "title": "Maintain Asset Inventory Information",
+          "summary": "Ensure that the hardware asset inventory records the network address, hardware address, machine name, data asset owner, and department for each asset and whether the hardware asset has been approved to connect to the network."
+        },
+        {
+          "ref": "1.6",
+          "title": "Address Unauthorized Assets",
+          "summary": "Ensure that unauthorized assets are either removed from the network, quarantined or the inventory is updated in a timely manner."
+        },
+        {
+          "ref": "1.7",
+          "title": "Deploy Port Level Access Control",
+          "summary": "Utilize port level access control, following 802.1x standards, to control which devices can authenticate to the network. The authentication system shall be tied into the hardware asset inventory data to ensure only authorized devices can connect to the network."
+        },
+        {
+          "ref": "1.8",
+          "title": "Utilize Client Certificates to Authenticate Hardware Assets",
+          "summary": "Use client certificates to authenticate hardware assets connecting to the organization's trusted network."
+        }
+      ]
+    },
+    {
+      "title": "§ Basic\n【C02】 Inventory and Control of Software Assets",
+      "controls": [
+        {
+          "ref": "2.1",
+          "title": "Maintain Inventory of Authorized Software",
+          "summary": "Maintain an up-to-date list of all authorized software that is required in the enterprise for any business purpose on any business system."
+        },
+        {
+          "ref": "2.2",
+          "title": "Ensure Software is Supported by Vendor",
+          "summary": "Ensure that only software applications or operating systems currently supported by the software's vendor are added to the organization's authorized software inventory. Unsupported software should be tagged as unsupported in the inventory system."
+        },
+        {
+          "ref": "2.3",
+          "title": "Utilize Software Inventory Tools",
+          "summary": "Utilize software inventory tools throughout the organization to automate the documentation of all software on business systems."
+        },
+        {
+          "ref": "2.4",
+          "title": "Track Software Inventory Information",
+          "summary": "The software inventory system should track the name, version, publisher, and install date for all software, including operating systems authorized by the organization."
+        },
+        {
+          "ref": "2.5",
+          "title": "Integrate Software and Hardware Asset Inventories",
+          "summary": "The software inventory system should be tied into the hardware asset inventory so all devices and associated software are tracked from a single location."
+        },
+        {
+          "ref": "2.6",
+          "title": "Address unapproved software",
+          "summary": "Ensure that unauthorized software is either removed or the inventory is updated in a timely manner."
+        },
+        {
+          "ref": "2.7",
+          "title": "Utilize Application Whitelisting",
+          "summary": "Utilize application whitelisting technology on all assets to ensure that only authorized software executes and all unauthorized software is blocked from executing on assets."
+        },
+        {
+          "ref": "2.8",
+          "title": "Implement Application Whitelisting of Libraries",
+          "summary": "The organization's application whitelisting software must ensure that only authorized software libraries (such as *.dll, *.ocx, *.so, etc) are allowed to load into a system process."
+        },
+        {
+          "ref": "2.9",
+          "title": "Implement Application Whitelisting of Scripts",
+          "summary": "The organization's application whitelisting software must ensure that only authorized, digitally signed scripts (such as *.ps1, *.py, macros, etc) are allowed to run on a system."
+        },
+        {
+          "ref": "2.10",
+          "title": "Physically or Logically Segregate High Risk Applications",
+          "summary": "Physically or logically segregated systems should be used to isolate and run software that is required for business operations but incur higher risk for the organization."
+        }
+      ]
+    },
+    {
+      "title": "§ Basic\n【C03】 Continuous Vulnerability Management",
+      "controls": [
+        {
+          "ref": "3.1",
+          "title": "Run Automated Vulnerability Scanning Tools",
+          "summary": "Utilize an up-to-date SCAP-compliant vulnerability scanning tool to automatically scan all systems on the network on a weekly or more frequent basis to identify all potential vulnerabilities on the organization's systems."
+        },
+        {
+          "ref": "3.2",
+          "title": "Perform Authenticated Vulnerability Scanning",
+          "summary": "Perform authenticated vulnerability scanning with agents running locally on each system or with remote scanners that are configured with elevated rights on the system being tested."
+        },
+        {
+          "ref": "3.3",
+          "title": "Protect Dedicated Assessment Accounts",
+          "summary": "Use a dedicated account for authenticated vulnerability scans, which should not be used for any other administrative activities and should be tied to specific machines at specific IP addresses."
+        },
+        {
+          "ref": "3.4",
+          "title": "Deploy Automated Operating System Patch Management Tools",
+          "summary": "Deploy automated software update tools in order to ensure that the operating systems are running the most recent security updates provided by the software vendor."
+        },
+        {
+          "ref": "3.5",
+          "title": "Deploy Automated Software Patch Management Tools",
+          "summary": "Deploy automated software update tools in order to ensure that third-party software on all systems is running the most recent security updates provided by the software vendor."
+        },
+        {
+          "ref": "3.6",
+          "title": "Compare Back-to-back Vulnerability Scans",
+          "summary": "Regularly compare the results from back-to-back vulnerability scans to verify that vulnerabilities have been remediated in a timely manner."
+        },
+        {
+          "ref": "3.7",
+          "title": "Utilize a Risk-rating Process",
+          "summary": "Utilize a risk-rating process to prioritize the remediation of discovered vulnerabilities."
+        }
+      ]
+    },
+    {
+      "title": "§ Basic\n【C04】 Controlled Use of Administrative Privileges",
+      "controls": [
+        {
+          "ref": "4.1",
+          "title": "Maintain Inventory of Administrative Accounts",
+          "summary": "Use automated tools to inventory all administrative accounts, including domain and local accounts, to ensure that only authorized individuals have elevated privileges."
+        },
+        {
+          "ref": "4.2",
+          "title": "Change Default Passwords",
+          "summary": "Before deploying any new asset, change all default passwords to have values consistent with administrative level accounts."
+        },
+        {
+          "ref": "4.3",
+          "title": "Ensure the Use of Dedicated Administrative Accounts",
+          "summary": "Ensure that all users with administrative account access use a dedicated or secondary account for elevated activities. This account should only be used for administrative activities and not internet browsing, email, or similar activities."
+        },
+        {
+          "ref": "4.4",
+          "title": "Use Unique Passwords",
+          "summary": "Where multi-factor authentication is not supported (such as local administrator, root, or service accounts), accounts will use passwords that are unique to that system."
+        },
+        {
+          "ref": "4.5",
+          "title": "Use Multifactor Authentication For All Administrative Access",
+          "summary": "Use multi-factor authentication and encrypted channels for all administrative account access."
+        },
+        {
+          "ref": "4.6",
+          "title": "Use of Dedicated Machines For All Administrative Tasks",
+          "summary": "Ensure administrators use a dedicated machine for all administrative tasks or tasks requiring administrative access. This machine will be segmented from the organization's primary network and not be allowed Internet access. This machine will not be used for reading e-mail, composing documents, or browsing the Internet."
+        },
+        {
+          "ref": "4.7",
+          "title": "Limit Access to Script Tools",
+          "summary": "Limit access to scripting tools (such as Microsoft PowerShell and Python) to only administrative or development users with the need to access those capabilities."
+        },
+        {
+          "ref": "4.8",
+          "title": "Log and Alert on Changes to Administrative Group Membership",
+          "summary": "Configure systems to issue a log entry and alert when an account is added to or removed from any group assigned administrative privileges."
+        },
+        {
+          "ref": "4.9",
+          "title": "Log and Alert on Unsuccessful Administrative Account Login",
+          "summary": "Configure systems to issue a log entry and alert on unsuccessful logins to an administrative account."
+        }
+      ]
+    },
+    {
+      "title": "§ Basic\n【C05】 Secure Configuration for Hardware and Software on Mobile Devices, Laptops, Workstations and Servers",
+      "controls": [
+        {
+          "ref": "5.1",
+          "title": "Establish Secure Configurations",
+          "summary": "Maintain documented, standard security configuration standards for all authorized operating systems and software."
+        },
+        {
+          "ref": "5.2",
+          "title": "Maintain Secure Images",
+          "summary": "Maintain secure images or templates for all systems in the enterprise based on the organization's approved configuration standards. Any new system deployment or existing system that becomes compromised should be imaged using one of those images or templates."
+        },
+        {
+          "ref": "5.3",
+          "title": "Securely Store Master Images",
+          "summary": "Store the master images and templates on securely configured servers, validated with integrity monitoring tools, to ensure that only authorized changes to the images are possible."
+        },
+        {
+          "ref": "5.4",
+          "title": "Deploy System Configuration Management Tools",
+          "summary": "Deploy system configuration management tools that will automatically enforce and redeploy configuration settings to systems at regularly scheduled intervals."
+        },
+        {
+          "ref": "5.5",
+          "title": "Implement Automated Configuration Monitoring Systems",
+          "summary": "Utilize a Security Content Automation Protocol (SCAP) compliant configuration monitoring system to verify all security configuration elements, catalog approved exceptions, and alert when unauthorized changes occur."
+        }
+      ]
+    },
+    {
+      "title": "§ Basic\n【C06】 Maintenance, Monitoring and Analysis of Audit Logs",
+      "controls": [
+        {
+          "ref": "6.1",
+          "title": "Utilize Three Synchronized Time Sources",
+          "summary": "Use at least three synchronized time sources from which all servers and network devices retrieve time information on a regular basis so that timestamps in logs are consistent."
+        },
+        {
+          "ref": "6.2",
+          "title": "Activate audit logging",
+          "summary": "Ensure that local logging has been enabled on all systems and networking devices."
+        },
+        {
+          "ref": "6.3",
+          "title": "Enable Detailed Logging",
+          "summary": "Enable system logging to include detailed information such as a event source, date, user, timestamp, source addresses, destination addresses, and other useful elements."
+        },
+        {
+          "ref": "6.4",
+          "title": "Ensure adequate storage for logs",
+          "summary": "Ensure that all systems that store logs have adequate storage space for the logs generated."
+        },
+        {
+          "ref": "6.5",
+          "title": "Central Log Management",
+          "summary": "Ensure that appropriate logs are being aggregated to a central log management system for analysis and review."
+        },
+        {
+          "ref": "6.6",
+          "title": "Deploy SIEM or Log Analytic tool",
+          "summary": "Deploy Security Information and Event Management (SIEM) or log analytic tool for log correlation and analysis."
+        },
+        {
+          "ref": "6.7",
+          "title": "Regularly Review Logs",
+          "summary": "On a regular basis, review logs to identify anomalies or abnormal events."
+        },
+        {
+          "ref": "6.8",
+          "title": "Regularly Tune SIEM",
+          "summary": "On a regular basis, tune your SIEM system to better identify actionable events and decrease event noise."
+        }
+      ]
+    },
+    {
+      "title": "§ Foundational\n【C07】 Email and Web Browser Protections",
+      "controls": [
+        {
+          "ref": "7.1",
+          "title": "Ensure Use of Only Fully Supported Browsers and Email Clients",
+          "summary": "Ensure that only fully supported web browsers and email clients are allowed to execute in the organization, ideally only using the latest version of the browsers and email clients provided by the vendor."
+        },
+        {
+          "ref": "7.2",
+          "title": "Disable Unnecessary or Unauthorized Browser or Email Client Plugins",
+          "summary": "Uninstall or disable any unauthorized browser or email client plugins or add-on applications."
+        },
+        {
+          "ref": "7.3",
+          "title": "Limit Use of Scripting Languages in Web Browsers and Email Clients",
+          "summary": "Ensure that only authorized scripting languages are able to run in all web browsers and email clients."
+        },
+        {
+          "ref": "7.4",
+          "title": "Maintain and Enforce Network-Based URL Filters",
+          "summary": "Enforce network-based URL filters that limit a system's ability to connect to websites not approved by the organization. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not."
+        },
+        {
+          "ref": "7.5",
+          "title": "Subscribe to URL-Categorization service",
+          "summary": "Subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default."
+        },
+        {
+          "ref": "7.6",
+          "title": "Log all URL requests",
+          "summary": "Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems. "
+        },
+        {
+          "ref": "7.7",
+          "title": "Use of DNS Filtering Services",
+          "summary": "Use DNS filtering services to help block access to known malicious domains."
+        },
+        {
+          "ref": "7.8",
+          "title": "Implement DMARC and Enable Receiver-Side Verification",
+          "summary": "To lower the chance of spoofed or modified emails from valid domains, implement Domain-based Message Authentication, Reporting and Conformance (DMARC) policy and verification, starting by implementing the Sender Policy Framework (SPF) and the DomainKeys Identified Mail(DKIM) standards."
+        },
+        {
+          "ref": "7.9",
+          "title": "Block Unnecessary File Types",
+          "summary": "Block all e-mail attachments entering the organization's e-mail gateway if the file types are unnecessary for the organization's business."
+        },
+        {
+          "ref": "7.10",
+          "title": "Sandbox All Email Attachments",
+          "summary": "Use sandboxing to analyze and block inbound email attachments with malicious behavior."
+        }
+      ]
+    },
+    {
+      "title": "§ Foundational\n【C08】 Malware Defenses",
+      "controls": [
+        {
+          "ref": "8.1",
+          "title": "Utilize Centrally Managed Anti-malware Software",
+          "summary": "Utilize centrally managed anti-malware software to continuously monitor and defend each of the organization's workstations and servers."
+        },
+        {
+          "ref": "8.2",
+          "title": "Ensure Anti-Malware Software and Signatures are Updated",
+          "summary": "Ensure that the organization's anti-malware software updates its scanning engine and signature database on a regular basis."
+        },
+        {
+          "ref": "8.3",
+          "title": "Enable Operating System Anti-Exploitation Features/ Deploy Anti-Exploit Technologies",
+          "summary": "Enable anti-exploitation features such as Data Execution Prevention (DEP) or Address Space Layout Randomization (ASLR) that are available in an operating system or deploy appropriate toolkits that can be configured to apply protection to a broader set of applications and executables."
+        },
+        {
+          "ref": "8.4",
+          "title": "Configure Anti-Malware Scanning of Removable Devices",
+          "summary": "Configure devices so that they automatically conduct an anti-malware scan of removable media when inserted or connected."
+        },
+        {
+          "ref": "8.5",
+          "title": "Configure Devices Not To Auto-run Content",
+          "summary": "Configure devices to not auto-run content from removable media."
+        },
+        {
+          "ref": "8.6",
+          "title": "Centralize Anti-malware Logging",
+          "summary": "Send all malware detection events to enterprise anti-malware administration tools and event log servers for analysis and alerting."
+        },
+        {
+          "ref": "8.7",
+          "title": "Enable DNS Query Logging",
+          "summary": "Enable Domain Name System (DNS) query logging to detect hostname lookups for known malicious domains."
+        },
+        {
+          "ref": "8.8",
+          "title": "Enable Command-line Audit Logging",
+          "summary": "Enable command-line audit logging for command shells, such as Microsoft Powershell and Bash."
+        }
+      ]
+    },
+    {
+      "title": "§ Foundational\n【C09】 Limitation and Control of Network Ports, Protocols, and Services",
+      "controls": [
+        {
+          "ref": "9.1",
+          "title": "Associate Active Ports, Services and Protocols to Asset Inventory",
+          "summary": "Associate active ports, services and protocols to the hardware assets in the asset inventory."
+        },
+        {
+          "ref": "9.2",
+          "title": "Ensure Only Approved Ports, Protocols and Services Are Running",
+          "summary": "Ensure that only network ports, protocols, and services listening on a system with validated business needs, are running on each system."
+        },
+        {
+          "ref": "9.3",
+          "title": "Perform Regular Automated Port Scans",
+          "summary": "Perform automated port scans on a regular basis against all systems and alert if unauthorized ports are detected on a system."
+        },
+        {
+          "ref": "9.4",
+          "title": "Apply Host-based Firewalls or Port Filtering",
+          "summary": "Apply host-based firewalls or port filtering tools on end systems, with a default-deny rule that drops all traffic except those services and ports that are explicitly allowed."
+        },
+        {
+          "ref": "9.5",
+          "title": "Implement Application Firewalls",
+          "summary": "Place application firewalls in front of any critical servers to verify and validate the traffic going to the server. Any unauthorized traffic should be blocked and logged."
+        }
+      ]
+    },
+    {
+      "title": "§ Foundational\n【C10】 Data Recovery Capabilities",
+      "controls": [
+        {
+          "ref": "10.1",
+          "title": "Ensure Regular Automated Back Ups",
+          "summary": "Ensure that all system data is automatically backed up on regular basis."
+        },
+        {
+          "ref": "10.2",
+          "title": "Perform Complete System Backups",
+          "summary": "Ensure that each of the organization's key systems are backed up as a complete system, through processes such as imaging, to enable the quick recovery of an entire system."
+        },
+        {
+          "ref": "10.3",
+          "title": "Test Data on Backup Media",
+          "summary": "Test data integrity on backup media on a regular basis by performing a data restoration process to ensure that the backup is properly working."
+        },
+        {
+          "ref": "10.4",
+          "title": "Ensure Protection of Backups",
+          "summary": "Ensure that backups are properly protected via physical security or encryption when they are stored, as well as when they are moved across the network. This includes remote backups and cloud services."
+        },
+        {
+          "ref": "10.5",
+          "title": "Ensure Backups Have At least One Non-Continuously Addressable Destination",
+          "summary": "Ensure that all backups have at least one backup destination that is not continuously addressable through operating system calls."
+        }
+      ]
+    },
+    {
+      "title": "§ Foundational\n【C11】 Secure Configuration for Network Devices, such as Firewalls, Routers and Switches",
+      "controls": [
+        {
+          "ref": "11.1",
+          "title": "Maintain Standard Security Configurations for Network Devices",
+          "summary": "Maintain standard, documented security configuration standards for all authorized network devices."
+        },
+        {
+          "ref": "11.2",
+          "title": "Document Traffic Configuration Rules",
+          "summary": "All configuration rules that allow traffic to flow through network devices should be documented in a configuration management system with a specific business reason for each rule, a specific individual’s name responsible for that business need, and an expected duration of the need."
+        },
+        {
+          "ref": "11.3",
+          "title": "Use Automated Tools to Verify Standard Device Configurations and Detect Changes",
+          "summary": "Compare all network device configuration against approved security configurations defined for each network device in use and alert when any deviations are discovered."
+        },
+        {
+          "ref": "11.4",
+          "title": "Install the Latest Stable Version of Any Security-related Updates on All Network Devices",
+          "summary": "Install the latest stable version of any security-related updates on all network devices."
+        },
+        {
+          "ref": "11.5",
+          "title": "Manage Network Devices Using Multi-Factor Authentication and Encrypted Sessions",
+          "summary": "Manage all network devices using multi-factor authentication and encrypted sessions."
+        },
+        {
+          "ref": "11.6",
+          "title": "Use Dedicated Machines For All Network Administrative Tasks",
+          "summary": "Ensure network engineers use a dedicated machine for all administrative tasks or tasks requiring elevated access. This machine shall be segmented from the organization's primary network and not be allowed Internet access. This machine shall not be used for reading e-mail, composing documents, or surfing the Internet."
+        },
+        {
+          "ref": "11.7",
+          "title": "Manage Network Infrastructure Through a Dedicated Network",
+          "summary": "Manage the network infrastructure across network connections that are separated from the business use of that network, relying on separate VLANs or, preferably, on entirely different physical connectivity for management sessions for network devices."
+        }
+      ]
+    },
+    {
+      "title": "§ Foundational\n【C12】 Boundary Defense",
+      "controls": [
+        {
+          "ref": "12.1",
+          "title": "Maintain an Inventory of Network Boundaries",
+          "summary": "Maintain an up-to-date inventory of all of the organization's network boundaries."
+        },
+        {
+          "ref": "12.2",
+          "title": "Scan for Unauthorized Connections across Trusted Network Boundaries",
+          "summary": "Perform regular scans from outside each trusted network boundary to detect any unauthorized connections which are accessible across the boundary."
+        },
+        {
+          "ref": "12.3",
+          "title": "Deny Communications with Known Malicious IP Addresses",
+          "summary": "Deny communications with known malicious or unused Internet IP addresses and limit access only to trusted and necessary IP address ranges at each of the organization's network boundaries,."
+        },
+        {
+          "ref": "12.4",
+          "title": "Deny Communication over Unauthorized Ports",
+          "summary": "Deny communication over unauthorized TCP or UDP ports or application traffic to ensure that only authorized protocols are allowed to cross the network boundary in or out of the network at each of the organization's network boundaries."
+        },
+        {
+          "ref": "12.5",
+          "title": "Configure Monitoring Systems to Record Network Packets",
+          "summary": "Configure monitoring systems to record network packets passing through the boundary at each of the organization's network boundaries."
+        },
+        {
+          "ref": "12.6",
+          "title": "Deploy Network-based IDS Sensor",
+          "summary": "Deploy network-based Intrusion Detection Systems (IDS) sensors to look for unusual attack mechanisms and detect compromise of these systems at each of the organization's network boundaries."
+        },
+        {
+          "ref": "12.7",
+          "title": "Deploy Network-Based Intrusion Prevention Systems",
+          "summary": "Deploy network-based Intrusion Prevention Systems (IPS) to block malicious network traffic at each of the organization's network boundaries."
+        },
+        {
+          "ref": "12.8",
+          "title": "Deploy NetFlow Collection on Networking Boundary Devices",
+          "summary": "Enable the collection of NetFlow and logging data on all network boundary devices."
+        },
+        {
+          "ref": "12.9",
+          "title": "Deploy Application Layer Filtering Proxy Server",
+          "summary": "Ensure that all network traffic to or from the Internet passes through an authenticated application layer proxy that is configured to filter unauthorized connections."
+        },
+        {
+          "ref": "12.10",
+          "title": "Decrypt Network Traffic at Proxy",
+          "summary": "Decrypt all encrypted network traffic at the boundary proxy prior to analyzing the content. However, the organization may use whitelists of allowed sites that can be accessed through the proxy without decrypting the traffic."
+        },
+        {
+          "ref": "12.11",
+          "title": "Require All Remote Login to Use Multi-factor Authentication",
+          "summary": "Require all remote login access to the organization's network to encrypt data in transit and use multi-factor authentication."
+        },
+        {
+          "ref": "12.12",
+          "title": "Manage All Devices Remotely Logging into Internal Network",
+          "summary": "Scan all enterprise devices remotely logging into the organization's network prior to accessing the network to ensure that each of the organization's security policies has been enforced in the same manner as local network devices."
+        }
+      ]
+    },
+    {
+      "title": "§ Foundational\n【C13】 Data Protection",
+      "controls": [
+        {
+          "ref": "13.1",
+          "title": "Maintain an Inventory Sensitive Information",
+          "summary": "Maintain an inventory of all sensitive information stored, processed, or transmitted by the organization's technology systems, including those located onsite or at a remote service provider."
+        },
+        {
+          "ref": "13.2",
+          "title": "Remove Sensitive Data or Systems Not Regularly Accessed by Organization",
+          "summary": "Remove sensitive data or systems not regularly accessed by the organization from the network. These systems shall only be used as stand alone systems (disconnected from the network) by the business unit needing to occasionally use the system or completely virtualized and powered off until needed."
+        },
+        {
+          "ref": "13.3",
+          "title": "Monitor and Block Unauthorized Network Traffic",
+          "summary": "Deploy an automated tool on network perimeters that monitors for unauthorized transfer of sensitive information and blocks such transfers while alerting information security professionals."
+        },
+        {
+          "ref": "13.4",
+          "title": "Only Allow Access to Authorized Cloud Storage or Email Providers",
+          "summary": "Only allow access to authorized cloud storage or email providers."
+        },
+        {
+          "ref": "13.5",
+          "title": "Monitor and Detect Any Unauthorized Use of Encryption",
+          "summary": "Monitor all traffic leaving the organization and detect any unauthorized use of encryption."
+        },
+        {
+          "ref": "13.6",
+          "title": "Encrypt the Hard Drive of All Mobile Devices.",
+          "summary": "Utilize approved whole disk encryption software to encrypt the hard drive of all mobile devices."
+        },
+        {
+          "ref": "13.7",
+          "title": "Manage USB Devices",
+          "summary": "If USB storage devices are required, enterprise software should be used that can configure systems to allow the use of specific devices. An inventory of such devices should be maintained."
+        },
+        {
+          "ref": "13.8",
+          "title": "Manage System's External Removable Media's Read/write Configurations",
+          "summary": "Configure systems not to write data to external removable media, if there is no business need for supporting such devices."
+        },
+        {
+          "ref": "13.9",
+          "title": "Encrypt Data on USB Storage Devices",
+          "summary": "If USB storage devices are required, all data stored on such devices must be encrypted while at rest."
+        }
+      ]
+    },
+    {
+      "title": "§ Foundational\n【C14】 Controlled Access Based on the Need to Know",
+      "controls": [
+        {
+          "ref": "14.1",
+          "title": "Segment the Network Based on Sensitivity",
+          "summary": "Segment the network based on the label or classification level of the information stored on the servers, locate all sensitive information on separated Virtual Local Area Networks (VLANs)."
+        },
+        {
+          "ref": "14.2",
+          "title": "Enable Firewall Filtering Between VLANs",
+          "summary": "Enable firewall filtering between VLANs to ensure that only authorized systems are able to communicate with other systems necessary to fulfill their specific responsibilities."
+        },
+        {
+          "ref": "14.3",
+          "title": "Disable Workstation to Workstation Communication",
+          "summary": "Disable all workstation to workstation communication to limit an attacker's ability to move laterally and compromise neighboring systems, through technologies such as Private VLANs or microsegmentation."
+        },
+        {
+          "ref": "14.4",
+          "title": "Encrypt All Sensitive Information in Transit",
+          "summary": "Encrypt All Sensitive Information in Transit."
+        },
+        {
+          "ref": "14.5",
+          "title": "Utilize an Active Discovery Tool to Identify Sensitive Data",
+          "summary": "Utilize an active discovery tool to identify all sensitive information stored, processed, or transmitted by the organization's technology systems, including those located onsite or at a remote service provider and update the organization's sensitive information inventory."
+        },
+        {
+          "ref": "14.6",
+          "title": "Protect Information through Access Control Lists",
+          "summary": "Protect all information stored on systems with file system, network share, claims, application, or database specific access control lists. These controls will enforce the principle that only authorized individuals should have access to the information based on their need to access the information as a part of their responsibilities."
+        },
+        {
+          "ref": "14.7",
+          "title": "Enforce Access Control to Data through Automated Tools",
+          "summary": "Use an automated tool, such as host-based Data Loss Prevention, to enforce access controls to data even when data is copied off a system."
+        },
+        {
+          "ref": "14.8",
+          "title": "Encrypt Sensitive Information at Rest",
+          "summary": "Encrypt all sensitive information at rest using a tool that requires a secondary authentication mechanism not integrated into the operating system, in order to access the information."
+        },
+        {
+          "ref": "14.9",
+          "title": "Enforce Detail Logging for Access or Changes to Sensitive Data",
+          "summary": "Enforce detailed audit logging for access to sensitive data or changes to sensitive data (utilizing tools such as File Integrity Monitoring or Security Information and Event Monitoring)."
+        }
+      ]
+    },
+    {
+      "title": "§ Foundational\n【C15】 Wireless Access Control",
+      "controls": [
+        {
+          "ref": "15.1",
+          "title": "Maintain an Inventory of Authorized Wireless Access Points",
+          "summary": "Maintain an inventory of authorized wireless access points connected to the wired network."
+        },
+        {
+          "ref": "15.2",
+          "title": "Detect Wireless Access Points Connected to the Wired Network",
+          "summary": "Configure network vulnerability scanning tools to detect and alert on unauthorized wireless access points connected to the wired network."
+        },
+        {
+          "ref": "15.3",
+          "title": "Use a Wireless Intrusion Detection System",
+          "summary": "Use a wireless intrusion detection system (WIDS) to detect and alert on unauthorized wireless access points connected to the network."
+        },
+        {
+          "ref": "15.4",
+          "title": "Disable Wireless Access on Devices if Not Required",
+          "summary": "Disable wireless access on devices that do not have a business purpose for wireless access."
+        },
+        {
+          "ref": "15.5",
+          "title": "Limit Wireless Access on Client Devices",
+          "summary": "Configure wireless access on client machines that do have an essential wireless business purpose, to allow access only to authorized wireless networks and to restrict access to other wireless networks."
+        },
+        {
+          "ref": "15.6",
+          "title": "Disable Peer-to-peer Wireless Network Capabilities on Wireless Clients",
+          "summary": "Disable peer-to-peer (adhoc) wireless network capabilities on wireless clients."
+        },
+        {
+          "ref": "15.7",
+          "title": "Leverage the Advanced Encryption Standard (AES) to Encrypt Wireless Data",
+          "summary": "Leverage the Advanced Encryption Standard (AES) to encrypt wireless data in transit."
+        },
+        {
+          "ref": "15.8",
+          "title": "Use Wireless Authentication Protocols that Require Mutual, Multi-Factor Authentication",
+          "summary": "Ensure that wireless networks use authentication protocols such as Extensible Authentication Protocol-Transport Layer Security (EAP/TLS), that requires mutual, multi-factor authentication."
+        },
+        {
+          "ref": "15.9",
+          "title": "Disable Wireless Peripheral Access of Devices",
+          "summary": "Disable wireless peripheral access of devices (such as Bluetooth and NFC), unless such access is required for a business purpose."
+        },
+        {
+          "ref": "15.10",
+          "title": "Create Separate Wireless Network for Personal and Untrusted Devices",
+          "summary": "Create a separate wireless network for personal or untrusted devices. Enterprise access from this network should be treated as untrusted and filtered and audited accordingly."
+        }
+      ]
+    },
+    {
+      "title": "§ Foundational\n【C16】 Account Monitoring and Control",
+      "controls": [
+        {
+          "ref": "16.1",
+          "title": "Maintain an Inventory of Authentication Systems",
+          "summary": "Maintain an inventory of each of the organization's authentication systems, including those located onsite or at a remote service provider."
+        },
+        {
+          "ref": "16.2",
+          "title": "Configure Centralized Point of Authentication",
+          "summary": "Configure access for all accounts through as few centralized points of authentication as possible, including network, security, and cloud systems."
+        },
+        {
+          "ref": "16.3",
+          "title": "Require Multi-factor Authentication",
+          "summary": "Require multi-factor authentication for all user accounts, on all systems, whether managed onsite or by a third-party provider."
+        },
+        {
+          "ref": "16.4",
+          "title": "Encrypt or Hash all Authentication Credentials",
+          "summary": "Encrypt or hash with a salt all authentication credentials when stored."
+        },
+        {
+          "ref": "16.5",
+          "title": "Encrypt Transmittal of Username and Authentication Credentials",
+          "summary": "Ensure that all account usernames and authentication credentials are transmitted across networks using encrypted channels."
+        },
+        {
+          "ref": "16.6",
+          "title": "Maintain an Inventory of Accounts",
+          "summary": "Maintain an inventory of all accounts organized by authentication system."
+        },
+        {
+          "ref": "16.7",
+          "title": "Establish Process for Revoking Access",
+          "summary": "Establish and follow an automated process for revoking system access by disabling accounts immediately upon termination or change of responsibilities of an employee or contractor . Disabling these accounts, instead of deleting accounts, allows preservation of audit trails."
+        },
+        {
+          "ref": "16.8",
+          "title": "Disable Any Unassociated Accounts",
+          "summary": "Disable any account that cannot be associated with a business process or business owner."
+        },
+        {
+          "ref": "16.9",
+          "title": "Disable Dormant Accounts",
+          "summary": "Automatically disable dormant accounts after a set period of inactivity."
+        },
+        {
+          "ref": "16.10",
+          "title": "Ensure All Accounts Have An Expiration Date",
+          "summary": "Ensure that all accounts have an expiration date that is monitored and enforced."
+        },
+        {
+          "ref": "16.11",
+          "title": "Lock Workstation Sessions After Inactivity",
+          "summary": "Automatically lock workstation sessions after a standard period of inactivity."
+        },
+        {
+          "ref": "16.12",
+          "title": "Monitor Attempts to Access Deactivated Accounts",
+          "summary": "Monitor attempts to access deactivated accounts through audit logging."
+        },
+        {
+          "ref": "16.13",
+          "title": "Alert on Account Login Behavior Deviation",
+          "summary": "Alert when users deviate from normal login behavior, such as time-of-day, workstation location and duration."
+        }
+      ]
+    },
+    {
+      "title": "§ Organizational\n【C17】 Implement a Security Awareness and Training Program",
+      "controls": [
+        {
+          "ref": "17.1",
+          "title": "Perform a Skills Gap Analysis",
+          "summary": "Perform a skills gap analysis to understand the skills and behaviors workforce members are not adhering to, using this information to build a baseline education roadmap."
+        },
+        {
+          "ref": "17.2",
+          "title": "Deliver Training to Fill the Skills Gap",
+          "summary": "Deliver training to address the skills gap identified to positively impact workforce members' security behavior."
+        },
+        {
+          "ref": "17.3",
+          "title": "Implement a Security Awareness Program",
+          "summary": "Create a security awareness program for all workforce members to complete on a regular basis to ensure they understand and exhibit the necessary behaviors and skills to help ensure the security of the organization. The organization's security awareness program should be communicated in a continuous and engaging manner."
+        },
+        {
+          "ref": "17.4",
+          "title": "Update Awareness Content Frequently",
+          "summary": "Ensure that the organization's security awareness program is updated frequently (at least annually) to address new technologies, threats, standards and business requirements."
+        },
+        {
+          "ref": "17.5",
+          "title": "Train Workforce on Secure Authentication",
+          "summary": "Train workforce members on the importance of enabling and utilizing secure authentication."
+        },
+        {
+          "ref": "17.6",
+          "title": "Train Workforce on Identifying Social Engineering Attacks",
+          "summary": "Train the workforce on how to identify different forms of social engineering attacks, such as phishing, phone scams and impersonation calls."
+        },
+        {
+          "ref": "17.7",
+          "title": "Train Workforce on Sensitive Data Handling",
+          "summary": "Train workforce on how to identify and properly store, transfer, archive and destroy sensitive information."
+        },
+        {
+          "ref": "17.8",
+          "title": "Train Workforce on Causes of Unintentional Data Exposure",
+          "summary": "Train workforce members to be aware of causes for unintentional data exposures, such as losing their mobile devices or emailing the wrong person due to autocomplete in email."
+        },
+        {
+          "ref": "17.9",
+          "title": "Train Workforce Members on Identifying and Reporting Incidents",
+          "summary": "Train employees to be able to identify the most common indicators of an incident and be able to report such an incident."
+        }
+      ]
+    },
+    {
+      "title": "§ Organizational\n【C18】 Application Software Security",
+      "controls": [
+        {
+          "ref": "18.1",
+          "title": "Establish Secure Coding Practices",
+          "summary": "Establish secure coding practices appropriate to the programming language and development environment being used."
+        },
+        {
+          "ref": "18.2",
+          "title": "Ensure Explicit Error Checking is Performed for All In-house Developed Software",
+          "summary": "For in-house developed software, ensure that explicit error checking is performed and documented for all input, including for size, data type, and acceptable ranges or formats."
+        },
+        {
+          "ref": "18.3",
+          "title": "Verify That Acquired Software is Still Supported",
+          "summary": "Verify that the version of all software acquired from outside your organization is still supported by the developer or appropriately hardened based on developer security recommendations."
+        },
+        {
+          "ref": "18.4",
+          "title": "Only Use Up-to-date And Trusted Third-Party Components",
+          "summary": "Only use up-to-date and trusted third-party components for the software developed by the organization."
+        },
+        {
+          "ref": "18.5",
+          "title": "Use Only Standardized and Extensively Reviewed Encryption Algorithms",
+          "summary": "Use only standardized and extensively reviewed encryption algorithms."
+        },
+        {
+          "ref": "18.6",
+          "title": "Ensure Software Development Personnel are Trained in Secure Coding",
+          "summary": "Ensure that all software development personnel receive training in writing secure code for their specific development environment and responsibilities."
+        },
+        {
+          "ref": "18.7",
+          "title": "Apply Static and Dynamic Code Analysis Tools",
+          "summary": "Apply static and dynamic analysis tools to verify that secure coding practices are being adhered to for internally developed software."
+        },
+        {
+          "ref": "18.8",
+          "title": "Establish a Process to Accept and Address Reports of Software Vulnerabilities",
+          "summary": "Establish a process to accept and address reports of software vulnerabilities, including providing a means for external entities to contact your security group."
+        },
+        {
+          "ref": "18.9",
+          "title": "Separate Production and Non-Production Systems",
+          "summary": "Maintain separate environments for production and nonproduction systems. Developers should not have unmonitored access to production environments."
+        },
+        {
+          "ref": "18.10",
+          "title": "Deploy Web Application Firewalls (WAFs)",
+          "summary": "Protect web applications by deploying web application firewalls (WAFs) that inspect all traffic flowing to the web application for common web application attacks. For applications that are not web-based, specific application firewalls should be deployed if such tools are available for the given application type. If the traffic is encrypted, the device should either sit behind the encryption or be capable of decrypting the traffic prior to analysis. If neither option is appropriate, a host-based web application firewall should be deployed."
+        },
+        {
+          "ref": "18.11",
+          "title": "Use Standard Hardening Configuration Templates for Databases",
+          "summary": "For applications that rely on a database, use standard hardening configuration templates. All systems that are part of critical business processes should also be tested."
+        }
+      ]
+    },
+    {
+      "title": "§ Organizational\n【C19】 Incident Response and Management",
+      "controls": [
+        {
+          "ref": "19.1",
+          "title": "Document Incident Response Procedures",
+          "summary": "Ensure that there are written incident response plans that defines roles of personnel as well as phases of incident handling/management."
+        },
+        {
+          "ref": "19.2",
+          "title": "Assign Job Titles and Duties for Incident Response",
+          "summary": "Assign job titles and duties for handling computer and network incidents to specific individuals and ensure tracking and documentation throughout the incident through resolution."
+        },
+        {
+          "ref": "19.3",
+          "title": "Designate Management Personnel to Support Incident Handling",
+          "summary": "Designate management personnel, as well as backups, who will support the incident handling process by acting in key decision-making roles."
+        },
+        {
+          "ref": "19.4",
+          "title": "Devise Organization-wide Standards for Reporting Incidents",
+          "summary": "Devise organization-wide standards for the time required for system administrators and other workforce members to report anomalous events to the incident handling team, the mechanisms for such reporting, and the kind of information that should be included in the incident notification."
+        },
+        {
+          "ref": "19.5",
+          "title": "Maintain Contact Information For Reporting Security Incidents",
+          "summary": "Assemble and maintain information on third-party contact information to be used to report a security incident, such as Law Enforcement, relevant government departments, vendors, and ISAC partners."
+        },
+        {
+          "ref": "19.6",
+          "title": "Publish Information Regarding Reporting Computer Anomalies and Incidents",
+          "summary": "Publish information for all workforce members, regarding reporting computer anomalies and incidents to the incident handling team. Such information should be included in routine employee awareness activities."
+        },
+        {
+          "ref": "19.7",
+          "title": "Conduct Periodic Incident Scenario Sessions for Personnel",
+          "summary": "Plan and conduct routine incident response exercises and scenarios for the workforce involved in the incident response to maintain awareness and comfort in responding to real world threats. Exercises should test communication channels, decision making, and incident responders technical capabilities using tools and data available to them."
+        },
+        {
+          "ref": "19.8",
+          "title": "Create Incident Scoring and Prioritization Schema",
+          "summary": "Create incident scoring and prioritization schema based on known or potential impact to your organization. Utilize score to define frequency of status updates and escalation procedures."
+        }
+      ]
+    },
+    {
+      "title": "§ Organizational\n【C20】 Penetration Tests and Red Team Exercises",
+      "controls": [
+        {
+          "ref": "20.1",
+          "title": "Establish a Penetration Testing Program",
+          "summary": "Establish a program for penetration tests that includes a full scope of blended attacks, such as wireless, client-based, and web application attacks."
+        },
+        {
+          "ref": "20.2",
+          "title": "Conduct Regular External and Internal Penetration Tests",
+          "summary": "Conduct regular external and internal penetration tests to identify vulnerabilities and attack vectors that can be used to exploit enterprise systems successfully."
+        },
+        {
+          "ref": "20.3",
+          "title": "Perform Periodic Red Team Exercises",
+          "summary": "Perform periodic Red Team exercises to test organizational readiness to identify and stop attacks or to respond quickly and effectively."
+        },
+        {
+          "ref": "20.4",
+          "title": "Include Tests for Presence of Unprotected System Information and Artifacts",
+          "summary": "Include tests for the presence of unprotected system information and artifacts that would be useful to attackers, including network diagrams, configuration files, older penetration test reports, e-mails or documents containing passwords or other information critical to system operation."
+        },
+        {
+          "ref": "20.5",
+          "title": "Create Test Bed for Elements Not Typically Tested in Production",
+          "summary": "Create a test bed that mimics a production environment for specific penetration tests and Red Team attacks against elements that are not typically tested in production, such as attacks against supervisory control and data acquisition and other control systems."
+        },
+        {
+          "ref": "20.6",
+          "title": "Use Vulnerability Scanning and Penetration Testing Tools in Concert",
+          "summary": "Use vulnerability scanning and penetration testing tools in concert. The results of vulnerability scanning assessments should be used as a starting point to guide and focus penetration testing efforts."
+        },
+        {
+          "ref": "20.7",
+          "title": "Ensure Results from Penetration Test are Documented Using Open, Machine-readable Standards",
+          "summary": "Wherever possible, ensure that Red Teams results are documented using open, machine-readable standards (e.g., SCAP). Devise a scoring method for determining the results of Red Team exercises so that results can be compared over time."
+        },
+        {
+          "ref": "20.8",
+          "title": "Control and Monitor Accounts Associated with Penetration Testing",
+          "summary": "Any user or system accounts used to perform penetration testing should be controlled and monitored to make sure they are only being used for legitimate purposes, and are removed or restored to normal function after testing is over."
+        }
+      ]
+    }
+  ]
+}

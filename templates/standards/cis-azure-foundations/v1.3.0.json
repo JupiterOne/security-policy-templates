@@ -1,0 +1,718 @@
+{
+  "standard": "CIS Azure Foundations v1.3.0",
+  "webLink": "#",
+  "version": "1.3.0",
+  "domains": [
+    {
+      "title": "Identity and Access Management",
+      "controls": [
+        {
+          "ref": "1.1",
+          "title": "Ensure that multi-factor authentication is enabled for all privileged users (Manual)",
+          "summary": "Enable multi-factor authentication for all user credentials who have write access to Azure resources. These include roles like\n  • Service Co-Administrators\n  • Subscription Owners\n  • Contributors",
+          "applicable": true
+        },
+        {
+          "ref": "1.2",
+          "title": "Ensure that multi-factor authentication is enabled for all non-privileged users (Manual)",
+          "summary": "Enable multi-factor authentication for all non-privileged users.",
+          "applicable": true
+        },
+        {
+          "ref": "1.3",
+          "title": "Ensure guest users are reviewed on a monthly basis (Automated)",
+          "summary": "Azure AD is extended to include Azure AD B2B collaboration, allowing you to invite people from outside your organization to be guest users in your cloud account and sign in with their own work, school, or social identities. Guest users allow you to share your company's applications and services with users from any other organization, while maintaining control over your own corporate data.\n\nWork with external partners, large or small, even if they don't have Azure AD or an IT department. A simple invitation and redemption process lets partners use their own credentials to access your company's resources a a guest user.",
+          "applicable": true
+        },
+        {
+          "ref": "1.4",
+          "title": "Ensure that 'Allow users to remember multi-factor authentication on devices they trust' is 'Disabled' (Manual)",
+          "summary": "Do not allow users to remember multi-factor authentication on devices.",
+          "applicable": true
+        },
+        {
+          "ref": "1.5",
+          "title": "Ensure that 'Number of methods required to reset' is set to '2' (Manual)",
+          "summary": "Ensure that two alternate forms of identification are provided before allowing a password reset",
+          "applicable": true
+        },
+        {
+          "ref": "1.6",
+          "title": "Ensure that 'Number of days before users are asked to re-confirm their authentication information' is not set to \"0\" (Manual)",
+          "summary": "Ensure that the number of days before users are asked to re-confirm their authentication information is not set to 0.",
+          "applicable": true
+        },
+        {
+          "ref": "1.7",
+          "title": " Ensure that 'Notify users on password resets?' is set to 'Yes' (Manual)",
+          "summary": "Ensure that users are notified on their primary and secondary emails on password resets.",
+          "applicable": true
+        },
+        {
+          "ref": "1.8",
+          "title": "Ensure that 'Notify all admins when other admins reset their password?' is set to 'Yes' (Manual)",
+          "summary": "Ensure that all administrators are notified if any other administrator resets their password.",
+          "applicable": true
+        },
+        {
+          "ref": "1.9",
+          "title": "Ensure that 'Users can consent to apps accessing company data on their behalf' is set to 'No' (Manual)",
+          "summary": "Require administrators to provide consent for the apps before use.",
+          "applicable": true
+        },
+        {
+          "ref": "1.10",
+          "title": "Ensure that 'Users can add gallery apps to their Access Panel' is set to 'No' (Manual)",
+          "summary": "Require administrators to provide consent for the apps before use.",
+          "applicable": true
+        },
+        {
+          "ref": "1.11",
+          "title": "Ensure that 'Users can register applications' is set to 'No' (Manual)",
+          "summary": "Require administrators to register third-party applications.",
+          "applicable": true
+        },
+        {
+          "ref": "1.12",
+          "title": "Ensure that 'Guest user permissions are limited' is set to 'Yes' (Manual)",
+          "summary": "Limit guest user permissions.",
+          "applicable": true
+        },
+        {
+          "ref": "1.13",
+          "title": "Ensure that 'Members can invite' is set to 'No' (Manual)",
+          "summary": "Restrict invitations to administrators only.",
+          "applicable": true
+        },
+        {
+          "ref": "1.14",
+          "title": "Ensure that 'Guests can invite' is set to 'No' (Manual)",
+          "summary": "Restrict guest being able to invite other guests to collaborate with your organization.",
+          "applicable": true
+        },
+        {
+          "ref": "1.15",
+          "title": "Ensure that 'Restrict access to Azure AD administration portal' is set to 'Yes' (Manual)",
+          "summary": "Restrict access to the Azure AD administration portal to administrators only.",
+          "applicable": true
+        },
+        {
+          "ref": "1.16",
+          "title": "Ensure that 'Restrict user ability to access groups features in the Access Pane' is set to 'No' (Manual)",
+          "summary": "Restrict group creation to administrators only.",
+          "applicable": true
+        },
+        {
+          "ref": "1.17",
+          "title": "Ensure that 'Users can create security groups in Azure Portals' is set to 'No' (Manual)",
+          "summary": "Restrict security group creation to administrators only.",
+          "applicable": true
+        },
+        {
+          "ref": "1.18",
+          "title": "Ensure that 'Owners can manage group membership requests in the Access Panel' is set to 'No' (Manual)",
+          "summary": "Restrict security group management to administrators only.",
+          "applicable": true
+        },
+        {
+          "ref": "1.19",
+          "title": "Ensure that 'Users can create Microsoft 365 groups in Azure Portals' is set to 'No' (Manual)",
+          "summary": "Restrict Microsoft 365 group creation to administrators only.",
+          "applicable": true
+        },
+        {
+          "ref": "1.20",
+          "title": "Ensure that 'Require Multi-Factor Auth to join devices' is set to 'Yes' (Manual)",
+          "summary": "Joining devices to the active directory should require Multi-factor authentication.",
+          "applicable": true
+        },
+        {
+          "ref": "1.21",
+          "title": "Ensure that no custom subscription owner roles are created (Automated)",
+          "summary": "Subscription ownership should not include permission to create custom owner roles. The principle of least privilege should be followed and only necessary privileges should be assigned instead of allowing full administrative access.",
+          "applicable": true
+        },
+        {
+          "ref": "1.22",
+          "title": "Ensure Security Defaults is enabled on Azure Active Directory (Automated)",
+          "summary": "Security defaults in Azure Active Directory (Azure AD) make it easier to be secure and help protect your organization. Security defaults contain preconfigured security settings for common attacks.\nMicrosoft is making security defaults available to everyone. The goal is to ensure that all organizations have a basic level of security-enabled at no extra cost. You turn on security defaults in the Azure portal.",
+          "applicable": true
+        },
+        {
+          "ref": "1.23",
+          "title": "Ensure Custom Role is assigned for Administering Resource Locks (Manual)",
+          "summary": "Resource locking is a powerful protection mechanism that can prevent inadvertent modification/deletion of resources within Azure subscriptions/Resource Groups and is a recommended NIST configuration.",
+          "applicable": true
+        }
+      ]
+    },
+    {
+      "title": "Security Center",
+      "controls": [
+        {
+          "ref": "2.1",
+          "title": "Ensure that Azure Defender is set to On for Servers (Manual)",
+          "summary": "Turning on Azure Defender enables threat detection for Server, providing threat intelligence, anomaly detection, and behavior analytics in the Azure Security Center.",
+          "applicable": true
+        },
+        {
+          "ref": "2.2",
+          "title": "Ensure that Azure Defender is set to On for App Service (Manual)",
+          "summary": "Turning on Azure Defender enables threat detection for App Service, providing threat intelligence, anomaly detection, and behavior analytics in the Azure Security Center.",
+          "applicable": true
+        },
+        {
+          "ref": "2.3",
+          "title": "Ensure that Azure Defender is set to On for Azure SQL database servers (Manual)",
+          "summary": "Turning on Azure Defender enables threat detection for Azure SQL database servers, providing threat intelligence, anomaly detection, and behavior analytics in the Azure Security Center.",
+          "applicable": true
+        },
+        {
+          "ref": "2.4",
+          "title": "Ensure that Azure Defender is set to On for SQL servers on machines (Manual)",
+          "summary": "Turning on Azure Defender enables threat detection for SQL servers on machines, providing threat intelligence, anomaly detection, and behavior analytics in the Azure Security Center.",
+          "applicable": true
+        },
+        {
+          "ref": "2.5",
+          "title": "Ensure that Azure Defender is set to On for Storage (Manual)",
+          "summary": "Turning on Azure Defender enables threat detection for Storage, providing threat intelligence, anomaly detection, and behavior analytics in the Azure Security Center.",
+          "applicable": true
+        },
+        {
+          "ref": "2.6",
+          "title": "Ensure that Azure Defender is set to On for Kubernetes (Manual)",
+          "summary": "Turning on Azure Defender enables threat detection for Kubernetes, providing threat intelligence, anomaly detection, and behavior analytics in the Azure Security Center.",
+          "applicable": true
+        },
+        {
+          "ref": "2.7",
+          "title": "Ensure that Azure Defender is set to On for Container Registries (Manual)",
+          "summary": "Turning on Azure Defender enables threat detection for Container Registries, providing threat intelligence, anomaly detection, and behavior analytics in the Azure Security Center.",
+          "applicable": true
+        },
+        {
+          "ref": "2.8",
+          "title": "Ensure that Azure Defender is set to On for Key Vault (Manual)",
+          "summary": "Turning on Azure Defender enables threat detection for Key Vault, providing threat intelligence, anomaly detection, and behavior analytics in the Azure Security Center.",
+          "applicable": true
+        },
+        {
+          "ref": "2.9",
+          "title": "Ensure that Windows Defender ATP (WDATP) integration with Security Center is selected (Manual)",
+          "summary": "This setting enables Windows Defender ATP (WDATP) integration with Security Center.",
+          "applicable": true
+        },
+        {
+          "ref": "2.10",
+          "title": "Ensure that Microsoft Cloud App Security (MCAS) integration with Security Center is selected (Manual)",
+          "summary": "This setting enables Microsoft Cloud App Security (MCAS) integration with Security Center.",
+          "applicable": true
+        },
+        {
+          "ref": "2.11",
+          "title": "Ensure that 'Automatic provisioning of monitoring agent' is set to 'On' (Automated)",
+          "summary": "Enable automatic provisioning of the monitoring agent to collect security data.",
+          "applicable": true
+        },
+        {
+          "ref": "2.12",
+          "title": "Ensure any of the ASC Default policy setting is not set to \"Disabled\" (Manual)",
+          "summary": "None of the settings offered by ASC Default policy should be set to effect \"Disabled\".",
+          "applicable": true
+        },
+        {
+          "ref": "2.13",
+          "title": "Ensure 'Additional email addresses' is configured with a security contact email (Automated)",
+          "summary": "Security Center emails the subscription owners whenever a high-severity alert is triggered for their subscription. You should provide a security contact email address as an additional email address.",
+          "applicable": true
+        },
+        {
+          "ref": "2.14",
+          "title": "Ensure that 'Notify about alerts with the following severity' is set to 'High' (Automated)",
+          "summary": "Enables emailing security alerts to the subscription owner or other designated security contact.",
+          "applicable": true
+        },
+        {
+          "ref": "2.15",
+          "title": "Ensure that 'All users with the following roles' is set to 'Owner' (Automated)",
+          "summary": "Enable security alert emails to subscription owners.",
+          "applicable": true
+        }
+      ]
+    },
+    {
+      "title": "Storage Accounts",
+      "controls": [
+        {
+          "ref": "3.1",
+          "title": "Ensure that 'Secure transfer required' is set to 'Enabled' (Automated)",
+          "summary": "Enable data encryption in transit.",
+          "applicable": true
+        },
+        {
+          "ref": "3.2",
+          "title": "Ensure that storage account access keys are periodically regenerated (Manual)",
+          "summary": "Regenerate storage account access keys periodically.",
+          "applicable": true
+        },
+        {
+          "ref": "3.3",
+          "title": "Ensure Storage logging is enabled for Queue service for read, write, and delete requests (Manual)",
+          "summary": "The Storage Queue service stores messages that may be read by any client who has access to the storage account. A queue can contain an unlimited number of messages, each of which can be up to 64KB in size using version 2011-08-18 or newer. Storage Logging happens server-side and allows details for both successful and failed requests to be recorded in the storage account. These logs allow users to see the details of read, write, and delete operations against the queues. Storage Logging log entries contain the following information about individual requests: Timing information such as start time, end-to-end latency, and server latency, authentication details , concurrency information and the sizes of the request and response messages.",
+          "applicable": true
+        },
+        {
+          "ref": "3.4",
+          "title": "Ensure that shared access signature tokens expire within an hour (Manual)",
+          "summary": "Expire shared access signature tokens within an hour.",
+          "applicable": true
+        },
+        {
+          "ref": "3.5",
+          "title": "Ensure that 'Public access level' is set to Private for blob containers (Automated)",
+          "summary": "Disable anonymous access to blob containers and disallow blob public access on storage account.",
+          "applicable": true
+        },
+        {
+          "ref": "3.6",
+          "title": "Ensure default network access rule for Storage Accounts is set to deny (Automated)",
+          "summary": "Restricting default network access helps to provide a new layer of security, since storage accounts accept connections from clients on any network. To limit access to selected networks, the default action must be changed.",
+          "applicable": true
+        },
+        {
+          "ref": "3.7",
+          "title": "Ensure 'Trusted Microsoft Services' is enabled for Storage Account access (Manual)",
+          "summary": "Some Microsoft services that interact with storage accounts operate from networks that can't be granted access through network rules. To help this type of service work as intended, allow the set of trusted Microsoft services to bypass the network rules. These services will then use strong authentication to access the storage account. If the Allow trusted Microsoft services exception is enabled, the following services: Azure Backup, Azure Site Recovery, Azure DevTest Labs, Azure Event Grid, Azure Event Hubs, Azure Networking, Azure Monitor and Azure SQL Data Warehouse (when registered in the subscription), are granted access to the storage account.",
+          "applicable": true
+        },
+        {
+          "ref": "3.8",
+          "title": "Ensure soft delete is enabled for Azure Storage (Automated)",
+          "summary": "The Azure Storage blobs contain data like ePHI, Financial, secret or personal. Erroneously modified or deleted accidentally by an application or other storage account user cause data loss or data unavailability.\nIt is recommended the Azure Storage be made recoverable by enabling soft delete configuration. This is to save and recover data when blobs or blob snapshots are deleted.",
+          "applicable": true
+        },
+        {
+          "ref": "3.9",
+          "title": "Ensure storage for critical data are encrypted with Customer Managed Key (Automated)",
+          "summary": "By default, data in the storage account is encrypted using Microsoft Managed Keys at rest. All Azure Storage resources are encrypted, including blobs, disks, files, queues, and tables. All object metadata is also encrypted. However, if you want to control and manage this encryption key yourself, you can specify a customer-managed key, that key is used to protect and control access to the key that encrypts your data. You can also choose to automatically update the key version used for Azure Storage encryption whenever a new version is available in the associated Key Vault.",
+          "applicable": true
+        },
+        {
+          "ref": "3.10",
+          "title": "Ensure Storage logging is enabled for Blob service for read, write, and delete requests (Manual)",
+          "summary": "The Storage Blob service provides scalable, cost-efficient objective storage in the cloud. Storage Logging happens server-side and allows details for both successful and failed requests to be recorded in the storage account. These logs allow users to see the details of read, write, and delete operations against the blobs. Storage Logging log entries contain the following information about individual requests: Timing information such as start time, end-to-end latency, and server latency, authentication details , concurrency information and the sizes of the request and response messages.",
+          "applicable": true
+        },
+        {
+          "ref": "3.11",
+          "title": "Ensure Storage logging is enabled for Table service for read, write, and delete requests (Manual)",
+          "summary": "The Storage Table storage is a service that stores structure NoSQL data in the cloud, providing a key/attribute store with a schema less design. Storage Logging happens server- side and allows details for both successful and failed requests to be recorded in the storage account. These logs allow users to see the details of read, write, and delete operations against the tables. Storage Logging log entries contain the following information about individual requests: Timing information such as start time, end-to-end latency, and server latency, authentication details , concurrency information and the sizes of the request and response messages.",
+          "applicable": true
+        }
+      ]
+    },
+    {
+      "title": "Database Services",
+      "controls": [
+        {
+          "ref": "4.1.1",
+          "title": "Ensure that 'Auditing' is set to 'On' (Automated)",
+          "summary": "Enable auditing on SQL Servers.",
+          "applicable": true
+        },
+        {
+          "ref": "4.1.2",
+          "title": "Ensure that 'Data encryption' is set to 'On' on a SQL Database (Automated)",
+          "summary": "Enable Transparent Data Encryption on every SQL server.",
+          "applicable": true
+        },
+        {
+          "ref": "4.1.3",
+          "title": "Ensure that 'Auditing' Retention is 'greater than 90 days' (Automated)",
+          "summary": "SQL Server Audit Retention should be configured to be greater than 90 days.",
+          "applicable": true
+        },
+        {
+          "ref": "4.2.1",
+          "title": "Ensure that Advanced Threat Protection (ATP) on a SQL server is set to 'Enabled' (Automated)",
+          "summary": "Enable \"Azure Defender for SQL\" on critical SQL Servers.",
+          "applicable": true
+        },
+        {
+          "ref": "4.2.2",
+          "title": "Ensure that Vulnerability Assessment (VA) is enabled on a SQL server by setting a Storage Account (Automated)",
+          "summary": "Enable Vulnerability Assessment (VA) service scans for critical SQL servers and corresponding SQL databases.",
+          "applicable": true
+        },
+        {
+          "ref": "4.2.3",
+          "title": "Ensure that VA setting Periodic Recurring Scans is enabled on a SQL server (Automated)",
+          "summary": "Enable Vulnerability Assessment (VA) Periodic recurring scans for critical SQL servers and corresponding SQL databases.",
+          "applicable": true
+        },
+        {
+          "ref": "4.2.4",
+          "title": "Ensure that VA setting Send scan reports to is configured for a SQL server (Automated)",
+          "summary": "Configure 'Send scan reports to' with email ids of concerned data owners/stakeholders for a critical SQL servers.",
+          "applicable": true
+        },
+        {
+          "ref": "4.2.5",
+          "title": "Ensure that VA setting 'Also send email notifications to admins and subscription owners' is set for a SQL server (Automated)",
+          "summary": "VA scan reports and alerts will be sent to admins and subscription owners by enabling setting 'Also send email notifications to admins and subscription owners'. This may help in reducing time required for identifying risks and taking corrective measures.",
+          "applicable": true
+        },
+        {
+          "ref": "4.3.1",
+          "title": "Ensure 'Enforce SSL connection' is set to 'ENABLED' for PostgreSQL Database Server (Automated)",
+          "summary": "Enable SSL connection on PostgreSQL Servers.",
+          "applicable": true
+        },
+        {
+          "ref": "4.3.2",
+          "title": "Ensure 'Enforce SSL connection' is set to 'ENABLED' for MySQL Database Server (Automated)",
+          "summary": "Enable SSL connection on MYSQL Servers.",
+          "applicable": true
+        },
+        {
+          "ref": "4.3.3",
+          "title": "Ensure server parameter 'log_checkpoints' is set to 'ON' for PostgreSQL Database Server (Automated)",
+          "summary": "Enable log_checkpoints on PostgreSQL Servers.",
+          "applicable": true
+        },
+        {
+          "ref": "4.3.4",
+          "title": "Ensure server parameter 'log_connections' is set to 'ON' for PostgreSQL Database Server (Automated)",
+          "summary": "Enable log_connections on PostgreSQL Servers.",
+          "applicable": true
+        },
+        {
+          "ref": "4.3.5",
+          "title": "Ensure server parameter 'log_disconnections' is set to 'ON' for PostgreSQL Database Server (Automated)",
+          "summary": "Enable log_disconnections on PostgreSQL Servers.",
+          "applicable": true
+        },
+        {
+          "ref": "4.3.6",
+          "title": "Ensure server parameter 'connection_throttling' is set to 'ON' for PostgreSQL Database Server (Automated)",
+          "summary": "Enable connection_throttling on PostgreSQL Servers.",
+          "applicable": true
+        },
+        {
+          "ref": "4.3.7",
+          "title": "Ensure server parameter 'log_retention_days' is greater than 3 days for PostgreSQL Database Server (Automated)",
+          "summary": "Enable log_retention_days on PostgreSQL Servers.",
+          "applicable": true
+        },
+        {
+          "ref": "4.3.8",
+          "title": "Ensure 'Allow access to Azure services' for PostgreSQL Database Server is disabled (Manual)",
+          "summary": "Disable access from Azure services to PostgreSQL Database Server",
+          "applicable": true
+        },
+        {
+          "ref": "4.4",
+          "title": "Ensure that Azure Active Directory Admin is configured (Automated)",
+          "summary": "Use Azure Active Directory Authentication for authentication with SQL Database.",
+          "applicable": true
+        },
+        {
+          "ref": "4.5",
+          "title": "Ensure SQL server's TDE protector is encrypted with Customer- managed key (Automated)",
+          "summary": "TDE with Customer-managed key support provides increased transparency and control over the TDE Protector, increased security with an HSM-backed external service, and promotion of separation of duties.\nWith TDE, data is encrypted at rest with a symmetric key (called the database encryption key) stored in the database or data warehouse distribution. To protect this data encryption key (DEK) in the past, only a certificate that the Azure SQL Service managed could be used. Now, with Customer-managed key support for TDE, the DEK can be protected with an asymmetric key that is stored in the Key Vault. Key Vault is a highly available and scalable cloud-based key store which offers central key management, leverages FIPS 140-2 Level 2 validated hardware security modules (HSMs), and allows separation of management of keys and data, for additional security.\nBased on business needs or criticality of data/databases hosted a SQL server, it is recommended that the TDE protector is encrypted by a key that is managed by the data owner (Customer-managed key).",
+          "applicable": true
+        }
+      ]
+    },
+    {
+      "title": "Logging and Monitoring",
+      "controls": [
+        {
+          "ref": "5.1.1",
+          "title": "Ensure that a 'Diagnostics Setting' exists (Automated)",
+          "summary": "Enable Diagnostic settings for exporting activity logs. Diagnostic setting are available for each individual resources within a subscription. Settings should be configured for all appropriate resources for your environment.",
+          "applicable": true
+        },
+        {
+          "ref": "5.1.2",
+          "title": "Ensure Diagnostic Setting captures appropriate categories (Automated)",
+          "summary": "The diagnostic setting should be configured to log the appropriate activities from the control/management plane.",
+          "applicable": true
+        },
+        {
+          "ref": "5.1.3",
+          "title": "Ensure the storage container storing the activity logs is not publicly accessible (Automated)",
+          "summary": "The storage account container containing the activity log export should not be publicly accessible.",
+          "applicable": true
+        },
+        {
+          "ref": "5.1.4",
+          "title": "Ensure the storage account containing the container with activity logs is encrypted with BYOK (Use Your Own Key) (Automated)",
+          "summary": "The storage account with the activity log export container is configured to use BYOK (Use Your Own Key).",
+          "applicable": true
+        },
+        {
+          "ref": "5.1.5",
+          "title": "Ensure that logging for Azure KeyVault is 'Enabled' (Automated)",
+          "summary": "Enable AuditEvent logging for key vault instances to ensure interactions with key vaults are logged and available.",
+          "applicable": true
+        },
+        {
+          "ref": "5.2.1",
+          "title": "Ensure that Activity Log Alert exists for Create Policy Assignment (Automated)",
+          "summary": "Create an activity log alert for the Create Policy Assignment event.",
+          "applicable": true
+        },
+        {
+          "ref": "5.2.2",
+          "title": "Ensure that Activity Log Alert exists for Delete Policy Assignment (Automated)",
+          "summary": "Create an activity log alert for the Delete Policy Assignment event.",
+          "applicable": true
+        },
+        {
+          "ref": "5.2.3",
+          "title": "Ensure that Activity Log Alert exists for Create or Update Network Security Group (Automated)",
+          "summary": "Create an Activity Log Alert for the \"Create\" or \"Update Network Security Group\" event.",
+          "applicable": true
+        },
+        {
+          "ref": "5.2.4",
+          "title": "Ensure that Activity Log Alert exists for Delete Network Security Group (Automated)",
+          "summary": "Create an activity log alert for the Delete Network Security Group event.",
+          "applicable": true
+        },
+        {
+          "ref": "5.2.5",
+          "title": "Ensure that Activity Log Alert exists for Create or Update Network Security Group Rule (Automated)",
+          "summary": "Create an activity log alert for the Create or Update Network Security Group Rule event.",
+          "applicable": true
+        },
+        {
+          "ref": "5.2.6",
+          "title": "Ensure that activity log alert exists for the Delete Network Security Group Rule (Automated)",
+          "summary": "Create an activity log alert for the Delete Network Security Group Rule event.",
+          "applicable": true
+        },
+        {
+          "ref": "5.2.7",
+          "title": "Ensure that Activity Log Alert exists for Create or Update Security Solution (Automated)",
+          "summary": "Create an activity log alert for the Create or Update Security Solution event.",
+          "applicable": true
+        },
+        {
+          "ref": "5.2.8",
+          "title": "Ensure that Activity Log Alert exists for Delete Security Solution (Automated)",
+          "summary": "Create an activity log alert for the Delete Security Solution event.",
+          "applicable": true
+        },
+        {
+          "ref": "5.2.9",
+          "title": "Ensure that Activity Log Alert exists for Create or Update or Delete SQL Server Firewall Rule (Automated)",
+          "summary": "Create an activity log alert for the Create or Update or Delete SQL Server Firewall Rule event.",
+          "applicable": true
+        },
+        {
+          "ref": "5.3",
+          "title": "Ensure that Diagnostic Logs are enabled for all services which support it. (Automated)",
+          "summary": "Diagnostic Logs capture activity to the data access plane while the Activity log is a subscription-level log for the control plane. Resource-level diagnostic logs provide insight into operations that were performed within that resource itself, for example, getting a secret from a Key Vault. Currently, 32 Azure resources support Diagnostic Logging (See the references section for a complete list), including Network Security Groups, Load Balancers, Key Vault, AD, Logic Apps and CosmosDB. The content of these logs varies by resource type. For example, Windows event system logs are a category of diagnostics logs for VMs, and blob, table, and queue logs are categories of diagnostics logs for storage accounts.\nA number of back-end services were not configured to log and store Diagnostic Logs for certain activities or for a sufficient length. It is crucial that logging systems are correctly configured to log all relevant activities and retain those logs for a sufficient length of time. By default, Diagnostic Logs are not enabled. Given that the mean time to detection in an enterprise is 240 days, a minimum retention period of two years is recommended.\nNote: The CIS Benchmark covers some specific Diagnostic Logs separately.",
+          "applicable": true
+        }
+      ]
+    },
+    {
+      "title": "Networking",
+      "controls": [
+        {
+          "ref": "6.1",
+          "title": "Ensure that RDP access is restricted from the internet (Automated)",
+          "summary": "Disable RDP access on network security groups from the Internet.",
+          "applicable": true
+        },
+        {
+          "ref": "6.2",
+          "title": "Ensure that SSH access is restricted from the internet (Automated)",
+          "summary": "Disable SSH access on network security groups from the Internet.",
+          "applicable": true
+        },
+        {
+          "ref": "6.3",
+          "title": "Ensure no SQL Databases allow ingress 0.0.0.0/0 (ANY IP) (Automated)",
+          "summary": "Ensure that no SQL Databases allow ingress from 0.0.0.0/0 (ANY IP).",
+          "applicable": true
+        },
+        {
+          "ref": "6.4",
+          "title": "Ensure that Network Security Group Flow Log retention period is 'greater than 90 days' (Automated)",
+          "summary": "Network Security Group Flow Logs should be enabled and the retention period is set to greater than or equal to 90 days.",
+          "applicable": true
+        },
+        {
+          "ref": "6.5",
+          "title": "Ensure that Network Watcher is 'Enabled' (Manual)",
+          "summary": "Enable Network Watcher for Azure subscriptions.",
+          "applicable": true
+        },
+        {
+          "ref": "6.6",
+          "title": "Ensure that UDP Services are restricted from the Internet (Automated)",
+          "summary": "Disable Internet exposed UDP ports on network security groups.",
+          "applicable": true
+        }
+      ]
+    },
+    {
+      "title": "Virtual Machines",
+      "controls": [
+        {
+          "ref": "7.1",
+          "title": "Ensure Virtual Machines are utilizing Managed Disks (Manual)",
+          "summary": "Migrate BLOB based VHD's to Managed Disks on Virtual Machines to exploit the default features of this configuration. The features include\n 1. Default Disk Encryption\n 2. Resilience as Microsoft will managed the disk storage and move around if underlying hardware goes faulty\n 3. Reduction of costs over storage accounts",
+          "applicable": true
+        },
+        {
+          "ref": "7.2",
+          "title": "Ensure that 'OS and Data' disks are encrypted with CMK (Automated)",
+          "summary": "Ensure that OS disks (boot volumes) and data disks (non-boot volumes) are encrypted with CMK.",
+          "applicable": true
+        },
+        {
+          "ref": "7.3",
+          "title": "Ensure that 'Unattached disks' are encrypted with CMK (Automated)",
+          "summary": "Ensure that unattached disks in a subscription are encrypted with a Customer Managed Key (CMK).",
+          "applicable": true
+        },
+        {
+          "ref": "7.4",
+          "title": "Ensure that only approved extensions are installed (Manual)",
+          "summary": "Azure virtual machine extensions are small applications that provide post-deployment configuration and automation tasks on Azure virtual machines. These extensions run with administrative privileges and could potentially access anything on a virtual machine. The Azure Portal and community provide several such extensions. Each organization should carefully evaluate these extensions and ensure that only those that are approved for use are actually implemented.",
+          "applicable": true
+        },
+        {
+          "ref": "7.5",
+          "title": "Ensure that the latest OS Patches for all Virtual Machines are applied (Manual)",
+          "summary": "Ensure that the latest OS patches for all virtual machines are applied.",
+          "applicable": true
+        },
+        {
+          "ref": "7.6",
+          "title": "Ensure that the endpoint protection for all Virtual Machines is installed (Manual)",
+          "summary": "Installing endpoint protection systems (like Antimalware for Azure) provides for real-time protection capability that helps identify and remove viruses, spyware, and other malicious software, with configurable alerts when known malicious or unwanted software attempts to install itself or run on Azure systems.",
+          "applicable": true
+        },
+        {
+          "ref": "7.7",
+          "title": "Ensure that VHD's are encrypted (Manual)",
+          "summary": "VHD (Virtual Hard Disks) are stored in BLOB storage and are the old style disks that were attached to Virtual Machines, and the BLOB VHD was then leased to the VM. By Default storage accounts are not encrypted, and Azure Defender(Security Centre) would then recommend that the OS disks should be encrypted. Storage accounts can be encrypted as a whole using PMK or CMK and this should be turned on for storage accounts containing VHD's.",
+          "applicable": true
+        }
+      ]
+    },
+    {
+      "title": "Other Security Considerations",
+      "controls": [
+        {
+          "ref": "8.1",
+          "title": "Ensure that the expiration date is set on all keys (Automated)",
+          "summary": "Ensure that all keys in Azure Key Vault have an expiration time set.",
+          "applicable": true
+        },
+        {
+          "ref": "8.2",
+          "title": "Ensure that the expiration date is set on all Secrets (Automated)",
+          "summary": "Ensure that all Secrets in the Azure Key Vault have an expiration time set.",
+          "applicable": true
+        },
+        {
+          "ref": "8.3",
+          "title": "Ensure that Resource Locks are set for mission critical Azure resources (Manual)",
+          "summary": "Resource Manager Locks provide a way for administrators to lock down Azure resources to prevent deletion of, or modifications to, a resource. These locks sit outside of the Role Based Access Controls (RBAC) hierarchy and, when applied, will place restrictions on the resource for all users. These locks are very useful when there is an important resource in a subscription that users should not be able to delete or change. Locks can help prevent accidental and malicious changes or deletion.",
+          "applicable": true
+        },
+        {
+          "ref": "8.4",
+          "title": "Ensure the key vault is recoverable (Automated)",
+          "summary": "The key vault contains object keys, secrets and certificates. Accidental unavailability of a key vault can cause immediate data loss or loss of security functions (authentication, validation, verification, non-repudiation, etc.) supported by the key vault objects.\nIt is recommended the key vault be made recoverable by enabling the \"Do Not Purge\" and \"Soft Delete\" functions. This is in order to prevent loss of encrypted data including storage accounts, SQL databases, and/or dependent services provided by key vault objects (Keys, Secrets, Certificates) etc., as may happen in the case of accidental deletion by a user or from disruptive activity by a malicious user.",
+          "applicable": true
+        },
+        {
+          "ref": "8.5",
+          "title": "Enable role-based access control (RBAC) within Azure Kubernetes Services (Automated)",
+          "summary": "Ensure that RBAC is enabled on all Azure Kubernetes Services Instances",
+          "applicable": true
+        }
+      ]
+    },
+    {
+      "title": "AppService",
+      "controls": [
+        {
+          "ref": "9.1",
+          "title": "Ensure App Service Authentication is set on Azure App Service (Automated)",
+          "summary": "Azure App Service Authentication is a feature that can prevent anonymous HTTP requests from reaching the API app, or authenticate those that have tokens before they reach the API app. If an anonymous request is received from a browser, App Service will redirect to a logon page. To handle the logon process, a choice from a set of identity providers can be made, or a custom authentication mechanism can be implemented.",
+          "applicable": true
+        },
+        {
+          "ref": "9.2",
+          "title": "Ensure web app redirects all HTTP traffic to HTTPS in Azure App Service (Automated)",
+          "summary": "Azure Web Apps allows sites to run under both HTTP and HTTPS by default. Web apps can be accessed by anyone using non-secure HTTP links by default. Non-secure HTTP requests can be restricted and all HTTP requests redirected to the secure HTTPS port. It is recommended to enforce HTTPS-only traffic.",
+          "applicable": true
+        },
+        {
+          "ref": "9.3",
+          "title": "Ensure web app is using the latest version of TLS encryption (Automated)",
+          "summary": "The TLS(Transport Layer Security) protocol secures transmission of data over the internet using standard encryption technology. Encryption should be set with the latest version of TLS. App service allows TLS 1.2 by default, which is the recommended TLS level by industry standards, such as PCI DSS.",
+          "applicable": true
+        },
+        {
+          "ref": "9.4",
+          "title": "Ensure the web app has 'Client Certificates (Incoming client certificates)' set to 'On' (Automated)",
+          "summary": "Client certificates allow for the app to request a certificate for incoming requests. Only clients that have a valid certificate will be able to reach the app.",
+          "applicable": true
+        },
+        {
+          "ref": "9.5",
+          "title": "Ensure that Register with Azure Active Directory is enabled on App Service (Automated)",
+          "summary": "Managed service identity in App Service makes the app more secure by eliminating secrets from the app, such as credentials in the connection strings. When registering with Azure Active Directory in the app service, the app will connect to other Azure services securely without the need of username and passwords.",
+          "applicable": true
+        },
+        {
+          "ref": "9.6",
+          "title": "Ensure that 'PHP version' is the latest, if used to run the web app (Manual)",
+          "summary": "Periodically newer versions are released for PHP software either due to security flaws or to include additional functionality. Using the latest PHP version for web apps is recommended in order to take advantage of security fixes, if any, and/or additional functionalities of the newer version.",
+          "applicable": true
+        },
+        {
+          "ref": "9.7",
+          "title": "Ensure that 'Python version' is the latest, if used to run the web app (Manual)",
+          "summary": "Periodically, newer versions are released for Python software either due to security flaws or to include additional functionality. Using the latest Python version for web apps is recommended in order to take advantage of security fixes, if any, and/or additional functionalities of the newer version.",
+          "applicable": true
+        },
+        {
+          "ref": "9.8",
+          "title": "Ensure that 'Java version' is the latest, if used to run the web app (Manual)",
+          "summary": "Periodically, newer versions are released for Java software either due to security flaws or to include additional functionality. Using the latest Java version for web apps is recommended in order to take advantage of security fixes, if any, and/or new functionalities of the newer version.",
+          "applicable": true
+        },
+        {
+          "ref": "9.9",
+          "title": "Ensure that 'HTTP Version' is the latest, if used to run the web app (Manual)",
+          "summary": "Periodically, newer versions are released for HTTP either due to security flaws or to include additional functionality. Using the latest HTTP version for web apps to take advantage of security fixes, if any, and/or new functionalities of the newer version.",
+          "applicable": true
+        },
+        {
+          "ref": "9.10",
+          "title": "Ensure FTP deployments are disabled (Automated)",
+          "summary": "By default, Azure Functions, Web and API Services can be deployed over FTP. If FTP is required for an essential deployment workflow, FTPS should be required for FTP login for all App Service Apps and Functions.",
+          "applicable": true
+        },
+        {
+          "ref": "9.11",
+          "title": "Ensure Azure Keyvaults are used to store secrets (Manual)",
+          "summary": "Encryption keys ,Certificate thumbprints and Managed Identity Credentials can be coded into the APP service, this renders them visible as part of the configuration, to maintain security of these keys it is better to store in an Azure Keyvault and reference them from the Keyvault.",
+          "applicable": true
+        }
+      ]
+    }
+  ]
+}

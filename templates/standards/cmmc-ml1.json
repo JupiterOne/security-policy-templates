@@ -1,0 +1,139 @@
+{
+    "standard": "CMMC ML1",
+    "version": "v1.02",
+    "webLink": "https://www.acq.osd.mil/cmmc/docs/CMMC_ModelMain_V1.02_20200318.pdf",
+    "sections": [
+      {
+        "title": "Access Control (AC)",
+        "requirements": [
+          {
+            "ref": "AC.1.001",
+            "title": "C001\r\nEstablish system access requirements",
+            "summary": "Limit information system access to authorized users, processes acting on behalf of authorized users or devices (including other information systems).",
+            "applicable": true
+          },
+          {
+            "ref": "AC.1.002",
+            "title": "C002\r\nControl internal system access",
+            "summary": "Limit information system access to the types of transactions and functions that authorized users are permitted to execute.",
+            "applicable": true
+          },
+          {
+            "ref": "AC.1.003",
+            "title": "C004\r\nLimit data access to authorized users and\r\nprocesses",
+            "summary": "Verify and control/limit connections to and use of external\r\ninformation systems.",
+            "applicable": true
+          },
+          {
+            "ref": "AC.1.004",
+            "title": "C004\r\nLimit data access to authorized users and\r\nprocesses",
+            "summary": "Control information posted or processed on publicly accessible\r\ninformation systems.",
+            "applicable": true
+          }
+        ]
+      },
+      {
+        "title": "Identification & Authentication (IA)",
+        "requirements": [
+          {
+            "ref": "IA.1.076",
+            "title": "C015\r\nGrant access to authenticated entities",
+            "summary": "Identify information system users, processes acting on behalf of users or devices.",
+            "applicable": true
+          },
+          {
+            "ref": "IA.1.077",
+            "title": "C015\r\nGrant access to authenticated entities",
+            "summary": "Authenticate (or verify) the identities of those users, processes or devices, as a prerequisite to allowing access to organizational information systems.",
+            "applicable": true
+          }
+        ]
+      },
+      {
+        "title": "Media Protection (MP)",
+        "requirements": [
+          {
+            "ref": "MP.1.118",
+            "title": "C024\r\nSanitize media",
+            "summary": "Sanitize or destroy information system media containing Federal Contract Information (FCI) before disposal or release for reuse.",
+            "applicable": true
+          }
+        ]
+      },
+      {
+        "title": "Physical Protection (PE)",
+        "requirements": [
+          {
+            "ref": "PE.1.131",
+            "title": "C028\r\nLimit physical access",
+            "summary": "Limit physical access to organizational information systems, equipment and the respective operating environments to authorized individuals.",
+            "applicable": true
+          },
+          {
+            "ref": "PE.1.132",
+            "title": "C028\r\nLimit physical access",
+            "summary": "Escort visitors and monitor visitor activity.",
+            "applicable": true
+          },
+          {
+            "ref": "PE.1.133",
+            "title": "C028\r\nLimit physical access",
+            "summary": "Maintain audit logs of physical access.",
+            "applicable": true
+          },
+          {
+            "ref": "PE.1.134",
+            "title": "C028\r\nLimit physical access",
+            "summary": "Control and manage physical access devices.",
+            "applicable": true
+          }
+        ]
+      },
+      {
+        "title": "System & Communications Protection (SC)",
+        "requirements": [
+          {
+            "ref": "SC.1.175",
+            "title": "C039\r\nControl communications at system\r\nboundaries",
+            "summary": "Monitor, control and protect organizational communications (e.g., information transmitted or received by organizational information systems) at the external boundaries and key internal boundaries of the information systems.",
+            "applicable": true
+          },
+          {
+            "ref": "SC.1.176",
+            "title": "C039\r\nControl communications at system\r\nboundaries",
+            "summary": "Implement subnetworks for publicly accessible system components that are physically or logically separated from internal networks.",
+            "applicable": true
+          }
+        ]
+      },
+      {
+        "title": "System & Information Integrity (SI)",
+        "requirements": [
+          {
+            "ref": "SI.1.210",
+            "title": "C040\r\nIdentify and manage information system\r\nflaws",
+            "summary": "Identify, report and correct information and information system flaws in a timely manner.",
+            "applicable": true
+          },
+          {
+            "ref": "SI.1.211",
+            "title": "C041\r\nIdentify malicious content",
+            "summary": "Provide protection from malicious code at appropriate locations within organizational information systems.",
+            "applicable": true
+          },
+          {
+            "ref": "SI.1.212",
+            "title": "C041\r\nIdentify malicious content",
+            "summary": "Update malicious code protection mechanisms when new releases are available.",
+            "applicable": true
+          },
+          {
+            "ref": "SI.1.213",
+            "title": "C041\r\nIdentify malicious content",
+            "summary": "Perform periodic scans of the information system and real-time scans of files from external sources as files are downloaded, opened or executed.",
+            "applicable": true
+          }
+        ]
+      }
+    ]
+  }

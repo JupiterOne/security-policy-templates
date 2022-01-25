@@ -10,25 +10,38 @@
             "ref": "AC.1.001",
             "title": "C001\r\nEstablish system access requirements",
             "summary": "Limit information system access to authorized users, processes acting on behalf of authorized users or devices (including other information systems).",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-access-standards",
+              "cp-access-change"
+            ]
           },
           {
             "ref": "AC.1.002",
             "title": "C002\r\nControl internal system access",
             "summary": "Limit information system access to the types of transactions and functions that authorized users are permitted to execute.",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-access-standards"
+            ]
           },
           {
             "ref": "AC.1.003",
             "title": "C004\r\nLimit data access to authorized users and\r\nprocesses",
             "summary": "Verify and control/limit connections to and use of external\r\ninformation systems.",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-vendor-ssa"
+            ]
           },
           {
             "ref": "AC.1.004",
             "title": "C004\r\nLimit data access to authorized users and\r\nprocesses",
             "summary": "Control information posted or processed on publicly accessible\r\ninformation systems.",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-breach-customer"
+            ]
           }
         ]
       },
@@ -39,13 +52,20 @@
             "ref": "IA.1.076",
             "title": "C015\r\nGrant access to authenticated entities",
             "summary": "Identify information system users, processes acting on behalf of users or devices.",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-access-standards"
+            ]
           },
           {
             "ref": "IA.1.077",
             "title": "C015\r\nGrant access to authenticated entities",
             "summary": "Authenticate (or verify) the identities of those users, processes or devices, as a prerequisite to allowing access to organizational information systems.",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-access-standards",
+              "cp-access-password"
+            ]
           }
         ]
       },
@@ -56,7 +76,11 @@
             "ref": "MP.1.118",
             "title": "C024\r\nSanitize media",
             "summary": "Sanitize or destroy information system media containing Federal Contract Information (FCI) before disposal or release for reuse.",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-data-deletion",
+              "cp-mdm-disposal"
+            ]
           }
         ]
       },
@@ -67,25 +91,44 @@
             "ref": "PE.1.131",
             "title": "C028\r\nLimit physical access",
             "summary": "Limit physical access to organizational information systems, equipment and the respective operating environments to authorized individuals.",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-employee-onboarding",
+              "cp-physical",
+              "cp-physical-datacenter",
+              "cp-asset-physical"
+            ]
           },
           {
             "ref": "PE.1.132",
             "title": "C028\r\nLimit physical access",
             "summary": "Escort visitors and monitor visitor activity.",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-physical",
+              "cp-physical-datacenter"
+            ]
           },
           {
             "ref": "PE.1.133",
             "title": "C028\r\nLimit physical access",
             "summary": "Maintain audit logs of physical access.",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-physical",
+              "cp-physical-datacenter"
+            ]
           },
           {
             "ref": "PE.1.134",
             "title": "C028\r\nLimit physical access",
             "summary": "Control and manage physical access devices.",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-physical",
+              "cp-physical-datacenter",
+              "cp-asset-physical"
+            ]
           }
         ]
       },
@@ -96,13 +139,27 @@
             "ref": "SC.1.175",
             "title": "C039\r\nControl communications at system\r\nboundaries",
             "summary": "Monitor, control and protect organizational communications (e.g., information transmitted or received by organizational information systems) at the external boundaries and key internal boundaries of the information systems.",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-model-principles",
+              "cp-data-protection-in-transit",
+              "cp-threat-firewall",
+              "cp-threat-hids",
+              "cp-threat-nids",
+              "cp-threat-webapp"
+            ]
           },
           {
             "ref": "SC.1.176",
             "title": "C039\r\nControl communications at system\r\nboundaries",
             "summary": "Implement subnetworks for publicly accessible system components that are physically or logically separated from internal networks.",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-access-vpn",
+              "cp-access-wifi",
+              "cp-ccm-network",
+              "cp-threat-firewall"
+            ]
           }
         ]
       },
@@ -113,25 +170,51 @@
             "ref": "SI.1.210",
             "title": "C040\r\nIdentify and manage information system\r\nflaws",
             "summary": "Identify, report and correct information and information system flaws in a timely manner.",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-audit-control-deficiency",
+              "cp-ccm-patch",
+              "cp-vuln-scan",
+              "cp-vuln-remediation"
+            ]
           },
           {
             "ref": "SI.1.211",
             "title": "C041\r\nIdentify malicious content",
             "summary": "Provide protection from malicious code at appropriate locations within organizational information systems.",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-access-endpoints",
+              "cp-sdlc-pentest",
+              "cp-ccm-provision-endpoint",
+              "cp-ccm-provision-server",
+              "cp-threat-malware",
+              "cp-threat-webapp",
+              "cp-vuln-scan"
+            ]
           },
           {
             "ref": "SI.1.212",
             "title": "C041\r\nIdentify malicious content",
             "summary": "Update malicious code protection mechanisms when new releases are available.",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-sdlc-foss",
+              "cp-sdlc-sast",
+              "cp-sdlc-dast"
+            ]
           },
           {
             "ref": "SI.1.213",
             "title": "C041\r\nIdentify malicious content",
             "summary": "Perform periodic scans of the information system and real-time scans of files from external sources as files are downloaded, opened or executed.",
-            "applicable": true
+            "applicable": true,
+            "mappedControls" : [
+              "cp-sdlc-foss",
+              "cp-sdlc-pentest",
+              "cp-threat-malware",
+              "cp-vuln-scan"
+            ]
           }
         ]
       }

@@ -9,57 +9,125 @@
         {
           "ref": "164.308(a)(1)(i)",
           "title": "Security management process",
-          "summary": "Implement policies and procedures to prevent, detect, contain and correct security violations."
+          "summary": "Implement policies and procedures to prevent, detect, contain and correct security violations.",
+          "mappedControls" : [
+            "cp-policy-framework",
+            "cp-policy-mgmt"
+          ]
         },
         {
           "ref": "164.308(a)(1)(ii)(A)",
           "title": "Risk analysis",
-          "summary": "Conduct an accurate and thorough assessment of the potential risks and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI)."
+          "summary": "Conduct an accurate and thorough assessment of the potential risks and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI).",
+          "mappedControls" : [
+            "cp-risk-assess",
+            "cp-risk-mitigation",
+            "cp-risk-registry"
+          ]
         },
         {
           "ref": "164.308(a)(1)(ii)(B)",
           "title": "Risk management",
-          "summary": "Ensures the company implements security measures sufficient to reduce risks and vulnerabilities to a reasonable and appropriate level to comply with §164.306. Factors identified in §164.306 include:\n * The size, complexity, capability of the covered entity;\n * The covered entity’s technical infrastructure;\n * The costs of security measures; and\n * The probability and criticality of potential risks to ePHI."
+          "summary": "Ensures the company implements security measures sufficient to reduce risks and vulnerabilities to a reasonable and appropriate level to comply with §164.306. Factors identified in §164.306 include:\n * The size, complexity, capability of the covered entity;\n * The covered entity’s technical infrastructure;\n * The costs of security measures; and\n * The probability and criticality of potential risks to ePHI.",
+          "mappedControls" : [
+            "cp-risk-mgmt"
+          ]
         },
         {
           "ref": "164.308(a)(1)(ii)(C)",
           "title": "Sanction policy",
-          "summary": "Apply appropriate sanctions against workforce members who fail to comply with the security policies and procedures of the covered entity or business associate."
+          "summary": "Apply appropriate sanctions against workforce members who fail to comply with the security policies and procedures of the covered entity or business associate.",
+          "mappedControls" : [
+            "cp-sanctions"
+          ]
         },
         {
           "ref": "164.308(a)(1)(ii)(D)",
           "title": "Information system activity review",
-          "summary": "Implement procedures to regularly review records of information system activity, such as audit logs, access reports, and security incident tracking reports."
+          "summary": "Implement procedures to regularly review records of information system activity, such as audit logs, access reports, and security incident tracking reports.",
+          "mappedControls" : [
+            "cp-events-analysis",
+            "cp-audit-review",
+            "cp-audit-trails"
+          ]
         },
         {
           "ref": "164.308(a)(2)",
           "title": "Assigned security responsibility",
-          "summary": "Identify the security official who is responsible for the development and implementation of the policies and procedures required by this subpart for the entity."
+          "summary": "Identify the security official who is responsible for the development and implementation of the policies and procedures required by this subpart for the entity.",
+          "mappedControls" : [
+            "cp-role-assignment"
+          ]
         },
         {
           "ref": "164.308(a)(3)(i)",
           "title": "Workforce security",
-          "summary": "Policies and procedures are implemented to ensure that all members of the workforce have appropriate access to ePHI, as provided under the Information Access Management standard and to prevent those who do not have appropriate access from obtaining access to ePHI. Policies and procedures should include Authorization and/or Supervision procedures, Workforce Clearance Procedure, and Termination Procedures."
+          "summary": "Policies and procedures are implemented to ensure that all members of the workforce have appropriate access to ePHI, as provided under the Information Access Management standard and to prevent those who do not have appropriate access from obtaining access to ePHI. Policies and procedures should include Authorization and/or Supervision procedures, Workforce Clearance Procedure, and Termination Procedures.",
+          "mappedControls" : [
+            "cp-employee-acceptable-use",
+            "cp-employee-screening",
+            "cp-employee-onboarding",
+            "cp-employee-exiting",
+            "cp-access-standards",
+            "cp-access-sso",
+            "cp-access-mfa",
+            "cp-access-rbac",
+            "cp-access-aws",
+            "cp-access-phi",
+            "cp-access-change",
+            "cp-access-privileged",
+            "cp-access-service",
+            "cp-access-review",
+            "cp-access-endpoints",
+            "cp-access-password",
+            "cp-access-prod",
+            "cp-access-reset"
+          ]
         },
         {
           "ref": "164.308(a)(3)(ii)(A)",
           "title": "Authorization and/or supervision",
-          "summary": "Ensures the authorization and/or supervision of workforce members who work with ePHI or in locations where it might be accessed. "
+          "summary": "Ensures the authorization and/or supervision of workforce members who work with ePHI or in locations where it might be accessed. ",
+          "mappedControls" : [
+            "cp-access-phi",
+            "cp-access-change",
+            "cp-access-review",
+            "cp-access-prod",
+            "cp-physical",
+            "cp-physical-datacenter"
+          ]
         },
         {
           "ref": "164.308(a)(3)(ii)(B)",
           "title": "Workforce clearance procedure",
-          "summary": "Access of a workforce member (employee or computing device) to ePHI is appropriate. "
+          "summary": "Access of a workforce member (employee or computing device) to ePHI is appropriate. ",
+          "mappedControls" : [
+            "cp-access-rbac",
+            "cp-access-phi",
+            "cp-access-review",
+            "cp-access-prod"
+          ]
         },
         {
           "ref": "164.308(a)(3)(ii)(C)",
           "title": "Termination procedures",
-          "summary": "Ensure that access to ePHI is terminated as soon as possible when a workforce member’s employment ends. "
+          "summary": "Ensure that access to ePHI is terminated as soon as possible when a workforce member’s employment ends. ",
+          "mappedControls" : [
+            "cp-employee-exiting"
+          ]
         },
         {
           "ref": "164.308(a)(4)(i)",
           "title": "Information access management",
-          "summary": "Policies and procedures are implemented that ensure authorizing access to ePHI and are consistent with the applicable requirements of the Privacy Rule."
+          "summary": "Policies and procedures are implemented that ensure authorizing access to ePHI and are consistent with the applicable requirements of the Privacy Rule.",
+          "mappedControls" : [
+            "cp-access-phi",
+            "cp-access-change",
+            "cp-access-privileged",
+            "cp-access-service",
+            "cp-access-review",
+            "cp-access-prod"
+          ]
         },
         {
           "ref": "164.308(a)(4)(ii)(A)",
@@ -70,102 +138,195 @@
         {
           "ref": "164.308(a)(4)(ii)(B)",
           "title": "Access authorization",
-          "summary": "Implement policies and procedures for granting access to ePHI, for example, through access to a workstation, transaction, program, process, or other mechanism."
+          "summary": "Implement policies and procedures for granting access to ePHI, for example, through access to a workstation, transaction, program, process, or other mechanism.",
+          "mappedControls" : [
+            "cp-access-phi"
+          ]
         },
         {
           "ref": "164.308(a)(4)(ii)(C)",
           "title": "Access establishment and modification",
-          "summary": "Implement policies and procedures that, based upon the covered entity's or the business associate’s access authorization policies, establish, document, review, and modify a user's right of access to a workstation, transaction, program, or process."
+          "summary": "Implement policies and procedures that, based upon the covered entity's or the business associate’s access authorization policies, establish, document, review, and modify a user's right of access to a workstation, transaction, program, or process.",
+          "mappedControls" : [
+            "cp-access-change"
+          ]
         },
         {
           "ref": "164.308(a)(5)(i)",
           "title": "Security awareness and training",
-          "summary": "Implement a security awareness and training program for all members of the workforce (including management). Component of the Security Awareness and Training program should include Security Reminders, Protection Malicious Software, Log-in Monitoring and Password Management."
+          "summary": "Implement a security awareness and training program for all members of the workforce (including management). Component of the Security Awareness and Training program should include Security Reminders, Protection Malicious Software, Log-in Monitoring and Password Management.",
+          "mappedControls" : [
+            "cp-training-awareness",
+            "cp-training-hipaa"
+          ]
         },
         {
           "ref": "164.308(a)(5)(ii)(A)",
           "title": "Security reminders",
-          "summary": "Provide periodic security updates through alerts, briefings and training updates when HIPAA Security law, regulations and guidance is updated."
+          "summary": "Provide periodic security updates through alerts, briefings and training updates when HIPAA Security law, regulations and guidance is updated.",
+          "mappedControls" : [
+            "cp-training-hipaa",
+            "cp-threat-intel"
+          ]
         },
         {
           "ref": "164.308(a)(5)(ii)(B)",
           "title": "Protection from malicious software",
-          "summary": "Procedures for guarding against, detecting, and reporting malicious software."
+          "summary": "Procedures for guarding against, detecting, and reporting malicious software.",
+          "mappedControls" : [
+            "cp-ccm-provision-endpoint",
+            "cp-threat-firewall",
+            "cp-threat-hids",
+            "cp-threat-malware"
+          ]
         },
         {
           "ref": "164.308(a)(5)(ii)(C)",
           "title": "Log-in monitoring",
-          "summary": "Procedures for monitoring log-in attempts and reporting discrepancies."
+          "summary": "Procedures for monitoring log-in attempts and reporting discrepancies.",
+          "mappedControls" : [
+            "cp-audit-types",
+            "cp-events-analysis",
+            "cp-audit-review",
+            "cp-audit-trails"
+          ]
         },
         {
           "ref": "164.308(a)(5)(ii)(D)",
           "title": "Password management",
-          "summary": "Procedures for creating, changing, and safeguarding passwords."
+          "summary": "Procedures for creating, changing, and safeguarding passwords.",
+          "mappedControls" : [
+            "cp-access-standards",
+            "cp-access-change",
+            "cp-access-password",
+            "cp-access-reset"
+          ]
         },
         {
           "ref": "164.308(a)(6)(i)",
           "title": "Security incident procedures",
-          "summary": "Implement policies and procedures to address security incidents. Policies and procedures should include response reporting."
+          "summary": "Implement policies and procedures to address security incidents. Policies and procedures should include response reporting.",
+          "mappedControls" : [
+            "cp-ir-sirt",
+            "cp-ir-process",
+            "cp-ir-playbook"
+          ]
         },
         {
           "ref": "164.308(a)(6)(ii)",
           "title": "Response and reporting",
-          "summary": "Identify and respond to suspected or known security incidents; mitigate, to the extent practicable, harmful effects of security incidents that are known to the covered entity or business associate; and document security incidents and their outcomes."
+          "summary": "Identify and respond to suspected or known security incidents; mitigate, to the extent practicable, harmful effects of security incidents that are known to the covered entity or business associate; and document security incidents and their outcomes.",
+          "mappedControls" : [
+            "cp-breach-investigate",
+            "cp-breach-customer",
+            "cp-breach-letter"
+          ]
         },
         {
           "ref": "164.308(a)(7)(i)",
           "title": "Contingency plan",
-          "summary": "Establish (and implement as needed) policies and procedures for responding to an emergency or other occurrence (for example, fire, vandalism, system failure, and natural disaster) that damages systems that contain ePHI."
+          "summary": "Establish (and implement as needed) policies and procedures for responding to an emergency or other occurrence (for example, fire, vandalism, system failure, and natural disaster) that damages systems that contain ePHI.",
+          "mappedControls" : [
+            "cp-bcdr",
+            "cp-ir-emergency"
+          ]
         },
         {
           "ref": "164.308(a)(7)(ii)(A)",
           "title": "Data backup plan",
-          "summary": "Establish and implement procedures to create and maintain retrievable exact copies of ePHI."
+          "summary": "Establish and implement procedures to create and maintain retrievable exact copies of ePHI.",
+          "mappedControls" : [
+            "cp-data-backup",
+            "cp-bcdr-data"
+          ]
         },
         {
           "ref": "164.308(a)(7)(ii)(B)",
           "title": "Disaster recovery plan",
-          "summary": "Establish (and implement as needed) procedures to restore any loss of data."
+          "summary": "Establish (and implement as needed) procedures to restore any loss of data.",
+          "mappedControls" : [
+            "cp-data-backup",
+            "cp-bcdr",
+            "cp-bcdr-recovery",
+            "cp-bcdr-data"
+          ]
         },
         {
           "ref": "164.308(a)(7)(ii)(C)",
           "title": "Emergency Mode Operation Plan",
-          "summary": "Establish and implement procedures to enable continuation of critical business processes for protection of the security of ePHI while operating in emergency mode."
+          "summary": "Establish and implement procedures to enable continuation of critical business processes for protection of the security of ePHI while operating in emergency mode.",
+          "mappedControls" : [
+            "cp-ir-emergency"
+          ]
         },
         {
           "ref": "164.308(a)(7)(ii)(D)",
           "title": "Testing and revision procedures",
-          "summary": "Implement procedures for periodic testing and revision of contingency plans."
+          "summary": "Implement procedures for periodic testing and revision of contingency plans.",
+          "mappedControls" : [
+            "cp-bcdr",
+            "cp-bcdr-test",
+            "cp-ir-tabletop"
+          ]
         },
         {
           "ref": "164.308(a)(7)(ii)(E)",
           "title": "Applications and data criticality analysis",
-          "summary": "Assess the relative criticality of specific applications and data in support of another contingency plan component."
+          "summary": "Assess the relative criticality of specific applications and data in support of another contingency plan component.",
+          "mappedControls" : [
+            "cp-data-classification",
+            "cp-bcdr-app",
+            "cp-bcdr-data"
+          ]
         },
         {
           "ref": "164.308(a)(8)",
           "title": "Evaluation",
-          "summary": "Perform a periodic technical and nontechnical evaluation based initially upon the standards implemented under this rule and subsequently, in response to environmental or operations changes affecting the security of ePHI that establishes the extent to which an entity’s security policies and procedures meet the requirement."
+          "summary": "Perform a periodic technical and nontechnical evaluation based initially upon the standards implemented under this rule and subsequently, in response to environmental or operations changes affecting the security of ePHI that establishes the extent to which an entity’s security policies and procedures meet the requirement.",
+          "mappedControls" : [
+            "cp-model-metrics",
+            "cp-policy-framework",
+            "cp-policy-mgmt",
+            "cp-risk-mgmt",
+            "cp-risk-mitigation",
+            "cp-risk-registry"
+          ]
         },
         {
           "ref": "164.308(b)(1)",
           "title": "Business associate contracts and other arrangements",
-          "summary": "A covered entity, in accordance with 164.306, may permit a business associate to create, receive, maintain, or transmit ePHI on the covered entity’s behalf only if the covered entity obtains satisfactory assurances, in accordance with 164.314 [the Organization Requirements] that the business associate will appropriately safeguard the information."
+          "summary": "A covered entity, in accordance with 164.306, may permit a business associate to create, receive, maintain, or transmit ePHI on the covered entity’s behalf only if the covered entity obtains satisfactory assurances, in accordance with 164.314 [the Organization Requirements] that the business associate will appropriately safeguard the information.",
+          "mappedControls" : [
+            "cp-vendor-vtr",
+            "cp-vendor-contracts"
+          ]
         },
         {
           "ref": "164.308(b)(2)",
           "title": "",
-          "summary": "A business associate may permit a business that is a subcontractor to create, receive, maintain, or transmit ePHI on its behalf only if the business associate obtains satisfactory assurances, in accordance with §164.314(a), that the subcontractor will appropriately safeguard the information."
+          "summary": "A business associate may permit a business that is a subcontractor to create, receive, maintain, or transmit ePHI on its behalf only if the business associate obtains satisfactory assurances, in accordance with §164.314(a), that the subcontractor will appropriately safeguard the information.",
+          "mappedControls" : [
+            "cp-vendor-vtr",
+            "cp-vendor-contracts"
+          ]
         },
         {
           "ref": "164.308(b)(3)",
           "title": "Written contract or other arrangement",
-          "summary": "Document the satisfactory assurances required by paragraph (b)(1) [the Business Associates Contracts and Other Arrangements] of this section through a written or other arrangements with the business associate that meets the applicable requirements of 164.314(a) [the Organizational Requirements]."
+          "summary": "Document the satisfactory assurances required by paragraph (b)(1) [the Business Associates Contracts and Other Arrangements] of this section through a written or other arrangements with the business associate that meets the applicable requirements of 164.314(a) [the Organizational Requirements].",
+          "mappedControls" : [
+            "cp-vendor-vtr",
+            "cp-vendor-contracts"
+          ]
         },
         {
           "ref": "164.308(b)(4)",
           "title": "Arrangement",
-          "summary": "Document the satisfactory assurances required by 164.308(b)(1) [the Business Associates Contracts and Other Arrangements] of this section through a written or other arrangements with the business associate that meets the applicable requirements of 164.314(a)."
+          "summary": "Document the satisfactory assurances required by 164.308(b)(1) [the Business Associates Contracts and Other Arrangements] of this section through a written or other arrangements with the business associate that meets the applicable requirements of 164.314(a).",
+          "mappedControls" : [
+            "cp-vendor-vtr",
+            "cp-vendor-contracts"
+          ]
         }
       ]
     },
@@ -175,62 +336,107 @@
         {
           "ref": "164.310(a)(1)",
           "title": "Facility access controls",
-          "summary": "Implement policies and procedures to limit physical access to its electronic information systems and the facility or facilities in which they are housed, while ensuring that properly authorized access is allowed."
+          "summary": "Implement policies and procedures to limit physical access to its electronic information systems and the facility or facilities in which they are housed, while ensuring that properly authorized access is allowed.",
+          "mappedControls" : [
+            "cp-physical",
+            "cp-physical-datacenter"
+          ]
         },
         {
           "ref": "164.310(a)(2)(i)",
           "title": "Contingency operations",
-          "summary": "Establish (and implement as needed) procedures that allow facility access in support of restoration of lost data under the disaster recovery plan and emergency mode operations plan in the event of an emergency."
+          "summary": "Establish (and implement as needed) procedures that allow facility access in support of restoration of lost data under the disaster recovery plan and emergency mode operations plan in the event of an emergency.",
+          "mappedControls" : [
+            "cp-physical",
+            "cp-physical-datacenter",
+            "cp-bcdr-site"
+          ]
         },
         {
           "ref": "164.310(a)(2)(ii)",
           "title": "Facility security plan",
-          "summary": "Implement policies and procedures to safeguard the facility and the equipment therein from unauthorized physical access, tampering, and theft."
+          "summary": "Implement policies and procedures to safeguard the facility and the equipment therein from unauthorized physical access, tampering, and theft.",
+          "mappedControls" : [
+            "cp-physical",
+            "cp-physical-datacenter"
+          ]
         },
         {
           "ref": "164.310(a)(2)(iii)",
           "title": "Access control and validation procedures",
-          "summary": "Implement procedures to control and validate a person's access to facilities based on their role or function, including visitor control, and control of access to software programs for testing and revision."
+          "summary": "Implement procedures to control and validate a person's access to facilities based on their role or function, including visitor control, and control of access to software programs for testing and revision.",
+          "mappedControls" : [
+            "cp-physical",
+            "cp-physical-datacenter"
+          ]
         },
         {
           "ref": "164.310(a)(2)(iv)",
           "title": "Maintenance records",
-          "summary": "Implement policies and procedures to document repairs and modifications to the physical components of a facility which are related to security (for example, hardware, walls, doors, and locks)."
+          "summary": "Implement policies and procedures to document repairs and modifications to the physical components of a facility which are related to security (for example, hardware, walls, doors, and locks).",
+          "mappedControls" : [
+            "cp-physical",
+            "cp-physical-datacenter"
+          ]
         },
         {
           "ref": "164.310(b)",
           "title": "Workstation use",
-          "summary": "Implement policies and procedures that specify the proper functions to be performed, the manner in which those functions are to be performed, and the physical attributes of the surroundings of a specific workstation or class of workstation that can access ePHI."
+          "summary": "Implement policies and procedures that specify the proper functions to be performed, the manner in which those functions are to be performed, and the physical attributes of the surroundings of a specific workstation or class of workstation that can access ePHI.",
+          "mappedControls" : [
+            "cp-physical",
+            "cp-physical-datacenter"
+          ]
         },
         {
           "ref": "164.310(c)",
           "title": "Workstation security",
-          "summary": "Covered entities should implement physical safeguards for all workstations that access ePHI, to restrict access to authorized users."
+          "summary": "Covered entities should implement physical safeguards for all workstations that access ePHI, to restrict access to authorized users.",
+          "mappedControls" : [
+            "cp-physical",
+            "cp-physical-datacenter"
+          ]
         },
         {
           "ref": "164.310(d)(1)",
           "title": "Device and media control",
-          "summary": "Implement policies and procedures that govern the receipt and removal of hardware and electronic media that contain ePHI into and out of a facility, and the movement of these items within the facility."
+          "summary": "Implement policies and procedures that govern the receipt and removal of hardware and electronic media that contain ePHI into and out of a facility, and the movement of these items within the facility.",
+          "mappedControls" : [
+            "cp-mdm-disposal"
+          ]
         },
         {
           "ref": "164.310(d)(2)(i)",
           "title": "Disposal",
-          "summary": "Implement policies and procedures to address the final disposition of ePHI, and/or the hardware or electronic media on which it is stored."
+          "summary": "Implement policies and procedures to address the final disposition of ePHI, and/or the hardware or electronic media on which it is stored.",
+          "mappedControls" : [
+            "cp-mdm-disposal"
+          ]
         },
         {
           "ref": "164.310(d)(2)(ii)",
           "title": "Media re-use",
-          "summary": "Implement procedures for removal of ePHI from electronic media before the media are made available for re-use. Ensure that ePHI previously stored on electronic media cannot be accessed and reused. Identify removable media and their use. Ensure that ePHI is removed from reusable media before they are used to record new information."
+          "summary": "Implement procedures for removal of ePHI from electronic media before the media are made available for re-use. Ensure that ePHI previously stored on electronic media cannot be accessed and reused. Identify removable media and their use. Ensure that ePHI is removed from reusable media before they are used to record new information.",
+          "mappedControls" : [
+            "cp-mdm-disposal"
+          ]
         },
         {
           "ref": "164.310(d)(2)(iii)",
           "title": "Accountability",
-          "summary": "Maintain a record of the movements of hardware and electronic media and any person responsible therefore."
+          "summary": "Maintain a record of the movements of hardware and electronic media and any person responsible therefore.",
+          "mappedControls" : [
+            "cp-asset-physical",
+            "cp-mdm-disposal"
+          ]
         },
         {
           "ref": "164.310(d)(2)(iv)",
           "title": "Data backup and storage",
-          "summary": "Create a retrievable, exact copy of ePHI, when needed, before movement of equipment."
+          "summary": "Create a retrievable, exact copy of ePHI, when needed, before movement of equipment.",
+          "mappedControls" : [
+            "cp-data-backup"
+          ]
         }
       ]
     },
@@ -240,62 +446,128 @@
         {
           "ref": "164.312(a)(1)",
           "title": "Access control",
-          "summary": "Implement technical policies and procedures for electronic information systems that maintain ePHI to allow access only to those persons or software programs that have been granted access rights as specified in §164.308(a)(4)."
+          "summary": "Implement technical policies and procedures for electronic information systems that maintain ePHI to allow access only to those persons or software programs that have been granted access rights as specified in §164.308(a)(4).",
+          "mappedControls" : [
+            "cp-access-standards",
+            "cp-access-sso",
+            "cp-access-mfa",
+            "cp-access-rbac",
+            "cp-access-phi",
+            "cp-access-review",
+            "cp-access-prod",
+            "cp-access-reset"
+          ]
         },
         {
           "ref": "164.312(a)(2)(i)",
           "title": "Unique user identification",
-          "summary": "Assign a unique name and/or number for identifying and tracking user identity. Ensure that system activity can be traced to a specific user. Ensure that the necessary data is available in the system logs to support audit and other related business functions."
+          "summary": "Assign a unique name and/or number for identifying and tracking user identity. Ensure that system activity can be traced to a specific user. Ensure that the necessary data is available in the system logs to support audit and other related business functions.",
+          "mappedControls" : [
+            "cp-access-standards"
+          ]
         },
         {
           "ref": "164.312(a)(2)(ii)",
           "title": "Emergency access procedure",
-          "summary": "Establish (and implement as needed) procedures for obtaining necessary ePHI during an emergency."
+          "summary": "Establish (and implement as needed) procedures for obtaining necessary ePHI during an emergency.",
+          "mappedControls" : [
+            "cp-access-aws",
+            "cp-access-phi"
+          ]
         },
         {
           "ref": "164.312(a)(2)(iii)",
           "title": "Automatic logoff",
-          "summary": "Implement electronic procedures that terminate an electronic session after a predetermined time of inactivity."
+          "summary": "Implement electronic procedures that terminate an electronic session after a predetermined time of inactivity.",
+          "mappedControls" : [
+            "cp-access-standards"
+          ]
         },
         {
           "ref": "164.312(a)(2)(iv)",
           "title": "Encryption and decryption",
-          "summary": "Implement a mechanism to encrypt and decrypt ePHI."
+          "summary": "Implement a mechanism to encrypt and decrypt ePHI.",
+          "mappedControls" : [
+            "cp-data-protection-at-rest",
+            "cp-data-protection-in-transit",
+            "cp-data-protection-kms"
+          ]
         },
         {
           "ref": "164.312(b)",
           "title": "Audit controls",
-          "summary": "Implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use ePHI."
+          "summary": "Implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use ePHI.",
+          "mappedControls" : [
+            "cp-audit-types",
+            "cp-events-analysis",
+            "cp-audit-review",
+            "cp-audit-trails",
+            "cp-sdlc-iaaa"
+          ]
         },
         {
           "ref": "164.312(c)(1)",
           "title": "Integrity",
-          "summary": "Implement policies and procedures to protect ePHI from improper alteration or destruction."
+          "summary": "Implement policies and procedures to protect ePHI from improper alteration or destruction.",
+          "mappedControls" : [
+            "cp-audit-trails-integrity",
+            "cp-access-aws",
+            "cp-access-phi",
+            "cp-access-customer",
+            "cp-access-privileged",
+            "cp-access-prod",
+            "cp-data-protection",
+            "cp-data-protection-in-use",
+            "cp-sdlc-iaaa"
+          ]
         },
         {
           "ref": "164.312(c)(2)",
           "title": "Mechanisms to authenticate ePHI",
-          "summary": "Implement electronic mechanisms to corroborate that ePHI has not been altered or destroyed in an unauthorized manner."
+          "summary": "Implement electronic mechanisms to corroborate that ePHI has not been altered or destroyed in an unauthorized manner.",
+          "mappedControls" : [
+            "cp-access-aws",
+            "cp-access-phi",
+            "cp-access-customer",
+            "cp-sdlc-iaaa"
+          ]
         },
         {
           "ref": "164.312(d)",
           "title": "Person or entity authentication",
-          "summary": "Implement procedures to verify that a person or entity seeking access to ePHI is the one claimed."
+          "summary": "Implement procedures to verify that a person or entity seeking access to ePHI is the one claimed.",
+          "mappedControls" : [
+            "cp-access-aws",
+            "cp-access-phi",
+            "cp-access-customer",
+            "cp-sdlc-iaaa"
+          ]
         },
         {
           "ref": "164.312(e)(1)",
           "title": "Transmission security",
-          "summary": "Implement technical security measures to guard against unauthorized access to ePHI that is being transmitted over an electronic communications network."
+          "summary": "Implement technical security measures to guard against unauthorized access to ePHI that is being transmitted over an electronic communications network.",
+          "mappedControls" : [
+            "cp-data-protection-in-transit"
+          ]
         },
         {
           "ref": "164.312(e)(2)(i)",
           "title": "Integrity controls",
-          "summary": "Implement security measures to ensure that electronically transmitted ePHI is not improperly modified without detection until disposed of."
+          "summary": "Implement security measures to ensure that electronically transmitted ePHI is not improperly modified without detection until disposed of.",
+          "mappedControls" : [
+            "cp-data-protection-in-transit",
+            "cp-data-protection-in-use"
+          ]
         },
         {
           "ref": "164.312(e)(2)(ii)",
           "title": "Encryption",
-          "summary": "Implement a mechanism to encrypt ePHI whenever deemed appropriate."
+          "summary": "Implement a mechanism to encrypt ePHI whenever deemed appropriate.",
+          "mappedControls" : [
+            "cp-data-protection-at-rest",
+            "cp-data-protection-in-transit"
+          ]
         }
       ]
     },
@@ -305,12 +577,18 @@
         {
           "ref": "164.314(a)(1)",
           "title": "Business associate contracts or other arrangements",
-          "summary": "A covered entity is not in compliance with the standards in §164.502(e) if the covered entity knew of a pattern of an activity or practice of the business associate that constituted a material breach or violation of the business associate’s obligation under the contract or other arrangement, unless the covered entity took reasonable steps to cure the breach or end the violation, as applicable, and, if such steps were unsuccessful - (A) Terminated the contract or arrangement, if feasible; or (B) If termination is not feasible, reported the problem to the Secretary."
+          "summary": "A covered entity is not in compliance with the standards in §164.502(e) if the covered entity knew of a pattern of an activity or practice of the business associate that constituted a material breach or violation of the business associate’s obligation under the contract or other arrangement, unless the covered entity took reasonable steps to cure the breach or end the violation, as applicable, and, if such steps were unsuccessful - (A) Terminated the contract or arrangement, if feasible; or (B) If termination is not feasible, reported the problem to the Secretary.",
+          "mappedControls" : [
+            "cp-vendor-contracts"
+          ]
         },
         {
           "ref": "164.314(a)(2)(i)",
           "title": "Business Associate Contracts",
-          "summary": "A business associate contract must provide that the business associate will implement safeguards that protect the confidentiality, integrity, and availability of the electronic protected health; Report to the covered entity any security incident of which it becomes aware; Authorize termination of the contract, if the covered entity determines that the business associate has violated a material term of the contract."
+          "summary": "A business associate contract must provide that the business associate will implement safeguards that protect the confidentiality, integrity, and availability of the electronic protected health; Report to the covered entity any security incident of which it becomes aware; Authorize termination of the contract, if the covered entity determines that the business associate has violated a material term of the contract.",
+          "mappedControls" : [
+            "cp-vendor-contracts"
+          ]
         },
         {
           "ref": "164.314(a)(2)(ii)",
@@ -338,27 +616,51 @@
         {
           "ref": "164.316(a)",
           "title": "Policies and Procedures",
-          "summary": "Implement reasonable and appropriate policies and procedures to comply with the standards, implementation specifications, or other requirements of this subpart, taking into account those factors specified in 164.306(b)(2)(i), (ii), (iii), and (iv) [the Security Standards: General Rules, Flexibility of Approach]. This standard is not to be construed to permit or excuse an action that violates any other standard."
+          "summary": "Implement reasonable and appropriate policies and procedures to comply with the standards, implementation specifications, or other requirements of this subpart, taking into account those factors specified in 164.306(b)(2)(i), (ii), (iii), and (iv) [the Security Standards: General Rules, Flexibility of Approach]. This standard is not to be construed to permit or excuse an action that violates any other standard.",
+          "mappedControls" : [
+            "cp-policy-framework",
+            "cp-policy-mgmt"
+          ]
         },
         {
           "ref": "164.316(b)(1)",
           "title": "Documentation",
-          "summary": "Maintain the policies and procedures implemented to comply with this subpart in written (which may be electronic) form; and (ii) if an action, activity or assessment is required by this subpart to be documented, maintain a written (which may be electronic) record of the action, activity, or assessment."
+          "summary": "Maintain the policies and procedures implemented to comply with this subpart in written (which may be electronic) form; and (ii) if an action, activity or assessment is required by this subpart to be documented, maintain a written (which may be electronic) record of the action, activity, or assessment.",
+          "mappedControls" : [
+            "cp-policy-framework",
+            "cp-policy-mgmt"
+          ]
         },
         {
           "ref": "164.316(b)(1)(i)",
           "title": "Time Limit",
-          "summary": "Retain the documentation required by 164.316(b)(1) of this section for 6 years for the date of its creation or the date when it last was in effect, whichever is later."
+          "summary": "Retain the documentation required by 164.316(b)(1) of this section for 6 years for the date of its creation or the date when it last was in effect, whichever is later.",
+          "mappedControls" : [
+            "cp-policy-framework",
+            "cp-policy-mgmt",
+            "cp-data-classification",
+            "cp-data-handling",
+            "cp-data-lifecycle"
+          ]
         },
         {
           "ref": "164.316(b)(1)(ii)",
           "title": "Availability",
-          "summary": "Make documentation available to those persons responsible for implementing the procedures to which the documentation pertains."
+          "summary": "Make documentation available to those persons responsible for implementing the procedures to which the documentation pertains.",
+          "mappedControls" : [
+            "cp-training-policy",
+            "cp-policy-framework",
+            "cp-policy-mgmt"
+          ]
         },
         {
           "ref": "164.316(b)(1)(iii)",
           "title": "Updates",
-          "summary": "Review documentation periodically, and update as needed, in response to environmental or operational changes affecting the security of the ePHI."
+          "summary": "Review documentation periodically, and update as needed, in response to environmental or operational changes affecting the security of the ePHI.",
+          "mappedControls" : [
+            "cp-policy-framework",
+            "cp-policy-mgmt"
+          ]
         }
       ]
     },

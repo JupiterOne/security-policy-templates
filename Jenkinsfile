@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('build') {
       when { branch 'main' }
-      agent { label 'ecs-builder' }
+      agent { label 'ecs-builder-node14' }
       steps {
         initBuild()
         sh 'cp -r templates ./deploy'
@@ -16,7 +16,7 @@ pipeline {
     }
     stage('deploy') {
       when { branch 'main' }
-      agent { label 'ecs-builder' }
+      agent { label 'ecs-builder-node14' }
       steps {
         deployToJupiterEnvironments (
           autoPopulateCM: [jiraComponent: 'Cloud Platform']

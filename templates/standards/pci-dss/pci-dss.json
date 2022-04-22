@@ -1,0 +1,1421 @@
+{
+  "standard": "PCI DSS",
+  "version": "3.2.1",
+  "webLink": "https://www.pcisecuritystandards.org/documents/PCI_DSS_v3-2-1.pdf",
+  "sections": [
+    {
+      "title": "Build and Maintain a Secure Network and Systems",
+      "requirements": [
+        {
+          "ref": "1.1",
+          "summary": "Establish and implement firewall and router configuration standards.",
+          "mappedControls" : [
+            "cp-access-wifi",
+            "cp-ccm-network",
+            "cp-threat-firewall"
+          ]
+        },
+        {
+          "ref": "1.1.1",
+          "summary": "A formal process for approving and testing all network connections and changes to the firewall and router configurations."
+        },
+        {
+          "ref": "1.1.2",
+          "summary": "Current network diagram that identifies all connections between the cardholder data environment and other networks, including any wireless networks."
+        },
+        {
+          "ref": "1.1.3",
+          "summary": "Current diagram that shows all cardholder data flows across systems and networks."
+        },
+        {
+          "ref": "1.1.4",
+          "summary": "Requirements for a firewall at each Internet connection and between any demilitarized zone (DMZ) and the internal network zone."
+        },
+        {
+          "ref": "1.1.5",
+          "summary": "Description of groups, roles, and responsibilities for management of network components."
+        },
+        {
+          "ref": "1.1.6",
+          "summary": "Documentation of business justification and approval for use of all services, protocols, and ports allowed, including documentation of security features implemented for those protocols considered to be insecure."
+        },
+        {
+          "ref": "1.1.7",
+          "summary": "Requirement to review firewall and router rule sets at least every six months."
+        },
+        {
+          "ref": "1.2",
+          "summary": "Build firewall and router configurations that restrict connections between untrusted networks and any system components in the cardholder data environment.",
+          "mappedControls" : [
+            "cp-access-service",
+            "cp-access-wifi",
+            "cp-threat-firewall",
+            "cp-mdm-byod"
+          ]
+        },
+        {
+          "ref": "1.2.1",
+          "summary": "Restrict inbound and outbound traffic to that which is necessary for the cardholder data environment, and specifically deny all other traffic."
+        },
+        {
+          "ref": "1.2.2",
+          "summary": "Secure and synchronize router configuration files."
+        },
+        {
+          "ref": "1.2.3",
+          "summary": "Install perimeter firewalls between all wireless networks and the cardholder data environment, and configure these firewalls to deny or, if traffic is necessary for business purposes, permit only authorized traffic between the wireless environment and the cardholder data environment."
+        },
+        {
+          "ref": "1.3",
+          "summary": "Prohibit direct public access between the Internet and any system component in the cardholder data environment.",
+          "mappedControls" : [
+            "cp-model-principles",
+            "cp-employee-acceptable-use",
+            "cp-access-endpoints",
+            "cp-data-protection-in-transit"
+          ]
+        },
+        {
+          "ref": "1.3.1",
+          "summary": "Implement a DMZ to limit inbound traffic to only system components that provide authorized publicly accessible services, protocols, and ports."
+        },
+        {
+          "ref": "1.3.2",
+          "summary": "Limit inbound Internet traffic to IP addresses within the DMZ."
+        },
+        {
+          "ref": "1.3.3",
+          "summary": "Implement anti-spoofing measures to detect and block forged source IP addresses from entering the network."
+        },
+        {
+          "ref": "1.3.4",
+          "summary": "Do not allow unauthorized outbound traffic from the cardholder data environment to the Internet."
+        },
+        {
+          "ref": "1.3.5",
+          "summary": "Permit only “established” connections into the network."
+        },
+        {
+          "ref": "1.3.6",
+          "summary": "Place system components that store cardholder data (such as a database) in an internal network zone, segregated from the DMZ and other untrusted networks."
+        },
+        {
+          "ref": "1.3.7",
+          "summary": "Do not disclose private IP addresses and routing information to unauthorized parties."
+        },
+        {
+          "ref": "1.4",
+          "summary": "Install personal firewall software or equivalent functionality on any portable computing devices (including company and/or employee-owned) that connect to the Internet when outside the network (for example, laptops used by employees), and which are also used to access the CDE.",
+          "mappedControls" : [
+            "cp-employee-acceptable-use",
+            "cp-access-endpoints",
+            "cp-sdlc-outsourcing",
+            "cp-mdm-byod"
+          ]
+        },
+        {
+          "ref": "1.5",
+          "summary": "Ensure that security policies and operational procedures for managing firewalls are documented, in use, and known to all affected parties.",
+          "mappedControls" : [
+            "cp-model-principles",
+            "cp-employee-acceptable-use",
+            "cp-access-endpoints",
+            "cp-sdlc-outsourcing",
+            "cp-ccm-config",
+            "cp-mdm-byod"
+          ]
+        },
+        {
+          "ref": "2.1",
+          "summary": "Always change vendor-supplied defaults and remove or disable unnecessary default accounts before installing a system on the network.",
+          "mappedControls" : [
+            "cp-ccm-network",
+            "cp-ccm-provision-prod",
+            "cp-ccm-provision-server"
+          ]
+        },
+        {
+          "ref": "2.1.1",
+          "summary": "For wireless environments connected to the cardholder data environment or transmitting cardholder data, change ALL wireless vendor defaults at installation, including but not imited to default wireless encryption keys, passwords, and SNMP community strings. "
+        },
+        {
+          "ref": "2.2",
+          "summary": "Develop configuration standards for all system components. Assure that these standards address all known security vulnerabilities and are consistent with industry-accepted system hardening standards. Example sources of accepted system standards include CIS, ISO, NIST, and SANS.",
+          "mappedControls" : [
+            "cp-risk-assess",
+            "cp-ccm-config",
+            "cp-ccm-provision-endpoint",
+            "cp-ccm-provision-server"
+          ]
+        },
+        {
+          "ref": "2.2.1",
+          "summary": "Implement only one primary function per server to prevent functions that require different security levels from co-existing on the same server."
+        },
+        {
+          "ref": "2.2.2",
+          "summary": "Enable only necessary services, protocols, daemons, etc., as required for the function of the system."
+        },
+        {
+          "ref": "2.2.3",
+          "summary": "Implement additional security features for any required services, protocols, or daemons that are considered to be insecure."
+        },
+        {
+          "ref": "2.2.4",
+          "summary": "Configure system security parameters to prevent misuse."
+        },
+        {
+          "ref": "2.2.5",
+          "summary": "Remove all unnecessary functionality, such as scripts, drivers, features, subsystems, file systems, and unnecessary web servers."
+        },
+        {
+          "ref": "2.3",
+          "summary": "Encrypt all non-console administrative access using strong cryptography. (Do not use Telnet and HTTP for admin access)",
+          "mappedControls" : [
+            "cp-model-principles",
+            "cp-data-handling",
+            "cp-data-protection-at-rest",
+            "cp-data-protection-in-transit"
+          ]
+        },
+        {
+          "ref": "2.4",
+          "summary": "Maintain an inventory of system components that are in scope for PCI DSS.",
+          "mappedControls" : [
+            "cp-asset-physical",
+            "cp-asset-digital",
+            "cp-mdm-byod"
+          ]
+        },
+        {
+          "ref": "2.5",
+          "summary": "Ensure that security policies and operational procedures for managing vendor defaults and other security parameters are documented, in use, and known to all affected parties.",
+          "mappedControls" : [
+            "cp-training-policy",
+            "cp-ccm-config",
+            "cp-ccm-network",
+            "cp-ccm-provision-prod"
+          ]
+        },
+        {
+          "ref": "2.6",
+          "summary": "Shared hosting providers must protect each entity’s hosted environment and cardholder data."
+        }
+      ]
+    },
+    {
+      "title": "Protect Cardholder Data",
+      "requirements": [
+        {
+          "ref": "3.1",
+          "summary": "Keep cardholder data storage to a minimum by implementing data retention and disposal policies, procedures and processes.",
+          "mappedControls" : [
+            "cp-data-handling",
+            "cp-mdm-disposal"
+          ]
+        },
+        {
+          "ref": "3.2",
+          "summary": "Do not store sensitive authentication data -- full track, CVC/CVV, or PIN -- after authorization (even if encrypted). If sensitive authentication data is received, render all data unrecoverable upon completion of the authorization process."
+        },
+        {
+          "ref": "3.2.1",
+          "summary": "Do not store the full contents of any track (from the magnetic stripe located on the back of a card, equivalent data contained on a chip, or elsewhere) after authorization. This data is alternatively called full track, track, track 1, track 2, and magnetic-stripe data."
+        },
+        {
+          "ref": "3.2.2",
+          "summary": "Do not store the card verification code or value (three-digit or four-digit number printed on the front or back of a payment card used to verify card-notpresent transactions) after authorization."
+        },
+        {
+          "ref": "3.2.3",
+          "summary": "Do not store the personal identification number (PIN) or the encrypted PIN block after authorization."
+        },
+        {
+          "ref": "3.3",
+          "summary": "Mask PAN when displayed such that only personnel with a legitimate business need can see more than the first six/last four digits of the PAN."
+        },
+        {
+          "ref": "3.4",
+          "summary": "Render PAN unreadable anywhere it is stored (including on portable digital media, backup media, and in logs)."
+        },
+        {
+          "ref": "3.4.1",
+          "summary": "If disk encryption is used (rather than file- or column-level database encryption), logical access must be managed separately and independently of native operating system authentication and access control mechanisms (for example, by not using local user account databases or general network login credentials). Decryption keys must not be associated with user accounts. "
+        },
+        {
+          "ref": "3.5",
+          "summary": "Document and implement procedures to protect keys used to secure stored cardholder data against disclosure and misuse.",
+          "mappedControls" : [
+            "cp-data-protection",
+            "cp-data-protection-at-rest",
+            "cp-data-protection-in-transit",
+            "cp-data-protection-kms"
+          ]
+        },
+        {
+          "ref": "3.5.1",
+          "summary": "Maintain a documented description of the cryptographic architecture."
+        },
+        {
+          "ref": "3.5.2",
+          "summary": "Restrict access to cryptographic keys to the fewest number of custodians necessary."
+        },
+        {
+          "ref": "3.5.3",
+          "summary": "Securely store secret and private keys used to encrypt/decrypt cardholder data."
+        },
+        {
+          "ref": "3.5.4",
+          "summary": "Store cryptographic keys in the fewest possible locations."
+        },
+        {
+          "ref": "3.6",
+          "summary": "Fully document and implement all key-management processes and procedures for cryptographic keys used for encryption of cardholder data.",
+          "mappedControls" : [
+            "cp-data-protection-in-transit",
+            "cp-data-protection-kms"
+          ]
+        },
+        {
+          "ref": "3.6.1",
+          "summary": "Generation of strong cryptographic keys."
+        },
+        {
+          "ref": "3.6.2",
+          "summary": "Secure cryptographic key distribution."
+        },
+        {
+          "ref": "3.6.3",
+          "summary": "Secure cryptographic key storage."
+        },
+        {
+          "ref": "3.6.4",
+          "summary": "Cryptographic key changes for keys that have reached the end of their cryptoperiod (for example, after a defined period of time has passed and/or after a certain amount of cipher-text has been produced by a given key), as defined by the associated application vendor or key owner, and based on industry best practices and guidelines (for example, NIST Special Publication 800-57)."
+        },
+        {
+          "ref": "3.6.5",
+          "summary": "Retirement or replacement (for example, archiving, destruction, and/or revocation) of keys as deemed necessary when the integrity of the key has been weakened (for example, departure of an employee with knowledge of a clear-text key component), or keys are suspected of being compromised."
+        },
+        {
+          "ref": "3.6.6",
+          "summary": "If manual clear-text cryptographic key-management operations are used, these operations must be managed using split knowledge and dual control."
+        },
+        {
+          "ref": "3.6.7",
+          "summary": "Prevention of unauthorized substitution of cryptographic keys."
+        },
+        {
+          "ref": "3.6.8",
+          "summary": "Requirement for cryptographic key custodians to formally acknowledge that they understand and accept their keycustodian responsibilities."
+        },
+        {
+          "ref": "3.7",
+          "summary": "Ensure that security policies and operational procedures for protecting stored cardholder data are documented, in use, and known to all affected parties."
+        },
+        {
+          "ref": "4.1",
+          "summary": "Use strong cryptography and security protocols to safeguard sensitive cardholder data during transmission over open, public networks.",
+          "mappedControls" : [
+            "cp-employee-acceptable-use",
+            "cp-data-protection-in-transit",
+            "cp-sdlc-appsec-req"
+          ]
+        },
+        {
+          "ref": "4.1.1",
+          "summary": "Ensure wireless networks transmitting cardholder data or connected to the cardholder data environment, use industry best practices to implement strong encryption for authentication and transmission."
+        },
+        {
+          "ref": "4.2",
+          "summary": "Never send unprotected PANs by end-user messaging technologies (for example, email, instant messaging, SMS, chat, etc.)."
+        },
+        {
+          "ref": "4.3",
+          "summary": "Ensure that security policies and operational procedures for encrypting transmissions of cardholder data are documented, in use, and known to all affected parties."
+        }
+      ]
+    },
+    {
+      "title": "Maintain a Vulnerability Management Program",
+      "requirements": [
+        {
+          "ref": "5.1",
+          "summary": "Deploy anti-virus software on all systems commonly affected by malicious software (particularly personal computers and servers).",
+          "mappedControls" : [
+            "cp-employee-acceptable-use",
+            "cp-ccm-provision-server",
+            "cp-threat-malware"
+          ]
+        },
+        {
+          "ref": "5.1.1",
+          "summary": "Ensure that anti-virus programs are capable of detecting, removing, and protecting against all known types of malicious software."
+        },
+        {
+          "ref": "5.1.2",
+          "summary": " For systems considered to be not commonly affected by malicious software, perform periodic evaluations to identify and evaluate evolving malware threats in order to confirm whether such systems continue to not require anti-virus software."
+        },
+        {
+          "ref": "5.2",
+          "summary": "Ensure that all anti-virus mechanisms are kept current, perform periodic scans and generate audit logs.",
+          "mappedControls" : [
+            "cp-audit-types",
+            "cp-threat-malware"
+          ]
+        },
+        {
+          "ref": "5.3",
+          "summary": "Ensure that anti-virus mechanisms are actively running and cannot be disabled or altered by users, unless specifically authorized by management on a case-by-case basis for a limited time period.",
+          "mappedControls" : [
+            "cp-access-endpoints",
+            "cp-threat-malware",
+            "cp-mdm-byod"
+          ]
+        },
+        {
+          "ref": "5.4",
+          "summary": "Ensure that security policies and operational procedures for protecting systems against malware are documented, in use, and known to all affected parties.",
+          "mappedControls" : [
+            "cp-employee-acceptable-use",
+            "cp-threat-malware",
+            "cp-mdm-byod"
+          ]
+        },
+        {
+          "ref": "6.1",
+          "summary": "Establish a process to identify security vulnerabilities, using reputable outside sources for security vulnerability information, and assign a risk ranking to newly discovered security vulnerabilities.",
+          "mappedControls" : [
+            "cp-risk-assess",
+            "cp-audit-tools",
+            "cp-vuln-scan",
+            "cp-vuln-remediation"
+          ]
+        },
+        {
+          "ref": "6.2",
+          "summary": "Ensure that all system components and software are protected from known vulnerabilities by installing applicable vendorsupplied security patches.",
+          "mappedControls" : [
+            "cp-sdlc-appsec-req",
+            "cp-ccm-patch",
+            "cp-ccm-provision-server",
+            "cp-mdm-byod"
+          ]
+        },
+        {
+          "ref": "6.3",
+          "summary": "Develop internal and external software applications (including web-based administrative access to applications) securely.",
+          "mappedControls" : [
+            "cp-model-principles",
+            "cp-sdlc-appsec-req",
+            "cp-sdlc-iaaa",
+            "cp-sdlc-outsourcing"
+          ]
+        },
+        {
+          "ref": "6.3.1",
+          "summary": "Remove development, test and/or custom application accounts, user IDs, and passwords before applications become active or are released to customers."
+        },
+        {
+          "ref": "6.3.2",
+          "summary": "Review custom code prior to release to production or customers in order to identify any potential coding vulnerability (using either manual or automated processes)."
+        },
+        {
+          "ref": "6.4",
+          "summary": "Follow change control processes and procedures for all changes to system components.",
+          "mappedControls" : [
+            "cp-model-principles",
+            "cp-risk-mgmt",
+            "cp-sdlc-dev",
+            "cp-ccm-config",
+            "cp-ccm-prodcm"
+          ]
+        },
+        {
+          "ref": "6.4.1",
+          "summary": "Separate development/test environments from production environments, and enforce the separation with access controls."
+        },
+        {
+          "ref": "6.4.2",
+          "summary": "Separation of duties between development/test and production environments."
+        },
+        {
+          "ref": "6.4.3",
+          "summary": "Production data (live PANs) are not used for testing or development."
+        },
+        {
+          "ref": "6.4.4",
+          "summary": "Removal of test data and accounts from system components before the system becomes active / goes into production."
+        },
+        {
+          "ref": "6.4.5",
+          "summary": "Change control procedures."
+        },
+        {
+          "ref": "6.4.5.1",
+          "summary": "Documentation of impact."
+        },
+        {
+          "ref": "6.4.5.2",
+          "summary": "Documented change approval by authorized parties. "
+        },
+        {
+          "ref": "6.4.5.3",
+          "summary": "Functionality testing to verify that the change does not adversely impact the security of the system."
+        },
+        {
+          "ref": "6.4.5.4",
+          "summary": "Back-out procedures."
+        },
+
+        {
+          "ref": "6.4.6",
+          "summary": "Upon completion of a significant change, all relevant PCI DSS requirements must be implemented on all new or changed systems and networks, and documentation updated as applicable."
+        },
+        {
+          "ref": "6.5",
+          "summary": "Address common coding vulnerabilities in software-development processes.",
+          "mappedControls" : [
+            "cp-sdlc-appsec-req",
+            "cp-sdlc-sast",
+            "cp-vuln-remediation"
+          ]
+        },
+        {
+          "ref": "6.5.1",
+          "summary": "Address injection flaws, particularly SQL injection. Also consider OS Command injection, LDAP and XPath injection flaws as well as other injection flaws."
+        },
+        {
+          "ref": "6.5.2",
+          "summary": "Address buffer overflows."
+        },
+        {
+          "ref": "6.5.3",
+          "summary": "Address insecure cryptographic storage."
+        },
+        {
+          "ref": "6.5.4",
+          "summary": "Address insecure communications."
+        },
+        {
+          "ref": "6.5.5",
+          "summary": "Address improper error handling."
+        },
+        {
+          "ref": "6.5.6",
+          "summary": "Address all “high risk” vulnerabilities identified in the vulnerability identification process (as defined in PCI DSS Requirement 6.1)."
+        },
+        {
+          "ref": "6.5.7",
+          "summary": "Address cross-site scripting (XSS)."
+        },
+        {
+          "ref": "6.5.8",
+          "summary": "Address improper access control(such as insecure direct object references, failure to restrict URL access, directory traversal, and failure to restrict user access to functions)."
+        },
+        {
+          "ref": "6.5.9",
+          "summary": "Address cross-site request forgery (CSRF)."
+        },
+        {
+          "ref": "6.5.10",
+          "summary": "Address broken authentication and session management."
+        },
+        {
+          "ref": "6.6",
+          "summary": "For public-facing web applications, address new threats and vulnerabilities on an ongoing basis and ensure these applications are protected against known attacks via application scanning tools and/or web application firewall.",
+          "mappedControls" : [
+            "cp-risk-mgmt",
+            "cp-audit-tools",
+            "cp-sdlc-appsec-req",
+            "cp-threat-firewall",
+            "cp-vuln-scan"
+          ]
+        },
+        {
+          "ref": "6.7",
+          "summary": "Ensure that security policies and operational procedures for developing and maintaining secure systems and applications are documented, in use, and known to all affected parties.",
+          "mappedControls" : [
+            "cp-model-principles",
+            "cp-training-policy",
+            "cp-sdlc-appsec-req"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Implement Strong Access Control Measures",
+      "requirements": [
+        {
+          "ref": "7.1",
+          "summary": "Limit access to system components and cardholder data to only those individuals whose job requires such access.",
+          "mappedControls" : [
+            "cp-access-standards",
+            "cp-access-review"
+          ]
+        },
+        {
+          "ref": "7.1.1",
+          "summary": "Define access needs for each role."
+        },
+        {
+          "ref": "7.1.2",
+          "summary": "Restrict access to privileged user IDs to least privileges necessary to perform job responsibilities."
+        },
+        {
+          "ref": "7.1.3",
+          "summary": "Assign access based on individual personnel’s job classification and function."
+        },
+        {
+          "ref": "7.1.4",
+          "summary": "Require documented approval by authorized parties specifying required privileges."
+        },
+        {
+          "ref": "7.2",
+          "summary": "Establish an access control system(s) for systems components that restricts access based on a user’s need to know, and is set to “deny all” unless specifically allowed.",
+          "mappedControls" : [
+            "cp-access-change",
+            "cp-data-handling"
+          ]
+        },
+        {
+          "ref": "7.2.1",
+          "summary": "Coverage of all system components."
+        },
+        {
+          "ref": "7.2.2",
+          "summary": "Assignment of privileges to individuals based on job classification and function."
+        },
+        {
+          "ref": "7.2.3",
+          "summary": "Default “deny-all” setting."
+        },
+        {
+          "ref": "7.3",
+          "summary": "Ensure that security policies and operational procedures for restricting access to cardholder data are documented, in use, and known to all affected parties."
+        },
+        {
+          "ref": "8.1",
+          "summary": "Define and implement policies and procedures to ensure proper user identification management for non-consumer users and administrators on all system components.",
+          "mappedControls" : [
+            "cp-role-assignment",
+            "cp-audit-types",
+            "cp-access-standards",
+            "cp-access-mfa",
+            "cp-access-aws",
+            "cp-access-change"
+          ]
+        },
+        {
+          "ref": "8.1.1",
+          "summary": "Assign all users a unique ID before allowing them to access system components or cardholder data.",
+          "mappedControls" : [
+            "cp-access-standards"
+          ]
+        },
+        {
+          "ref": "8.1.2",
+          "summary": "Control addition, deletion, and modification of user IDs, credentials, and other identifier objects.",
+          "mappedControls" : [
+            "cp-access-standards",
+            "cp-access-change"
+          ]
+        },
+        {
+          "ref": "8.1.3",
+          "summary": "Immediately revoke access for any terminated users.",
+          "mappedControls" : [
+            "cp-access-standards",
+            "cp-access-change"
+          ]
+        },
+        {
+          "ref": "8.1.4",
+          "summary": "Remove/disable inactive user accounts within 90 days.",
+          "mappedControls" : [
+            "cp-access-standards",
+            "cp-access-change"
+          ]
+        },
+        {
+          "ref": "8.1.5",
+          "summary": "Manage IDs used by third parties to access, support, or maintain system components via remote access."
+        },
+        {
+          "ref": "8.1.6",
+          "summary": " Limit repeated access attempts by locking out the user ID after not more than six attempts."
+        },
+        {
+          "ref": "8.1.7",
+          "summary": "Set the lockout duration to a minimum of 30 minutes or until an administrator enables the user ID."
+        },
+        {
+          "ref": "8.1.8",
+          "summary": "If a session has been idle for more than 15 minutes, require the user to re-authenticate to re-activate the terminal or session."
+        },
+        {
+          "ref": "8.2",
+          "summary": "In addition to assigning a unique ID, ensure proper user-authentication management for non-consumer users and administrators on all system components.",
+          "mappedControls" : [
+            "cp-audit-trails",
+            "cp-access-standards",
+            "cp-access-mfa",
+            "cp-access-password"
+          ]
+        },
+        {
+          "ref": "8.2.1",
+          "summary": "Using strong cryptography, render all authentication credentials (such as passwords/phrases) unreadable during transmission and storage on all system components."
+        },
+        {
+          "ref": "8.2.2",
+          "summary": "Verify user identity before modifying any authentication credential—for example, performing password resets, provisioning new tokens, or generating new keys."
+        },
+        {
+          "ref": "8.2.3",
+          "summary": "Passwords/passphrases must require a minimum length of at least seven characters and contain both numeric and alphabetic characters. Alternatively, the passwords/passphrases must have complexity and strength at least equivalent to the parameters specified previously.",
+          "mappedControls" : [
+            "cp-access-password"
+          ]
+        },
+        {
+          "ref": "8.2.4",
+          "summary": "Change user passwords/passphrases at least once every 90 days.",
+          "mappedControls" : [
+            "cp-access-password"
+          ]
+        },
+        {
+          "ref": "8.2.5",
+          "summary": "Do not allow an individual to submit a new password/passphrase that is the same as any of the last four passwords/passphrases he or she has used.",
+          "mappedControls" : [
+            "cp-access-password"
+          ]
+        },
+        {
+          "ref": "8.2.6",
+          "summary": "Set passwords/passphrases for first-time use and upon reset to a unique value for each user, and change immediately after the first use.",
+          "mappedControls" : [
+            "cp-access-password"
+          ]
+        },
+        {
+          "ref": "8.3",
+          "summary": "Secure all individual non-console administrative access and all remote access to the CDE using multi-factor authentication.",
+          "mappedControls" : [
+            "cp-access-mfa"
+          ]
+        },
+        {
+          "ref": "8.3.1",
+          "summary": "Incorporate multi-factor authentication for all non-console access into the CDE for personnel with dministrative access.",
+          "mappedControls" : [
+            "cp-access-mfa"
+          ]
+        },
+        {
+          "ref": "8.3.2",
+          "summary": " Incorporate multi-factor authentication for all remote network access (both user and administrator, and including third-party access for support or maintenance) originating from outside the entity’s network.",
+          "mappedControls" : [
+            "cp-access-mfa"
+          ]
+        },
+        {
+          "ref": "8.4",
+          "summary": "Document and communicate authentication policies and procedures to all users.",
+          "mappedControls" : [
+            "cp-role-assignment",
+            "cp-training-policy"
+          ]
+        },
+        {
+          "ref": "8.5",
+          "summary": "Do not use group, shared, or generic IDs, passwords, or other authentication methods.",
+          "mappedControls" : [
+            "cp-access-standards",
+            "cp-access-password"
+          ]
+        },
+        {
+          "ref": "8.5.1",
+          "summary": "(Service Providers ONLY) Service providers with remote access to customer premises (for example, for support of POS systems or servers) must use a unique authentication credential (such as a password/phrase) for each customer.",
+          "applicable": false
+        },
+        {
+          "ref": "8.6",
+          "summary": "Where other authentication mechanisms are used (e.g. physical or logical security tokens, smart cards, certificates, etc.), authentication mechanisms must be assigned to an individual account and controls must be in place to ensure only the intended account gain access.",
+          "mappedControls" : [
+            "cp-access-aws",
+            "cp-access-change"
+          ]
+        },
+        {
+          "ref": "8.7",
+          "summary": "All access to any database containing cardholder data (including access by applications, administrators, and all other users) is restricted.",
+          "mappedControls" : [
+            "cp-access-prod-data"
+          ]
+        },
+        {
+          "ref": "8.8",
+          "summary": "Ensure that security policies and operational procedures for identification and authentication are documented, in use, and known to all affected parties.",
+          "mappedControls" : [
+            "cp-training-policy",
+            "cp-audit-types",
+            "cp-access-change",
+            "cp-access-review"
+          ]
+        },
+        {
+          "ref": "9.1",
+          "summary": "Use appropriate facility entry controls to limit and monitor physical access to systems in the cardholder data environment.",
+          "mappedControls" : [
+            "cp-physical",
+            "cp-physical-datacenter"
+          ]
+        },
+        {
+          "ref": "9.1.1",
+          "summary": "Use either video cameras or access control mechanisms (or both) to monitor individual physical access to sensitive areas. Review collected data and correlate with other entries. Store for at least three months, unless otherwise restricted by law."
+        },
+        {
+          "ref": "9.1.2",
+          "summary": "Implement physical and/or logical controls to restrict access to publicly accessible network jacks."
+        },
+        {
+          "ref": "9.1.3",
+          "summary": "Restrict physical access to wireless access points, gateways, handheld devices, networking/communications hardware, and telecommunication lines."
+        },
+        {
+          "ref": "9.2",
+          "summary": "Develop procedures to easily distinguish between onsite personnel and visitors.",
+          "mappedControls" : [
+            "cp-physical",
+            "cp-physical-datacenter"
+          ]
+        },
+        {
+          "ref": "9.3",
+          "summary": "Control physical access for onsite personnel to sensitive areas.",
+          "mappedControls" : [
+            "cp-physical-datacenter"
+          ]
+        },
+        {
+          "ref": "9.4",
+          "summary": "Implement procedures to identify and authorize visitors.",
+          "mappedControls" : [
+            "cp-physical"
+          ]
+        },
+        {
+          "ref": "9.4.1",
+          "summary": "Visitors are authorized before entering, and escorted at all times within, areas where cardholder data is processed or maintained."
+        },
+        {
+          "ref": "9.4.2",
+          "summary": "Visitors are identified and given a badge or other identification that expires and that visibly distinguishes the visitors from onsite personnel."
+        },
+        {
+          "ref": "9.4.3",
+          "summary": "Visitors are asked to surrender the badge or identification before leaving the facility or at the date of expiration."
+        },
+        {
+          "ref": "9.4.4",
+          "summary": "A visitor log is used to maintain a physical audit trail of visitor activity to the facility as well as computer rooms and data centers where cardholder data is stored or transmitted. Document the visitor’s name, the firm represented, and the onsite personnel authorizing physical access on the log. Retain this log for a minimum of three months, unless otherwise restricted by law."
+        },
+        {
+          "ref": "9.5",
+          "summary": "Physically secure all media.",
+          "mappedControls" : [
+            "cp-employee-acceptable-use",
+            "cp-physical",
+            "cp-physical-datacenter",
+            "cp-asset-physical",
+            "cp-mdm-disposal"
+          ]
+        },
+        {
+          "ref": "9.5.1",
+          "summary": "Store media backups in a secure location, preferably an off-site facility, such as an alternate or backup site, or a commercial storage facility. Review the location’s security at least annually."
+        },
+        {
+          "ref": "9.6",
+          "summary": "Maintain strict control over the internal or external distribution of any kind of media.",
+          "mappedControls" : [
+            "cp-asset-physical",
+            "cp-mdm-disposal",
+            "cp-mdm-byod"
+          ]
+        },
+        {
+          "ref": "9.6.1",
+          "summary": "Classify media so the sensitivity of the data can be determined."
+        },
+        {
+          "ref": "9.6.2",
+          "summary": "Send the media by secured courier or other delivery method that can be accurately tracked."
+        },
+        {
+          "ref": "9.6.3",
+          "summary": "Ensure management approves any and all media that is moved from a secured area (including when media is distributed to individuals)."
+        },
+        {
+          "ref": "9.7",
+          "summary": "Maintain strict control over the storage and accessibility of media.",
+          "mappedControls" : [
+            "cp-employee-acceptable-use",
+            "cp-asset-physical",
+            "cp-mdm-disposal"
+          ]
+        },
+        {
+          "ref": "9.7.1",
+          "summary": "Properly maintain inventory logs of all media and conduct media inventories at least annually."
+        },
+        {
+          "ref": "9.8",
+          "summary": "Destroy media when it is no longer needed for business or legal reasons.",
+          "mappedControls" : [
+            "cp-asset-paper",
+            "cp-mdm-disposal"
+          ]
+        },
+        {
+          "ref": "9.8.1",
+          "summary": "Shred, incinerate, or pulp hardcopy materials so that cardholder data cannot be reconstructed. Secure storage containers used for materials that are to be destroyed.",
+          "mappedControls" : [
+            "cp-asset-paper",
+            "cp-mdm-disposal"
+          ]
+        },
+        {
+          "ref": "9.8.2",
+          "summary": "Render cardholder data on electronic media unrecoverable so that cardholder data cannot be reconstructed.",
+          "mappedControls" : [
+            "cp-mdm-disposal"
+          ]
+        },
+        {
+          "ref": "9.9",
+          "summary": "Protect devices that capture payment card data via direct physical interaction with the card from tampering and substitution."
+        },
+        {
+          "ref": "9.9.1",
+          "summary": "Maintain an up-to-date list of devices."
+        },
+        {
+          "ref": "9.9.2",
+          "summary": "Periodically inspect device surfaces to detect tampering (for example, addition of card skimmers to devices), or substitution (for example, by checking the serial number or other device characteristics to verify it has not been swapped with a fraudulent device)."
+        },
+        {
+          "ref": "9.9.3",
+          "summary": "Provide training for personnel to be aware of attempted tampering or replacement of devices."
+        },
+        {
+          "ref": "9.10",
+          "summary": "Ensure that security policies and operational procedures for restricting physical access to cardholder data are documented, in use, and known to all affected parties."
+        }
+      ]
+    },
+    {
+      "title": "Regularly Monitor and Test Networks",
+      "requirements": [
+        {
+          "ref": "10.1",
+          "summary": "Implement audit trails to link all access to system components to each individual user.",
+          "mappedControls" : [
+            "cp-audit-types",
+            "cp-audit-trails"
+          ]
+        },
+        {
+          "ref": "10.2",
+          "summary": "Implement automated audit trails for all system components to reconstruct the in-scope events.",
+          "mappedControls" : [
+            "cp-audit-types",
+            "cp-audit-trails"
+          ]
+        },
+        {
+          "ref": "10.2.1",
+          "summary": "Implement automated audit trails for all individual user accesses to cardholder data."
+        },
+        {
+          "ref": "10.2.2",
+          "summary": "Implement automated audit trails for all actions taken by any individual with root or administrative privileges."
+        },
+        {
+          "ref": "10.2.3",
+          "summary": "Implement automated audit trails for access to all audit trails."
+        },
+        {
+          "ref": "10.2.4",
+          "summary": "Implement automated audit trails for invalid logical access attempts."
+        },
+        {
+          "ref": "10.2.5",
+          "summary": "Implement automated audit trails for use of and changes to identification and authentication mechanisms—including but not limited to creation of new accounts and elevation of privileges—and all changes, additions, or deletions to accounts with root or administrative privileges."
+        },
+        {
+          "ref": "10.2.6",
+          "summary": "Implement automated audit trails for initialization, stopping, or pausing of the audit logs."
+        },
+        {
+          "ref": "10.2.7",
+          "summary": "Implement automated audit trails for creation and deletion of systemlevel objects."
+        },
+        {
+          "ref": "10.3",
+          "summary": "Record at least the following audit trail entries for all system components for each event: User identification; Type of event; Date and time; Success or failure indication; Origination of event; Identity or name of affected data, system component, or resource.",
+          "mappedControls" : [
+            "cp-audit-types",
+            "cp-audit-trails"
+          ]
+        },
+        {
+          "ref": "10.3.1",
+          "summary": "User identification"
+        },
+
+        {
+          "ref": "10.3.2",
+          "summary": "Type of event"
+        },
+        {
+          "ref": "10.3.3",
+          "summary": "Date and time"
+        },
+        {
+          "ref": "10.3.4",
+          "summary": "Success of failure indication"
+        },
+        {
+          "ref": "10.3.5",
+          "summary": "Origination of event"
+        },
+        {
+          "ref": "10.3.6",
+          "summary": "Identity or name of affected data, system component, or resource."
+        },
+        {
+          "ref": "10.4",
+          "summary": "Using time-synchronization technology, synchronize all critical system clocks and times and ensure that the following is implemented for acquiring, distributing, and storing time.",
+          "mappedControls" : [
+            "cp-ccm-provision-server"
+          ]
+        },
+        {
+          "ref": "10.4.1",
+          "summary": "Critical systems have the correct and consistent time."
+        },
+        {
+          "ref": "10.4.2",
+          "summary": "Time data is protected."
+        },
+        {
+          "ref": "10.4.3",
+          "summary": "Time settings are received from industry-accepted time sources."
+        },
+        {
+          "ref": "10.5",
+          "summary": "Secure audit trails so they cannot be altered.",
+          "mappedControls" : [
+            "cp-audit-trails-integrity"
+          ]
+        },
+        {
+          "ref": "10.5.1",
+          "summary": "Limit viewing of audit trails to those with a job-related need."
+        },
+        {
+          "ref": "10.5.2",
+          "summary": "Protect audit trail files from unauthorized modifications."
+        },
+        {
+          "ref": "10.5.3",
+          "summary": "Promptly back up audit trail files to a centralized log server or media that is difficult to alter."
+        },
+        {
+          "ref": "10.5.4",
+          "summary": "Write logs for external-facing technologies onto a secure, centralized, internal log server or media device."
+        },
+        {
+          "ref": "10.5.5",
+          "summary": "Use file-integrity monitoring or change-detection software on logs to ensure that existing log data cannot be changed without generating alerts (although new data being added should not cause an alert)."
+        },
+        {
+          "ref": "10.6",
+          "summary": "Review logs and security events for all system components to identify anomalies or suspicious activity.",
+          "mappedControls" : [
+            "cp-audit-types",
+            "cp-events-analysis"
+          ]
+        },
+        {
+          "ref": "10.6.1",
+          "summary": "Review the following at least daily: All security events; Logs of all system components that store, process, or transmit CHD and/or SAD; Logs of all critical system components; Logs of all servers and system components that perform security functions (for example, firewalls, intrusion-detection systems/intrusion-prevention systems (IDS/IPS), authentication servers, e-commerce redirection servers, etc.)."
+        },
+        {
+          "ref": "10.6.2",
+          "summary": "Review logs of all other system components periodically based on the organization’s policies and risk management strategy, as determined by the organization’s annual risk assessment."
+        },
+        {
+          "ref": "10.6.3",
+          "summary": "Follow up exceptions and anomalies identified during the review process."
+        },
+        {
+          "ref": "10.7",
+          "summary": "Retain audit trail history for at least one year, with a minimum of three months immediately available for analysis (for example, online, archived, or restorable from backup).",
+          "mappedControls" : [
+            "cp-audit-trails-integrity"
+          ]
+        },
+        {
+          "ref": "10.8",
+          "summary": "(Service Providers ONLY) Implement a process for the timely detection and reporting of failures of critical security control systems.",
+          "applicable": false
+        },
+        {
+          "ref": "10.8.1",
+          "summary": "(Service Providers ONLY) Respond to failures of any critical security controls in a timely manner.",
+          "applicable": false
+        },
+        {
+          "ref": "10.9",
+          "summary": "Ensure that security policies and operational procedures for monitoring all access to network resources and cardholder data are documented, in use, and known to all affected parties.",
+          "mappedControls" : [
+            "cp-training-policy",
+            "cp-audit-types"
+          ]
+        },
+        {
+          "ref": "11.1",
+          "summary": "Implement processes to test for the presence of wireless access points (802.11), and detect and identify all authorized and unauthorized wireless access points on a quarterly basis.",
+          "mappedControls" : [
+            "cp-access-wifi"
+          ]
+        },
+        {
+          "ref": "11.1.1",
+          "summary": "Maintain an inventory of authorized wireless access points including a documented business justification."
+        },
+        {
+          "ref": "11.1.2",
+          "summary": "Implement incident response procedures in the event unauthorized wireless access points are detected."
+        },
+        {
+          "ref": "11.2",
+          "summary": "Run internal and external network vulnerability scans at least quarterly and after any significant change in the network.",
+          "mappedControls" : [
+            "cp-vuln-scan"
+          ]
+        },
+        {
+          "ref": "11.2.1",
+          "summary": "Perform quarterly internal vulnerability scans. Address vulnerabilities and perform rescans to verify all “high risk” vulnerabilities are resolved in accordance with the entity’s vulnerability ranking (per Requirement  6.1). Scans must be performed by qualified personnel."
+        },
+        {
+          "ref": "11.2.2",
+          "summary": "Perform quarterly external vulnerability scans, via an Approved Scanning Vendor (ASV) approved by the Payment Card Industry Security Standards Council (PCI SSC). Perform rescans as needed, until passing scans are achieved."
+        },
+        {
+          "ref": "11.2.3",
+          "summary": "Perform internal and external scans, and rescans as needed, after any significant change. Scans must be performed by qualified personnel."
+        },
+        {
+          "ref": "11.3",
+          "summary": "Implement a methodology for penetration testing.",
+          "mappedControls" : [
+            "cp-sdlc-pentest"
+          ]
+        },
+        {
+          "ref": "11.3.1",
+          "summary": "Perform external penetration testing at least annually and after any significant infrastructure or application upgrade or modification (such as an operating system upgrade, a sub-network added to the environment, or a web server added to the environment)."
+        },
+        {
+          "ref": "11.3.2",
+          "summary": "Perform internal penetration testing at least annually and after any significant infrastructure or application upgrade or modification (such as an operating system upgrade, a sub-network added to the environment, or a web server added to the environment)."
+        },
+        {
+          "ref": "11.3.3",
+          "summary": "Exploitable vulnerabilities found during penetration testing are corrected and testing is repeated to verify the corrections."
+        },
+        {
+          "ref": "11.3.4",
+          "summary": " If segmentation is used to isolate the CDE from other networks, perform penetration tests at least annually and after any changes to segmentation controls/methods to verify that the segmentation methods are operational and effective, and isolate all out-of-scope systems from systems in the CDE."
+        },
+        {
+          "ref": "11.3.4.1",
+          "summary": "(Service Providers ONLY) If segmentation is used, confirm PCI DSS scope by performing penetration testing on segmentation controls at least every six months and after any changes to segmentation controls/methods.",
+          "applicable": false
+        },
+        {
+          "ref": "11.4",
+          "summary": "Use intrusion-detection and/or intrusion-prevention techniques to detect and/or prevent intrusions into the network.",
+          "mappedControls" : [
+            "cp-threat-nids"
+          ]
+        },
+        {
+          "ref": "11.5",
+          "summary": "Deploy a change-detection mechanism (e.g. file-integrity monitoring tools) to alert personnel to unauthorized modification of critical system files, configuration files, or content files.",
+          "mappedControls" : [
+            "cp-events-analysis",
+            "cp-audit-trails"
+          ]
+        },
+        {
+          "ref": "11.5.1",
+          "summary": "Implement a process to respond to any alerts generated by the changedetection solution."
+        },
+        {
+          "ref": "11.6",
+          "summary": "Ensure that security policies and operational procedures for security monitoring and testing are documented, in use, and known to all affected parties.",
+          "mappedControls" : [
+            "cp-training-policy",
+            "cp-audit-types",
+            "cp-audit-training"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Maintain an Information Security Policy",
+      "requirements": [
+        {
+          "ref": "12.1",
+          "summary": "Establish, publish, maintain, and disseminate a security policy.",
+          "mappedControls" : [
+            "cp-role-assignment",
+            "cp-policy-framework",
+            "cp-policy-mgmt"
+          ]
+        },
+        {
+          "ref": "12.1.1",
+          "summary": "Review the security policy at least annually and update the policy when the environment changes."
+        },
+        {
+          "ref": "12.2",
+          "summary": "Implement a risk-assessment process.",
+          "mappedControls" : [
+            "cp-risk-assess",
+            "cp-risk-mitigation"
+          ]
+        },
+        {
+          "ref": "12.3",
+          "summary": "Develop usage policies for critical technologies and define proper use of these technologies.",
+          "mappedControls" : [
+            "cp-role-assignment",
+            "cp-employee-acceptable-use"
+          ]
+        },
+        {
+          "ref": "12.3.1",
+          "summary": "Ensure these usage policies require explicit approval by authorized parties."
+        },
+        {
+          "ref": "12.3.2",
+          "summary": "Ensure these usage policies require authentication for use of the technology."
+        },
+        {
+          "ref": "12.3.3",
+          "summary": "Ensure these usage policies require a list of all such devices and personnel with access."
+        },
+        {
+          "ref": "12.3.4",
+          "summary": "Ensure these usage policies require a method to accurately and readily determine owner, contact information, and purpose (for example, labeling, coding, and/or inventorying of devices)."
+        },
+        {
+          "ref": "12.3.5",
+          "summary": "Ensure these usage policies require acceptable uses of the technology."
+        },
+        {
+          "ref": "12.3.6",
+          "summary": "Ensure these usage policies require acceptable network locations for the technologies."
+        },
+        {
+          "ref": "12.3.7",
+          "summary": "Ensure these usage policies require a list of company-approved products."
+        },
+        {
+          "ref": "12.3.8",
+          "summary": "Ensure these usage policies require automatic disconnect of sessions for remote-access technologies after a specific period of inactivity."
+        },
+        {
+          "ref": "12.3.9",
+          "summary": "Ensure these usage policies require activation of remote-access technologies for vendors and business partners only when needed by vendors and business partners, with immediate deactivation after use."
+        },
+        {
+          "ref": "12.3.10",
+          "summary": "For personnel accessing cardholder data via remote-access technologies, prohibit the copying, moving, and storage of cardholder data onto local hard drives and removable electronic media, unless explicitly authorized for a defined business need. Where there is an authorized business need, the usage policies must require the data be protected in accordance with all applicable PCI DSS Requirements."
+        },
+        {
+          "ref": "12.4",
+          "summary": "Ensure that the security policy and procedures clearly define information security responsibilities for all personnel.",
+          "mappedControls" : [
+            "cp-role-assignment",
+            "cp-training-policy"
+          ]
+        },
+        {
+          "ref": "12.4.1",
+          "summary": "(Service Providers ONLY) Executive management shall establish responsibility for the protection of cardholder data and a PCI DSS compliance program.",
+          "applicable": false
+        },
+        {
+          "ref": "12.5",
+          "summary": "Assign to an individual or team the information security management responsibilities.",
+          "mappedControls" : [
+            "cp-role-assignment",
+            "cp-ir-sirt",
+            "cp-ir-process"
+          ]
+        },
+        {
+          "ref": "12.5.1",
+          "summary": "Establish, document, and distribute security policies and procedures."
+        },
+        {
+          "ref": "12.5.2",
+          "summary": "Monitor and analyze security alerts and information, and distribute to appropriate personnel."
+        },
+        {
+          "ref": "12.5.3",
+          "summary": "Establish, document, and distribute security incident response and escalation procedures to ensure timely and effective handling of all situations."
+        },
+        {
+          "ref": "12.5.4",
+          "summary": "Administer user accounts, including additions, deletions, and modifications."
+        },
+        {
+          "ref": "12.5.5",
+          "summary": "Monitor and control all access to data."
+        },
+        {
+          "ref": "12.6",
+          "summary": "Implement a formal security awareness program to make all personnel aware of the cardholder data security policy and procedures.",
+          "mappedControls" : [
+            "cp-training-policy",
+            "cp-training-awareness"
+          ]
+        },
+        {
+          "ref": "12.6.1",
+          "summary": "Educate personnel upon hire and at least annually."
+        },
+        {
+          "ref": "12.7",
+          "summary": "Screen potential personnel prior to hire to minimize the risk of attacks from internal sources.",
+          "mappedControls" : [
+            "cp-employee-screening",
+            "cp-sdlc-outsourcing"
+          ]
+        },
+        {
+          "ref": "12.8",
+          "summary": "Maintain and implement policies and procedures to manage service providers with whom cardholder data is shared, or that could affect the security of cardholder data.",
+          "mappedControls" : [
+            "cp-vendor-vtr",
+            "cp-vendor-contracts",
+            "cp-vendor-ssa"
+          ]
+        },
+        {
+          "ref": "12.8.1",
+          "summary": "Maintain a list of service providers including a description of the service provided.",
+          "mappedControls" : [
+            "cp-vendor-ssa"
+          ]
+        },
+        {
+          "ref": "12.8.2",
+          "summary": "Maintain a written agreement that includes an acknowledgement that the service providers are responsible for the security of cardholder data the service providers possess or otherwise store, process or transmit on behalf of the customer, or to the extent that they could impact the security of the customer’s cardholder data environment.",
+          "mappedControls" : [
+            "cp-vendor-contracts"
+          ]
+        },
+        {
+          "ref": "12.8.3",
+          "summary": "Ensure there is an established process for engaging service providers including proper due diligence prior to engagement.",
+          "mappedControls" : [
+            "cp-vendor-vtr"
+          ]
+        },
+        {
+          "ref": "12.8.4",
+          "summary": "Maintain a program to monitor service providers’ PCI DSS compliance status at least annually.",
+          "mappedControls" : [
+            "cp-vendor-contracts"
+          ]
+        },
+        {
+          "ref": "12.8.5",
+          "summary": "Maintain information about which PCI DSS requirements are managed by each service provider, and which are managed by the entity.",
+          "mappedControls" : [
+            "cp-vendor-contracts"
+          ]
+        },
+        {
+          "ref": "12.9",
+          "summary": "(Service Providers ONLY) Acknowledge in writing to customers that they are responsible for the security of cardholder data the service provider possesses or otherwise stores, processes, or transmits on behalf of the customer, or to the extent that they could impact the security of the customer’s cardholder data environment.",
+          "applicable": false
+        },
+        {
+          "ref": "12.10",
+          "summary": "Implement an incident response plan. Be prepared to respond immediately to a system breach.",
+          "mappedControls" : [
+            "cp-ir-process",
+            "cp-ir-playbook",
+            "cp-breach-investigate",
+            "cp-breach-authorities",
+            "cp-breach-customer"
+          ]
+        },
+        {
+          "ref": "12.10.1",
+          "summary": "Create the incident response plan to be implemented in the event of system breach.",
+          "mappedControls" : [
+            "cp-ir-process",
+            "cp-ir-playbook",
+            "cp-breach-investigate",
+            "cp-breach-authorities",
+            "cp-breach-customer"
+          ]
+        },
+        {
+          "ref": "12.10.2",
+          "summary": "Review and test the plan, including all elements listed in Requirement 12.10.1, at least annually."
+        },
+        {
+          "ref": "12.10.3",
+          "summary": "Designate specific personnel to be available on a 24/7 basis to respond to alerts."
+        },
+        {
+          "ref": "12.10.4",
+          "summary": "Provide appropriate training to staff with security breach response responsibilities."
+        },
+        {
+          "ref": "12.10.5",
+          "summary": "Include alerts from security monitoring systems, including but not limited to intrusion-detection, intrusion-prevention, firewalls, and file-integrity monitoring systems."
+        },
+        {
+          "ref": "12.10.6",
+          "summary": "Develop a process to modify and evolve the incident response plan according to lessons learned and to incorporate industry developments."
+        },
+        {
+          "ref": "12.11",
+          "summary": "(Service Providers ONLY) Perform reviews at least quarterly to confirm personnel are following security policies and operational procedures.",
+          "applicable": false
+        },
+        {
+          "ref": "12.11.1",
+          "summary": "(Service Providers ONLY) Maintain documentation of quarterly review process.",
+          "applicable": false
+        }
+      ]
+    }
+  ]
+}

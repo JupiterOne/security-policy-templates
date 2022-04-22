@@ -1,0 +1,172 @@
+{
+  "standard": "PCI DSS",
+  "version": "3.2.1 SAQ-A",
+  "webLink": "https://www.pcisecuritystandards.org/documents/PCI-DSS-v3_2_1-SAQ-A.pdf",
+  "sections": [
+    {
+      "title": "Build and Maintain a Secure Network and Systems",
+      "requirements": [
+        {
+          "ref": "2.1",
+          "summary": "(a) Are vendor-supplied defaults always changed before installing a system on the network? (b) Are unnecessary default accounts removed or disabled before installing a system on the network?",
+          "mappedControls": [
+            "cp-ccm-network",
+            "cp-ccm-provision-prod",
+            "cp-ccm-provision-server"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Maintain a Vulnerability Management Program",
+      "requirements": [
+        {
+          "ref": "6.2",
+          "summary": "(a) Are all system components and software protected from known vulnerabilities by installing applicable vendor-supplied security patches? (b) Are critical security patches installed within one month of release?",
+          "mappedControls": [
+            "cp-sdlc-appsec-req",
+            "cp-ccm-patch",
+            "cp-ccm-provision-server",
+            "cp-mdm-byod"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Implement Strong Access Control Measures",
+      "requirements": [
+        {
+          "ref": "8.1.1",
+          "summary": "Are all users assigned a unique ID before allowing them to access system components or cardholder data?",
+          "mappedControls": ["cp-access-standards"]
+        },
+        {
+          "ref": "8.1.3",
+          "summary": "Is access for any terminated users immediately deactivated or removed?",
+          "mappedControls": ["cp-access-standards", "cp-access-change"]
+        },
+        {
+          "ref": "8.2",
+          "summary": "In addition to assigning a unique ID, is one or more of the following methods employed to authenticate all users?",
+          "mappedControls": [
+            "cp-audit-trails",
+            "cp-access-standards",
+            "cp-access-mfa",
+            "cp-access-password"
+          ]
+        },
+        {
+          "ref": "8.2.3",
+          "summary": "(a) Are user password parameters configured to require passwords/passphrases meet the following? • A minimum password length of at least seven characters • Contain both numeric and alphabetic characters",
+          "mappedControls": ["cp-access-password"]
+        },
+        {
+          "ref": "8.5",
+          "summary": "Are group, shared, or generic accounts, passwords, or other authentication methods prohibited as follows: ▪ Generic user IDs and accounts are disabled or removed; ▪ Shared user IDs for system administration activities and other critical functions do not exist; and ▪ Shared and generic user IDs are not used to administer any system components?",
+          "mappedControls": ["cp-access-standards", "cp-access-password"]
+        },
+        {
+          "ref": "9.5",
+          "summary": "Are all media physically secured (including but not limited to computers, removable electronic media, paper receipts, paper reports, and faxes)?",
+          "mappedControls": [
+            "cp-employee-acceptable-use",
+            "cp-physical",
+            "cp-physical-datacenter",
+            "cp-asset-physical",
+            "cp-mdm-disposal"
+          ]
+        },
+        {
+          "ref": "9.6",
+          "summary": "(a) Is strict control maintained over the internal or external distribution of any kind of media? (b) Do controls include 9.6.1, 9.6.2 and 9.6.3?",
+          "mappedControls": [
+            "cp-asset-physical",
+            "cp-mdm-disposal",
+            "cp-mdm-byod"
+          ]
+        },
+        {
+          "ref": "9.6.1",
+          "summary": "Is media classified so the sensitivity of the data can be determined?"
+        },
+        {
+          "ref": "9.6.2",
+          "summary": "Is media sent by secured courier or other delivery method that can be accurately tracked?"
+        },
+        {
+          "ref": "9.6.3",
+          "summary": "Is management approval obtained prior to moving the media (especially when media is distributed to individuals)?"
+        },
+        {
+          "ref": "9.7",
+          "summary": "Is strict control maintained over the storage and accessibility of media?",
+          "mappedControls": [
+            "cp-employee-acceptable-use",
+            "cp-asset-physical",
+            "cp-mdm-disposal"
+          ]
+        },
+        {
+          "ref": "9.8",
+          "summary": "(a) Is all media destroyed when it is no longer needed for business or legal reasons? (c) Is media destruction performed as follows in 9.8.1?",
+          "mappedControls": ["cp-asset-paper", "cp-mdm-disposal"]
+        },
+        {
+          "ref": "9.8.1",
+          "summary": "(a) Are hardcopy materials cross-cut shredded, incinerated, or pulped so that cardholder data cannot be reconstructed? (b) Are storage containers used for materials that contain information to be destroyed secured to prevent access to the contents?",
+          "mappedControls": ["cp-asset-paper", "cp-mdm-disposal"]
+        }
+      ]
+    },
+    {
+      "title": "Maintain an Information Security Policy",
+      "requirements": [
+        {
+          "ref": "12.8",
+          "summary": "Are policies and procedures maintained and implemented to manage service providers with whom cardholder data is shared, or that could affect the security of cardholder data, as follows:",
+          "mappedControls": [
+            "cp-vendor-vtr",
+            "cp-vendor-contracts",
+            "cp-vendor-ssa"
+          ]
+        },
+        {
+          "ref": "12.8.1",
+          "summary": "Is a list of service providers maintained, including a description of the service(s) provided?",
+          "mappedControls": ["cp-vendor-ssa"]
+        },
+        {
+          "ref": "12.8.2",
+          "summary": "Is a written agreement maintained that includes an acknowledgement that the service providers are responsible for the security of cardholder data the service providers possess or otherwise store, process, or transmit on behalf of the customer, or to the extent that they could impact the security of the customer’s cardholder data environment?",
+          "mappedControls": ["cp-vendor-contracts"]
+        },
+        {
+          "ref": "12.8.3",
+          "summary": "Is there an established process for engaging service providers, including proper due diligence prior to engagement?",
+          "mappedControls": ["cp-vendor-vtr"]
+        },
+        {
+          "ref": "12.8.4",
+          "summary": "Is a program maintained to monitor service providers’ PCI DSS compliance status at least annually?",
+          "mappedControls": ["cp-vendor-contracts"]
+        },
+        {
+          "ref": "12.8.5",
+          "summary": "Is information maintained about which PCI DSS requirements are managed by each service provider, and which are managed by the entity?",
+          "mappedControls": ["cp-vendor-contracts"]
+        },
+        {
+          "ref": "12.10.1",
+          "summary": "(a) Has an incident response plan been created to be implemented in the event of system breach?",
+          "mappedControls": [
+            "cp-ir-process",
+            "cp-ir-playbook",
+            "cp-breach-investigate",
+            "cp-breach-authorities",
+            "cp-breach-customer"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,12 +10,12 @@
         {
           "ref": "AC-1",
           "title": "Access Control Policy and Procedures",
-          "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. An access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the access control policy and associated access controls; and\n b. Reviews and updates the current:\n   1. Access control policy **at least every 3 years**; and\n   2. Access control procedures **at least annually**."
+          "summary": "The organization:\n a. Develops, documents, and disseminates to {{accessControlPolicyAndProcedureDisseminationList}}:\n   1. An access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the access control policy and associated access controls; and\n b. Reviews and updates the current:\n   1. Access control policy **at least every 3 years**; and\n   2. Access control procedures **at least annually**."
         },
         {
           "ref": "AC-2",
           "title": "Account Management",
-          "summary": "The organization:\n a. Identifies and selects the following types of information system accounts to support organizational missions/business functions: [Assignment: organization-defined information system account types];\n b. Assigns account managers for information system accounts;\n c. Establishes conditions for group and role membership;\n d. Specifies authorized users of the information system, group and role membership, and access authorizations (i.e., privileges) and other attributes (as required) for each account;\n e. Requires approvals by [Assignment: organization-defined personnel or roles] for requests to create information system accounts;\n f. Creates, enables, modifies, disables, and removes information system accounts in accordance with [Assignment: organization-defined procedures or conditions];\n g. Monitors the use of, information system accounts;\n h. Notifies account managers:\n   1. When accounts are no longer required;\n   2. When users are terminated or transferred; and\n   3. When individual information system usage or need-to-know changes;\n i. Authorizes access to the information system based on:\n   1. A valid access authorization;\n   2. Intended system usage; and\n   3. Other attributes as required by the organization or associated missions/business functions;\n j. Reviews accounts for compliance with account management requirements **at least annually**; and\n k. Establishes a process for reissuing shared/group account credentials (if deployed) when individuals are removed from the group."
+          "summary": "The organization:\n a. Identifies and selects the following types of information system accounts to support organizational missions/business functions: {{accessControlinfoSysAccountTypes}};\n b. Assigns account managers for information system accounts;\n c. Establishes conditions for group and role membership;\n d. Specifies authorized users of the information system, group and role membership, and access authorizations (i.e., privileges) and other attributes (as required) for each account;\n e. Requires approvals by {{accessControlnewAccountApprovalRoles}} for requests to create information system accounts;\n f. Creates, enables, modifies, disables, and removes information system accounts in accordance with {accessControlinfoSysAccountManagementprocedures}};\n g. Monitors the use of, information system accounts;\n h. Notifies account managers:\n   1. When accounts are no longer required;\n   2. When users are terminated or transferred; and\n   3. When individual information system usage or need-to-know changes;\n i. Authorizes access to the information system based on:\n   1. A valid access authorization;\n   2. Intended system usage; and\n   3. Other attributes as required by the organization or associated missions/business functions;\n j. Reviews accounts for compliance with account management requirements **at least annually**; and\n k. Establishes a process for reissuing shared/group account credentials (if deployed) when individuals are removed from the group."
         },
         {
           "ref": "AC-2 (1)",
@@ -35,22 +35,22 @@
         {
           "ref": "AC-2 (4)",
           "title": "Account Management | Automated Audit Actions",
-          "summary": "The information system automatically audits account creation, modification, enabling, disabling, and removal actions, and notifies [Assignment: organization-defined personnel or roles]."
+          "summary": "The information system automatically audits account creation, modification, enabling, disabling, and removal actions, and notifies {{accessControlaccountActivityNotificationPersonnel}}."
         },
         {
           "ref": "AC-2 (5)",
           "title": "Account Management | Inactivity Logout",
-          "summary": "The organization requires that users log out when [Assignment: organization-defined time-period of expected inactivity or description of when to log out]."
+          "summary": "The organization requires that users log out when {{accessControlinactivityLogout}}."
         },
         {
           "ref": "AC-2 (7)",
           "title": "Account Management | Role-Based Schemes",
-          "summary": "The organization:\n(a) Establishes and administers privileged user accounts in accordance with a role-based access scheme that organizes allowed information system access and privileges into roles;\n(b) Monitors privileged role assignments; and\n(c) Takes [Assignment: organization-defined actions] when privileged role assignments are no longer appropriate."
+          "summary": "The organization:\n(a) Establishes and administers privileged user accounts in accordance with a role-based access scheme that organizes allowed information system access and privileges into roles;\n(b) Monitors privileged role assignments; and\n(c) Takes {{accessControlprivilegedRoleRevocationActions}} when privileged role assignments are no longer appropriate."
         },
         {
           "ref": "AC-2 (9)",
           "title": "Account Management | Restrictions on Use of Shared Groups / Accounts",
-          "summary": "The organization only permits the use of shared/group accounts that meet [Assignment: organization-defined conditions for establishing shared/group accounts]."
+          "summary": "The organization only permits the use of shared/group accounts that meet {{accessControluseOfSharedAndGroupAccts}}."
         },
         {
           "ref": "AC-2 (10)",
@@ -60,7 +60,7 @@
         {
           "ref": "AC-2 (12)",
           "title": "Account Management | Account Monitoring / Atypical Usage",
-          "summary": "The organization:\n (a) Monitors information system accounts for [Assignment: organization-defined atypical use]; and\n (b) Reports atypical usage of information system accounts to [Assignment: organization-defined personnel or roles]."
+          "summary": "The organization:\n (a) Monitors information system accounts for {{accessControlabnormalUseDefinition}}; and\n (b) Reports atypical usage of information system accounts to {{accessControlabnormalActivityNotificationPersonnel}}."
         },
         {
           "ref": "AC-3",
@@ -70,17 +70,17 @@
         {
           "ref": "AC-4",
           "title": "Information Flow Enforcement",
-          "summary": "The information system enforces approved authorizations for controlling the flow of information within the system and between interconnected systems based on [Assignment: organization-defined information flow control policies]."
+          "summary": "The information system enforces approved authorizations for controlling the flow of information within the system and between interconnected systems based on {{accessControlinfoFlowEnforcementPolicies}}."
         },
         {
           "ref": "AC-4 (21)",
           "title": "Information Flow Enforcement | Physical / Logical Separation of Information Flows",
-          "summary": "The information system separates information flows logically or physically using [Assignment: organization-defined mechanisms and/or techniques] to accomplish [Assignment: organization- defined required separations by types of information]."
+          "summary": "The information system separates information flows logically or physically using {{accessControlinformationFlowDiscriminators}} to accomplish {{informationFlowDiscriminatorOutcome}}."
         },
         {
           "ref": "AC-5",
           "title": "Separation of Duties",
-          "summary": "The organization:\n a. Separates [Assignment: organization-defined duties of individuals];\n b. Documents separation of duties of individuals; and\n c. Defines information system access authorizations to support separation of duties."
+          "summary": "The organization:\n a. Separates {{accessControlseparateDutiesList}};\n b. Documents separation of duties of individuals; and\n c. Defines information system access authorizations to support separation of duties."
         },
         {
           "ref": "AC-6",
@@ -90,7 +90,7 @@
         {
           "ref": "AC-6 (1)",
           "title": "Least Privilege | Authorize Access To Security Functions",
-          "summary": "The organization explicitly authorizes access to [Assignment: organization-defined security functions (deployed in hardware, software, and firmware) and security-relevant information]."
+          "summary": "The organization explicitly authorizes access to {{accessControlsecurityFunctionsList}}."
         },
         {
           "ref": "AC-6 (2)",
@@ -100,7 +100,7 @@
         {
           "ref": "AC-6 (5)",
           "title": "Least Privilege | Privileged Accounts",
-          "summary": "The organization restricts privileged accounts on the information system to [Assignment:\norganization-defined personnel or roles]."
+          "summary": "The organization restricts privileged accounts on the information system to {{accessControlprivilegedRoleAccess}}."
         },
         {
           "ref": "AC-6 (9)",
@@ -115,7 +115,7 @@
         {
           "ref": "AC-7",
           "title": "Unsuccessful Logon Attempts",
-          "summary": "The information system:\n a. Enforces a limit of **not more than three (3)** consecutive invalid logon attempts by a user during a **fifteen (15) minutes**; and\n b. Automatically [Selection: locks the account/node for an **locks the account/node for thirty minutes**; locks the account/node until released by an administrator; delays next logon prompt according to [Assignment: organization-defined delay algorithm]] when the maximum number of unsuccessful attempts is exceeded."
+          "summary": "The information system:\n a. Enforces a limit of **not more than three (3)** consecutive invalid logon attempts by a user during a **fifteen (15) minutes**; and\n b. Automatically [Selection: locks the account/node for an **locks the account/node for thirty minutes**; locks the account/node until released by an administrator; delays next logon prompt according to {{accessControlunsuccessfulLogonLockout}} when the maximum number of unsuccessful attempts is exceeded."
         },
         {
           "ref": "AC-8",
@@ -125,7 +125,7 @@
         {
           "ref": "AC-10",
           "title": "Concurrent Session Control",
-          "summary": "The information system limits the number of concurrent sessions for each **three (3) sessions for privileged access and two (2) sessions for non-privileged access** to [Assignment: organization-defined number]."
+          "summary": "The information system limits the number of concurrent sessions for each **three (3) sessions for privileged access and two (2) sessions for non-privileged access** to {{accessControlNumberofConcurrentSessions}}."
         },
         {
           "ref": "AC-11",
@@ -140,12 +140,12 @@
         {
           "ref": "AC-12",
           "title": "Session Termination",
-          "summary": "The information system automatically terminates a user session after [Assignment: organization-defined conditions or trigger events requiring session disconnect]."
+          "summary": "The information system automatically terminates a user session after {{accessControluserSessionTermination}}."
         },
         {
           "ref": "AC-14",
           "title": "Permitted Actions Without Identification or Authentication",
-          "summary": "The organization:\n a. Identifies [Assignment: organization-defined user actions] that can be performed on the information system without identification or authentication consistent with organizational missions/business functions; and\n b. Documents and provides supporting rationale in the security plan for the information system, user actions not requiring identification or authentication."
+          "summary": "The organization:\n a. Identifies {{accessControlunauthenticatedActions}} that can be performed on the information system without identification or authentication consistent with organizational missions/business functions; and\n b. Documents and provides supporting rationale in the security plan for the information system, user actions not requiring identification or authentication."
         },
         {
           "ref": "AC-17",
@@ -165,12 +165,12 @@
         {
           "ref": "AC-17 (3)",
           "title": "Remote Access | Managed Access Control Points",
-          "summary": "The information system routes all remote accesses through [Assignment: organization-defined number] managed network access control points."
+          "summary": "The information system routes all remote accesses through {{accessControlmanagedNetworkAccessControlPoints}} managed network access control points."
         },
         {
           "ref": "AC-17 (4)",
           "title": "Remote Access | Privileged Commands / Access",
-          "summary": "The organization:\n (a)   Authorizes the execution of privileged commands and access to security-relevant information via remote access only for [Assignment: organization-defined needs]; and\n (b)   Documents the rationale for such access in the security plan for the information system."
+          "summary": "The organization:\n (a)   Authorizes the execution of privileged commands and access to security-relevant information via remote access only for {{accessControlremotePrivilegedCommands}}; and\n (b)   Documents the rationale for such access in the security plan for the information system."
         },
         {
           "ref": "AC-17 (9)",
@@ -195,7 +195,7 @@
         {
           "ref": "AC-19 (5)",
           "title": "Access Control for Mobile Devices | Full Device / Container-Based Encryption",
-          "summary": "The organization employs [Selection: full-device encryption; container encryption] to protect the confidentiality and integrity of information on [Assignment: organization-defined mobile devices]."
+          "summary": "The organization employs [Selection: full-device encryption; container encryption] to protect the confidentiality and integrity of information on {{accessControlmobileDevices}}."
         },
         {
           "ref": "AC-20",
@@ -215,7 +215,7 @@
         {
           "ref": "AC-21",
           "title": "Information Sharing",
-          "summary": "The organization:\na. Facilitates information sharing by enabling authorized users to determine whether access authorizations assigned to the sharing partner match the access restrictions on the information for [Assignment: organization-defined information sharing circumstances where user discretion is required]; and\nb. Employs [Assignment: organization-defined automated mechanisms or manual processes] to assist users in making information sharing/collaboration decisions.\n \nSupplemental Guidance: This control applies to information that may be restricted in some manner (e.g., privileged medical information, contract-sensitive information, proprietary information, personally identifiable information, classified information related to special access programs or compartments) based on some formal or administrative determination. Depending on the particular information-sharing circumstances, sharing partners may be defined at the individual, group, or organizational level. Information may be defined by content, type, security category, or special access program/compartment."
+          "summary": "The organization:\na. Facilitates information sharing by enabling authorized users to determine whether access authorizations assigned to the sharing partner match the access restrictions on the information for {{accessControlinfoSharingCircumstances}}; and\nb. Employs {{accessControlinfoSharingProcess}} to assist users in making information sharing/collaboration decisions.\n \nSupplemental Guidance: This control applies to information that may be restricted in some manner (e.g., privileged medical information, contract-sensitive information, proprietary information, personally identifiable information, classified information related to special access programs or compartments) based on some formal or administrative determination. Depending on the particular information-sharing circumstances, sharing partners may be defined at the individual, group, or organizational level. Information may be defined by content, type, security category, or special access program/compartment."
         },
         {
           "ref": "AC-22",
@@ -230,7 +230,7 @@
         {
           "ref": "AT-1",
           "title": "Security Awareness and Training Policy Andprocedures",
-          "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A security awareness and training policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2.  Procedures to facilitate the implementation of the security awareness and training policy and associated security awareness and training controls; and\n b. Reviews and updates the current:\n   1. Security awareness and training policy **at least every 3 years**; and\n   2.  Security awareness and training procedures **at least annually**."
+          "summary": "The organization:\n a. Develops, documents, and disseminates to {{awarenessAndTrainingPolicyAndProcedureDisseminationList}}:\n   1. A security awareness and training policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2.  Procedures to facilitate the implementation of the security awareness and training policy and associated security awareness and training controls; and\n b. Reviews and updates the current:\n   1. Security awareness and training policy **at least every 3 years**; and\n   2.  Security awareness and training procedures **at least annually**."
         },
         {
           "ref": "AT-2",
@@ -260,7 +260,7 @@
         {
           "ref": "AU-1",
           "title": "Audit and Accountability Policy and Procedures",
-          "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. An audit and accountability policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2.  Procedures to facilitate the implementation of the audit and accountability policy and associated audit and accountability controls; and\n b. Reviews and updates the current:\n   1. Audit and accountability policy **at least every 3 years**; and\n   2. Audit and accountability procedures **at least annually**."
+          "summary": "The organization:\n a. Develops, documents, and disseminates to {{auditAndAccountabilityPolicyAndProcedureDisseminationList}}:\n   1. An audit and accountability policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2.  Procedures to facilitate the implementation of the audit and accountability policy and associated audit and accountability controls; and\n b. Reviews and updates the current:\n   1. Audit and accountability policy **at least every 3 years**; and\n   2. Audit and accountability procedures **at least annually**."
         },
         {
           "ref": "AU-2",
@@ -285,17 +285,17 @@
         {
           "ref": "AU-4",
           "title": "Audit Storage Capacity",
-          "summary": "The organization allocates audit record storage capacity in accordance with [Assignment:\norganization-defined audit record storage requirements]."
+          "summary": "The organization allocates audit record storage capacity in accordance with {{auditAndAccountabilitydataRetentionRequirements}}."
         },
         {
           "ref": "AU-5",
           "title": "Response To Audit Processing Failures",
-          "summary": "The information system:\n a. Alerts [Assignment: organization-defined personnel or roles] in the event of an audit processing failure; and\n b. Takes the following additional actions: [Assignment: organization-defined actions to be taken (e.g., shut down information system, overwrite oldest audit records, stop generating audit records)]."
+          "summary": "The information system:\n a. Alerts {{auditAndAccountabilityNotificationPersonnel}} in the event of an audit processing failure; and\n b. Takes the following additional actions: {{auditAndAccountabilityauditLogCollectionFailureActions}}."
         },
         {
           "ref": "AU-6",
           "title": "Audit Review, Analysis, and Reporting",
-          "summary": "The organization:\n a. Reviews and analyzes information system audit records **at least weekly** for indications of [Assignment: organization-defined inappropriate or unusual activity]; and\n b. Reports findings to [Assignment: organization-defined personnel or roles]."
+          "summary": "The organization:\n a. Reviews and analyzes information system audit records **at least weekly** for indications of {{auditAndAccountabilityabnormalUseActivity}}; and\n b. Reports findings to {{auditAndAccountabilityNotificationPersonnel}}."
         },
         {
           "ref": "AU-6 (1)",
@@ -315,17 +315,17 @@
         {
           "ref": "AU-7 (1)",
           "title": "Audit Reduction and Report Generation | Automatic Processing",
-          "summary": "The information system provides the capability to process audit records for events of interest based on [Assignment: organization-defined audit fields within audit records]."
+          "summary": "The information system provides the capability to process audit records for events of interest based on {{auditAndAccountabilitylogAnalysisKeyFields}}."
         },
         {
           "ref": "AU-8",
           "title": "Time Stamps",
-          "summary": "The information system:\n a. Uses internal system clocks to generate time stamps for audit records; and\n b. Records time stamps for audit records that can be mapped to Coordinated Universal Time (UTC) or Greenwich Mean Time (GMT) and meets [Assignment: organization-defined granularity of time measurement]."
+          "summary": "The information system:\n a. Uses internal system clocks to generate time stamps for audit records; and\n b. Records time stamps for audit records that can be mapped to Coordinated Universal Time (UTC) or Greenwich Mean Time (GMT) and meets {{auditAndAccountabilitytimeSyncAccuracy}}."
         },
         {
           "ref": "AU-8 (1)",
           "title": "Time Stamps | Synchronization With Authoritative Time Source",
-          "summary": "The information system:\n (a)   Compares the internal information system clocks **At least hourly** with [Assignment: organization-defined authoritative time source]; and\n (b)   Synchronizes the internal system clocks to the authoritative time source when the time difference is greater than **At least hourly**."
+          "summary": "The information system:\n (a)   Compares the internal information system clocks **At least hourly** with {{auditAndAccountabilitytimeSyncSource}}; and\n (b)   Synchronizes the internal system clocks to the authoritative time source when the time difference is greater than **At least hourly**."
         },
         {
           "ref": "AU-9",
@@ -340,7 +340,7 @@
         {
           "ref": "AU-9 (4)",
           "title": "Protection of Audit Information | Access By Subset of Privileged Users",
-          "summary": "The organization authorizes access to management of audit functionality to only [Assignment: organization-defined subset of privileged users]."
+          "summary": "The organization authorizes access to management of audit functionality to only {{auditAndAccountabilityprivilegedUserList}}."
         },
         {
           "ref": "AU-11",
@@ -350,7 +350,7 @@
         {
           "ref": "AU-12",
           "title": "Audit Generation",
-          "summary": "The information system:\n a. Provides audit record generation capability for the auditable events defined in AU-2 a. at **all information system and network components where audit capability is deployed/available**;\n b. Allows [Assignment: organization-defined personnel or roles] to select which auditable events are to be audited by specific components of the information system; and\n c.    Generates audit records for the events defined in AU-2 d. with the content defined in AU-3."
+          "summary": "The information system:\n a. Provides audit record generation capability for the auditable events defined in AU-2 a. at **all information system and network components where audit capability is deployed/available**;\n b. Allows {{auditAndAccountabilityAuditPersonnelList}} to select which auditable events are to be audited by specific components of the information system; and\n c.    Generates audit records for the events defined in AU-2 d. with the content defined in AU-3."
         }
       ]
     },
@@ -360,7 +360,7 @@
         {
           "ref": "CA-1",
           "title": "Security Assessment and Authorization Policy and Procedures",
-          "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A security assessment and authorization policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the security assessment and authorization policy and associated security assessment and authorization controls; and\n b. Reviews and updates the current:\n   1. Security assessment and authorization policy **at least every 3 years**; and\n   2. Security assessment and authorization procedures **at least annually**."
+          "summary": "The organization:\n a. Develops, documents, and disseminates to {{securityAssessmentandAuthorizationPolicyAndProcedureDisseminationList}}:\n   1. A security assessment and authorization policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the security assessment and authorization policy and associated security assessment and authorization controls; and\n b. Reviews and updates the current:\n   1. Security assessment and authorization policy **at least every 3 years**; and\n   2. Security assessment and authorization procedures **at least annually**."
         },
         {
           "ref": "CA-2",
@@ -370,12 +370,12 @@
         {
           "ref": "CA-2 (1)",
           "title": "Security Assessments | Independent Assessors",
-          "summary": "The organization employs assessors or assessment teams with [Assignment: organization-defined level of independence] to conduct security control assessments."
+          "summary": "The organization employs assessors or assessment teams with {{securityAssessmentandAuthorizationassessorIndependence}} to conduct security control assessments."
         },
         {
           "ref": "CA-2 (2)",
           "title": "Security Assessments | Specialized Assessments",
-          "summary": "The organization includes as part of security control assessments, **at least annually**, [Selection: announced; unannounced], [Selection (one or more): in-depth monitoring; vulnerability scanning; malicious user testing; insider threat assessment; performance/load testing; [Assignment: organization-defined other forms of security assessment]]."
+          "summary": "The organization includes as part of security control assessments, **at least annually**, [Selection: announced; unannounced], [Selection (one or more): in-depth monitoring; vulnerability scanning; malicious user testing; insider threat assessment; performance/load testing; {{securityAssessmentandAuthorizationassessmentTypes}}."
         },
         {
           "ref": "CA-2 (3)",
@@ -390,12 +390,12 @@
         {
           "ref": "CA-3 (3)",
           "title": "System Interconnections | Unclassified Non-National Security System Connections",
-          "summary": "The organization prohibits the direct connection of an **Boundary Protections which meet the Trusted Internet Connection (TIC) requirements** to an external network without the use of [Assignment; organization-defined boundary protection device]."
+          "summary": "The organization prohibits the direct connection of an **Boundary Protections which meet the Trusted Internet Connection (TIC) requirements** to an external network without the use of {{securityAssessmentandAuthorizationapprovedTICboundaryProtectionDevice}}."
         },
         {
           "ref": "CA-3 (5)",
           "title": "System Interconnections | Restrictions on External System Connections",
-          "summary": "The organization employs [Selection: allow-all, deny-by-exception; deny-all, permit-by-exception] policy for allowing [Assignment: organization-defined information systems] to connect to external information systems."
+          "summary": "The organization employs [Selection: allow-all, deny-by-exception; deny-all, permit-by-exception] policy for allowing {{securityAssessmentandAuthorizationexternalSystemConnectionList}} to connect to external information systems."
         },
         {
           "ref": "CA-5",
@@ -410,17 +410,17 @@
         {
           "ref": "CA-7",
           "title": "Continuous Monitoring",
-          "summary": "The organization develops a continuous monitoring strategy and implements a continuous monitoring program that includes:\n a. Establishment of [Assignment: organization-defined metrics] to be monitored;\n b. Establishment of [Assignment: organization-defined frequencies] for monitoring and [Assignment: organization-defined frequencies] for assessments supporting such monitoring;\n c. Ongoing security control assessments in accordance with the organizational continuous monitoring strategy;\n d. Ongoing security status monitoring of organization-defined metrics in accordance with the organizational continuous monitoring strategy;\n e. Correlation and analysis of security-related information generated by assessments and monitoring;\n f. Response actions to address results of the analysis of security-related information; and\n g. Reporting the security status of organization and the information system to **to meet Federal and FedRAMP requirements** [Assignment: organization-defined frequency]."
+          "summary": "The organization develops a continuous monitoring strategy and implements a continuous monitoring program that includes:\n a. Establishment of {{securityAssessmentandAuthorizationcontinuousMonitoringMetricsList}} to be monitored;\n b. Establishment of {{securityAssessmentandAuthorizationcontinuousMonitoringFrequency}} for monitoring and {{securityAssessmentandAuthorizationassessmentFrequency}} for assessments supporting such monitoring;\n c. Ongoing security control assessments in accordance with the organizational continuous monitoring strategy;\n d. Ongoing security status monitoring of organization-defined metrics in accordance with the organizational continuous monitoring strategy;\n e. Correlation and analysis of security-related information generated by assessments and monitoring;\n f. Response actions to address results of the analysis of security-related information; and\n g. Reporting the security status of organization and the information system to **to meet Federal and FedRAMP requirements** {{securityAssessmentandAuthorizationsecurityStatusReportingFrequency}}."
         },
         {
           "ref": "CA-7 (1)",
           "title": "Continuous Monitoring | Independent Assessment",
-          "summary": "The organization employs assessors or assessment teams with [Assignment: organization-defined level of independence] to monitor the security controls in the information system on an ongoing basis."
+          "summary": "The organization employs assessors or assessment teams with {{securityAssessmentandAuthorizationassessorIndependence}} to monitor the security controls in the information system on an ongoing basis."
         },
         {
           "ref": "CA-8",
           "title": "Penetration Testing",
-          "summary": "The organization conducts penetration testing **at least annually** on [Assignment: organization-defined information systems or system components]."
+          "summary": "The organization conducts penetration testing **at least annually** on {{securityAssessmentandAuthorizationassessmentTargetList}}."
         },
         {
           "ref": "CA-8 (1)",
@@ -430,7 +430,7 @@
         {
           "ref": "CA-9",
           "title": "Internal System Connections",
-          "summary": "The organization:\n a. Authorizes internal connections of [Assignment: organization-defined information system components or classes of components] to the information system; and\n b. Documents, for each internal connection, the interface characteristics, security requirements, and the nature of the information communicated."
+          "summary": "The organization:\n a. Authorizes internal connections of {{securityAssessmentandAuthorizationinternalConnectionsComponentList}} to the information system; and\n b. Documents, for each internal connection, the interface characteristics, security requirements, and the nature of the information communicated."
         }
       ]
     },
@@ -440,7 +440,7 @@
         {
           "ref": "CM-1",
           "title": "Configuration Management Policy and Procedures",
-          "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A configuration management policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the configuration management policy and associated configuration management controls; and\n b. Reviews and updates the current:\n   1. Configuration management policy **at least every 3 years**; and\n   2. Configuration management procedures **at least annually**."
+          "summary": "The organization:\n a. Develops, documents, and disseminates to {{configurationManagementPolicyAndProcedureDisseminationList}}:\n   1. A configuration management policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the configuration management policy and associated configuration management controls; and\n b. Reviews and updates the current:\n   1. Configuration management policy **at least every 3 years**; and\n   2. Configuration management procedures **at least annually**."
         },
         {
           "ref": "CM-2",
@@ -450,7 +450,7 @@
         {
           "ref": "CM-2 (1)",
           "title": "Baseline Configuration | Reviews and Updates",
-          "summary": "The organization reviews and updates the baseline configuration of the information system: \n (a)   [Assignment: organization-defined frequency];\n (b)   When required due to [Assignment organization-defined circumstances]; and\n (c)   As an integral part of information system component installations and upgrades."
+          "summary": "The organization reviews and updates the baseline configuration of the information system: \n (a) {{configurationManagementbaselineConfigurationReviewFrequency}};\n (b)   When required due to {{configurationManagementbaselineConfigurationReviewCircumstances}}; and\n (c)   As an integral part of information system component installations and upgrades."
         },
         {
           "ref": "CM-2 (2)",
@@ -460,17 +460,17 @@
         {
           "ref": "CM-2 (3)",
           "title": "Baseline Configuration | Retention of Previous Configurations",
-          "summary": "The organization retains [Assignment: organization-defined previous versions of baseline configurations of the information system] to support rollback."
+          "summary": "The organization retains {{configurationManagementRetentionofPreviousConfigurationsList}} to support rollback."
         },
         {
           "ref": "CM-2 (7)",
           "title": "Baseline Configuration | Configure Systems, Components, or Devices for High-Risk Areas",
-          "summary": "The organization:\n (a)   Issues [Assignment: organization-defined information systems, system components, or devices] with [Assignment: organization-defined configurations] to individuals traveling to locations that the organization deems to be of significant risk; and\n (b)   Applies [Assignment: organization-defined security safeguards] to the devices when the individuals return."
+          "summary": "The organization:\n (a)   Issues {{configurationManagementDevices}} with {{configurationManagementHighRiskAreasConfigurations}} to individuals traveling to locations that the organization deems to be of significant risk; and\n (b)   Applies {{configurationManagementDeviceSafeguards}} to the devices when the individuals return."
         },
         {
           "ref": "CM-3",
           "title": "Configuration Change Control",
-          "summary": "The organization:\n a. Determines the types of changes to the information system that are configuration-controlled;\n b. Reviews proposed configuration-controlled changes to the information system and approves or disapproves such changes with explicit consideration for security impact analyses;\n c. Documents configuration change decisions associated with the information system;\n d. Implements approved configuration-controlled changes to the information system;\n e. Retains records of configuration-controlled changes to the information system for [Assignment: organization-defined time period];\n f. Audits and reviews activities associated with configuration-controlled changes to the information system; and\n g. Coordinates and provides oversight for configuration change control activities through [Assignment: organization-defined configuration change control element (e.g., committee, board] that convenes [Selection (one or more): [Assignment: organization-defined frequency]; [Assignment: organization-defined configuration change conditions]]."
+          "summary": "The organization:\n a. Determines the types of changes to the information system that are configuration-controlled;\n b. Reviews proposed configuration-controlled changes to the information system and approves or disapproves such changes with explicit consideration for security impact analyses;\n c. Documents configuration change decisions associated with the information system;\n d. Implements approved configuration-controlled changes to the information system;\n e. Retains records of configuration-controlled changes to the information system for {{configurationManagementRecordRetentionPeriod}};\n f. Audits and reviews activities associated with configuration-controlled changes to the information system; and\n g. Coordinates and provides oversight for configuration change control activities through [{{configurationManagementChangeControlElement}} (e.g., committee, board] that convenes [Selection (one or more): {{Assignment: organization-defined frequency}}; {{configurationManagementConfigurationChangeConditions}}]."
         },
         {
           "ref": "CM-4",
@@ -490,22 +490,22 @@
         {
           "ref": "CM-5 (3)",
           "title": "Access Restrictions for Change | Signed Components",
-          "summary": "The information system prevents the installation of [Assignment: organization-defined software and firmware components] without verification that the component has been digitally signed using a certificate that is recognized and approved by the organization."
+          "summary": "The information system prevents the installation of {{configurationManagementRestrictedSoftwareComponents}} without verification that the component has been digitally signed using a certificate that is recognized and approved by the organization."
         },
         {
           "ref": "CM-5 (5)",
           "title": "Access Restrictions for Change | Limit Production / Operational Privileges",
-          "summary": "The organization:\n (a)   Limits privileges to change information system components and system-related information within a production or operational environment; and\n (b)   Reviews and reevaluates privileges [Assignment: organization-defined frequency]."
+          "summary": "The organization:\n (a)   Limits privileges to change information system components and system-related information within a production or operational environment; and\n (b)   Reviews and reevaluates privileges {{configurationManagementUserPrivelegesReviewFrequency}}."
         },
         {
           "ref": "CM-6",
           "title": "Configuration Settings",
-          "summary": "The organization:\n a. Establishes and documents configuration settings for information technology products employed within the information system using **United States Government Configuration Baseline (USGCB)** that reflect the most restrictive mode consistent with operational requirements;\n b. Implements the configuration settings;\n c. Identifies, documents, and approves any deviations from established configuration settings for [Assignment: organization-defined information system components] based on [Assignment: organization-defined operational requirements]; and\n d. Monitors and controls changes to the configuration settings in accordance with organizational policies and procedures."
+          "summary": "The organization:\n a. Establishes and documents configuration settings for information technology products employed within the information system using **United States Government Configuration Baseline (USGCB)** that reflect the most restrictive mode consistent with operational requirements;\n b. Implements the configuration settings;\n c. Identifies, documents, and approves any deviations from established configuration settings for [Assignment: organization-defined information system components] based on {{configurationManagementOperationalRequirements}}; and\n d. Monitors and controls changes to the configuration settings in accordance with organizational policies and procedures."
         },
         {
           "ref": "CM-6 (1)",
           "title": "Configuration Settings | Automated Central Management / Application / Verification",
-          "summary": "The organization employs automated mechanisms to centrally manage, apply, and verify configuration settings for [Assignment: organization-defined information system components]."
+          "summary": "The organization employs automated mechanisms to centrally manage, apply, and verify configuration settings for {{configurationManagementCentralizedAutomatedMechanisms}}."
         },
         {
           "ref": "CM-7",
@@ -515,22 +515,22 @@
         {
           "ref": "CM-7 (1)",
           "title": "Least Functionality | Periodic Review",
-          "summary": "The organization:\n (a)   Reviews the information system [Assignment: organization-defined frequency] to identify unnecessary and/or nonsecure functions, ports, protocols, and services; and\n (b)   Disables [Assignment: organization-defined functions, ports, protocols, and services within the information system deemed to be unnecessary and/or nonsecure]."
+          "summary": "The organization:\n (a)   Reviews the information system {{configurationManagementDisabledFunctions}} to identify unnecessary and/or nonsecure functions, ports, protocols, and services; and\n (b)   Disables [Assignment: organization-defined functions, ports, protocols, and services within the information system deemed to be unnecessary and/or nonsecure]."
         },
         {
           "ref": "CM-7 (2)",
           "title": "Least Functionality | Prevent Program Execution",
-          "summary": "The information system prevents program execution in accordance with [Selection (one or more): [Assignment: organization-defined policies regarding software program usage and restrictions]; rules authorizing the terms and conditions of software program usage]."
+          "summary": "The information system prevents program execution in accordance with [Selection (one or more): {{configurationManagementProgramExecutionPreventionRules}}; rules authorizing the terms and conditions of software program usage]."
         },
         {
           "ref": "CM-7 (5)",
           "title": "Least Functionality | Authorized Software / Whitelisting",
-          "summary": "The organization:\n (a)   Identifies [Assignment: organization-defined software programs authorized to execute on the information system];\n (b)   Employs a deny-all, permit-by-exception policy to allow the execution of authorized software programs on the information system; and\n (c)   Reviews and updates the list of authorized software programs [Assignment: organization- defined frequency]."
+          "summary": "The organization:\n (a)   Identifies {{configurationManagementAuthorizedSoftwarePrograms}};\n (b)   Employs a deny-all, permit-by-exception policy to allow the execution of authorized software programs on the information system; and\n (c)   Reviews and updates the list of authorized software programs {{configurationManagementAuthorizedSoftwareListReviewFrequency}}."
         },
         {
           "ref": "CM-8",
           "title": "Information System Component Inventory",
-          "summary": "The organization:\n a. Develops and documents an inventory of information system components that:\n   1. Accurately reflects the current information system;\n   2. Includes all components within the authorization boundary of the information system;\n   3. Is at the level of granularity deemed necessary for tracking and reporting; and\n   4. Includes [Assignment: organization-defined information deemed necessary to achieve effective information system component accountability]; and\n b. Reviews and updates the information system component inventory **at least monthly**."
+          "summary": "The organization:\n a. Develops and documents an inventory of information system components that:\n   1. Accurately reflects the current information system;\n   2. Includes all components within the authorization boundary of the information system;\n   3. Is at the level of granularity deemed necessary for tracking and reporting; and\n   4. Includes {{ConfigurationManagementSystemSpecificInformation}}; and\n b. Reviews and updates the information system component inventory **at least monthly**."
         },
         {
           "ref": "CM-8 (1)",
@@ -540,7 +540,7 @@
         {
           "ref": "CM-8 (3)",
           "title": "Information System Component Inventory | Automated Unauthorized Component Detection",
-          "summary": "The organization:\n (a)   Employs automated mechanisms [Assignment: organization-defined frequency] to detect the presence of unauthorized hardware, software, and firmware components within the information system; and\n (b)   Takes the following actions when unauthorized components are detected: [Selection (one or more): disables network access by such components; isolates the components; notifies [Assignment: organization-defined personnel or roles]]."
+          "summary": "The organization:\n (a)   Employs automated mechanisms {{configurationManagementchangeMonitoringFrequency}} to detect the presence of unauthorized hardware, software, and firmware components within the information system; and\n (b)   Takes the following actions when unauthorized components are detected: [Selection (one or more): disables network access by such components; isolates the components; notifies [Assignment: organization-defined personnel or roles]]."
         },
         {
           "ref": "CM-8 (5)",
@@ -560,12 +560,12 @@
         {
           "ref": "CM-10 (1)",
           "title": "Software Usage Restrictions | Open Source Software",
-          "summary": "The organization establishes the following restrictions on the use of open source software: [Assignment: organization-defined restrictions]."
+          "summary": "The organization establishes the following restrictions on the use of open source software: {{configurationManagementOpenSourceSoftwareUsageRestrictions}}."
         },
         {
           "ref": "CM-11",
           "title": "User-Installed Software",
-          "summary": "The organization:\n a. Establishes [Assignment: organization-defined policies] governing the installation of software by users;\n b. Enforces software installation policies through [Assignment: organization-defined methods]; and\n c. Monitors policy compliance at **Continuously (via CM-7 (5))**."
+          "summary": "The organization:\n a. Establishes {{configurationManagementSoftwareInstallationPolicy}} governing the installation of software by users;\n b. Enforces software installation policies through {{configurationManagementinstallationPolicyEnforcementMethods}}; and\n c. Monitors policy compliance at **Continuously (via CM-7 (5))**."
         }
       ]
     },
@@ -575,12 +575,12 @@
         {
           "ref": "CP-1",
           "title": "Contingency Planning Policy and Procedures",
-          "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A contingency planning policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the contingency planning policy and associated contingency planning controls; and\n b. Reviews and updates the current:\n   1. Contingency planning policy **at least every 3 years**; and\n   2. Contingency planning procedures **at least annually**."
+          "summary": "The organization:\n a. Develops, documents, and disseminates to [contingencyPlanningPolicyAndProcedureDisseminationList]:\n   1. A contingency planning policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the contingency planning policy and associated contingency planning controls; and\n b. Reviews and updates the current:\n   1. Contingency planning policy **at least every 3 years**; and\n   2. Contingency planning procedures **at least annually**."
         },
         {
           "ref": "CP-2",
           "title": "Contingency Plan",
-          "summary": "The organization:\n a. Develops a contingency plan for the information system that:\n   1. Identifies essential missions and business functions and associated contingency requirements;\n   2. Provides recovery objectives, restoration priorities, and metrics;\n   3. Addresses contingency roles, responsibilities, assigned individuals with contact information;\n   4. Addresses maintaining essential missions and business functions despite an information system disruption, compromise, or failure;\n   5. Addresses eventual, full information system restoration without deterioration of the security safeguards originally planned and implemented; and\n   6. Is reviewed and approved by [Assignment: organization-defined personnel or roles];\n b. Distributes copies of the contingency plan to [Assignment: organization-defined key contingency personnel (identified by name and/or by role) and organizational elements];\n c. Coordinates contingency planning activities with incident handling activities;\n d. Reviews the contingency plan for the information system **at least annually**;\n e. Updates the contingency plan to address changes to the organization, information system, or environment of operation and problems encountered during contingency plan implementation, execution, or testing;\n f. Communicates contingency plan changes to [Assignment: organization-defined key contingency personnel (identified by name and/or by role) and organizational elements]; and\n g. Protects the contingency plan from unauthorized disclosure and modification."
+          "summary": "The organization:\n a. Develops a contingency plan for the information system that:\n   1. Identifies essential missions and business functions and associated contingency requirements;\n   2. Provides recovery objectives, restoration priorities, and metrics;\n   3. Addresses contingency roles, responsibilities, assigned individuals with contact information;\n   4. Addresses maintaining essential missions and business functions despite an information system disruption, compromise, or failure;\n   5. Addresses eventual, full information system restoration without deterioration of the security safeguards originally planned and implemented; and\n   6. Is reviewed and approved by {{contingencyPlanningContingencyPlanReviewPersonnel}};\n b. Distributes copies of the contingency plan to [{{contingencyPlanningContingencyPlanDistributionList}} (identified by name and/or by role) and organizational elements];\n c. Coordinates contingency planning activities with incident handling activities;\n d. Reviews the contingency plan for the information system **at least annually**;\n e. Updates the contingency plan to address changes to the organization, information system, or environment of operation and problems encountered during contingency plan implementation, execution, or testing;\n f. Communicates contingency plan changes to [{{contingencyPlanningcontingencyPlanDistributionList}} (identified by name and/or by role) and organizational elements]; and\n g. Protects the contingency plan from unauthorized disclosure and modification."
         },
         {
           "ref": "CP-2 (1)",
@@ -595,7 +595,7 @@
         {
           "ref": "CP-2 (3)",
           "title": "Contingency Plan | Resume Essential Missions / Business Functions",
-          "summary": "The organization plans for the resumption of essential missions and business functions within\n[Assignment: organization-defined time period] of contingency plan activation."
+          "summary": "The organization plans for the resumption of essential missions and business functions within\n{{contingencyPlanningResumptionTimePeriod}} of contingency plan activation."
         },
         {
           "ref": "CP-2 (8)",
@@ -635,7 +635,7 @@
         {
           "ref": "CP-7",
           "title": "Alternate Processing Site",
-          "summary": "The organization:\n a. Establishes an alternate processing site including necessary agreements to permit the transfer and resumption of [Assignment: organization-defined information system operations] for essential missions/business functions within [Assignment: organization-defined time period consistent with recovery time and recovery point objectives] when the primary processing capabilities are unavailable;\n b. Ensures that equipment and supplies required to transfer and resume operations are available at the alternate processing site or contracts are in place to support delivery to the site within the organization-defined time period for transfer/resumption; and \n c. Ensures that the alternate processing site provides information security safeguards equivalent to that of the primary site."
+          "summary": "The organization:\n a. Establishes an alternate processing site including necessary agreements to permit the transfer and resumption of {{contingencyPlanningAlternateProcessingSiteInfoSystemOperations}} for essential missions/business functions within {{contingencyPlanningProcessingSiteRecoveryPeriod}} when the primary processing capabilities are unavailable;\n b. Ensures that equipment and supplies required to transfer and resume operations are available at the alternate processing site or contracts are in place to support delivery to the site within the organization-defined time period for transfer/resumption; and \n c. Ensures that the alternate processing site provides information security safeguards equivalent to that of the primary site."
         },
         {
           "ref": "CP-7 (1)",
@@ -655,7 +655,7 @@
         {
           "ref": "CP-8",
           "title": "Telecommunications Services",
-          "summary": "The organization establishes alternate telecommunications services including necessary agreements to permit the resumption of [Assignment: organization-defined information system operations] for essential missions and business functions within [Assignment: organization- defined time period] when the primary telecommunications capabilities are unavailable at either the primary or alternate processing or storage sites."
+          "summary": "The organization establishes alternate telecommunications services including necessary agreements to permit the resumption of {{contingencyPlanningAlternateTelecommincationsServicesSystemInfoOperations}} for essential missions and business functions within {{contingencyPlanningTelecommunicationsServicesRecoveryPeriod}} when the primary telecommunications capabilities are unavailable at either the primary or alternate processing or storage sites."
         },
         {
           "ref": "CP-8 (1)",
@@ -680,7 +680,7 @@
         {
           "ref": "CP-9 (3)",
           "title": "Information System Backup | Separate Storage for Critical Information",
-          "summary": "The organization stores backup copies of [Assignment: organization-defined critical information system software and other security-related information] in a separate facility or in a fire-rated container that is not collocated with the operational system."
+          "summary": "The organization stores backup copies of {{contingencyPlanningCriticalinformation}} in a separate facility or in a fire-rated container that is not collocated with the operational system."
         },
         {
           "ref": "CP-10",
@@ -700,7 +700,7 @@
         {
           "ref": "IA-1",
           "title": "Identification and Authentication Policy and Procedures",
-          "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. An identification and authentication policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the identification and authentication policy and associated identification and authentication controls; and\n b. Reviews and updates the current:\n   1. Identification and authentication policy **at least every 3 years**; and\n   2. Identification and authentication procedures **at least annually**."
+          "summary": "The organization:\n a. Develops, documents, and disseminates to {{identificationandAuthenticationPolicyAndProcedureDisseminationList}}:\n   1. An identification and authentication policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the identification and authentication policy and associated identification and authentication controls; and\n b. Reviews and updates the current:\n   1. Identification and authentication policy **at least every 3 years**; and\n   2. Identification and authentication procedures **at least annually**."
         },
         {
           "ref": "IA-2",
@@ -745,12 +745,12 @@
         {
           "ref": "IA-3",
           "title": "Device Identification and Authentication",
-          "summary": "The information system uniquely identifies and authenticates [Assignment: organization- defined specific and/or types of devices] before establishing a [Selection (one or more): local; remote; network] connection."
+          "summary": "The information system uniquely identifies and authenticates {{identificationandAuthenticationDeviceType}} before establishing a [Selection (one or more): local; remote; network] connection."
         },
         {
           "ref": "IA-4",
           "title": "Identifier Management",
-          "summary": "The organization manages information system identifiers by:\n a. Receiving authorization from [Assignment: organization-defined personnel or roles] to assign an individual, group, role, or device identifier;\n b. Selecting an identifier that identifies an individual, group, role, or device;\n c. Assigning the identifier to the intended individual, group, role, or device;\n d. Preventing reuse of identifiers for **at least two years**; and\n e. Disabling the identifier after **ninety days for user identifiers**."
+          "summary": "The organization manages information system identifiers by:\n a. Receiving authorization from {{identificationandAuthenticationIdentifierManagingPersonnel}} to assign an individual, group, role, or device identifier;\n b. Selecting an identifier that identifies an individual, group, role, or device;\n c. Assigning the identifier to the intended individual, group, role, or device;\n d. Preventing reuse of identifiers for **at least two years**; and\n e. Disabling the identifier after **ninety days for user identifiers**."
         },
         {
           "ref": "IA-4 (4)",
@@ -760,12 +760,12 @@
         {
           "ref": "IA-5",
           "title": "Authenticator Management",
-          "summary": "The organization manages information system authenticators by:\n  a. Verifying, as part of the initial authenticator distribution, the identity of the individual, group, role, or device receiving the authenticator;\n  b. Establishing initial authenticator content for authenticators defined by the organization;\n  c. Ensuring that authenticators have sufficient strength of mechanism for their intended use;\n  d. Establishing and implementing administrative procedures for initial authenticator distribution, for lost/compromised or damaged authenticators, and for revoking authenticators;\n  e. Changing default content of authenticators prior to information system installation;\n  f. Establishing minimum and maximum lifetime restrictions and reuse conditions for authenticators;\n  g. Changing/refreshing authenticators [Assignment: organization-defined time period by authenticator type];\n  h. Protecting authenticator content from unauthorized disclosure and modification;\n  i. Requiring individuals to take, and having devices implement, specific security safeguards to protect authenticators; and\n  j. Changing authenticators for group/role accounts when membership to those accounts changes."
+          "summary": "The organization manages information system authenticators by:\n  a. Verifying, as part of the initial authenticator distribution, the identity of the individual, group, role, or device receiving the authenticator;\n  b. Establishing initial authenticator content for authenticators defined by the organization;\n  c. Ensuring that authenticators have sufficient strength of mechanism for their intended use;\n  d. Establishing and implementing administrative procedures for initial authenticator distribution, for lost/compromised or damaged authenticators, and for revoking authenticators;\n  e. Changing default content of authenticators prior to information system installation;\n  f. Establishing minimum and maximum lifetime restrictions and reuse conditions for authenticators;\n  g. Changing/refreshing authenticators {{identificationandAuthenticationAuthenticatorChangePeriod}};\n  h. Protecting authenticator content from unauthorized disclosure and modification;\n  i. Requiring individuals to take, and having devices implement, specific security safeguards to protect authenticators; and\n  j. Changing authenticators for group/role accounts when membership to those accounts changes."
         },
         {
           "ref": "IA-5 (1)",
           "title": "Authenticator Management | Password-Based Authentication",
-          "summary": "The information system, for password-based authentication:\n (a)   Enforces minimum password complexity of [Assignment: organization-defined requirements for case sensitivity, number of characters, mix of upper-case letters, lower-case letters, numbers, and special characters, including minimum requirements for each type];\n (b)   Enforces at least the following number of changed characters when new passwords are created: [Assignment: organization-defined number];\n (c)   Stores and transmits only encrypted representations of passwords;\n (d)   Enforces password minimum and maximum lifetime restrictions of [Assignment: organization- defined numbers for lifetime minimum, lifetime maximum];\n (e)   Prohibits password reuse for [Assignment: organization-defined number] generations; and\n (f) Allows the use of a temporary password for system logons with an immediate change to a permanent password."
+          "summary": "The information system, for password-based authentication:\n (a)   Enforces minimum password complexity of {{identificationandAuthenticationMinimumPasswordComplexityRequirements}};\n (b)   Enforces at least the following number of changed characters when new passwords are created: {{identificationandAuthenticationNumberofChangedCharacters}};\n (c)   Stores and transmits only encrypted representations of passwords;\n (d)   Enforces password minimum and maximum lifetime restrictions of {{identificationandAuthenticationPasswordLifetimeRestrictions}};\n (e)   Prohibits password reuse for {{identificationandAuthenticationPasswordReuseRestrictions}} generations; and\n (f) Allows the use of a temporary password for system logons with an immediate change to a permanent password."
         },
         {
           "ref": "IA-5 (2)",
@@ -775,12 +775,12 @@
         {
           "ref": "IA-5 (3)",
           "title": "Authenticator Management | In-Person or Trusted Third-Party Registration",
-          "summary": "The organization requires that the registration process to receive **All hardware/biometric (multifactor authenticators** be conducted [Selection: in person; by a trusted third party] before **in person** with authorization by [Assignment: organization-defined personnel or roles]."
+          "summary": "The organization requires that the registration process to receive **All hardware/biometric (multifactor authenticators** be conducted [Selection: in person; by a trusted third party] before **in person** with authorization by {{identificationandAuthenticationAuthorizingPersonnel}}."
         },
         {
           "ref": "IA-5 (4)",
           "title": "Authenticator Management | Automated Support for Password Strength Determination",
-          "summary": "The organization employs automated tools to determine if password authenticators are sufficiently strong to satisfy [Assignment: organization-defined requirements]."
+          "summary": "The organization employs automated tools to determine if password authenticators are sufficiently strong to satisfy {{identificationandAuthenticationPasswordStrengthRequirements}}."
         },
         {
           "ref": "IA-5 (6)",
@@ -795,7 +795,7 @@
         {
           "ref": "IA-5 (11)",
           "title": "Authenticator Management | Hardware Token-Based Authentication",
-          "summary": "The information system, for hardware token-based authentication, employs mechanisms that satisfy [Assignment: organization-defined token quality requirements]."
+          "summary": "The information system, for hardware token-based authentication, employs mechanisms that satisfy {{identificationandAuthenticationTokenQualityRequirements}}."
         },
         {
           "ref": "IA-6",
@@ -825,7 +825,7 @@
         {
           "ref": "IA-8 (3)",
           "title": "Identification and Authentication | Use of Ficam-Approved Products",
-          "summary": "The organization employs only FICAM-approved information system components in [Assignment:\norganization-defined information systems] to accept third-party credentials."
+          "summary": "The organization employs only FICAM-approved information system components in {{identificationandAuthenticationFICAMapprovedInformationSystems}} to accept third-party credentials."
         },
         {
           "ref": "IA-8 (4)",
@@ -840,12 +840,12 @@
         {
           "ref": "IR-1",
           "title": "Incident Response Policy and Procedures",
-          "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. An incident response policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the incident response policy and associated incident response controls; and\n b. Reviews and updates the current:\n   1. Incident response policy **at least every 3 years**; and\n   2. Incident response procedures **at least annually**."
+          "summary": "The organization:\n a. Develops, documents, and disseminates to {{incidentResponsePolicyAndProcedureDisseminationList}}:\n   1. An incident response policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the incident response policy and associated incident response controls; and\n b. Reviews and updates the current:\n   1. Incident response policy **at least every 3 years**; and\n   2. Incident response procedures **at least annually**."
         },
         {
           "ref": "IR-2",
           "title": "Incident Response Training",
-          "summary": "The organization provides incident response training to information system users consistent with assigned roles and responsibilities:\n a. Within [Assignment: organization-defined time period] of assuming an incident response role or responsibility;\n b. When required by information system changes; and\n c. **at least annually** thereafter."
+          "summary": "The organization provides incident response training to information system users consistent with assigned roles and responsibilities:\n a. Within {{incidentResponseTrainingPeriod}} of assuming an incident response role or responsibility;\n b. When required by information system changes; and\n c. **at least annually** thereafter."
         },
         {
           "ref": "IR-3",
@@ -875,7 +875,7 @@
         {
           "ref": "IR-6",
           "title": "Incident Reporting",
-          "summary": "The organization:\n a. Requires personnel to report suspected security incidents to the organizational incident response capability within **US-CERT incident reporting timelines as specified in NIST Special Publication 800-61 (as amended)**; and\n b. Reports security incident information to [Assignment: organization-defined authorities]."
+          "summary": "The organization:\n a. Requires personnel to report suspected security incidents to the organizational incident response capability within **US-CERT incident reporting timelines as specified in NIST Special Publication 800-61 (as amended)**; and\n b. Reports security incident information to {{incidentResponseIncidentNotifactionAuthorities}}."
         },
         {
           "ref": "IR-6 (1)",
@@ -900,32 +900,32 @@
         {
           "ref": "IR-8",
           "title": "Incident Response Plan",
-          "summary": "The organization:\n a. Develops an incident response plan that:\n   1. Provides the organization with a roadmap for implementing its incident response capability;\n   2. Describes the structure and organization of the incident response capability;\n   3. Provides a high-level approach for how the incident response capability fits into the overall organization;\n   4. Meets the unique requirements of the organization, which relate to mission, size, structure, and functions;\n   5. Defines reportable incidents;\n   6. Provides metrics for measuring the incident response capability within the organization;\n   7. Defines the resources and management support needed to effectively maintain and mature an incident response capability; and\n   8. Is reviewed and approved by [Assignment: organization-defined personnel or roles];\n b. Distributes copies of the incident response plan to **see additional FedRAMP Requirements and Guidance**;\n c. Reviews the incident response plan **at least annually**;\n d. Updates the incident response plan to address system/organizational changes or problems encountered during plan implementation, execution, or testing;\n  e. Communicates incident response plan changes to **see additional FedRAMP Requirements and Guidance**; and\nf. Protects the incident response plan from unauthorized disclosure and modification."
+          "summary": "The organization:\n a. Develops an incident response plan that:\n   1. Provides the organization with a roadmap for implementing its incident response capability;\n   2. Describes the structure and organization of the incident response capability;\n   3. Provides a high-level approach for how the incident response capability fits into the overall organization;\n   4. Meets the unique requirements of the organization, which relate to mission, size, structure, and functions;\n   5. Defines reportable incidents;\n   6. Provides metrics for measuring the incident response capability within the organization;\n   7. Defines the resources and management support needed to effectively maintain and mature an incident response capability; and\n   8. Is reviewed and approved by {{incidentResponsePlanReviewPersonnel}};\n b. Distributes copies of the incident response plan to **see additional FedRAMP Requirements and Guidance**;\n c. Reviews the incident response plan **at least annually**;\n d. Updates the incident response plan to address system/organizational changes or problems encountered during plan implementation, execution, or testing;\n  e. Communicates incident response plan changes to **see additional FedRAMP Requirements and Guidance**; and\nf. Protects the incident response plan from unauthorized disclosure and modification."
         },
         {
           "ref": "IR-9",
           "title": "Information Spillage Response",
-          "summary": "The organization responds to information spills by:\n a. Identifying the specific information involved in the information system contamination;\n b. Alerting [Assignment: organization-defined personnel or roles] of the information spill using a method of communication not associated with the spill;\n c. Isolating the contaminated information system or system component;\n d. Eradicating the information from the contaminated information system or component;\n e. Identifying other information systems or system components that may have been subsequently contaminated; and\n f. Performing other [Assignment: organization-defined actions]."
+          "summary": "The organization responds to information spills by:\n a. Identifying the specific information involved in the information system contamination;\n b. Alerting {{incidentResponseInformationSpillNotificationPersonnel}} of the information spill using a method of communication not associated with the spill;\n c. Isolating the contaminated information system or system component;\n d. Eradicating the information from the contaminated information system or component;\n e. Identifying other information systems or system components that may have been subsequently contaminated; and\n f. Performing other {{incidentResponseAdditionalInformationSpillageResponseActions}}."
         },
         {
           "ref": "IR-9 (1)",
           "title": "Information Spillage Response | Responsible Personnel",
-          "summary": "The organization assigns [Assignment: organization-defined personnel or roles] with responsibility for responding to information spills."
+          "summary": "The organization assigns {{incidentResponseInformationSpillageResponsiblePersonnel}} with responsibility for responding to information spills."
         },
         {
           "ref": "IR-9 (2)",
           "title": "Information Spillage Response | Training",
-          "summary": "The organization provides information spillage response training [Assignment: organization- defined frequency]."
+          "summary": "The organization provides information spillage response training {{incidentResponseInformationSpillageResponseTrainingFrequency}}."
         },
         {
           "ref": "IR-9 (3)",
           "title": "Information Spillage Response | Post-Spill Operations",
-          "summary": "The organization implements [Assignment: organization-defined procedures] to ensure that organizational personnel impacted by information spills can continue to carry out assigned tasks while contaminated systems are undergoing corrective actions."
+          "summary": "The organization implements {{incidentResponsePostSpillProcedures}} to ensure that organizational personnel impacted by information spills can continue to carry out assigned tasks while contaminated systems are undergoing corrective actions."
         },
         {
           "ref": "IR-9 (4)",
           "title": "Information Spillage Response | Exposure To Unauthorized Personnel",
-          "summary": "The organization employs [Assignment: organization-defined security safeguards] for personnel exposed to information not within assigned access authorizations."
+          "summary": "The organization employs {{incidentResponseSecuritySafeguards}} for personnel exposed to information not within assigned access authorizations."
         }
       ]
     },
@@ -940,7 +940,7 @@
         {
           "ref": "MA-2",
           "title": "Controlled Maintenance",
-          "summary": "The organization:\n a. Schedules, performs, documents, and reviews records of maintenance and repairs on information system components in accordance with manufacturer or vendor specifications and/or organizational requirements;\n b. Approves and monitors all maintenance activities, whether performed on site or remotely and whether the equipment is serviced on site or removed to another location;\n c. Requires that [Assignment: organization-defined personnel or roles] explicitly approve the removal of the information system or system components from organizational facilities for off-site maintenance or repairs;\n d. Sanitizes equipment to remove all information from associated media prior to removal from organizational facilities for off-site maintenance or repairs;\n e. Checks all potentially impacted security controls to verify that the controls are still functioning properly following maintenance or repair actions; and\n f. Includes [Assignment: organization-defined maintenance-related information] in organizational maintenance records."
+          "summary": "The organization:\n a. Schedules, performs, documents, and reviews records of maintenance and repairs on information system components in accordance with manufacturer or vendor specifications and/or organizational requirements;\n b. Approves and monitors all maintenance activities, whether performed on site or remotely and whether the equipment is serviced on site or removed to another location;\n c. Requires that {{maintenanceControlledMaintenancePersonnel}} explicitly approve the removal of the information system or system components from organizational facilities for off-site maintenance or repairs;\n d. Sanitizes equipment to remove all information from associated media prior to removal from organizational facilities for off-site maintenance or repairs;\n e. Checks all potentially impacted security controls to verify that the controls are still functioning properly following maintenance or repair actions; and\n f. Includes {{maintenanceRecordsInfo}} in organizational maintenance records."
         },
         {
           "ref": "MA-3",
@@ -960,7 +960,7 @@
         {
           "ref": "MA-3 (3)",
           "title": "Maintenance Tools | Prevent Unauthorized Removal",
-          "summary": "The organization prevents the unauthorized removal of maintenance equipment containing organizational information by:\n (a)   Verifying that there is no organizational information contained on the equipment; \n (b)   Sanitizing or destroying the equipment;\n (c)   Retaining the equipment within the facility; or\n (d)   Obtaining an exemption from [Assignment: organization-defined personnel or roles] explicitly authorizing removal of the equipment from the facility."
+          "summary": "The organization prevents the unauthorized removal of maintenance equipment containing organizational information by:\n (a)   Verifying that there is no organizational information contained on the equipment; \n (b)   Sanitizing or destroying the equipment;\n (c)   Retaining the equipment within the facility; or\n (d)   Obtaining an exemption from {{maintenanceExemptionAuthorizingPersonnel}} explicitly authorizing removal of the equipment from the facility."
         },
         {
           "ref": "MA-4",
@@ -985,7 +985,7 @@
         {
           "ref": "MA-6",
           "title": "Timely Maintenance",
-          "summary": "The organization obtains maintenance support and/or spare parts for [Assignment: organization-defined information system components] within [Assignment: organization-defined time period] of failure."
+          "summary": "The organization obtains maintenance support and/or spare parts for {{maintenanceInformationSystemComponents}} within [Assignment: organization-defined time period] of failure."
         }
       ]
     },
@@ -995,17 +995,17 @@
         {
           "ref": "MP-1",
           "title": "Media Protection Policy and Procedures",
-          "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A media protection policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the media protection policy and associated media protection controls; and\n b. Reviews and updates the current:\n   1. Media protection policy **at least every 3 years**; and\n   2. Media protection procedures **at least annually**."
+          "summary": "The organization:\n a. Develops, documents, and disseminates to {{mediaProtectionPolicyAndProcedureDisseminationList}}:\n   1. A media protection policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the media protection policy and associated media protection controls; and\n b. Reviews and updates the current:\n   1. Media protection policy **at least every 3 years**; and\n   2. Media protection procedures **at least annually**."
         },
         {
           "ref": "MP-2",
           "title": "Media Access",
-          "summary": "The organization restricts access to [Assignment: organization-defined types of digital and/or non-digital media] to [Assignment: organization-defined personnel or roles]."
+          "summary": "The organization restricts access to {{mediaProtectionMediaType}} to {{mediaProtectionMediaAccessResponsiblePersonnel}}."
         },
         {
           "ref": "MP-3",
           "title": "Media Marking",
-          "summary": "The organization:\n a. Marks information system media indicating the distribution limitations, handling caveats, and applicable security markings (if any) of the information; and\n b. Exempts **no removable media types** from marking as long as the media remain within [Assignment: organization-defined controlled areas]."
+          "summary": "The organization:\n a. Marks information system media indicating the distribution limitations, handling caveats, and applicable security markings (if any) of the information; and\n b. Exempts **no removable media types** from marking as long as the media remain within {{mediaProtectionControlledAreas}}."
         },
         {
           "ref": "MP-4",
@@ -1015,7 +1015,7 @@
         {
           "ref": "MP-5",
           "title": "Media Transport",
-          "summary": "The organization:\n a. Protects and controls [Assignment: organization-defined types of information system media] during transport outside of controlled areas using [Assignment: organization-defined security safeguards];\n b. Maintains accountability for information system media during transport outside of controlled areas;\n c. Documents activities associated with the transport of information system media; and\n d. Restricts the activities associated with the transport of information system media to authorized personnel."
+          "summary": "The organization:\n a. Protects and controls {{mediaProtectionInformationSystemMediaTypes}} during transport outside of controlled areas using {{mediaProtectionSecuritySafeguards}};\n b. Maintains accountability for information system media during transport outside of controlled areas;\n c. Documents activities associated with the transport of information system media; and\n d. Restricts the activities associated with the transport of information system media to authorized personnel."
         },
         {
           "ref": "MP-5 (4)",
@@ -1050,7 +1050,7 @@
         {
           "ref": "PE-1",
           "title": "Physical and Environmental Protection Policy and Procedures",
-          "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A physical and environmental protection policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the physical and environmental protection policy and associated physical and environmental protection controls; and\n b. Reviews and updates the current:\n   1. Physical and environmental protection policy **at least every 3 years**; and\n   2. Physical and environmental protection procedures **at least annually**."
+          "summary": "The organization:\n a. Develops, documents, and disseminates to {{physicalAndEnvironmentalProtectionPolicyAndProcedureDisseminationList}}:\n   1. A physical and environmental protection policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the physical and environmental protection policy and associated physical and environmental protection controls; and\n b. Reviews and updates the current:\n   1. Physical and environmental protection policy **at least every 3 years**; and\n   2. Physical and environmental protection procedures **at least annually**."
         },
         {
           "ref": "PE-2",
@@ -1060,12 +1060,12 @@
         {
           "ref": "PE-3",
           "title": "Physical Access Control",
-          "summary": "The organization:\n a. Enforces physical access authorizations at [Assignment: organization-defined entry/exit points to the facility where the information system resides] by;\n   1. Verifying individual access authorizations before granting access to the facility; and\n   2. Controlling ingress/egress to the facility using [Selection (one or more): **CSP defined physical access control systems/devices AND guards**; guards];\n b. Maintains physical access audit logs for [Assignment: organization-defined entry/exit points];\n c. Provides [Assignment: organization-defined security safeguards] to control access to areas within the facility officially designated as publicly accessible;\n d. Escorts visitors and monitors visitor activity **in all circumstances within restricted access area where the information system resides**;\n e. Secures keys, combinations, and other physical access devices;\n f. Inventories **at least annually** every [Assignment: organization-defined frequency]; and\n g. Changes combinations and keys **at least annually** and/or when keys are lost, combinations are compromised, or individuals are transferred or terminated."
+          "summary": "The organization:\n a. Enforces physical access authorizations at {{physicalAndEnvironmentalProtectionFacilityAccessPoints}} by;\n   1. Verifying individual access authorizations before granting access to the facility; and\n   2. Controlling ingress/egress to the facility using [Selection (one or more): **CSP defined physical access control systems/devices AND guards**; guards];\n b. Maintains physical access audit logs for {{physicalAndEnvironmentalProtectionFacilityAccessPoints}};\n c. Provides {{physicalAndEnvironmentalProtectionSecuritySafeguards}} to control access to areas within the facility officially designated as publicly accessible;\n d. Escorts visitors and monitors visitor activity **in all circumstances within restricted access area where the information system resides**;\n e. Secures keys, combinations, and other physical access devices;\n f. Inventories **at least annually** every [Assignment: organization-defined frequency]; and\n g. Changes combinations and keys **at least annually** and/or when keys are lost, combinations are compromised, or individuals are transferred or terminated."
         },
         {
           "ref": "PE-4",
           "title": "Access Control for Transmission Medium",
-          "summary": "The organization controls physical access to [Assignment: organization-defined information system distribution and transmission lines] within organizational facilities using [Assignment: organization-defined security safeguards]."
+          "summary": "The organization controls physical access to {{physicalAndEnvironmentalProtectionSystemDistributionandTransmissionLines}} within organizational facilities using {{physicalAndEnvironmentalProtectionSecuritySafeguards}}."
         },
         {
           "ref": "PE-5",
@@ -1075,7 +1075,7 @@
         {
           "ref": "PE-6",
           "title": "Monitoring Physical Access",
-          "summary": "The organization:\n a. Monitors physical access to the facility where the information system resides to detect and respond to physical security incidents;\n b. Reviews physical access logs **at least monthly** and upon occurrence of [Assignment: organization-defined events or potential indications of events]; and\n c. Coordinates results of reviews and investigations with the organizational incident response capability."
+          "summary": "The organization:\n a. Monitors physical access to the facility where the information system resides to detect and respond to physical security incidents;\n b. Reviews physical access logs **at least monthly** and upon occurrence of {{physicalAndEnvironmentalProtectionIndicationsofEvents}}; and\n c. Coordinates results of reviews and investigations with the organizational incident response capability."
         },
         {
           "ref": "PE-6 (1)",
@@ -1095,7 +1095,7 @@
         {
           "ref": "PE-10",
           "title": "Emergency Shutoff",
-          "summary": "The organization:\n a. Provides the capability of shutting off power to the information system or individual system components in emergency situations;\n b. Places emergency shutoff switches or devices in [Assignment: organization-defined location by information system or system component] to facilitate safe and easy access for personnel; and\n c. Protects emergency power shutoff capability from unauthorized activation."
+          "summary": "The organization:\n a. Provides the capability of shutting off power to the information system or individual system components in emergency situations;\n b. Places emergency shutoff switches or devices in {{physicalAndEnvironmentalProtectionEmergencyShutoffDeviceLocation}} to facilitate safe and easy access for personnel; and\n c. Protects emergency power shutoff capability from unauthorized activation."
         },
         {
           "ref": "PE-11",
@@ -1115,7 +1115,7 @@
         {
           "ref": "PE-13 (2)",
           "title": "Fire Protection | Suppression Devices / Systems",
-          "summary": "The organization employs fire suppression devices/systems for the information system that provide automatic notification of any activation to Assignment: organization-defined personnel or roles] and [Assignment: organization-defined emergency responders]."
+          "summary": "The organization employs fire suppression devices/systems for the information system that provide automatic notification of any activation to {{physicalAndEnvironmentalProtectionFireSupressionNotificationPersonnel}} and {{physicalAndEnvironmentalProtectionEmergencyResponders}}."
         },
         {
           "ref": "PE-13 (3)",
@@ -1145,7 +1145,7 @@
         {
           "ref": "PE-17",
           "title": "Alternate Work Site",
-          "summary": "The organization:\n a. Employs [Assignment: organization-defined security controls] at alternate work sites;\n b. Assesses as feasible, the effectiveness of security controls at alternate work sites; and\n c. Provides a means for employees to communicate with information security personnel in case of security incidents or problems."
+          "summary": "The organization:\n a. Employs {{physicalAndEnvironmentalProtectionAlternateWorkSitesControls}} at alternate work sites;\n b. Assesses as feasible, the effectiveness of security controls at alternate work sites; and\n c. Provides a means for employees to communicate with information security personnel in case of security incidents or problems."
         }
       ]
     },
@@ -1155,17 +1155,17 @@
         {
           "ref": "PL-1",
           "title": "Security Planning Policy and Procedures",
-          "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A security planning policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the security planning policy and associated security planning controls; and\n b. Reviews and updates the current:\n   1. Security planning policy **at least every 3 years**; and\n   2. Security planning procedures **at least annually**."
+          "summary": "The organization:\n a. Develops, documents, and disseminates to {{planningPolicyAndProcedureDisseminationList}}:\n   1. A security planning policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the security planning policy and associated security planning controls; and\n b. Reviews and updates the current:\n   1. Security planning policy **at least every 3 years**; and\n   2. Security planning procedures **at least annually**."
         },
         {
           "ref": "PL-2",
           "title": "System Security Plan",
-          "summary": "The organization:\n a. Develops a security plan for the information system that:\n   1. Is consistent with the organization’s enterprise architecture;\n   2. Explicitly defines the authorization boundary for the system;\n   3. Describes the operational context of the information system in terms of missions and business processes;\n   4. Provides the security categorization of the information system including supporting rationale;\n   5. Describes the operational environment for the information system and relationships with or connections to other information systems;\n   6. Provides an overview of the security requirements for the system;\n   7. Identifies any relevant overlays, if applicable;\n   8. Describes the security controls in place or planned for meeting those requirements including a rationale for the tailoring and supplementation decisions; and\n   9. Is reviewed and approved by the authorizing official or designated representative prior to plan implementation;\n b. Distributes copies of the security plan and communicates subsequent changes to the plan to [Assignment: organization-defined personnel or roles];\n c. Reviews the security plan for the information system **at least annually**;\n d. Updates the plan to address changes to the information system/environment of operation or problems identified during plan implementation or security control assessments; and\n e. Protects the security plan from unauthorized disclosure and modification."
+          "summary": "The organization:\n a. Develops a security plan for the information system that:\n   1. Is consistent with the organization’s enterprise architecture;\n   2. Explicitly defines the authorization boundary for the system;\n   3. Describes the operational context of the information system in terms of missions and business processes;\n   4. Provides the security categorization of the information system including supporting rationale;\n   5. Describes the operational environment for the information system and relationships with or connections to other information systems;\n   6. Provides an overview of the security requirements for the system;\n   7. Identifies any relevant overlays, if applicable;\n   8. Describes the security controls in place or planned for meeting those requirements including a rationale for the tailoring and supplementation decisions; and\n   9. Is reviewed and approved by the authorizing official or designated representative prior to plan implementation;\n b. Distributes copies of the security plan and communicates subsequent changes to the plan to {{planningSystemSecurityPlanDistributionList}};\n c. Reviews the security plan for the information system **at least annually**;\n d. Updates the plan to address changes to the information system/environment of operation or problems identified during plan implementation or security control assessments; and\n e. Protects the security plan from unauthorized disclosure and modification."
         },
         {
           "ref": "PL-2 (3)",
           "title": "System Security Plan | Plan / Coordinate With Other Organizational Entities",
-          "summary": "The organization plans and coordinates security-related activities affecting the information system with [Assignment: organization-defined individuals or groups] before conducting such activities in order to reduce the impact on other organizational entities."
+          "summary": "The organization plans and coordinates security-related activities affecting the information system with {{planningSecurityActivitiesCoordinationGroup}} before conducting such activities in order to reduce the impact on other organizational entities."
         },
         {
           "ref": "PL-4",
@@ -1190,7 +1190,7 @@
         {
           "ref": "PS-1",
           "title": "Personnel Security Policy and Procedures",
-          "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A personnel security policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the personnel security policy and associated personnel security controls; and\n b. Reviews and updates the current:\n   1. Personnel security policy **at least every 3 years**; and\n   2. Personnel security procedures **at least annually**."
+          "summary": "The organization:\n a. Develops, documents, and disseminates to {{personnelSecurityPolicyAndProcedureDisseminationList}}:\n   1. A personnel security policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the personnel security policy and associated personnel security controls; and\n b. Reviews and updates the current:\n   1. Personnel security policy **at least every 3 years**; and\n   2. Personnel security procedures **at least annually**."
         },
         {
           "ref": "PS-2",
@@ -1200,22 +1200,22 @@
         {
           "ref": "PS-3",
           "title": "Personnel Screening",
-          "summary": "The organization:\n a. Screens individuals prior to authorizing access to the information system; and\n b. Rescreens individuals according to [Assignment: organization-defined conditions requiring rescreening and, where rescreening is so indicated, the frequency of such rescreening]."
+          "summary": "The organization:\n a. Screens individuals prior to authorizing access to the information system; and\n b. Rescreens individuals according to {{personnelSecurityRescreeningConditions}}."
         },
         {
           "ref": "PS-3 (3)",
           "title": "Personnel Screening | Information With Special Protection Measures",
-          "summary": "The organization ensures that individuals accessing an information system processing, storing, or transmitting information requiring special protection:\n (a)   Have valid access authorizations that are demonstrated by assigned official government duties; and\n (b)   Satisfy [Assignment: organization-defined additional personnel screening criteria]."
+          "summary": "The organization ensures that individuals accessing an information system processing, storing, or transmitting information requiring special protection:\n (a)   Have valid access authorizations that are demonstrated by assigned official government duties; and\n (b)   Satisfy {{personnelSecurityScreeningCriteria}}."
         },
         {
           "ref": "PS-4",
           "title": "Personnel Termination",
-          "summary": "The organization, upon termination of individual employment:\n a. Disables information system access within **same day**;\n b. Terminates/revokes any authenticators/credentials associated with the individual;\n c. Conducts exit interviews that include a discussion of [Assignment: organization-defined information security topics];\n d. Retrieves all security-related organizational information system-related property;\n e. Retains access to organizational information and information systems formerly controlled by terminated individual; and\n f. Notifies [Assignment: organization-defined personnel or roles] within [Assignment: organization-defined time period]."
+          "summary": "The organization, upon termination of individual employment:\n a. Disables information system access within **same day**;\n b. Terminates/revokes any authenticators/credentials associated with the individual;\n c. Conducts exit interviews that include a discussion of {{personnelSecurityExitinterviewsSecurityTopics}};\n d. Retrieves all security-related organizational information system-related property;\n e. Retains access to organizational information and information systems formerly controlled by terminated individual; and\n f. Notifies {{personnelSecurityEmployeeTerminationNotificationPersonnel}} within {{personnelSecurityTerminationNotificationPeriod}}."
         },
         {
           "ref": "PS-5",
           "title": "Personnel Transfer",
-          "summary": "The organization:\n a. Reviews and confirms ongoing operational need for current logical and physical access authorizations to information systems/facilities when individuals are reassigned or transferred to other positions within the organization;\n b. Initiates [Assignment: organization-defined transfer or reassignment actions] within [Assignment: organization-defined time period following the formal transfer action];\n c. Modifies access authorization as needed to correspond with any changes in operational need due to reassignment or transfer; and\n d. Notifies **five days of the time period following the formal transfer action (DoD 24 hours)** within [Assignment: organization-defined time period]."
+          "summary": "The organization:\n a. Reviews and confirms ongoing operational need for current logical and physical access authorizations to information systems/facilities when individuals are reassigned or transferred to other positions within the organization;\n b. Initiates {{personnelSecurityTransferActions}} within {{personnelSecurityTransferinInitiationPeriod}};\n c. Modifies access authorization as needed to correspond with any changes in operational need due to reassignment or transfer; and\n d. Notifies **five days of the time period following the formal transfer action (DoD 24 hours)** within {{personnelSecurityAccessChangePeriod}}."
         },
         {
           "ref": "PS-6",
@@ -1225,12 +1225,12 @@
         {
           "ref": "PS-7",
           "title": "Third-Party Personnel Security",
-          "summary": "The organization:\n a. Establishes personnel security requirements including security roles and responsibilities for third-party providers;\n b. Requires third-party providers to comply with personnel security policies and procedures established by the organization;\n c. Documents personnel security requirements;\n d. Requires third-party providers to notify **organization-defined time period – same day** of any personnel transfers or terminations of third-party personnel who possess organizational credentials and/or badges, or who have information system privileges within [Assignment: organization-defined time period]; and\n e. Monitors provider compliance."
+          "summary": "The organization:\n a. Establishes personnel security requirements including security roles and responsibilities for third-party providers;\n b. Requires third-party providers to comply with personnel security policies and procedures established by the organization;\n c. Documents personnel security requirements;\n d. Requires third-party providers to notify **organization-defined time period – same day** of any personnel transfers or terminations of third-party personnel who possess organizational credentials and/or badges, or who have information system privileges within {{personnelSecurityThirdPartySecurityChangeNotificationPeriod}}; and\n e. Monitors provider compliance."
         },
         {
           "ref": "PS-8",
           "title": "Personnel Sanctions",
-          "summary": "The organization:\n a. Employs a formal sanctions process for individuals failing to comply with established information security policies and procedures; and\n b. Notifies [Assignment: organization-defined personnel or roles] within [Assignment: organization-defined time period] when a formal employee sanctions process is initiated, identifying the individual sanctioned and the reason for the sanction."
+          "summary": "The organization:\n a. Employs a formal sanctions process for individuals failing to comply with established information security policies and procedures; and\n b. Notifies {{personnelSecurityEmployeeSanctionNotificationPersonnel}} within {{personnelSecurityEmployeeSanctionNotificationPeriod}} when a formal employee sanctions process is initiated, identifying the individual sanctioned and the reason for the sanction."
         }
       ]
     },
@@ -1240,7 +1240,7 @@
         {
           "ref": "RA-1",
           "title": "Risk Assessment Policy and Procedures",
-          "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A risk assessment policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the risk assessment policy and associated risk assessment controls; and\n b. Reviews and updates the current:\n   1. Risk assessment policy **at least every 3 years**; and\n   2. Risk assessment procedures **at least annually**."
+          "summary": "The organization:\n a. Develops, documents, and disseminates to {{riskAssessmentPolicyAndProcedureDisseminationList}}:\n   1. A risk assessment policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the risk assessment policy and associated risk assessment controls; and\n b. Reviews and updates the current:\n   1. Risk assessment policy **at least every 3 years**; and\n   2. Risk assessment procedures **at least annually**."
         },
         {
           "ref": "RA-2",
@@ -1250,12 +1250,12 @@
         {
           "ref": "RA-3",
           "title": "Risk Assessment",
-          "summary": "The organization:\n a. Conducts an assessment of risk, including the likelihood and magnitude of harm, from the unauthorized access, use, disclosure, disruption, modification, or destruction of the information system and the information it processes, stores, or transmits;\n b. Documents risk assessment results in [Selection: security plan; risk assessment report; **security assessment report**];\n c. Reviews risk assessment results **at least every three (3) years or when a significant change occurs**;\n d. Disseminates risk assessment results to [Assignment: organization-defined personnel or roles]; and\n e. Updates the risk assessment **at least every three (3) years or when a significant change occurs** or whenever there are significant changes to the information system or environment of operation (including the identification of new threats and vulnerabilities), or other conditions that may impact the security state of the system."
+          "summary": "The organization:\n a. Conducts an assessment of risk, including the likelihood and magnitude of harm, from the unauthorized access, use, disclosure, disruption, modification, or destruction of the information system and the information it processes, stores, or transmits;\n b. Documents risk assessment results in [Selection: security plan; risk assessment report; **security assessment report**];\n c. Reviews risk assessment results **at least every three (3) years or when a significant change occurs**;\n d. Disseminates risk assessment results to {{riskAssessmentResultsDisseminationList}}; and\n e. Updates the risk assessment **at least every three (3) years or when a significant change occurs** or whenever there are significant changes to the information system or environment of operation (including the identification of new threats and vulnerabilities), or other conditions that may impact the security state of the system."
         },
         {
           "ref": "RA-5",
           "title": "Vulnerability Scanning",
-          "summary": "The organization:\n a. Scans for vulnerabilities in the information system and hosted applications **monthly operating system/infrastructure; monthly web applications and databases** and when new vulnerabilities potentially affecting the system/applications are identified and reported;\n b. Employs vulnerability scanning tools and techniques that facilitate interoperability among tools and automate parts of the vulnerability management process by using standards for:\n   1. Enumerating platforms, software flaws, and improper configurations;\n   2. Formatting checklists and test procedures; and\n   3. Measuring vulnerability impact;\n c. Analyzes vulnerability scan reports and results from security control assessments;\n d. Remediates legitimate vulnerabilities **high-risk vulnerabilities mitigated within thirty (30) days from date of discovery; moderate-risk vulnerabilities mitigated within ninety (90) days from date of discovery; low risk vulnerabilities mitigated within one hundred and eighty (180) days from date of discovery**, in accordance with an organizational assessment of risk; and\n e. Shares information obtained from the vulnerability scanning process and security control assessments with [Assignment: organization-defined personnel or roles] to help eliminate similar vulnerabilities in other information systems (i.e., systemic weaknesses or deficiencies)."
+          "summary": "The organization:\n a. Scans for vulnerabilities in the information system and hosted applications **monthly operating system/infrastructure; monthly web applications and databases** and when new vulnerabilities potentially affecting the system/applications are identified and reported;\n b. Employs vulnerability scanning tools and techniques that facilitate interoperability among tools and automate parts of the vulnerability management process by using standards for:\n   1. Enumerating platforms, software flaws, and improper configurations;\n   2. Formatting checklists and test procedures; and\n   3. Measuring vulnerability impact;\n c. Analyzes vulnerability scan reports and results from security control assessments;\n d. Remediates legitimate vulnerabilities **high-risk vulnerabilities mitigated within thirty (30) days from date of discovery; moderate-risk vulnerabilities mitigated within ninety (90) days from date of discovery; low risk vulnerabilities mitigated within one hundred and eighty (180) days from date of discovery**, in accordance with an organizational assessment of risk; and\n e. Shares information obtained from the vulnerability scanning process and security control assessments with {{riskAssessmentVulnerabiltyNotificationPersonnel}} to help eliminate similar vulnerabilities in other information systems (i.e., systemic weaknesses or deficiencies)."
         },
         {
           "ref": "RA-5 (1)",
@@ -1295,7 +1295,7 @@
         {
           "ref": "SA-1",
           "title": "System and Services Acquisition Policy and Procedures",
-          "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A system and services acquisition policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the system and services acquisition policy and associated system and services acquisition controls; and\n b. Reviews and updates the current:\n   1. System and services acquisition policy **at least every 3 years**; and\n   2.  System and services acquisition procedures **at least annually**."
+          "summary": "The organization:\n a. Develops, documents, and disseminates to {{systemAndServicesAcquisitionPolicyAndProcedureDisseminationList}}:\n   1. A system and services acquisition policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the system and services acquisition policy and associated system and services acquisition controls; and\n b. Reviews and updates the current:\n   1. System and services acquisition policy **at least every 3 years**; and\n   2.  System and services acquisition procedures **at least annually**."
         },
         {
           "ref": "SA-2",
@@ -1305,7 +1305,7 @@
         {
           "ref": "SA-3",
           "title": "System Development Life Cycle",
-          "summary": "The organization:\n a. Manages the information system using [Assignment: organization-defined system development life cycle] that incorporates information security considerations;\n b. Defines and documents information security roles and responsibilities throughout the system development life cycle;\n c. Identifies individuals having information security roles and responsibilities; and\n d. Integrates the organizational information security risk management process into system development life cycle activities."
+          "summary": "The organization:\n a. Manages the information system using {{systemAndServicesAcquisitionSystemDevelopmentLifeCycle}} that incorporates information security considerations;\n b. Defines and documents information security roles and responsibilities throughout the system development life cycle;\n c. Identifies individuals having information security roles and responsibilities; and\n d. Integrates the organizational information security risk management process into system development life cycle activities."
         },
         {
           "ref": "SA-4",
@@ -1320,7 +1320,7 @@
         {
           "ref": "SA-4 (2)",
           "title": "Acquisition Process | Design / Implementation Information for Security Controls",
-          "summary": "The organization requires the developer of the information system, system component, or information system service to provide design and implementation information for the security controls to be employed that includes: [Selection (one or more): security-relevant external system interfaces; high-level design; low-level design; source code or hardware schematics; [Assignment: organization-defined design/implementation information, **to include security-relevant external system interfaces and high-level design**]] at [Assignment: organization-defined level of detail]."
+          "summary": "The organization requires the developer of the information system, system component, or information system service to provide design and implementation information for the security controls to be employed that includes: [Selection (one or more): security-relevant external system interfaces; high-level design; low-level design; source code or hardware schematics; [Assignment: organization-defined design/implementation information, **to include security-relevant external system interfaces and high-level design**]] at {{systemAndServicesSystemDesignLevelofDetail}}."
         },
         {
           "ref": "SA-4 (8)",
@@ -1340,7 +1340,7 @@
         {
           "ref": "SA-5",
           "title": "Information System Documentation",
-          "summary": "The organization:\n a. Obtains administrator documentation for the information system, system component, or information system service that describes:\n   1. Secure configuration, installation, and operation of the system, component, or service;\n   2. Effective use and maintenance of security functions/mechanisms; and\n   3. Known vulnerabilities regarding configuration and use of administrative (i.e., privileged) functions;\n b. Obtains user documentation for the information system, system component, or information system service that describes:\n   1. User-accessible security functions/mechanisms and how to effectively use those security functions/mechanisms;\n   2. Methods for user interaction, which enables individuals to use the system, component, or service in a more secure manner; and\n   3. User responsibilities in maintaining the security of the system, component, or service;\n c. Documents attempts to obtain information system, system component, or information system service documentation when such documentation is either unavailable or nonexistent and [Assignment: organization-defined actions] in response;\n d. Protects documentation as required, in accordance with the risk management strategy; and e. Distributes documentation to [Assignment: organization-defined personnel or roles]."
+          "summary": "The organization:\n a. Obtains administrator documentation for the information system, system component, or information system service that describes:\n   1. Secure configuration, installation, and operation of the system, component, or service;\n   2. Effective use and maintenance of security functions/mechanisms; and\n   3. Known vulnerabilities regarding configuration and use of administrative (i.e., privileged) functions;\n b. Obtains user documentation for the information system, system component, or information system service that describes:\n   1. User-accessible security functions/mechanisms and how to effectively use those security functions/mechanisms;\n   2. Methods for user interaction, which enables individuals to use the system, component, or service in a more secure manner; and\n   3. User responsibilities in maintaining the security of the system, component, or service;\n c. Documents attempts to obtain information system, system component, or information system service documentation when such documentation is either unavailable or nonexistent and {{systemAndServicesAcquisitionDocumentationActions}} in response;\n d. Protects documentation as required, in accordance with the risk management strategy; and e. Distributes documentation to {{systemAndServicesAcquisitionDocumentationDistributionList}}."
         },
         {
           "ref": "SA-8",
@@ -1365,17 +1365,17 @@
         {
           "ref": "SA-9 (4)",
           "title": "External Information Systems | Consistent Interests of Consumers and Providers",
-          "summary": "The organization employs **all external systems where Federal information is processed or stored** to ensure that the interests of [Assignment: organization-defined external service providers] are consistent with and reflect organizational interests."
+          "summary": "The organization employs **all external systems where Federal information is processed or stored** to ensure that the interests of {{systemAndServicesAcquisitionExternalServiceProviders}} are consistent with and reflect organizational interests."
         },
         {
           "ref": "SA-9 (5)",
           "title": "External Information Systems | Processing, Storage, and Service Location",
-          "summary": "The organization restricts the location of [Selection (one or more): information processing; information/data; information system services] to **information processing, information data, AND information services** based on [Assignment: organization-defined requirements or conditions]."
+          "summary": "The organization restricts the location of [Selection (one or more): information processing; information/data; information system services] to **information processing, information data, AND information services** based on {{systemAndServicesAcquisitionSystemServiceLocationConditions}}."
         },
         {
           "ref": "SA-10",
           "title": "Developer Configuration Management",
-          "summary": "The organization requires the developer of the information system, system component, or information system service to:\n a. Perform configuration management during system, component, or service [Selection (one or more): design; development; implementation; operation];\n b. Document, manage, and control the integrity of changes to [Assignment: organization-defined configuration items under configuration management];\n c. Implement only organization-approved changes to the system, component, or service;\n d. Document approved changes to the system, component, or service and the potential security impacts of such changes; and\n e. Track security flaws and flaw resolution within the system, component, or service and report findings to [Assignment: organization-defined personnel]."
+          "summary": "The organization requires the developer of the information system, system component, or information system service to:\n a. Perform configuration management during system, component, or service [Selection (one or more): design; development; implementation; operation];\n b. Document, manage, and control the integrity of changes to {{systemAndServicesAcquisitionConfigurationsitems}};\n c. Implement only organization-approved changes to the system, component, or service;\n d. Document approved changes to the system, component, or service and the potential security impacts of such changes; and\n e. Track security flaws and flaw resolution within the system, component, or service and report findings to {{systemAndServicesAcquisitionSecurityFindingsNotificationPersonnel}}."
         },
         {
           "ref": "SA-10 (1)",
@@ -1385,7 +1385,7 @@
         {
           "ref": "SA-11",
           "title": "Developer Security Testing and Evaluation",
-          "summary": "The organization requires the developer of the information system, system component, or information system service to:\n a. Create and implement a security assessment plan;\n b. Perform [Selection (one or more): unit; integration; system; regression] testing/evaluation at [Assignment: organization-defined depth and coverage];\n c. Produce evidence of the execution of the security assessment plan and the results of the security testing/evaluation;\n d. Implement a verifiable flaw remediation process; and\n e. Correct flaws identified during security testing/evaluation."
+          "summary": "The organization requires the developer of the information system, system component, or information system service to:\n a. Create and implement a security assessment plan;\n b. Perform [Selection (one or more): unit; integration; system; regression] testing/evaluation at {{systemAndServicesAcquisitionTestingCoverage}};\n c. Produce evidence of the execution of the security assessment plan and the results of the security testing/evaluation;\n d. Implement a verifiable flaw remediation process; and\n e. Correct flaws identified during security testing/evaluation."
         },
         {
           "ref": "SA-11 (1)",
@@ -1410,7 +1410,7 @@
         {
           "ref": "SC-1",
           "title": "System and Communications Protection Policy and Procedures",
-          "summary": "The organization:\n a. Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:\n   1. A system and communications protection policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the system and communications protection policy and associated system and communications protection controls; and\n b. Reviews and updates the current:\n   1. System and communications protection policy **at least every 3 years**; and\n   2. System and communications protection procedures **at least annually**."
+          "summary": "The organization:\n a. Develops, documents, and disseminates to {{systemandCommunicationsProtectionPolicyAndProcedureDisseminationList}}:\n   1. A system and communications protection policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and\n   2. Procedures to facilitate the implementation of the system and communications protection policy and associated system and communications protection controls; and\n b. Reviews and updates the current:\n   1. System and communications protection policy **at least every 3 years**; and\n   2. System and communications protection procedures **at least annually**."
         },
         {
           "ref": "SC-2",
@@ -1425,12 +1425,12 @@
         {
           "ref": "SC-5",
           "title": "Denial of Service Protection",
-          "summary": "The information system protects against or limits the effects of the following types of denial of service attacks: [Assignment: organization-defined types of denial of service attacks or reference to source for such information] by employing [Assignment: organization-defined security safeguards]."
+          "summary": "The information system protects against or limits the effects of the following types of denial of service attacks: {{systemandCommunicationsProtectionDenialOfServiceAttackTypes}} by employing {{systemandCommunicationsProtectionSecuritySafeguards}}."
         },
         {
           "ref": "SC-6",
           "title": "Resource Availability",
-          "summary": "The information system protects the availability of resources by allocating [Assignment: organization-defined resources] by [Selection (one or more); priority; quota; [Assignment: organization-defined security safeguards]]."
+          "summary": "The information system protects the availability of resources by allocating {{systemandCommunicationsProtectionResources}} by [Selection (one or more); priority; quota; {{systemandCommunicationsProtectionSecuritySafeguards}}]."
         },
         {
           "ref": "SC-7",
@@ -1445,7 +1445,7 @@
         {
           "ref": "SC-7 (4)",
           "title": "Boundary Protection | External Telecommunications Services",
-          "summary": "The organization:\n (a)   Implements a managed interface for each external telecommunication service; \n (b)   Establishes a traffic flow policy for each managed interface;\n (c)   Protects the confidentiality and integrity of the information being transmitted across each interface;\n (d)   Documents each exception to the traffic flow policy with a supporting mission/business need and duration of that need; and\n (e)   Reviews exceptions to the traffic flow policy [Assignment: organization-defined frequency] and removes exceptions that are no longer supported by an explicit mission/business need."
+          "summary": "The organization:\n (a)   Implements a managed interface for each external telecommunication service; \n (b)   Establishes a traffic flow policy for each managed interface;\n (c)   Protects the confidentiality and integrity of the information being transmitted across each interface;\n (d)   Documents each exception to the traffic flow policy with a supporting mission/business need and duration of that need; and\n (e)   Reviews exceptions to the traffic flow policy {{systemandCommunicationsProtectionTrafficFlowExceptionsReviewFrequency}} and removes exceptions that are no longer supported by an explicit mission/business need."
         },
         {
           "ref": "SC-7 (5)",
@@ -1460,17 +1460,17 @@
         {
           "ref": "SC-7 (8)",
           "title": "Boundary Protection | Route Traffic To Authenticated Proxy Servers",
-          "summary": "The information system routes [Assignment: organization-defined internal communications traffic] to [Assignment: organization-defined external networks] through authenticated proxy servers at managed interfaces."
+          "summary": "The information system routes {{systemandCommunicationsProtectioninternalCommunicationsTraffic}} to {{systemandCommunicationsProtectionExternalNetworks}} through authenticated proxy servers at managed interfaces."
         },
         {
           "ref": "SC-7 (12)",
           "title": "Boundary Protection | Host-Based Protection",
-          "summary": "The organization implements [Assignment: organization-defined host-based boundary protection mechanisms] at [Assignment: organization-defined information system components]."
+          "summary": "The organization implements {{systemandCommunicationsProtectionHostBasedBoundaryProtectionMechanisms}} at {{systemandCommunicationsProtectionSystemComponents}}."
         },
         {
           "ref": "SC-7 (13)",
           "title": "Boundary Protection | Isolation of Security Tools / Mechanisms / Support Components",
-          "summary": "The organization isolates [Assignment: organization-defined information security tools, mechanisms, and support components] from other internal information system components by implementing physically separate subnetworks with managed interfaces to other components of the system."
+          "summary": "The organization isolates {{systemandCommunicationsProtectionSecurityToolsandMechanisms}} from other internal information system components by implementing physically separate subnetworks with managed interfaces to other components of the system."
         },
         {
           "ref": "SC-7 (18)",
@@ -1495,7 +1495,7 @@
         {
           "ref": "SC-12",
           "title": "Cryptographic Key Establishment and Management",
-          "summary": "The organization establishes and manages cryptographic keys for required cryptography employed within the information system in accordance with [Assignment: organization-defined requirements for key generation, distribution, storage, access, and destruction]."
+          "summary": "The organization establishes and manages cryptographic keys for required cryptography employed within the information system in accordance with {{systemandCommunicationsProtectionCryptographicKeyMgmtRequirments}}."
         },
         {
           "ref": "SC-12 (2)",
@@ -1520,7 +1520,7 @@
         {
           "ref": "SC-17",
           "title": "Public Key Infrastructure Certificates",
-          "summary": "The organization issues public key certificates under an [Assignment: organization- defined certificate policy] or obtains public key certificates from an approved service provider."
+          "summary": "The organization issues public key certificates under an {{systemandCommunicationsProtectionCertificatePolicy}} or obtains public key certificates from an approved service provider."
         },
         {
           "ref": "SC-18",
@@ -1560,7 +1560,7 @@
         {
           "ref": "SC-28 (1)",
           "title": "Protection of Information At Rest | Cryptographic Protection",
-          "summary": "The information system implements cryptographic mechanisms to prevent unauthorized disclosure and modification of [Assignment: organization-defined information] on [Assignment: organization-defined information system components]."
+          "summary": "The information system implements cryptographic mechanisms to prevent unauthorized disclosure and modification of {{systemandCommunicationsProtectionSensitiveInformation}} on {{systemandCommunicationsProtectionSystemComponents}}."
         },
         {
           "ref": "SC-39",
@@ -1590,12 +1590,12 @@
         {
           "ref": "SI-2 (3)",
           "title": "Flaw Remediation | Time To Remediate Flaws / Benchmarks for Corrective Actions",
-          "summary": "The organization:\n (a)   Measures the time between flaw identification and flaw remediation; and\n (b)   Establishes [Assignment: organization-defined benchmarks] for taking corrective actions."
+          "summary": "The organization:\n (a)   Measures the time between flaw identification and flaw remediation; and\n (b)   Establishes {{systemandInformationIntegrityBenchmarks}} for taking corrective actions."
         },
         {
           "ref": "SI-3",
           "title": "Malicious Code Protection",
-          "summary": "The organization:\n a. Employs malicious code protection mechanisms at information system entry and exit points to detect and eradicate malicious code;\n b. Updates malicious code protection mechanisms whenever new releases are available in accordance with organizational configuration management policy and procedures;\n c. Configures malicious code protection mechanisms to:\n   1. Perform periodic scans of the information system **at least weekly** and real-time scans of files from external sources at [Selection (one or more); endpoint; network entry/exit points] as the files are downloaded, opened, or executed in accordance with organizational security policy; and\n   2. [Selection (one or more): block malicious code; quarantine malicious code; send alert to administrator; [Assignment: organization-defined action, **to include alerting administrator or defined security personnel**]] in response to malicious code detection; and\n d. Addresses the receipt of false positives during malicious code detection and eradication and the resulting potential impact on the availability of the information system."
+          "summary": "The organization:\n a. Employs malicious code protection mechanisms at information system entry and exit points to detect and eradicate malicious code;\n b. Updates malicious code protection mechanisms whenever new releases are available in accordance with organizational configuration management policy and procedures;\n c. Configures malicious code protection mechanisms to:\n   1. Perform periodic scans of the information system **at least weekly** and real-time scans of files from external sources at [Selection (one or more); endpoint; network entry/exit points] as the files are downloaded, opened, or executed in accordance with organizational security policy; and\n   2. [Selection (one or more): block malicious code; quarantine malicious code; send alert to administrator; [{{systemandInformationIntegrityMaliciousCodeResponseActions}}, **to include alerting administrator or defined security personnel**]] in response to malicious code detection; and\n d. Addresses the receipt of false positives during malicious code detection and eradication and the resulting potential impact on the availability of the information system."
         },
         {
           "ref": "SI-3 (1)",
@@ -1615,7 +1615,7 @@
         {
           "ref": "SI-4",
           "title": "Information System Monitoring",
-          "summary": "The organization:\n a. Monitors the information system to detect:\n   1. Attacks and indicators of potential attacks in accordance with [Assignment: organization- defined monitoring objectives]; and\n   2. Unauthorized local, network, and remote connections;\n b. Identifies unauthorized use of the information system through [Assignment: organization- defined techniques and methods];\n c. Deploys monitoring devices: (i) strategically within the information system to collect organization-determined essential information; and (ii) at ad hoc locations within the system to track specific types of transactions of interest to the organization;\n d. Protects information obtained from intrusion-monitoring tools from unauthorized access, modification, and deletion;\n e. Heightens the level of information system monitoring activity whenever there is an indication of increased risk to organizational operations and assets, individuals, other organizations, or the Nation based on law enforcement information, intelligence information, or other credible sources of information;\n f. Obtains legal opinion with regard to information system monitoring activities in accordance with applicable federal laws, Executive Orders, directives, policies, or regulations; and\n g. Provides [Assignment: or ganization-defined information system monitoring information] to [Assignment: organization-defined personnel or roles] [Selection (one or more): as needed; [Assignment: organization-defined frequency]]."
+          "summary": "The organization:\n a. Monitors the information system to detect:\n   1. Attacks and indicators of potential attacks in accordance with {{systemandInformationIntegrityMonitoringObjectives}}; and\n   2. Unauthorized local, network, and remote connections;\n b. Identifies unauthorized use of the information system through [Assignment: organization- defined techniques and methods];\n c. Deploys monitoring devices: (i) strategically within the information system to collect organization-determined essential information; and (ii) at ad hoc locations within the system to track specific types of transactions of interest to the organization;\n d. Protects information obtained from intrusion-monitoring tools from unauthorized access, modification, and deletion;\n e. Heightens the level of information system monitoring activity whenever there is an indication of increased risk to organizational operations and assets, individuals, other organizations, or the Nation based on law enforcement information, intelligence information, or other credible sources of information;\n f. Obtains legal opinion with regard to information system monitoring activities in accordance with applicable federal laws, Executive Orders, directives, policies, or regulations; and\n g. Provides [Assignment: or ganization-defined information system monitoring information] to [Assignment: organization-defined personnel or roles] [Selection (one or more): as needed; [Assignment: organization-defined frequency]]."
         },
         {
           "ref": "SI-4 (1)",
@@ -1635,7 +1635,7 @@
         {
           "ref": "SI-4 (5)",
           "title": "Information System Monitoring | System-Generated Alerts",
-          "summary": "The information system alerts [Assignment: organization-defined personnel or roles] when the following indications of compromise or potential compromise occur: [Assignment: organization- defined compromise indicators]."
+          "summary": "The information system alerts {{systemAndInformationIntegrityNotificationPersonnel}} when the following indications of compromise or potential compromise occur: {{systemAndInformationintegrityCompromiseIndicators}}."
         },
         {
           "ref": "SI-4 (14)",
@@ -1650,32 +1650,32 @@
         {
           "ref": "SI-4 (23)",
           "title": "Information System Monitoring | Host-Based Devices",
-          "summary": "The organization implements [Assignment: organization-defined host-based monitoring mechanisms] at [Assignment: organization-defined information system components]."
+          "summary": "The organization implements {{systemAndInformationintegrityHostBasedMonitoringMechanisms}} at {{systemAndInformationintegritySystemComponents}}."
         },
         {
           "ref": "SI-5",
           "title": "Security Alerts, Advisories, and Directives",
-          "summary": "The organization:\n a. Receives information system security alerts, advisories, and directives from [Assignment: organization-defined external organizations, **to include US-CERT**] on an ongoing basis;\n b. Generates internal security alerts, advisories, and directives as deemed necessary;\n c. Disseminates security alerts, advisories, and directives to: [Selection (one or more): [Assignment: organization-defined personnel or roles, **to include system security personnel and administrators with configuration/patch-management responsibilities**]; [Assignment: organization-defined elements within the organization]; [Assignment: organization-defined external organizations]]; and\n d. Implements security directives in accordance with established time frames, or notifies the issuing organization of the degree of noncompliance."
+          "summary": "The organization:\n a. Receives information system security alerts, advisories, and directives from [{{systemAndInformationIntegrityExternalOrganizations}}, **to include US-CERT**] on an ongoing basis;\n b. Generates internal security alerts, advisories, and directives as deemed necessary;\n c. Disseminates security alerts, advisories, and directives to: [Selection (one or more): [{{systemAndInformationIntegritySecurityAlertsDisseminationList}}, **to include system security personnel and administrators with configuration/patch-management responsibilities**]; {{systemAndInformationIntegrityOrganizationalElements}}; {{systemAndInformationIntegrityExternalOrganizations}}]; and\n d. Implements security directives in accordance with established time frames, or notifies the issuing organization of the degree of noncompliance."
         },
         {
           "ref": "SI-6",
           "title": "Security Function Verification",
-          "summary": "The information system:\n a. Verifies the correct operation of [Assignment: organization-defined security functions];\n b. Performs this verification [Selection (one or more): [Assignment: organization-defined system transitional states, **to include upon system startup and/or restart and at least monthly**]; upon command by user with appropriate privilege; [Assignment: organization-defined frequency]];\n c. Notifies [Assignment: organization-defined personnel or roles, **to include system administrators and security personnel**] of failed security verification tests; and\n d. [Selection (one or more): shuts the information system down; restarts the information system; [Assignment: organization-defined alternative action(s), **to include notification of system administrators and security personnel**]] when anomalies are discovered."
+          "summary": "The information system:\n a. Verifies the correct operation of {{systemAndInformationIntegritySecurityFunctions}};\n b. Performs this verification [Selection (one or more): [{{systemAndInformationIntegritySystemTransitionalStates}}, **to include upon system startup and/or restart and at least monthly**]; upon command by user with appropriate privilege; {{systemAndInformationIntegritySecurityOperationVerificationFrequency}}];\n c. Notifies [{{systemAndInformationIntegrityNotificationPersonnel}}, **to include system administrators and security personnel**] of failed security verification tests; and\n d. [Selection (one or more): shuts the information system down; restarts the information system; [{{systemAndInformationIntegrityAlternativeActions}}, **to include notification of system administrators and security personnel**]] when anomalies are discovered."
         },
         {
           "ref": "SI-7",
           "title": "Software, Firmware, and Information Integrity",
-          "summary": "The organization employs integrity verification tools to detect unauthorized changes to [Assignment: organization-defined software, firmware, and information]."
+          "summary": "The organization employs integrity verification tools to detect unauthorized changes to {{systemAndInformationIntegritySoftwareandFirmware}}."
         },
         {
           "ref": "SI-7 (1)",
           "title": "Software, Firmware, and Information Integrity | Integrity Checks",
-          "summary": "The information system performs an integrity check of [Assignment: organization-defined software, firmware, and information] [Selection (one or more): at startup; at [Assignment: organization-defined transitional states or security-relevant events, **selection to include security relevant events**]; **at least monthly**]."
+          "summary": "The information system performs an integrity check of {{systemAndInformationIntegritySoftwareandFirmware}} [Selection (one or more): at startup; at [{{systemAndInformationIntegrityTransitionalStates}}, **selection to include security relevant events**]; **at least monthly**]."
         },
         {
           "ref": "SI-7 (7)",
           "title": "Software, Firmware, and Information Integrity | Integration of Detection and Response",
-          "summary": "The organization incorporates the detection of unauthorized [Assignment: organization-defined security-relevant changes to the information system] into the organizational incident response capability."
+          "summary": "The organization incorporates the detection of unauthorized {{systemAndInformationIntegritySecurityRelevantChanges}} into the organizational incident response capability."
         },
         {
           "ref": "SI-8",
@@ -1695,12 +1695,12 @@
         {
           "ref": "SI-10",
           "title": "Information Input Validation",
-          "summary": "The information system checks the validity of [Assignment: organization-defined information inputs]."
+          "summary": "The information system checks the validity of {{systemAndInformationIntegrityinformationInputs}}."
         },
         {
           "ref": "SI-11",
           "title": "Error Handling",
-          "summary": "The information system:\n a. Generates error messages that provide information necessary for corrective actions without revealing information that could be exploited by adversaries; and\n b. Reveals error messages only to [Assignment: organization-defined personnel or roles]."
+          "summary": "The information system:\n a. Generates error messages that provide information necessary for corrective actions without revealing information that could be exploited by adversaries; and\n b. Reveals error messages only to {{systemAndInformationIntegrityNotificationPersonnel}}."
         },
         {
           "ref": "SI-12",
@@ -1710,7 +1710,7 @@
         {
           "ref": "SI-16",
           "title": "Memory Protection",
-          "summary": "The information system implements [Assignment: organization-defined security safeguards] to protect its memory from unauthorized code execution."
+          "summary": "The information system implements {{systemAndInformationIntegritySecuritySafeguards}} to protect its memory from unauthorized code execution."
         }
       ]
     }

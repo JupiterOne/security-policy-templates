@@ -818,7 +818,7 @@
             "ref": "14.2.6",
             "title": "Secure development environment",
             "summary": "Organizations shall establish and appropriately protect secure development environments for system development and integration efforts that cover the entire system development lifecycle."
-                "mappedControls", : [
+                "mappedControls" : [
                 "cp-sdlc-dev"
                 ]
           },
@@ -827,7 +827,7 @@
             "title": "Outsourced development",
             "summary": "The organization shall supervise and monitor the activity of out-sourced system development."
                "mappedControls" : [
-               "cp-sdlc-outsourcing",
+               "cp-sdlc-outsourcing"
                ]
           },
           {

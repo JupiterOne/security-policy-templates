@@ -12,6 +12,7 @@
                 "mappedControls" : [
                 "cp-ism-policies",
                 "cp-policy-mgmt"
+                ]
           },
           {
             "ref": "5.1.2",
@@ -19,6 +20,7 @@
             "summary": "The policies for information security shall be reviewed at planned intervals or if significant changes occur to ensure their continuing suitability, adequacy and effectiveness."
                 "mappedControls" : [
                 "cp-policy-mgmt",
+                ]
           }
         ]
       },
@@ -31,6 +33,7 @@
             "summary": "All information security responsibilities shall be defined and allocated."
                 "mappedControls" : [
                 "cp-role-assignment"
+                ]
           },
           {
             "ref": "6.1.2",
@@ -38,6 +41,7 @@
             "summary": "Conflicting duties and areas of responsibility shall be segregated to reduce opportunities for unauthorized or unintentional modification or misuse of the organization’s assets."
                  "mappedControls" : [ 
                   "cp-role-assignment",
+                  ]
           },
           {
             "ref": "6.1.3",
@@ -45,6 +49,7 @@
             "summary": "Appropriate contacts with relevant authorities shall be maintained."
                 "mappedControls" : [ 
                 "cp-breach-authorities"
+                ]
           },
           {
             "ref": "6.1.4",
@@ -53,6 +58,7 @@
                  "mappedControls" : [ 
                   "cp-employee-development",
                   "cp-threat-intel",
+                  ]
           },
           {
             "ref": "6.1.5",
@@ -63,6 +69,7 @@
                  "cp-sdlc-dev",
                   "cp-vendor-vtr",
                   "cp-vendor-contracts"
+                  ]
           },
           {
             "ref": "6.2.1",
@@ -72,14 +79,16 @@
                 "cp-employee-acceptable-use",
                 "cp-access-endpoints",
                 "cp-mdm-byod"
+                ]
           },
           {
             "ref": "6.2.2",
             "title": "Teleworking",
             "summary": "A policy and supporting security measures shall be implemented to protect information accessed, processed or stored at teleworking sites."
-                "mappedControls" : 
+                "mappedControls" : [
                 "cp-access-vpn",
                 "cp-access-wifi"
+                ]
           }
         ]
       },
@@ -92,6 +101,7 @@
             "summary": "Background verification checks on all candidates for employment shall be carried out in accordance with relevant laws, regulations and ethics and shall be proportional to the business requirements, the classification of the information to be accessed and the perceived risks."
                 "mappedControls" : [
                 "cp-employee screening" 
+                ]
           },
           {
             "ref": "7.1.2",
@@ -100,6 +110,7 @@
                 "mappedControls" : [
                 "cp-employee-acceptable-use",
                 "ref-employee-handbook"
+                ]
           },
           {
             "ref": "7.2.1",
@@ -109,6 +120,7 @@
                 "cp-employee-acceptable-use",
                 "cp-ism-scope",
                 "cp-role-assignment"
+                ]
           },
           {
             "ref": "7.2.2",
@@ -117,6 +129,7 @@
                 "mappedControls" : [
                 "cp-training-policy",
                 "cp-training-awareness"
+                ]
           },
           {
             "ref": "7.2.3",
@@ -125,6 +138,7 @@
                 "mappedControls" : [
                 "cp-employee-acceptable-use",
                 "cp-sanctions"
+                ]
           },
           {
             "ref": "7.3.1",
@@ -132,6 +146,7 @@
             "summary": "Information security responsibilities and duties that remain valid after termination or change of employment shall be defined, communicated to the employee or contractor and enforced."
                 "mappedControls" : [
                 "cp-employee-exiting"
+                ]
           }
         ]
       },
@@ -147,6 +162,7 @@
                 "cp-asset-digital",
                 "cp-asset-paper",
                 "cp-access-standards"
+                ]
           },
           {
             "ref": "8.1.2",
@@ -158,6 +174,7 @@
               "cp-asset-physical",
               "cp-asset-digital",
               "cp-asset-paper"
+              ]
           },
           {
             "ref": "8.1.3",
@@ -168,6 +185,7 @@
                 "cp-mdm-disposal",
                 "cp-access-standards",
                 "cp-access-change"
+                ]
           },
           {
             "ref": "8.1.4",
@@ -176,6 +194,7 @@
                 "mappedControls" : [ 
                 "cp-employee-exiting",
                 "cp-access-standards",
+                ]
           },
           {
             "ref": "8.2.1",
@@ -183,6 +202,7 @@
             "summary": "Information shall be classified in terms of legal requirements, value, criticality and sensitivity to unauthorised disclosure or modification."
                 "mappedControls" : [
                 "cp-data-classification"
+                ]
           },
           {
             "ref": "8.2.2",
@@ -191,6 +211,7 @@
                 "mappedControls" : [ 
                 "cp-data-classification",
                 "cp-data-handling"
+                ]
           },
           {
             "ref": "8.2.3",
@@ -199,6 +220,7 @@
                 "mappedControls" : [ 
                 "cp-data-handling",
               "cp-access-password"
+              ]
               
           },
           {
@@ -207,6 +229,7 @@
             "summary": "Procedures shall be implemented for the management of removable media in accordance with the classification scheme adopted by the organization."
                 "mappedControls" : [ 
                 "cp-mdm-usb"
+                ]
           },
           {
             "ref": "8.3.2",
@@ -215,6 +238,7 @@
                     "mappedControls" : [ 
                     "cp-mdm-disposal",
                     "cp-data-lifecycle"
+                    ]
           },
           {
             "ref": "8.3.3",
@@ -222,6 +246,7 @@
             "summary": "Media containing information shall be protected against unauthorized access, misuse or corruption during transportation."
                 "mappedControls" : [ 
                 "cp-mdm-usb"
+                ]
           }
         ]
       },
@@ -234,6 +259,7 @@
             "summary": "An access control policy shall be established, documented and reviewed based on business and information security requirements."
               "mappedControls" : [ 
               "cp-access-standards"
+              ]
           },
           {
             "ref": "9.1.2",
@@ -243,7 +269,8 @@
               "cp-access-aws",
               "cp-access-vpn",
                "cp-access-wifi",
-              "cp-access-prod-data"    
+              "cp-access-prod-data"   
+              ] 
           },
           {
             "ref": "9.2.1",
@@ -251,6 +278,7 @@
             "summary": "A formal user registration and de-registration process shall be implemented to enable assignment of access rights."
                "mappedControls" : [ 
                "cp-access-standards"
+               ]
           },
           {
             "ref": "9.2.2",
@@ -258,6 +286,7 @@
             "summary": "A formal user access provisioning process shall be implemented to assign or revoke access rights for all user types to all systems and services."
               "mappedControls" : [ 
               "cp-access-standards"
+              ]
           },
           {
             "ref": "9.2.3",
@@ -266,6 +295,7 @@
                "mappedControls" : [ 
                "cp-access-aws",
                "cp-access-privileged"
+               ]
           },
           {
             "ref": "9.2.4",
@@ -274,6 +304,7 @@
                "mappedControls" : [ 
                "cp-access-prod",
                "cp-access-standards"
+               ]
           },
           {
             "ref": "9.2.5",
@@ -281,6 +312,7 @@
             "summary": "Asset owners shall review users’ access rights at regular intervals."
                "mappedControls" : [ 
                "cp-access-review"  
+               ]
           },
           {
             "ref": "9.2.6",
@@ -288,6 +320,7 @@
             "summary": "The access rights of all employees and external party users to information and information processing facilities shall be removed upon termination of their employment, contract or agreement, or adjusted upon change."
                 "mappedControls" : [ 
                 "cp-access-change"
+                ]
           },
           {
             "ref": "9.3.1",
@@ -295,6 +328,7 @@
             "summary": "Users shall be required to follow the organization’s practices in the use of secret authentication information."
                 "mappedControls" : [ 
                 "cp-access-prod"
+                ]
           },
           {
             "ref": "9.4.1",
@@ -302,6 +336,7 @@
             "summary": "Access to information and application system functions shall be restricted in accordance with the access control policy."
                  "mappedControls" : [ 
                  "cp-access-prod-data"
+                 ]
           },
           {
             "ref": "9.4.2",
@@ -311,6 +346,7 @@
                 "cp-access-sso",
               "cp-access-standards",
               "cp-access-mfa"
+              ]
           },
           {
             "ref": "9.4.3",
@@ -318,6 +354,7 @@
             "summary": "Password management systems shall be interactive and shall ensure quality passwords."
               "mappedControls" : [
               "cp-access-password"
+              ]
           },
           {
             "ref": "9.4.4",
@@ -325,6 +362,7 @@
             "summary": "The use of utility programs that might be capable of overriding system and application controls shall be restricted and tightly controlled."
                 "mappedControls" : [
               "cp-access-service"
+              ]
           },
           {
             "ref": "9.4.5",
@@ -334,6 +372,7 @@
               "cp-sdlc-dev",
               "cp-sdlc-iaaa",
               "cp-access-change"
+              ]
           }
         ]
       },
@@ -346,6 +385,7 @@
             "summary": "A policy on the use of cryptographic controls for protection of information shall be developed and implemented."
               "mappedControls" : [
               "cp-data-protection",
+              ]
           },
           {
             "ref": "10.1.2",
@@ -353,6 +393,7 @@
             "summary": "A policy on the use, protection and lifetime of cryptographic keys shall be developed and implemented through their whole lifecycle."
                  "mappedControls" : [
               "cp-data-protection-kms"
+              ]
           }
         ]
       },
@@ -366,6 +407,7 @@
                 "mappedControls" : [
                "cp-physical",
                "cp-physical-datacenter"
+               ]
           },
           {
             "ref": "11.1.2",
@@ -374,6 +416,7 @@
                 "mappedControls" : [
                "cp-physical",
                "cp-physical-datacenter"
+               ]
           },
           {
             "ref": "11.1.3",
@@ -382,6 +425,7 @@
               "mappedControls" : [
               "cp-physical",
               "cp-physical-datacenter"
+              ]
           },
           {
             "ref": "11.1.4",
@@ -390,6 +434,7 @@
                 "mappedControls" : [
                "cp-physical",
                 "cp-physical-datacenter"
+                ]
           },
           {
             "ref": "11.1.5",
@@ -398,6 +443,7 @@
               "mappedControls" : [
                 "cp-physical",
                 "cp-physical-datacenter"
+                ]
           },
           {
             "ref": "11.1.6",
@@ -406,6 +452,7 @@
                 "mappedControls" : [
                 "cp-physical",
                 "cp-physical-datacenter"
+                ]
           },
           {
             "ref": "11.2.1",
@@ -414,6 +461,7 @@
                 "mappedControls" : [
                 "cp-physical",
                 "cp-physical-datacenter"
+                ]
           },
           {
             "ref": "11.2.2",
@@ -422,6 +470,7 @@
                 "mappedControls" : [
                "cp-physical",
               "cp-physical-datacenter"
+              ]
           },
           {
             "ref": "11.2.3",
@@ -430,6 +479,7 @@
                  "mappedControls" : [
               "cp-physical",
               "cp-physical-datacenter"
+              ]
           },
           {
             "ref": "11.2.4",
@@ -440,6 +490,7 @@
               "cp-physical-datacenter",
               "cp-mdm-disposal",
               "cp-asset-physical"
+              ]
           },
           {
             "ref": "11.2.5",
@@ -450,6 +501,7 @@
               "cp-physical-datacenter",
               "cp-mdm-disposal",
               "cp-asset-physical"
+              ]
           },
           {
             "ref": "11.2.6",
@@ -460,6 +512,7 @@
               "cp-physical-datacenter",
               "cp-mdm-disposal",
               "cp-asset-physical"
+              ]
           },
           {
             "ref": "11.2.7",
@@ -468,6 +521,7 @@
                 "mappedControls" : [
               "cp-physical",
               "cp-physical-datacenter"
+              ]
           },
           {
             "ref": "11.2.8",
@@ -476,6 +530,7 @@
                "mappedControls" : [
               "cp-physical",
               "cp-physical-datacenter"
+              ]
           },
           {
             "ref": "11.2.9",
@@ -484,6 +539,7 @@
                 "mappedControls" : [
               "cp-physical",
               "cp-physical-datacenter"
+              ]
           }
         ]
       },
@@ -497,6 +553,7 @@
                 "mappedControls" : [
                "cp-policy-mgmt"
               "cp-ism-policies"
+              ]
           },
           {
             "ref": "12.1.2",
@@ -504,6 +561,7 @@
             "summary": "Changes to the organization, business processes, information pro- cessing facilities and systems that affect information security shall be controlled."
                 "mappedControls" : [
                 "cp-ccm-config"
+                ]
           },
           {
             "ref": "12.1.3",
@@ -511,6 +569,7 @@
             "summary": "The use of resources shall be monitored, tuned and projections made of future capacity requirements to ensure the required system performance."
                  "mappedControls" : [
               "cp-model-architecture"
+              ]
           },
           {
             "ref": "12.1.4",
@@ -518,6 +577,7 @@
             "summary": "Development, testing, and operational environments shall be separated to reduce the risks of unauthorized access or changes to the operational environment."
                 "mappedControls" : [
                 "cp-sdlc-dev"
+                ]
           },
           {
             "ref": "12.2.1",
@@ -530,6 +590,7 @@
             "summary": "Backup copies of information, software and system images shall be taken and tested regularly in accordance with an agreed backup policy."
                 "mappedControls" : [
               "cp-data-backup",
+              ]
           },
           {
             "ref": "12.4.1",
@@ -539,6 +600,7 @@
                 "cp-audit-types",
               "cp-audit-trails",
               "cp-audit-trails-integrity"
+              ]
           },
           {
             "ref": "12.4.2",
@@ -548,6 +610,7 @@
               "cp-audit-types",
                 "cp-audit-trails",
               "cp-audit-trails-integrity"
+              ]
           },
           {
             "ref": "12.4.3",
@@ -558,6 +621,7 @@
                 "cp-audit-trails",
               "cp-audit-trails-integrity",
               "cp-access-privileged"
+              ]
           },
           {
             "ref": "12.4.4",
@@ -566,6 +630,7 @@
                 "mappedControls" : [
               "cp-audit-trails",
               "cp-audit-trails-integrity"
+              ]
           },
           {
             "ref": "12.5.1",
@@ -574,6 +639,7 @@
                  "mappedControls" : [
               "cp-ccm-provision-prod",
               "cp-ccm-provision-server"
+              ]
           },
           {
             "ref": "12.6.1",
@@ -583,6 +649,7 @@
               "cp-vuln-remediation",
               "cp-sdlc-pentest",
               "cp-vuln-scan"
+              ]
           },
           {
             "ref": "12.6.2",
@@ -591,6 +658,7 @@
                 "mappedControls" : [
               "cp-ccm-provision-prod",
               "cp-ccm-provision-server"
+              ]
           },
           {
             "ref": "12.7.1",
@@ -600,6 +668,7 @@
                 "cp-audit-trails",
               "cp-audit-trails-integrity",
               "cp-access-phi"
+              ]
           }
         ]
       },
@@ -612,6 +681,7 @@
             "summary": "Networks shall be managed and controlled to protect information in systems and applications."
                 "mappedControls" : [
                 "cp-ccm-network"
+                ]
           },
           {
             "ref": "13.1.2",
@@ -619,6 +689,7 @@
             "summary": "Security mechanisms, service levels and management requirements of all network services shall be identified and included in network services agreements, whether these services are provided in-house or outsourced."
                 "mappedControls" : [
                 "cp-ccm-network"
+                ]
           },
           {
             "ref": "13.1.3",
@@ -626,6 +697,7 @@
             "summary": "Groups of information services, users and information systems shall be segregated on networks."
               "mappedControls" : [
               "cp-ccm-aws"
+              ]
           },
           {
             "ref": "13.2.1",
@@ -635,6 +707,7 @@
                  "cp-data-protection-in-transit",
                  "cp-mdm-usb",
                 "cp-employee-acceptable-use"
+                ]
           },
           {
             "ref": "13.2.2",
@@ -657,6 +730,7 @@
             "summary": "Requirements for confidentiality or non-disclosure agreements reflecting the organization’s needs for the protection of information shall be identified, regularly reviewed and documented."
                "mappedControls" : [
               "cp-employee-acceptable-use"
+              ]
           }
         ]
       },
@@ -671,6 +745,7 @@
               "cp-vendor-ssa",
               "cp-sdlc-appsec-req",
               "cp-sdlc-design"
+              ]
           },
           {
             "ref": "14.1.2",
@@ -681,6 +756,7 @@
               "cp-threat-webapp",
               "cp-threat-nids",
               "cp-threat-firewall"
+              ]
           },
           {
             "ref": "14.1.3",
@@ -691,6 +767,7 @@
                 "cp-threat-nids",
                 "cp-threat-webapp",
                 "cp-data-protection-in-transit"
+                ]
           },
           {
             "ref": "14.2.1",
@@ -698,6 +775,7 @@
             "summary": "Rules for the development of software and systems shall be established and applied to developments within the organization."
                 "mappedControls" : [
                 "cp-sdlc-dev"
+                ]
           },
           {
             "ref": "14.2.2",
@@ -707,6 +785,7 @@
                 "cp-ccm-config",
                 "cp-sdlc-dev",
                 "cp-sdlc-scm"
+                ]
           },
           {
             "ref": "14.2.3",
@@ -714,6 +793,7 @@
             "summary": "When operating platforms are changed, business critical applications shall be reviewed and tested to ensure there is no adverse impact on organizational operations or security."
                 "mappedControls" : [
                 "cp-ccm-config"
+                ]
           },
           {
             "ref": "14.2.4",
@@ -723,6 +803,7 @@
               "cp-sdlc-dev",
               "cp-sdlc-scm",
               "cp-sdlc-foss"
+              ]
           },
           {
             "ref": "14.2.5",
@@ -731,13 +812,15 @@
                 "mappedControls" : [
               "cp-sdlc-appsec-req",
               "cp-sdlc-design"
+              ]
           },
           {
             "ref": "14.2.6",
             "title": "Secure development environment",
             "summary": "Organizations shall establish and appropriately protect secure development environments for system development and integration efforts that cover the entire system development lifecycle."
-                "mappedControls" : [
-                "cp-sdlc-dev",
+                "mappedControls", : [
+                "cp-sdlc-dev"
+                ]
           },
           {
             "ref": "14.2.7",
@@ -745,6 +828,7 @@
             "summary": "The organization shall supervise and monitor the activity of out-sourced system development."
                "mappedControls" : [
                "cp-sdlc-outsourcing",
+               ]
           },
           {
             "ref": "14.2.8",
@@ -755,6 +839,7 @@
                 "cp-sdlc-dast",
                 "cp-sdlc-pentest",
                 "cp-vuln-scan"
+                ]
           },
           {
             "ref": "14.2.9",
@@ -765,6 +850,7 @@
                 "cp-sdlc-dast",
                 "cp-ccm-config",
                 "cp-sdlc-dev" 
+                ]
           },
           {
             "ref": "14.3.1",
@@ -775,6 +861,7 @@
               "cp-data-protection-in-use",
               "cp-data-protection-integrity",
               "cp-data-protection-in-transit"
+              ]
           }
         ]
       },
@@ -787,6 +874,7 @@
             "summary": "Information security requirements for mitigating the risks associated with supplier’s access to the organization’s assets shall be agreed with the supplier and documented."
                 "mappedControls" : [
                 "cp-vendor-vtr"
+                ]
           },
           {
             "ref": "15.1.2",
@@ -794,6 +882,7 @@
             "summary": "All relevant information security requirements shall be established and agreed with each supplier that may access, process, store, communicate, or provide IT infrastructure components for, the organization’s information."
                 "mappedControls" : [
                 "cp-vendor-vtr"
+                ]
           },
           {
             "ref": "15.1.3",
@@ -801,6 +890,7 @@
             "summary": "Agreements with suppliers shall include requirements to address the information security risks associated with information and communications technology services and product supply chain."
                 "mappedControls" : [
                 "cp-vendor-contracts"
+                ]
           },
           {
             "ref": "15.2.1",
@@ -808,6 +898,7 @@
             "summary": "Organizations shall regularly monitor, review and audit supplier service delivery."
                  "mappedControls" : [
                  "cp-vendor-monitor"
+                 ]
           },
           {
             "ref": "15.2.2",
@@ -815,6 +906,7 @@
             "summary": "Changes to the provision of services by suppliers, including maintaining and improving existing information security policies, procedures and controls, shall be managed, taking account of the criticality of business information, systems and processes involved and re-assessment of risks."
                 "mappedControls" : [
                 "cp-vendor-vtr"
+                ]
           }
         ]
       },
@@ -828,6 +920,7 @@
                  "mappedControls" : [
                 "cp-ir-process",
                 "cp-ir-sirt"
+                ]
           },
           {
             "ref": "16.1.2",
@@ -835,6 +928,7 @@
             "summary": "Information security events shall be reported through appropriate management channels as quickly as possible."
                "mappedControls" : [
                "cp-ir-process"
+               ]
           },
           {
             "ref": "16.1.3",
@@ -843,6 +937,7 @@
                      "mappedControls" : [
                      "cp-employee-escalation",
                      "cp-employee-whistleblower"
+                     ]
           },
           {
             "ref": "16.1.4",
@@ -850,6 +945,7 @@
             "summary": "Information security events shall be assessed and it shall be decided if they are to be classified as information security incidents."
                   "mappedControls" : [
                   "cp-ir-process"
+                  ]
           },
           {
             "ref": "16.1.5",
@@ -858,6 +954,7 @@
                     "mappedControls" : [
                     "cp-ir-process",
                     "cp-ir-playbook"
+                    ]
           },
           {
             "ref": "16.1.6",
@@ -866,6 +963,7 @@
                   "mappedControls" : [
                   "cp-ir-process",
                   "cp-ir-tabletop"
+                  ]
           },
           {
             "ref": "16.1.7",
@@ -873,6 +971,7 @@
             "summary": "The organization shall define and apply procedures for the iden- tification, collection, acquisition and preservation of information, which can serve as evidence."
                  "mappedControls" : [
                  "cp-ir-records"
+                 ]
           }
         ]
       },
@@ -886,6 +985,7 @@
                  "mappedControls" : [
                  "cp-bcdr",
                 "cp-bcdr-recovery"
+                ]
           },
           {
             "ref": "17.1.2",
@@ -893,6 +993,7 @@
             "summary": "The organization shall establish, document, implement and main- tain processes, procedures and controls to ensure the required level of continuity for information security during an adverse situation."
                 "mappedControls" : [
               "cp-bcdr-recovery"
+              ]
           },
           {
             "ref": "17.1.3",
@@ -900,6 +1001,7 @@
             "summary": "The organization shall verify the established and implemented information security continuity controls at regular intervals in order to ensure that they are valid and effective during adverse situations."
                  "mappedControls" : [
                  "cp-bcdr-test"
+                 ]
           },
           {
             "ref": "17.2.1",
@@ -908,6 +1010,7 @@
                "mappedControls" : [
               "cp-bcdr-data",
               "cp-bcdr-site"
+              ]
           }
         ]
       },  
@@ -920,13 +1023,15 @@
             "summary": "All relevant legislative statutory, regulatory, contractual require- ments and the organization’s approach to meet these requirements shall be explicitly identified, documented and kept up to date for each information system and the organization."
                    "mappedControls" : [
                     "cp-compliance-monitor"
+                    ]
           },
           {
             "ref": "18.1.2",
             "title": "Intellectual property rights",
             "summary": "Appropriate procedures shall be implemented to ensure compli- ance with legislative, regulatory and contractual requirements related to intellectual property rights and use of proprietary software products."
                  "mappedControls" : [
-              "cp-compliance-mgmt",
+              "cp-compliance-mgmt"
+              ]
           },
           {
             "ref": "18.1.3",
@@ -940,6 +1045,7 @@
               "cp-data-protection-kms",
               "cp-data-protection-cert",
               "cp-data-protection-integrity"
+              ]
           },
           {
             "ref": "18.1.4",
@@ -948,6 +1054,7 @@
                  "mappedControls" : [ 
                 "cp-privacy-notices",
                 "ref-privacy-policy"
+                ]
           },
           {
             "ref": "18.1.5",
@@ -958,6 +1065,7 @@
                "cp-data-protection-at-rest",
                "cp-data-protection-in-transit",
                "cp-data-protection-in-use"
+               ]
           },
           {
             "ref": "18.2.1",
@@ -965,16 +1073,18 @@
             "summary": "The organization’s approach to managing information security and its implementation (i.e. control objectives, controls, policies, pro- cesses and procedures for information security) shall be reviewed independently at planned intervals or when significant changes occur."
                 "mappedControls" : [ 
                 "cp-compliance-requests"
+                ]
           },
           {
             "ref": "18.2.2",
             "title": "Compliance with security policies and standards",
             "summary": "Managers shall regularly review the compliance of information processing and procedures within their area of responsibility with the appropriate security policies, standards and any other security requirements."
                 "mappedControls" : [ 
-                "cp-compliance-monitor"
+                "cp-compliance-monitor",
                 "cp-ccm-monitor",
                 "cp-sdlc-monitor",
                 "cp-audit-control-deficiency"
+                ]
           },
           {
             "ref": "18.2.3",
@@ -984,6 +1094,7 @@
                  "cp-compliance-requests",
                  "cp-audit-types",
                  "cp-audit-review"
+                 ]
           }
         ]
       }      

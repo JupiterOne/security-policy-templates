@@ -1069,7 +1069,7 @@
                 ]
           },
           {
-            "ref": "5.1.2",
+            "ref": "A.5.1.2",
             "title": "Review of the policies for information security",
             "summary": "The policies for information security shall be reviewed at planned intervals or if significant changes occur to ensure their continuing suitability, adequacy and effectiveness."
               "mappedControls": [
@@ -1079,10 +1079,10 @@
         ]
       },
       {
-        "title": "6 - Organization of information security",
+        "title": "A.6 - Organization of information security",
         "controls": [
           {
-            "ref": "6.1.1",
+            "ref": "A.6.1.1",
             "title": "Information security roles and responsibilities",
             "summary": "All information security responsibilities shall be defined and allocated."
                "mappedControls": [
@@ -1090,7 +1090,7 @@
                 ]
           },
           {
-            "ref": "6.1.2",
+            "ref": "A.6.1.2",
             "title": "Segregation of duties",
             "summary": "Conflicting duties and areas of responsibility shall be segregated to reduce opportunities for unauthorized or unintentional modification or misuse of the organization’s assets."
                "mappedControls" : [ 
@@ -1099,7 +1099,7 @@
                   ]
           },
           {
-            "ref": "6.1.3",
+            "ref": "A.6.1.3",
             "title": "Contact with authorities",
             "summary": "Appropriate contacts with relevant authorities shall be maintained."
               "mappedControls" : [ 
@@ -1107,7 +1107,7 @@
               ]
           },
           {
-            "ref": "6.1.4",
+            "ref": "A.6.1.4",
             "title": "Contact with special interest groups",
             "summary": "Appropriate contacts with special interest groups or other specialist security forums and professional associations shall be maintained."
               "mappedControls" : [ 
@@ -1116,7 +1116,7 @@
                   ]
           },
           {
-            "ref": "6.1.5",
+            "ref": "A.6.1.5",
             "title": "Information security in project management",
             "summary": "Information security shall be addressed in project management, regardless of the type of the project."
               "mappedControls" : [
@@ -1127,7 +1127,7 @@
                   ]
           },
           {
-            "ref": "6.2.1",
+            "ref": "A.6.2.1",
             "title": "Mobile device policy",
             "summary": "A policy and supporting security measures shall be adopted to manage the risks introduced by using mobile devices."
                "mappedControls" : [
@@ -1137,7 +1137,7 @@
                 ]
           },
           {
-            "ref": "6.2.2",
+            "ref": "A.6.2.2",
             "title": "Teleworking",
             "summary": "A policy and supporting security measures shall be implemented to protect information accessed, processed or stored at teleworking sites."
               "mappedControls" : [
@@ -1148,10 +1148,10 @@
         ]
       },
       {
-        "title": "7 - Human resource security",
+        "title": "A.7 - Human resource security",
         "controls": [
           {
-            "ref": "7.1.1",
+            "ref": "A.7.1.1",
             "title": "Screening",
             "summary": "Background verification checks on all candidates for employment shall be carried out in accordance with relevant laws, regulations and ethics and shall be proportional to the business requirements, the classification of the information to be accessed and the perceived risks."
               "mappedControls" : [
@@ -1160,7 +1160,7 @@
                 ]
           },
           {
-            "ref": "7.1.2",
+            "ref": "A.7.1.2",
             "title": "Terms and conditions of employment",
             "summary": "The contractual agreements with employees and contractors shall state their and the organization’s responsibilities for information security."
                 "mappedControls" : [
@@ -1170,7 +1170,7 @@
                 ]
           },
           {
-            "ref": "7.2.1",
+            "ref": "A.7.2.1",
             "title": "Management responsibilities",
             "summary": "Management shall require all employees and contractors to apply information security in accordance with the established policies and procedures of the organization."
                 "mappedControls" : [
@@ -1180,16 +1180,16 @@
                 ]
           },
           {
-            "ref": "7.2.2",
+            "ref": "A.7.2.2",
             "title": "Information security awareness, education and training",
-            "summary": "All employees of the organization and, where relevant, contrac- tors shall receive appropriate awareness education and training and regular updates in organizational policies and procedures, as relevant for their job function.
+            "summary": "All employees of the organization and, where relevant, contrac- tors shall receive appropriate awareness education and training and regular updates in organizational policies and procedures, as relevant for their job function."
                  "mappedControls" : [
                 "cp-training-policy",
                 "cp-training-awareness"
                 ]
           },
           {
-            "ref": "7.2.3",
+            "ref": "A.7.2.3",
             "title": "Disciplinary process",
             "summary": "There shall be a formal and communicated disciplinary process in place to take action against employees who have committed an information security breach."
                "mappedControls" : [
@@ -1198,7 +1198,7 @@
                 ]
           },
           {
-            "ref": "7.3.1",
+            "ref": "A.7.3.1",
             "title": "Termination or change of employment responsibilities",
             "summary": "Information security responsibilities and duties that remain valid after termination or change of employment shall be defined, communicated to the employee or contractor and enforced."
                 "mappedControls" : [
@@ -1208,10 +1208,10 @@
         ]
       },
       {
-        "title": "8 - Asset management",
+        "title": "A.8 - Asset management",
         "controls": [
           {
-            "ref": "8.1.1",
+            "ref": "A.8.1.1",
             "title": "Inventory of assets",
             "summary": "Assets associated with information and information processing facilities shall be identified and an inventory of these assets shall be drawn up and maintained."
                 "mappedControls" : [ 
@@ -1222,7 +1222,7 @@
                 ]
           },
           {
-            "ref": "8.1.2",
+            "ref": "A.8.1.2",
             "title": "Ownership of assets",
             "summary": "Assets maintained in the inventory shall be owned."
                 "mappedControls" : [ 
@@ -1245,7 +1245,7 @@
                 ]
           },
           {
-            "ref": "8.1.4",
+            "ref": "A.8.1.4",
             "title": "Return of assets",
             "summary": "All employees and external party users shall return all of the organizational assets in their possession upon termination of their employment, contract or agreement."
                 "mappedControls" : [ 
@@ -1254,7 +1254,7 @@
                 ]
           },
           {
-            "ref": "8.2.1",
+            "ref": "A.8.2.1",
             "title": "Classification of information",
             "summary": "Information shall be classified in terms of legal requirements, value, criticality and sensitivity to unauthorised disclosure or modification."
                 "mappedControls" : [
@@ -1262,7 +1262,7 @@
                 ]
           },
           {
-            "ref": "8.2.2",
+            "ref": "A.8.2.2",
             "title": "Labelling of information",
             "summary": "An appropriate set of procedures for information labelling shall be developed and implemented in accordance with the information classification scheme adopted by the organization."
                 "mappedControls" : [ 
@@ -1271,7 +1271,7 @@
                 ]
           },
           {
-            "ref": "8.2.3",
+            "ref": "A.8.2.3",
             "title": "Handling of assets",
             "summary": "Procedures for handling assets shall be developed and implemented in accordance with the information classification scheme adopted by the organization."
                 "mappedControls" : [ 
@@ -1281,7 +1281,7 @@
               
           },
           {
-            "ref": "8.3.1",
+            "ref": "A.8.3.1",
             "title": "Management of removable media",
             "summary": "Procedures shall be implemented for the management of removable media in accordance with the classification scheme adopted by the organization."
                 "mappedControls" : [ 
@@ -1289,7 +1289,7 @@
                 ]
           },
           {
-            "ref": "8.3.2",
+            "ref": "A.8.3.2",
             "title": "Displosal of media",
             "summary": "Media shall be disposed of securely when no longer required, using formal procedures."
                     "mappedControls" : [ 
@@ -1298,7 +1298,7 @@
                     ]
           },
           {
-            "ref": "8.3.3",
+            "ref": "A.8.3.3",
             "title": "Physical media transfer",
             "summary": "Media containing information shall be protected against unauthorized access, misuse or corruption during transportation."
                 "mappedControls" : [ 
@@ -1308,10 +1308,10 @@
         ]
       },
       {
-        "title": "9 - Access control",
+        "title": "A.9 - Access control",
         "controls": [
           {
-            "ref": "9.1.1",
+            "ref": "A.9.1.1",
             "title": "Access control policy",
             "summary": "An access control policy shall be established, documented and reviewed based on business and information security requirements."
               "mappedControls" : [ 
@@ -1319,7 +1319,7 @@
               ]
           },
           {
-            "ref": "9.1.2",
+            "ref": "A.9.1.2",
             "title": "Access to networks and network services",
             "summary": "Users shall only be provided with access to the network and net- work services that they have been specifically authorized to use."
               "mappedControls" : [ 
@@ -1330,7 +1330,7 @@
               ] 
           },
           {
-            "ref": "9.2.1",
+            "ref": "A.9.2.1",
             "title": "User registration and de-registration",
             "summary": "A formal user registration and de-registration process shall be implemented to enable assignment of access rights."
                "mappedControls" : [ 
@@ -1346,7 +1346,7 @@
               ]
           },
           {
-            "ref": "9.2.3",
+            "ref": "A.9.2.3",
             "title": "Management of privileged access rights",
             "summary": "The allocation and use of privileged access rights shall be restricted and controlled."
                "mappedControls" : [ 
@@ -1355,7 +1355,7 @@
                ]
           },
           {
-            "ref": "9.2.4",
+            "ref": "A.9.2.4",
             "title": "Management of secret authentication information of users",
             "summary": "The allocation of secret authentication information shall be controlled through a formal management process."
                "mappedControls" : [ 
@@ -1364,7 +1364,7 @@
                ]
           },
           {
-            "ref": "9.2.5",
+            "ref": "A.9.2.5",
             "title": "Review of user access rights",
             "summary": "Asset owners shall review users’ access rights at regular intervals."
                "mappedControls" : [ 
@@ -1372,7 +1372,7 @@
                ]
           },
           {
-            "ref": "9.2.6",
+            "ref": "A.9.2.6",
             "title": "Removal or adjustment of access rights",
             "summary": "The access rights of all employees and external party users to information and information processing facilities shall be removed upon termination of their employment, contract or agreement, or adjusted upon change."
                 "mappedControls" : [ 
@@ -1380,7 +1380,7 @@
                 ]
           },
           {
-            "ref": "9.3.1",
+            "ref": "A.9.3.1",
             "title": "Use of secret authentication information",
             "summary": "Users shall be required to follow the organization’s practices in the use of secret authentication information."
                 "mappedControls" : [ 
@@ -1388,7 +1388,7 @@
                 ]
           },
           {
-            "ref": "9.4.1",
+            "ref": "A.9.4.1",
             "title": "Information access restriction",
             "summary": "Access to information and application system functions shall be restricted in accordance with the access control policy."
                  "mappedControls" : [ 
@@ -1396,7 +1396,7 @@
                  ]
           },
           {
-            "ref": "9.4.2",
+            "ref": "A.9.4.2",
             "title": "Secure log-on procedures",
             "summary": "Where required by the access control policy, access to systems and applications shall be controlled by a secure log-on procedure."
                 "mappedControls" : [
@@ -1406,7 +1406,7 @@
               ]
           },
           {
-            "ref": "9.4.3",
+            "ref": "A.9.4.3",
             "title": "Password management system",
             "summary": "Password management systems shall be interactive and shall ensure quality passwords."
               "mappedControls" : [
@@ -1414,7 +1414,7 @@
               ]
           },
           {
-            "ref": "9.4.4",
+            "ref": "A.9.4.4",
             "title": "Use of privileged utility programs",
             "summary": "The use of utility programs that might be capable of overriding system and application controls shall be restricted and tightly controlled."
                 "mappedControls" : [
@@ -1422,7 +1422,7 @@
               ]
           },
           {
-            "ref": "9.4.5",
+            "ref": "A.9.4.5",
             "title": "Access control to program source code",
             "summary": "Access to program source code shall be restricted."
               "mappedControls" : [
@@ -1434,10 +1434,10 @@
         ]
       },
       {
-        "title": "10 - Cryptography",
+        "title": "A.10 - Cryptography",
         "controls": [
           {
-            "ref": "10.1.1",
+            "ref": "A.10.1.1",
             "title": "Policy on the use of cryptographic controls",
             "summary": "A policy on the use of cryptographic controls for protection of information shall be developed and implemented."
               "mappedControls" : [
@@ -1445,7 +1445,7 @@
               ]
           },
           {
-            "ref": "10.1.2",
+            "ref": "A.10.1.2",
             "title": "Key management",
             "summary": "A policy on the use, protection and lifetime of cryptographic keys shall be developed and implemented through their whole lifecycle."
                  "mappedControls" : [
@@ -1467,7 +1467,7 @@
                ]
           },
           {
-            "ref": "11.1.2",
+            "ref": "A.11.1.2",
             "title": "Physical entry controls",
             "summary": "Secure areas shall be protected by appropriate entry controls to ensure that only authorized personnel are allowed access."
                 "mappedControls" : [
@@ -1476,7 +1476,7 @@
                ]
           },
           {
-            "ref": "11.1.3",
+            "ref": "A.11.1.3",
             "title": "Securing offices, rooms and facilities",
             "summary": "Physical security for offices, rooms and facilities shall be designed and applied."
               "mappedControls" : [
@@ -1485,7 +1485,7 @@
               ]
           },
           {
-            "ref": "11.1.4",
+            "ref": "A.11.1.4",
             "title": "Protecting against external and environmental threats",
             "summary": "Physical protection against natural disasters, malicious attack or accidents shall be designed and applied."
                 "mappedControls" : [
@@ -1494,7 +1494,7 @@
                 ]
           },
           {
-            "ref": "11.1.5",
+            "ref": "A.11.1.5",
             "title": "Working in secure areas",
             "summary": "Procedures for working in secure areas shall be designed and applied."
               "mappedControls" : [
@@ -1503,7 +1503,7 @@
                 ]
           },
           {
-            "ref": "11.1.6",
+            "ref": "A.11.1.6",
             "title": "Delivery and loading areas",
             "summary": "Access points such as delivery and loading areas and other points where unauthorized persons could enter the premises shall be controlled and, if possible, isolated from information processing facilities to avoid unauthorized access."
                 "mappedControls" : [
@@ -1512,7 +1512,7 @@
                 ]
           },
           {
-            "ref": "11.2.1",
+            "ref": "A.11.2.1",
             "title": "Equipment siting and protection",
             "summary": "Equipment shall be sited and protected to reduce the risks from environmental threats and hazards, and opportunities for unauthorized access."
                 "mappedControls" : [
@@ -1521,7 +1521,7 @@
                 ]
           },
           {
-            "ref": "11.2.2",
+            "ref": "A.11.2.2",
             "title": "Supporting utilities",
             "summary": "Equipment shall be protected from power failures and other disruptions caused by failures in supporting utilities."
                 "mappedControls" : [
@@ -1530,7 +1530,7 @@
               ]
           },
           {
-            "ref": "11.2.3",
+            "ref": "A.11.2.3",
             "title": "Cabling security",
             "summary": "Power and telecommunications cabling carrying data or supporting information services shall be protected from interception, interference or damage."
                  "mappedControls" : [
@@ -1539,7 +1539,7 @@
               ]
           },
           {
-            "ref": "11.2.4",
+            "ref": "A.11.2.4",
             "title": "Equipment maintenance",
             "summary": "Equipment shall be correctly maintained to ensure its continued availability and integrity."
               "mappedControls" : [
@@ -1550,7 +1550,7 @@
               ]
           },
           {
-            "ref": "11.2.5",
+            "ref": "A.11.2.5",
             "title": "Removal of assets",
             "summary": "Equipment, information or software shall not be taken off-site without prior authorization."
               "mappedControls" : [
@@ -1561,7 +1561,7 @@
               ]
           },
           {
-            "ref": "11.2.6",
+            "ref": "A.11.2.6",
             "title": "Security of equipment and assets off-premises",
             "summary": "Security shall be applied to off-site assets taking into account the different risks of working outside the organization’s premises."
                 "mappedControls" : [
@@ -1572,7 +1572,7 @@
               ]
           },
           {
-            "ref": "11.2.7",
+            "ref": "A.11.2.7",
             "title": "Secure disposal or re-use of equipment",
             "summary": "All items of equipment containing storage media shall be verified to ensure that any sensitive data and licensed software has been removed or securely overwritten prior to disposal or re-use."
                 "mappedControls" : [
@@ -1581,7 +1581,7 @@
               ]
           },
           {
-            "ref": "11.2.8",
+            "ref": "A.11.2.8",
             "title": "Unattended user equipment",
             "summary": "Users shall ensure that unattended equipment has appropriate protection."
                "mappedControls" : [
@@ -1590,7 +1590,7 @@
               ]
           },
           {
-            "ref": "11.2.9",
+            "ref": "A.11.2.9",
             "title": "Clear desk and clear screen policy",
             "summary": "A clear desk policy for papers and removable storage media and a clear screen policy for information processing facilities shall be adopted."
                 "mappedControls" : [
@@ -1601,10 +1601,10 @@
         ]
       },
       {
-        "title": "12 - Operations security",
+        "title": "A.12 - Operations security",
         "controls": [
           {
-            "ref": "12.1.1",
+            "ref": "A.12.1.1",
             "title": "Documented operating procedures",
             "summary": "Operating procedures shall be documented and made available to all users who need them."
                 "mappedControls" : [
@@ -1613,7 +1613,7 @@
               ]
           },
           {
-            "ref": "12.1.2",
+            "ref": "A.12.1.2",
             "title": "Change management",
             "summary": "Changes to the organization, business processes, information pro- cessing facilities and systems that affect information security shall be controlled."
                 "mappedControls" : [
@@ -1621,7 +1621,7 @@
                 ]
           },
           {
-            "ref": "12.1.3",
+            "ref": "A.12.1.3",
             "title": "Capacity management",
             "summary": "The use of resources shall be monitored, tuned and projections made of future capacity requirements to ensure the required system performance."
                  "mappedControls" : [
@@ -1629,7 +1629,7 @@
               ]
           },
           {
-            "ref": "12.1.4",
+            "ref": "A.12.1.4",
             "title": "Separation of development, testing and operational environments",
             "summary": "Development, testing, and operational environments shall be separated to reduce the risks of unauthorized access or changes to the operational environment."
                 "mappedControls" : [
@@ -1637,12 +1637,12 @@
                 ]
           },
           {
-            "ref": "12.2.1",
+            "ref": "A.12.2.1",
             "title": "Controls against malware",
             "summary": "Detection, prevention and recovery controls to protect against malware shall be implemented, combined with appropriate user awareness."
           },
           {
-            "ref": "12.3.1",
+            "ref": "A.12.3.1",
             "title": "Information backup",
             "summary": "Backup copies of information, software and system images shall be taken and tested regularly in accordance with an agreed backup policy."
                 "mappedControls" : [
@@ -1650,7 +1650,7 @@
               ]
           },
           {
-            "ref": "12.4.1",
+            "ref": "A.12.4.1",
             "title": "Event logging",
             "summary": "Event logs recording user activities, exceptions, faults and infor- mation security events shall be produced, kept and regularly reviewed."
                 "mappedControls" : [
@@ -1660,7 +1660,7 @@
               ]
           },
           {
-            "ref": "12.4.2",
+            "ref": "A.12.4.2",
             "title": "Protection of log information",
             "summary": "Logging facilities and log information shall be protected against tampering and unauthorized access."
                 "mappedControls" : [
@@ -1670,7 +1670,7 @@
               ]
           },
           {
-            "ref": "12.4.3",
+            "ref": "A.12.4.3",
             "title": "Administrator and operator logs",
             "summary": "System administrator and system operator activities shall be logged and the logs protected and regularly reviewed."
                  "mappedControls" : [
@@ -1681,7 +1681,7 @@
               ]
           },
           {
-            "ref": "12.4.4",
+            "ref": "A.12.4.4",
             "title": "Clock synchronisation",
             "summary": "The clocks of all relevant information processing systems within an organization or security domain shall be synchronised to a single reference time source."
                 "mappedControls" : [
@@ -1690,7 +1690,7 @@
               ]
           },
           {
-            "ref": "12.5.1",
+            "ref": "A.12.5.1",
             "title": "Installation of software on operational systems",
             "summary": "Procedures shall be implemented to control the installation of software on operational systems."
                  "mappedControls" : [
@@ -1699,7 +1699,7 @@
               ]
           },
           {
-            "ref": "12.6.1",
+            "ref": "A.12.6.1",
             "title": "Management of technical vulnerabilities",
             "summary": "Information about technical vulnerabilities of information systems being used shall be obtained in a timely fashion, the organization’s exposure to such vulnerabilities evaluated and appropriate measures taken to address the associated risk."
                  "mappedControls" : [
@@ -1709,7 +1709,7 @@
               ]
           },
           {
-            "ref": "12.6.2",
+            "ref": "A.12.6.2",
             "title": "Restrictions on software installation",
             "summary": "Rules governing the installation of software by users shall be established and implemented."
                 "mappedControls" : [
@@ -1718,7 +1718,7 @@
               ]
           },
           {
-            "ref": "12.7.1",
+            "ref": "A.12.7.1",
             "title": "Information systems audit controls",
             "summary": "Audit requirements and activities involving verification of opera- tional systems shall be carefully planned and agreed to minimise disruptions to business processes."
                  "mappedControls" : [
@@ -1730,10 +1730,10 @@
         ]
       },
       {
-        "title": "13 - Communications security",
+        "title": "A.13 - Communications security",
         "controls": [
           {
-            "ref": "13.1.1",
+            "ref": "A.13.1.1",
             "title": "Network controls",
             "summary": "Networks shall be managed and controlled to protect information in systems and applications."
                 "mappedControls" : [
@@ -1741,7 +1741,7 @@
                 ]
           },
           {
-            "ref": "13.1.2",
+            "ref": "A.13.1.2",
             "title": "Security of network services",
             "summary": "Security mechanisms, service levels and management requirements of all network services shall be identified and included in network services agreements, whether these services are provided in-house or outsourced."
                 "mappedControls" : [
@@ -1749,7 +1749,7 @@
                 ]
           },
           {
-            "ref": "13.1.3",
+            "ref": "A.13.1.3",
             "title": "Segregation in networks",
             "summary": "Groups of information services, users and information systems shall be segregated on networks."
               "mappedControls" : [
@@ -1757,7 +1757,7 @@
               ]
           },
           {
-            "ref": "13.2.1",
+            "ref": "A.13.2.1",
             "title": "Information transfer policies and procedures",
             "summary": "Formal transfer policies, procedures and controls shall be in place to protect the transfer of information through the use of all types of communication facilities."
                  "mappedControls" : [
@@ -1767,22 +1767,24 @@
                 ]
           },
           {
-            "ref": "13.2.2",
+            "ref": "A.13.2.2",
             "title": "Agreements on information transfer",
             "summary": "Agreements shall address the secure transfer of business information between the organization and external parties."
                 "mappedControls" : [
                 "cp-vendor-contracts"
+              ]
           },
           {
-            "ref": "13.2.3",
+            "ref": "A.13.2.3",
             "title": "Electronic messaging",
             "summary": "Information involved in electronic messaging shall be appropriately protected."
               "mappedControls" : [
               "cp-employee-acceptable-use"
               "cp-access-endpoints"
+              ]
           },
           {
-            "ref": "13.2.4",
+            "ref": "A.13.2.4",
             "title": "Confidentiality or non- disclosure agreements",
             "summary": "Requirements for confidentiality or non-disclosure agreements reflecting the organization’s needs for the protection of information shall be identified, regularly reviewed and documented."
                "mappedControls" : [
@@ -1792,10 +1794,10 @@
         ]
       },
       {
-        "title": "14 - System acquisition, development and maintenance",
+        "title": "A.14 - System acquisition, development and maintenance",
         "controls": [
           {
-            "ref": "14.1.1",
+            "ref": "A.14.1.1",
             "title": "Information security requirements analysis and specification",
             "summary": "The information security related requirements shall be included in the requirements for new information systems or enhancements to existing information systems."
                 "mappedControls" : [
@@ -1805,7 +1807,7 @@
               ]
           },
           {
-            "ref": "14.1.2",
+            "ref": "A.14.1.2",
             "title": "Securing application services on public networks",
             "summary": "Information involved in application services passing over public networks shall be protected from fraudulent activity, contract dispute and unauthorized disclosure and modification."
                 "mappedControls" : [
@@ -1816,7 +1818,7 @@
               ]
           },
           {
-            "ref": "14.1.3",
+            "ref": "A.14.1.3",
             "title": "Protecting application services transactions",
             "summary": "Information involved in application service transactions shall be protected to prevent incomplete transmission, mis-routing, unauthorized message alteration, unauthorized disclosure, unauthorized message duplication or replay."
                 "mappedControls" : [
@@ -1827,7 +1829,7 @@
                 ]
           },
           {
-            "ref": "14.2.1",
+            "ref": "A.14.2.1",
             "title": "Secure development policy",
             "summary": "Rules for the development of software and systems shall be established and applied to developments within the organization."
                 "mappedControls" : [
@@ -1835,7 +1837,7 @@
                 ]
           },
           {
-            "ref": "14.2.2",
+            "ref": "A.14.2.2",
             "title": "System change control procedures",
             "summary": "Changes to systems within the development lifecycle shall be controlled by the use of formal change control procedures."
                "mappedControls" : [
@@ -1845,7 +1847,7 @@
                 ]
           },
           {
-            "ref": "14.2.3",
+            "ref": "A.14.2.3",
             "title": "Technical review of applications after operating platform changes",
             "summary": "When operating platforms are changed, business critical applications shall be reviewed and tested to ensure there is no adverse impact on organizational operations or security."
                 "mappedControls" : [
@@ -1853,7 +1855,7 @@
                 ]
           },
           {
-            "ref": "14.2.4",
+            "ref": "A.14.2.4",
             "title": "Restrictions on changes to software packages",
             "summary": "Modifications to software packages shall be discouraged, limited to necessary changes and all changes shall be strictly controlled."
                   "mappedControls" : [
@@ -1863,7 +1865,7 @@
               ]
           },
           {
-            "ref": "14.2.5",
+            "ref": "A.14.2.5",
             "title": "Secure system engineering principles",
             "summary": "Principles for engineering secure systems shall be established, documented, maintained and applied to any information system implementation efforts."
                 "mappedControls" : [
@@ -1872,7 +1874,7 @@
               ]
           },
           {
-            "ref": "14.2.6",
+            "ref": "A.14.2.6",
             "title": "Secure development environment",
             "summary": "Organizations shall establish and appropriately protect secure development environments for system development and integration efforts that cover the entire system development lifecycle."
                 "mappedControls" : [
@@ -1880,7 +1882,7 @@
                 ]
           },
           {
-            "ref": "14.2.7",
+            "ref": "A.14.2.7",
             "title": "Outsourced development",
             "summary": "The organization shall supervise and monitor the activity of out-sourced system development."
                "mappedControls" : [
@@ -1888,7 +1890,7 @@
                ]
           },
           {
-            "ref": "14.2.8",
+            "ref": "A.14.2.8",
             "title": "System security testing",
             "summary": "Testing of security functionality shall be carried out during development."
                 "mappedControls" : [
@@ -1899,7 +1901,7 @@
                 ]
           },
           {
-            "ref": "14.2.9",
+            "ref": "A.14.2.9",
             "title": "System acceptance testing",
             "summary": "Acceptance testing programs and related criteria shall be established for new information systems, upgrades and new versions."
                  "mappedControls" : [
@@ -1910,7 +1912,7 @@
                 ]
           },
           {
-            "ref": "14.3.1",
+            "ref": "A.14.3.1",
             "title": "Protection of test data",
             "summary": "Test data shall be selected carefully, protected and controlled."
                 "mappedControls" : [
@@ -1923,10 +1925,10 @@
         ]
       },
       {
-        "title": "15 - Supplier relationships",
+        "title": "A.15 - Supplier relationships",
         "controls": [
           {
-            "ref": "15.1.1",
+            "ref": "A.15.1.1",
             "title": "Information security policy for supplier relationships",
             "summary": "Information security requirements for mitigating the risks associated with supplier’s access to the organization’s assets shall be agreed with the supplier and documented."
                 "mappedControls" : [
@@ -1934,7 +1936,7 @@
                 ]
           },
           {
-            "ref": "15.1.2",
+            "ref": "A.15.1.2",
             "title": "Addressing security within supplier agreements",
             "summary": "All relevant information security requirements shall be established and agreed with each supplier that may access, process, store, communicate, or provide IT infrastructure components for, the organization’s information."
                 "mappedControls" : [
@@ -1942,7 +1944,7 @@
                 ]
           },
           {
-            "ref": "15.1.3",
+            "ref": "A.15.1.3",
             "title": "Information and communication technology supply chain",
             "summary": "Agreements with suppliers shall include requirements to address the information security risks associated with information and communications technology services and product supply chain."
                 "mappedControls" : [
@@ -1950,7 +1952,7 @@
                 ]
           },
           {
-            "ref": "15.2.1",
+            "ref": "A.15.2.1",
             "title": "Monitoring and review of supplier services",
             "summary": "Organizations shall regularly monitor, review and audit supplier service delivery."
                  "mappedControls" : [
@@ -1958,7 +1960,7 @@
                  ]
           },
           {
-            "ref": "15.2.2",
+            "ref": "A.15.2.2",
             "title": "Managing changes to supplier services",
             "summary": "Changes to the provision of services by suppliers, including maintaining and improving existing information security policies, procedures and controls, shall be managed, taking account of the criticality of business information, systems and processes involved and re-assessment of risks."
                 "mappedControls" : [
@@ -1968,10 +1970,10 @@
         ]
       },
       {
-        "title": "16 - Information security incident management",
+        "title": "A.16 - Information security incident management",
         "controls": [
           {
-            "ref": "16.1.1",
+            "ref": "A.16.1.1",
             "title": "Responsibilities and procedures",
             "summary": "Management responsibilities and procedures shall be established to ensure a quick, effective and orderly response to information security incidents."
                  "mappedControls" : [
@@ -1980,7 +1982,7 @@
                 ]
           },
           {
-            "ref": "16.1.2",
+            "ref": "A.16.1.2",
             "title": "Reporting information security events",
             "summary": "Information security events shall be reported through appropriate management channels as quickly as possible."
                "mappedControls" : [
@@ -1988,7 +1990,7 @@
                ]
           },
           {
-            "ref": "16.1.3",
+            "ref": "A.16.1.3",
             "title": "Reporting information security weaknesses",
             "summary": "Employees and contractors using the organization’s information systems and services shall be required to note and report any observed or suspected information security weaknesses in systems or services."
                      "mappedControls" : [
@@ -1997,7 +1999,7 @@
                      ]
           },
           {
-            "ref": "16.1.4",
+            "ref": "A.16.1.4",
             "title": "Assessment of and decision on information security events",
             "summary": "Information security events shall be assessed and it shall be decided if they are to be classified as information security incidents."
                   "mappedControls" : [
@@ -2005,7 +2007,7 @@
                   ]
           },
           {
-            "ref": "16.1.5",
+            "ref": "A.16.1.5",
             "title": "Response to information security incidents",
             "summary": "Information security incidents shall be responded to in accordance with the documented procedures."
                     "mappedControls" : [
@@ -2014,7 +2016,7 @@
                     ]
           },
           {
-            "ref": "16.1.6",
+            "ref": "A.16.1.6",
             "title": "Learning from information security incidents",
             "summary": "Knowledge gained from analysing and resolving information secu- rity incidents shall be used to reduce the likelihood or impact of future incidents."
                   "mappedControls" : [
@@ -2023,7 +2025,7 @@
                   ]
           },
           {
-            "ref": "16.1.7",
+            "ref": "A.16.1.7",
             "title": "Collection of evidence",
             "summary": "The organization shall define and apply procedures for the iden- tification, collection, acquisition and preservation of information, which can serve as evidence."
                  "mappedControls" : [

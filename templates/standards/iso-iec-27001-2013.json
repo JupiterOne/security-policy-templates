@@ -16,7 +16,7 @@
           },
           {  
               "ref": "4.2.a",
-                "title": "Understanding the needs and expectations of interested parties, part a)"
+                "title": "Understanding the needs and expectations of interested parties, part a)",
                 "summary": "The organization shall determine: interested parties that are relevant to the information security management system.",
                "mappedControls" : [ 
               "cp-compliance-mgmt"

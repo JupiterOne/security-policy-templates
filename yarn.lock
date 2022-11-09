@@ -40,10 +40,10 @@
     "@types/nodecredstash" "^2.0.2"
     nodecredstash "^2.0.2"
 
-"@jupiterone/continuous-delivery-docker@^4.2.2":
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/@jupiterone/continuous-delivery-docker/-/continuous-delivery-docker-4.2.2.tgz#0385075f2a530b9388ffc69202b4f1a57183b5bc"
-  integrity sha512-AVjHCeZXLGqkMijRaToNmnz70ztKieMZYpn49dY+3dc67NrkOlW6SP2R1oUP03vfO9Q4pRVFTeGy7tYaLmbGpA==
+"@jupiterone/continuous-delivery-docker@^7.1.2":
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/@jupiterone/continuous-delivery-docker/-/continuous-delivery-docker-7.1.2.tgz#1ccd1678cb303cc971a30e01e0f82657360b5087"
+  integrity sha512-u0FUwlD2+gzlS/Fo7tyg+3J1vz4gWe5bz3BkHWgAAwf9ZDMkHpdUZQUYJKT1M87xbibGQwliV+W7ldjVirTPAA==
   dependencies:
     "@jupiterone/continuous-delivery-aws" "^2.2.0"
     "@jupiterone/continuous-delivery-fs" "^3.2.0"
@@ -51,11 +51,12 @@
     chalk "^2.1.0"
     docker-file-parser "^1.0.2"
 
-"@jupiterone/continuous-delivery-environments@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@jupiterone/continuous-delivery-environments/-/continuous-delivery-environments-4.2.0.tgz#e60a8c4aa3a82a2b56b48f170b892e2fc2253ce4"
-  integrity sha512-ZSKImeTbXoHtvFdq/F5jfYyMGoow5Wn1KRTq4OdDHP1bdYyhJMvYLwt3dSICgtKqsDkOzpKlYi1lvdMC1DCMxw==
+"@jupiterone/continuous-delivery-environments@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@jupiterone/continuous-delivery-environments/-/continuous-delivery-environments-7.0.0.tgz#74e53b1655a1b0a9c63cbbf21b6cd20df36b316a"
+  integrity sha512-3iqdmF+QsQZT/6E4hICRftXZ10zi7ZW7hTio9ixljy0UFd15jmD32C5eOtaTsejcarUnJKssHnWbJIQarIzWDg==
   dependencies:
+    "@jupiterone/continuous-delivery-aws" "^2.2.0"
     "@jupiterone/continuous-delivery-logging" "^2.2.0"
     "@jupiterone/continuous-delivery-yaml" "^3.0.0"
     chalk "^2.1.0"
@@ -81,10 +82,10 @@
   dependencies:
     chalk "^2.1.0"
 
-"@jupiterone/continuous-delivery-models@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@jupiterone/continuous-delivery-models/-/continuous-delivery-models-3.1.1.tgz#20486d9416f4267a3c32bb12e1b2dd2b1f1276a8"
-  integrity sha512-9aHq6ei5tCBfF51yyoy0A5oF/MHNFAPXz33crqyDcJ94+m+FhNXRc40IXqAtLy2xBKCnArhw4MCUCEgoYpIKwQ==
+"@jupiterone/continuous-delivery-models@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@jupiterone/continuous-delivery-models/-/continuous-delivery-models-4.0.2.tgz#cd2e8133e43c87d9496d6325f559689341b3edc9"
+  integrity sha512-L0RQLcJqSkTNyihJo3zXpCrfO9qt59Ob/uWsyPxoscwAQ4AKBbk6XXuXDJ7LRwv/aDDfDcLv7xDLAoNRK3cDFQ==
   dependencies:
     fashion-model "^6.0.0"
     type-fest "^2.2.0"
@@ -96,27 +97,28 @@
   dependencies:
     yaml "^1.10.2"
 
-"@jupiterone/continuous-delivery@^3.0.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@jupiterone/continuous-delivery/-/continuous-delivery-3.2.2.tgz#b3600bea296713e407199ae16c115b66423f2ec5"
-  integrity sha512-SRhhwxcJnmxctzllCrZQpD+ErFdh/YPG4mvM2XkMTlfg0dOmnIzKtw4kQZ/e4XuRRf05s6lFapjDgMi45Gv/UA==
+"@jupiterone/continuous-delivery@^7.1.3":
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/@jupiterone/continuous-delivery/-/continuous-delivery-7.1.3.tgz#0ada3248fdbca654074889475e6dd7354aea635b"
+  integrity sha512-gCOsRqlLgBzOOvuC5cDXSrgdg2eBbwKsJs52ttti8jZz5NxciOBlcz9I/bPa/r08sFbR93KjUp6JSkNQDXyt9w==
   dependencies:
     "@jupiterone/continuous-delivery-aws" "^2.2.0"
     "@jupiterone/continuous-delivery-credstash" "^2.0.2"
-    "@jupiterone/continuous-delivery-docker" "^4.2.2"
-    "@jupiterone/continuous-delivery-environments" "^4.2.0"
+    "@jupiterone/continuous-delivery-docker" "^7.1.2"
+    "@jupiterone/continuous-delivery-environments" "^7.0.0"
     "@jupiterone/continuous-delivery-fs" "^3.2.0"
     "@jupiterone/continuous-delivery-logging" "^2.2.0"
-    "@jupiterone/continuous-delivery-models" "^3.1.1"
+    "@jupiterone/continuous-delivery-models" "^4.0.2"
     "@jupiterone/continuous-delivery-yaml" "^3.0.0"
 
-"@jupiterone/dev-tools@^8.1.1":
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/@jupiterone/dev-tools/-/dev-tools-8.1.1.tgz#cd5b41e46fb377e450842011e4bcc9ed9d0a458e"
-  integrity sha512-iHW/TQ2GGv9nPV0IIBDFJXV1BvMDVSB7HHL5VNvek/vXlMnM/yQDalNJFaoW4YZFsEWDMU+/6jHL24MApIIuAw==
+"@jupiterone/dev-tools@^11.4.9":
+  version "11.4.9"
+  resolved "https://registry.yarnpkg.com/@jupiterone/dev-tools/-/dev-tools-11.4.9.tgz#1462a49b6f9122a2fdbeec6340da0fbc535d00d9"
+  integrity sha512-JU7H0spoIo4E3cyKwQw0l2hbR3knQA4u2/4ZSxem1HivKLJ7vkd8CY4HzAcW3u3OBjJ4ToJit4kXHD2HVW5j0Q==
   dependencies:
-    "@jupiterone/continuous-delivery" "^3.0.2"
+    "@jupiterone/continuous-delivery" "^7.1.3"
     "@jupiterone/npm-enforce-age" "^1.0.0"
+    "@jupiterone/slack-alert" "^0.1.2"
     chalk "^4.1.2"
     cli-table "^0.3.6"
     common-tags "^1.8.0"
@@ -140,6 +142,13 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@jupiterone/npm-enforce-age/-/npm-enforce-age-1.0.1.tgz#d69aec68bb4d6351259b0fb2483120bb43e231a0"
   integrity sha512-fxru6eAMpBa3sF6M83GMN+KsY+23qdScoNhBMjwf4yKhIuP/VOOrCTw6KZRJVlu2NQ9IEdnmvvrLys9Jm/ZePw==
+
+"@jupiterone/slack-alert@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@jupiterone/slack-alert/-/slack-alert-0.1.2.tgz#624af61130e2f62462737d856bb17d2f363e8dce"
+  integrity sha512-teeOg/szZwqH2lb+HKWuwPowi6Zvq0R154KkzkkblmxsecWNX5SCRtXX361hGjpr25Qapp7No+IkPeEFtrD0mg==
+  dependencies:
+    slack-webhook "^1.0.0"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -2813,6 +2822,11 @@ signal-exit@^3.0.3:
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.5.tgz#9e3e8cc0c75a99472b44321033a7702e7738252f"
   integrity sha512-KWcOiKeQj6ZyXx7zq4YxSMgHRlod4czeBQZrPb8OKcohcqAXShm7E20kEMle9WBt26hFcAf0qLOcp5zmY7kOqQ==
+
+slack-webhook@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/slack-webhook/-/slack-webhook-1.0.0.tgz#f0ad1b73f278a14e8ab141b9555f4159d5605f38"
+  integrity sha512-UBmnu4ss4Lzkt0H5yUX0xjQH4D3nipaOQ3scNG2v6pKxaYQ7QRn0Pbx6ERcFz7BeGdpRuypuHz/kAGHMKH73fg==
 
 slash@^3.0.0:
   version "3.0.0"

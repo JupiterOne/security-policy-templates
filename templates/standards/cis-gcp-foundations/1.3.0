@@ -1,0 +1,555 @@
+{
+    "standard":"CIS Google Cloud Platform Foundation Benchmark 1.3",
+    "webLink":"#",
+    "version":"1.3.0",
+    "domains":[
+       {
+          "title":"Identity and Access Management",
+          "controls":[
+             {
+                "ref":"1.1",
+                "summary":"Use corporate login credentials instead of personal accounts, such as Gmail accounts.",
+                "title":"Ensure that Corporate Login Credentials are Used",
+                "applicable":true
+             },
+             {
+                "ref":"1.2",
+                "summary":"Setup multi-factor authentication for Google Cloud Platform accounts.",
+                "title":"Ensure that Multi-Factor Authentication is 'Enabled' for All Non-Service Accounts",
+                "applicable":true
+             },
+             {
+                "ref":"1.3",
+                "summary":"Setup Security Key Enforcement for Google Cloud Platform admin accounts.",
+                "title":"Ensure that Security Key Enforcement is Enabled for All Admin Accounts",
+                "applicable":true
+             },
+             {
+                "ref":"1.4",
+                "summary":"User managed service accounts should not have user-managed keys.",
+                "title":"Ensure That There Are Only GCP-Managed Service Account Keys for Each Service Account",
+                "applicable":true
+             },
+             {
+                "ref":"1.5",
+                "summary":"A service account is a special Google account that belongs to an application or a VM, instead of to an individual end-user. The application uses the service account to call the service's Google API so that users aren't directly involved. It's recommended not to use admin access for ServiceAccount.",
+                "title":"Ensure That Service Account Has No Admin Privileges",
+                "applicable":true
+             },
+             {
+                "ref":"1.6",
+                "summary":"It is recommended to assign the `Service Account User (iam.serviceAccountUser)` and `Service Account Token Creator (iam.serviceAccountTokenCreator)` roles to a user for a specific service account rather than assigning the role to a user at project level.",
+                "title":"Ensure That IAM Users Are Not Assigned the Service Account User or Service Account Token Creator Roles at Project Level",
+                "applicable":true
+             },
+             {
+                "ref":"1.7",
+                "summary":"Service Account keys consist of a key ID (Private_key_Id) and Private key, which are used to sign programmatic requests users make to Google cloud services accessible to that particular service account. It is recommended that all Service Account keys are regularly rotated.",
+                "title":"Ensure User-Managed/External Keys for Service Accounts Are Rotated Every 90 Days or Fewer",
+                "applicable":true
+             },
+             {
+                "ref":"1.8",
+                "summary":"It is recommended that the principle of 'Separation of Duties' is enforced while assigning service-account related roles to users.",
+                "title":"Ensure That Separation of Duties Is Enforced While Assigning Service Account Related Roles to Users",
+                "applicable":true
+             },
+             {
+                "ref":"1.9",
+                "summary":"It is recommended that the IAM policy on Cloud KMS `cryptokeys` should restrict anonymous and/or public access.",
+                "title":"Ensure That Cloud KMS Cryptokeys Are Not Anonymously or Publicly Accessible",
+                "applicable":true
+             },
+             {
+                "ref":"1.10",
+                "summary":"Google Cloud Key Management Service stores cryptographic keys in a hierarchical structure designed for useful and elegant access control management. \r\n\r\nThe format for the rotation schedule depends on the client library that is used. For the gcloud command-line tool, the next rotation time must be in `ISO` or `RFC3339` format, and the rotation period must be in the form `INTEGER[UNIT]`, where units can be one of seconds (s), minutes (m), hours (h) or days (d).",
+                "title":"Ensure KMS Encryption Keys Are Rotated Within a Period of 90 Days",
+                "applicable":true
+             },
+             {
+                "ref":"1.11",
+                "summary":"It is recommended that the principle of 'Separation of Duties' is enforced while assigning KMS related roles to users.",
+                "title":"Ensure That Separation of Duties Is Enforced While Assigning KMS Related Roles to Users",
+                "applicable":true
+             },
+             {
+                "ref":"1.12",
+                "summary":"Keys are insecure because they can be viewed publicly, such as from within a browser, or they can be accessed on a device where the key resides. It is recommended to use standard authentication flow instead.",
+                "title":"Ensure API Keys Are Not Created for a Project",
+                "applicable":true
+             },
+             {
+                "ref":"1.13",
+                "summary":"Unrestricted keys are insecure because they can be viewed publicly, such as from within a browser, or they can be accessed on a device where the key resides. It is recommended to restrict API key usage to trusted hosts, HTTP referrers and apps.",
+                "title":"Ensure API Keys Are Restricted To Use by Only Specified Hosts and Apps",
+                "applicable":true
+             },
+             {
+                "ref":"1.14",
+                "summary":"API keys are always at risk because they can be viewed publicly, such as from within a browser, or they can be accessed on a device where the key resides. It is recommended to restrict API keys to use (call) only APIs required by an application.",
+                "title":"Ensure API Keys Are Restricted to Only APIs That Application Needs Access",
+                "applicable":true
+             },
+             {
+                "ref":"1.15",
+                "summary":"It is recommended to rotate API keys every 90 days.",
+                "title":"Ensure API Keys Are Rotated Every 90 Days",
+                "applicable":true
+             },
+             {
+                "ref":"1.16",
+                "summary":"It is recommended that Essential Contacts is configured to designate email addresses for Google Cloud services to notify of important technical or security information.",
+                "title":"Ensure Essential Contacts is Configured for Organization",
+                "applicable":true
+             },
+             {
+                "ref":"1.17",
+                "summary":"When you use Dataproc, cluster and job data is stored on Persistent Disks (PDs) associated with the Compute Engine VMs in your cluster and in a Cloud Storage staging bucket. This PD and bucket data is encrypted using a Google-generated data encryption key (DEK) and key encryption key (KEK). The CMEK feature allows you to create, use, and revoke the key encryption key (KEK). Google still controls the data encryption key (DEK).",
+                "title":"Ensure that Dataproc Cluster is encrypted using Customer-Managed Encryption Key",
+                "applicable":true
+             },
+             {
+                "ref":"1.18",
+                "summary":"Google Cloud Functions allow you to host serverless code that is executed when an event is triggered, without the requiring the management a host operating system. These functions can also store environment variables to be used by the code that may contain authentication or other information that needs to remain confidential.",
+                "title":"Ensure Secrets are Not Stored in Cloud Functions Environment Variables by Using Secret Manager",
+                "applicable":true
+             }
+          ]
+       },
+       {
+          "title":"Logging and Monitoring",
+          "controls":[
+             {
+                "ref":"2.1",
+                "summary":"It is recommended that Cloud Audit Logging is configured to track all admin activities and read, write access to user data.",
+                "title":"Ensure That Cloud Audit Logging Is Configured Properly Across All Services and All Users From a Project",
+                "applicable":true
+             },
+             {
+                "ref":"2.2",
+                "summary":"It is recommended to create a sink that will export copies of all the log entries. This can help aggregate logs from multiple projects and export them to a Security Information and Event Management (SIEM).",
+                "title":"Ensure That Sinks Are Configured for All Log Entries",
+                "applicable":true
+             },
+             {
+                "ref":"2.3",
+                "summary":"Enabling retention policies on log buckets will protect logs stored in cloud storage buckets from being overwritten or accidentally deleted. It is recommended to set up retention policies and configure Bucket Lock on all storage buckets that are used as log sinks.",
+                "title":"Ensure That Retention Policies on Cloud Storage Buckets Used for Exporting Logs Are Configured Using Bucket Lock",
+                "applicable":true
+             },
+             {
+                "ref":"2.4",
+                "summary":"In order to prevent unnecessary project ownership assignments to users/service-accounts and further misuses of projects and resources, all `roles/Owner` assignments should be monitored.\r\n\r\nMembers (users/Service-Accounts) with a role assignment to primitive role `roles/Owner` are project owners.\r\n\r\nThe project owner has all the privileges on the project the role belongs to. These are summarized below:\r\n\r\n```\r\n- All viewer permissions on all GCP Services within the project\r\n\r\n- Permissions for actions that modify the state of all GCP services within the project\r\n\r\n- Manage roles and permissions for a project and all resources within the project\r\n\r\n- Set up billing for a project\r\n```\r\n\r\nGranting the owner role to a member (user/Service-Account) will allow that member to modify the Identity and Access Management (IAM) policy. Therefore, grant the owner role only if the member has a legitimate purpose to manage the IAM policy. This is because the project IAM policy contains sensitive access control data. Having a minimal set of users allowed to manage IAM policy will simplify any auditing that may be necessary.",
+                "title":"Ensure Log Metric Filter and Alerts Exist for Project Ownership Assignments/Changes",
+                "applicable":true
+             },
+             {
+                "ref":"2.5",
+                "summary":"Google Cloud Platform (GCP) services write audit log entries to the Admin Activity and Data Access logs to help answer the questions of, \"who did what, where, and when?\" within GCP projects.\r\n\r\nCloud audit logging records information includes the identity of the API caller, the time of the API call, the source IP address of the API caller, the request parameters, and the response elements returned by GCP services. Cloud audit logging provides a history of GCP API calls for an account, including API calls made via the console, SDKs, command-line tools, and other GCP services.",
+                "title":"Ensure That the Log Metric Filter and Alerts Exist for Audit Configuration Changes",
+                "applicable":true
+             },
+             {
+                "ref":"2.6",
+                "summary":"It is recommended that a metric filter and alarm be established for changes to Identity and Access Management (IAM) role creation, deletion and updating activities.",
+                "title":"Ensure That the Log Metric Filter and Alerts Exist for Custom Role Changes",
+                "applicable":true
+             },
+             {
+                "ref":"2.7",
+                "summary":"It is recommended that a metric filter and alarm be established for Virtual Private Cloud (VPC) Network Firewall rule changes.",
+                "title":"Ensure That the Log Metric Filter and Alerts Exist for VPC Network Firewall Rule Changes",
+                "applicable":true
+             },
+             {
+                "ref":"2.8",
+                "summary":"It is recommended that a metric filter and alarm be established for Virtual Private Cloud (VPC) network route changes.",
+                "title":"Ensure That the Log Metric Filter and Alerts Exist for VPC Network Route Changes",
+                "applicable":true
+             },
+             {
+                "ref":"2.9",
+                "summary":"It is recommended that a metric filter and alarm be established for Virtual Private Cloud (VPC) network changes.",
+                "title":"Ensure That the Log Metric Filter and Alerts Exist for VPC Network Changes",
+                "applicable":true
+             },
+             {
+                "ref":"2.10",
+                "summary":"It is recommended that a metric filter and alarm be established for Cloud Storage Bucket IAM changes.",
+                "title":"Ensure That the Log Metric Filter and Alerts Exist for Cloud Storage IAM Permission Changes",
+                "applicable":true
+             },
+             {
+                "ref":"2.11",
+                "summary":"It is recommended that a metric filter and alarm be established for SQL instance configuration changes.",
+                "title":"Ensure That the Log Metric Filter and Alerts Exist for SQL Instance Configuration Changes",
+                "applicable":true
+             },
+             {
+                "ref":"2.12",
+                "summary":"Cloud DNS logging records the queries from the name servers within your VPC to Stackdriver. Logged queries can come from Compute Engine VMs, GKE containers, or other GCP resources provisioned within the VPC.",
+                "title":"Ensure That Cloud DNS Logging Is Enabled for All VPC Networks",
+                "applicable":true
+             },
+             {
+                "ref":"2.13",
+                "summary":"GCP Cloud Asset Inventory is services that provides a historical view of GCP resources and IAM policies through a time-series database. The information recorded includes metadata on Google Cloud resources, metadata on policies set on Google Cloud projects or resources, and runtime information gathered within a Google Cloud resource.",
+                "title":"Ensure Cloud Asset Inventory Is Enabled",
+                "applicable":true
+             },
+             {
+                "ref":"2.14",
+                "summary":"GCP Access Transparency provides audit logs for all actions that Google personnel take in your Google Cloud resources.",
+                "title":"Ensure 'Access Transparency' is 'Enabled'",
+                "applicable":true
+             },
+             {
+                "ref":"2.15",
+                "summary":"GCP Access Approval enables you to require your organizations' explicit approval whenever Google support try to access your projects. You can then select users within your organization who can approve these requests through giving them a security role in IAM. All access requests display which Google Employee requested them in an email or Pub/Sub message that you can choose to Approve. This adds an additional control and logging of who in your organization approved/denied these requests.",
+                "title":"Ensure 'Access Approval' is 'Enabled'",
+                "applicable":true
+             }
+          ]
+       },
+       {
+          "title":"Networking",
+          "controls":[
+             {
+                "ref":"3.1",
+                "summary":"To prevent use of `default` network, a project should not have a `default` network.",
+                "title":"Ensure That the Default Network Does Not Exist in a Project",
+                "applicable":true
+             },
+             {
+                "ref":"3.2",
+                "summary":"In order to prevent use of legacy networks, a project should not have a legacy network configured. As of now, Legacy Networks are gradually being phased out, and you can no longer create projects with them. This recommendation is to check older projects to ensure that they are not using Legacy Networks.",
+                "title":"Ensure Legacy Networks Do Not Exist for Older Projects",
+                "applicable":true
+             },
+             {
+                "ref":"3.3",
+                "summary":"Cloud Domain Name System (DNS) is a fast, reliable and cost-effective domain name system that powers millions of domains on the internet. Domain Name System Security Extensions (DNSSEC) in Cloud DNS enables domain owners to take easy steps to protect their domains against DNS hijacking and man-in-the-middle and other attacks.",
+                "title":"Ensure That DNSSEC Is Enabled for Cloud DNS",
+                "applicable":true
+             },
+             {
+                "ref":"3.4",
+                "summary":"NOTE: Currently, the SHA1 algorithm has been removed from general use by Google, and, if being used, needs to be whitelisted on a project basis by Google and will also, therefore, require a Google Cloud support contract.\r\n\r\nDNSSEC algorithm numbers in this registry may be used in CERT RRs. Zone signing (DNSSEC) and transaction security mechanisms (SIG(0) and TSIG) make use of particular subsets of these algorithms. The algorithm used for key signing should be a recommended one and it should be strong.",
+                "title":"Ensure That RSASHA1 Is Not Used for the Key-Signing Key in Cloud DNS DNSSEC",
+                "applicable":true
+             },
+             {
+                "ref":"3.5",
+                "summary":"NOTE: Currently, the SHA1 algorithm has been removed from general use by Google, and, if being used, needs to be whitelisted on a project basis by Google and will also, therefore, require a Google Cloud support contract.\r\n\r\nDNSSEC algorithm numbers in this registry may be used in CERT RRs. Zone signing (DNSSEC) and transaction security mechanisms (SIG(0) and TSIG) make use of particular subsets of these algorithms. The algorithm used for key signing should be a recommended one and it should be strong.",
+                "title":"Ensure That RSASHA1 Is Not Used for the Zone-Signing Key in Cloud DNS DNSSEC",
+                "applicable":true
+             },
+             {
+                "ref":"3.6",
+                "summary":"GCP `Firewall Rules` are specific to a `VPC Network`. Each rule either `allows` or `denies` traffic when its conditions are met. Its conditions allow the user to specify the type of traffic, such as ports and protocols, and the source or destination of the traffic, including IP addresses, subnets, and instances.\r\n\r\nFirewall rules are defined at the VPC network level and are specific to the network in which they are defined. The rules themselves cannot be shared among networks. Firewall rules only support IPv4 traffic. When specifying a source for an ingress rule or a destination for an egress rule by address, only an `IPv4` address or `IPv4 block in CIDR` notation can be used. Generic `(0.0.0.0/0)` incoming traffic from the internet to VPC or VM instance using `SSH` on `Port 22` can be avoided.",
+                "title":"Ensure That SSH Access Is Restricted From the Internet",
+                "applicable":true
+             },
+             {
+                "ref":"3.7",
+                "summary":"GCP `Firewall Rules` are specific to a `VPC Network`. Each rule either `allows` or `denies` traffic when its conditions are met. Its conditions allow users to specify the type of traffic, such as ports and protocols, and the source or destination of the traffic, including IP addresses, subnets, and instances.\r\n\r\nFirewall rules are defined at the VPC network level and are specific to the network in which they are defined. The rules themselves cannot be shared among networks. Firewall rules only support IPv4 traffic. When specifying a source for an ingress rule or a destination for an egress rule by address, an `IPv4` address or `IPv4 block in CIDR` notation can be used. Generic `(0.0.0.0/0)` incoming traffic from the Internet to a VPC or VM instance using `RDP` on `Port 3389` can be avoided.",
+                "title":"Ensure That RDP Access Is Restricted From the Internet",
+                "applicable":true
+             },
+             {
+                "ref":"3.8",
+                "summary":"Flow Logs is a feature that enables users to capture information about the IP traffic going to and from network interfaces in the organization's VPC Subnets. Once a flow log is created, the user can view and retrieve its data in Stackdriver Logging. It is recommended that Flow Logs be enabled for every business-critical VPC subnet.",
+                "title":"Ensure that VPC Flow Logs is Enabled for Every Subnet in a VPC Network",
+                "applicable":true
+             },
+             {
+                "ref":"3.9",
+                "summary":"Secure Sockets Layer (SSL) policies determine what port Transport Layer Security (TLS) features clients are permitted to use when connecting to load balancers. To prevent usage of insecure features, SSL policies should use (a) at least TLS 1.2 with the MODERN profile; or (b) the RESTRICTED profile, because it effectively requires clients to use TLS 1.2 regardless of the chosen minimum TLS version; or (3) a CUSTOM profile that does not support any of the following features: \r\n```\r\nTLS_RSA_WITH_AES_128_GCM_SHA256\r\nTLS_RSA_WITH_AES_256_GCM_SHA384\r\nTLS_RSA_WITH_AES_128_CBC_SHA\r\nTLS_RSA_WITH_AES_256_CBC_SHA\r\nTLS_RSA_WITH_3DES_EDE_CBC_SHA\r\n```",
+                "title":"Ensure No HTTPS or SSL Proxy Load Balancers Permit SSL Policies With Weak Cipher Suites",
+                "applicable":true
+             },
+             {
+                "ref":"3.10",
+                "summary":"IAP authenticates the user requests to your apps via a Google single sign in. You can then manage these users with permissions to control access. It is recommended to use both IAP permissions and firewalls to restrict this access to your apps with sensitive information.",
+                "title":"Use Identity Aware Proxy (IAP) to Ensure Only Traffic From Google IP Addresses are 'Allowed'",
+                "applicable":true
+             }
+          ]
+       },
+       {
+          "title":"Virtual Machines",
+          "controls":[
+             {
+                "ref":"4.1",
+                "summary":"It is recommended to configure your instance to not use the default Compute Engine service account because it has the Editor role on the project.",
+                "title":"Ensure That Instances Are Not Configured To Use the Default Service Account",
+                "applicable":true
+             },
+             {
+                "ref":"4.2",
+                "summary":"To support principle of least privileges and prevent potential privilege escalation it is recommended that instances are not assigned to default service account `Compute Engine default service account` with Scope `Allow full access to all Cloud APIs`.",
+                "title":"Ensure That Instances Are Not Configured To Use the Default Service Account With Full Access to All Cloud APIs",
+                "applicable":true
+             },
+             {
+                "ref":"4.3",
+                "summary":"It is recommended to use Instance specific SSH key(s) instead of using common/shared project-wide SSH key(s) to access Instances.",
+                "title":"Ensure “Block Project-Wide SSH Keys” Is Enabled for VM Instances",
+                "applicable":true
+             },
+             {
+                "ref":"4.4",
+                "summary":"Enabling OS login binds SSH certificates to IAM users and facilitates effective SSH certificate management.",
+                "title":"Ensure Oslogin Is Enabled for a Project",
+                "applicable":true
+             },
+             {
+                "ref":"4.5",
+                "summary":"Interacting with a serial port is often referred to as the serial console, which is similar to using a terminal window, in that input and output is entirely in text mode and there is no graphical interface or mouse support.\r\n\r\nIf you enable the interactive serial console on an instance, clients can attempt to connect to that instance from any IP address. Therefore interactive serial console support should be disabled.",
+                "title":"Ensure ‘Enable Connecting to Serial Ports’ Is Not Enabled for VM Instance",
+                "applicable":true
+             },
+             {
+                "ref":"4.6",
+                "summary":"Compute Engine instance cannot forward a packet unless the source IP address of the packet matches the IP address of the instance. Similarly, GCP won't deliver a packet whose destination IP address is different than the IP address of the instance receiving the packet. However, both capabilities are required if you want to use instances to help route packets.\r\n\r\nForwarding of data packets should be disabled to prevent data loss or information disclosure.",
+                "title":"Ensure That IP Forwarding Is Not Enabled on Instances",
+                "applicable":true
+             },
+             {
+                "ref":"4.7",
+                "summary":"Customer-Supplied Encryption Keys (CSEK) are a feature in Google Cloud Storage and Google Compute Engine. If you supply your own encryption keys, Google uses your key to protect the Google-generated keys used to encrypt and decrypt your data. By default, Google Compute Engine encrypts all data at rest. Compute Engine handles and manages this encryption for you without any additional actions on your part. However, if you wanted to control and manage this encryption yourself, you can provide your own encryption keys.",
+                "title":"Ensure VM Disks for Critical VMs Are Encrypted With Customer-Supplied Encryption Keys (CSEK)",
+                "applicable":true
+             },
+             {
+                "ref":"4.8",
+                "summary":"To defend against against advanced threats and ensure that the boot loader and firmware on your VMs are signed and untampered, it is recommended that Compute instances are launched with Shielded VM enabled.",
+                "title":"Ensure Compute Instances Are Launched With Shielded VM Enabled",
+                "applicable":true
+             },
+             {
+                "ref":"4.9",
+                "summary":"Compute instances should not be configured to have external IP addresses.",
+                "title":"Ensure That Compute Instances Do Not Have Public IP Addresses",
+                "applicable":true
+             },
+             {
+                "ref":"4.10",
+                "summary":"In order to maintain the highest level of security all connections to an application should be secure by default.",
+                "title":"Ensure That App Engine Applications Enforce HTTPS Connections",
+                "applicable":true
+             },
+             {
+                "ref":"4.11",
+                "summary":"Google Cloud encrypts data at-rest and in-transit, but customer data must be decrypted for processing. Confidential Computing is a breakthrough technology which encrypts data in-use—while it is being processed. Confidential Computing environments keep data encrypted in memory and elsewhere outside the central processing unit (CPU). \r\n\r\nConfidential VMs leverage the Secure Encrypted Virtualization (SEV) feature of AMD EPYC™ CPUs. Customer data will stay encrypted while it is used, indexed, queried, or trained on. Encryption keys are generated in hardware, per VM, and not exportable. Thanks to built-in hardware optimizations of both performance and security, there is no significant performance penalty to Confidential Computing workloads.",
+                "title":"Ensure That Compute Instances Have Confidential Computing Enabled",
+                "applicable":true
+             },
+             {
+                "ref":"4.12",
+                "summary":"For the virtual machines where you manage the operating system in Infrastructure as a Service (IaaS), you are responsible for keeping these operating systems and programs up to date. There are multiple ways to manage updates yourself that would be difficult to fit into one recommendation. Check the CIS Benchmarks for each of your Operating Systems as well for potential solutions there. In this recommendation we will use a feature in Google Cloud via its VM manager API to manage updates called Operating System Patch Management (referred to OS Patch Management from here on out). This may requires installing the OS Config API if it is not already installed. Also if you install custom operating systems, they may not functionally support the local OS config agent required to gather operating system patch information and issue update commands. These update commands are the default Linux and Windows commands to install updates such as yum or apt. This feature allows for a central management to issue those commands. OS Patch management also does not host the updates itself, so your VMs will need to be public or be able to access the internet. This is not the only Patch Management solution available to your organization and you should weigh your needs before committing to using this.",
+                "title":"Ensure the Latest Operating System Updates Are Installed On Your Virtual Machines in All Projects",
+                "applicable":true
+             }
+          ]
+       },
+       {
+          "title":"Storage",
+          "controls":[
+             {
+                "ref":"5.1",
+                "summary":"It is recommended that IAM policy on Cloud Storage bucket does not allows anonymous or public access.",
+                "title":"Ensure That Cloud Storage Bucket Is Not Anonymously or Publicly Accessible",
+                "applicable":true
+             },
+             {
+                "ref":"5.2",
+                "summary":"It is recommended that uniform bucket-level access is enabled on Cloud Storage buckets.",
+                "title":"Ensure That Cloud Storage Buckets Have Uniform Bucket-Level Access Enabled",
+                "applicable":true
+             }
+          ]
+       },
+       {
+          "title":"MySQL Database",
+          "controls":[
+             {
+                "ref":"6.1.1",
+                "summary":"It is recommended to set a password for the administrative user (`root` by default) to prevent unauthorized access to the SQL database instances.\r\n\r\nThis recommendation is applicable only for MySQL Instances. PostgreSQL does not offer any setting for No Password from the cloud console.",
+                "title":"Ensure That a MySQL Database Instance Does Not Allow Anyone To Connect With Administrative Privileges",
+                "applicable":true
+             },
+             {
+                "ref":"6.1.2",
+                "summary":"It is recommended to set `skip_show_database` database flag for Cloud SQL Mysql instance to `on`",
+                "title":"Ensure ‘Skip_show_database’ Database Flag for Cloud SQL MySQL Instance Is Set to ‘On’",
+                "applicable":true
+             },
+             {
+                "ref":"6.1.3",
+                "summary":"It is recommended to set the `local_infile` database flag for a Cloud SQL MySQL instance to `off`.",
+                "title":"Ensure That the ‘Local_infile’ Database Flag for a Cloud SQL MySQL Instance Is Set to ‘Off’",
+                "applicable":true
+             }
+          ]
+       },
+       {
+          "title":"PostgreSQL Database",
+          "controls":[
+             {
+                "ref":"6.2.1",
+                "summary":"The `log_error_verbosity` flag controls the verbosity/details of messages logged. Valid values are:\r\n- `TERSE`\r\n- `DEFAULT`\r\n- `VERBOSE`\r\n\r\n`TERSE` excludes the logging of `DETAIL`, `HINT`, `QUERY`, and `CONTEXT` error information.\r\n\r\n`VERBOSE` output includes the `SQLSTATE` error code, source code file name, function name, and line number that generated the error.\r\n\r\nEnsure an appropriate value is set to 'DEFAULT' or stricter.",
+                "title":"Ensure ‘Log_error_verbosity’ Database Flag for Cloud SQL PostgreSQL Instance Is Set to ‘DEFAULT’ or Stricter",
+                "applicable":true
+             },
+             {
+                "ref":"6.2.2",
+                "summary":"Enabling the `log_connections` setting causes each attempted connection to the server to be logged, along with successful completion of client authentication. This parameter cannot be changed after the session starts.",
+                "title":"Ensure That the ‘Log_connections’ Database Flag for Cloud SQL PostgreSQL Instance Is Set to ‘On’",
+                "applicable":true
+             },
+             {
+                "ref":"6.2.3",
+                "summary":"Enabling the `log_disconnections` setting logs the end of each session, including the session duration.",
+                "title":"Ensure That the ‘Log_disconnections’ Database Flag for Cloud SQL PostgreSQL Instance Is Set to ‘On’",
+                "applicable":true
+             },
+             {
+                "ref":"6.2.4",
+                "summary":"The value of `log_statement` flag determined the SQL statements that are logged. Valid values are:\r\n- `none`\r\n- `ddl`\r\n- `mod`\r\n- `all`\r\n\r\nThe value `ddl` logs all data definition statements.\r\nThe value `mod` logs all ddl statements, plus data-modifying statements.\r\n\r\nThe statements are logged after a basic parsing is done and statement type is determined, thus this does not logs statements with errors. When using extended query protocol, logging occurs after an Execute message is received and values of the Bind parameters are included.\r\n\r\nA value of 'ddl' is recommended unless otherwise directed by your organization's logging policy.",
+                "title":"Ensure ‘Log_statement’ Database Flag for Cloud SQL PostgreSQL Instance Is Set Appropriately",
+                "applicable":true
+             },
+             {
+                "ref":"6.2.5",
+                "summary":"PostgreSQL logs only the IP address of the connecting hosts. The `log_hostname` flag controls the logging of `hostnames` in addition to the IP addresses logged. The performance hit is dependent on the configuration of the environment and the host name resolution setup. This parameter can only be set in the `postgresql.conf` file or on the server command line.",
+                "title":"Ensure ‘Log_hostname’ Database Flag for Cloud SQL PostgreSQL Instance Is Set to 'on'",
+                "applicable":true
+             },
+             {
+                "ref":"6.2.6",
+                "summary":"The `log_min_messages` flag defines the minimum message severity level that is considered as an error statement. Messages for error statements are logged with the SQL statement. Valid values include `DEBUG5`, `DEBUG4`, `DEBUG3`, `DEBUG2`, `DEBUG1`, `INFO`, `NOTICE`, `WARNING`, `ERROR`, `LOG`, `FATAL`, and `PANIC`.\r\nEach severity level includes the subsequent levels mentioned above. ERROR is considered the best practice setting. Changes should only be made in accordance with the organization's logging policy.",
+                "title":"Ensure That the ‘Log_min_messages’ Database Flag for Cloud SQL PostgreSQL Instance Is Set to at least 'Warning'",
+                "applicable":true
+             },
+             {
+                "ref":"6.2.7",
+                "summary":"The `log_min_error_statement` flag defines the minimum message severity level that are considered as an error statement. Messages for error statements are logged with the SQL statement. Valid values include `DEBUG5`, `DEBUG4`, `DEBUG3`, `DEBUG2`, `DEBUG1`, `INFO`, `NOTICE`, `WARNING`, `ERROR`, `LOG`, `FATAL`, and `PANIC`.\r\nEach severity level includes the subsequent levels mentioned above. Ensure a value of `ERROR` or stricter is set.",
+                "title":"Ensure ‘Log_min_error_statement’ Database Flag for Cloud SQL PostgreSQL Instance Is Set to ‘Error’ or Stricter",
+                "applicable":true
+             },
+             {
+                "ref":"6.2.8",
+                "summary":"The `log_min_duration_statement` flag defines the minimum amount of execution time of a statement in milliseconds where the total duration of the statement is logged. Ensure that `log_min_duration_statement` is disabled, i.e., a value of `-1` is set.",
+                "title":"Ensure That the ‘Log_min_duration_statement’ Database Flag for Cloud SQL PostgreSQL Instance Is Set to ‘-1′ (Disabled)",
+                "applicable":true
+             },
+             {
+                "ref":"6.2.9",
+                "summary":"Ensure `cloudsql.enable_pgaudit` database flag for Cloud SQL PostgreSQL instance is set to `on` to allow for centralized logging.",
+                "title":"Ensure That 'cloudsql.enable_pgaudit' Database Flag for each Cloud Sql Postgresql Instance Is Set to 'on' For Centralized Logging",
+                "applicable":true
+             }
+          ]
+       },
+       {
+          "title":"SQL Server",
+          "controls":[
+             {
+                "ref":"6.3.1",
+                "summary":"It is recommended to set `external scripts enabled` database flag for Cloud SQL SQL Server instance to `off`",
+                "title":"Ensure 'external scripts enabled' database flag for Cloud SQL SQL Server instance is set to 'off'",
+                "applicable":true
+             },
+             {
+                "ref":"6.3.2",
+                "summary":"It is recommended to set `cross db ownership chaining` database flag for Cloud SQL SQL Server instance to `off`.",
+                "title":"Ensure that the 'cross db ownership chaining' database flag for Cloud SQL SQL Server instance is set to 'off'",
+                "applicable":true
+             },
+             {
+                "ref":"6.3.3",
+                "summary":"It is recommended to check the `user connections` for a Cloud SQL SQL Server instance to ensure that it is not artificially limiting connections.",
+                "title":"Ensure 'user Connections' Database Flag for Cloud Sql Sql Server Instance Is Set to a Non-limiting Value",
+                "applicable":true
+             },
+             {
+                "ref":"6.3.4",
+                "summary":"It is recommended that, `user options` database flag for Cloud SQL SQL Server instance should not be configured.",
+                "title":"Ensure 'user options' database flag for Cloud SQL SQL Server instance is not configured",
+                "applicable":true
+             },
+             {
+                "ref":"6.3.5",
+                "summary":"It is recommended to set `remote access` database flag for Cloud SQL SQL Server instance to `off`.",
+                "title":"Ensure 'remote access' database flag for Cloud SQL SQL Server instance is set to 'off'",
+                "applicable":true
+             },
+             {
+                "ref":"6.3.6",
+                "summary":"It is recommended to set `3625 (trace flag)` database flag for Cloud SQL SQL Server instance to `off`.",
+                "title":"Ensure '3625 (trace flag)' database flag for all Cloud SQL Server instances is set to 'off'",
+                "applicable":true
+             },
+             {
+                "ref":"6.3.7",
+                "summary":"It is recommended to set `contained database authentication` database flag for Cloud SQL on the SQL Server instance is set to `off`.",
+                "title":"Ensure that the 'contained database authentication' database flag for Cloud SQL on the SQL Server instance is set to 'off'",
+                "applicable":true
+             }
+          ]
+       },
+       {
+        "title":"Cloud SQL Database Services",
+        "controls":[
+           {
+              "ref":"6.4",
+              "summary":"It is recommended to enforce all incoming connections to SQL database instance to use SSL.",
+              "title":"Ensure That the Cloud SQL Database Instance Requires All Incoming Connections To Use SSL",
+              "applicable":true
+           },
+           {
+              "ref":"6.5",
+              "summary":"Database Server should accept connections only from trusted Network(s)/IP(s) and restrict access from public IP addresses.",
+              "title":"Ensure That Cloud SQL Database Instances Do Not Implicitly Whitelist All Public IP Addresses",
+              "applicable":true
+           },
+           {
+              "ref":"6.6",
+              "summary":"It is recommended to configure Second Generation Sql instance to use private IPs instead of public IPs.",
+              "title":"Ensure That Cloud SQL Database Instances Do Not Have Public IPs",
+              "applicable":true
+           },
+           {
+              "ref":"6.7",
+              "summary":"It is recommended to have all SQL database instances set to enable automated backups.",
+              "title":"Ensure That Cloud SQL Database Instances Are Configured With Automated Backups",
+              "applicable":true
+           }
+         ]
+        },
+       {
+          "title":"BigQuery",
+          "controls":[
+             {
+                "ref":"7.1",
+                "summary":"It is recommended that the IAM policy on BigQuery datasets does not allow anonymous and/or public access.",
+                "title":"Ensure That BigQuery Datasets Are Not Anonymously or Publicly Accessible",
+                "applicable":true
+             },
+             {
+                "ref":"7.2",
+                "summary":"BigQuery by default encrypts the data as rest by employing `Envelope Encryption` using Google managed cryptographic keys. The data is encrypted using the `data encryption keys` and data encryption keys themselves are further encrypted using `key encryption keys`. This is seamless and do not require any additional input from the user. However, if you want to have greater control, Customer-managed encryption keys (CMEK) can be used as encryption key management solution for BigQuery Data Sets. If CMEK is used, the CMEK is used to encrypt the data encryption keys instead of using google-managed encryption keys.",
+                "title":"Ensure That All BigQuery Tables Are Encrypted With Customer-Managed Encryption Key (CMEK)",
+                "applicable":true
+             },
+             {
+                "ref":"7.3",
+                "summary":"BigQuery by default encrypts the data as rest by employing `Envelope Encryption` using Google managed cryptographic keys. The data is encrypted using the `data encryption keys` and data encryption keys themselves are further encrypted using `key encryption keys`. This is seamless and do not require any additional input from the user. However, if you want to have greater control, Customer-managed encryption keys (CMEK) can be used as encryption key management solution for BigQuery Data Sets.",
+                "title":"Ensure That a Default Customer-Managed Encryption Key (CMEK) Is Specified for All BigQuery Data Sets",
+                "applicable":true
+             }
+          ]
+       }
+    ]
+ }

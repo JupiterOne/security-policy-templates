@@ -1,6 +1,6 @@
 {
-    "standard": "ISO/IEC 27001:2013",
-    "version": "2013",
+    "standard": "ISO/IEC 27001:2022",
+    "version": "2022",
     "domains": [
       {
        "title": "4 - Context of the organization",
@@ -8,7 +8,7 @@
           {
                 "ref": "4.1",
                 "title": "Understanding the organization and its context",
-                "summary": "The organization shall determine external and internal issues that are relevant to its purpose and that shall affect its ability to achieve the intended outcome(s) of its information security management system.",
+                "summary": "The organization shall determine external and internal issues that are relevant to its purpose and that affect its ability to achieve the intended outcome(s) of its information security management system.",
                 "mappedControls" : [ 
                 "cp-compliance-mgmt",
                 "cp-ism-scope"
@@ -17,7 +17,7 @@
           {  
                "ref": "4.2.a",
                "title": "Understanding the needs and expectations of interested parties, part a)",
-               "summary": "The organization shall determine: interested parties that are relevant to the information security management system.",
+               "summary": "The organization shall determine: a) interested parties that are relevant to the information security management system.",
                "mappedControls" : [ 
                "cp-compliance-mgmt"
               ]
@@ -25,11 +25,18 @@
           {
                "ref": "4.2.b",
                "title": "Understanding the needs and expectations of interested parties, part b)",
-               "summary": "The organization shall determine: b) the requirements of these interested parties relevant to information security. Note: the requirements of interested parties may include legal and regulatory requirements and contractual obligations.",
+               "summary": "The organization shall determine: b) the relevant requirements of these interested parties. Note: the requirements of interested parties  include legal and regulatory requirements and contractual obligations.",
                "mappedControls" : [ 
                "cp-compliance-mgmt"
               ]
           },
+          {
+               "ref": "4.2.c",
+               "title": "Understanding the needs and expectations of interested parties, part c)",
+               "summary": "The organization shall determine: c) which of these requirements will be addressed through the information security managment system",
+               "mappedControls" : [ 
+              ]
+          },           
           {
                "ref": "4.3.a",
                "title": "Determining the scope of the information security management system, part a)",
@@ -45,7 +52,7 @@
           { 
                "ref": "4.3.b",
                "title": "Determining the scope of the information security management system, part b)",
-               "summary": "The organization shall determine the boundaries and applicability of the information system management system to establish its scope. When determining this scope, the organization shall consider: the requirements [of the interested parties] referred to in 4.2. The scope shall be available as documented information.",
+               "summary": "The organization shall determine the boundaries and applicability of the information system management system to establish its scope. When determining this scope, the organization shall consider: the requirements referred to in 4.2. The scope shall be available as documented information.",
                "mappedControls" : [ 
                "cp-ism-scope",
                "cp-audit-customers",
@@ -66,7 +73,7 @@
            {  
                "ref": "4.4",
                "title": "Information security management system", 
-               "summary": "The organization shall establish, implement, maintain, and continually improve an information security management system, in accordance with the requirements of this International Standard.", 
+               "summary": "The organization shall establish, implement, maintain, and continually improve an information security management system, including the processes needed and thier interactions, in accordance with the requirements of this International Standard.", 
                "mappedControls" : [ 
                "cp-ism-scope",
                "cp-ism-policies",
@@ -80,8 +87,8 @@
               "controls": [
           {
              "ref": "5.1.a",
-             "title": "Leadership and commitment, part a)",
-             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: ensuring the information security policy and the information security objectives are established and compatible with the strategic direction of the organization.",
+             "title": "Leadership and Commitment, part a)",
+             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: a) ensuring the information security policy and the information security objectives are established and compatible with the strategic direction of the organization.",
              "mappedControls" : [ 
               "cp-ism-policies",
               "cp-policy-mgmt"
@@ -90,7 +97,7 @@
           {  
              "ref": "5.1.b",
              "title": "Leadership and commitment, part b)",
-             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: ensuring the integration of the information security management system requirements into their organization's processes.",
+             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: b) ensuring the integration of the information security management system requirements into the organization's processes.",
              "mappedControls" : [ 
               "cp-ism-policies",
               "cp-policy-mgmt",
@@ -102,7 +109,7 @@
           {  
              "ref": "5.1.c",
              "title": "Leadership and commitment, part c)",
-             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: ensuring that the resources needed for the information security management system are available.",
+             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: c) ensuring that the resources needed for the information security management system are available.",
              "mappedControls" : [ 
               "cp-role-assignment",
                "cp-audit-review"
@@ -111,7 +118,7 @@
           {  
              "ref": "5.1.d",
              "title": "Leadership and commitment, part d)",
-             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: communicating the importance of effective information security management and of conforming to the information security management system requirements.",
+             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: d) communicating the importance of effective information security management and of conforming to the information security management system requirements.",
              "mappedControls" : [
               "cp-training-policy",
               "cp-training-awareness",
@@ -125,7 +132,7 @@
           {
              "ref": "5.1.e",
              "title": "Leadership and commitment, part e)",
-             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: ensuring that the information security management system achieves its intended outcome(s).",
+             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: e) ensuring that the information security management system achieves its intended outcome(s).",
              "mappedControls" : [
               "cp-compliance-requests",
               "cp-audit-types",
@@ -137,7 +144,7 @@
           {
              "ref": "5.1.f",
              "title": "Leadership and commitment, part f)",
-             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: directing and supporting persons to contribute to the effectiveness of the information security management system.",
+             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: f) directing and supporting persons to contribute to the effectiveness of the information security management system.",
               "mappedControls" : [
               "cp-role-assignment",
               "cp-employee-recognition",
@@ -149,7 +156,7 @@
           {
              "ref": "5.1.g",
              "title": "Leadership and commitment, part g)",
-             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: promoting continual improvement.",
+             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: g) promoting continual improvement.",
               "mappedControls" : [
               "cp-model-metrics",
               "cp-model-quality", 
@@ -160,7 +167,7 @@
           {
              "ref": "5.1.h",
              "title": "Leadership and commitment, part h)",
-             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: supporting other relevant management roles to demonstrate their leadership as it applies to their area of responsibility.",
+             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: h) supporting other relevant management roles to demonstrate their leadership as it applies to their area of responsibility.",
               "mappedControls" : [
               "cp-role-assignment",
               "cp-employee-recognition"

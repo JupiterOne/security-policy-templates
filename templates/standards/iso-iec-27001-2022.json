@@ -317,7 +317,7 @@
           {
              "ref": "6.1.2.a",
              "title": "Information security risk assessment, part a)",
-             "summary": "The organization shall define and apply an information security risk assessment process that: establishes and maintains information security risk criteria that include: 1) the risk acceptance criteria; and 2) criteria for performing information security risk assessments.",
+             "summary": "The organization shall define and apply an information security risk assessment process that: establishes and maintains information security risk criteria that include: 1) the risk acceptance criteria; and 2) criteria for performing information security risk assessments.The organization shall retain documented information about the information security risk assessment process.",
              "mappedControls" : [
               "cp-risk-mgmt-objectives"
               ]
@@ -325,7 +325,7 @@
           {
              "ref": "6.1.2.b",
              "title": "Information security risk assessment, part b)",
-             "summary": "The organization shall define and apply an information security risk assessment process that: ensures that repeated information security risk assessments produce consistent, valid and comparable results.",
+             "summary": "The organization shall define and apply an information security risk assessment process that: ensures that repeated information security risk assessments produce consistent, valid and comparable results. The organization shall retain documented information about the information security risk assessment process.",
              "mappedControls" : [
               "cp-risk-mgmt-objectives",
               "cp-risk-assess",
@@ -335,7 +335,7 @@
           {
              "ref": "6.1.2.c",
              "title": "Information security risk assessment, part c)",
-             "summary": "The organization shall define and apply an information security risk assessment process that identifies the information security risks: 1) to identify risks associated with the loss of confidentiality, integrity and availability for information within the scope of the information security management system; and 2) identify the risk owners.",
+             "summary": "The organization shall define and apply an information security risk assessment process that identifies the information security risks: 1) to identify risks associated with the loss of confidentiality, integrity and availability for information within the scope of the information security management system; and 2) identify the risk owners. The organization shall retain documented information about the information security risk assessment process.",
              "mappedControls" : [
                 "cp-risk-assess",
               "cp-risk-registry",
@@ -345,7 +345,7 @@
           {
              "ref": "6.1.2.d",
              "title": "Information security risk assessment, part d)",
-             "summary": "The organization shall define and apply an information security risk assessment process that analyzes the information security risks [to] 1) assess the potential consequences that would result if the risks identified in 6.1.2 c) 1) were to materialize 2) assess the realistic likelihood of occurence of the risks identified in 6.1.2 c) 1)[and] 3) determine the levels of risk.",
+             "summary": "The organization shall define and apply an information security risk assessment process that analyzes the information security risks [to] 1) assess the potential consequences that would result if the risks identified in 6.1.2 c) 1) were to materialize 2) assess the realistic likelihood of occurence of the risks identified in 6.1.2 c) 1)[and] 3) determine the levels of risk. The organization shall retain documented information about the information security risk assessment process.",
              "mappedControls" : [
               "cp-risk-mgmt",
               "cp-risk-mgmt-objectives",
@@ -356,7 +356,7 @@
           {
              "ref": "6.1.2.e",
              "title": "Information security risk assessment, part e)",
-             "summary": "The organization shall define and apply an information security risk assessment process that evaluates the information security risks [to] 1) compare the results of risk analysis with the risk criteria established...[and] 2) prioritize the analyzed risks for risk treatment. The organization shall retain documented information about the...risk assessment process.",
+             "summary": "The organization shall define and apply an information security risk assessment process that evaluates the information security risks [to] 1) compare the results of risk analysis with the risk criteria established in 6.1.2 [and] 2) prioritize the analyzed risks for risk treatment. The organization shall retain documented information about the information security risk assessment process.",
              "mappedControls" : [
               "cp-risk-mgmt",
               "cp-risk-mgmt-objectives",
@@ -368,7 +368,7 @@
           {
              "ref": "6.1.3.a",
              "title": "Information security risk treatment, part a)",
-             "summary": "The organization shall define and apply an information security risk treatment process to: select appropriate information security treatment options, taking account of the risk assessment results.",
+             "summary": "The organization shall define and apply an information security risk treatment process to: select appropriate information security treatment options, taking account of the risk assessment results. The organization shall retain documented information about the information security risk treatment process.",
              "mappedControls" : [
               "cp-risk-assess",
               "cp-risk-mitigation",
@@ -378,7 +378,7 @@
           {
              "ref": "6.1.3.b",
              "title": "Information security risk treatment, part b)",
-             "summary": "The organization shall define and apply an information security risk treatment process to: determine all controls that are necessary to implement the information security risk treatment option(s) chosen.",
+             "summary": "The organization shall define and apply an information security risk treatment process to: determine all controls that are necessary to implement the information security risk treatment option(s) chosen. The organization shall retain documented information about the information security risk treatment process. NOTE 1: Organizations can design controls as required, or identify them from any source",
              "mappedControls" : [
               "cp-risk-assess",
               "cp-risk-mitigation"
@@ -387,7 +387,7 @@
           {
              "ref": "6.1.3.c",
              "title": "Information security risk treatment, part c)",
-             "summary": "The organization shall define and apply an information security risk treatment process to: compare the controls determined with Annex A and verify that no necessary controls have been omitted.",
+             "summary": "The organization shall define and apply an information security risk treatment process to: compare the controls determined in 6.1.3 b) with those in Annex A and verify that nonecessary controls have been omitted. The organization shall retain documented information about the information security risk treatment process. Note 2) Annex A contains a list of possible information security controls. Users of this document are directed to Annex A to ensure that no necessary information security controls are overlooked.",
              "mappedControls" : [
               "cp-risk-mitigation",
               "cp-audit-control-deficiency",
@@ -398,7 +398,7 @@
           {
              "ref": "6.1.3.d",
              "title": "Information security risk treatment, part d)",
-             "summary": "The organization shall define and apply an information security risk treatment process to: produce a Statement of Applicability that contains the necessary controls (see 6.1.3 b) and c)) and justification for inclusions, whether they are implemented or not, and the justification for exclusions of controls from Annex A.",
+             "summary": "The organization shall define and apply an information security risk treatment process to: produce a Statement of Applicability that contains the necessary controls (see 6.1.3 b) and c)) justification for inclusions, whether the necessary controls are implemented or not, and the justification for excluding any of the Annex A controls. The organization shall retain documented information about the information security risk treatment process.",
              "mappedControls" : [
               "cp-ism-scope"
               ]
@@ -406,7 +406,7 @@
           {
              "ref": "6.1.3.e",
              "title": "Information security risk treatment, part e)",
-             "summary": "The organization shall define and apply an information security risk treatment process to: formulate an information security risk treatment plan.",
+             "summary": "The organization shall define and apply an information security risk treatment process to: formulate an information security risk treatment plan. The organization shall retain documented information about the information security risk treatment process.",
              "mappedControls" : [
               "cp-risk-mgmt",
               "cp-risk-mitigation"
@@ -423,7 +423,7 @@
           {
              "ref": "6.2.a",
              "title": "Information security objectives and planning to achieve them, part a)",
-             "summary": "The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be consistent with the information security policy.",
+             "summary": "The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be consistent with the information security policy. The organization shall retain documented information on the information security objectives.",
              "mappedControls" : [
               "cp-role-assignment",
               "cp-policy-framework",
@@ -433,7 +433,7 @@
           {
              "ref": "6.2.b",
              "title": "Information security objectives and planning to achieve them, part b)",
-             "summary": "The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be measurable (if practicable).",
+             "summary": "The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be measurable (if practicable). The organization shall retain documented information on the information security objectives.",
              "mappedControls" : [
               "cp-role-assignment",
               "cp-ism-reporting",
@@ -443,7 +443,7 @@
           {
              "ref": "6.2.c",
              "title": "Information security objectives and planning to achieve them, part c)",
-             "summary": "The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: take into account applicable information security requirements, and results from risk assessment and risk treatment.",
+             "summary": "The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: take into account applicable information security requirements, and results from risk assessment and risk treatment. The organization shall retain documented information on the information security objectives.",
              "mappedControls" : [
               "cp-ism-reporting",
               "cp-model-metrics"
@@ -452,7 +452,14 @@
           {
              "ref": "6.2.d",
              "title": "Information security objectives and planning to achieve them, part d)",
-             "summary": "The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be communicated.",
+             "summary": "The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be monitored. The organization shall retain documented information on the information security objectives.",
+             "mappedControls" : [
+              ]
+          },
+          {
+             "ref": "6.2.e",
+             "title": "Information security objectives and planning to achieve them, part e)",
+             "summary": "The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be communicated. The organization shall retain documented information on the information security objectives.",
              "mappedControls" : [
               "cp-internal-comms",
               "cp-training-awareness",
@@ -460,17 +467,25 @@
               ]
           },
           {
-             "ref": "6.2.e",
-             "title": "Information security objectives and planning to achieve them, part e)",
-             "summary": "The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be be updated as appropriate.",
+             "ref": "6.2.f",
+             "title": "Information security objectives and planning to achieve them, part f)",
+             "summary": "The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be be updated as appropriate. The organization shall retain documented information on the information security objectives.",
              "mappedControls" : [
               "cp-role-assignment",
               "cp-model-principles"
               ]
           },
           {
-             "ref": "6.2.f",
-             "title": "Information security objectives and planning to achieve them, part f)",
+             "ref": "6.2.g",
+             "title": "Information security objectives and planning to achieve them, part g)",
+             "summary": "The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be available as documented information. The organization shall retain documented information on the information security objectives.",
+             "mappedControls" : [
+
+              ]
+          },
+          {
+             "ref": "6.2.h",
+             "title": "Information security objectives and planning to achieve them, part h)",
              "summary": "The organization shall retain documented information on the information security objectives. When planning how to achieve its information security objectives, the organization shall determine: what will be done.",
              "mappedControls" : [ 
               "cp-ism-policies",
@@ -478,8 +493,8 @@
               ]
           },
           {
-             "ref": "6.2.g",
-             "title": "Information security objectives and planning to achieve them, part g)",
+             "ref": "6.2.i",
+             "title": "Information security objectives and planning to achieve them, part i)",
              "summary": "The organization shall retain documented information on the information security objectives. When planning how to achieve its information security objectives, the organization shall determine: what resources will be required.",
              "mappedControls" : [
               "cp-model-architecture",
@@ -487,24 +502,24 @@
               ]
           },
           {
-             "ref": "6.2.h",
-             "title": "Information security objectives and planning to achieve them, part h)",
+             "ref": "6.2.j",
+             "title": "Information security objectives and planning to achieve them, part j)",
              "summary": "The organization shall retain documented information on the information security objectives. When planning how to achieve its information security objectives, the organization shall determine: who will be responsible.",
              "mappedControls" : [
               "cp-role-assignment"
               ]
           },
           {
-             "ref": "6.2.i",
-             "title": "Information security objectives and planning to achieve them, part i)",
+             "ref": "6.2.k",
+             "title": "Information security objectives and planning to achieve them, part k)",
              "summary": "The organization shall retain documented information on the information security objectives. When planning how to achieve its information security objectives, the organization shall determine: when it will be completed.",
              "mappedControls" : [
               "cp-ccm-config"
               ]
           },
           {
-             "ref": "6.2.j",
-             "title": "Information security objectives and planning to achieve them, part j)",
+             "ref": "6.2.l",
+             "title": "Information security objectives and planning to achieve them, part l)",
              "summary": "The organization shall retain documented information on the information security objectives. When planning how to achieve its information security objectives, the organization shall determine: how the results will be evaluated.",
              "mappedControls" : [
               "cp-model-metrics",
@@ -550,7 +565,7 @@
           {
              "ref": "7.2.c",
              "title": "Competence, part c)",
-             "summary": "The organization shall: where applicable, take actions to acquire the necessary competence, and evaluate the effectiveness of the actions taken.",
+             "summary": "The organization shall: where applicable, take actions to acquire the necessary competence, and evaluate the effectiveness of the actions taken. NOTE: Applicable actions can include, for example: the provision of training to, the mentoring of, or the reassignment of current employees; or the hiring or contracting of competent persons.",
              "mappedControls" : [
               "cp-employee-development",
               "cp-sanctions",
@@ -561,7 +576,7 @@
           {
              "ref": "7.2.d",
              "title": "Competence, part d)",
-             "summary": "The organization shall: retain appropriate documented information as evidence of competence. Applicable actions may include, for example: the provision of training to, the mentoring of, or the reassignment of current employees; or the hiring or contracting of competent persons.",
+             "summary": "The organization shall: retain appropriate documented information as evidence of competence.",
              "mappedControls" : [
               "cp-employee-screening",
               "cp-employee-development",

@@ -88,7 +88,7 @@
           {
              "ref": "5.1.a",
              "title": "Leadership and Commitment, part a)",
-             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: a) ensuring the information security policy and the information security objectives are established and compatible with the strategic direction of the organization.",
+             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by:ensuring the information security policy and the information security objectives are established and compatible with the strategic direction of the organization.",
              "mappedControls" : [ 
               "cp-ism-policies",
               "cp-policy-mgmt"
@@ -97,7 +97,7 @@
           {  
              "ref": "5.1.b",
              "title": "Leadership and commitment, part b)",
-             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: b) ensuring the integration of the information security management system requirements into the organization's processes.",
+             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: ensuring the integration of the information security management system requirements into the organization's processes.",
              "mappedControls" : [ 
               "cp-ism-policies",
               "cp-policy-mgmt",
@@ -109,7 +109,7 @@
           {  
              "ref": "5.1.c",
              "title": "Leadership and commitment, part c)",
-             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: c) ensuring that the resources needed for the information security management system are available.",
+             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: ensuring that the resources needed for the information security management system are available.",
              "mappedControls" : [ 
               "cp-role-assignment",
                "cp-audit-review"
@@ -118,7 +118,7 @@
           {  
              "ref": "5.1.d",
              "title": "Leadership and commitment, part d)",
-             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: d) communicating the importance of effective information security management and of conforming to the information security management system requirements.",
+             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: communicating the importance of effective information security management and of conforming to the information security management system requirements.",
              "mappedControls" : [
               "cp-training-policy",
               "cp-training-awareness",
@@ -132,7 +132,7 @@
           {
              "ref": "5.1.e",
              "title": "Leadership and commitment, part e)",
-             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: e) ensuring that the information security management system achieves its intended outcome(s).",
+             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: ensuring that the information security management system achieves its intended outcome(s).",
              "mappedControls" : [
               "cp-compliance-requests",
               "cp-audit-types",
@@ -144,7 +144,7 @@
           {
              "ref": "5.1.f",
              "title": "Leadership and commitment, part f)",
-             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: f) directing and supporting persons to contribute to the effectiveness of the information security management system.",
+             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: directing and supporting persons to contribute to the effectiveness of the information security management system.",
               "mappedControls" : [
               "cp-role-assignment",
               "cp-employee-recognition",
@@ -156,7 +156,7 @@
           {
              "ref": "5.1.g",
              "title": "Leadership and commitment, part g)",
-             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: g) promoting continual improvement.",
+             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: promoting continual improvement.",
               "mappedControls" : [
               "cp-model-metrics",
               "cp-model-quality", 
@@ -167,7 +167,7 @@
           {
              "ref": "5.1.h",
              "title": "Leadership and commitment, part h)",
-             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: h) supporting other relevant management roles to demonstrate their leadership as it applies to their area of responsibility.",
+             "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: supporting other relevant management roles to demonstrate their leadership as it applies to their area of responsibility.",
               "mappedControls" : [
               "cp-role-assignment",
               "cp-employee-recognition"
@@ -240,7 +240,7 @@
           {
              "ref": "5.3.a",
              "title": "Organizatonal roles, responsibilities, and authorities, part a)",
-             "summary": "Top management shall ensure that the responsibilities and authorities for roles relevant to information security are assigned and communicated. Top management shall assign the responsibility and authority for: ensuring that the information security management system conforms to the requirements of this International Standard.", 
+             "summary": "Top management shall ensure that the responsibilities and authorities for roles relevant to information security are assigned and communicated. Top management shall assign the responsibility and authority for: ensuring that the information security management system conforms to the requirements of this document. Note: Top management can also assign responsibilities and authorities for reporting performance of the information security management system within the organization.", 
              "mappedControls" : [
               "cp-role-assignment"
               ]
@@ -248,7 +248,7 @@
           {
              "ref": "5.3.b",
              "title": "Organizatonal roles, responsibilities, and authorities, part b)",
-             "summary": "Top management shall ensure that the responsibilities and authorities for roles relevant to information security are assigned and communicated. Top management shall assign the responsibility and authority for: reporting on the performance of the information security management system to top management.", 
+             "summary": "Top management shall ensure that the responsibilities and authorities for roles relevant to information security are assigned and communicated. Top management shall assign the responsibility and authority for: reporting on the performance of the information security management system to top management. Note: Top management can also assign responsibilities and authorities for reporting performance of the information security management system within the organization.", 
               "mappedControls" : [
               "cp-role-assignment",
               "cp-model-metrics",
@@ -264,7 +264,7 @@
           {
              "ref": "6.1.1.a",
              "title": "General planning, part a)",
-             "summary": "When planning for the information security management system, the organization shall consider the [internal and external] issues referred to in 4.1 and the requirements referred to in 4.2 and determine the risks and opportunities that need to be addressed to: ensure the information security management system can achieve its intended outcome(s).", 
+             "summary": "When planning for the information security management system, the organization shall consider the issues referred to in 4.1 and the requirements referred to in 4.2 and determine the risks and opportunities that need to be addressed to: ensure the information security management system can achieve its intended outcome(s).", 
               "mappedControls" : [
               "cp-bcdr",
               "cp-model-metrics",
@@ -274,7 +274,7 @@
           {
              "ref": "6.1.1.b",
              "title": "General planning, part b)",
-             "summary": "When planning for the information security management system, the organization shall consider the [internal and external] issues referred to in 4.1 and the requirements referred to in 4.2 and determine the risks and opportunities that need to be addressed to: prevent, or reduce, undesired effects.", 
+             "summary": "When planning for the information security management system, the organization shall consider the issues referred to in 4.1 and the requirements referred to in 4.2 and determine the risks and opportunities that need to be addressed to: prevent, or reduce, undesired effects.", 
              "mappedControls" : [
               "cp-model-architecture",
               "cp-risk-assess",
@@ -285,7 +285,7 @@
           {
              "ref": "6.1.1.c",
              "title": "General planning, part c)",
-             "summary": "When planning for the information security management system, the organization shall consider the [internal and external] issues referred to in 4.1 and the requirements referred to in 4.2 and determine the risks and opportunities that need to be addressed to: achieve continual improvement.", 
+             "summary": "When planning for the information security management system, the organization shall consider the issues referred to in 4.1 and the requirements referred to in 4.2 and determine the risks and opportunities that need to be addressed to: achieve continual improvement.", 
              "mappedControls" : [
               "cp-model-metrics",
               "cp-model-quality",
@@ -345,7 +345,7 @@
           {
              "ref": "6.1.2.d",
              "title": "Information security risk assessment, part d)",
-             "summary": "The organization shall define and apply an information security risk assessment process that analyzes the information security risks [to] 1) assess the potential consequences that would result if the risks identified were to materialize... 2) assess the realistic likelihood of occurence...[and] 3) determine the levels of risk.",
+             "summary": "The organization shall define and apply an information security risk assessment process that analyzes the information security risks [to] 1) assess the potential consequences that would result if the risks identified in 6.1.2 c) 1) were to materialize 2) assess the realistic likelihood of occurence of the risks identified in 6.1.2 c) 1)[and] 3) determine the levels of risk.",
              "mappedControls" : [
               "cp-risk-mgmt",
               "cp-risk-mgmt-objectives",

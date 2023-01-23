@@ -647,15 +647,7 @@
           {
              "ref": "7.4.d",
              "title": "Communication, part d)",
-             "summary": "The organization shall determine the need for internal and external communications relevant to the information security management system including: who shall communicate.",
-             "mappedControls" : [
-              "cp-role-assignment"
-              ]
-          },
-          {
-             "ref": "7.4.e",
-             "title": "Communication, part e)",
-             "summary": "The organization shall determine the need for internal and external communications relevant to the information security management system including: the process by which communication shall be effected.",
+             "summary": "The organization shall determine the need for internal and external communications relevant to the information security management system including: how to communicate.",
              "mappedControls" : [
               "cp-ir-playbook",
               "cp-bcdr",
@@ -665,30 +657,38 @@
               ]
           },
           {
-             "ref": "7.5.1",
-             "title": "Documented information - General",
-             "summary": "The organization’s information security management system shall include: documented information required by this International Standard [and] documented information determined by the organization as being necessary for the effectiveness of the information security management system.",
+             "ref": "7.5.1.a",
+             "title": "Documented information - General, part a)",
+             "summary": "The organization’s information security management system shall include: documented information required by this document. NOTE The extent of documented information for an information security management system can differ from one organization to another due to: 1) the size of organization and its type of activities, processes, products and services; 2) the complexity of processes and their interactions; and 3) the competence of persons.",
              "mappedControls" : [
-              "cp-policy-framework",
-              "cp-policy-mgmt",
-              "cp-sdlc-dev",
-              "cp-sdlc-appsec-req",
-              "cp-sdlc-design"
+              ]
+          },
+		  {
+             "ref": "7.5.1.b",
+             "title": "Documented information - General, part b)",
+             "summary": "The organization’s information security management system shall include: documented information determined by the organization as being necessary for the effectiveness of the information security management system. NOTE The extent of documented information for an information security management system can differ from one organization to another due to: 1) the size of organization and its type of activities, processes, products and services; 2) the complexity of processes and their interactions; and 3) the competence of persons.",
+             "mappedControls" : [
               ]
           },
           {
-             "ref": "7.5.2",
-             "title": "Documented information - Creating and updating",
-             "summary": "When creating and updating documented information the organization shall ensure appropriate: identification and description (e.g. a title, date, author, or reference number); format (e.g. language, software version, graphics) and media (e.g. paper, electronic); and review and approval for suitability and adequacy.",
+             "ref": "7.5.2.a",
+             "title": "Documented information - Creating and updating, part a)",
+             "summary": "When creating and updating documented information the organization shall ensure appropriate: identification and description (e.g. a title, date, author, or reference number).",
              "mappedControls" : [
-              "cp-data-classification",
-              "cp-data-handling",
-              "cp-data-lifecycle",
-              "cp-data-backup",
-              "cp-data-protection",
-              "cp-data-protection-integrity",
-              "cp-audit-trails-integrity",
-              "cp-ccm-config"
+              ]
+          },
+          {
+             "ref": "7.5.2.b",
+             "title": "Documented information - Creating and updating, part b)",
+             "summary": "When creating and updating documented information the organization shall ensure appropriate:format (e.g. language, software version, graphics) and media (e.g. paper, electronic).",
+             "mappedControls" : [
+              ]
+          },
+          {
+             "ref": "7.5.2.c",
+             "title": "Documented information - Creating and updating, part c)",
+             "summary": "When creating and updating documented information the organization shall ensure appropriate:review and approval for suitability and adequacy.",
+             "mappedControls" : [
               ]
           },
           {
@@ -719,7 +719,7 @@
           {
              "ref": "7.5.3.c",
              "title": "Documented information - Control, part c)",
-             "summary": "For the control of documented information, the organization shall address the following activities, as applicable: distribution, access, retrieval and use.",
+             "summary": "For the control of documented information, the organization shall address the following activities, as applicable: distribution, access, retrieval and use. NOTE Access can imply a decision regarding the permission to view the documented information only, or the permission and authority to view and change the documented information, etc.",
              "mappedControls" : [
               "cp-access-standards",
               "cp-data-handling",
@@ -769,14 +769,8 @@
           {
              "ref": "8.1",
              "title": "Operational planning and control",
-             "summary": "The organization shall plan, implement and control the processes needed to meet information security requirements, and to implement the actions determined in 6.1. The organization shall also implement plans to achieve information security objectives determined in 6.2. The organization shall keep documented information to the extent necessary to have confidence that the processes have been carried out as planned. The organization shall control planned changes and review the consequences of unintended changes, taking action to mitigate any adverse effects, as necessary. The organization shall ensure that outsourced processes are determined and controlled.",
+             "summary": "The organization shall plan, implement and control the processes needed to meet requirements, and toimplement the actions determined in Clause 6, by establishing criteria for the processes and implementing control of the processes in accordance with the criteria. Documented information shall be available to the extent necessary to have confidence that the processes have been carried out as planned. The organization shall control planned changes and review the consequences of unintended changes, taking action to mitigate any adverse effects, as necessary. The organization shall ensure that outsourced processes are determined and controlled.",
              "mappedControls" : [
-              "cp-ccm-config",
-              "cp-access-change",
-              "cp-vendor-monitor",
-              "cp-sdlc-dev",
-              "cp-ccm-prodcm",
-              "cp-access-prod"
               ]
           },
           {
@@ -808,7 +802,7 @@
           {
              "ref": "9.1.a",
              "title": "Monitoring, measurement, analysis, and evaluation, part a)",
-             "summary": "The organization shall evaluate the information security performance and the effectiveness of the information security management system. The organization shall determine: what needs to be monitored and measured, including information security processes and controls.",
+             "summary": "The organization shall evaluate the information security performance and the effectiveness of the information security management system. The organization shall determine: what needs to be monitored and measured, including information security processes and controls. Documented information shall be available as evidence of the results.",
              "mappedControls" : [
               "cp-compliance-monitor",
               "cp-model-metrics",
@@ -818,7 +812,7 @@
           {
              "ref": "9.1.b",
              "title": "Monitoring, measurement, analysis, and evaluation, part b)",
-             "summary": "The organization shall evaluate the information security performance and the effectiveness of the information security management system. The organization shall determine: the methods for monitoring, measurement, analysis and evaluation, as applicable, to ensure valid results. The methods selected should produce comparable and reproducible results to be considered valid.",
+             "summary": "The organization shall evaluate the information security performance and the effectiveness of the information security management system. The organization shall determine: the methods for monitoring, measurement, analysis and evaluation, as applicable, to ensure valid results. The methods selected should produce comparable and reproducible results to be considered valid. Documented information shall be available as evidence of the results.",
               "mappedControls" : [
               "cp-compliance-monitor",
               "cp-model-metrics",
@@ -828,7 +822,7 @@
           {
              "ref": "9.1.c",
              "title": "Monitoring, measurement, analysis, and evaluation, part c)",
-             "summary": "The organization shall evaluate the information security performance and the effectiveness of the information security management system. The organization shall determine: when the monitoring and measuring shall be performed.",
+             "summary": "The organization shall evaluate the information security performance and the effectiveness of the information security management system. The organization shall determine: when the monitoring and measuring shall be performed. Documented information shall be available as evidence of the results.",
              "mappedControls" : [
               "cp-model-metrics",
               "cp-audit-internal"
@@ -837,7 +831,7 @@
           {
              "ref": "9.1.d",
              "title": "Monitoring, measurement, analysis, and evaluation, part d)",
-             "summary": "The organization shall evaluate the information security performance and the effectiveness of the information security management system. The organization shall determine: who shall monitor and measure.",
+             "summary": "The organization shall evaluate the information security performance and the effectiveness of the information security management system. The organization shall determine: who shall monitor and measure. Documented information shall be available as evidence of the results.",
              "mappedControls" : [
               "cp-role-assignment"
               ]
@@ -860,16 +854,16 @@
               ]
           },
           {
-             "ref": "9.2.a",
-             "title": "Internal audit, part a)",
+             "ref": "9.2.1.a",
+             "title": "Internal audit, General part a)",
              "summary": "The organization shall conduct internal audits at planned intervals to provide information on whether the information security management system: conforms to the organization’s own requirements for its information security management system; and the requirements of this International Standard.",
              "mappedControls" : [
               "cp-internal-audit"
               ]
           },
           {
-             "ref": "9.2.b",
-             "title": "Internal audit, part b)",
+             "ref": "9.2.1.b",
+             "title": "Internal audit, General, part b)",
              "summary": "The organization shall conduct internal audits at planned intervals to provide information on whether the information security management system: is effectively implemented and maintained.",
              "mappedControls" : [
               "cp-internal-audit",
@@ -878,57 +872,31 @@
               ]
           },
           {
-             "ref": "9.2.c",
-             "title": "Internal audit, part c)",
-             "summary": "The organization shall: plan, establish, implement and maintain an audit programme(s), including the frequency, methods, responsibilities, planning requirements and reporting. The audit programme(s) shall take into consideration the importance of the processes concerned and the results of previous audits.",
+             "ref": "9.2.2.a",
+             "title": "Internal audit programme, part a)",
+             "summary": "The organization shall plan, establish, implement and maintain an audit programme(s), including the frequency, methods, responsibilities, planning requirements and reporting. When establishing the internal audit programme(s), the organization shall consider the importance of the processes concerned and the results of previous audits. The organization shall: define the audit criteria and scope for each audit. Documented information shall be available as evidence of the implementation of the audit programme(s)and the audit results.",
              "mappedControls" : [
-              "cp-internal-audit",
-              "cp-audit-control-deficiency",
-              "cp-audit-review",
-              "cp-audit-types"
               ]
           },
           {
-             "ref": "9.2.d",
-             "title": "Internal audit, part d)",
-             "summary": "The organization shall: select auditors and conduct audits that ensure objectivity and the impartiality of the audit process.",
-              "mappedControls" : [
-              "cp-internal-audit",
-              "cp-sdlc-pentest"
-              ]
-          },
-          {
-             "ref": "9.2.e",
-             "title": "Internal audit, part e)",
-             "summary": "The organization shall: select auditors and conduct audits that ensure objectivity and the impartiality of the audit process.",
+             "ref": "9.2.2.b",
+             "title": "Internal audit programme, part b)",
+             "summary": "The organization shall plan, establish, implement and maintain an audit programme(s), including the frequency, methods, responsibilities, planning requirements and reporting. When establishing the internal audit programme(s), the organization shall consider the importance of the processes concerned and the results of previous audits. The organization shall: select auditors and conduct audits that ensure objectivity and the impartiality of the audit process. Documented information shall be available as evidence of the implementation of the audit programme(s)and the audit results.",
              "mappedControls" : [
-              "cp-internal-audit",
-              "cp-sdlc-pentest"
               ]
           },
           {
-             "ref": "9.2.f",
-             "title": "Internal audit, part f)",
-             "summary": "The organization shall: ensure that the results of the audits are reported to relevant management.",
-              "mappedControls" : [
-              "cp-audit-review"
+             "ref": "9.2.2.c",
+             "title": "Internal audit programme, part c)",
+             "summary": "The organization shall plan, establish, implement and maintain an audit programme(s), including the frequency, methods, responsibilities, planning requirements and reporting. When establishing the internal audit programme(s), the organization shall consider the importance of the processes concerned and the results of previous audits. The organization shall: ensure that the results of the audits are reported to relevant management. Documented information shall be available as evidence of the implementation of the audit programme(s)and the audit results.",
+             "mappedControls" : [
+				 "cp-audit-review"
               ]
           },
           {
-             "ref": "9.2.g",
-             "title": "Internal audit, part g)",
-             "summary": "The organization shall: retain documented information as evidence of the audit programme(s) and the audit results.",
-              "mappedControls" : [
-              "cp-audit-internal",
-              "cp-sdlc-pentest",
-              "cp-vuln-scan",
-              "cp-vuln-remediation"
-              ]
-          },
-          {
-             "ref": "9.3.a",
-             "title": "Management review, part a)",
-             "summary": "Top management shall review the organization’s information security management system at planned intervals to ensure its continuing suitability, adequacy and effectiveness. The management review shall include consideration of: the status of actions from previous management reviews.",
+             "ref": "9.3.1",
+             "title": "Management review, General",
+             "summary": "Top management shall review the organization’s information security management system at planned intervals to ensure its continuing suitability, adequacy and effectiveness.",
               "mappedControls" : [
               "cp-ism-scope",
               "cp-policy-mgmt",
@@ -939,17 +907,32 @@
               ]
           },
           {
-             "ref": "9.3.b",
-             "title": "Management review, part b)",
+             "ref": "9.3.2.a",
+             "title": "Management review inputs, part a)",
+             "summary": "The management review shall include consideration of: the status of actions from previous management reviews.",
+              "mappedControls" : [
+              ]
+          },
+		  {
+             "ref": "9.3.2.b",
+             "title": "Management review inputs, part b)",
              "summary": "The management review shall include consideration of: changes in external and internal issues that are relevant to the information security management system.",
               "mappedControls" : [
               "cp-ism-scope",
               "cp-policy-framework"
               ]
           },
+		  {
+             "ref": "9.3.2.c",
+             "title": "Management review inputs, part c)",
+             "summary": "The management review shall include consideration of: changes in needs and expectations of interested parties that are relevant to the information security management system",
+              "mappedControls" : [
+
+              ]
+          },
           {
-             "ref": "9.3.c",
-             "title": "Management review, part c)",
+             "ref": "9.3.2.d",
+             "title": "Management review, part d)",
              "summary": "The management review shall include consideration of: feedback on the information security performance, including trends in: nonconformities and corrective actions; monitoring and measurement results; audit results; and fulfilment of information security objectives.",
               "mappedControls" : [
               "cp-model-metrics",
@@ -964,16 +947,16 @@
               ]
           },
           {
-             "ref": "9.3.d",
-             "title": "Management review, part d)",
+             "ref": "9.3.2.e",
+             "title": "Management review, part e)",
              "summary": "The management review shall include consideration of: feedback from interested parties.",
               "mappedControls": [
               "cp-employee-whistleblower"
               ]
           },
           {
-             "ref": "9.3.e",
-             "title": "Management review, part e)",
+             "ref": "9.3.2.f",
+             "title": "Management review, part f)",
              "summary": "The management review shall include consideration of: results of risk assessment and status of risk treatment plan.",
               "mappedControls": [
               "cp-risk-assess",
@@ -982,11 +965,22 @@
               ]
           },
           {
-             "ref": "9.3.f",
-             "title": "Management review, part e)",
-             "summary": "The management review shall include consideration of: opportunities for continual improvement. The outputs of the management review shall include decisions related to continual improvement opportunities and any needs for changes to the information security management system. The organization shall retain documented information as evidence of the results of management reviews.",
+             "ref": "9.3.2.g",
+             "title": "Management review, part g)",
+             "summary": "The management review shall include consideration of: opportunities for continual improvement.",
               "mappedControls": [
               "cp-ism-reporting"
+              ]
+           },
+          {
+             "ref": "9.3.3",
+             "title": "Management review results",
+             "summary": "The organization shall determine and provide the resources needed for the establishment, implementation, maintenance and continual improvement of the information security management system.",
+             "mappedControls" : [
+              "cp-ism-scope",
+              "cp-hr-mgmt",
+              "cp-model-metrics",
+              "cp-model-quality" 
               ]
            }
             ]
@@ -995,7 +989,17 @@
             "title": "10 - Improvement",
               "controls": [
           {
-             "ref": "10.1.a",
+             "ref": "10.1",
+             "title": "Continual improvement",
+             "summary": "The organization shall continually improve the suitability, adequacy and effectiveness of the information security management system",
+              "mappedControls": [
+			  "cp-ism-reporting",
+              "cp-compliance-mgmt",
+              "cp-model-quality"
+              ]
+           },				  
+          {
+             "ref": "10.2.a",
              "title": "Nonconformity and corrective action, part a)",
              "summary": "When a nonconformity occurs, the organization shall: react to the nonconformity, and as applicable: take action to control and correct it; and deal with the consequences.",
               "mappedControls": [
@@ -1008,7 +1012,7 @@
               ]
           },
           {
-             "ref": "10.1.b",
+             "ref": "10.2.b",
              "title": "Nonconformity and corrective action, part b)",
              "summary": "When a nonconformity occurs, the organization shall: evaluate the need for action to eliminate the causes of nonconformity, in order that it does not recur or occur elsewhere, by: reviewing the nonconformity; determining the causes of the nonconformity; and determining if similar nonconformities exist, or could potentially occur.",
               "mappedControls": [
@@ -1018,7 +1022,7 @@
               ]
           },
           {
-             "ref": "10.1.c",
+             "ref": "10.2.c",
              "title": "Nonconformity and corrective action, part c)",
              "summary": "When a nonconformity occurs, the organization shall: evaluate the need for action to eliminate the causes of nonconformity, in order that it does not recur or occur elsewhere, by: implement any action needed.",
              "mappedControls": [
@@ -1027,7 +1031,7 @@
               ]
           },
           {
-             "ref": "10.1.d",
+             "ref": "10.2.d",
              "title": "Nonconformity and corrective action, part d)",
              "summary": "When a nonconformity occurs, the organization shall: review the effectiveness of any corrective action taken.",
               "mappedControls": [
@@ -1037,7 +1041,7 @@
               ]
           },
           {
-             "ref": "10.1.e",
+             "ref": "10.2.e",
              "title": "Nonconformity and corrective action, part e)",
              "summary": "When a nonconformity occurs, the organization shall: make changes to the information security management system, if necessary.",
               "mappedControls": [
@@ -1047,7 +1051,7 @@
               ]
           },
           {
-             "ref": "10.1.f",
+             "ref": "10.2.f",
              "title": "Nonconformity and corrective action, part f)",
              "summary": "Corrective actions shall be appropriate to the effects of the nonconformities encountered. The organization shall retain documented information as evidence of: the nature of the nonconformities and any subsequent actions taken.",
               "mappedControls": [
@@ -1058,7 +1062,7 @@
               ]
           },
           {
-             "ref": "10.1.g",
+             "ref": "10.2.g",
              "title": "Nonconformity and corrective action, part g)",
              "summary": "Corrective actions shall be appropriate to the effects of the nonconformities encountered. The organization shall retain documented information as evidence of: the results of any corrective action.",
               "mappedControls": [
@@ -1067,16 +1071,6 @@
               "cp-vuln-remediation"
               ]
           },
-          {
-             "ref": "10.2",
-             "title": "Continual improvement",
-             "summary": "The organization shall continually improve the suitability, adequacy and effectiveness of the information security management system.",
-              "mappedControls": [
-              "cp-ism-reporting",
-              "cp-compliance-mgmt",
-              "cp-model-quality"
-              ]
-          }
         ]
       },
       {

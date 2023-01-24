@@ -1498,7 +1498,7 @@
           {
             "ref": "A.7.14",
             "title": "Secure disposal or re-use of equipment",
-            "summary": "Items of equipment containing storage media shall be verified to ensure that any sensitive data and licensed software has been removed or securely overwritten prior to disposal or re-use.,
+            "summary": "Items of equipment containing storage media shall be verified to ensure that any sensitive data and licensed software has been removed or securely overwritten prior to disposal or re-use.",
                 "mappedControls" : [
                 ]
           }
@@ -1508,7 +1508,7 @@
         "title": "A.8 - Technological controls",
         "controls": [
           {
-            "ref": "A.8.1,
+            "ref": "A.8.1",
             "title": "User end point devices",
             "summary": "Information stored on, processed by or accessible via user end point devices shall be protected.",
                 "mappedControls" : [ 

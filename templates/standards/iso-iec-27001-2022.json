@@ -1655,6 +1655,8 @@
             "title": "Security of network services",
             "summary": "Security mechanisms, service levels and service requirements of network services shall be identified, implemented and monitored.",
                     "mappedControls" : [ 
+			"cp-ccm-network",
+			 "cp-threat-nids"
                     ]
           },
           {
@@ -1669,6 +1671,7 @@
             "title": "Web filtering",
             "summary": "Access to external websites shall be managed to reduce exposure to malicious content.",
                     "mappedControls" : [ 
+	
                     ]
           },
           {
@@ -1676,13 +1679,16 @@
             "title": "Use of cryptography",
             "summary": "Rules for the effective use of cryptography, including cryptographic key management, shall be defined and implemented.",
                     "mappedControls" : [ 
+		"cp-data-protection-kms"
                     ]
           },
           {
             "ref": "A.8.25",
             "title": "Secure development life cycle",
             "summary": "Rules for the secure development of software and systems shall be established and applied.",
-                    "mappedControls" : [ 
+                    "mappedControls" : [
+		    "cp-sdlc-dev"
+			    
                     ]
           },
           {
@@ -1690,13 +1696,20 @@
             "title": "Application security requirements",
             "summary": "Information security requirements shall be identified, specified and approved when developing or acquiring applications",
                     "mappedControls" : [ 
+			"cp-sdlc-appsec-req"
                     ]
           },
           {
             "ref": "A.8.27",
             "title": "Secure system architecture and engineering principles",
             "summary": "Principles for engineering secure systems shall be established, documented, maintained and applied to any information system development activities.",
-                    "mappedControls" : [ 
+                    "mappedControls" : [
+			"cp-model-architecture",
+			 "cp-model-quality",
+			 "cp-ccm-provision-prod",
+			 "cp-sdlc-design"
+			    
+			    
                     ]
           },
           {
@@ -1704,6 +1717,8 @@
             "title": "Secure coding",
             "summary": "Secure coding principles shall be applied to software development.",
                     "mappedControls" : [ 
+			"cp-sdlc-scm",
+			"cp-ccm-prodcm"
                     ]
           },
           {
@@ -1711,6 +1726,10 @@
             "title": "Security testing in development and acceptance",
             "summary": "Security testing processes shall be defined and implemented in the development life cycle.",
                     "mappedControls" : [ 
+			"cp-sdlc-dast",
+			"cp-sdlc-sast",
+			 "cp-vuln-scan"
+			    
                     ]
           },
           {
@@ -1718,6 +1737,7 @@
             "title": "Outsourced development",
             "summary": "The organization shall direct, monitor and review the activities related to outsourced system development.",
                     "mappedControls" : [ 
+		    "cp-sdlc-outsourcing"
                     ]
           },
           {
@@ -1732,6 +1752,9 @@
             "title": "Change management",
             "summary": "Changes to information processing facilities and information systems shall be subject to change management procedures.",
                     "mappedControls" : [ 
+			    "cp-ccm-emergency",
+			    "cp-ccm-provision-mgmt"
+    
                     ]
           },
           {
@@ -1739,6 +1762,8 @@
             "title": "Test information",
             "summary": "Test information shall be appropriately selected, protected and managed.",
                     "mappedControls" : [ 
+			"cp-audit-trails-integrity",
+			"cp-audit-trails"    
                     ]
           },
           {
@@ -1746,6 +1771,10 @@
             "title": "Protection of information systems during audit testing",
             "summary": "Audit tests and other assurance activities involving assessment of operational systems shall be planned and agreed between the tester and appropriate management.",
                 "mappedControls" : [ 
+		"cp-audit-trails-integrity",
+		"cp-audit-trails"
+			
+			
                 ]
           }
         ]

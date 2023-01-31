@@ -1348,6 +1348,7 @@
             "title": "Screening",
             "summary": "Background verification checks on all candidates to become personnelshall be carried out prior to joining the organization and on an ongoing basis taking into consideration applicable laws, regulations and ethics and be proportional to the business requirements, the classification of the information to be accessed and the perceived risks.",
                "mappedControls": [
+		       "cp-employee-screening"
                 ]
           },
           {
@@ -1355,6 +1356,9 @@
             "title": "Terms and conditions of employment",
             "summary": "The employment contractual agreements shall state the personnel’s and the organization’s responsibilities for information security.",
                "mappedControls" : [ 
+		       "ref-employee-handbook",
+		       "cp-employee-onboarding"
+		       
                   ]
           },
           {
@@ -1362,6 +1366,9 @@
             "title": "Information security awareness, education and training",
             "summary": "Personnel of the organization and relevant interested parties shall receive appropriate information security awareness, education and training and regular updates of the organization's information security policy, topic-specific policies and procedures, as relevant for their job function.",
               "mappedControls" : [ 
+		      "cp-training-awareness",
+		      "cp-training-policy",
+		      "cp-audit-training"
               ]
           },
           {
@@ -1369,6 +1376,9 @@
             "title": "Disciplinary process",
             "summary": "A disciplinary process shall be formalized and communicated to take actions against personnel and other relevant interested parties who have committed an information security policy violation.",
               "mappedControls" : [ 
+		      "cp-employee-sanctions",
+		      "cp-sanctions",
+		      
                   ]
           },
           {
@@ -1376,6 +1386,8 @@
             "title": "Responsibilities after termination or change of employment",
             "summary": "Information security responsibilities and duties that remain valid after termination or change of employment shall be defined, enforced and communicated to relevant personnel and other interested parties.",
               "mappedControls" : [
+		      "cp-employee-exiting",
+		      "cp-access-change"
                   ]
           },
           {
@@ -1383,6 +1395,8 @@
             "title": "Confidentiality or non-disclosure agreements",
             "summary": "Confidentiality or non-disclosure agreements reflecting the organization’s needs for the protection of information shall be identified,documented, regularly reviewed and signed by personnel and other relevant interested parties.",
                "mappedControls" : [
+		       "cp-privacy-notices",
+		       "ref-privacy-policy"
                 ]
           },
           {
@@ -1390,6 +1404,9 @@
             "title": "Remote working",
             "summary": "Security measures shall be implemented when personnel are working remotely to protect information accessed, processed or stored outside the organization’s premises.",
                "mappedControls" : [
+		       "cp-role-assignment",
+		       "cp-access-vpn"
+		       
                 ]
           },		
           {
@@ -1409,6 +1426,8 @@
             "title": "Physical security perimeters",
             "summary": "Security perimeters shall be defined and used to protect areas that contain information and other associated assets.",
               "mappedControls" : [
+		      "cp-physical",
+		      "cp-access-standards"
                 ]
           },
           {
@@ -1416,6 +1435,8 @@
             "title": "Physical entry",
             "summary": "Secure areas shall be protected by appropriate entry controls and access points.",
                 "mappedControls" : [
+			"cp-physical",
+			"cp-access-standards"
                 ]
           },
           {
@@ -1423,6 +1444,8 @@
             "title": "Securing offices, rooms and facilities",
             "summary": "Physical security for offices, rooms and facilities shall be designed and implemented.",
                 "mappedControls" : [
+			"cp-physical",
+			"cp-access-standards"
                 ]
           },
           {
@@ -1430,6 +1453,8 @@
             "title": "Physical security monitoring",
             "summary": "Premises shall be continuously monitored for unauthorized physical access.",
                  "mappedControls" : [
+			 "cp-physical",
+			 "cp-bcdr-test"
                 ]
           },
           {
@@ -1444,6 +1469,9 @@
             "title": "Working in secure areas",
             "summary": "Security measures for working in secure areas shall be designed and implemented.",
                "mappedControls" : [
+		       "cp-access-endpoints",
+		       "cp-access-wifi",
+		       "cp-physical"
                 ]
           },
           {
@@ -1451,6 +1479,7 @@
             "title": "Clear desk and clear screen",
             "summary": "Clear desk rules for papers and removable storage media and clear screen rules for information processing facilities shall be defined and appropriately enforced.",
                "mappedControls" : [
+		      "cp-physical-clean-desk"
                 ]
           },
           {
@@ -1458,6 +1487,9 @@
             "title": "Equipment siting and protection",
             "summary": "Equipment shall be sited securely and protected.",
                "mappedControls" : [
+		       "cp-access-endpoints",
+		       "cp-asset-physical"
+		       
                 ]
           },
           {
@@ -1465,6 +1497,7 @@
             "title": "Security of assets off-premises",
             "summary": "Off-site assets shall be protected.",
                "mappedControls" : [
+		       "cp-access-endpoints"
                 ]
           },
           {
@@ -1472,6 +1505,8 @@
             "title": "Storage media",
             "summary": "Storage media shall be managed through their life cycle of acquisition, use, transportation and disposal in accordance with the organization’s classification scheme and handling requirements.",
                "mappedControls" : [
+		    "cp-mdm-usb",
+		    "cp-mdm-disposal"
                 ]
           },
           {
@@ -1479,6 +1514,8 @@
             "title": "Supporting utilities",
             "summary": "Information processing facilities shall be protected from power failures and other disruptions caused by failures in supporting utilities.",
                "mappedControls" : [
+		       "cp-physical",
+		       "cp-bcdr-test"
                 ]
           },
           {
@@ -1486,6 +1523,7 @@
             "title": "Cabling security",
             "summary": "Cables carrying power, data or supporting information services shall be protected from interception, interference or damage.",
                "mappedControls" : [
+		       "cp-physical"
                 ]
           },
           {
@@ -1493,6 +1531,8 @@
             "title": "Equipment maintenance",
             "summary": "Equipment shall be maintained correctly to ensure availability, integrity and confidentiality of information.",
                "mappedControls" : [
+		       "cp-bcdr-test",
+		       "cp-access-endpoints"
                 ]
           },		
           {
@@ -1500,6 +1540,10 @@
             "title": "Secure disposal or re-use of equipment",
             "summary": "Items of equipment containing storage media shall be verified to ensure that any sensitive data and licensed software has been removed or securely overwritten prior to disposal or re-use.",
                 "mappedControls" : [
+			"cp-mdm-disposal",
+			"cp-data-deletion",
+			"cp-data-lifecycle"
+			
                 ]
           }
         ]
@@ -1512,6 +1556,9 @@
             "title": "User end point devices",
             "summary": "Information stored on, processed by or accessible via user end point devices shall be protected.",
                 "mappedControls" : [ 
+	           "cp-ccm-provision-endpoint",
+		   "cp-employee-acceptable-use",
+		   "cp-access-endpoints"
                 ]
           },
           {
@@ -1519,6 +1566,9 @@
             "title": "Privileged access rights",
             "summary": "The allocation and use of privileged access rights shall be restricted and managed.",
                 "mappedControls" : [ 
+		   "cp-access-privileged",
+		  
+		  
               ]
           },
           {
@@ -1526,6 +1576,12 @@
             "title": "Information access restriction",
             "summary": "Access to information and other associated assets shall be restricted in accordance with the established topic-specific policy on access control.",
                 "mappedControls" : [ 
+			"cp-access-standards",
+			"cp-access-change",
+			"cp-sdlc-iaaa",
+			"cp-access-review",
+			"cp-access-phi"
+			
                 ]
           },
           {
@@ -1533,6 +1589,9 @@
             "title": "Access to source code",
             "summary": "Read and write access to source code, development tools and software libraries shall be appropriately managed.",
                 "mappedControls" : [ 
+			"cp-sdlc-scm",
+			"cp-access-prod-data",
+			"cp-access-prod"
                 ]
           },
           {
@@ -1540,6 +1599,8 @@
             "title": "Secure authentication",
             "summary": "Secure authentication technologies and procedures shall be implemented based on information access restrictions and the topic-specific policy on access control.",
                 "mappedControls" : [
+	            "cp-access-mfa",
+	            "cp-sdlc-iaaa"
                 ]
           },
           {
@@ -1547,8 +1608,8 @@
             "title": "Capacity management",
             "summary": "The use of resources shall be monitored and adjusted in line with current and expected capacity requirements.",
                 "mappedControls" : [ 
-                "cp-data-classification",
-                "cp-data-handling"
+			"cp-bcdr-test"
+              
                 ]
           },
           {
@@ -1556,6 +1617,7 @@
             "title": "Protection against malware",
             "summary": "Protection against malware shall be implemented and supported by appropriate user awareness.",
                 "mappedControls" : [ 
+			"cp-threat-malware"
                 ]
           },
           {
@@ -1563,6 +1625,7 @@
             "title": "Management of technical vulnerabilities",
             "summary": "Information about technical vulnerabilities of information systems in use shall be obtained, the organization’s exposure to such vulnerabilities shall be evaluated and appropriate measures shall be taken.",
                 "mappedControls" : [ 
+	          "cp-vuln-scan",
               ]
               
           },
@@ -1571,6 +1634,11 @@
             "title": "Configuration management",
             "summary": "Configurations, including security configurations, of hardware, software, services and networks shall be established, documented, implemented, monitored and reviewed.",
                 "mappedControls" : [ 
+			"cp-ccm-config",
+			"cp-ccm-network",
+			"cp-ccm-monitor",
+			"cp-ccm-provision-endpoint"
+			
                 ]
           },
           {
@@ -1578,6 +1646,8 @@
             "title": "Information deletion",
             "summary": "Information stored in information systems, devices or in any other storage media shall be deleted when no longer required.",
                     "mappedControls" : [ 
+			    "cp-data-deletion",
+			    "cp-data-lifecycle"
                     ]
           },
           {
@@ -1585,6 +1655,7 @@
             "title": "Data masking",
             "summary": "Data masking shall be used in accordance with the organization’s topic-specific policy on access control and other related topic-specific policies, and business requirements, taking applicable legislation into consideration.",
                     "mappedControls" : [ 
+		    "cp-data-protection"
                     ]
           },
           {
@@ -1592,6 +1663,8 @@
             "title": "Data leakage prevention",
             "summary": "Data leakage prevention measures shall be applied to systems, networks and any other devices that process, store or transmit sensitive information.",
                     "mappedControls" : [ 
+		      "cp-data-protection",
+		      "cp-data-protection-integrity"
                     ]
           },
           {
@@ -1599,6 +1672,7 @@
             "title": "Information backup",
             "summary": "Backup copies of information, software and systems shall be maintained and regularly tested in accordance with the agreed topic-specific policy on backup.",
                     "mappedControls" : [ 
+			    "cp-data-backup"
                     ]
           },
           {
@@ -1606,6 +1680,7 @@
             "title": "Redundancy of information processing facilities",
             "summary": "Information processing facilities shall be implemented with redundancy sufficient to meet availability requirements.",
                     "mappedControls" : [ 
+			    "cp-bcdr-test"
                     ]
           },
           {
@@ -1613,6 +1688,7 @@
             "title": "Logging",
             "summary": "Logs that record activities, exceptions, faults and other relevant events shall be produced, stored, protected and analysed.",
                     "mappedControls" : [ 
+			    "cp-audit-trails"
                     ]
           },
           {
@@ -1620,6 +1696,8 @@
             "title": "Monitoring activities",
             "summary": "Networks, systems and applications shall be monitored for anomalous behaviour and appropriate actions taken to evaluate potential information security incidents.",
                     "mappedControls" : [ 
+			    "cp-ccm-monitor",
+			    "cp-sdlc-monitor"
                     ]
           },
           {
@@ -1627,6 +1705,7 @@
             "title": "Clock synchronization",
             "summary": "The clocks of information processing systems used by the organization shall be synchronized to approved time sources.",
                     "mappedControls" : [ 
+		       "cp-audit-trails"
                     ]
           },
           {
@@ -1634,6 +1713,7 @@
             "title": "Use of privileged utility programs",
             "summary": "The use of utility programs that can be capable of overriding system and application controls shall be restricted and tightly controlled.",
                     "mappedControls" : [ 
+			"cp-access-privileged"
                     ]
           },
           {
@@ -1641,6 +1721,8 @@
             "title": "Installation of software on operational systems",
             "summary": "Procedures and measures shall be implemented to securely manage software installation on operational systems.",
                     "mappedControls" : [ 
+			 "ref-approved-software",
+			  "cp-employee-acceptable-use"
                     ]
           },
           {
@@ -1648,6 +1730,8 @@
             "title": "Networks security",
             "summary": "Networks and network devices shall be secured, managed and controlled to protect information in systems and applications.",
                     "mappedControls" : [ 
+			"cp-ccm-network",
+			 "cp-threat-nids",
                     ]
           },
           {
@@ -1656,7 +1740,8 @@
             "summary": "Security mechanisms, service levels and service requirements of network services shall be identified, implemented and monitored.",
                     "mappedControls" : [ 
 			"cp-ccm-network",
-			 "cp-threat-nids"
+			 "cp-threat-nids",
+			  "cp-access-wifi"
                     ]
           },
           {
@@ -1664,6 +1749,7 @@
             "title": "Segregation of networks",
             "summary": "Groups of information services, users and information systems shall be segregated in the organization’s networks.",
                     "mappedControls" : [ 
+			"cp-ccm-network"
                     ]
           },
           {
@@ -1671,6 +1757,7 @@
             "title": "Web filtering",
             "summary": "Access to external websites shall be managed to reduce exposure to malicious content.",
                     "mappedControls" : [ 
+			"cp-threat-webapp"
 	
                     ]
           },
@@ -1679,7 +1766,9 @@
             "title": "Use of cryptography",
             "summary": "Rules for the effective use of cryptography, including cryptographic key management, shall be defined and implemented.",
                     "mappedControls" : [ 
-		"cp-data-protection-kms"
+		"cp-data-protection-kms",
+	        "cp-data-protection"
+			    
                     ]
           },
           {
@@ -1728,7 +1817,8 @@
                     "mappedControls" : [ 
 			"cp-sdlc-dast",
 			"cp-sdlc-sast",
-			 "cp-vuln-scan"
+			 "cp-vuln-scan",
+			 "cp-sdlc-scm",
 			    
                     ]
           },
@@ -1745,6 +1835,7 @@
             "title": "Separation of development, test and production environments",
             "summary": "Development, testing and production environments shall be separated and secured.",
                     "mappedControls" : [ 
+		     "cp-sdlc-dev"
                     ]
           },
           {
@@ -1753,7 +1844,8 @@
             "summary": "Changes to information processing facilities and information systems shall be subject to change management procedures.",
                     "mappedControls" : [ 
 			    "cp-ccm-emergency",
-			    "cp-ccm-provision-mgmt"
+			    "cp-ccm-provision-mgmt",
+			    "cp-ccm-aws-deploy"
     
                     ]
           },

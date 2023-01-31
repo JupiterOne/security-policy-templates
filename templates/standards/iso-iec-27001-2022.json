@@ -1230,8 +1230,7 @@
              "ref": "A.5.22",
              "title": "Monitoring, review and change management of supplier services",
              "summary": "The organization shall regularly monitor, review, evaluate and manage change in supplier information security practices and service delivery.",
-              "mappedControls": [
-		      
+              "mappedControls": [	   
                 ]
           },
           {

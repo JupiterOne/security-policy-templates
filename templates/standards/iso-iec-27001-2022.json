@@ -1231,6 +1231,7 @@
              "title": "Monitoring, review and change management of supplier services",
              "summary": "The organization shall regularly monitor, review, evaluate and manage change in supplier information security practices and service delivery.",
               "mappedControls": [
+		      
                 ]
           },
           {
@@ -1238,6 +1239,8 @@
              "title": "Information security for use of cloud services",
              "summary": "Processes for acquisition, use, management and exit from cloud services shall be established in accordance with the organization’s information security requirements.",
               "mappedControls": [
+		      "cp-ccm-aws",
+		      "cp-ism-scope"
                 ]
           },
           {
@@ -1245,6 +1248,10 @@
              "title": "Information security incident management planning and preparation",
              "summary": "The organization shall plan and prepare for managing information security incidents by defining, establishing and communicating information security incident management processes, roles and responsibilities.",
               "mappedControls": [
+		      "cp-ir-process",
+		      "cp-ir-sirt",
+		      "cp-ir-records"
+	
                 ]
           },
           {
@@ -1252,6 +1259,8 @@
              "title": "Assessment and decision on information security events",
              "summary": "The organization shall assess information security events and decide if they are to be categorized as information security incidents.",
               "mappedControls": [
+		      "cp-ir-process"
+		     
                 ]
           },
           {
@@ -1259,6 +1268,9 @@
              "title": "Response to information security incidents",
              "summary": "Information security incidents shall be responded to in accordance with the documented procedures.",
               "mappedControls": [
+		     "cp-ir-process",
+		      "cp-ir-playbook"
+		      
                 ]
           },
           {
@@ -1266,6 +1278,8 @@
              "title": "Learning from information security incidents",
              "summary": "Knowledge gained from information security incidents shall be used to strengthen and improve the information security controls.",
               "mappedControls": [
+		      "cp-ir-records",
+		      "cp-ir-process"
                 ]
           },
           {
@@ -1273,6 +1287,9 @@
              "title": "Collection of evidence",
              "summary": "The organization shall establish and implement procedures for the identification, collection, acquisition and preservation of evidence related to information security events.",
               "mappedControls": [
+		      "cp-ir-records",
+		      "cp-ir-process"
+		      
                 ]
           },
           {
@@ -1280,6 +1297,9 @@
              "title": "Information security during disruption",
              "summary": "The organization shall plan how to maintain information security at an appropriate level during disruption.",
               "mappedControls": [
+		      "cp-bcdr-test",
+		      "cp-bcdr"
+		      
                 ]
           },
           {
@@ -1287,6 +1307,9 @@
              "title": "ICT readiness for business continuity",
              "summary": "ICT readiness shall be planned, implemented, maintained and tested based on business continuity objectives and ICT continuity requirements.",
               "mappedControls": [
+		      "cp-bcdr-test",
+		      "cp-bcdr"
+		      
                 ]
           },	
           {
@@ -1294,6 +1317,7 @@
              "title": "Legal, statutory, regulatory and contractual requirements",
              "summary": "Legal, statutory, regulatory and contractual requirements relevant to information security and the organization’s approach to meet these requirements shall be identified, documented and kept up to date.",
               "mappedControls": [
+		      "cp-ism-scope"
                 ]
           },
           {
@@ -1301,6 +1325,9 @@
              "title": "Intellectual property rights",
              "summary": "The organization shall implement appropriate procedures to protect intellectual property rights.",
               "mappedControls": [
+		   
+		      
+		      
                 ]
           },
           {
@@ -1308,6 +1335,8 @@
              "title": "Protection of records",
              "summary": "Records shall be protected from loss, destruction, falsification, unauthorized access and unauthorized release.",
               "mappedControls": [
+		      "cp-data-protection",
+		      "cp-data-protection-at-rest"
                 ]
           },
           {
@@ -1315,6 +1344,9 @@
              "title": "Privacy and protection of personal identifiable information (PII)",
              "summary": "The organization shall identify and meet the requirements regarding the preservation of privacy and protection of PII according to applicable laws and regulations and contractual requirements.",
               "mappedControls": [
+		      "ref-privacy-policy",
+		      "cp-privacy-notices",
+		      
                 ]
           },	
           {
@@ -1322,6 +1354,7 @@
              "title": "Independent review of information security",
              "summary": "The organization’s approach to managing information security and its implementation including people, processes and technologies shall be reviewed independently at planned intervals, or when significant changes occur",
               "mappedControls": [
+		      "cp-policy-mgmt"
                 ]
           },
           {
@@ -1329,6 +1362,7 @@
              "title": "Compliance with policies, rules and standards for information security",
              "summary": "Compliance with the organization’s information security policy, topic-specific policies, rules and standards shall be regularly reviewed.",
               "mappedControls": [
+		      "cp-policy-mgmt"
                 ]
           },		 
           {
@@ -1336,6 +1370,8 @@
             "title": "Documented operating procedures",
             "summary": "Operating procedures for information processing facilities shall be documented and made available to personnel who need them.",
               "mappedControls": [
+		    "cp-ism-scope",
+		    "cp-training-policy"
               ]
           }
         ]

@@ -35,6 +35,8 @@
                "title": "Understanding the needs and expectations of interested parties, part c)",
                "summary": "The organization shall determine: c) which of these requirements will be addressed through the information security managment system",
                "mappedControls" : [ 
+		       "cp-ism-scope",
+		       "cp-ism-policies"
               ]
           },           
           {
@@ -138,7 +140,8 @@
               "cp-audit-types",
               "cp-audit-internal",
               "cp-audit-review",
-              "cp-compliance-mgmt"
+              "cp-compliance-mgmt",
+		"cp-model-metrics"
               ]
           },
           {
@@ -160,8 +163,8 @@
               "mappedControls" : [
               "cp-model-metrics",
               "cp-model-quality", 
-              "cp-employee-development",
-              "cp-policy-mgmt"
+		      "cp-model-metrics",
+              "cp-employee-development"
               ]
           },
           {
@@ -170,7 +173,8 @@
              "summary": "Top management shall demonstrate leadership and commitment with respect to the information security management system by: supporting other relevant management roles to demonstrate their leadership as it applies to their area of responsibility.",
               "mappedControls" : [
               "cp-role-assignment",
-              "cp-employee-recognition"
+              "cp-employee-recognition",
+		      "cp-employee-development"
               ]
           },
           {
@@ -186,7 +190,8 @@
              "title": "Policy, part b)",
              "summary": "Top management shall establish an information security policy that: includes information security objectives (see 6.2) or provides the framework for setting information security objectives.",
               "mappedControls" : [
-              "cp-policy-framework"
+              "cp-policy-framework",
+		      "cp-model-metrics"
               ]
           },
           { 
@@ -195,7 +200,8 @@
            "summary": "Top management shall establish an information security policy that: includes a commitment to satisfy applicable requirements related to information security.",
            "mappedControls" : [
            "cp-compliance-mgmt",
-           "cp-compliance-monitor"
+           "cp-compliance-monitor",
+"cp-policy-framework"
           ]
           },
           { 
@@ -204,7 +210,8 @@
            "summary": "Top management shall establish an information security policy that: includes a commitment to continual improvement of the information security management system.", 
            "mappedControls" : [
            "cp-model-metrics",
-           "cp-model-quality"
+           "cp-model-quality",
+		    "cp-ism-reporting"
               ]
           },
           {
@@ -268,7 +275,8 @@
               "mappedControls" : [
               "cp-bcdr",
               "cp-model-metrics",
-              "cp-model-architecture"
+              "cp-model-architecture",
+		"cp-ism-scope"
               ]
           },
           {
@@ -319,7 +327,8 @@
              "title": "Information security risk assessment, part a)",
              "summary": "The organization shall define and apply an information security risk assessment process that: establishes and maintains information security risk criteria that include: 1) the risk acceptance criteria; and 2) criteria for performing information security risk assessments.The organization shall retain documented information about the information security risk assessment process.",
              "mappedControls" : [
-              "cp-risk-mgmt-objectives"
+              "cp-risk-mgmt-objectives",
+		     "cp-risk-assess"
               ]
           },
           {
@@ -350,7 +359,8 @@
               "cp-risk-mgmt",
               "cp-risk-mgmt-objectives",
               "cp-risk-assess",
-              "cp-risk-registry"
+              "cp-risk-registry",
+		     "cp-risk-fraud"
               ]
           },
           {
@@ -392,7 +402,8 @@
               "cp-risk-mitigation",
               "cp-audit-control-deficiency",
               "cp-audit-internal",
-              "cp-audit-tools"
+              "cp-audit-tools",
+		     "cp-compliance-monitor"
               ]
           },
           {
@@ -400,7 +411,9 @@
              "title": "Information security risk treatment, part d)",
              "summary": "The organization shall define and apply an information security risk treatment process to: produce a Statement of Applicability that contains the necessary controls (see 6.1.3 b) and c)) justification for inclusions, whether the necessary controls are implemented or not, and the justification for excluding any of the Annex A controls. The organization shall retain documented information about the information security risk treatment process.",
              "mappedControls" : [
-              "cp-ism-scope"
+              "cp-ism-scope",
+		      "cp-risk-assess",
+		     "cp-risk-registry"
               ]
           },
           {
@@ -409,7 +422,8 @@
              "summary": "The organization shall define and apply an information security risk treatment process to: formulate an information security risk treatment plan. The organization shall retain documented information about the information security risk treatment process.",
              "mappedControls" : [
               "cp-risk-mgmt",
-              "cp-risk-mitigation"
+              "cp-risk-mitigation",
+		     "cp-risk-registry"
               ]
           },
           {
@@ -454,6 +468,8 @@
              "title": "Information security objectives and planning to achieve them, part d)",
              "summary": "The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be monitored. The organization shall retain documented information on the information security objectives.",
              "mappedControls" : [
+		      "cp-ism-reporting",
+              "cp-model-metrics"
               ]
           },
           {
@@ -480,7 +496,7 @@
              "title": "Information security objectives and planning to achieve them, part g)",
              "summary": "The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be available as documented information. The organization shall retain documented information on the information security objectives.",
              "mappedControls" : [
-
+		"cp-policy-framework"
               ]
           },
           {
@@ -661,6 +677,9 @@
              "title": "Documented information - General, part a)",
              "summary": "The organization’s information security management system shall include: documented information required by this document. NOTE The extent of documented information for an information security management system can differ from one organization to another due to: 1) the size of organization and its type of activities, processes, products and services; 2) the complexity of processes and their interactions; and 3) the competence of persons.",
              "mappedControls" : [
+		     "cp-policy-framework",
+		     "cp-ism-scope",
+		     "cp-compliance-mgmt"
               ]
           },
 		  {
@@ -668,6 +687,8 @@
              "title": "Documented information - General, part b)",
              "summary": "The organization’s information security management system shall include: documented information determined by the organization as being necessary for the effectiveness of the information security management system. NOTE The extent of documented information for an information security management system can differ from one organization to another due to: 1) the size of organization and its type of activities, processes, products and services; 2) the complexity of processes and their interactions; and 3) the competence of persons.",
              "mappedControls" : [
+		        "cp-employee-screening",
+              "cp-employee-development",
               ]
           },
           {
@@ -675,6 +696,7 @@
              "title": "Documented information - Creating and updating, part a)",
              "summary": "When creating and updating documented information the organization shall ensure appropriate: identification and description (e.g. a title, date, author, or reference number).",
              "mappedControls" : [
+		     "cp-policy-mgmt"
               ]
           },
           {
@@ -689,6 +711,7 @@
              "title": "Documented information - Creating and updating, part c)",
              "summary": "When creating and updating documented information the organization shall ensure appropriate:review and approval for suitability and adequacy.",
              "mappedControls" : [
+		     "cp-policy-framework"
               ]
           },
           {
@@ -769,8 +792,12 @@
           {
              "ref": "8.1",
              "title": "Operational planning and control",
-             "summary": "The organization shall plan, implement and control the processes needed to meet requirements, and toimplement the actions determined in Clause 6, by establishing criteria for the processes and implementing control of the processes in accordance with the criteria. Documented information shall be available to the extent necessary to have confidence that the processes have been carried out as planned. The organization shall control planned changes and review the consequences of unintended changes, taking action to mitigate any adverse effects, as necessary. The organization shall ensure that outsourced processes are determined and controlled.",
+             "summary": "The organization shall plan, implement and control the processes needed to meet requirements, and to implement the actions determined in Clause 6, by establishing criteria for the processes and implementing control of the processes in accordance with the criteria. Documented information shall be available to the extent necessary to have confidence that the processes have been carried out as planned. The organization shall control planned changes and review the consequences of unintended changes, taking action to mitigate any adverse effects, as necessary. The organization shall ensure that outsourced processes are determined and controlled.",
              "mappedControls" : [
+		     "cp-sdlc-outsourcing",
+		     "cp-vendor-vtr",
+		     "cp-vendor-contracts",
+		     "cp-vendor-monitor"
               ]
           },
           {
@@ -825,7 +852,8 @@
              "summary": "The organization shall evaluate the information security performance and the effectiveness of the information security management system. The organization shall determine: when the monitoring and measuring shall be performed. Documented information shall be available as evidence of the results.",
              "mappedControls" : [
               "cp-model-metrics",
-              "cp-audit-internal"
+              "cp-audit-internal",
+		      "cp-compliance-monitor"
               ]
           },
           {
@@ -833,7 +861,8 @@
              "title": "Monitoring, measurement, analysis, and evaluation, part d)",
              "summary": "The organization shall evaluate the information security performance and the effectiveness of the information security management system. The organization shall determine: who shall monitor and measure. Documented information shall be available as evidence of the results.",
              "mappedControls" : [
-              "cp-role-assignment"
+              "cp-role-assignment",
+		     "cp-compliance-mgmt"
               ]
           },
           {
@@ -841,7 +870,8 @@
              "title": "Monitoring, measurement, analysis, and evaluation, part e)",
              "summary": "The organization shall evaluate the information security performance and the effectiveness of the information security management system. The organization shall determine: when the results from monitoring and measurement shall be analysed and evaluated.",
              "mappedControls" : [
-              "cp-audit-tools"
+              "cp-audit-tools",
+		     "cp-compliance-monitor"
               ]
           },
           {
@@ -850,7 +880,8 @@
              "summary": "The organization shall evaluate the information security performance and the effectiveness of the information security management system. The organization shall determine: who shall analyse and evaluate these results. The organization shall retain appropriate documented information as evidence of the monitoring and measurement results.",
              "mappedControls" : [
                  "cp-audit-control-deficiency",
-              "cp-audit-review"
+              "cp-audit-review",
+		     "cp-compliance-mgmt"
               ]
           },
           {
@@ -876,6 +907,9 @@
              "title": "Internal audit programme, part a)",
              "summary": "The organization shall plan, establish, implement and maintain an audit programme(s), including the frequency, methods, responsibilities, planning requirements and reporting. When establishing the internal audit programme(s), the organization shall consider the importance of the processes concerned and the results of previous audits. The organization shall: define the audit criteria and scope for each audit. Documented information shall be available as evidence of the implementation of the audit programme(s)and the audit results.",
              "mappedControls" : [
+		     "cp-audit-types",
+		     "cp-audit-internal",
+		     "cp-audit-review"
               ]
           },
           {
@@ -883,6 +917,9 @@
              "title": "Internal audit programme, part b)",
              "summary": "The organization shall plan, establish, implement and maintain an audit programme(s), including the frequency, methods, responsibilities, planning requirements and reporting. When establishing the internal audit programme(s), the organization shall consider the importance of the processes concerned and the results of previous audits. The organization shall: select auditors and conduct audits that ensure objectivity and the impartiality of the audit process. Documented information shall be available as evidence of the implementation of the audit programme(s)and the audit results.",
              "mappedControls" : [
+		     "cp-audit-types",
+		     "cp-audit-internal",
+		     "cp-audit-review"
               ]
           },
           {
@@ -890,7 +927,8 @@
              "title": "Internal audit programme, part c)",
              "summary": "The organization shall plan, establish, implement and maintain an audit programme(s), including the frequency, methods, responsibilities, planning requirements and reporting. When establishing the internal audit programme(s), the organization shall consider the importance of the processes concerned and the results of previous audits. The organization shall: ensure that the results of the audits are reported to relevant management. Documented information shall be available as evidence of the implementation of the audit programme(s)and the audit results.",
              "mappedControls" : [
-				 "cp-audit-review"
+				 "cp-audit-review",
+		      "cp-audit-internal"
               ]
           },
           {
@@ -911,6 +949,7 @@
              "title": "Management review inputs, part a)",
              "summary": "The management review shall include consideration of: the status of actions from previous management reviews.",
               "mappedControls" : [
+		       "cp-audit-review"
               ]
           },
 		  {
@@ -927,7 +966,7 @@
              "title": "Management review inputs, part c)",
              "summary": "The management review shall include consideration of: changes in needs and expectations of interested parties that are relevant to the information security management system",
               "mappedControls" : [
-
+"cp-ism-scope"
               ]
           },
           {
@@ -951,7 +990,8 @@
              "title": "Management review, part e)",
              "summary": "The management review shall include consideration of: feedback from interested parties.",
               "mappedControls": [
-              "cp-employee-whistleblower"
+              "cp-employee-whistleblower",
+		      "cp-audit-review"
               ]
           },
           {
@@ -969,7 +1009,8 @@
              "title": "Management review, part g)",
              "summary": "The management review shall include consideration of: opportunities for continual improvement.",
               "mappedControls": [
-              "cp-ism-reporting"
+              "cp-ism-reporting",
+		      "cp-sdlc-monitor"
               ]
            },
           {
@@ -1091,6 +1132,7 @@
              "title": "Information security roles and responsibilities",
              "summary": "Information security roles and responsibilities shall be defined and allocated according to the organization needs.",
               "mappedControls": [
+		      "cp-role-assignment"
                 ]
           },
           {
@@ -1098,6 +1140,7 @@
              "title": "Segregation of duties",
              "summary": "Conflicting duties and conflicting areas of responsibility shall be segregated.",
               "mappedControls": [
+		      "cp-role-assignment"
                 ]
           },
           {
@@ -1105,6 +1148,10 @@
              "title": "Management responsibilities",
              "summary": "Management shall require all personnel to apply information security in accordance with the established information security policy, topic-specific policies and procedures of the organization.",
               "mappedControls": [
+		    "cp-role-assignment",
+		      "cp-training-policy",
+		      "ref-employee-handbook",
+		      "cp-employee-performance"
                 ]
           },
           {
@@ -1112,6 +1159,7 @@
              "title": " Contact with authorities",
              "summary": "The organization shall establish and maintain contact with relevant authorities.",
               "mappedControls": [
+		      "cp-breach-authorities"
                 ]
           },
           {
@@ -1119,6 +1167,8 @@
              "title": " Contact with special interest groups",
              "summary": "The organization shall establish and maintain contact with special interest groups or other specialist security forums and professional associations.",
               "mappedControls": [
+		      "cp-threat-intel",
+		       "cp-breach-authorities"
                 ]
           },		 		 		 
           {
@@ -1126,6 +1176,7 @@
              "title": "Threat intelligence",
              "summary": "Information relating to information security threats shall be collected and analysed to produce threat intelligence.",
               "mappedControls": [
+		      "cp-threat-intel"
                 ]
           },
           {
@@ -1133,6 +1184,8 @@
              "title": "Information security in project management",
              "summary": "Information security shall be integrated into project management.",
               "mappedControls": [
+		      "cp-sdlc-dev",
+		      "cp-model-quality"
                 ]
           },
           {
@@ -1140,6 +1193,8 @@
              "title": "Information security in project management",
              "summary": "An inventory of information and other associated assets, including owners, shall be developed and maintained.",
               "mappedControls": [
+		      "cp-asset-digital",
+		      "cp-asset-physical"
                 ]
           },
           {
@@ -1147,6 +1202,7 @@
              "title": "Acceptable use of information and other associated assets",
              "summary": "Rules for the acceptable use and procedures for handling information and other associated assets shall be identified, documented and implemented.",
               "mappedControls": [
+		      "cp-employee-acceptable-use"
                 ]
           },
           {
@@ -1154,6 +1210,8 @@
              "title": "Acceptable use of information and other associated assets",
              "summary": "Rules for the acceptable use and procedures for handling information and other associated assets shall be identified, documented and implemented.",
               "mappedControls": [
+		      "cp-employee-acceptable-use",
+		      "cp-access-standards"
                 ]
           },
           {
@@ -1161,6 +1219,8 @@
              "title": "Classification of information",
              "summary": "Information shall be classified according to the information security needs of the organization based on confidentiality, integrity, availability and relevant interested party requirements.",
               "mappedControls": [
+		      "cp-data-classification",
+		      "cp-data-handling"
                 ]
           },
           {
@@ -1168,6 +1228,8 @@
              "title": "Labelling of information",
              "summary": "An appropriate set of procedures for information labelling shall be developed and implemented in accordance with the information classification scheme adopted by the organization.",
               "mappedControls": [
+		       "cp-data-classification",
+		      "cp-data-handling"
                 ]
           },
           {
@@ -1175,6 +1237,8 @@
              "title": "Information transfer",
              "summary": "Information transfer rules, procedures, or agreements shall be in place for all types of transfer facilities within the organization and between the organization and other parties.",
               "mappedControls": [
+		      "cp-data-handling",
+		      "cp-data-protection-in-transit"
                 ]
           },
           {
@@ -1182,6 +1246,11 @@
              "title": "Access control",
              "summary": "Rules to control physical and logical access to information and other associated assets shall be established and implemented based on business and information security requirements.",
               "mappedControls": [
+		      "cp-access-standards",
+		      "cp-access-sso",
+		      "cp-access-mfa",
+		      "cp-access-rbac",
+		      "cp-access-privileged"
                 ]
           },
           {
@@ -1189,6 +1258,9 @@
              "title": "Identity management",
              "summary": "The full life cycle of identities shall be managed.",
               "mappedControls": [
+		      "cp-access-review",
+		      "cp-access-standards",
+		      "cp-access-reset"
                 ]
           },
           { 
@@ -1196,6 +1268,11 @@
              "title": "Authentication information",
              "summary": "Allocation and management of authentication information shall be controlled by a management process, including advising personnel on appropriate handling of authentication information.",
               "mappedControls": [
+		       "cp-access-standards",
+		      "cp-access-mfa",
+		      "cp-access-rbac",
+		      "cp-access-privileged",
+		       "cp-access-review"
                 ]
           },
           { 
@@ -1203,6 +1280,10 @@
              "title": "Access rights",
              "summary": "Access rights to information and other associated assets shall be provisioned, reviewed, modified and removed in accordance with the organization’s topic-specific policy on and rules for access control.",
               "mappedControls": [
+		      "cp-access-standards",
+		      "cp-access-rbac",
+		      "cp-access-privileged",
+		       "cp-access-review"
                 ]
           },
           { 
@@ -1210,6 +1291,9 @@
              "title": "Information security in supplier relationships",
              "summary": "Processes and procedures shall be defined and implemented to manage the information security risks associated with the use of supplier’s products or services.",
               "mappedControls": [
+		       "cp-vendor-vtr",
+		      "cp-vendor-contracts",
+		      "cp-vendor-monitor"
                 ]
           },
           { 
@@ -1217,6 +1301,7 @@
              "title": "Addressing information security within supplier agreements",
              "summary": "Relevant information security requirements shall be established and agreed with each supplier based on the type of supplier relationship.",
               "mappedControls": [
+		           "cp-vendor-contracts"
                 ]
           },
           { 
@@ -1224,13 +1309,17 @@
              "title": "Managing information security in the information and communication technology (ICT) supply chain",
              "summary": "Processes and procedures shall be defined and implemented to manage the information security risks associated with the ICT products and services supply chain.",
               "mappedControls": [
+		      "cp-vendor-vtr",
+		      "cp-vendor-contracts",
+		      "cp-vendor-monitor"
                 ]
           },
           { 
              "ref": "A.5.22",
              "title": "Monitoring, review and change management of supplier services",
              "summary": "The organization shall regularly monitor, review, evaluate and manage change in supplier information security practices and service delivery.",
-              "mappedControls": [	   
+              "mappedControls": [
+		      "cp-vendor-monitor"
                 ]
           },
           {
@@ -1239,7 +1328,8 @@
              "summary": "Processes for acquisition, use, management and exit from cloud services shall be established in accordance with the organization’s information security requirements.",
               "mappedControls": [
 		      "cp-ccm-aws",
-		      "cp-ism-scope"
+		 "cp-vendor-contracts",
+		      "cp-vendor-monitor"
                 ]
           },
           {
@@ -1249,7 +1339,7 @@
               "mappedControls": [
 		      "cp-ir-process",
 		      "cp-ir-sirt",
-		      "cp-ir-records"
+		      "cp-audit-training"
 	
                 ]
           },
@@ -1258,7 +1348,8 @@
              "title": "Assessment and decision on information security events",
              "summary": "The organization shall assess information security events and decide if they are to be categorized as information security incidents.",
               "mappedControls": [
-		      "cp-ir-process"
+		      "cp-ir-process",
+		      "cp-ir-records"
 		     
                 ]
           },
@@ -1323,10 +1414,7 @@
              "ref": "A.5.32",
              "title": "Intellectual property rights",
              "summary": "The organization shall implement appropriate procedures to protect intellectual property rights.",
-              "mappedControls": [
-		   
-		      
-		      
+              "mappedControls": [      
                 ]
           },
           {
@@ -1335,7 +1423,9 @@
              "summary": "Records shall be protected from loss, destruction, falsification, unauthorized access and unauthorized release.",
               "mappedControls": [
 		      "cp-data-protection",
-		      "cp-data-protection-at-rest"
+		      "cp-data-handling",
+		      "cp-data-protection-integrity",
+		      "cp-audit-trails-integrity"
                 ]
           },
           {
@@ -1345,7 +1435,8 @@
               "mappedControls": [
 		      "ref-privacy-policy",
 		      "cp-privacy-notices",
-		      
+		      "cp-access-prod-data",
+		      "cp-data-classification"
                 ]
           },	
           {
@@ -1353,7 +1444,8 @@
              "title": "Independent review of information security",
              "summary": "The organization’s approach to managing information security and its implementation including people, processes and technologies shall be reviewed independently at planned intervals, or when significant changes occur",
               "mappedControls": [
-		      "cp-policy-mgmt"
+		      "cp-policy-mgmt",
+		      "cp-audit-internal"
                 ]
           },
           {
@@ -1361,7 +1453,10 @@
              "title": "Compliance with policies, rules and standards for information security",
              "summary": "Compliance with the organization’s information security policy, topic-specific policies, rules and standards shall be regularly reviewed.",
               "mappedControls": [
-		      "cp-policy-mgmt"
+		      "cp-policy-mgmt",
+		      "cp-audit-internal",
+		      "cp-ccm-monitor",
+		      "cp-compliance-monitor"
                 ]
           },		 
           {
@@ -1392,8 +1487,8 @@
             "summary": "The employment contractual agreements shall state the personnel’s and the organization’s responsibilities for information security.",
                "mappedControls" : [ 
 		       "ref-employee-handbook",
-		       "cp-employee-onboarding"
-		       
+		       "cp-employee-onboarding",
+		       "ref-employee-handbook"
                   ]
           },
           {
@@ -1412,8 +1507,7 @@
             "summary": "A disciplinary process shall be formalized and communicated to take actions against personnel and other relevant interested parties who have committed an information security policy violation.",
               "mappedControls" : [ 
 		      "cp-employee-sanctions",
-		      "cp-sanctions",
-		      
+		      "cp-sanctions",   
                   ]
           },
           {
@@ -1422,7 +1516,9 @@
             "summary": "Information security responsibilities and duties that remain valid after termination or change of employment shall be defined, enforced and communicated to relevant personnel and other interested parties.",
               "mappedControls" : [
 		      "cp-employee-exiting",
-		      "cp-access-change"
+		      "cp-access-change",
+		      "ref-employee-handbook",
+"cp-hr-mgmt"
                   ]
           },
           {
@@ -1431,7 +1527,8 @@
             "summary": "Confidentiality or non-disclosure agreements reflecting the organization’s needs for the protection of information shall be identified,documented, regularly reviewed and signed by personnel and other relevant interested parties.",
                "mappedControls" : [
 		       "cp-privacy-notices",
-		       "ref-privacy-policy"
+		       "ref-privacy-policy",
+		       "cp-employee-acceptable-use"
                 ]
           },
           {
@@ -1440,7 +1537,8 @@
             "summary": "Security measures shall be implemented when personnel are working remotely to protect information accessed, processed or stored outside the organization’s premises.",
                "mappedControls" : [
 		       "cp-role-assignment",
-		       "cp-access-vpn"
+		       "cp-access-vpn",
+"cp-access-endpoints"
 		       
                 ]
           },		
@@ -1449,6 +1547,8 @@
             "title": "Information security event reporting",
             "summary": "The organization shall provide a mechanism for personnel to report observed or suspected information security events through appropriate channels in a timely manner.",
               "mappedControls" : [
+		      "cp-employee-escalation",
+		      "cp-employee-whistleblower"
                 ]
           }
         ]
@@ -1497,6 +1597,8 @@
             "title": "Protecting against physical and environmental threats",
             "summary": "Protection against physical and environmental threats, such as natural disasters and other intentional or unintentional physical threats to infrastructure shall be designed and implemented.",
                "mappedControls" : [
+		       "cp-physical",
+		       "cp-bcdr-recovery"
                 ]
           },
           {
@@ -1601,9 +1703,7 @@
             "title": "Privileged access rights",
             "summary": "The allocation and use of privileged access rights shall be restricted and managed.",
                 "mappedControls" : [ 
-		   "cp-access-privileged",
-		  
-		  
+		   "cp-access-privileged"  
               ]
           },
           {
@@ -1643,8 +1743,9 @@
             "title": "Capacity management",
             "summary": "The use of resources shall be monitored and adjusted in line with current and expected capacity requirements.",
                 "mappedControls" : [ 
-			"cp-bcdr-test"
-              
+			"cp-bcdr-test",
+			"cp-bcdr-data",
+			"cp-bcdr-app"
                 ]
           },
           {
@@ -1652,7 +1753,8 @@
             "title": "Protection against malware",
             "summary": "Protection against malware shall be implemented and supported by appropriate user awareness.",
                 "mappedControls" : [ 
-			"cp-threat-malware"
+			"cp-threat-malware",
+			"cp-ccm-provision-endpoint"
                 ]
           },
           {
@@ -1661,6 +1763,7 @@
             "summary": "Information about technical vulnerabilities of information systems in use shall be obtained, the organization’s exposure to such vulnerabilities shall be evaluated and appropriate measures shall be taken.",
                 "mappedControls" : [ 
 	          "cp-vuln-scan",
+			"cp-threat-intel"
               ]
               
           },
@@ -1715,7 +1818,9 @@
             "title": "Redundancy of information processing facilities",
             "summary": "Information processing facilities shall be implemented with redundancy sufficient to meet availability requirements.",
                     "mappedControls" : [ 
-			    "cp-bcdr-test"
+			    "cp-bcdr-test",
+			    "cp-bcdr-data",
+			    "cp-bcdr-site"
                     ]
           },
           {
@@ -1723,7 +1828,8 @@
             "title": "Logging",
             "summary": "Logs that record activities, exceptions, faults and other relevant events shall be produced, stored, protected and analysed.",
                     "mappedControls" : [ 
-			    "cp-audit-trails"
+			    "cp-audit-trails",
+			    "cp-audit-trails-integrity"
                     ]
           },
           {
@@ -1740,7 +1846,8 @@
             "title": "Clock synchronization",
             "summary": "The clocks of information processing systems used by the organization shall be synchronized to approved time sources.",
                     "mappedControls" : [ 
-		       "cp-audit-trails"
+		       "cp-audit-trails",
+			    "cp-audit-trails-integrity"
                     ]
           },
           {
@@ -1757,7 +1864,9 @@
             "summary": "Procedures and measures shall be implemented to securely manage software installation on operational systems.",
                     "mappedControls" : [ 
 			 "ref-approved-software",
-			  "cp-employee-acceptable-use"
+			  "cp-employee-acceptable-use",
+			"ref-approved-software",
+			    "cp-ccm-provision-endpoint"
                     ]
           },
           {
@@ -1792,8 +1901,9 @@
             "title": "Web filtering",
             "summary": "Access to external websites shall be managed to reduce exposure to malicious content.",
                     "mappedControls" : [ 
-			"cp-threat-webapp"
-	
+			"cp-threat-webapp",
+			    "cp-employee-acceptable-use",
+			    "cp-access-wifi"
                     ]
           },
           {
@@ -1802,8 +1912,10 @@
             "summary": "Rules for the effective use of cryptography, including cryptographic key management, shall be defined and implemented.",
                     "mappedControls" : [ 
 		"cp-data-protection-kms",
-	        "cp-data-protection"
-			    
+	        "cp-data-protection",
+			    "cp-data-protection-at-rest",
+			   "cp-data-protection-in-transit",
+			    "cp-data-protection-in-use"       
                     ]
           },
           {
@@ -1811,7 +1923,11 @@
             "title": "Secure development life cycle",
             "summary": "Rules for the secure development of software and systems shall be established and applied.",
                     "mappedControls" : [
-		    "cp-sdlc-dev"
+		    "cp-sdlc-dev",
+			    "cp-sdlc-scm",
+			    "cp-sdlc-appsec-req",
+			    "cp-sdlc-design",
+			"cp-sdlc-foss"
 			    
                     ]
           },
@@ -1832,8 +1948,6 @@
 			 "cp-model-quality",
 			 "cp-ccm-provision-prod",
 			 "cp-sdlc-design"
-			    
-			    
                     ]
           },
           {
@@ -1870,7 +1984,8 @@
             "title": "Separation of development, test and production environments",
             "summary": "Development, testing and production environments shall be separated and secured.",
                     "mappedControls" : [ 
-		     "cp-sdlc-dev"
+		     "cp-sdlc-dev",
+			    "cp-ccm-prodcm"
                     ]
           },
           {
@@ -1881,7 +1996,6 @@
 			    "cp-ccm-emergency",
 			    "cp-ccm-provision-mgmt",
 			    "cp-ccm-aws-deploy"
-    
                     ]
           },
           {
@@ -1899,9 +2013,7 @@
             "summary": "Audit tests and other assurance activities involving assessment of operational systems shall be planned and agreed between the tester and appropriate management.",
                 "mappedControls" : [ 
 		"cp-audit-trails-integrity",
-		"cp-audit-trails"
-			
-			
+		"cp-audit-trails"	
                 ]
           }
         ]

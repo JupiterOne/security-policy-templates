@@ -688,7 +688,7 @@
              "summary": "The organization’s information security management system shall include: documented information determined by the organization as being necessary for the effectiveness of the information security management system. NOTE The extent of documented information for an information security management system can differ from one organization to another due to: 1) the size of organization and its type of activities, processes, products and services; 2) the complexity of processes and their interactions; and 3) the competence of persons.",
              "mappedControls" : [
 		        "cp-employee-screening",
-              "cp-employee-development",
+              "cp-employee-development"
               ]
           },
           {
@@ -1025,7 +1025,6 @@
               ]
            }
             ]
-        },
         {
             "title": "10 - Improvement",
               "controls": [

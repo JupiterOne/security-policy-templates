@@ -1,0 +1,895 @@
+{
+    "standard": "ISO/IEC 27002:2022",
+    "version": "2022",
+    "domains": [
+        {
+                "title": "A.5 -  Information security policies",
+                "controls": [
+                    {
+                        "ref": "A.5.1",
+                        "title": "Policies for information security",
+                        "summary": "Information security policy and topic-specific policies shall be defined, approved by management, published, communicated to and acknowledged by relevant personnel and relevant interested parties, and reviewed at planned intervals and if significant changes occur.",
+                        "mappedControls": [
+                            "cp-ism-policies",
+                            "cp-policy-framework",
+                            "cp-employee-onboarding"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.2",
+                        "title": "Information security roles and responsibilities",
+                        "summary": "Information security roles and responsibilities shall be defined and allocated according to the organization needs.",
+                        "mappedControls": [
+                            "cp-role-assignment"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.3",
+                        "title": "Segregation of duties",
+                        "summary": "Conflicting duties and conflicting areas of responsibility shall be segregated.",
+                        "mappedControls": [
+                            "cp-role-assignment"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.4",
+                        "title": "Management responsibilities",
+                        "summary": "Management shall require all personnel to apply information security in accordance with the established information security policy, topic-specific policies and procedures of the organization.",
+                        "mappedControls": [
+                            "cp-role-assignment",
+                            "cp-training-policy",
+                            "ref-employee-handbook",
+                            "cp-employee-performance"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.5",
+                        "title": " Contact with authorities",
+                        "summary": "The organization shall establish and maintain contact with relevant authorities.",
+                        "mappedControls": [
+                            "cp-breach-authorities"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.6",
+                        "title": " Contact with special interest groups",
+                        "summary": "The organization shall establish and maintain contact with special interest groups or other specialist security forums and professional associations.",
+                        "mappedControls": [
+                            "cp-threat-intel",
+                            "cp-breach-authorities"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.7",
+                        "title": "Threat intelligence",
+                        "summary": "Information relating to information security threats shall be collected and analysed to produce threat intelligence.",
+                        "mappedControls": [
+                            "cp-threat-intel"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.8",
+                        "title": "Information security in project management",
+                        "summary": "Information security shall be integrated into project management.",
+                        "mappedControls": [
+                            "cp-sdlc-dev",
+                            "cp-model-quality"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.9",
+                        "title": "Information security in project management",
+                        "summary": "An inventory of information and other associated assets, including owners, shall be developed and maintained.",
+                        "mappedControls": [
+                            "cp-asset-digital",
+                            "cp-asset-physical"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.10",
+                        "title": "Acceptable use of information and other associated assets",
+                        "summary": "Rules for the acceptable use and procedures for handling information and other associated assets shall be identified, documented and implemented.",
+                        "mappedControls": [
+                            "cp-employee-acceptable-use"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.11",
+                        "title": "Acceptable use of information and other associated assets",
+                        "summary": "Rules for the acceptable use and procedures for handling information and other associated assets shall be identified, documented and implemented.",
+                        "mappedControls": [
+                            "cp-employee-acceptable-use",
+                            "cp-access-standards"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.12",
+                        "title": "Classification of information",
+                        "summary": "Information shall be classified according to the information security needs of the organization based on confidentiality, integrity, availability and relevant interested party requirements.",
+                        "mappedControls": [
+                            "cp-data-classification",
+                            "cp-data-handling"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.13",
+                        "title": "Labelling of information",
+                        "summary": "An appropriate set of procedures for information labelling shall be developed and implemented in accordance with the information classification scheme adopted by the organization.",
+                        "mappedControls": [
+                            "cp-data-classification",
+                            "cp-data-handling"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.14",
+                        "title": "Information transfer",
+                        "summary": "Information transfer rules, procedures, or agreements shall be in place for all types of transfer facilities within the organization and between the organization and other parties.",
+                        "mappedControls": [
+                            "cp-data-handling",
+                            "cp-data-protection-in-transit"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.15",
+                        "title": "Access control",
+                        "summary": "Rules to control physical and logical access to information and other associated assets shall be established and implemented based on business and information security requirements.",
+                        "mappedControls": [
+                            "cp-access-standards",
+                            "cp-access-sso",
+                            "cp-access-mfa",
+                            "cp-access-rbac",
+                            "cp-access-privileged"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.16",
+                        "title": "Identity management",
+                        "summary": "The full life cycle of identities shall be managed.",
+                        "mappedControls": [
+                            "cp-access-review",
+                            "cp-access-standards",
+                            "cp-access-reset"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.17",
+                        "title": "Authentication information",
+                        "summary": "Allocation and management of authentication information shall be controlled by a management process, including advising personnel on appropriate handling of authentication information.",
+                        "mappedControls": [
+                            "cp-access-standards",
+                            "cp-access-mfa",
+                            "cp-access-rbac",
+                            "cp-access-privileged",
+                            "cp-access-review"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.18",
+                        "title": "Access rights",
+                        "summary": "Access rights to information and other associated assets shall be provisioned, reviewed, modified and removed in accordance with the organization’s topic-specific policy on and rules for access control.",
+                        "mappedControls": [
+                            "cp-access-standards",
+                            "cp-access-rbac",
+                            "cp-access-privileged",
+                            "cp-access-review"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.19",
+                        "title": "Information security in supplier relationships",
+                        "summary": "Processes and procedures shall be defined and implemented to manage the information security risks associated with the use of supplier’s products or services.",
+                        "mappedControls": [
+                            "cp-vendor-vtr",
+                            "cp-vendor-contracts",
+                            "cp-vendor-monitor"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.20",
+                        "title": "Addressing information security within supplier agreements",
+                        "summary": "Relevant information security requirements shall be established and agreed with each supplier based on the type of supplier relationship.",
+                        "mappedControls": [
+                            "cp-vendor-contracts"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.21",
+                        "title": "Managing information security in the information and communication technology (ICT) supply chain",
+                        "summary": "Processes and procedures shall be defined and implemented to manage the information security risks associated with the ICT products and services supply chain.",
+                        "mappedControls": [
+                            "cp-vendor-vtr",
+                            "cp-vendor-contracts",
+                            "cp-vendor-monitor"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.22",
+                        "title": "Monitoring, review and change management of supplier services",
+                        "summary": "The organization shall regularly monitor, review, evaluate and manage change in supplier information security practices and service delivery.",
+                        "mappedControls": [
+                            "cp-vendor-monitor"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.23",
+                        "title": "Information security for use of cloud services",
+                        "summary": "Processes for acquisition, use, management and exit from cloud services shall be established in accordance with the organization’s information security requirements.",
+                        "mappedControls": [
+                            "cp-ccm-aws",
+                            "cp-vendor-contracts",
+                            "cp-vendor-monitor"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.24",
+                        "title": "Information security incident management planning and preparation",
+                        "summary": "The organization shall plan and prepare for managing information security incidents by defining, establishing and communicating information security incident management processes, roles and responsibilities.",
+                        "mappedControls": [
+                            "cp-ir-process",
+                            "cp-ir-sirt",
+                            "cp-audit-training"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.25",
+                        "title": "Assessment and decision on information security events",
+                        "summary": "The organization shall assess information security events and decide if they are to be categorized as information security incidents.",
+                        "mappedControls": [
+                            "cp-ir-process",
+                            "cp-ir-records"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.26",
+                        "title": "Response to information security incidents",
+                        "summary": "Information security incidents shall be responded to in accordance with the documented procedures.",
+                        "mappedControls": [
+                            "cp-ir-process",
+                            "cp-ir-playbook"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.27",
+                        "title": "Learning from information security incidents",
+                        "summary": "Knowledge gained from information security incidents shall be used to strengthen and improve the information security controls.",
+                        "mappedControls": [
+                            "cp-ir-records",
+                            "cp-ir-process"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.28",
+                        "title": "Collection of evidence",
+                        "summary": "The organization shall establish and implement procedures for the identification, collection, acquisition and preservation of evidence related to information security events.",
+                        "mappedControls": [
+                            "cp-ir-records",
+                            "cp-ir-process"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.29",
+                        "title": "Information security during disruption",
+                        "summary": "The organization shall plan how to maintain information security at an appropriate level during disruption.",
+                        "mappedControls": [
+                            "cp-bcdr-test",
+                            "cp-bcdr"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.30",
+                        "title": "ICT readiness for business continuity",
+                        "summary": "ICT readiness shall be planned, implemented, maintained and tested based on business continuity objectives and ICT continuity requirements.",
+                        "mappedControls": [
+                            "cp-bcdr-test",
+                            "cp-bcdr"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.31",
+                        "title": "Legal, statutory, regulatory and contractual requirements",
+                        "summary": "Legal, statutory, regulatory and contractual requirements relevant to information security and the organization’s approach to meet these requirements shall be identified, documented and kept up to date.",
+                        "mappedControls": [
+                            "cp-ism-scope"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.32",
+                        "title": "Intellectual property rights",
+                        "summary": "The organization shall implement appropriate procedures to protect intellectual property rights.",
+                        "mappedControls": []
+                    },
+                    {
+                        "ref": "A.5.33",
+                        "title": "Protection of records",
+                        "summary": "Records shall be protected from loss, destruction, falsification, unauthorized access and unauthorized release.",
+                        "mappedControls": [
+                            "cp-data-protection",
+                            "cp-data-handling",
+                            "cp-data-protection-integrity",
+                            "cp-audit-trails-integrity"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.34",
+                        "title": "Privacy and protection of personal identifiable information (PII)",
+                        "summary": "The organization shall identify and meet the requirements regarding the preservation of privacy and protection of PII according to applicable laws and regulations and contractual requirements.",
+                        "mappedControls": [
+                            "ref-privacy-policy",
+                            "cp-privacy-notices",
+                            "cp-access-prod-data",
+                            "cp-data-classification"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.35",
+                        "title": "Independent review of information security",
+                        "summary": "The organization’s approach to managing information security and its implementation including people, processes and technologies shall be reviewed independently at planned intervals, or when significant changes occur",
+                        "mappedControls": [
+                            "cp-policy-mgmt",
+                            "cp-audit-internal"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.36",
+                        "title": "Compliance with policies, rules and standards for information security",
+                        "summary": "Compliance with the organization’s information security policy, topic-specific policies, rules and standards shall be regularly reviewed.",
+                        "mappedControls": [
+                            "cp-policy-mgmt",
+                            "cp-audit-internal",
+                            "cp-ccm-monitor",
+                            "cp-compliance-monitor"
+                        ]
+                    },
+                    {
+                        "ref": "A.5.37",
+                        "title": "Documented operating procedures",
+                        "summary": "Operating procedures for information processing facilities shall be documented and made available to personnel who need them.",
+                        "mappedControls": [
+                            "cp-ism-scope",
+                            "cp-training-policy"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "A.6 - People controls",
+                "controls": [
+                    {
+                        "ref": "A.6.1",
+                        "title": "Screening",
+                        "summary": "Background verification checks on all candidates to become personnelshall be carried out prior to joining the organization and on an ongoing basis taking into consideration applicable laws, regulations and ethics and be proportional to the business requirements, the classification of the information to be accessed and the perceived risks.",
+                        "mappedControls": [
+                            "cp-employee-screening"
+                        ]
+                    },
+                    {
+                        "ref": "A.6.2",
+                        "title": "Terms and conditions of employment",
+                        "summary": "The employment contractual agreements shall state the personnel’s and the organization’s responsibilities for information security.",
+                        "mappedControls": [
+                            "ref-employee-handbook",
+                            "cp-employee-onboarding",
+                            "ref-employee-handbook"
+                        ]
+                    },
+                    {
+                        "ref": "A.6.3",
+                        "title": "Information security awareness, education and training",
+                        "summary": "Personnel of the organization and relevant interested parties shall receive appropriate information security awareness, education and training and regular updates of the organization's information security policy, topic-specific policies and procedures, as relevant for their job function.",
+                        "mappedControls": [
+                            "cp-training-awareness",
+                            "cp-training-policy",
+                            "cp-audit-training"
+                        ]
+                    },
+                    {
+                        "ref": "A.6.4",
+                        "title": "Disciplinary process",
+                        "summary": "A disciplinary process shall be formalized and communicated to take actions against personnel and other relevant interested parties who have committed an information security policy violation.",
+                        "mappedControls": [
+                            "cp-employee-sanctions",
+                            "cp-sanctions"
+                        ]
+                    },
+                    {
+                        "ref": "A.6.5",
+                        "title": "Responsibilities after termination or change of employment",
+                        "summary": "Information security responsibilities and duties that remain valid after termination or change of employment shall be defined, enforced and communicated to relevant personnel and other interested parties.",
+                        "mappedControls": [
+                            "cp-employee-exiting",
+                            "cp-access-change",
+                            "ref-employee-handbook",
+                            "cp-hr-mgmt"
+                        ]
+                    },
+                    {
+                        "ref": "A.6.6",
+                        "title": "Confidentiality or non-disclosure agreements",
+                        "summary": "Confidentiality or non-disclosure agreements reflecting the organization’s needs for the protection of information shall be identified,documented, regularly reviewed and signed by personnel and other relevant interested parties.",
+                        "mappedControls": [
+                            "cp-privacy-notices",
+                            "ref-privacy-policy",
+                            "cp-employee-acceptable-use"
+                        ]
+                    },
+                    {
+                        "ref": "A.6.7",
+                        "title": "Remote working",
+                        "summary": "Security measures shall be implemented when personnel are working remotely to protect information accessed, processed or stored outside the organization’s premises.",
+                        "mappedControls": [
+                            "cp-role-assignment",
+                            "cp-access-vpn",
+                            "cp-access-endpoints"
+                        ]
+                    },
+                    {
+                        "ref": "A.6.8",
+                        "title": "Information security event reporting",
+                        "summary": "The organization shall provide a mechanism for personnel to report observed or suspected information security events through appropriate channels in a timely manner.",
+                        "mappedControls": [
+                            "cp-employee-escalation",
+                            "cp-employee-whistleblower"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "A.7 - Physical controls",
+                "controls": [
+                    {
+                        "ref": "A.7.1",
+                        "title": "Physical security perimeters",
+                        "summary": "Security perimeters shall be defined and used to protect areas that contain information and other associated assets.",
+                        "mappedControls": [
+                            "cp-physical",
+                            "cp-access-standards"
+                        ]
+                    },
+                    {
+                        "ref": "A.7.2",
+                        "title": "Physical entry",
+                        "summary": "Secure areas shall be protected by appropriate entry controls and access points.",
+                        "mappedControls": [
+                            "cp-physical",
+                            "cp-access-standards"
+                        ]
+                    },
+                    {
+                        "ref": "A.7.3",
+                        "title": "Securing offices, rooms and facilities",
+                        "summary": "Physical security for offices, rooms and facilities shall be designed and implemented.",
+                        "mappedControls": [
+                            "cp-physical",
+                            "cp-access-standards"
+                        ]
+                    },
+                    {
+                        "ref": "A.7.4",
+                        "title": "Physical security monitoring",
+                        "summary": "Premises shall be continuously monitored for unauthorized physical access.",
+                        "mappedControls": [
+                            "cp-physical",
+                            "cp-bcdr-test"
+                        ]
+                    },
+                    {
+                        "ref": "A.7.5",
+                        "title": "Protecting against physical and environmental threats",
+                        "summary": "Protection against physical and environmental threats, such as natural disasters and other intentional or unintentional physical threats to infrastructure shall be designed and implemented.",
+                        "mappedControls": [
+                            "cp-physical",
+                            "cp-bcdr-recovery"
+                        ]
+                    },
+                    {
+                        "ref": "A.7.6",
+                        "title": "Working in secure areas",
+                        "summary": "Security measures for working in secure areas shall be designed and implemented.",
+                        "mappedControls": [
+                            "cp-access-endpoints",
+                            "cp-access-wifi",
+                            "cp-physical"
+                        ]
+                    },
+                    {
+                        "ref": "A.7.7",
+                        "title": "Clear desk and clear screen",
+                        "summary": "Clear desk rules for papers and removable storage media and clear screen rules for information processing facilities shall be defined and appropriately enforced.",
+                        "mappedControls": [
+                            "cp-physical-clean-desk"
+                        ]
+                    },
+                    {
+                        "ref": "A.7.8",
+                        "title": "Equipment siting and protection",
+                        "summary": "Equipment shall be sited securely and protected.",
+                        "mappedControls": [
+                            "cp-access-endpoints",
+                            "cp-asset-physical"
+                        ]
+                    },
+                    {
+                        "ref": "A.7.9",
+                        "title": "Security of assets off-premises",
+                        "summary": "Off-site assets shall be protected.",
+                        "mappedControls": [
+                            "cp-access-endpoints"
+                        ]
+                    },
+                    {
+                        "ref": "A.7.10",
+                        "title": "Storage media",
+                        "summary": "Storage media shall be managed through their life cycle of acquisition, use, transportation and disposal in accordance with the organization’s classification scheme and handling requirements.",
+                        "mappedControls": [
+                            "cp-mdm-usb",
+                            "cp-mdm-disposal"
+                        ]
+                    },
+                    {
+                        "ref": "A.7.11",
+                        "title": "Supporting utilities",
+                        "summary": "Information processing facilities shall be protected from power failures and other disruptions caused by failures in supporting utilities.",
+                        "mappedControls": [
+                            "cp-physical",
+                            "cp-bcdr-test"
+                        ]
+                    },
+                    {
+                        "ref": "A.7.12",
+                        "title": "Cabling security",
+                        "summary": "Cables carrying power, data or supporting information services shall be protected from interception, interference or damage.",
+                        "mappedControls": [
+                            "cp-physical"
+                        ]
+                    },
+                    {
+                        "ref": "A.7.13",
+                        "title": "Equipment maintenance",
+                        "summary": "Equipment shall be maintained correctly to ensure availability, integrity and confidentiality of information.",
+                        "mappedControls": [
+                            "cp-bcdr-test",
+                            "cp-access-endpoints"
+                        ]
+                    },
+                    {
+                        "ref": "A.7.14",
+                        "title": "Secure disposal or re-use of equipment",
+                        "summary": "Items of equipment containing storage media shall be verified to ensure that any sensitive data and licensed software has been removed or securely overwritten prior to disposal or re-use.",
+                        "mappedControls": [
+                            "cp-mdm-disposal",
+                            "cp-data-deletion",
+                            "cp-data-lifecycle"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "A.8 - Technological controls",
+                "controls": [
+                    {
+                        "ref": "A.8.1",
+                        "title": "User end point devices",
+                        "summary": "Information stored on, processed by or accessible via user end point devices shall be protected.",
+                        "mappedControls": [
+                            "cp-ccm-provision-endpoint",
+                            "cp-employee-acceptable-use",
+                            "cp-access-endpoints"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.2",
+                        "title": "Privileged access rights",
+                        "summary": "The allocation and use of privileged access rights shall be restricted and managed.",
+                        "mappedControls": [
+                            "cp-access-privileged"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.3",
+                        "title": "Information access restriction",
+                        "summary": "Access to information and other associated assets shall be restricted in accordance with the established topic-specific policy on access control.",
+                        "mappedControls": [
+                            "cp-access-standards",
+                            "cp-access-change",
+                            "cp-sdlc-iaaa",
+                            "cp-access-review",
+                            "cp-access-phi"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.4",
+                        "title": "Access to source code",
+                        "summary": "Read and write access to source code, development tools and software libraries shall be appropriately managed.",
+                        "mappedControls": [
+                            "cp-sdlc-scm",
+                            "cp-access-prod-data",
+                            "cp-access-prod"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.5",
+                        "title": "Secure authentication",
+                        "summary": "Secure authentication technologies and procedures shall be implemented based on information access restrictions and the topic-specific policy on access control.",
+                        "mappedControls": [
+                            "cp-access-mfa",
+                            "cp-sdlc-iaaa"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.6",
+                        "title": "Capacity management",
+                        "summary": "The use of resources shall be monitored and adjusted in line with current and expected capacity requirements.",
+                        "mappedControls": [
+                            "cp-bcdr-test",
+                            "cp-bcdr-data",
+                            "cp-bcdr-app"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.7",
+                        "title": "Protection against malware",
+                        "summary": "Protection against malware shall be implemented and supported by appropriate user awareness.",
+                        "mappedControls": [
+                            "cp-threat-malware",
+                            "cp-ccm-provision-endpoint"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.8",
+                        "title": "Management of technical vulnerabilities",
+                        "summary": "Information about technical vulnerabilities of information systems in use shall be obtained, the organization’s exposure to such vulnerabilities shall be evaluated and appropriate measures shall be taken.",
+                        "mappedControls": [
+                            "cp-vuln-scan",
+                            "cp-threat-intel"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.9",
+                        "title": "Configuration management",
+                        "summary": "Configurations, including security configurations, of hardware, software, services and networks shall be established, documented, implemented, monitored and reviewed.",
+                        "mappedControls": [
+                            "cp-ccm-config",
+                            "cp-ccm-network",
+                            "cp-ccm-monitor",
+                            "cp-ccm-provision-endpoint"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.10",
+                        "title": "Information deletion",
+                        "summary": "Information stored in information systems, devices or in any other storage media shall be deleted when no longer required.",
+                        "mappedControls": [
+                            "cp-data-deletion",
+                            "cp-data-lifecycle"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.11",
+                        "title": "Data masking",
+                        "summary": "Data masking shall be used in accordance with the organization’s topic-specific policy on access control and other related topic-specific policies, and business requirements, taking applicable legislation into consideration.",
+                        "mappedControls": [
+                            "cp-data-protection"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.12",
+                        "title": "Data leakage prevention",
+                        "summary": "Data leakage prevention measures shall be applied to systems, networks and any other devices that process, store or transmit sensitive information.",
+                        "mappedControls": [
+                            "cp-data-protection",
+                            "cp-data-protection-integrity"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.13",
+                        "title": "Information backup",
+                        "summary": "Backup copies of information, software and systems shall be maintained and regularly tested in accordance with the agreed topic-specific policy on backup.",
+                        "mappedControls": [
+                            "cp-data-backup"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.14",
+                        "title": "Redundancy of information processing facilities",
+                        "summary": "Information processing facilities shall be implemented with redundancy sufficient to meet availability requirements.",
+                        "mappedControls": [
+                            "cp-bcdr-test",
+                            "cp-bcdr-data",
+                            "cp-bcdr-site"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.15",
+                        "title": "Logging",
+                        "summary": "Logs that record activities, exceptions, faults and other relevant events shall be produced, stored, protected and analysed.",
+                        "mappedControls": [
+                            "cp-audit-trails",
+                            "cp-audit-trails-integrity"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.16",
+                        "title": "Monitoring activities",
+                        "summary": "Networks, systems and applications shall be monitored for anomalous behaviour and appropriate actions taken to evaluate potential information security incidents.",
+                        "mappedControls": [
+                            "cp-ccm-monitor",
+                            "cp-sdlc-monitor"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.17",
+                        "title": "Clock synchronization",
+                        "summary": "The clocks of information processing systems used by the organization shall be synchronized to approved time sources.",
+                        "mappedControls": [
+                            "cp-audit-trails",
+                            "cp-audit-trails-integrity"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.18",
+                        "title": "Use of privileged utility programs",
+                        "summary": "The use of utility programs that can be capable of overriding system and application controls shall be restricted and tightly controlled.",
+                        "mappedControls": [
+                            "cp-access-privileged"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.19",
+                        "title": "Installation of software on operational systems",
+                        "summary": "Procedures and measures shall be implemented to securely manage software installation on operational systems.",
+                        "mappedControls": [
+                            "ref-approved-software",
+                            "cp-employee-acceptable-use",
+                            "ref-approved-software",
+                            "cp-ccm-provision-endpoint"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.20",
+                        "title": "Networks security",
+                        "summary": "Networks and network devices shall be secured, managed and controlled to protect information in systems and applications.",
+                        "mappedControls": [
+                            "cp-ccm-network",
+                            "cp-threat-nids"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.21",
+                        "title": "Security of network services",
+                        "summary": "Security mechanisms, service levels and service requirements of network services shall be identified, implemented and monitored.",
+                        "mappedControls": [
+                            "cp-ccm-network",
+                            "cp-threat-nids",
+                            "cp-access-wifi"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.22",
+                        "title": "Segregation of networks",
+                        "summary": "Groups of information services, users and information systems shall be segregated in the organization’s networks.",
+                        "mappedControls": [
+                            "cp-ccm-network"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.23",
+                        "title": "Web filtering",
+                        "summary": "Access to external websites shall be managed to reduce exposure to malicious content.",
+                        "mappedControls": [
+                            "cp-threat-webapp",
+                            "cp-employee-acceptable-use",
+                            "cp-access-wifi"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.24",
+                        "title": "Use of cryptography",
+                        "summary": "Rules for the effective use of cryptography, including cryptographic key management, shall be defined and implemented.",
+                        "mappedControls": [
+                            "cp-data-protection-kms",
+                            "cp-data-protection",
+                            "cp-data-protection-at-rest",
+                            "cp-data-protection-in-transit",
+                            "cp-data-protection-in-use"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.25",
+                        "title": "Secure development life cycle",
+                        "summary": "Rules for the secure development of software and systems shall be established and applied.",
+                        "mappedControls": [
+                            "cp-sdlc-dev",
+                            "cp-sdlc-scm",
+                            "cp-sdlc-appsec-req",
+                            "cp-sdlc-design",
+                            "cp-sdlc-foss"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.26",
+                        "title": "Application security requirements",
+                        "summary": "Information security requirements shall be identified, specified and approved when developing or acquiring applications",
+                        "mappedControls": [
+                            "cp-sdlc-appsec-req"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.27",
+                        "title": "Secure system architecture and engineering principles",
+                        "summary": "Principles for engineering secure systems shall be established, documented, maintained and applied to any information system development activities.",
+                        "mappedControls": [
+                            "cp-model-architecture",
+                            "cp-model-quality",
+                            "cp-ccm-provision-prod",
+                            "cp-sdlc-design"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.28",
+                        "title": "Secure coding",
+                        "summary": "Secure coding principles shall be applied to software development.",
+                        "mappedControls": [
+                            "cp-sdlc-scm",
+                            "cp-ccm-prodcm"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.29",
+                        "title": "Security testing in development and acceptance",
+                        "summary": "Security testing processes shall be defined and implemented in the development life cycle.",
+                        "mappedControls": [
+                            "cp-sdlc-dast",
+                            "cp-sdlc-sast",
+                            "cp-vuln-scan",
+                            "cp-sdlc-scm"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.30",
+                        "title": "Outsourced development",
+                        "summary": "The organization shall direct, monitor and review the activities related to outsourced system development.",
+                        "mappedControls": [
+                            "cp-sdlc-outsourcing"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.31",
+                        "title": "Separation of development, test and production environments",
+                        "summary": "Development, testing and production environments shall be separated and secured.",
+                        "mappedControls": [
+                            "cp-sdlc-dev",
+                            "cp-ccm-prodcm"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.32",
+                        "title": "Change management",
+                        "summary": "Changes to information processing facilities and information systems shall be subject to change management procedures.",
+                        "mappedControls": [
+                            "cp-ccm-emergency",
+                            "cp-ccm-provision-mgmt",
+                            "cp-ccm-aws-deploy"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.33",
+                        "title": "Test information",
+                        "summary": "Test information shall be appropriately selected, protected and managed.",
+                        "mappedControls": [
+                            "cp-audit-trails-integrity",
+                            "cp-audit-trails"
+                        ]
+                    },
+                    {
+                        "ref": "A.8.34",
+                        "title": "Protection of information systems during audit testing",
+                        "summary": "Audit tests and other assurance activities involving assessment of operational systems shall be planned and agreed between the tester and appropriate management.",
+                        "mappedControls": [
+                            "cp-audit-trails-integrity",
+                            "cp-audit-trails"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }

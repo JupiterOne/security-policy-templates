@@ -10,73 +10,73 @@
                     "ref": "ACCT.01",
                     "title": "Set account-level contacts to valid email distribution lists",
                     "summary": "When setting up primary and alternate contacts for your AWS account, use an email distribution list instead of an individual’s email address. Using an email distribution list makes sure that ownership and reachability are preserved as individuals in your organization come and go. Set alternate contacts for billing, operations, and security notifications, and use appropriate email distribution lists accordingly. AWS uses these email addresses to contact you, so it is important you retain access to them.",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "ACCT.02",
                     "title": "Restrict use of the root user",
                     "summary": "The root user is created when you sign up for an AWS account, and this user has full ownership privileges and permissions over the account that cannot be changed. Only use the root user for the specific tasks that require it. For more information, see Tasks that require root user credentials (AWS Account Management). Perform all other actions in your account by using other types of IAM identities, such as federated users with IAM roles. For more information, see AWS account root user credentials and IAM identities (AWS General Reference).",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "ACCT.03",
                     "title": "Configure console access for each user",
                     "summary": "As a best practice, AWS recommends using temporary credentials to grant access to AWS accounts and resources. Temporary credentials have a limited lifetime, so you do not have to rotate them or explicitly revoke them when they're no longer needed. For more information, see Temporary security credentials (IAM documentation).  For human users, AWS recommends using federated identities from a centralized identity provider (IdP), such as AWS IAM Identity Center (successor to AWS Single Sign-On), Okta, Active Directory, or Ping Identity. Federating users allows you to define identities in a single, central location, and users can securely authenticate to multiple applications and websites, including AWS, by using just one set of credentials. For more information, see Identity federation in AWS and IAM Identity Center (AWS website).",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "ACCT.04",
                     "title": "Assign permissions",
                     "summary": "Configure user permissions in the account by assigning policies to their IAM identity (user group or role). You can customize the permissions, or you can attach AWS managed policies, which are standalone policies designed by AWS to provide permissions for many common use cases. If you customize permissions, follow the security best practice of granting least privilege. Least privilege is the practice of granting the minimum set of permissions that each user needs to perform their tasks.  If you are using federated identities, users access the account by assuming an IAM role through the external identity provider. The IAM role defines what users authenticated by your organization's IdP are allowed to do in AWS. You apply custom or AWS managed policies to this role to configure permissions.",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "ACCT.05",
                     "title": "Require multi-factor authentication (MFA) to log in",
                     "summary": "With MFA, users have a device that generates a response to an authentication challenge. Each user's credentials and device-generated response are required to complete the sign-in process. As a security best practice, enable MFA for AWS account access, especially for long-term credentials such as the account root user and IAM users.",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "ACCT.06",
                     "title": "Enforce a password policy",
                     "summary": "Users log in to the AWS Management Console by providing sign-in credentials, and MFA is recommended. Require that passwords adhere to a strong password policy to help prevent discovery through brute force or social engineering.",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "ACCT.07",
                     "title": "Deliver CloudTrail logs to a protected S3 bucket",
                     "summary": "Actions taken by users, roles, and services in your AWS account are recorded as events in AWS CloudTrail. CloudTrail is enabled by default, and in the CloudTrail console, you can access 90 days of event history information. To view, search, download, archive, analyze, and respond to account activity across your AWS infrastructure, see Viewing events with CloudTrail Event history (CloudTrail documentation).  To retain CloudTrail history beyond 90 days with additional data, you create a new trail that delivers log files to an Amazon Simple Storage Service (Amazon S3) bucket for all event types. When you create a trail in the CloudTrail console, you create a multi-region trail.",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "ACCT.08",
                     "title": "Prevent public access to private S3 buckets",
                     "summary": "By default, only the root user of the AWS account and the IAM principal, if used, have permissions to read and write to Amazon S3 buckets created by that principal. Additional IAM principals are granted access by using identity-based policies, and access conditions can be enforced by using a bucket policy. You can create bucket policies that grant access to the bucket to the general public, a public bucket.  Users could misconfigure the bucket policy and unintentionally grant access to the public. You can prevent this misconfiguration by enabling the Block Public Access setting for each bucket. If you have no current or future use cases for a public S3 bucket, enable this setting at the AWS account level. This setting prevents policies that allow public access.",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "ACCT.09",
                     "title": "Delete unused VPCs, subnets, and security groups",
                     "summary": "To reduce the opportunity for security issues, delete or turn off any resources that are not being used. In a new AWS account, by default a virtual private cloud (VPC) is created automatically in every AWS Region, which enables you to assign public IP addresses in public subnets. However, if these VPCs are not needed, this introduces risk of unintended exposure of resources.  If they are not in use, delete the default VPCs in all Regions, not just those in the Regions where you might deploy workloads. Deleting a VPC also deletes its components, such as subnets and security groups.",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "ACCT.10",
                     "title": "Configure AWS Budgets to monitor your spending",
                     "summary": "AWS Budgets enable monitoring of monthly costs and usage with notifications when costs are forecasted to exceed target thresholds. Forecasted cost notifications can provide an indication of unexpected activity, providing extra defense in addition to other monitoring systems, such as AWS Trusted Advisor and Amazon GuardDuty. Monitoring and understanding your AWS costs is also part of good operational hygiene.",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "ACCT.11",
                     "title": "Enable and respond to GuardDuty notifications",
                     "summary": "Amazon GuardDuty is a threat-detection service that continuously monitors for malicious or unauthorized behavior to help protect your AWS accounts, workloads, and data. When it detects unexpected and potentially malicious activity, GuardDuty delivers detailed security findings for visibility and remediation. GuardDuty can detect threats such as cryptocurrency mining activity, access from Tor clients and relays, unexpected behavior, and compromised IAM credentials. Enable GuardDuty and respond to findings to stop potentially malicious or unauthorized behavior in your AWS environment. For more information about findings in GuardDuty, see Finding types (GuardDuty documentation).",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "ACCT.12",
                     "title": "Monitor for and resolve high-risk issues by using Trusted Advisor",
                     "summary": "AWS Trusted Advisor passively scans your AWS infrastructure for high-risk or high-impact issues related to security, performance, cost, and reliability. It provides detailed information about affected resources and remediation recommendations. For a complete list of checks and descriptions, see AWS Trusted Advisor check reference (Trusted Advisor documentation).  Review Trusted Advisor findings on a recurring basis, and remediate issues as necessary. If you have the AWS Business Support or Enterprise Support plans, you can subscribe to a weekly findings email. For more information, see Set up notification preferences (AWS Support documentation).",
-                    "applicable": "true"
+                    "applicable": true
                 }
             ]
         },
@@ -87,91 +87,91 @@
                     "ref": "WKLD.01",
                     "title": "Use IAM roles for compute environment permissions",
                     "summary": "In AWS Identity and Access Management (IAM), a role represents a set of permissions that can be assumed by a person or service for a configurable period of time. Using roles eliminates the need to store or manage long-term credentials, significantly reducing the chance of unintended use. Assign an IAM role directly to Amazon Elastic Compute Cloud (Amazon EC2) instances, AWS Fargate tasks and services, AWS Lambda functions, and other AWS compute services whenever supported. Applications that use an AWS SDK and run in these compute environments automatically use the IAM role credentials for authentication.",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "WKLD.02",
                     "title": "Restrict credential usage scope with resource-based policies permissions",
                     "summary": "Policies are objects that can define permissions or specify access conditions. There are two primary types of policies: Identity-based policies and Resource-based policies.  For a principal to be allowed access to perform an action against a resource, it must have permission granted in its identity-based policy and meet the conditions of the resource-based policy.  Recommended conditions for resource-based policies include: Restrict access to only principals in a specified organization (defined in AWS Organizations), Restrict access to traffic that originates from a specific VPC or VPC endpoint, and Allow or deny traffic based on the source IP address",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "WKLD.03",
                     "title": "Use ephemeral secrets or a secrets-management service",
                     "summary": "Application secrets consist largely of credentials, such as key pairs, access tokens, digital certificates, and sign-in credentials. The application uses these secrets to gain access to other services it depends upon, such as a database. To help protect these secrets, we recommend they are either ephemeral (generated at the time of request and short-lived, such as with IAM roles) or retrieved from a secrets-management service. This prevents accidental exposure through less secure mechanisms, such as persisting in static configuration files. This also makes it easier to promote application code from development to production environments.",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "WKLD.04",
                     "title": "Prevent application secrets from being exposed",
                     "summary": "During local development, application secrets can be stored in local configuration or code files and accidentally checked-in to source code repositories. Unsecured repositories hosted on public service providers can be subject to unauthorized access and subsequent discovery of these secrets. Use available tools to prevent secrets from being checked in. Incorporate checks for exposed secrets as part of your manual code review processes.",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "WKLD.05",
                     "title": "Detect and remediate exposed secrets",
                     "summary": "Deploy a solution (such as Amazon CodeGuru Reviewer) that can detect if secrets have bypassed these prevention measures, and you can remediate accordingly.",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "WKLD.06",
                     "title": "Use Session Manager instead of SSH or RDP",
                     "summary": "Public subnets, which have a default route pointing to an internet gateway, are inherently a greater security risk than private subnets, those with no route to the internet. You can run EC2 instances in private subnets and use the Session Manager capability of AWS Systems Manager to remotely access the instances through either the AWS Command Line Interface (AWS CLI) or AWS Management Console. You can then use the AWS CLI or console to start a session that connects into the instance through a secure tunnel, preventing the need to manage additional credentials used for Secure Shell (SSH) or Windows remote desktop protocol (RDP).",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "WKLD.07",
                     "title": "Log data events for S3 buckets with sensitive data",
                     "summary": "By default, AWS CloudTrail captures management events, events that create, modify, or delete resources in your account. These management events do not capture read or write operations to individual objects in Amazon Simple Storage Service buckets. During a security event, it is important to capture unauthorized data access or use at an individual record or object level. Use CloudTrail to log data events for any S3 buckets that store sensitive or business-critical data, for detection and auditing purposes.",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "WKLD.08",
                     "title": "Encrypt Amazon EBS volumes",
                     "summary": "Enforce encryption of Amazon Elastic Block Store (Amazon EBS) volumes as the default behavior in your AWS account. Encrypted volumes have the same input/output operations per second (IOPS) performance as unencrypted volumes with a minimal effect on latency. This prevents rebuilding volumes at a later date for compliance or other reasons. For more information, see Must-know best practices for Amazon EBS encryption (AWS blog post).",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "WKLD.09",
                     "title": "Encrypt Amazon RDS databases",
                     "summary": "Similar to WKLD.08 – Encrypt Amazon EBS volumes, enable encryption of Amazon Relational Database Service (Amazon RDS) databases. This encryption is performed at the underlying volume level and has the same IOPS performance as unencrypted volumes with a minimal effect on latency. For more information, see Overview of encrypting Amazon RDS resources (Amazon RDS documentation).",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "WKLD.10",
                     "title": "Deploy private resources into private subnets",
                     "summary": "Deploy resources that don’t require direct internet access, such as EC2 instances, databases, queues, caching, or other infrastructure, into a VPC private subnet. Private subnets don’t have a route declared in their route table to an attached internet gateway and cannot receive internet traffic. Traffic originating from a private subnet that is destined for the internet must undergo network address translation (NAT) through either a managed AWS NAT Gateway or an EC2 instance running NAT processes in a public subnet. For more information about network isolation, see Infrastructure security in Amazon VPC (Amazon VPC documentation).",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "WKLD.11",
                     "title": "Restrict network access by using security groups",
                     "summary": "Use security groups to control traffic to EC2 instances, RDS databases, and other supported resources. Security groups act as a virtual firewall that can be applied to any group of related resources in order to consistently define rules for allowing inbound and outbound traffic. In addition to rules based on IP addresses and ports, security groups support rules to allow traffic from resources associated to other security groups. For example, a database security group can have rules to allow only traffic from an application server security group.  By default, security groups allow all outbound traffic but don’t allow inbound traffic. The outbound traffic rule can be removed, or you can configure additional rules added to restrict outbound traffic and allow inbound traffic. If the security group has no outbound rules, no outbound traffic originating from your instance is allowed. For more information, see Control traffic to resources using security groups (Amazon VPC documentation).",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "WKLD.12",
                     "title": "Use VPC endpoints to access supported services",
                     "summary": "In VPCs, resources that need to access AWS or other external services require either a route to the internet (0.0.0.0/0) or to the public IP address of the target service. Use VPC endpoints to enable a private IP route from your VPC to supported AWS or other services, preventing the need to use an internet gateway, NAT device, virtual private network (VPN) connection, or AWS Direct Connect connection.  VPC endpoints support attaching policies and security groups to further control access to a service. For example, you can write a VPC endpoint policy for Amazon DynamoDB to allow only item-level actions and prevent table-level actions for all resources in the VPC, regardless of their own permission policy. You can also write an S3 bucket policy to allow only requests originating from a specific VPC endpoint, denying all other external access. A VPC endpoint can also have a security group rule that, for example, restricts access to only EC2 instances that are associated to an application-specific security group, such as the business-logic tier of a web application.  There are different kinds of VPC endpoints. You access most services by using a VPC interface endpoint. DynamoDB is accessed using a gateway endpoint. Amazon S3 supports both interface and gateway endpoints. Gateway endpoints are recommended for workloads contained within a single AWS account and Region, and come at no additional charge. Interface endpoints are recommended if more extensible access is required, such as to an S3 bucket from other VPCs, from on-premises networks, or from different AWS Regions. Interface endpoints incur an hourly uptime charge and a per-GB data-processing charge, both of which are lower than the respective charges for sending the data to 0.0.0.0/0 through AWS NAT Gateway.",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "WKLD.13",
                     "title": "Require HTTPS for all public web endpoints",
                     "summary": "Require HTTPS to provide additional credibility to your web endpoints, allow your endpoints to use certificates to prove their identity, and confirm that all traffic between your endpoint and connected clients is encrypted. For public websites, this provides the additional benefit of higher search engine ranking.",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "WKLD.14",
                     "title": "Use edge-protection services for public endpoints",
                     "summary": "Rather than serve traffic direct from compute services such as EC2 instances or containers, use an edge-protection service. This provides an additional layer of security between incoming traffic from the internet and your resources that serve that traffic. These services can filter unwanted traffic, enforce encryption, and apply routing or other rules, such as load balancing, before traffic reaches your internal resources.",
-                    "applicable": "true"
+                    "applicable": true
                 },
                 {
                     "ref": "WKLD.15",
                     "title": "Define security controls in templates and deploy them by using CI/CD practices",
                     "summary": "Infrastructure as code (IaC) is the practice of defining all of your AWS service resources and configurations in templates and code that you deploy by using continuous integration and continuous delivery (CI/CD) pipelines, the same pipelines used to deploy software applications. IaC services, such as AWS CloudFormation, support both IAM identity-based and resource-based policies and support AWS security services, such as Amazon GuardDuty, AWS WAF, and Amazon VPC. Capture these artifacts as IaC templates, commit the templates to a source code repository, and then deploy them by using CI/CD pipelines.  Unless required otherwise, commit application permission policies with application code in the same repository, and manage general resource policies and security service configurations in separate code repositories and deployment pipelines.",
-                    "applicable": "true"
+                    "applicable": true
                 }
             ]
         }

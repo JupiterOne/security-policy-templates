@@ -2028,7 +2028,7 @@
       "name": "Host Intrusion Detection",
       "type": "technical",
       "function": "HIDS",
-      "provider": "AWS Inspector and Carbon Black PSC",
+      "provider": "AWS Inspector and SentinelOne",
       "summary": "Host instrusion detection and malicious activity monitoring agents are installed on endpoint hosts and servers.",
       "guidance": "AWS Inspector is a native offering that covers vulnerability scanning of EC2 instances. For agent-based host intrusion detection, we recommend OSSEC agents as a basic open-source based solution. OSSEC supports a variety of operating systems both in the cloud and on-premise. A commercial solution may be needed for Docker containers activity monitoring. For Windows and macOS end-user systems, Carbon Black Cb Defense or SentinelOne are both good next-generation endpoint protection solutions that cover intrusion detection/prevention via advanced behavior analysis as well as malware protection.",
       "considerations": [
@@ -2058,7 +2058,7 @@
       "file": "procedures/cp-threat-malware.md",
       "name": "Malware Protection",
       "type": "technical",
-      "provider": "Carbon Black PSC",
+      "provider": "Sentinelone",
       "function": "AV",
       "summary": "Malware protection agent is installed and activated at all times on endpoint devices.",
       "guidance": "Anti-malware continue to be a compliance requirement, although traditional AV solutions have been proven to be ineffective against zero-day attacks and advanced malware. Modern operating systems usually come with some basic malware defense capability, such as Windows Defender. You may also consider something like ClamAV as a free, open-source solution to meet compliance needs. But for real security, we highly recommend a next generation endpoint protection solution such as Carbon Black Cb Defense or SentinelOne.",

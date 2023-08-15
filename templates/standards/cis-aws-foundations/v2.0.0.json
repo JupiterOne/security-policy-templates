@@ -1,6 +1,6 @@
 {
-    "standard": "CIS AWS Foundations 1.4",
-    "version": "1.4.0",
+    "standard": "CIS AWS Foundations 2.0",
+    "version": "2.0.0",
     "webLink": "https://www.cisecurity.org/benchmark/amazon_web_services/",
     "sections": [
       {

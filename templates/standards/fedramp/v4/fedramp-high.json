@@ -203,6 +203,7 @@
           "mappedControls": [
             "cp-access-privileged",
             "cp-access-rbac"
+          ]
         },
         {
           "ref": "AC-6 (5)",
@@ -3345,7 +3346,7 @@
         {
           "ref": "SC-7 (5)",
           "title": "Boundary Protection | Deny By Default / Allow By Exception",
-          "summary": "The information system at managed interfaces denies network communications traffic by default and allows network communications traffic by exception (i.e., deny all, permit by exception).",,
+          "summary": "The information system at managed interfaces denies network communications traffic by default and allows network communications traffic by exception (i.e., deny all, permit by exception).",
           "mappedControls": [
             "cp-threat-firewall",
             "cp-ccm-network",
@@ -3938,6 +3939,7 @@
           "mappedControls": [
             "cp-data-protection-integrity",
             "cp-data-protection"
+          ]
         }
       ]
     }

@@ -1,0 +1,14 @@
+openapi: 3.0.1
+info:
+  title: '@jupiterone/security-policy-templates'
+  description: >-
+    JupiterOne security policies and procedures. For use with
+    jupiter-policy-builder.
+  x-cortex-git:
+    github:
+      repository: JupiterOne/security-policy-templates
+  x-cortex-owners:
+    - type: group
+      name: JupiterOne/janus
+  x-cortex-service-groups: tier-4
+  x-cortex-tag: '@jupiterone/security-policy-templates'

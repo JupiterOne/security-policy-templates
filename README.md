@@ -9,7 +9,7 @@ They can be used as stand-alone documents. But the structure is designed to be
 best suited for use with the [`jupiter-policy-builder` CLI][builder] and the
 **policies** app on the **[JupiterOne][j1]** platform.
 
-These are used internally at JupiterOne / LifeOmic Security.
+These are used internally at JupiterOne Security.
 
 [j1]: https://jupiterone.com/features/policy-builder/
 [builder]: https://github.com/JupiterOne/jupiter-policy-builder
@@ -201,3 +201,14 @@ and is therefore under HIPAA regulation and has adopted HITRUST CSF.
 The JSON documents for those four frameworks are included strictly because of
 our internal usage and shown as examples. Using those requires that you have
 obtained necessary end-user license for the framework for your own organization.
+
+### Scripts
+
+`parse_oscal.py`
+
+The scripts included in this repository take a well-maintained source on the web and transform it into a format that the Compliance App can parse to provide a baseline or standard to application users.  Most of them require arguments, and need to be run manually before creating a PR to merge updates into the main branch.  So, the general process is:
+1. Clone the repository, or pull updates from the main branch
+2. Checkout a branch on which to build your updates
+3. Run the script, providing the necessary arguments (run with -h to figure out what those are)
+4. Add the changed files to a commit and push it to the origin for review
+5. Once reviewed, merge and update in the app itself.

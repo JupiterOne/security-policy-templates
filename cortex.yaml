@@ -9,7 +9,7 @@ info:
       repository: JupiterOne/security-policy-templates
   x-cortex-owners:
     - type: group
-      name: JupiterOne/janus
+      name: JupiterOne/Apps
   x-cortex-tag: '@jupiterone/security-policy-templates'
   x-cortex-service-groups:
     - tier-4
